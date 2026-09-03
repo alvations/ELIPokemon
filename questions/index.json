@@ -178,7 +178,15 @@
       "question": "What is tokenization? Explain BPE and why token boundaries cause weird model behaviour.",
       "category": "nlp",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/012-tokenization-bpe.md",
+      "pokemon_path": "answers/pokemon/012-tokenization-bpe.md",
+      "tags": [
+        "tokenization",
+        "bpe",
+        "sentencepiece",
+        "vocabulary",
+        "unicode"
+      ]
     },
     {
       "id": "013",
@@ -186,7 +194,14 @@
       "question": "Why is context length limited, and what actually breaks when you extend it?",
       "category": "transformers",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/013-context-length-limits.md",
+      "pokemon_path": "answers/pokemon/013-context-length-limits.md",
+      "tags": [
+        "context-length",
+        "long-context",
+        "lost-in-the-middle",
+        "needle-in-haystack"
+      ]
     },
     {
       "id": "014",
@@ -194,7 +209,15 @@
       "question": "Explain neural scaling laws and the Chinchilla compute-optimal result.",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/014-scaling-laws.md",
+      "pokemon_path": "answers/pokemon/014-scaling-laws.md",
+      "tags": [
+        "scaling-laws",
+        "chinchilla",
+        "compute-optimal",
+        "kaplan",
+        "inference-cost"
+      ]
     },
     {
       "id": "015",
@@ -202,7 +225,15 @@
       "question": "What are emergent abilities of LLMs, and are they real?",
       "category": "research",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/015-emergent-abilities.md",
+      "pokemon_path": "answers/pokemon/015-emergent-abilities.md",
+      "tags": [
+        "emergence",
+        "phase-transitions",
+        "metrics",
+        "grokking",
+        "induction-heads"
+      ]
     },
     {
       "id": "016",
@@ -210,7 +241,14 @@
       "question": "How does next-token prediction produce something that looks like reasoning?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/016-next-token-prediction.md",
+      "pokemon_path": "answers/pokemon/016-next-token-prediction.md",
+      "tags": [
+        "autoregressive",
+        "language-modelling",
+        "compression",
+        "chain-of-thought"
+      ]
     },
     {
       "id": "017",
@@ -218,7 +256,14 @@
       "question": "What are teacher forcing and exposure bias?",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/017-teacher-forcing-exposure-bias.md",
+      "pokemon_path": "answers/pokemon/017-teacher-forcing-exposure-bias.md",
+      "tags": [
+        "teacher-forcing",
+        "exposure-bias",
+        "scheduled-sampling",
+        "error-compounding"
+      ]
     },
     {
       "id": "018",
@@ -226,7 +271,15 @@
       "question": "What is the difference between pretraining, supervised fine-tuning, and RLHF?",
       "category": "training",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/018-pretraining-sft-rlhf.md",
+      "pokemon_path": "answers/pokemon/018-pretraining-sft-rlhf.md",
+      "tags": [
+        "pretraining",
+        "sft",
+        "rlhf",
+        "post-training",
+        "alignment"
+      ]
     },
     {
       "id": "019",
@@ -234,7 +287,15 @@
       "question": "Walk me through RLHF end to end.",
       "category": "alignment",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/019-rlhf-end-to-end.md",
+      "pokemon_path": "answers/pokemon/019-rlhf-end-to-end.md",
+      "tags": [
+        "rlhf",
+        "reward-model",
+        "ppo",
+        "kl-penalty",
+        "preference-data"
+      ]
     },
     {
       "id": "020",
@@ -242,7 +303,15 @@
       "question": "What is DPO and how does it differ from PPO-based RLHF?",
       "category": "alignment",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/020-dpo-vs-ppo.md",
+      "pokemon_path": "answers/pokemon/020-dpo-vs-ppo.md",
+      "tags": [
+        "dpo",
+        "ppo",
+        "rlhf",
+        "bradley-terry",
+        "preference-optimisation"
+      ]
     },
     {
       "id": "021",
@@ -250,7 +319,15 @@
       "question": "What is a reward model and how is it trained and evaluated?",
       "category": "alignment",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/021-reward-models.md",
+      "pokemon_path": "answers/pokemon/021-reward-models.md",
+      "tags": [
+        "reward-model",
+        "bradley-terry",
+        "goodhart",
+        "reward-hacking",
+        "rewardbench"
+      ]
     },
     {
       "id": "022",
@@ -258,7 +335,15 @@
       "question": "Explain PPO in the context of language model alignment.",
       "category": "alignment",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/022-ppo-for-llms.md",
+      "pokemon_path": "answers/pokemon/022-ppo-for-llms.md",
+      "tags": [
+        "ppo",
+        "policy-gradient",
+        "advantage",
+        "clipping",
+        "gae"
+      ]
     },
     {
       "id": "023",
@@ -266,7 +351,15 @@
       "question": "What is GRPO and why is it used for training reasoning models?",
       "category": "alignment",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/023-grpo-reasoning.md",
+      "pokemon_path": "answers/pokemon/023-grpo-reasoning.md",
+      "tags": [
+        "grpo",
+        "rlvr",
+        "deepseek-r1",
+        "verifiable-rewards",
+        "group-baseline"
+      ]
     },
     {
       "id": "024",
@@ -274,7 +367,14 @@
       "question": "What are Constitutional AI and RLAIF?",
       "category": "alignment",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/024-constitutional-ai-rlaif.md",
+      "pokemon_path": "answers/pokemon/024-constitutional-ai-rlaif.md",
+      "tags": [
+        "constitutional-ai",
+        "rlaif",
+        "self-critique",
+        "scalable-oversight"
+      ]
     },
     {
       "id": "025",
@@ -282,7 +382,15 @@
       "question": "What is instruction tuning and why does so little data go so far?",
       "category": "training",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/025-instruction-tuning.md",
+      "pokemon_path": "answers/pokemon/025-instruction-tuning.md",
+      "tags": [
+        "instruction-tuning",
+        "sft",
+        "lima",
+        "superficial-alignment",
+        "chat-template"
+      ]
     },
     {
       "id": "026",
@@ -290,7 +398,15 @@
       "question": "What is catastrophic forgetting and how do you mitigate it?",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/026-catastrophic-forgetting.md",
+      "pokemon_path": "answers/pokemon/026-catastrophic-forgetting.md",
+      "tags": [
+        "catastrophic-forgetting",
+        "continual-learning",
+        "ewc",
+        "replay",
+        "alignment-tax"
+      ]
     },
     {
       "id": "027",
@@ -298,7 +414,15 @@
       "question": "Explain LoRA. Why is it parameter efficient?",
       "category": "fine-tuning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/027-lora.md",
+      "pokemon_path": "answers/pokemon/027-lora.md",
+      "tags": [
+        "lora",
+        "peft",
+        "low-rank",
+        "adapters",
+        "intrinsic-dimension"
+      ]
     },
     {
       "id": "028",
@@ -306,7 +430,15 @@
       "question": "What is QLoRA and how does it combine 4-bit quantization with LoRA?",
       "category": "fine-tuning",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/028-qlora.md",
+      "pokemon_path": "answers/pokemon/028-qlora.md",
+      "tags": [
+        "qlora",
+        "nf4",
+        "double-quantization",
+        "paged-optimizers",
+        "peft"
+      ]
     },
     {
       "id": "029",
@@ -314,7 +446,15 @@
       "question": "When would you choose full fine-tuning vs PEFT vs prompting?",
       "category": "fine-tuning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/029-finetuning-vs-peft-vs-prompting.md",
+      "pokemon_path": "answers/pokemon/029-finetuning-vs-peft-vs-prompting.md",
+      "tags": [
+        "fine-tuning",
+        "peft",
+        "prompting",
+        "rag",
+        "decision-framework"
+      ]
     },
     {
       "id": "030",
@@ -322,7 +462,16 @@
       "question": "What is quantization and what are the tradeoffs between INT8, INT4 and FP8?",
       "category": "inference",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/030-quantization.md",
+      "pokemon_path": "answers/pokemon/030-quantization.md",
+      "tags": [
+        "quantization",
+        "gptq",
+        "awq",
+        "int8",
+        "fp8",
+        "outliers"
+      ]
     },
     {
       "id": "031",
@@ -330,7 +479,15 @@
       "question": "What is knowledge distillation and why does a student sometimes beat its teacher?",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/031-knowledge-distillation.md",
+      "pokemon_path": "answers/pokemon/031-knowledge-distillation.md",
+      "tags": [
+        "distillation",
+        "dark-knowledge",
+        "temperature",
+        "soft-targets",
+        "model-compression"
+      ]
     },
     {
       "id": "032",
@@ -338,7 +495,16 @@
       "question": "What are pruning and sparsity, and why is unstructured sparsity hard to exploit?",
       "category": "inference",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/032-pruning-and-sparsity.md",
+      "pokemon_path": "answers/pokemon/032-pruning-and-sparsity.md",
+      "tags": [
+        "pruning",
+        "sparsity",
+        "lottery-ticket",
+        "structured",
+        "wanda",
+        "sparsegpt"
+      ]
     },
     {
       "id": "033",
@@ -346,7 +512,15 @@
       "question": "What is speculative decoding and why is it lossless?",
       "category": "inference",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/033-speculative-decoding.md",
+      "pokemon_path": "answers/pokemon/033-speculative-decoding.md",
+      "tags": [
+        "speculative-decoding",
+        "draft-model",
+        "medusa",
+        "eagle",
+        "rejection-sampling"
+      ]
     },
     {
       "id": "034",
@@ -354,7 +528,16 @@
       "question": "Explain temperature, top-k, and top-p (nucleus) sampling.",
       "category": "inference",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/034-sampling-temperature-top-p.md",
+      "pokemon_path": "answers/pokemon/034-sampling-temperature-top-p.md",
+      "tags": [
+        "sampling",
+        "temperature",
+        "top-p",
+        "nucleus",
+        "min-p",
+        "decoding"
+      ]
     },
     {
       "id": "035",
@@ -362,7 +545,15 @@
       "question": "What is beam search and why is it rarely used for open-ended chat?",
       "category": "inference",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/035-beam-search.md",
+      "pokemon_path": "answers/pokemon/035-beam-search.md",
+      "tags": [
+        "beam-search",
+        "decoding",
+        "likelihood-trap",
+        "translation",
+        "degeneration"
+      ]
     },
     {
       "id": "036",
@@ -370,7 +561,15 @@
       "question": "What is perplexity and what are its limits?",
       "category": "evaluation",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/036-perplexity.md",
+      "pokemon_path": "answers/pokemon/036-perplexity.md",
+      "tags": [
+        "perplexity",
+        "cross-entropy",
+        "evaluation",
+        "tokenizer",
+        "bits-per-byte"
+      ]
     },
     {
       "id": "037",
@@ -378,7 +577,15 @@
       "question": "How do you evaluate an LLM, and what are the common pitfalls?",
       "category": "evaluation",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/037-evaluating-llms.md",
+      "pokemon_path": "answers/pokemon/037-evaluating-llms.md",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "elo",
+        "human-eval",
+        "task-specific-evals"
+      ]
     },
     {
       "id": "038",
@@ -386,7 +593,15 @@
       "question": "What is LLM-as-a-judge and what biases does it have?",
       "category": "evaluation",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/038-llm-as-a-judge.md",
+      "pokemon_path": "answers/pokemon/038-llm-as-a-judge.md",
+      "tags": [
+        "llm-as-judge",
+        "position-bias",
+        "verbosity-bias",
+        "self-preference",
+        "mt-bench"
+      ]
     },
     {
       "id": "039",
@@ -394,7 +609,15 @@
       "question": "What is benchmark contamination and how do you detect it?",
       "category": "evaluation",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/039-benchmark-contamination.md",
+      "pokemon_path": "answers/pokemon/039-benchmark-contamination.md",
+      "tags": [
+        "contamination",
+        "data-leakage",
+        "canary",
+        "livebench",
+        "memorisation"
+      ]
     },
     {
       "id": "040",

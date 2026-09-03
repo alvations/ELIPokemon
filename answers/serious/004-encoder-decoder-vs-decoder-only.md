@@ -50,7 +50,7 @@ plus the fact that any task can be written as text continuation, is why decoder-
 
 The apparent handicap — a token cannot see its right context — largely evaporates because
 prompt tokens still see everything before them, and instructions are placed before the content
-they govern. GPT, Llama, Mistral, Qwen, Claude-style models.
+they govern. GPT, Llama, Mistral, Qwen, DeepSeek, and essentially every current chat model.
 
 ## Encoder-decoder
 
