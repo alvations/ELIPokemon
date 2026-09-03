@@ -1,0 +1,101 @@
+id	slug	category	difficulty	question
+001	attention-mechanisms	transformers	core	Can you explain the concept of attention mechanisms in transformer models?
+002	positional-encodings-rope	transformers	core	Why do transformers need positional encodings, and how does RoPE work?
+003	multi-head-attention	transformers	core	What is multi-head attention and why use more than one head?
+004	encoder-decoder-vs-decoder-only	transformers	core	What is the difference between encoder-only, decoder-only, and encoder-decoder architectures?
+005	layer-normalization	transformers	intermediate	What is layer normalization, and why did LLMs move from post-norm to pre-norm?
+006	residual-connections	deep-learning	core	Why do residual (skip) connections matter in deep networks?
+007	transformer-feed-forward-block	transformers	intermediate	What does the feed-forward (MLP) block in a transformer actually do?
+008	kv-cache	inference	core	What is a KV cache and why does it dominate LLM inference memory?
+009	mqa-and-gqa	inference	intermediate	Explain Multi-Query Attention and Grouped-Query Attention.
+010	flash-attention	systems	advanced	What is FlashAttention and why is it faster without changing the math?
+011	mixture-of-experts	architecture	advanced	What is a Mixture-of-Experts model and what are its tradeoffs?
+012	tokenization-bpe	nlp	core	What is tokenization? Explain BPE and why token boundaries cause weird model behaviour.
+013	context-length-limits	transformers	intermediate	Why is context length limited, and what actually breaks when you extend it?
+014	scaling-laws	training	intermediate	Explain neural scaling laws and the Chinchilla compute-optimal result.
+015	emergent-abilities	research	intermediate	What are emergent abilities of LLMs, and are they real?
+016	next-token-prediction	fundamentals	core	How does next-token prediction produce something that looks like reasoning?
+017	teacher-forcing-exposure-bias	training	intermediate	What are teacher forcing and exposure bias?
+018	pretraining-sft-rlhf	training	core	What is the difference between pretraining, supervised fine-tuning, and RLHF?
+019	rlhf-end-to-end	alignment	intermediate	Walk me through RLHF end to end.
+020	dpo-vs-ppo	alignment	advanced	What is DPO and how does it differ from PPO-based RLHF?
+021	reward-models	alignment	intermediate	What is a reward model and how is it trained and evaluated?
+022	ppo-for-llms	alignment	advanced	Explain PPO in the context of language model alignment.
+023	grpo-reasoning	alignment	advanced	What is GRPO and why is it used for training reasoning models?
+024	constitutional-ai-rlaif	alignment	intermediate	What are Constitutional AI and RLAIF?
+025	instruction-tuning	training	core	What is instruction tuning and why does so little data go so far?
+026	catastrophic-forgetting	training	intermediate	What is catastrophic forgetting and how do you mitigate it?
+027	lora	fine-tuning	core	Explain LoRA. Why is it parameter efficient?
+028	qlora	fine-tuning	intermediate	What is QLoRA and how does it combine 4-bit quantization with LoRA?
+029	finetuning-vs-peft-vs-prompting	fine-tuning	core	When would you choose full fine-tuning vs PEFT vs prompting?
+030	quantization	inference	core	What is quantization and what are the tradeoffs between INT8, INT4 and FP8?
+031	knowledge-distillation	training	intermediate	What is knowledge distillation and why does a student sometimes beat its teacher?
+032	pruning-and-sparsity	inference	advanced	What are pruning and sparsity, and why is unstructured sparsity hard to exploit?
+033	speculative-decoding	inference	advanced	What is speculative decoding and why is it lossless?
+034	sampling-temperature-top-p	inference	core	Explain temperature, top-k, and top-p (nucleus) sampling.
+035	beam-search	inference	intermediate	What is beam search and why is it rarely used for open-ended chat?
+036	perplexity	evaluation	core	What is perplexity and what are its limits?
+037	evaluating-llms	evaluation	core	How do you evaluate an LLM, and what are the common pitfalls?
+038	llm-as-a-judge	evaluation	intermediate	What is LLM-as-a-judge and what biases does it have?
+039	benchmark-contamination	evaluation	intermediate	What is benchmark contamination and how do you detect it?
+040	hallucination	reliability	core	Why do LLMs hallucinate and how do you reduce it?
+041	rag-vs-finetuning	rag	core	What is RAG, and when should you use it instead of fine-tuning?
+042	chunking-strategies	rag	intermediate	How do you chunk documents for retrieval, and why does it matter so much?
+043	embeddings	rag	core	What are embeddings and how are embedding models trained?
+044	vector-databases-ann	rag	intermediate	How do vector databases work? Explain HNSW and IVF.
+045	hybrid-search-reranking	rag	intermediate	What is hybrid search and why add a reranker?
+046	cross-encoder-vs-bi-encoder	rag	intermediate	What is the difference between a bi-encoder and a cross-encoder?
+047	query-rewriting-hyde	rag	advanced	What are query rewriting and HyDE, and when do they help?
+048	evaluating-rag	rag	intermediate	How do you evaluate a RAG system?
+049	chain-of-thought	prompting	core	What is chain-of-thought prompting and why does it help?
+050	self-consistency	prompting	intermediate	What is self-consistency decoding?
+051	in-context-learning	prompting	core	What is in-context learning and how does it work mechanistically?
+052	context-engineering	prompting	intermediate	What is context engineering, and how is it different from prompt engineering?
+053	react-agents	agents	core	What is ReAct, and what is the anatomy of an LLM agent?
+054	tool-calling	agents	core	How does function/tool calling actually work under the hood?
+055	model-context-protocol	agents	intermediate	What is the Model Context Protocol and what problem does it solve?
+056	multi-agent-systems	agents	advanced	When is a multi-agent system worth it, and how do you design one?
+057	test-time-compute	reasoning	advanced	What is test-time compute scaling?
+058	reasoning-models	reasoning	advanced	How are reasoning models trained, and how do they differ from chat models?
+059	prompt-injection	security	core	What is prompt injection and how do you defend against it?
+060	jailbreaks	security	intermediate	What is jailbreaking and why is it so hard to fully prevent?
+061	guardrails-moderation	safety	intermediate	How do you design guardrails and a moderation pipeline?
+062	red-teaming	safety	intermediate	What is red teaming for LLMs, and how do you do it systematically?
+063	model-calibration	evaluation	advanced	What is model calibration and why does it matter?
+064	bias-variance-tradeoff	fundamentals	core	Explain the bias-variance tradeoff.
+065	overfitting	fundamentals	core	What is overfitting, how do you detect it, and how do you prevent it?
+066	l1-vs-l2-regularization	fundamentals	core	What is the difference between L1 and L2 regularization?
+067	dropout	deep-learning	core	How does dropout work, and why does it behave differently at train and test time?
+068	cross-validation	fundamentals	core	Explain cross-validation and describe cases where it silently fails.
+069	precision-recall-f1	evaluation	core	Explain precision, recall and F1, and when to optimise for each.
+070	roc-auc-vs-pr-auc	evaluation	intermediate	What is the difference between ROC-AUC and PR-AUC?
+071	class-imbalance	fundamentals	core	How do you handle severe class imbalance?
+072	gradient-descent-optimizers	optimization	core	Explain gradient descent and its variants: SGD, momentum, Adam, AdamW.
+073	backpropagation	deep-learning	core	What is backpropagation?
+074	vanishing-exploding-gradients	deep-learning	core	What are vanishing and exploding gradients, and how are they fixed?
+075	batch-norm-vs-layer-norm	deep-learning	intermediate	How does batch normalization differ from layer normalization?
+076	learning-rate-schedules	optimization	intermediate	Why do we use learning-rate warmup and decay schedules?
+077	mixed-precision-training	systems	intermediate	What is mixed-precision training, and why is BF16 preferred over FP16?
+078	gradient-checkpointing	systems	intermediate	What is gradient checkpointing and what does it trade away?
+079	parallelism-strategies	systems	advanced	Explain data, tensor, pipeline, and expert parallelism.
+080	zero-and-fsdp	systems	advanced	What is ZeRO/FSDP sharding and what are the stages?
+081	batch-size-and-lr	optimization	intermediate	How are batch size and learning rate related, and what is gradient accumulation?
+082	activation-functions	deep-learning	core	Compare ReLU, GELU, and SwiGLU. Why did LLMs settle on gated activations?
+083	softmax-and-logsumexp	fundamentals	intermediate	What is softmax, and why do we need the log-sum-exp trick?
+084	cross-entropy-loss	fundamentals	core	What is cross-entropy loss and why is it the right loss for language modelling?
+085	label-smoothing	training	intermediate	What is label smoothing and when does it hurt?
+086	pca	fundamentals	core	What is PCA and when should you not use it?
+087	curse-of-dimensionality	fundamentals	intermediate	What is the curse of dimensionality?
+088	trees-forests-boosting	classical-ml	core	Compare decision trees, random forests, and gradient boosting.
+089	bagging-vs-boosting	classical-ml	core	What is the difference between bagging and boosting?
+090	transfer-learning	training	core	What is transfer learning and how do you decide what to freeze?
+091	self-supervised-learning	training	intermediate	What is self-supervised learning and why did it beat supervised pretraining?
+092	contrastive-learning	training	intermediate	What is contrastive learning? Explain InfoNCE and CLIP.
+093	diffusion-models	generative	advanced	How do diffusion models work, and how do they differ from autoregressive models?
+094	multimodal-models	multimodal	intermediate	How do vision-language models fuse modalities?
+095	data-drift	mlops	core	What are data drift and concept drift, and how do you monitor for them?
+096	ab-testing-ml	mlops	intermediate	How do you A/B test a machine learning or LLM feature?
+097	serving-cost-latency	mlops	intermediate	How do you reduce LLM serving cost and latency in production?
+098	training-serving-skew	mlops	intermediate	What is training-serving skew and how does a feature store help?
+099	ml-system-design	system-design	advanced	Walk me through designing a recommendation system end to end.
+100	fairness-bias-privacy	responsible-ai	intermediate	How do you think about fairness, bias, and privacy in an ML system?

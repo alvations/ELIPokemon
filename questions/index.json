@@ -1,0 +1,805 @@
+{
+  "count": 100,
+  "questions": [
+    {
+      "id": "001",
+      "slug": "attention-mechanisms",
+      "question": "Can you explain the concept of attention mechanisms in transformer models?",
+      "category": "transformers",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "002",
+      "slug": "positional-encodings-rope",
+      "question": "Why do transformers need positional encodings, and how does RoPE work?",
+      "category": "transformers",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "003",
+      "slug": "multi-head-attention",
+      "question": "What is multi-head attention and why use more than one head?",
+      "category": "transformers",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "004",
+      "slug": "encoder-decoder-vs-decoder-only",
+      "question": "What is the difference between encoder-only, decoder-only, and encoder-decoder architectures?",
+      "category": "transformers",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "005",
+      "slug": "layer-normalization",
+      "question": "What is layer normalization, and why did LLMs move from post-norm to pre-norm?",
+      "category": "transformers",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "006",
+      "slug": "residual-connections",
+      "question": "Why do residual (skip) connections matter in deep networks?",
+      "category": "deep-learning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "007",
+      "slug": "transformer-feed-forward-block",
+      "question": "What does the feed-forward (MLP) block in a transformer actually do?",
+      "category": "transformers",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "008",
+      "slug": "kv-cache",
+      "question": "What is a KV cache and why does it dominate LLM inference memory?",
+      "category": "inference",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "009",
+      "slug": "mqa-and-gqa",
+      "question": "Explain Multi-Query Attention and Grouped-Query Attention.",
+      "category": "inference",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "010",
+      "slug": "flash-attention",
+      "question": "What is FlashAttention and why is it faster without changing the math?",
+      "category": "systems",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "011",
+      "slug": "mixture-of-experts",
+      "question": "What is a Mixture-of-Experts model and what are its tradeoffs?",
+      "category": "architecture",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "012",
+      "slug": "tokenization-bpe",
+      "question": "What is tokenization? Explain BPE and why token boundaries cause weird model behaviour.",
+      "category": "nlp",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "013",
+      "slug": "context-length-limits",
+      "question": "Why is context length limited, and what actually breaks when you extend it?",
+      "category": "transformers",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "014",
+      "slug": "scaling-laws",
+      "question": "Explain neural scaling laws and the Chinchilla compute-optimal result.",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "015",
+      "slug": "emergent-abilities",
+      "question": "What are emergent abilities of LLMs, and are they real?",
+      "category": "research",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "016",
+      "slug": "next-token-prediction",
+      "question": "How does next-token prediction produce something that looks like reasoning?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "017",
+      "slug": "teacher-forcing-exposure-bias",
+      "question": "What are teacher forcing and exposure bias?",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "018",
+      "slug": "pretraining-sft-rlhf",
+      "question": "What is the difference between pretraining, supervised fine-tuning, and RLHF?",
+      "category": "training",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "019",
+      "slug": "rlhf-end-to-end",
+      "question": "Walk me through RLHF end to end.",
+      "category": "alignment",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "020",
+      "slug": "dpo-vs-ppo",
+      "question": "What is DPO and how does it differ from PPO-based RLHF?",
+      "category": "alignment",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "021",
+      "slug": "reward-models",
+      "question": "What is a reward model and how is it trained and evaluated?",
+      "category": "alignment",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "022",
+      "slug": "ppo-for-llms",
+      "question": "Explain PPO in the context of language model alignment.",
+      "category": "alignment",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "023",
+      "slug": "grpo-reasoning",
+      "question": "What is GRPO and why is it used for training reasoning models?",
+      "category": "alignment",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "024",
+      "slug": "constitutional-ai-rlaif",
+      "question": "What are Constitutional AI and RLAIF?",
+      "category": "alignment",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "025",
+      "slug": "instruction-tuning",
+      "question": "What is instruction tuning and why does so little data go so far?",
+      "category": "training",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "026",
+      "slug": "catastrophic-forgetting",
+      "question": "What is catastrophic forgetting and how do you mitigate it?",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "027",
+      "slug": "lora",
+      "question": "Explain LoRA. Why is it parameter efficient?",
+      "category": "fine-tuning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "028",
+      "slug": "qlora",
+      "question": "What is QLoRA and how does it combine 4-bit quantization with LoRA?",
+      "category": "fine-tuning",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "029",
+      "slug": "finetuning-vs-peft-vs-prompting",
+      "question": "When would you choose full fine-tuning vs PEFT vs prompting?",
+      "category": "fine-tuning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "030",
+      "slug": "quantization",
+      "question": "What is quantization and what are the tradeoffs between INT8, INT4 and FP8?",
+      "category": "inference",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "031",
+      "slug": "knowledge-distillation",
+      "question": "What is knowledge distillation and why does a student sometimes beat its teacher?",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "032",
+      "slug": "pruning-and-sparsity",
+      "question": "What are pruning and sparsity, and why is unstructured sparsity hard to exploit?",
+      "category": "inference",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "033",
+      "slug": "speculative-decoding",
+      "question": "What is speculative decoding and why is it lossless?",
+      "category": "inference",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "034",
+      "slug": "sampling-temperature-top-p",
+      "question": "Explain temperature, top-k, and top-p (nucleus) sampling.",
+      "category": "inference",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "035",
+      "slug": "beam-search",
+      "question": "What is beam search and why is it rarely used for open-ended chat?",
+      "category": "inference",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "036",
+      "slug": "perplexity",
+      "question": "What is perplexity and what are its limits?",
+      "category": "evaluation",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "037",
+      "slug": "evaluating-llms",
+      "question": "How do you evaluate an LLM, and what are the common pitfalls?",
+      "category": "evaluation",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "038",
+      "slug": "llm-as-a-judge",
+      "question": "What is LLM-as-a-judge and what biases does it have?",
+      "category": "evaluation",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "039",
+      "slug": "benchmark-contamination",
+      "question": "What is benchmark contamination and how do you detect it?",
+      "category": "evaluation",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "040",
+      "slug": "hallucination",
+      "question": "Why do LLMs hallucinate and how do you reduce it?",
+      "category": "reliability",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "041",
+      "slug": "rag-vs-finetuning",
+      "question": "What is RAG, and when should you use it instead of fine-tuning?",
+      "category": "rag",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "042",
+      "slug": "chunking-strategies",
+      "question": "How do you chunk documents for retrieval, and why does it matter so much?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "043",
+      "slug": "embeddings",
+      "question": "What are embeddings and how are embedding models trained?",
+      "category": "rag",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "044",
+      "slug": "vector-databases-ann",
+      "question": "How do vector databases work? Explain HNSW and IVF.",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "045",
+      "slug": "hybrid-search-reranking",
+      "question": "What is hybrid search and why add a reranker?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "046",
+      "slug": "cross-encoder-vs-bi-encoder",
+      "question": "What is the difference between a bi-encoder and a cross-encoder?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "047",
+      "slug": "query-rewriting-hyde",
+      "question": "What are query rewriting and HyDE, and when do they help?",
+      "category": "rag",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "048",
+      "slug": "evaluating-rag",
+      "question": "How do you evaluate a RAG system?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "049",
+      "slug": "chain-of-thought",
+      "question": "What is chain-of-thought prompting and why does it help?",
+      "category": "prompting",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "050",
+      "slug": "self-consistency",
+      "question": "What is self-consistency decoding?",
+      "category": "prompting",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "051",
+      "slug": "in-context-learning",
+      "question": "What is in-context learning and how does it work mechanistically?",
+      "category": "prompting",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "052",
+      "slug": "context-engineering",
+      "question": "What is context engineering, and how is it different from prompt engineering?",
+      "category": "prompting",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "053",
+      "slug": "react-agents",
+      "question": "What is ReAct, and what is the anatomy of an LLM agent?",
+      "category": "agents",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "054",
+      "slug": "tool-calling",
+      "question": "How does function/tool calling actually work under the hood?",
+      "category": "agents",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "055",
+      "slug": "model-context-protocol",
+      "question": "What is the Model Context Protocol and what problem does it solve?",
+      "category": "agents",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "056",
+      "slug": "multi-agent-systems",
+      "question": "When is a multi-agent system worth it, and how do you design one?",
+      "category": "agents",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "057",
+      "slug": "test-time-compute",
+      "question": "What is test-time compute scaling?",
+      "category": "reasoning",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "058",
+      "slug": "reasoning-models",
+      "question": "How are reasoning models trained, and how do they differ from chat models?",
+      "category": "reasoning",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "059",
+      "slug": "prompt-injection",
+      "question": "What is prompt injection and how do you defend against it?",
+      "category": "security",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "060",
+      "slug": "jailbreaks",
+      "question": "What is jailbreaking and why is it so hard to fully prevent?",
+      "category": "security",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "061",
+      "slug": "guardrails-moderation",
+      "question": "How do you design guardrails and a moderation pipeline?",
+      "category": "safety",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "062",
+      "slug": "red-teaming",
+      "question": "What is red teaming for LLMs, and how do you do it systematically?",
+      "category": "safety",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "063",
+      "slug": "model-calibration",
+      "question": "What is model calibration and why does it matter?",
+      "category": "evaluation",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "064",
+      "slug": "bias-variance-tradeoff",
+      "question": "Explain the bias-variance tradeoff.",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "065",
+      "slug": "overfitting",
+      "question": "What is overfitting, how do you detect it, and how do you prevent it?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "066",
+      "slug": "l1-vs-l2-regularization",
+      "question": "What is the difference between L1 and L2 regularization?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "067",
+      "slug": "dropout",
+      "question": "How does dropout work, and why does it behave differently at train and test time?",
+      "category": "deep-learning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "068",
+      "slug": "cross-validation",
+      "question": "Explain cross-validation and describe cases where it silently fails.",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "069",
+      "slug": "precision-recall-f1",
+      "question": "Explain precision, recall and F1, and when to optimise for each.",
+      "category": "evaluation",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "070",
+      "slug": "roc-auc-vs-pr-auc",
+      "question": "What is the difference between ROC-AUC and PR-AUC?",
+      "category": "evaluation",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "071",
+      "slug": "class-imbalance",
+      "question": "How do you handle severe class imbalance?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "072",
+      "slug": "gradient-descent-optimizers",
+      "question": "Explain gradient descent and its variants: SGD, momentum, Adam, AdamW.",
+      "category": "optimization",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "073",
+      "slug": "backpropagation",
+      "question": "What is backpropagation?",
+      "category": "deep-learning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "074",
+      "slug": "vanishing-exploding-gradients",
+      "question": "What are vanishing and exploding gradients, and how are they fixed?",
+      "category": "deep-learning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "075",
+      "slug": "batch-norm-vs-layer-norm",
+      "question": "How does batch normalization differ from layer normalization?",
+      "category": "deep-learning",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "076",
+      "slug": "learning-rate-schedules",
+      "question": "Why do we use learning-rate warmup and decay schedules?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "077",
+      "slug": "mixed-precision-training",
+      "question": "What is mixed-precision training, and why is BF16 preferred over FP16?",
+      "category": "systems",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "078",
+      "slug": "gradient-checkpointing",
+      "question": "What is gradient checkpointing and what does it trade away?",
+      "category": "systems",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "079",
+      "slug": "parallelism-strategies",
+      "question": "Explain data, tensor, pipeline, and expert parallelism.",
+      "category": "systems",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "080",
+      "slug": "zero-and-fsdp",
+      "question": "What is ZeRO/FSDP sharding and what are the stages?",
+      "category": "systems",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "081",
+      "slug": "batch-size-and-lr",
+      "question": "How are batch size and learning rate related, and what is gradient accumulation?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "082",
+      "slug": "activation-functions",
+      "question": "Compare ReLU, GELU, and SwiGLU. Why did LLMs settle on gated activations?",
+      "category": "deep-learning",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "083",
+      "slug": "softmax-and-logsumexp",
+      "question": "What is softmax, and why do we need the log-sum-exp trick?",
+      "category": "fundamentals",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "084",
+      "slug": "cross-entropy-loss",
+      "question": "What is cross-entropy loss and why is it the right loss for language modelling?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "085",
+      "slug": "label-smoothing",
+      "question": "What is label smoothing and when does it hurt?",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "086",
+      "slug": "pca",
+      "question": "What is PCA and when should you not use it?",
+      "category": "fundamentals",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "087",
+      "slug": "curse-of-dimensionality",
+      "question": "What is the curse of dimensionality?",
+      "category": "fundamentals",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "088",
+      "slug": "trees-forests-boosting",
+      "question": "Compare decision trees, random forests, and gradient boosting.",
+      "category": "classical-ml",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "089",
+      "slug": "bagging-vs-boosting",
+      "question": "What is the difference between bagging and boosting?",
+      "category": "classical-ml",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "090",
+      "slug": "transfer-learning",
+      "question": "What is transfer learning and how do you decide what to freeze?",
+      "category": "training",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "091",
+      "slug": "self-supervised-learning",
+      "question": "What is self-supervised learning and why did it beat supervised pretraining?",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "092",
+      "slug": "contrastive-learning",
+      "question": "What is contrastive learning? Explain InfoNCE and CLIP.",
+      "category": "training",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "093",
+      "slug": "diffusion-models",
+      "question": "How do diffusion models work, and how do they differ from autoregressive models?",
+      "category": "generative",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "094",
+      "slug": "multimodal-models",
+      "question": "How do vision-language models fuse modalities?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "095",
+      "slug": "data-drift",
+      "question": "What are data drift and concept drift, and how do you monitor for them?",
+      "category": "mlops",
+      "difficulty": "core",
+      "tags": []
+    },
+    {
+      "id": "096",
+      "slug": "ab-testing-ml",
+      "question": "How do you A/B test a machine learning or LLM feature?",
+      "category": "mlops",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "097",
+      "slug": "serving-cost-latency",
+      "question": "How do you reduce LLM serving cost and latency in production?",
+      "category": "mlops",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "098",
+      "slug": "training-serving-skew",
+      "question": "What is training-serving skew and how does a feature store help?",
+      "category": "mlops",
+      "difficulty": "intermediate",
+      "tags": []
+    },
+    {
+      "id": "099",
+      "slug": "ml-system-design",
+      "question": "Walk me through designing a recommendation system end to end.",
+      "category": "system-design",
+      "difficulty": "advanced",
+      "tags": []
+    },
+    {
+      "id": "100",
+      "slug": "fairness-bias-privacy",
+      "question": "How do you think about fairness, bias, and privacy in an ML system?",
+      "category": "responsible-ai",
+      "difficulty": "intermediate",
+      "tags": []
+    }
+  ]
+}
