@@ -350,6 +350,7 @@ better than a placeholder.
 | Quick Attack | Weak but always moves first | `053`, finishing off a Focus Sash |
 | Earthquake | Powerful Ground attack that hits everything | `029`, `052` — the thing standing orders tell you not to switch into |
 | Dragon Dance | Setup move raising Attack and Speed together | `058`, as what the opponent gets for free if your attack leaves them at 1 HP |
+| Explosion | Deals huge damage and knocks out the user | `061`, as the question whose intent is unknowable from its words alone — a curious child, a competitive player and a bad actor all ask it identically |
 | Roost | Recovers HP; a Flying-type staple | `007`, as a Pokédex inference |
 | Protect / Substitute / Swords Dance / Trick Room / Stealth Rock / Fly | See [Battling](#battling) and [The world](#the-world-and-progression) | |
 
@@ -530,6 +531,15 @@ means the same thing by it.
 | **Talking your own Pokémon into a banned move** | jailbreaking, as distinct from injection: you are the attacker, not a third party | `060` |
 | Rules taught in an afternoon versus abilities built over months | why the safety-trained region is much smaller than the capability region | `060` |
 | Screening what the Pokémon *did* rather than what it was *asked* | output filtering, and why it usually beats input filtering | `060` |
+| **Referees standing around the arena**, one at each stage | layered guardrails: format checks, an input classifier, the model's own training, an output classifier, and mechanical validation | `061` |
+| The junior ref at the door vs the head ref watching the move | input moderation vs output moderation — judging a request is ambiguous, judging a move is not | `061` |
+| "Let it redo the turn more carefully" instead of blocking | regenerating under stricter instructions as a middle response between allow and refuse | `061` |
+| Zero incidents and a 15% false-refusal rate | over-refusal: the failure that never shows up on a dashboard because the user just leaves | `061`, `062` |
+| A refusal that names the exact rule it broke | leaking a map of your defences to the next attacker | `061` |
+| **Hiring someone to beat your own Pokémon** | red teaming, as opposed to measuring the average case | `062` |
+| The curious kid / the determined opponent / the note-planter / the automated operation | threat modelling by adversary class | `062` |
+| "Fix the class, not the phrasing" | generalising from one found attack instead of patching a string | `062` |
+| Testing the whole stadium, not just the Pokémon | the attack surface is the system — documents, tool permissions and guardrails included | `062` |
 
 ---
 
