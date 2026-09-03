@@ -7,7 +7,15 @@
       "question": "Can you explain the concept of attention mechanisms in transformer models?",
       "category": "transformers",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/001-attention-mechanisms.md",
+      "pokemon_path": "answers/pokemon/001-attention-mechanisms.md",
+      "tags": [
+        "attention",
+        "self-attention",
+        "transformers",
+        "qkv",
+        "softmax"
+      ]
     },
     {
       "id": "002",
@@ -15,7 +23,14 @@
       "question": "Why do transformers need positional encodings, and how does RoPE work?",
       "category": "transformers",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/002-positional-encodings-rope.md",
+      "pokemon_path": "answers/pokemon/002-positional-encodings-rope.md",
+      "tags": [
+        "positional-encoding",
+        "rope",
+        "alibi",
+        "extrapolation"
+      ]
     },
     {
       "id": "003",
@@ -23,7 +38,14 @@
       "question": "What is multi-head attention and why use more than one head?",
       "category": "transformers",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/003-multi-head-attention.md",
+      "pokemon_path": "answers/pokemon/003-multi-head-attention.md",
+      "tags": [
+        "attention",
+        "multi-head",
+        "subspaces",
+        "induction-heads"
+      ]
     },
     {
       "id": "004",
@@ -31,7 +53,15 @@
       "question": "What is the difference between encoder-only, decoder-only, and encoder-decoder architectures?",
       "category": "transformers",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/004-encoder-decoder-vs-decoder-only.md",
+      "pokemon_path": "answers/pokemon/004-encoder-decoder-vs-decoder-only.md",
+      "tags": [
+        "bert",
+        "gpt",
+        "t5",
+        "architecture",
+        "causal-mask"
+      ]
     },
     {
       "id": "005",
@@ -39,7 +69,14 @@
       "question": "What is layer normalization, and why did LLMs move from post-norm to pre-norm?",
       "category": "transformers",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/005-layer-normalization.md",
+      "pokemon_path": "answers/pokemon/005-layer-normalization.md",
+      "tags": [
+        "layernorm",
+        "rmsnorm",
+        "pre-norm",
+        "training-stability"
+      ]
     },
     {
       "id": "006",
@@ -47,7 +84,14 @@
       "question": "Why do residual (skip) connections matter in deep networks?",
       "category": "deep-learning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/006-residual-connections.md",
+      "pokemon_path": "answers/pokemon/006-residual-connections.md",
+      "tags": [
+        "resnet",
+        "residual",
+        "gradient-flow",
+        "identity"
+      ]
     },
     {
       "id": "007",
@@ -55,7 +99,15 @@
       "question": "What does the feed-forward (MLP) block in a transformer actually do?",
       "category": "transformers",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/007-transformer-feed-forward-block.md",
+      "pokemon_path": "answers/pokemon/007-transformer-feed-forward-block.md",
+      "tags": [
+        "ffn",
+        "mlp",
+        "key-value-memory",
+        "swiglu",
+        "parameters"
+      ]
     },
     {
       "id": "008",
@@ -63,7 +115,14 @@
       "question": "What is a KV cache and why does it dominate LLM inference memory?",
       "category": "inference",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/008-kv-cache.md",
+      "pokemon_path": "answers/pokemon/008-kv-cache.md",
+      "tags": [
+        "kv-cache",
+        "inference",
+        "decoding",
+        "memory-bandwidth"
+      ]
     },
     {
       "id": "009",
@@ -71,7 +130,15 @@
       "question": "Explain Multi-Query Attention and Grouped-Query Attention.",
       "category": "inference",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/009-mqa-and-gqa.md",
+      "pokemon_path": "answers/pokemon/009-mqa-and-gqa.md",
+      "tags": [
+        "mqa",
+        "gqa",
+        "kv-cache",
+        "inference",
+        "llama"
+      ]
     },
     {
       "id": "010",
@@ -79,7 +146,15 @@
       "question": "What is FlashAttention and why is it faster without changing the math?",
       "category": "systems",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/010-flash-attention.md",
+      "pokemon_path": "answers/pokemon/010-flash-attention.md",
+      "tags": [
+        "flashattention",
+        "io-aware",
+        "tiling",
+        "online-softmax",
+        "hbm-sram"
+      ]
     },
     {
       "id": "011",
@@ -87,7 +162,15 @@
       "question": "What is a Mixture-of-Experts model and what are its tradeoffs?",
       "category": "architecture",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/011-mixture-of-experts.md",
+      "pokemon_path": "answers/pokemon/011-mixture-of-experts.md",
+      "tags": [
+        "moe",
+        "sparse",
+        "routing",
+        "load-balancing",
+        "switch-transformer"
+      ]
     },
     {
       "id": "012",
