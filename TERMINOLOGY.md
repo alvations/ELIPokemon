@@ -303,6 +303,9 @@ the point: why this particular creature and not another.
 | **Skarmory** | Steel/Flying | An armoured bird; another classic defensive wall | `017`'s misidentification: the Trainer decides turn 3 that a Ferrothorn is a Skarmory and then plays ten flawless turns against a Pokémon that does not exist |
 | **Snorlax** | Normal | Famously huge and heavy; a giant sleeping bear | Two jobs: an unusual thing to run into in the wild (`018`), and the **outlier** — the one entry on the page whose value is 9,000 when everything else is 40–90 (`030`) |
 | **Ditto** | Normal | A blob that transforms into whatever it faces; has no real identity of its own | `043`, where it sits alone on the embedding map "being weird" |
+| **Alakazam** | Psychic | Enormous Special Attack, paper-thin defences — the archetypal glass cannon | `086`, as the far end of the "physical bruiser ↔ special sweeper" axis that PCA discovers |
+| **Starmie** | Water/Psychic | A fast, fragile Water-type; Misty's signature Pokémon in the anime | `099`, as the lead whose meaning inverts when the metagame shifts |
+| **Arceus** | Normal | Framed in-universe as the creator of the Pokémon world; the highest total stats in the games | `086`, as the top of the stat-total range against Magikarp's floor |
 | **Eevee** | Normal | A small mammal famous for evolving into many different specialists | `037`, as the mundane real-world case ("a distressed Eevee") that no Gym badge tells you anything about |
 | **Flareon** | Fire | One of Eevee's evolutions | `040` and `041`'s recall target — a species obscure enough that asking the model to remember a specific detail about it is unreliable, and handing it the page is not. Also the canary string `XQ7-FLAREON-9982` in `039` |
 | **Growlithe** / **Arcanine** | Fire | A puppy and the large dog it evolves into | `007`'s minimum pair: a Pokédex too thin cannot tell them apart |
@@ -540,6 +543,120 @@ means the same thing by it.
 | The curious kid / the determined opponent / the note-planter / the automated operation | threat modelling by adversary class | `062` |
 | "Fix the class, not the phrasing" | generalising from one found attack instead of patching a string | `062` |
 | Testing the whole stadium, not just the Pokémon | the attack surface is the system — documents, tool permissions and guardrails included | `062` |
+
+### Fundamentals, optimisation and systems
+
+| Pokémon term | Stands for | Questions |
+| --- | --- | --- |
+| **"Is that 90% honest?"** | calibration — whether stated confidence matches observed accuracy | `063` |
+| Coaching that makes a Trainer *less* honest about uncertainty | RLHF degrading calibration by rewarding decisive answers | `019`, `063` |
+| Asking three times and seeing whether they agree | self-consistency agreement as an uncertainty estimate | `050`, `063` |
+| Naming a *set* of moves that contains the right one 95% of the time | conformal prediction | `063` |
+| **The One-Trick Trainer** ("always lead with Onix") | high bias — consistently wrong, and retraining does not help | `064`, `065` |
+| **The Superstitious Trainer** (red hats, Tuesdays) | high variance — memorising the training sample | `064`, `065`, `066` |
+| The Pokémon with *exactly* enough memory to memorise and no more | the interpolation threshold, where double descent peaks | `064` |
+| **The scrambled-tape test** | fitting random labels, to prove the model has memorisation capacity | `065` |
+| A feature from the future (`revive_used`) | target leakage | `065`, `068`, `098` |
+| **Releasing weak Pokémon vs a pay cut for everyone** | L1 (sparse, exact zeros) vs L2 (dense, shrunk) regularisation | `066` |
+| Charging upkeep separately from the feedback channel | decoupled weight decay — the AdamW correction | `066`, `072` |
+| **Benching half the team at random each practice** | dropout, and counting the survivors double is inverted scaling | `067` |
+| Forgetting to switch to tournament mode | forgetting `model.eval()` — silent degradation, no error | `067`, `075` |
+| **Testing against five different Gyms in rotation** | k-fold cross-validation; the fold-to-fold spread is the point | `068` |
+| Testing on the future / splitting by opponent / preparing before splitting | temporal, group and preprocessing leakage | `065`, `068`, `098` |
+| **Hunting shinies with a detector** | precision (are your Ultra Balls landing?) and recall (did any get away?) | `069`, `070`, `071` |
+| "You only have ten Ultra Balls" | precision@k, when downstream capacity is fixed | `069` |
+| The scorecard that divides by a million ordinary Pokémon | ROC-AUC hiding false positives under a huge true-negative count | `070` |
+| **"Nothing is ever shiny"** scoring 99.98% | why accuracy is meaningless on rare positives | `069`, `070`, `071` |
+| Turning the detector's dial down before touching the footage | threshold tuning before resampling | `071` |
+| Inventing halfway-shinies | SMOTE, and why "halfway between two positives" may not be a positive | `071` |
+| **Adjusting after every twenty matches** | mini-batch gradient descent | `072`, `081` |
+| Remembering the trend so contradictory advice cancels | momentum | `072` |
+| Weighting the adjustment by how noisy that stat's feedback is | adaptive optimisers (Adam's second moment) | `072`, `076` |
+| Scaling up early estimates when you have no history | Adam's bias correction | `072` |
+| **Walking back through the season once** | backpropagation as reverse-mode autodiff | `073`, `078` |
+| "Thousands of things to fix, one outcome to explain" | why reverse mode rather than forward mode | `073` |
+| A Pokémon that never improves however much you train it | a detached graph — gradients silently not flowing | `073` |
+| **The Champion's advice fading to silence by Route 1** | vanishing gradients | `005`, `006`, `074` |
+| The message amplifying into "BURN EVERYTHING" | exploding gradients | `074` |
+| Turning the whole message down proportionally | gradient clipping by global norm, preserving direction | `074` |
+| **"Compare to the room" vs "compare to your own six stats"** | BatchNorm vs LayerNorm | `005`, `075` |
+| **Easing into training over the first fortnight** | learning-rate warmup — mostly because the optimiser's noise estimates have not calibrated | `072`, `076` |
+| Flat intensity, then a sharp taper at the end | WSD scheduling, and why cosine forces you to fix the run length in advance | `076` |
+| **The precise-but-narrow format vs the rough-but-unlimited one** | FP16 vs BF16 — range matters more than precision for training | `077` |
+| Multiplying every correction by a thousand before writing it down | FP16 loss scaling, and the thrown-away steps when it overflows | `077` |
+| Keeping the official stat records precise while the work is rough | FP32 master weights under mixed precision | `077` |
+| **Filming only every third Gym and replaying the gaps** | gradient checkpointing / activation recomputation | `010`, `078` |
+| Recording the dice rolls so the replay is identical | saving RNG state so recomputation reproduces the forward pass | `078` |
+| **Same team different opponents / splitting a Pokémon / splitting the journey / splitting the roster** | data, tensor, pipeline and expert parallelism | `011`, `079` |
+| Gyms sitting idle while the first one works | the pipeline bubble, closed by micro-batching | `079` |
+| **Eight gyms each keeping a full copy of the paperwork** | replicated optimizer state under plain data parallelism | `080` |
+| Splitting the history / the feedback / the stats themselves | ZeRO stages 1, 2 and 3 (FSDP) | `080` |
+| Phoning ahead for the next Pokémon's stats | prefetching to overlap all-gather with compute | `080` |
+| **"Watch more matches, adjust harder"** | the batch-size / learning-rate scaling relationship | `076`, `081` |
+| Ten sessions of ten, one adjustment at the end | gradient accumulation — and forgetting to divide by ten is the classic bug | `081` |
+| **The Bouncer / the Soft Bouncer / the Dimmer** | ReLU, GELU and gated (SwiGLU) activations | `082` |
+| A Pokémon permanently switched off | dying ReLU units | `074`, `082` |
+| Two knobs — "what's my reaction" and "how much does this matter" | the multiplicative gate, an operation a pointwise activation cannot express | `007`, `082` |
+| **Subtracting the best score before converting** | the max-subtraction trick that makes softmax numerically stable | `010`, `083` |
+| Handing over percentages when raw scores were expected | double-softmax — the silent, common bug | `083`, `084` |
+| **"You said it was impossible, and it happened"** | cross-entropy's unbounded penalty for confident errors | `084` |
+| Grading how much confidence went on what actually happened | negative log-likelihood, and its equivalence to KL and to maximum likelihood | `036`, `084` |
+| **"Thunderbolt — 90%, and leave room for everything else"** | label smoothing | `085` |
+| A softened teacher being a worse teacher | label smoothing erasing the dark knowledge distillation depends on | `031`, `085` |
+
+### Classical ML, generative models and production
+
+| Pokémon term | Stands for | Questions |
+| --- | --- | --- |
+| **"Physical bruiser ↔ special sweeper"** as a single axis | a principal component | `086` |
+| The axis that varies most vs the tiny Speed gap that decides the match | PCA keeping variance rather than discriminative signal, because it never saw the labels | `086` |
+| **The ribbon of real Pokémon inside an enormous empty space** | the manifold hypothesis — why embeddings and vector search work despite the curse | `044`, `087` |
+| Everyone being the same distance from everyone else | distance concentration in high dimensions | `087` |
+| **A flowchart / a committee that votes / a relay that fixes mistakes** | decision trees, random forests, gradient boosting | `088`, `089` |
+| Blinding each scout to different stats | random feature selection, to decorrelate the ensemble | `088`, `089` |
+| Wild-and-detailed members vs simple-and-reliable ones | deep trees for bagging, shallow ones for boosting | `088`, `089` |
+| A chain contorting itself around one mislabelled match | boosting's sensitivity to label noise | `089` |
+| **"Your Champion already knows how to battle"** | transfer learning; the basics transfer, the specifics are replaced | `090` |
+| Attaching a clueless new specialist that shouts wild corrections | a randomly initialised head damaging a pretrained backbone | `090` |
+| "Frozen" that is still quietly recalibrating | frozen weights with BatchNorm statistics still updating | `075`, `090` |
+| **"The footage grades itself"** | self-supervised learning | `016`, `091` |
+| "Is this clip upside down?" | a pretext task with a shortcut, and why the good ones have none | `091` |
+| Deciding which of a million hours is worth watching | data curation replacing labelling as the bottleneck | `014`, `091` |
+| **Two photos of the same Pokémon, pulled together** | contrastive learning and the InfoNCE objective | `043`, `092` |
+| Tinting one photo blue | augmentation designed to block a shortcut (colour-histogram matching) | `092` |
+| Putting every Pokémon in the same spot on the map | representational collapse | `092` |
+| Writing "a photo of a Flareon" and finding the nearest image | CLIP-style zero-shot classification from a shared embedding space | `092`, `094` |
+| **Developing a photo out of static** | diffusion; training is "spot the static", sampling is repeated removal | `093` |
+| The "how literally?" dial | classifier-free guidance | `093` |
+| Developing a compressed sketch rather than every pixel | latent diffusion | `093` |
+| "What is halfway between Pikachu and Charizard?" | why diffusion suits continuous data and struggles with discrete text | `093` |
+| **The spotter who describes the field in the Trainer's own format** | a vision encoder plus a projector | `094` |
+| Answering without really looking at the photo | modality imbalance — text-only hallucination in a VLM | `040`, `094` |
+| **"The metagame moved and nobody told your Trainer"** | drift; four kinds needing four responses | `095` |
+| The same lead meaning something different this season | concept drift — the only kind that necessarily degrades accuracy | `095` |
+| Somebody changing how the scoreboard reports HP | upstream pipeline breakage, which is most drift alerts | `095`, `098` |
+| Watching what your Trainer *says* before results arrive | prediction drift as the earliest label-free signal | `095` |
+| **"Does the new Trainer actually win more?"** | online A/B testing versus offline metrics | `096` |
+| Deal-breakers that must not get worse | guardrail metrics — latency, cost, complaint rate | `096`, `097` |
+| Checking every morning and stopping when ahead | peeking, and the false-positive rate it inflates | `096` |
+| A 50.4/49.6 split | sample ratio mismatch — check it before anything else | `096` |
+| **Reading the team sheet vs playing the turns** | prefill (compute-bound) vs decode (bandwidth-bound) | `008`, `097` |
+| Stopping the Trainer monologuing | shortening output, the most ignored cost lever | `097` |
+| Not sending the Champion to every match | model routing by difficulty | `057`, `097` |
+| Seating a new challenger the moment a table frees up | continuous / in-flight batching | `097` |
+| Matches per hour *at an acceptable speed* | goodput, rather than raw throughput | `097` |
+| **The practice scoreboard reading differently from the live one** | training-serving skew | `098` |
+| A January match scored with September's career totals | time-travel skew, and why it produces excellent offline metrics | `065`, `098` |
+| Writing down exactly what the live board showed, then training on that | logging serving features — skew becomes structurally impossible | `098` |
+| **Rough sweep, careful ranking, final polish** | the retrieval → ranking → re-ranking funnel of a recommender | `046`, `099` |
+| Trainers and Pokémon placed on the same map | two-tower retrieval, and why it cannot notice "they already have three Fire types" | `043`, `099` |
+| The Pokémon shown first getting caught most | position bias | `099` |
+| Recommending only what you are confident about | the exploration problem and the feedback loop that narrows the catalogue | `095`, `099` |
+| **Five incompatible meanings of "fair"** | the fairness impossibility results — demographic parity, equalised odds, calibration | `100` |
+| Deleting "region" but keeping hometown and academy | fairness through unawareness failing, and losing the ability to audit | `100` |
+| Removing duplicate footage | deduplication, which reduces memorisation *and* improves quality | `012`, `100` |
+| Noise that drowns out the two hundred Alola records | differential privacy hurting under-represented groups most | `100` |
+| "Kanto 94%, Johto 92%, Alola 61%" | disaggregated evaluation — the single highest-value fairness practice | `037`, `100` |
 
 ---
 
