@@ -11,9 +11,11 @@ tags: [hallucination, calibration, rag, grounding, abstention]
 # Hallucination: your Trainer invents a Pokémon
 
 > **You:** "What's Flareon's Hidden Ability?"
-> **Trainer:** "Flash Fire — no wait, Guts. It boosts Attack when statused."
+> **Trainer:** "Flash Fire. It raises its Attack whenever it's hit by a Fire move."
 
-Delivered with total confidence. Completely wrong.
+Two errors in one breath, delivered without a flicker of doubt. Flareon's Hidden Ability is
+**Guts**; Flash Fire is its *ordinary* ability — and what Flash Fire does is absorb Fire moves
+and power up its own, not raise Attack.
 
 The key thing to understand: **this is not a malfunction.** Your Trainer is working exactly as
 designed. The design is the problem.

@@ -40,8 +40,8 @@ looking at a **party**, in order, and not a shoebox of monsters.
 
 ## RoPE: spin the ball 🌀
 
-Instead of writing a number on the Poké Ball, you **spin** it. Slot 1 gets one click of spin,
-slot 2 gets two clicks, slot 7 gets seven.
+Instead of writing a number on the Poké Ball, you **spin** it. The lead ball gets no spin at
+all, slot 2 gets one click, slot 4 gets three, slot 8 gets seven.
 
 ```
       slot 0            slot 3              slot 7

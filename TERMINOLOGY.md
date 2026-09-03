@@ -303,8 +303,9 @@ the point: why this particular creature and not another.
 | **Milotic** | Water | An elegant serpentine Water type | [`047`](answers/pokemon/047-query-rewriting-hyde.md)'s resolution of the pronoun "the other one" — the concrete referent a follow-up question needs |
 | **Chansey** | Normal | Enormous HP, almost no Defence; a dedicated wall | [`016`](answers/pokemon/016-next-token-prediction.md)'s example of a Pokémon deliberately kept alive at 4 HP for a reason you had to have been watching to know |
 | **Skarmory** | Steel/Flying | An armoured bird; another classic defensive wall | [`017`](answers/pokemon/017-teacher-forcing-exposure-bias.md)'s misidentification: the Trainer decides turn 3 that a Ferrothorn is a Skarmory and then plays ten flawless turns against a Pokémon that does not exist |
-| **Snorlax** | Normal | Famously huge and heavy; a giant sleeping bear | Two jobs: an unusual thing to run into in the wild ([`018`](answers/pokemon/018-pretraining-sft-rlhf.md)), and the **outlier** — the one entry on the page whose value is 9,000 when everything else is 40–90 ([`030`](answers/pokemon/030-quantization.md)) |
+| **Snorlax** | Normal | Famously huge and heavy; a giant sleeping bear | An unusual thing to run into in the wild ([`018`](answers/pokemon/018-pretraining-sft-rlhf.md)); and in [`086`](answers/pokemon/086-pca.md) the far end of the "physical bruiser" axis |
 | **Ditto** | Normal | A blob that transforms into whatever it faces; has no real identity of its own | [`043`](answers/pokemon/043-embeddings.md), where it sits alone on the embedding map "being weird" |
+| **Blissey** | Normal | Base HP of 255 — by a wide margin the most extreme single stat in the games, against a typical 40–90 | The **outlier** in [`030`](answers/pokemon/030-quantization.md): the one entry that forces your rounding scale so wide that every ordinary Pokémon collapses into the same two or three values |
 | **Alakazam** | Psychic | Enormous Special Attack, paper-thin defences — the archetypal glass cannon | [`086`](answers/pokemon/086-pca.md), as the far end of the "physical bruiser ↔ special sweeper" axis that PCA discovers |
 | **Starmie** | Water/Psychic | A fast, fragile Water-type; Misty's signature Pokémon in the anime | [`099`](answers/pokemon/099-ml-system-design.md), as the lead whose meaning inverts when the metagame shifts |
 | **Arceus** | Normal | Framed in-universe as the creator of the Pokémon world; the highest total stats in the games | [`086`](answers/pokemon/086-pca.md), as the top of the stat-total range against Magikarp's floor |
@@ -329,8 +330,8 @@ the point: why this particular creature and not another.
 | **Wallace** | A **Water** specialist — Gym Leader of Sootopolis City, and Champion in one game | [`011`](answers/pokemon/011-mixture-of-experts.md)'s second Water expert, so a challenger can be routed to two of them (top-2 gating) |
 | **Blaine** | Gym Leader of Cinnabar Island; **Fire** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster; also the answer's example of the expert specialisation you *hoped* for and did not get |
 | **Surge** (Lt. Surge) | Gym Leader of Vermilion City; **Electric** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster |
-| **Agatha** | A member of the Elite Four; **Ghost** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster |
-| **Lance** | A member of the Elite Four, later Champion; **Dragon** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster |
+| **Morty** | Gym Leader of Ecruteak City; **Ghost** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster |
+| **Clair** | Gym Leader of Blackthorn City; **Dragon** type | On the [`011`](answers/pokemon/011-mixture-of-experts.md) roster |
 | **The Elite Four** | The four Trainers between the badges and the Champion | The gauntlet after the grind ([`001`](answers/pokemon/001-attention-mechanisms.md), [`014`](answers/pokemon/014-scaling-laws.md)) |
 | **The League** | The whole institution — Gyms, badges, Elite Four, Champion | Used for the model as a whole: "a hundred-Gym League" is a hundred-layer network ([`005`](answers/pokemon/005-layer-normalization.md), [`006`](answers/pokemon/006-residual-connections.md)), and a League of sixty-four Gyms is an MoE ([`011`](answers/pokemon/011-mixture-of-experts.md)) |
 
@@ -345,9 +346,10 @@ better than a placeholder.
 | --- | --- | --- |
 | Thunderbolt | Strong reliable Electric attack | The dataset's default action, in 20+ answers |
 | Thunder | Stronger, less accurate Electric attack; never misses in rain | [`001`](answers/pokemon/001-attention-mechanisms.md), [`031`](answers/pokemon/031-knowledge-distillation.md) — the near-miss that shows a distilled ranking is richer than a label |
-| Splash | Does nothing whatsoever; Magikarp's signature | The null action ([`012`](answers/pokemon/012-tokenization-bpe.md), [`031`](answers/pokemon/031-knowledge-distillation.md), [`034`](answers/pokemon/034-sampling-temperature-top-p.md), [`035`](answers/pokemon/035-beam-search.md)) |
+| Splash | Does nothing whatsoever; Magikarp's signature, and learnable by almost nothing else | The null action — used only where a Magikarp is the one doing it ([`013`](answers/pokemon/013-context-length-limits.md), [`016`](answers/pokemon/016-next-token-prediction.md), [`034`](answers/pokemon/034-sampling-temperature-top-p.md)) |
+| Tail Whip | Lowers the target's Defence by one stage; an early Pikachu level-up move | The plausible-but-pointless option in every ranked move list ([`031`](answers/pokemon/031-knowledge-distillation.md), [`034`](answers/pokemon/034-sampling-temperature-top-p.md), [`083`](answers/pokemon/083-softmax-and-logsumexp.md), [`085`](answers/pokemon/085-label-smoothing.md)) |
 | Ember / Flamethrower | Weak and strong Fire attacks | [`006`](answers/pokemon/006-residual-connections.md)'s early and late moveset entries; [`026`](answers/pokemon/026-catastrophic-forgetting.md)'s forgotten Fire move |
-| Growl / Leer / Smokescreen / Tackle / Scratch / Bite / Slash / Dragon Rage | Assorted early-game moves | [`006`](answers/pokemon/006-residual-connections.md)'s movesets, kept and rerolled |
+| Growl / Leer / Smokescreen / Tackle / Scratch / Bite / Slash / Flamethrower | Charmander-line moves, cited at levels the line actually learns them | [`006`](answers/pokemon/006-residual-connections.md)'s movesets, kept and rerolled |
 | Surf / Waterfall / Aqua Tail / Rain Dance | Water moves | [`026`](answers/pokemon/026-catastrophic-forgetting.md)'s Water-camp curriculum |
 | Rock Slide | Rock attack | [`026`](answers/pokemon/026-catastrophic-forgetting.md)'s achievable specialist gain |
 | Power Whip | Strong Grass attack; a Ferrothorn staple | [`016`](answers/pokemon/016-next-token-prediction.md) |
@@ -365,7 +367,7 @@ better than a placeholder.
 | --- | --- | --- |
 | **Focus Sash** | Lets the holder survive one otherwise-fatal hit at 1 HP, then is consumed | The hidden fact the type-chart-only coach misses ([`001`](answers/pokemon/001-attention-mechanisms.md), [`003`](answers/pokemon/003-multi-head-attention.md), [`009`](answers/pokemon/009-mqa-and-gqa.md), [`053`](answers/pokemon/053-react-agents.md)) |
 | **Leftovers** | Restores a little HP every turn | A stock detail in the battle notebook ([`008`](answers/pokemon/008-kv-cache.md), [`042`](answers/pokemon/042-chunking-strategies.md)) |
-| **Damp Rock** | Extends rain by three turns; carried by rain teams | [`027`](answers/pokemon/027-lora.md)'s LoRA adapter — a tiny object that specialises a Champion for wet weather without touching it |
+| **Mystic Water** | A held item that boosts the holder's Water-type moves | [`027`](answers/pokemon/027-lora.md)'s LoRA adapter — a tiny object that nudges a Champion's output without altering the Champion |
 | **Charcoal** / **Magnet** / **Mystic Water** | Each boosts moves of one type | [`011`](answers/pokemon/011-mixture-of-experts.md) and [`027`](answers/pokemon/027-lora.md), as the swappable specialisation |
 | **Assault Vest** | Boosts Special Defence but forbids status moves | [`047`](answers/pokemon/047-query-rewriting-hyde.md), inside the too-specific query |
 
@@ -375,7 +377,7 @@ better than a placeholder.
 | --- | --- | --- |
 | **Sturdy** | The holder survives a would-be one-hit KO at 1 HP | The dataset's canonical *second* thing to check. A coach who reads only the type chart walks straight into it ([`001`](answers/pokemon/001-attention-mechanisms.md), [`003`](answers/pokemon/003-multi-head-attention.md), [`009`](answers/pokemon/009-mqa-and-gqa.md)) |
 | **Swift Swim** | Doubles Speed in rain | The payoff half of a rain plan ([`016`](answers/pokemon/016-next-token-prediction.md), [`051`](answers/pokemon/051-in-context-learning.md)) |
-| **Flash Fire** / **Guts** | Flareon's regular and hidden abilities | [`040`](answers/pokemon/040-hallucination.md), in the question the Trainer is asked to answer from memory |
+| **Flash Fire** / **Guts** | Flareon's *ordinary* and *hidden* abilities respectively. Flash Fire absorbs incoming Fire moves and powers up its own; Guts raises Attack when statused | [`040`](answers/pokemon/040-hallucination.md): the Trainer names the ordinary ability for the hidden one **and** garbles its effect — the exact shape of a real hallucination |
 | **Hidden Ability** | A rarer alternative ability some Pokémon can have | [`040`](answers/pokemon/040-hallucination.md) — chosen because it is exactly the kind of detail that is stored fuzzily |
 
 ---
@@ -386,8 +388,8 @@ Four proper nouns in the dataset look like species and are not.
 
 | Term | What it really is | Where |
 | --- | --- | --- |
-| **Chinchilla** | The 2022 DeepMind compute-optimal scaling result. The Pokémon answer keeps the paper's name and treats it as a well-battled Level 70 Pokémon | [`014`](answers/pokemon/014-scaling-laws.md) |
-| **Gopher** | The larger, under-trained DeepMind model Chinchilla outperformed; here, a "candy-stuffed Lv280" | [`014`](answers/pokemon/014-scaling-laws.md) |
+| **Chinchilla** | The 2022 DeepMind compute-optimal scaling result. The Pokémon answer keeps the paper's name and treats it as a small, thoroughly battled Pokémon | [`014`](answers/pokemon/014-scaling-laws.md) |
+| **Gopher** | The larger, under-trained DeepMind model Chinchilla outperformed; here, a candy-stuffed Pokémon four times the size | [`014`](answers/pokemon/014-scaling-laws.md) |
 | **SolidGoldMagikarp** | A real undertrained token from GPT-2/GPT-3's vocabulary that caused bizarre model behaviour. The dataset's "cursed tile" | [`012`](answers/pokemon/012-tokenization-bpe.md) |
 | **Big Steve** | A nicknamed Charizard, invented for the answer | [`012`](answers/pokemon/012-tokenization-bpe.md) |
 | **TM-4471**, `XQ7-FLAREON-9982` | Invented identifiers used as exact-match and canary strings | [`039`](answers/pokemon/039-benchmark-contamination.md), [`045`](answers/pokemon/045-hybrid-search-reranking.md), [`047`](answers/pokemon/047-query-rewriting-hyde.md) |
@@ -456,7 +458,7 @@ means the same thing by it.
 | **A held item** | a LoRA adapter — frozen base, tiny trainable object, swappable, initialised to no effect | [`026`](answers/pokemon/026-catastrophic-forgetting.md), [`027`](answers/pokemon/027-lora.md), [`028`](answers/pokemon/028-qlora.md), [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md) |
 | Fusing the item into the Pokémon | merging adapter weights back into the base | [`027`](answers/pokemon/027-lora.md), [`028`](answers/pokemon/028-qlora.md) |
 | **Shorthand** — writing every stat more coarsely | quantization | [`028`](answers/pokemon/028-qlora.md), [`030`](answers/pokemon/030-quantization.md), [`044`](answers/pokemon/044-vector-databases-ann.md) |
-| **The Snorlax on the page** — one entry at 9,000 when the rest are 40–90 | outliers, and why per-tensor scaling fails | [`030`](answers/pokemon/030-quantization.md) |
+| **The Blissey on the page** — 255 HP when the rest are 40–90 | activation outliers, and why one scale per tensor fails | [`030`](answers/pokemon/030-quantization.md) |
 | **The Champion teaching the rookie** its full ranking, not just its pick | knowledge distillation on soft targets | [`031`](answers/pokemon/031-knowledge-distillation.md), [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md) |
 | Snipping lines / two-of-every-four / tearing out pages | unstructured, 2:4 semi-structured, and structured pruning | [`032`](answers/pokemon/032-pruning-and-sparsity.md) |
 | The lottery ticket hidden in a fat Pokédex | the lottery ticket hypothesis | [`032`](answers/pokemon/032-pruning-and-sparsity.md) |
@@ -475,7 +477,7 @@ means the same thing by it.
 | A **Champion in the referee's chair** | LLM-as-a-judge, with position, length, self-preference and style biases | [`038`](answers/pokemon/038-llm-as-a-judge.md) |
 | Planting a nonsense code word in the exam paper | a canary string for contamination detection | [`039`](answers/pokemon/039-benchmark-contamination.md) |
 | Comparing scores on pre-cutoff and post-cutoff battles | the cleanest contamination signal there is | [`039`](answers/pokemon/039-benchmark-contamination.md) |
-| Inventing Flareon's ability, confidently | hallucination — five distinct failures under one name | [`040`](answers/pokemon/040-hallucination.md) |
+| Naming Flareon's ordinary ability as its hidden one, and garbling the effect | hallucination — five distinct failures under one name | [`040`](answers/pokemon/040-hallucination.md) |
 
 ### Retrieval
 

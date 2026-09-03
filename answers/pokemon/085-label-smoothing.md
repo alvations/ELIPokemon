@@ -32,7 +32,7 @@ Change the answer key.
    Thunderbolt   100%               Thunderbolt   90%
    Volt Switch     0%               Volt Switch    0.1%
    Protect         0%               Protect        0.1%
-   Splash          0%               Splash         0.1%
+   Tail Whip       0%               Tail Whip      0.1%
 
    Target: absolute certainty.      Target: strong, not absolute.
    Never reachable → never stops    Reachable → training completes,
@@ -67,10 +67,10 @@ Remember what makes a Champion a good teacher: the **structure in its near-misse
       Thunderbolt   85%
       Thunder       11%   ⬅ "same plan, riskier — these are cousins"
       Surf           2%
-      Splash         2%
+      Tail Whip      2%
 
    The rookie learns: Thunderbolt and Thunder are RELATED.
-   Surf and Splash are different ideas entirely.
+   Surf and Tail Whip are different ideas entirely.
 ```
 
 Now soften it:
@@ -80,7 +80,7 @@ Now soften it:
       Thunderbolt   90%
       Thunder        0.1%  ⬅ ─┐
       Surf           0.1%  ⬅ ─┤ all identical now
-      Splash         0.1%  ⬅ ─┘
+      Tail Whip      0.1%  ⬅ ─┘
 
    The rookie learns: Thunderbolt. And... nothing else.
 ```

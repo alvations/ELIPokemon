@@ -53,9 +53,9 @@ gets stapled onto its notice board.
                  ✨ FIRES           ✨ FIRES          ✨ FIRES
                    │                  │                  │
                    ▼                  ▼                  ▼
-             "→ weak to Rock"   "→ Fire-type,      "→ final evo,
-              "→ hits Stealth     burns Grass"       fully evolved"
-                 Rock hard"
+             "→ 4× weak to Rock" "→ Fire-type,     "→ final evo,
+              "→ Stealth Rock      burns Grass"      fully evolved"
+                 takes half its HP"
                    └──────────────────┼──────────────────┘
                                       ▼
                           stapled onto the notice board

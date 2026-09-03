@@ -16,7 +16,7 @@ Your Pokémon has ranked its options for this turn:
    Thunderbolt   ████████████████████   64%
    Volt Switch   ███████                23%
    Protect       ███                     9%
-   Splash        █                       4%
+   Tail Whip     █                       4%
 ```
 
 Now — **how do you pick?** Always the top one? Roll the dice? That choice changes your Pokémon's
@@ -43,7 +43,7 @@ Temperature squeezes or stretches the gaps between options.
   🔥 T = 2.0  ████████████  42%
               ████████  26%
               ██████  16%
-              Wild. Creative. Will Splash into a Gyarados for no reason.
+              Wild. Creative. Will Tail Whip a Gyarados for no reason.
 ```
 
 Key detail: temperature **never changes the ranking**. Thunderbolt is still its favourite at every
@@ -91,7 +91,7 @@ You'd think "always play your best move" is optimal. It isn't, and the failure i
 
 Always taking the locally-safest option produces **loops**. Real Champions play slightly
 unexpectedly — not randomly, but not on rails either. Total predictability is its own weakness, and
-it's how you end up watching a Pokémon Splash at a wall for forty turns.
+it's how you end up watching a Magikarp Splash at a wall for forty turns.
 
 ## 📐 The newer dial: min-p
 

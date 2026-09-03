@@ -16,7 +16,7 @@ Your Pokémon has rated its options:
    Thunderbolt   score  8.2
    Volt Switch   score  5.1
    Protect       score  3.8
-   Splash        score -2.0
+   Tail Whip     score -2.0
 ```
 
 Those are **raw scores**. They don't add up to anything. You need a **plan for the turn** — and you
@@ -28,7 +28,7 @@ Softmax does that conversion:
    Thunderbolt   ████████████████████  92%
    Volt Switch   ███                    6%
    Protect       █                      2%
-   Splash        ▏                      0%
+   Tail Whip     ▏                      0%
                                        ────
                                        100%  ← one turn, fully allocated
 ```

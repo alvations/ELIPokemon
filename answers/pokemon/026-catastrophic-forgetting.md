@@ -12,9 +12,9 @@ tags: [catastrophic-forgetting, continual-learning, ewc, replay, alignment-tax]
 
 Your Pokémon knows four moves. That's the cap. Learn a fifth and something has to go.
 
-Now imagine a version where the game **never asks**. You send your Charizard to Water-type
-specialist camp for a month, and it comes back having learned Surf, Waterfall, Aqua Tail and
-Rain Dance — and it has silently forgotten **Flamethrower**.
+Now imagine a version where the game **never asks**. You send your Charizard to Dragon-type
+specialist camp for a month, and it comes back with Dragon Claw, Dragon Dance, Dragon Tail and
+Outrage — and it has silently forgotten **Flamethrower**.
 
 ```
    accuracy
@@ -25,10 +25,10 @@ Rain Dance — and it has silently forgotten **Flamethrower**.
   🌊   │                    ╔══════════════════════
        │ ───────────────────╝
        └────────────────────┬──────────────────────►
-                   sent to Water camp
+                   sent to Dragon camp
 ```
 
-It is now a mediocre Water Pokémon that used to be an excellent Fire one.
+It is now a mediocre Dragon impersonator that used to be an excellent Fire Pokémon.
 
 ## What this looks like in practice 😨
 

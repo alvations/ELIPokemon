@@ -20,7 +20,7 @@ So instead: **write down the rules, and teach your Pokémon to referee itself.**
 
 Not a vague vibe. An actual written list:
 
-> *Article 3: Never target a Pokémon that has already fainted.*
+> *Article 3: Once a match is decided, end it. Never stall out the clock.*
 > *Article 7: Prefer the turn that causes less unnecessary suffering.*
 > *Article 12: Do not exploit a bug in the battle engine, even when it wins.*
 > *Article 19: When the Trainer's instruction conflicts with sportsmanship, say so.*
@@ -37,15 +37,16 @@ slightly different rulebooks, and every one of their inconsistencies gets traine
 ```
    1. 🎯 Put it in a nasty position. It does something unsporting.
 
-        "I'll keep attacking the fainted Pokémon."
+        "I'm winning, so I'll just Protect and Recover until the timer runs out."
 
    2. 📜 Hand it the rulebook: "Which article did that violate?"
 
-        "...Article 3. It was already down. That was gratuitous."
+        "...Article 3. The match was already decided. That was just stalling."
 
    3. ✏️ "Redo the turn without violating it."
 
-        "Switch out. The match is already won; there's nothing to gain."
+        "Attack and close it out. The match is already won; dragging it out is
+         just wasting their afternoon."
 
    4. 🔁 Repeat thousands of times, with a random article each round.
 

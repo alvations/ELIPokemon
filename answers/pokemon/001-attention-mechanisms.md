@@ -28,8 +28,10 @@ Pikachu does not treat them as equals. Its attention lights up:
 * **90% on Gyarados** — Electric hits Water/Flying for 4× damage.
 * **10% on Golem** — Ground immunity means Electric does literally nothing.
 
-Now swap Gyarados for **Ferrothorn** (Grass/Steel), and the spotlight moves on its own.
-Nothing about Pikachu changed. The *field* changed, and the attention followed.
+Now put a **Grass** move in Pikachu's mouth instead. The spotlight *inverts on its own*:
+Grass hits Golem's Rock/Ground for 4×, while Gyarados's Flying half resists it back down to
+neutral. Same two Pokémon, same field — opposite answer. Nothing about Pikachu changed. The
+*question* changed, and the attention followed.
 
 ## Query, Key, Value: the Pokédex lookup 🎒
 
@@ -53,7 +55,7 @@ Nothing about Pikachu changed. The *field* changed, and the attention followed.
           weight 0.90                             weight 0.10
                │                                       │
    ┌───────────▼────────────┐              ┌───────────▼────────────┐
-   │ Value: 340 HP, about   │              │ Value: shrugs, sets    │
+   │ Value: 331 HP, about   │              │ Value: shrugs, sets    │
    │ to faint, no Sturdy    │              │ up Stealth Rock        │
    └───────────┬────────────┘              └───────────┬────────────┘
                └───────────────┬───────────────────────┘
@@ -109,5 +111,5 @@ inevitably forgot that the enemy set up Stealth Rock nine turns ago. Attention l
 look directly at any other turn, one hop, no forgetting.
 
 The cost: with a full team on a huge field, you compare *everyone* to *everyone*. Six
-Pokémon is easy. A stadium of a thousand is where your PP starts running out — which is why
+Pokémon is easy. A stadium of a thousand is where the battle timer runs out — which is why
 so much of the field's engineering is about scouting smarter instead of scouting everything.

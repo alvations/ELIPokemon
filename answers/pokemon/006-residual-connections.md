@@ -13,7 +13,7 @@ tags: [resnet, residual, gradient-flow, identity]
 Here's a nightmare version of the games. Every time your Pokémon levels up, it **forgets its
 entire moveset** and learns four brand-new moves from scratch.
 
-Level 20 Charmeleon: Ember, Growl, Smokescreen, Dragon Rage. Nice.
+Level 20 Charmeleon: Ember, Growl, Smokescreen, Scratch. Nice.
 Level 21: all four gone, replaced by whatever the game rolls.
 
 Now train to Level 100. You'd have a *worse* Pokémon than the Level 20 one, because you rolled
@@ -23,18 +23,18 @@ the 20-layer one **on the training data**. Not overfitting. It just couldn't hol
 
 ## The actual rule: you keep what you have
 
-Real Pokémon level-ups say: *"Charmeleon wants to learn Flamethrower. Forget a move?"* — and
+Real Pokémon level-ups say: *"Charmeleon wants to learn Slash. Forget a move?"* — and
 you can say **no**. Your Pokémon carries everything it had, plus whatever it just picked up.
 
 ```
   ❌ THE NIGHTMARE                      ✅ THE REAL RULE
 
-  Lv20: [Ember][Growl][Smoke][Rage]     Lv20: [Ember][Growl][Smoke][Rage]
-           ↓ wipe, reroll                        ↓ + Flamethrower
-  Lv21: [Tackle][Leer][Sand][Bite]      Lv21: [Ember][Growl][Smoke][Rage]
-           ↓ wipe, reroll                       +[Flamethrower]
-  Lv22: [Growl][Growl][Leer][Tackle]             ↓ + Slash
-           ↓ ...                        Lv22: everything above +[Slash]
+  Lv20: [Ember][Growl][Smoke][Scratch]  Lv20: [Ember][Growl][Smoke][Scratch]
+           ↓ wipe, reroll                        ↓ + Slash
+  Lv30: [Tackle][Leer][Sand][Bite]      Lv30: [Ember][Growl][Smoke][Scratch]
+           ↓ wipe, reroll                       +[Slash]
+  Lv44: [Growl][Growl][Leer][Tackle]             ↓ + Flamethrower
+           ↓ ...                        Lv44: everything above +[Flamethrower]
   Lv100: whatever the last roll gave              ↓ ...
          (probably garbage)             Lv100: every good move it ever learned
 ```

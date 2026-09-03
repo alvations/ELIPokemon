@@ -27,7 +27,7 @@ But ask the **Champion** and you get something far richer:
    Thunderbolt ✅                  Thunderbolt   85%  "clearly best"
    Thunder     ❌                  Thunder       11%  "same idea, riskier"
    Surf        ❌                  Surf           2%
-   Splash      ❌                  Splash         2%
+   Tail Whip   ❌                  Tail Whip      2%
 
    One fact.                      A whole worldview.
 ```
@@ -37,7 +37,7 @@ Thunder are cousins** — same plan, different risk — while Surf is a complete
 It's teaching the *shape of the decision*, not just the decision.
 
 The answer key can never teach that. All it says is "these three were wrong," as if Thunder and
-Splash were equally wrong. They are not remotely equally wrong.
+Tail Whip were equally wrong. They are not remotely equally wrong.
 
 That structure in the near-misses is the actual gift.
 
@@ -55,7 +55,7 @@ So you ask the Champion to **think out loud less decisively**:
    confident:  ████████████████████▏▏▏▏      rookie learns: "Thunderbolt"
    softened:   ████████████▎▎▎▎▎▎▏▏▏         rookie learns: "Thunderbolt,
                                               then Thunder, then Surf,
-                                              and Splash is absurd"
+                                              and Tail Whip is absurd"
 ```
 
 Same knowledge. Vastly more of it transmitted.

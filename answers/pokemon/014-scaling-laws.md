@@ -12,15 +12,15 @@ tags: [scaling-laws, chinchilla, compute-optimal, kaplan, inference-cost]
 
 You have a fixed budget for the summer. You can spend it two ways:
 
-* 🍬 **Rare Candy** — pure levels. Bigger numbers, right now.
-* ⚔️ **Actual battles** — slower, but your Pokémon learns from every fight.
+* 🍬 **Rare Candy** — pure levels. Bigger numbers, right now, and **no EVs whatsoever**.
+* ⚔️ **Actual battles** — slower, but every fight builds EVs as well as levels.
 
 The scaling law question is: *what's the split?*
 
 ## The first answer was wrong 🍬
 
 For years the accepted wisdom was **"mostly Rare Candy."** Get the level up. Levels are what
-win battles. Feed the candy, hit Level 100, worry about experience later.
+win battles. Feed the candy, hit Level 100, worry about the actual battling later.
 
 So everyone built enormous, under-battled Pokémon: Level 100 with the battle instincts of a Level
 25. Huge stats, no idea what to do with them.
@@ -50,8 +50,8 @@ level.**
        (Lv100, clueless)                  (Lv15, brilliant, still dies
                                            to a Gym Leader's stat check)
 
-   The proof: a properly battled Lv70 Chinchilla beat a candy-stuffed
-   Lv280 Gopher, on the same summer budget, at nearly everything.
+   The proof: a properly battled Chinchilla beat a candy-stuffed Gopher
+   FOUR TIMES its size, on the same summer budget, at nearly everything.
 ```
 
 Four times smaller. Four times more battle experience. Won anyway.
@@ -62,8 +62,8 @@ Chinchilla answers *"cheapest way to raise a strong Pokémon."*
 
 But nobody raises a Pokémon to admire it in the PC box. You're going to **battle with it every
 single day for years.** And here's the thing: your daily costs scale with your Pokémon's
-**level**, not with how many battles it took to get there. A Level 280 monster is expensive to
-field every single day. A Level 70 is cheap forever.
+**size**, not with how many battles it took to get there. A four-times-bigger monster is
+expensive to field every single day. A small one is cheap forever.
 
 So if you're going to compete daily, the right move is deliberately "wrong":
 
@@ -71,7 +71,7 @@ So if you're going to compete daily, the right move is deliberately "wrong":
 
 Pay once in a brutal training summer. Save every single day after.
 
-That's why modern teams raise Level 7-to-70 Pokémon on **15,000 battles** — ratios of 300:1
+That's why modern teams raise deliberately small Pokémon on **15,000 battles** — ratios of 300:1
 instead of 20:1. Wildly "inefficient" by Chinchilla, completely correct in practice, because the
 summer is one bill and the season is a thousand.
 

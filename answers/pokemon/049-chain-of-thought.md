@@ -19,8 +19,8 @@ Now:
 
 > **You:** "Work it out loud."
 > **Trainer:** *"Right. Thunderbolt is 90 base power. Gyarados is Water/Flying — that's 4× weak, so
-> 360 effective. My Pikachu's Special Attack is 306 with the boost. Gyarados has 331 HP and no
-> investment in Special Defence... yes, that's a comfortable KO."* ✅
+> 360 effective. My Pikachu's Special Attack is 199, doubled to 398 by its Light Ball. Gyarados
+> has 331 HP and nothing invested in Special Defence... yes, that's a comfortable KO."* ✅
 
 Same Pokémon. Same knowledge. **Vastly better answer.**
 

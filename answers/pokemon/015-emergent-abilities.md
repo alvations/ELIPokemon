@@ -31,17 +31,17 @@ Suppose your only test is **"can it beat Brock's Onix?"** — pass or fail, no p
 But now measure **how much damage it dealt** instead:
 
 ```
-  Lv15: 4 damage    ▏
-  Lv16: 9 damage    ▎
-  Lv17: 19 damage   ▌
-  Lv18: 38 damage   █
-  Lv19: 71 damage   ██        ← Onix has 75 HP
-  Lv20: 140 damage  ████
+  Lv15: 2 damage    ▏
+  Lv16: 4 damage    ▎
+  Lv17: 9 damage    ▌
+  Lv18: 19 damage   █
+  Lv19: 38 damage   ██        ← Brock's Lv14 Onix has 41 HP
+  Lv20: 76 damage   ████
 ```
 
 It was **doubling every level the whole time**. Perfectly smooth. Utterly predictable.
 
-Nothing jumped. Your *scoreboard* jumped, because "beat Onix" is a cliff at 75 HP and you
+Nothing jumped. Your *scoreboard* jumped, because "beat Onix" is a cliff at 41 HP and you
 happened to cross it between Levels 19 and 20.
 
 ```

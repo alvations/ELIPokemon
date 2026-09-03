@@ -10,13 +10,13 @@ tags: [lora, peft, low-rank, adapters, intrinsic-dimension]
 
 # LoRA is a held item
 
-Your Champion is perfect. Thousands of hours of training. You would like it to be *slightly*
-better in the rain.
+Your Champion is perfect. Thousands of hours of training. You would like it to hit *slightly*
+harder with its one Water move.
 
 **Option A:** send it to a month-long Water camp, rebuild it from the ground up, and pray it
 comes back still knowing how to breathe fire.
 
-**Option B:** give it a **Damp Rock**. 🪨
+**Option B:** give it a **Mystic Water**. 💧
 
 ```
    🏕️ RETRAIN EVERYTHING              🎒 HELD ITEM
@@ -31,7 +31,7 @@ comes back still knowing how to breathe fire.
    │   being rewritten │              └─────────┬─────────┘
    │                   │                        │
    └───────────────────┘                        ▼
-                                            🪨 Damp Rock
+                                            💧 Mystic Water
    Massive. Slow. Risky.                    tiny, swappable
    Might forget Flamethrower.
                                         Take it off → your
@@ -44,9 +44,9 @@ comes back still knowing how to breathe fire.
 Because you are not making a **new Pokémon**. You're making a small adjustment to an
 extraordinary one.
 
-Everything needed to fight in the rain is already in there — it knows what rain does, it knows
-its own moves, it knows the type chart. It just needs a nudge toward *"prefer these lines when
-it's wet."*
+Everything needed to swing a Water move harder is already in there — it knows the move, it knows
+its own stats, it knows the type chart. It just needs a nudge toward *"lean on that line more
+often."*
 
 Nudges are small. That's the whole insight: adapting a great Pokémon takes **far fewer
 adjustments than building one**.
@@ -69,7 +69,7 @@ garage.
 **🎒 A bag full of items, one Pokémon.** This is the real magic.
 
 ```
-   ONE Champion  +  🪨 Damp Rock      →  rain specialist
+   ONE Champion  +  💧 Mystic Water   →  water specialist
                  +  🔥 Charcoal       →  fire specialist
                  +  ⚡ Magnet          →  electric specialist
                  +  🏥 Medical badge  →  medical specialist
@@ -84,16 +84,16 @@ Try that with retraining and you need five entire Champions.
 
 **⚡ No speed penalty.** Once you're settled, you can permanently fuse the item's effect into the
 Pokémon and it becomes an ordinary Champion again — no held item, no overhead, just better in the
-rain. (Keep it unfused if you want to keep swapping.)
+Water moves. (Keep it unfused if you want to keep swapping.)
 
 **🛡️ It cannot forget.** The Champion underneath is untouched. Not "mostly preserved" — untouched.
 Worst case, the item is useless and you take it off.
 
 ## Knobs 🎛️
 
-* 🎯 **Item strength.** A stronger item allows a bigger adjustment. Weak items handle "prefer rain
-  lines"; you'd want a stronger one for a genuinely different fighting style. Most tasks need less
-  than people expect.
+* 🎯 **Item strength.** A stronger item allows a bigger adjustment. Weak items handle "lean on
+  that move more"; you'd want a stronger one for a genuinely different fighting style. Most tasks
+  need less than people expect.
 * 📍 **Where it applies.** Early practice attached items only to the Pokémon's targeting instincts.
   Turns out attaching to its *knowledge* too works noticeably better for the same cost.
 * 🏃 **Train it much harder than you'd think.** A held item wants aggressive training —

@@ -25,7 +25,7 @@ idea what they're building toward, and no idea why anything is happening.
    ┌──────────────────────────────────────────────────────────────┐
    │  🤔 THINK    "Gyarados is out. It's 4× weak to Electric."     │
    │  ⚡ ACT      Thunderbolt.                                      │
-   │  👀 LOOK     "It survived at 8% — it had a Focus Sash."       │
+   │  👀 LOOK     "It survived on exactly 1 HP — Focus Sash."      │
    │  🤔 THINK    "Sash is used up now. Anything finishes it."     │
    │  ⚡ ACT      Quick Attack.                                     │
    │  👀 LOOK     "Gyarados fainted. They're sending in Ferrothorn."│

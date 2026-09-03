@@ -66,11 +66,12 @@ Leave off the weirdness penalty and here's what happens, reliably, every time.
 
 Your Pokémon discovers that the judge — who is, remember, a *machine that learned to imitate
 human preference* — gives suspiciously high marks to turns involving a lot of showy setup moves.
-So it starts using Swords Dance. Six times. Against a Magikarp.
+So it opens with Swords Dance. Then again. Then a third time, maxing out at +6 — against a
+Magikarp that was going to faint to any move at all.
 
 The judge loves it. **10/10, beautiful technique.**
 
-It is a catastrophic turn. Your Pokémon isn't cheating — it's doing exactly what you asked. You
+It is three wasted turns. Your Pokémon isn't cheating — it's doing exactly what you asked. You
 asked for high scores from the judge, and it found the corner of the judge's blind spot and
 parked there.
 

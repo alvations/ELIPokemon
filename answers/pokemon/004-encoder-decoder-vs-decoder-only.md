@@ -38,8 +38,8 @@ slot 1 just as much as the other way round. That total view makes them the best 
 at answering *"how strong is this team?"*, *"is this team Rain or Trick Room?"*, *"how similar
 is this team to that one?"*
 
-Their training is a memory drill: someone covers three Pokémon on the sheet with their thumb
-and the Judge names them from the rest of the team. Do that a million times and you develop an
+Their training is a memory drill: someone covers **one** Pokémon on the sheet with their thumb
+and the Judge names it from the rest of the team. Do that a million times and you develop an
 uncanny sense for what belongs together.
 
 But the Judge **cannot battle**. Their entire skill depends on seeing the finished sheet, and

@@ -63,8 +63,9 @@ move**, whether the move is "use Splash" or "solve this six-way endgame."
 So for a hard position, one move's worth of thought isn't enough. The fix is to let them **narrate
 to themselves**:
 
-> *"Okay. Their Ferrothorn resists my Water. But it's weak to Fire. My Charizard is in the back.
-> If I switch now I eat a Power Whip — but Charizard survives that at 30%. Then I threaten. Switch."*
+> *"Okay. Their Ferrothorn resists my Water, but it's 4× weak to Fire and my Charizard is in the
+> back. Power Whip is Grass — Charizard barely feels that. But they have Stealth Rock up, and
+> that alone takes half of Charizard on the way in. So: clear the rocks first, then bring it."*
 
 Every sentence is another move's worth of thinking, and they can **read their own notes back**.
 They've converted "I only get one moment of thought" into "I can take as many moments as I write

@@ -33,7 +33,7 @@ front desk who takes one look at each challenger and sends them to the right two
      │ 61% of the call │                  │ 28% of the call │
      └─────────────────┘                  └─────────────────┘
 
-     🔥 Blaine   🪨 Brock   ⚡ Surge   👻 Agatha   🐉 Lance   ... 59 more
+     🔥 Blaine   🪨 Brock   ⚡ Surge   👻 Morty   🐉 Clair   ... 59 more
      ─────────────────────────────────────────────────────────────────
                      all at home, drinking tea, costing nothing
 ```

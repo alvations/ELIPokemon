@@ -33,7 +33,7 @@ Quantization is a speed trick disguised as a storage trick.
 
 Most teams live at 📘 or 📙. Below that you're not compressing information, you're discarding it.
 
-## The problem: the Snorlax 🐘
+## The problem: the Blissey 🥚
 
 Here's what actually makes this hard, and it's not obvious.
 
@@ -42,19 +42,19 @@ You'd like one rounding rule for the whole page. But stats don't sit in a tidy r
 ```
    Attack values on this page:
 
-   |███|                                  ← ONE entry: 9,000
+   |███|                                  ← Blissey's HP: 255
    |███|
    |███|
-   |███|   ▁▁▂▁▁▂▁▁▁▂▁▁▂▁▁▁▂▁▁▂▁▁▁▂      ← everyone else: 40–90
+   |███|   ▁▁▂▁▁▂▁▁▁▂▁▁▂▁▁▁▂▁▁▂▁▁▁▂      ← almost everyone else: 40–90
    └───────────────────────────────────►
 ```
 
-To fit that 9,000 on your scale, you need marks spaced 500 apart. Which means **every normal
-Pokémon on the page rounds to either "0" or "500."**
+To fit 255 on the same scale as everyone else, your marks end up spaced so far apart that
+**every normal Pokémon on the page rounds to the same two or three values.**
 
 One outlier just destroyed the entire page. This is the whole difficulty.
 
-## Four ways to handle the Snorlax 🛠️
+## Four ways to handle the Blissey 🛠️
 
 * 🎯 **Give it its own page.** Write the freaks out in full detail and round everyone else
   aggressively. It's only about 1% of entries, so you keep nearly all the savings.
