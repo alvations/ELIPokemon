@@ -29,6 +29,39 @@ want to measure.
 | **Distributional** | Not the items, but a very similar synthetic set generated from them. |
 | **Post-hoc** | Contamination introduced *after* release, e.g. via user-submitted evaluation traffic. |
 
+## The shape of the problem
+
+```
+   TRAINING CORPUS (web-scale scrape)          BENCHMARK
+   ┌──────────────────────────────────┐        ┌──────────────────┐
+   │  Common Crawl                    │        │  MMLU            │
+   │  GitHub                          │        │  GSM8K           │
+   │  arXiv  ─── the paper that       │◄──────►│  HumanEval       │
+   │             introduced the       │  leak  │  ...             │
+   │             benchmark            │        └──────────────────┘
+   │  Stack Overflow ── worked        │
+   │             solutions            │        the test set was
+   │  HuggingFace datasets mirror     │        PUBLIC on the web
+   │  Blog posts "how I solved X"     │        before training
+   └──────────────────────────────────┘
+
+   measured score  =  generalisation  +  memorisation
+                                          ▲
+                        this term is what contamination inflates,
+                        and it is the one you did not want to measure
+
+   the cleanest detector: score by item publication date
+
+   acc │ ████████████  94%
+       │ ████████████
+       │ ████████████        ██████  61%
+       │ ████████████        ██████
+       └──────────────────────────────────►
+         published BEFORE     published AFTER
+         training cutoff      training cutoff
+                 └──── the gap IS the contamination ────┘
+```
+
 ## Detection
 
 **With training-data access:**
