@@ -625,7 +625,15 @@
       "question": "Why do LLMs hallucinate and how do you reduce it?",
       "category": "reliability",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/040-hallucination.md",
+      "pokemon_path": "answers/pokemon/040-hallucination.md",
+      "tags": [
+        "hallucination",
+        "calibration",
+        "rag",
+        "grounding",
+        "abstention"
+      ]
     },
     {
       "id": "041",
@@ -633,7 +641,15 @@
       "question": "What is RAG, and when should you use it instead of fine-tuning?",
       "category": "rag",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/041-rag-vs-finetuning.md",
+      "pokemon_path": "answers/pokemon/041-rag-vs-finetuning.md",
+      "tags": [
+        "rag",
+        "retrieval",
+        "grounding",
+        "fine-tuning",
+        "architecture"
+      ]
     },
     {
       "id": "042",
@@ -641,7 +657,15 @@
       "question": "How do you chunk documents for retrieval, and why does it matter so much?",
       "category": "rag",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/042-chunking-strategies.md",
+      "pokemon_path": "answers/pokemon/042-chunking-strategies.md",
+      "tags": [
+        "chunking",
+        "rag",
+        "semantic-chunking",
+        "late-chunking",
+        "context-window"
+      ]
     },
     {
       "id": "043",
@@ -649,7 +673,15 @@
       "question": "What are embeddings and how are embedding models trained?",
       "category": "rag",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/043-embeddings.md",
+      "pokemon_path": "answers/pokemon/043-embeddings.md",
+      "tags": [
+        "embeddings",
+        "contrastive",
+        "infonce",
+        "matryoshka",
+        "cosine-similarity"
+      ]
     },
     {
       "id": "044",
@@ -657,7 +689,16 @@
       "question": "How do vector databases work? Explain HNSW and IVF.",
       "category": "rag",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/044-vector-databases-ann.md",
+      "pokemon_path": "answers/pokemon/044-vector-databases-ann.md",
+      "tags": [
+        "ann",
+        "hnsw",
+        "ivf",
+        "pq",
+        "vector-database",
+        "recall"
+      ]
     },
     {
       "id": "045",
@@ -665,7 +706,15 @@
       "question": "What is hybrid search and why add a reranker?",
       "category": "rag",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/045-hybrid-search-reranking.md",
+      "pokemon_path": "answers/pokemon/045-hybrid-search-reranking.md",
+      "tags": [
+        "hybrid-search",
+        "bm25",
+        "rrf",
+        "reranking",
+        "cross-encoder"
+      ]
     },
     {
       "id": "046",
@@ -673,7 +722,15 @@
       "question": "What is the difference between a bi-encoder and a cross-encoder?",
       "category": "rag",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/046-cross-encoder-vs-bi-encoder.md",
+      "pokemon_path": "answers/pokemon/046-cross-encoder-vs-bi-encoder.md",
+      "tags": [
+        "bi-encoder",
+        "cross-encoder",
+        "colbert",
+        "late-interaction",
+        "retrieval"
+      ]
     },
     {
       "id": "047",
@@ -681,7 +738,15 @@
       "question": "What are query rewriting and HyDE, and when do they help?",
       "category": "rag",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/047-query-rewriting-hyde.md",
+      "pokemon_path": "answers/pokemon/047-query-rewriting-hyde.md",
+      "tags": [
+        "hyde",
+        "query-expansion",
+        "multi-query",
+        "step-back",
+        "rag"
+      ]
     },
     {
       "id": "048",
@@ -689,7 +754,15 @@
       "question": "How do you evaluate a RAG system?",
       "category": "rag",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/048-evaluating-rag.md",
+      "pokemon_path": "answers/pokemon/048-evaluating-rag.md",
+      "tags": [
+        "rag-evaluation",
+        "recall",
+        "faithfulness",
+        "ragas",
+        "component-eval"
+      ]
     },
     {
       "id": "049",
@@ -697,7 +770,14 @@
       "question": "What is chain-of-thought prompting and why does it help?",
       "category": "prompting",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/049-chain-of-thought.md",
+      "pokemon_path": "answers/pokemon/049-chain-of-thought.md",
+      "tags": [
+        "chain-of-thought",
+        "reasoning",
+        "test-time-compute",
+        "faithfulness"
+      ]
     },
     {
       "id": "050",
@@ -705,7 +785,15 @@
       "question": "What is self-consistency decoding?",
       "category": "prompting",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/050-self-consistency.md",
+      "pokemon_path": "answers/pokemon/050-self-consistency.md",
+      "tags": [
+        "self-consistency",
+        "majority-vote",
+        "sampling",
+        "test-time-compute",
+        "verifier"
+      ]
     },
     {
       "id": "051",
@@ -713,7 +801,14 @@
       "question": "What is in-context learning and how does it work mechanistically?",
       "category": "prompting",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/051-in-context-learning.md",
+      "pokemon_path": "answers/pokemon/051-in-context-learning.md",
+      "tags": [
+        "in-context-learning",
+        "few-shot",
+        "induction-heads",
+        "task-location"
+      ]
     },
     {
       "id": "052",
@@ -721,7 +816,15 @@
       "question": "What is context engineering, and how is it different from prompt engineering?",
       "category": "prompting",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/052-context-engineering.md",
+      "pokemon_path": "answers/pokemon/052-context-engineering.md",
+      "tags": [
+        "context-engineering",
+        "prompt-engineering",
+        "agents",
+        "context-rot",
+        "memory"
+      ]
     },
     {
       "id": "053",
@@ -729,7 +832,15 @@
       "question": "What is ReAct, and what is the anatomy of an LLM agent?",
       "category": "agents",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/053-react-agents.md",
+      "pokemon_path": "answers/pokemon/053-react-agents.md",
+      "tags": [
+        "react",
+        "agents",
+        "tool-use",
+        "agent-loop",
+        "planning"
+      ]
     },
     {
       "id": "054",
@@ -737,7 +848,14 @@
       "question": "How does function/tool calling actually work under the hood?",
       "category": "agents",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/054-tool-calling.md",
+      "pokemon_path": "answers/pokemon/054-tool-calling.md",
+      "tags": [
+        "tool-calling",
+        "function-calling",
+        "json-schema",
+        "constrained-decoding"
+      ]
     },
     {
       "id": "055",
@@ -745,7 +863,15 @@
       "question": "What is the Model Context Protocol and what problem does it solve?",
       "category": "agents",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/055-model-context-protocol.md",
+      "pokemon_path": "answers/pokemon/055-model-context-protocol.md",
+      "tags": [
+        "mcp",
+        "protocol",
+        "integrations",
+        "tools",
+        "resources"
+      ]
     },
     {
       "id": "056",
@@ -753,7 +879,14 @@
       "question": "When is a multi-agent system worth it, and how do you design one?",
       "category": "agents",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/056-multi-agent-systems.md",
+      "pokemon_path": "answers/pokemon/056-multi-agent-systems.md",
+      "tags": [
+        "multi-agent",
+        "orchestrator",
+        "context-isolation",
+        "coordination"
+      ]
     },
     {
       "id": "057",
@@ -761,7 +894,15 @@
       "question": "What is test-time compute scaling?",
       "category": "reasoning",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/057-test-time-compute.md",
+      "pokemon_path": "answers/pokemon/057-test-time-compute.md",
+      "tags": [
+        "test-time-compute",
+        "inference-scaling",
+        "best-of-n",
+        "verifier",
+        "reasoning"
+      ]
     },
     {
       "id": "058",
@@ -769,7 +910,16 @@
       "question": "How are reasoning models trained, and how do they differ from chat models?",
       "category": "reasoning",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/058-reasoning-models.md",
+      "pokemon_path": "answers/pokemon/058-reasoning-models.md",
+      "tags": [
+        "reasoning-models",
+        "o1",
+        "r1",
+        "rlvr",
+        "thinking-tokens",
+        "distillation"
+      ]
     },
     {
       "id": "059",
@@ -777,7 +927,15 @@
       "question": "What is prompt injection and how do you defend against it?",
       "category": "security",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/059-prompt-injection.md",
+      "pokemon_path": "answers/pokemon/059-prompt-injection.md",
+      "tags": [
+        "prompt-injection",
+        "indirect-injection",
+        "security",
+        "agents",
+        "lethal-trifecta"
+      ]
     },
     {
       "id": "060",
@@ -785,7 +943,15 @@
       "question": "What is jailbreaking and why is it so hard to fully prevent?",
       "category": "security",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/060-jailbreaks.md",
+      "pokemon_path": "answers/pokemon/060-jailbreaks.md",
+      "tags": [
+        "jailbreak",
+        "adversarial",
+        "safety-training",
+        "generalisation",
+        "defence-in-depth"
+      ]
     },
     {
       "id": "061",
@@ -793,7 +959,15 @@
       "question": "How do you design guardrails and a moderation pipeline?",
       "category": "safety",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/061-guardrails-moderation.md",
+      "pokemon_path": "answers/pokemon/061-guardrails-moderation.md",
+      "tags": [
+        "guardrails",
+        "moderation",
+        "classifiers",
+        "defence-in-depth",
+        "over-refusal"
+      ]
     },
     {
       "id": "062",
@@ -801,7 +975,14 @@
       "question": "What is red teaming for LLMs, and how do you do it systematically?",
       "category": "safety",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/062-red-teaming.md",
+      "pokemon_path": "answers/pokemon/062-red-teaming.md",
+      "tags": [
+        "red-teaming",
+        "adversarial-testing",
+        "automated-red-teaming",
+        "coverage"
+      ]
     },
     {
       "id": "063",
@@ -809,7 +990,15 @@
       "question": "What is model calibration and why does it matter?",
       "category": "evaluation",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/063-model-calibration.md",
+      "pokemon_path": "answers/pokemon/063-model-calibration.md",
+      "tags": [
+        "calibration",
+        "ece",
+        "reliability-diagram",
+        "temperature-scaling",
+        "confidence"
+      ]
     },
     {
       "id": "064",
@@ -817,7 +1006,14 @@
       "question": "Explain the bias-variance tradeoff.",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/064-bias-variance-tradeoff.md",
+      "pokemon_path": "answers/pokemon/064-bias-variance-tradeoff.md",
+      "tags": [
+        "bias-variance",
+        "overfitting",
+        "double-descent",
+        "generalisation"
+      ]
     },
     {
       "id": "065",
@@ -825,7 +1021,15 @@
       "question": "What is overfitting, how do you detect it, and how do you prevent it?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/065-overfitting.md",
+      "pokemon_path": "answers/pokemon/065-overfitting.md",
+      "tags": [
+        "overfitting",
+        "regularisation",
+        "early-stopping",
+        "leakage",
+        "validation"
+      ]
     },
     {
       "id": "066",
@@ -833,7 +1037,16 @@
       "question": "What is the difference between L1 and L2 regularization?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/066-l1-vs-l2-regularization.md",
+      "pokemon_path": "answers/pokemon/066-l1-vs-l2-regularization.md",
+      "tags": [
+        "l1",
+        "l2",
+        "lasso",
+        "ridge",
+        "sparsity",
+        "weight-decay"
+      ]
     },
     {
       "id": "067",
@@ -841,7 +1054,15 @@
       "question": "How does dropout work, and why does it behave differently at train and test time?",
       "category": "deep-learning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/067-dropout.md",
+      "pokemon_path": "answers/pokemon/067-dropout.md",
+      "tags": [
+        "dropout",
+        "regularisation",
+        "ensemble",
+        "inverted-dropout",
+        "co-adaptation"
+      ]
     },
     {
       "id": "068",
@@ -849,7 +1070,15 @@
       "question": "Explain cross-validation and describe cases where it silently fails.",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/068-cross-validation.md",
+      "pokemon_path": "answers/pokemon/068-cross-validation.md",
+      "tags": [
+        "cross-validation",
+        "k-fold",
+        "leakage",
+        "time-series",
+        "nested-cv"
+      ]
     },
     {
       "id": "069",
@@ -857,7 +1086,15 @@
       "question": "Explain precision, recall and F1, and when to optimise for each.",
       "category": "evaluation",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/069-precision-recall-f1.md",
+      "pokemon_path": "answers/pokemon/069-precision-recall-f1.md",
+      "tags": [
+        "precision",
+        "recall",
+        "f1",
+        "confusion-matrix",
+        "threshold"
+      ]
     },
     {
       "id": "070",
@@ -865,7 +1102,15 @@
       "question": "What is the difference between ROC-AUC and PR-AUC?",
       "category": "evaluation",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/070-roc-auc-vs-pr-auc.md",
+      "pokemon_path": "answers/pokemon/070-roc-auc-vs-pr-auc.md",
+      "tags": [
+        "roc-auc",
+        "pr-auc",
+        "imbalance",
+        "ranking-metrics",
+        "average-precision"
+      ]
     },
     {
       "id": "071",
@@ -873,7 +1118,15 @@
       "question": "How do you handle severe class imbalance?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/071-class-imbalance.md",
+      "pokemon_path": "answers/pokemon/071-class-imbalance.md",
+      "tags": [
+        "imbalance",
+        "smote",
+        "class-weights",
+        "focal-loss",
+        "threshold-tuning"
+      ]
     },
     {
       "id": "072",
@@ -881,7 +1134,16 @@
       "question": "Explain gradient descent and its variants: SGD, momentum, Adam, AdamW.",
       "category": "optimization",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/072-gradient-descent-optimizers.md",
+      "pokemon_path": "answers/pokemon/072-gradient-descent-optimizers.md",
+      "tags": [
+        "sgd",
+        "momentum",
+        "adam",
+        "adamw",
+        "optimizers",
+        "bias-correction"
+      ]
     },
     {
       "id": "073",
@@ -889,7 +1151,15 @@
       "question": "What is backpropagation?",
       "category": "deep-learning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/073-backpropagation.md",
+      "pokemon_path": "answers/pokemon/073-backpropagation.md",
+      "tags": [
+        "backprop",
+        "chain-rule",
+        "autodiff",
+        "computational-graph",
+        "reverse-mode"
+      ]
     },
     {
       "id": "074",
@@ -897,7 +1167,15 @@
       "question": "What are vanishing and exploding gradients, and how are they fixed?",
       "category": "deep-learning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/074-vanishing-exploding-gradients.md",
+      "pokemon_path": "answers/pokemon/074-vanishing-exploding-gradients.md",
+      "tags": [
+        "vanishing-gradients",
+        "exploding-gradients",
+        "clipping",
+        "initialisation",
+        "lstm"
+      ]
     },
     {
       "id": "075",
@@ -905,7 +1183,15 @@
       "question": "How does batch normalization differ from layer normalization?",
       "category": "deep-learning",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/075-batch-norm-vs-layer-norm.md",
+      "pokemon_path": "answers/pokemon/075-batch-norm-vs-layer-norm.md",
+      "tags": [
+        "batchnorm",
+        "layernorm",
+        "groupnorm",
+        "normalisation",
+        "batch-dependence"
+      ]
     },
     {
       "id": "076",
@@ -913,7 +1199,15 @@
       "question": "Why do we use learning-rate warmup and decay schedules?",
       "category": "optimization",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/076-learning-rate-schedules.md",
+      "pokemon_path": "answers/pokemon/076-learning-rate-schedules.md",
+      "tags": [
+        "learning-rate",
+        "warmup",
+        "cosine-decay",
+        "wsd",
+        "schedules"
+      ]
     },
     {
       "id": "077",
@@ -921,7 +1215,16 @@
       "question": "What is mixed-precision training, and why is BF16 preferred over FP16?",
       "category": "systems",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/077-mixed-precision-training.md",
+      "pokemon_path": "answers/pokemon/077-mixed-precision-training.md",
+      "tags": [
+        "mixed-precision",
+        "fp16",
+        "bf16",
+        "loss-scaling",
+        "fp8",
+        "tensor-cores"
+      ]
     },
     {
       "id": "078",
@@ -929,7 +1232,14 @@
       "question": "What is gradient checkpointing and what does it trade away?",
       "category": "systems",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/078-gradient-checkpointing.md",
+      "pokemon_path": "answers/pokemon/078-gradient-checkpointing.md",
+      "tags": [
+        "gradient-checkpointing",
+        "activation-recomputation",
+        "memory",
+        "training"
+      ]
     },
     {
       "id": "079",
@@ -937,7 +1247,15 @@
       "question": "Explain data, tensor, pipeline, and expert parallelism.",
       "category": "systems",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/079-parallelism-strategies.md",
+      "pokemon_path": "answers/pokemon/079-parallelism-strategies.md",
+      "tags": [
+        "data-parallel",
+        "tensor-parallel",
+        "pipeline-parallel",
+        "3d-parallelism",
+        "megatron"
+      ]
     },
     {
       "id": "080",
@@ -945,7 +1263,15 @@
       "question": "What is ZeRO/FSDP sharding and what are the stages?",
       "category": "systems",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/080-zero-and-fsdp.md",
+      "pokemon_path": "answers/pokemon/080-zero-and-fsdp.md",
+      "tags": [
+        "zero",
+        "fsdp",
+        "sharding",
+        "deepspeed",
+        "memory-optimisation"
+      ]
     },
     {
       "id": "081",
@@ -953,7 +1279,14 @@
       "question": "How are batch size and learning rate related, and what is gradient accumulation?",
       "category": "optimization",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/081-batch-size-and-lr.md",
+      "pokemon_path": "answers/pokemon/081-batch-size-and-lr.md",
+      "tags": [
+        "batch-size",
+        "learning-rate-scaling",
+        "gradient-accumulation",
+        "critical-batch-size"
+      ]
     },
     {
       "id": "082",
@@ -961,7 +1294,15 @@
       "question": "Compare ReLU, GELU, and SwiGLU. Why did LLMs settle on gated activations?",
       "category": "deep-learning",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/082-activation-functions.md",
+      "pokemon_path": "answers/pokemon/082-activation-functions.md",
+      "tags": [
+        "relu",
+        "gelu",
+        "swiglu",
+        "activations",
+        "gating"
+      ]
     },
     {
       "id": "083",
@@ -969,7 +1310,15 @@
       "question": "What is softmax, and why do we need the log-sum-exp trick?",
       "category": "fundamentals",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/083-softmax-and-logsumexp.md",
+      "pokemon_path": "answers/pokemon/083-softmax-and-logsumexp.md",
+      "tags": [
+        "softmax",
+        "logsumexp",
+        "numerical-stability",
+        "overflow",
+        "temperature"
+      ]
     },
     {
       "id": "084",
@@ -977,7 +1326,15 @@
       "question": "What is cross-entropy loss and why is it the right loss for language modelling?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/084-cross-entropy-loss.md",
+      "pokemon_path": "answers/pokemon/084-cross-entropy-loss.md",
+      "tags": [
+        "cross-entropy",
+        "kl-divergence",
+        "mle",
+        "nll",
+        "loss-functions"
+      ]
     },
     {
       "id": "085",
@@ -985,7 +1342,14 @@
       "question": "What is label smoothing and when does it hurt?",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/085-label-smoothing.md",
+      "pokemon_path": "answers/pokemon/085-label-smoothing.md",
+      "tags": [
+        "label-smoothing",
+        "calibration",
+        "regularisation",
+        "distillation"
+      ]
     },
     {
       "id": "086",
@@ -993,7 +1357,15 @@
       "question": "What is PCA and when should you not use it?",
       "category": "fundamentals",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/086-pca.md",
+      "pokemon_path": "answers/pokemon/086-pca.md",
+      "tags": [
+        "pca",
+        "svd",
+        "dimensionality-reduction",
+        "variance",
+        "whitening"
+      ]
     },
     {
       "id": "087",
@@ -1001,7 +1373,14 @@
       "question": "What is the curse of dimensionality?",
       "category": "fundamentals",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/087-curse-of-dimensionality.md",
+      "pokemon_path": "answers/pokemon/087-curse-of-dimensionality.md",
+      "tags": [
+        "curse-of-dimensionality",
+        "concentration-of-measure",
+        "knn",
+        "manifold-hypothesis"
+      ]
     },
     {
       "id": "088",
@@ -1009,7 +1388,15 @@
       "question": "Compare decision trees, random forests, and gradient boosting.",
       "category": "classical-ml",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/088-trees-forests-boosting.md",
+      "pokemon_path": "answers/pokemon/088-trees-forests-boosting.md",
+      "tags": [
+        "decision-trees",
+        "random-forest",
+        "xgboost",
+        "gbdt",
+        "tabular"
+      ]
     },
     {
       "id": "089",
@@ -1017,7 +1404,16 @@
       "question": "What is the difference between bagging and boosting?",
       "category": "classical-ml",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/089-bagging-vs-boosting.md",
+      "pokemon_path": "answers/pokemon/089-bagging-vs-boosting.md",
+      "tags": [
+        "bagging",
+        "boosting",
+        "ensembles",
+        "variance",
+        "bias",
+        "stacking"
+      ]
     },
     {
       "id": "090",
@@ -1025,7 +1421,15 @@
       "question": "What is transfer learning and how do you decide what to freeze?",
       "category": "training",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/090-transfer-learning.md",
+      "pokemon_path": "answers/pokemon/090-transfer-learning.md",
+      "tags": [
+        "transfer-learning",
+        "freezing",
+        "feature-extraction",
+        "discriminative-lr",
+        "domain-shift"
+      ]
     },
     {
       "id": "091",
@@ -1033,7 +1437,15 @@
       "question": "What is self-supervised learning and why did it beat supervised pretraining?",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/091-self-supervised-learning.md",
+      "pokemon_path": "answers/pokemon/091-self-supervised-learning.md",
+      "tags": [
+        "self-supervised",
+        "pretext-task",
+        "masked-modelling",
+        "contrastive",
+        "labels"
+      ]
     },
     {
       "id": "092",
@@ -1041,7 +1453,16 @@
       "question": "What is contrastive learning? Explain InfoNCE and CLIP.",
       "category": "training",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/092-contrastive-learning.md",
+      "pokemon_path": "answers/pokemon/092-contrastive-learning.md",
+      "tags": [
+        "contrastive",
+        "infonce",
+        "clip",
+        "simclr",
+        "negatives",
+        "collapse"
+      ]
     },
     {
       "id": "093",
@@ -1049,7 +1470,16 @@
       "question": "How do diffusion models work, and how do they differ from autoregressive models?",
       "category": "generative",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/093-diffusion-models.md",
+      "pokemon_path": "answers/pokemon/093-diffusion-models.md",
+      "tags": [
+        "diffusion",
+        "ddpm",
+        "denoising",
+        "latent-diffusion",
+        "cfg",
+        "flow-matching"
+      ]
     },
     {
       "id": "094",
@@ -1057,7 +1487,16 @@
       "question": "How do vision-language models fuse modalities?",
       "category": "multimodal",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/094-multimodal-models.md",
+      "pokemon_path": "answers/pokemon/094-multimodal-models.md",
+      "tags": [
+        "multimodal",
+        "vlm",
+        "vision-encoder",
+        "projector",
+        "cross-attention",
+        "llava"
+      ]
     },
     {
       "id": "095",
@@ -1065,7 +1504,15 @@
       "question": "What are data drift and concept drift, and how do you monitor for them?",
       "category": "mlops",
       "difficulty": "core",
-      "tags": []
+      "serious_path": "answers/serious/095-data-drift.md",
+      "pokemon_path": "answers/pokemon/095-data-drift.md",
+      "tags": [
+        "drift",
+        "monitoring",
+        "psi",
+        "kl-divergence",
+        "retraining"
+      ]
     },
     {
       "id": "096",
@@ -1073,7 +1520,15 @@
       "question": "How do you A/B test a machine learning or LLM feature?",
       "category": "mlops",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/096-ab-testing-ml.md",
+      "pokemon_path": "answers/pokemon/096-ab-testing-ml.md",
+      "tags": [
+        "ab-testing",
+        "experimentation",
+        "power-analysis",
+        "novelty-effect",
+        "guardrails"
+      ]
     },
     {
       "id": "097",
@@ -1081,7 +1536,16 @@
       "question": "How do you reduce LLM serving cost and latency in production?",
       "category": "mlops",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/097-serving-cost-latency.md",
+      "pokemon_path": "answers/pokemon/097-serving-cost-latency.md",
+      "tags": [
+        "serving",
+        "latency",
+        "throughput",
+        "batching",
+        "caching",
+        "routing"
+      ]
     },
     {
       "id": "098",
@@ -1089,7 +1553,15 @@
       "question": "What is training-serving skew and how does a feature store help?",
       "category": "mlops",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/098-training-serving-skew.md",
+      "pokemon_path": "answers/pokemon/098-training-serving-skew.md",
+      "tags": [
+        "training-serving-skew",
+        "feature-store",
+        "point-in-time",
+        "leakage",
+        "mlops"
+      ]
     },
     {
       "id": "099",
@@ -1097,7 +1569,15 @@
       "question": "Walk me through designing a recommendation system end to end.",
       "category": "system-design",
       "difficulty": "advanced",
-      "tags": []
+      "serious_path": "answers/serious/099-ml-system-design.md",
+      "pokemon_path": "answers/pokemon/099-ml-system-design.md",
+      "tags": [
+        "system-design",
+        "recommender",
+        "retrieval-ranking",
+        "two-tower",
+        "cold-start"
+      ]
     },
     {
       "id": "100",
@@ -1105,7 +1585,16 @@
       "question": "How do you think about fairness, bias, and privacy in an ML system?",
       "category": "responsible-ai",
       "difficulty": "intermediate",
-      "tags": []
+      "serious_path": "answers/serious/100-fairness-bias-privacy.md",
+      "pokemon_path": "answers/pokemon/100-fairness-bias-privacy.md",
+      "tags": [
+        "fairness",
+        "bias",
+        "privacy",
+        "differential-privacy",
+        "impossibility",
+        "memorisation"
+      ]
     }
   ]
 }
