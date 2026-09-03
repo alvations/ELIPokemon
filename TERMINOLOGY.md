@@ -24,9 +24,9 @@ they are.
   [Battling](#battling) once, then look up species as you hit them.
 * Reading the whole set? The section that actually unlocks the dataset is
   [Recurring analogy conventions](#recurring-analogy-conventions). The answers reuse a
-  stable vocabulary across all 54 questions — the wild grass is *always* pretraining,
-  a held item is *always* a LoRA adapter — and once you have that mapping, the answers
-  read as a single consistent system rather than 54 separate jokes.
+  stable vocabulary across every question in the set — the wild grass is *always*
+  pretraining, a held item is *always* a LoRA adapter — and once you have that mapping,
+  the answers read as a single consistent system rather than a pile of separate jokes.
 * Checking an answer's honesty? Cross-reference the mapping table against
   `answers/serious/` for the same id. Both answers describe the same reality; that is
   the whole premise.
@@ -116,6 +116,10 @@ metric rather than a real evolution.
 normally comes with it. Pure scale, no substance. `014` makes it parameters, and battles
 the training tokens.
 
+**Releasing a Pokémon.** Permanently letting one go. It is irreversible and there is no
+undo, which is why `055` and `059` use it as the archetypal action a tool or an agent must
+never be allowed to take unsupervised.
+
 **Nickname.** A Pokémon can be renamed to anything. `012` uses a Charizard nicknamed
 "Big Steve" to show why a vocabulary of whole names cannot work.
 
@@ -177,6 +181,16 @@ by grinding. `005` makes this layer normalization, and the analogy is exact: the
 rescaling looks only at the one Pokémon in front of it, and it destroys the advantage of
 one runaway number.
 
+**Banned move / banlist.** Competitive formats forbid certain moves and Pokémon outright.
+`060` uses "never use a banned move" as the trained rule a jailbreak is trying to talk the
+Pokémon past — and notes that a banned move is far easier to recognise *after* the fact
+than a sneaky request is beforehand.
+
+**Team sheet.** The declared list of your six Pokémon, their items and their moves, shown
+to the opponent before a competitive match. `004` uses it for what an encoder sees all at
+once; `056` and `059` use it as the shared state two agents must not both write to, and as
+the secret an injected instruction wants to exfiltrate.
+
 **Regulation G.** A named ruleset for one season of official competitive play. Appears
 once, in `047`, as an example of a query that is too specific to retrieve against.
 
@@ -235,7 +249,9 @@ the PC boxes live. In `043` "how do I heal my Pokémon?" versus "where can I res
 is the canonical pair of queries with zero words in common and identical meaning.
 
 **Poké Ball.** The device used to catch and carry a Pokémon. `002` numbers them, then
-spins them, to build up absolute versus rotary positional encoding. A **Master Ball** is
+spins them, to build up absolute versus rotary positional encoding. `055` makes the ball
+itself the standard: one design that works with every species, maintained by the species
+rather than by each Trainer — the Model Context Protocol. A **Master Ball** is
 the unique, never-fails, single-use version — `054`'s example of an irreversible action a
 tool harness must guard.
 
@@ -333,6 +349,7 @@ better than a placeholder.
 | Volt Switch | Attack and switch out in one action | `034` |
 | Quick Attack | Weak but always moves first | `053`, finishing off a Focus Sash |
 | Earthquake | Powerful Ground attack that hits everything | `029`, `052` — the thing standing orders tell you not to switch into |
+| Dragon Dance | Setup move raising Attack and Speed together | `058`, as what the opponent gets for free if your attack leaves them at 1 HP |
 | Roost | Recovers HP; a Flying-type staple | `007`, as a Pokédex inference |
 | Protect / Substitute / Swords Dance / Trick Room / Stealth Rock / Fly | See [Battling](#battling) and [The world](#the-world-and-progression) | |
 
@@ -373,9 +390,9 @@ Four proper nouns in the dataset look like species and are not.
 
 ## Recurring analogy conventions
 
-This is the section that makes the dataset legible. These mappings are stable across
-all 54 questions: once an answer establishes that a held item is an adapter, every later
-answer means the same thing by it.
+This is the section that makes the dataset legible. These mappings are stable across the
+whole set: once an answer establishes that a held item is an adapter, every later answer
+means the same thing by it.
 
 ### Architecture
 
@@ -497,6 +514,22 @@ answer means the same thing by it.
 | **"The Trainer shouts, you throw the ball"** | tool calling: the model emits a request, the harness executes it. Every safety property lives in the harness | `054` |
 | Only letting them say words that could still form a valid command | constrained decoding / grammar-guided sampling | `054` |
 | A note planted in what you report back | prompt injection through tool output | `054` |
+| **A standard-issue Poké Ball** that works with every species | the Model Context Protocol — one interface instead of N×M bespoke integrations | `055` |
+| Moves (the Trainer picks) / Pokédex pages (you hand over) / battle strategies (the player invokes) | MCP tools vs resources vs prompts — the split is about *who decides* | `055` |
+| A ball that borrows your Trainer to think for it | MCP sampling: the server asks the client's model, so servers need no credentials of their own | `055` |
+| **Sending a scout with their own bag** who returns one sentence | subagents, adopted for context isolation rather than modularity | `052`, `056` |
+| A lead and scouts / a relay / a maker and a critic | orchestrator-worker, pipeline, and generator-critic multi-agent shapes | `056` |
+| "Only one Trainer writes" | avoiding concurrent writes to shared state | `056` |
+| **Taking longer per turn** rather than training harder before the season | test-time compute as a dial separate from training compute | `057` |
+| The easy turn / the hard-but-reachable turn / the impossible turn | where extra inference compute pays and where it is wasted | `057` |
+| **A Trainer who pauses before moving** | a reasoning model, and the fact that deliberation emerged from scoreboard training rather than being scripted | `023`, `057`, `058` |
+| Showing a rookie a Champion's full deliberations | distilling reasoning traces — "can't discover it, can imitate it" | `058` |
+| **A stranger in the crowd shouting orders at your Pokémon** | prompt injection; the Pokémon hears one undifferentiated stream of words | `059` |
+| The three ingredients: secrets, untrusted input, a way to send something out | the lethal trifecta — remove any one and data cannot leave | `059` |
+| One Pokémon that holds the secrets and never reads outside material | privilege separation between a trusted and a quarantined agent | `059` |
+| **Talking your own Pokémon into a banned move** | jailbreaking, as distinct from injection: you are the attacker, not a third party | `060` |
+| Rules taught in an afternoon versus abilities built over months | why the safety-trained region is much smaller than the capability region | `060` |
+| Screening what the Pokémon *did* rather than what it was *asked* | output filtering, and why it usually beats input filtering | `060` |
 
 ---
 
@@ -517,6 +550,7 @@ wrong reading across.
 | **Shorthand** | weight quantization (`028`, `030`) | compressed KV representations (`009`) | coarse vector codes for search (`044`) |
 | **The rookie** | the small draft model in speculative decoding (`033`) | the small student in distillation (`031`) | a weak model generally, which chain-of-thought can make worse (`030`, `049`) |
 | **The judge** | the learned reward model (`019`–`022`) | an LLM grading outputs at eval time (`038`) | |
+| **The referee** | the automatic checker a verifiable reward runs against, buggy and exploitable (`023`, `058`) | a safety classifier trained on synthetic jailbreak attempts (`060`) | |
 
 ---
 
