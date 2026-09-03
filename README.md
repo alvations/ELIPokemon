@@ -125,6 +125,9 @@ ds = load_dataset("json", data_files="dataset/elipokemon.jsonl", split="train")
   onto something concrete in the games — a type chart, a Poké Ball, PP, EVs, a Gym badge —
   and the mapping is stated explicitly so the analogy stays checkable.
 * Both answers are for the *same* question and must agree on the facts.
+* [TERMINOLOGY.md](TERMINOLOGY.md) is the glossary: every Pokémon name, mechanic and
+  recurring analogy the answers actually use, and what each one stands for. Read it if
+  you know the machine learning but not the games.
 
 ## Contributing
 
