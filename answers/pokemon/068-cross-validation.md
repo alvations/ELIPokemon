@@ -77,7 +77,8 @@ You normalise, clean and index the whole year of footage, *then* split it.
 Too late. Your preparation already **looked at the test matches** — the averages it computed include
 them. ✅ **Prepare inside each round**, using only that round's training pile.
 
-**4. 👯 Duplicate footage.** The same Starmie match filmed from two angles, landing in both piles. Deduplicate
+**4. 👯 Duplicate footage.** The same Starmie match filmed from two angles, landing in both piles.
+Deduplicate
 first.
 
 **5. 🎰 Trying two hundred setups and keeping the best.**

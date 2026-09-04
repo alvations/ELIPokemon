@@ -50,7 +50,8 @@ But judging a *request* is genuinely hard:
 > *"How does Explosion work?"*
 
 That's a kid on Route 1 learning the game. Or a competitive player planning a Self-Destruct lead.
-Or someone about to do something stupid. **The words are identical in all three cases.** The junior ref is guessing.
+Or someone about to do something stupid. **The words are identical in all three cases.** The
+junior ref is guessing.
 
 Judging a *move* is easy:
 

@@ -40,11 +40,13 @@ team to that one?"*
 
 Their training is a memory drill: someone covers **one** Pokémon on the sheet with their thumb
 and the Judge names it from the rest of the team. Politoed, Kingdra, Ferrothorn, ?, Rotom,
-Tapu Fini — that blank is Toxapex, and you knew it from the company it keeps. Do that a million times and you develop an
+Tapu Fini — that blank is Toxapex, and you knew it from the company it keeps. Do that a million
+times and you develop an
 uncanny sense for what belongs together.
 
 But the Judge **cannot battle**. Their entire skill depends on seeing the finished sheet, and
-a real battle is a sheet being written one Pokémon at a time. Ask them to lead with Garchomp and they freeze:
+a real battle is a sheet being written one Pokémon at a time. Ask them to lead with Garchomp and
+they freeze:
 their read of slot 1 depends on a slot 6 that doesn't exist yet.
 
 Judges are your team raters, your matchmakers, your "find me teams like this one" search.

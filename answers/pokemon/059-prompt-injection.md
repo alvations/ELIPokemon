@@ -86,7 +86,8 @@ These are structural. They don't depend on your Pokémon being clever.
 * 🚧 **Control what can leave.** Allowlist where messages can go. And watch the sneaky channels — a
   note can smuggle your secrets out inside a **picture URL** your Pokémon innocently loads. No
   message sent, data gone.
-* 👥 **Two Pokémon.** Your Ferrothorn holds the secrets and **never reads anything from outside.** A second reads
+* 👥 **Two Pokémon.** Your Ferrothorn holds the secrets and **never reads anything from outside.**
+  A second reads
   the untrusted material and can only hand back short, checked, structured facts. The one with the
   secrets never hears the shouting.
 * 🤖 **Check actions with a rulebook, not a Pokémon.** *"Is releasing a Pokémon allowed here?"*

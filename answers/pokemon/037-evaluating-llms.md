@@ -64,7 +64,8 @@ what for. Report a **profile**, always including cost and speed.
 **6. ☀️ You only tested the easy days.** Everyone tests: Pokémon healthy, clear weather, standard
 opponent.
 
-Nobody tests: the opponent stalls with Double Team. The Pokémon is poisoned. Someone asks in a language your Trainer
+Nobody tests: the opponent stalls with Double Team. The Pokémon is poisoned. Someone asks in a
+language your Trainer
 barely knows. The battle runs 400 turns. The request is genuinely ambiguous. **That's where real
 failures live**, and it's exactly what nobody puts in the test set.
 

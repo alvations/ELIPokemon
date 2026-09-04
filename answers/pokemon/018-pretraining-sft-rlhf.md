@@ -13,7 +13,8 @@ tags: [pretraining, sft, rlhf, post-training, alignment]
 ## 🌾 Stage 1: The wild grass — pretraining
 
 You release your Pokémon into the tall grass for **months**. It fights everything. Rattata on
-Route 1, Zubat in Mt. Moon, the occasional Snorlax asleep across the road. Nobody instructs it. Nobody grades it. It just... encounters
+Route 1, Zubat in Mt. Moon, the occasional Snorlax asleep across the road. Nobody instructs it.
+Nobody grades it. It just... encounters
 everything there is to encounter.
 
 What it becomes: a creature that has **seen it all**. Knows every type matchup, every terrain,

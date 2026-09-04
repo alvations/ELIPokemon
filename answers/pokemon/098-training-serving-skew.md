@@ -59,7 +59,8 @@ practice results.* A suspiciously good practice score is a bug report.
 
 **4. 🔄 Your Trainer changed the world it learns from.**
 
-Your Trainer avoids Toxapex, because it predicts those matchups are losses. So those matchups **never get played**, so you
+Your Trainer avoids Toxapex, because it predicts those matchups are losses. So those matchups
+**never get played**, so you
 never find out if it was right, so next season's training data contains only the matchups it already
 liked.
 

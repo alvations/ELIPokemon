@@ -43,7 +43,8 @@ extra page is another thing to be distracted by.
 **💸 Carrying costs money and time**, linearly. A stuffed bag isn't free just because it closes.
 
 **💥 One item can flood the bag.** Your Trainer checks the field once and gets back the full
-fifty-page Pokédex entry for Ferrothorn. Shove that straight in the bag and everything else is buried. **This is the single most common
+fifty-page Pokédex entry for Ferrothorn. Shove that straight in the bag and everything else is
+buried. **This is the single most common
 way an agent dies.**
 
 **📈 Forty turns of notes.** By turn 40, the bag is mostly stale observations from turn 6, and your
@@ -52,7 +53,8 @@ Trainer is reasoning about a battle that isn't happening any more.
 ## How to pack properly 🧳
 
 **📝 Condense the old pages.** When the bag fills, replace the first thirty turns with *"they lead
-Politoed, rain is up, Kingdra is the threat"* and carry on. Essential for long battles — and risky, because the detail you summarised away
+Politoed, rain is up, Kingdra is the threat"* and carry on. Essential for long battles — and
+risky, because the detail you summarised away
 might have been the one that mattered.
 
 **🗒️ Keep a plan on a separate sheet.** Don't make your Trainer *remember* the plan from the log —
@@ -60,7 +62,8 @@ have them **write it down and keep updating it.** It survives every condensing, 
 can read it yourself to see what they think they're doing.
 
 **🔍 Carry the index, not the library.** Don't stuff the full Toxapex, Ferrothorn and Tapu Fini
-pages in the bag. Carry the *list* and fetch one when you actually need it. Exactly how a person works with a filing
+pages in the bag. Carry the *list* and fetch one when you actually need it. Exactly how a person
+works with a filing
 cabinet.
 
 **✂️ Cap what comes back.** Any check that could return fifty pages should return **one page and an

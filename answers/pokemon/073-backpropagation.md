@@ -81,7 +81,8 @@ it's a whisper. Route 1's tutor learns nothing. (Or the reverse — it amplifies
 as a scream.)
 
 **✏️ You overwrote your notes.** Tidied up your Lt. Surge records to save space, and now you
-cannot apportion his share of the blame. The good news is that most systems shout at you when you do this. Some
+cannot apportion his share of the blame. The good news is that most systems shout at you when you
+do this. Some
 don't, and then you get **confidently wrong answers**, which is worse.
 
 **✂️ You cut the chain.** Somewhere in the middle, someone wrote down a *summary* instead of keeping

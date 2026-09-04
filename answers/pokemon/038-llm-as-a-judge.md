@@ -23,7 +23,8 @@ ceiling, and the Champion is basically at it.
 
 **1. 🔀 They favour whoever went first.**
 
-Show the same two battles in the opposite order and Cynthia sometimes picks the *other* winner. Same battles. Same referee. Different verdict.
+Show the same two battles in the opposite order and Cynthia sometimes picks the *other* winner.
+Same battles. Same referee. Different verdict.
 
 > **The fix is not optional: judge both orders, every time.** If the verdict flips, call it a draw,
 > because that's what it actually was.

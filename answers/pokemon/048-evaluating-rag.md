@@ -49,7 +49,8 @@ Now assume the right reports *were* fetched. Did the Trainer use them?
 
 **📌 Did it stick to the reports?** The RAG-specific question. If the page says Ferrothorn runs
 Leftovers and the answer says Rocky Helmet, that is a grounding failure, not a knowledge one.
-Break the answer into individual claims and check each one against the reports. This catches the maddening failure where the scout did
+Break the answer into individual claims and check each one against the reports. This catches the
+maddening failure where the scout did
 everything right and the Trainer answered from memory anyway.
 
 **🎯 Did it answer the actual question?** It can be perfectly grounded in the reports and still not

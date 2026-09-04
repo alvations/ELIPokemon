@@ -102,7 +102,8 @@ Same results, vastly more practical — which is why the big modern training run
 * 📊 **Bigger training groups take more intensity.** Training twenty Pokémon at once? You can push
   harder than with one, because you're averaging over more feedback.
 * 🏕️ **Specialist camps need much gentler training than the original raising** — ten to a hundred
-  times gentler. A month at Brock's is not a month in the wild grass. You're refining a Champion, not building one, and it's very easy to undo months of
+  times gentler. A month at Brock's is not a month in the wild grass. You're refining a Champion,
+  not building one, and it's very easy to undo months of
   work in an afternoon.
 * 🎒 **Leftovers want it turned back UP** — much harder than a full retrain. There's very little
   there to change, so you have to push it to move at all.

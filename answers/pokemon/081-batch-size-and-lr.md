@@ -95,7 +95,8 @@ this and you're adjusting **ten times harder than intended**, and the run explod
 The single most common bug in this entire technique.
 
 **⚖️ Comparing against the room doesn't survive this.** Flat Rules scale you against whoever
-turned up today, so ten rooms of ten is not one room of a hundred. If your Flat Rule scales Pokémon relative to
+turned up today, so ten rooms of ten is not one room of a hundred. If your Flat Rule scales
+Pokémon relative to
 *whoever's in the room today*, then ten rooms of ten is genuinely different from one room of a
 hundred — the rooms were different.
 

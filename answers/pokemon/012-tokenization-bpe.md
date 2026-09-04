@@ -20,7 +20,8 @@ fine. But `CHARIZARD` eats nine tiles, a full team eats sixty, and the scoreboar
 exhausted before the match starts.
 
 **One tile per Pokémon.** `[CHARIZARD]` — one tile, instant. Beautiful, until a challenger shows
-up with a Charizard nicknamed **"Big Steve"**, or Alola releases Mimikyu, and you have no tile. You put up `[???]`
+up with a Charizard nicknamed **"Big Steve"**, or Alola releases Mimikyu, and you have no tile.
+You put up `[???]`
 and the crowd has no idea what's happening.
 
 ## The real answer: tiles for common chunks 🧩

@@ -106,7 +106,8 @@ Trainers meet, it's changing the very thing you're measuring against.
 ## When you can't run a proper test ⚡
 
 * 🔀 **Blend both sides into one list.** For ranking Pokémon to catch, show suggestions from both
-  Trainers **mixed together** and see which get caught. Far more sensitive — needs a fraction of the matches.
+  Trainers **mixed together** and see which get caught. Far more sensitive — needs a fraction of
+  the matches.
 * 👻 **Run it silently.** Let the new Trainer call every turn **without anyone acting on it**, and
   compare its calls to the old one's. Zero risk. Catches every speed and crash problem. Tells you
   **nothing** about whether people prefer it.

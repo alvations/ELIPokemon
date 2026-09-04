@@ -53,7 +53,8 @@ reading question**, and reading is the thing it's actually good at.
 ```
 
 Two passes matter: a **fast, broad** sweep that pulls the Politoed, Kingdra and Ferrothorn pages,
-then a **slow, careful** read to rank them. Doing only the fast pass gets you roughly-relevant pages. Doing only the slow pass on
+then a **slow, careful** read to rank them. Doing only the fast pass gets you roughly-relevant
+pages. Doing only the slow pass on
 everything takes all day.
 
 ## Pokédex vs camp 📊

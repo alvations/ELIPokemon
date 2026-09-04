@@ -80,7 +80,8 @@ components and built the bridge.
 ## What's still hard 😬
 
 **🔍 It can't read small print.** The spotter looks at the whole field at once and reports the gist.
-Ask it to read the Leftovers recovery ticking away in the corner of the HP bar and it can't — it never looked
+Ask it to read the Leftovers recovery ticking away in the corner of the HP bar and it can't — it
+never looked
 closely.
 
 The fix is to **chop the photo into pieces and examine each closely.** Which works, and multiplies

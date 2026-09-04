@@ -25,7 +25,8 @@ Two ways to gather evidence:
   and you've dumped 252 EVs into Special Defence for no reason.
 
 **In practice: adjust after every twenty matches.** Enough signal to be sane, fast enough to make
-progress — roughly one circuit of the Battle Tower. And the leftover noise is genuinely useful — it stops you getting stuck polishing one
+progress — roughly one circuit of the Battle Tower. And the leftover noise is genuinely useful —
+it stops you getting stuck polishing one
 narrow approach forever.
 
 ## 🏃‍♂️ Momentum: stop flip-flopping
@@ -107,9 +108,11 @@ everybody uses now.
 ## What to actually use 🎯
 
 * ✅ **The corrected adaptive method with momentum.** The default — what you would use to EV-train
-  a Garchomp and everything else. Works nearly everywhere with nearly no tuning, which is exactly why it won.
+  a Garchomp and everything else. Works nearly everywhere with nearly no tuning, which is exactly
+  why it won.
 * 🏃 **Plain momentum** is still competitive for some kinds of training, and occasionally
   generalises better.
 * 💾 **Watch the storage cost.** Remembering the trend *and* the noisiness means **two extra
-  notebooks per stat** — twelve notebooks for one Garchomp. That's the dominant memory cost of training — and precisely what the held-item
+  notebooks per stat** — twelve notebooks for one Garchomp. That's the dominant memory cost of
+  training — and precisely what the held-item
   trick avoids by only ever tracking a handful of stats.

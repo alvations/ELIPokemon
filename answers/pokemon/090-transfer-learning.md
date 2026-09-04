@@ -82,7 +82,8 @@ intensity on a new task and **the first ten minutes destroy months of work.** St
 
 **2. 🎲 Attaching a clueless new specialist.**
 
-You bolt on a brand-new Starmie counter-specialist who knows **nothing.** It immediately starts shouting wild,
+You bolt on a brand-new Starmie counter-specialist who knows **nothing.** It immediately starts
+shouting wild,
 random corrections — and those corrections propagate down into your Champion's carefully built
 basics.
 

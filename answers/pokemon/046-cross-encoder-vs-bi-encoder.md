@@ -30,7 +30,8 @@ question about any of them, weakly.
 Puts your question and one report side by side and reads both, properly.
 
 They can spot things no index card could ever capture: that the report *mentions* Gyarados but
-only to say Ferrothorn walls it, which is not the same as countering it. That it says "**not** weak to Electric." That it
+only to say Ferrothorn walls it, which is not the same as countering it. That it says "**not**
+weak to Electric." That it
 answers a subtly different question than the one you asked.
 
 Enormously more accurate. And useless for searching: ten million reports at a minute each is a
@@ -101,7 +102,8 @@ earns the next stage's expense.
 teach nothing.
 
 **The coach** learns the same way, with a crucial detail: train them on **the exact hundred reports
-the clerk will actually hand them** — the Gyarados near-misses, not a random pile of Caterpie. Not a random sample. The coach's whole job is to sort the
+the clerk will actually hand them** — the Gyarados near-misses, not a random pile of Caterpie. Not
+a random sample. The coach's whole job is to sort the
 clerk's shortlist, so that's the pile they should practise on.
 
 Train the coach on easy piles and they'll be excellent at a job nobody will ever ask them to do.

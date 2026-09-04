@@ -59,7 +59,8 @@ That last category is the one nobody writes down and everyone gets burned by.
 ```
 
 Also worth doing: **bring in actual specialists** (a VGC player will spot an illegal Speed tier or
-a Regulation G violation that a generalist cannot even recognise as wrong), and **let outsiders try** — a bounty gets
+a Regulation G violation that a generalist cannot even recognise as wrong), and **let outsiders
+try** — a bounty gets
 you adversarial creativity you could never hire.
 
 ## Step 4: the part everyone skips 🔁

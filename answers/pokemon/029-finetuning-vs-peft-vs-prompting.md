@@ -73,7 +73,8 @@ saying it ten million times is not.
 99.9% of the time is often easier with a thousand examples than with any amount of instruction.
 
 **🐣 Shrinking a Champion.** The best use of training there is: have your expensive Cynthia-grade
-Trainer play ten thousand battles, then train a **cheap little Pokémon to imitate it**. Ten times cheaper, ten
+Trainer play ten thousand battles, then train a **cheap little Pokémon to imitate it**. Ten times
+cheaper, ten
 times faster, nearly as good on your specific job. Highest return on effort in the whole game.
 
 **🎨 Things you can't put into words.** House style. Domain judgement. The way *your* Gym does

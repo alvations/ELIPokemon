@@ -18,7 +18,8 @@ And first, why it must be a *rule* and not just arithmetic:
 > **Without a decision rule, a hundred Gyms collapse into one.**
 
 If Brock, Misty and Lt. Surge each just add their opinion to a running total, you could have added
-all eight badges up at the start and skipped the journey. The **non-linearity** — some genuine threshold, some "no, that doesn't
+all eight badges up at the start and skipped the journey. The **non-linearity** — some genuine
+threshold, some "no, that doesn't
 matter" — is what makes Giovanni capable of teaching something Brock couldn't.
 
 ## The three rules 📊
