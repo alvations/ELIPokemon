@@ -149,7 +149,12 @@ Perish Song, Whirlwind, Fake Out, Follow Me, Rage Powder, Helping Hand,
 Icy Wind, Ice Beam, Blizzard, Freeze-Dry, Scald, Muddy Water, Heat Wave,
 Eruption, Water Spout, Overheat, Leaf Storm, Hurricane, Air Slash, Brave Bird,
 Acrobatics, Bullet Punch, Sacred Sword, Sleep Powder, Stun Spore, Confuse Ray,
-Toxic, Synthesis, Moonlight
+Toxic, Synthesis, Moonlight, Protect, Detect, Recover, Roost, Surf, Slash,
+Scratch, Growl, Leer, Tackle, Bite, Agility, Spikes, Encore, Taunt, Disable,
+Yawn, Spore, Psychic, Facade, Wish, Charm, Feint, Rage, Harden, Withdraw,
+Thrash, Struggle, Splash, Metronome, Transform, Teleport, Dig, Fly, Cut,
+Strength, Flash, Rock Smash, Whirlpool, Waterfall, Headbutt, Curse, Amnesia,
+Belly Drum, Counter, Mirror Coat, Pain Split, Trick, Switcheroo, Volt Tackle
 """
 
 ITEMS = """
@@ -248,15 +253,15 @@ GENERIC = {
 
 # Words that are too ambiguous to count as named entities on their own.
 AMBIGUOUS = {
-    "Surf", "Protect", "Detect", "Charm", "Feint", "Bite", "Slash", "Scratch",
-    "Growl", "Leer", "Tackle", "Rage", "Recover", "Roost", "Wish", "Spikes",
-    "Agility", "Psychic", "Facade", "Disable", "Encore", "Taunt", "Yawn",
-    "Spore", "Magnet", "Potion", "Iron", "Static", "Pressure", "Guts", "Simple",
-    "Contrary", "Unaware", "Immunity", "Trace", "Download", "Filter", "Analytic",
+    # Matching is case-sensitive, so a capitalised move name ("Protect", "Surf")
+    # is already unambiguous here. These are the terms that stay risky even
+    # capitalised — ordinary words, or names that collide with common English.
     "Blue", "Red", "Will", "Karen", "James", "Grant", "Larry", "Iris", "Bea",
-    "Marshal", "Speed", "Nature", "Weather", "Terrain", "PP", "Doubles",
-    "Singles", "Type Chart", "Level 50", "Base Stat Total", "Stat Stage",
-    "Priority", "Kanto", "Johto",
+    "Marshal", "Clay", "Milo", "Lana", "Viola", "Steven", "Leon", "Nature",
+    "Weather", "Terrain", "Static", "Pressure", "Simple", "Contrary", "Unaware",
+    "Immunity", "Trace", "Download", "Filter", "Analytic", "Speed", "Toxic",
+    "Blaze", "Torrent", "Swarm", "Defiant", "Competitive", "Justified",
+    "Held Item", "Super Effective",
 }
 for group in NAMED.values():
     group -= AMBIGUOUS
@@ -273,19 +278,29 @@ def score_text(text: str) -> dict:
     distinct: set[str] = set()
     named_mentions = 0
 
-    for kind, vocab in NAMED.items():
-        for term in vocab:
-            pattern = r"(?<![\w-])" + re.escape(term) + r"(?![\w-])"
-            n = len(re.findall(pattern, text))
-            if n:
-                hits[kind].append(f"{term}×{n}")
-                distinct.add(term)
-                named_mentions += n
+    # Longest term first, blanking each match, so an entity is never counted
+    # twice (e.g. "Thunder" inside "Thunder Wave").
+    terms = sorted(
+        ((term, kind) for kind, vocab in NAMED.items() for term in vocab),
+        key=lambda tk: -len(tk[0]),
+    )
+    working = text
+    for term, kind in terms:
+        pattern = r"(?<![\w-])" + re.escape(term) + r"(?![\w-])"
+        found = re.findall(pattern, working)
+        if not found:
+            continue
+        working = re.sub(pattern, "\u0000", working)
+        hits[kind].append(f"{term}×{len(found)}")
+        distinct.add(term)
+        named_mentions += len(found)
 
     lowered = text.lower()
     generic_mentions = 0
     for term in GENERIC:
-        generic_mentions += len(re.findall(r"(?<![\w-])" + re.escape(term) + r"(?![\w-])", lowered))
+        generic_mentions += len(
+            re.findall(r"(?<![\w-])" + re.escape(term) + r"(?![\w-])", lowered)
+        )
 
     n_distinct = len(distinct)
     density = named_mentions / max(words, 1) * 100
