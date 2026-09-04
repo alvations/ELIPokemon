@@ -18,7 +18,8 @@ Beam search says: **carry three plans forward instead of one.**
 ```
   Turn 1        Turn 2              Turn 3
   ──────        ──────              ──────
-  Thunderbolt ──┬── then switch ────┬── then Protect     ✅ best overall
+  Thunderbolt ──┬── switch to ──────┬── then Protect     ✅ best overall
+                │   Ferrothorn      │
    (looks best) │                   └── then attack
                 └── then attack ────┬── ...
                                     └── ...
@@ -39,11 +40,11 @@ to go wrong. So the raw scoring quietly favours plans that end quickly.
 Left uncorrected, your Pokémon starts preferring "attack once and hope" over any actual strategy.
 You have to explicitly correct for plan length, and getting that correction wrong is a classic bug:
 too little and everything ends in two turns, too much and your Pokémon plans a forty-turn epic
-against a wild Rattata.
+against a wild Rattata on Route 1.
 
 ## Where it genuinely shines 🏆
 
-**Translating a battle log into another language.** There's one right answer. You want the *best*
+**Translating a Kanto battle log into Johto's dialect.** There's one right answer. You want the *best*
 rendering, and carrying several candidate phrasings forward genuinely finds it.
 
 **Transcribing commentary.** Same deal — one correct transcript, and hearing the next few words
@@ -60,7 +61,7 @@ hard for the single "most likely" plan, you get something specific and bad:
 
 > **The safest possible sequence of moves.**
 
-Not the strongest. The *safest*. Attack, attack, attack, attack. Never a risk, never a read, never
+Not the strongest. The *safest*. Tackle, Tackle, Tackle, Tackle. Never a risk, never a read, never
 a surprise. It's the play of someone who has optimised out every interesting decision.
 
 ```

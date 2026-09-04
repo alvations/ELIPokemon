@@ -19,7 +19,7 @@ It just quietly gets things wrong.
 
 **1. 📏 Two people built the scoreboard.**
 
-Practice used the one your analyst wrote. Tournaments use the one the stadium engineers built.
+Practice used the one your analyst wrote. The Indigo Plateau uses the one their engineers built.
 
 Both display *"average damage over the last 30 turns."* They disagree about whether a turn lost to
 Hypnosis counts, and about whether Leftovers recovery is negative damage.
@@ -59,7 +59,7 @@ practice results.* A suspiciously good practice score is a bug report.
 
 **4. 🔄 Your Trainer changed the world it learns from.**
 
-Your Trainer avoids matchups it predicts are losses. So those matchups **never get played**, so you
+Your Trainer avoids Toxapex, because it predicts those matchups are losses. So those matchups **never get played**, so you
 never find out if it was right, so next season's training data contains only the matchups it already
 liked.
 
@@ -106,7 +106,8 @@ overlooked fix there is.**
 
 ## Catching it 🕵️
 
-* 🔍 **Compare directly.** Take one Ferrothorn, read the practice scoreboard, read the live board.
+* 🔍 **Compare directly.** Take one Ferrothorn holding Leftovers, read the practice scoreboard,
+  read the live board.
   Different? There's your bug.
 * 👻 **Run practice on live matches** without acting on it, and diff the two.
 * 🚨 **Alarm on stale or missing figures** on the live board.

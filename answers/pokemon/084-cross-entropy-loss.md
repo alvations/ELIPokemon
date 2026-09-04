@@ -10,21 +10,20 @@ tags: [cross-entropy, kl-divergence, mle, nll, loss-functions]
 
 # Cross-entropy: how badly did you call that?
 
-Your Trainer predicted the opponent's next move. The opponent moved. **How much do you penalise the
-prediction?**
+Your Trainer predicted Cynthia's next move. She moved. **How much do you penalise the prediction?**
 
 Cross-entropy has an unusual answer: **you don't grade the prediction. You grade how much confidence
 they put on what actually happened.**
 
 ```
-   The opponent used Thunderbolt.
+   Cynthia's Garchomp used Earthquake.
 
    Your Trainer had said:
-     "90% Thunderbolt"  →  penalty 0.1   😌 basically right
-     "50% Thunderbolt"  →  penalty 0.7   😐 hedged
-     "10% Thunderbolt"  →  penalty 2.3   😰 wrong
-     " 1% Thunderbolt"  →  penalty 4.6   💀 confidently wrong
-     " 0% Thunderbolt"  →  penalty ∞     ☠️ "IMPOSSIBLE" — and it happened
+     "90% Earthquake"  →  penalty 0.1   😌 basically right
+     "50% Earthquake"  →  penalty 0.7   😐 hedged
+     "10% Earthquake"  →  penalty 2.3   😰 wrong
+     " 1% Earthquake"  →  penalty 4.6   💀 confidently wrong
+     " 0% Earthquake"  →  penalty ∞     ☠️ "IMPOSSIBLE" — and it happened
 ```
 
 That bottom row is the whole design. Rule something out **completely** and it happens, and the
@@ -87,7 +86,8 @@ every one.
   degraded training, no error message. The most common mistake there is.
 * 🏷️ **Ignoring rare events.** Every turn counts equally — so the one-in-a-thousand situation you
   actually care about contributes a thousandth as much as the routine ones.
-* 🚫 **Grading the padding.** If your replays are different lengths and you pad them out, make sure
+* 🚫 **Grading the padding.** If your Brock replays run 6 turns and your Cynthia replays run 40,
+  and you pad the short ones out, make sure
   the padding isn't being graded. Otherwise most of your training signal is about blank space.
 * ✂️ **Grading the wrong half.** In coaching, you grade *"what should the Pokémon do?"* — you do
   **not** grade it on predicting what the Trainer says. Get that backwards and you've trained a

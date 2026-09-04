@@ -12,7 +12,7 @@ tags: [positional-encoding, rope, alibi, extrapolation]
 
 Attention sees your team as a **PC box**, not a party. A box is just a pile of six Pokémon —
 it has no idea who leads and who is the ace in the back. But battle order is everything:
-sending Magikarp out first and Charizard last is a completely different match from the
+sending Magikarp out first and Garchomp last is a completely different match from the
 reverse, and a box cannot tell those two teams apart.
 
 Positional encoding is how you stamp a slot number onto each Pokémon so the model knows it is
@@ -65,7 +65,7 @@ Pokémon experience the stamp **relatively** (that's what actually decides the f
 Not every part of the ball spins at the same rate:
 
 * ⚡ **Fast-spinning grooves** flip wildly between neighbouring slots. These tell you *"you're
-  the one right before me"* — precise, short-range ordering. Lead vs second slot.
+  the one right before me"* — precise, short-range ordering. Politoed leads, Kingdra follows.
 * 🐢 **Slow-spinning grooves** barely move between adjacent slots but drift steadily over a
   whole team. These tell you *"you're way back in the reserves"* — coarse, long-range position.
 
@@ -90,5 +90,5 @@ spin to angles they have literally never seen, and the Trainer starts targeting 
 ## The one rule people get wrong
 
 You spin the **Query** and the **Key** — what you're looking for, and what each Pokémon
-advertises. You never spin the **Value**. A Pokémon's actual HP and stats don't change because
+advertises. You never spin the **Value**. A Ferrothorn's actual HP and Leftovers don't change because
 it's in slot 5 instead of slot 2. Only *who notices whom* depends on position.

@@ -12,8 +12,8 @@ tags: [pretraining, sft, rlhf, post-training, alignment]
 
 ## 🌾 Stage 1: The wild grass — pretraining
 
-You release your Pokémon into the tall grass for **months**. It fights everything. Rattata,
-Zubat, the occasional Snorlax. Nobody instructs it. Nobody grades it. It just... encounters
+You release your Pokémon into the tall grass for **months**. It fights everything. Rattata on
+Route 1, Zubat in Mt. Moon, the occasional Snorlax asleep across the road. Nobody instructs it. Nobody grades it. It just... encounters
 everything there is to encounter.
 
 What it becomes: a creature that has **seen it all**. Knows every type matchup, every terrain,
@@ -36,7 +36,8 @@ This stage costs almost everything. Months, the entire budget, all of it.
 
 Now a **week** with a trainer holding a clipboard of worked examples.
 
-> *"When the Trainer says 'Thunderbolt', you use Thunderbolt. Watch — like this. Again."*
+> *"When the Trainer says 'Thunderbolt the Gyarados', you Thunderbolt the Gyarados. Watch — like
+> this. Again."*
 
 A few thousand demonstrations of the right behaviour, and something clicks. It's not smarter — it
 learned nothing new about type matchups in that week. But it now understands that **it has a
@@ -49,13 +50,13 @@ becomes *reachable*.
 
 Obedient isn't the same as good.
 
-Your Pokémon now follows orders. But it's blunt. It over-explains. It attacks when it should
-switch. It occasionally does something genuinely reckless because nobody ever told it not to.
+Your Pokémon now follows orders. But it's blunt. It over-explains. It Earthquakes into a Rotom
+when it should switch. It occasionally does something genuinely reckless because nobody ever told it not to.
 
 So: **show it pairs and let it learn which is better.**
 
 > *"Here are two ways that turn could have gone. This one's better. Why? Fewer wasted moves, kept
-> your win condition alive, and it didn't KO its own teammate."*
+> the Garchomp alive as your win condition, and it didn't Earthquake its own teammate."*
 
 ```
   📋 DEMONSTRATION (stage 2)          ⚖️ COMPARISON (stage 3)

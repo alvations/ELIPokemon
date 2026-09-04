@@ -10,7 +10,8 @@ tags: [imbalance, smote, class-weights, focal-loss, threshold-tuning]
 
 # Class imbalance: one shiny per four thousand Pokémon
 
-You're training a shiny detector. Your footage contains **4,000 ordinary Pokémon and 1 shiny.**
+You're training a shiny detector. Your footage contains **4,000 ordinary Rattata and 1 shiny
+Gyarados.**
 
 Your detector learns the obvious lesson: **"nothing is ever shiny."**
 
@@ -36,7 +37,7 @@ were shiny?"* Astonishingly often the detector was fine all along and only the g
 
 **2. 🎚️ Turn the dial down. ← try this first, always**
 
-Your detector probably **ranks** perfectly well. It says "3% chance shiny" for the actual shiny and
+Your detector probably **ranks** perfectly well. It says "3% chance shiny" for the red Gyarados and
 "0.001%" for the Rattata. That's a correct ranking!
 
 The bug is that you're only flagging things above **50%**. Nothing ever gets there.
@@ -78,8 +79,8 @@ on Rattata. Force the training onto the cases it's still getting wrong.
 asking **"is this Pokémon unusual in any way?"** Learn what normal looks like and flag anything that
 isn't. Different problem, often a much better fit.
 
-**7. 🔍 Go and find more shinies.** Least glamorous, usually highest impact. Hunt specifically in the
-places shinies appear. One more real shiny beats a thousand invented ones.
+**7. 🔍 Go and find more shinies.** Least glamorous, usually highest impact. Go and stand at the
+Lake of Rage, where the red Gyarados actually is. One more real shiny beats a thousand invented ones.
 
 ## Two things that will burn you 🚨
 
