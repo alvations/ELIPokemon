@@ -10,7 +10,8 @@ tags: [ppo, policy-gradient, advantage, clipping, gae]
 
 # PPO is coaching from the final scoreboard
 
-Here's the setup. Your Pokémon plays a full 40-turn battle. At the end, the judge says:
+Here's the setup. Your Garchomp plays a full 40-turn battle against a Toxapex stall team. At the
+end, the judge says:
 
 > **"6.2 out of 10."**
 
@@ -28,13 +29,13 @@ You cannot just tell your Pokémon "the battle scored 6.2, do more of that." For
 The trick is to grade every turn against **what you expected**:
 
 ```
-  Turn 12: you were winning comfortably. Expected outcome: 8.
+  Turn 12: Earthquake, winning comfortably. Expected outcome: 8.
            Actual outcome: 8.  →  that turn taught you nothing. 0 credit.
 
-  Turn 13: you were winning comfortably. Expected: 8.
+  Turn 13: stayed in on the Ferrothorn. Expected: 8.
            Actual: 3.  →  🚨 THAT was the disaster. Big negative credit.
 
-  Turn 14: total mess. Expected: 3.
+  Turn 14: switched to Rotom, total mess. Expected: 3.
            Actual: 4.  →  Actually a good turn! Positive credit, despite
                            the position still being bad.
 ```
@@ -51,7 +52,7 @@ every turn gets measured against.
 
 Here's the failure mode PPO is named for.
 
-Your Pokémon uses Thunderbolt on turn 7. The match scores well. Naïve coaching says: *"Thunderbolt
+Your Garchomp uses Earthquake on turn 7. The match scores well. Naïve coaching says: *"Earthquake
 is amazing — use it always, in every position, forever."*
 
 One match. One data point. And you've just rewritten its entire personality.
@@ -72,7 +73,7 @@ amount.**
 
 You still learn from the match. You just can't learn *everything* from it. Which means you can
 safely re-study the same match several times over — squeezing full value out of one expensive
-battle — without the third pass turning your Pokémon into a Thunderbolt fanatic.
+battle — without the third pass turning your Garchomp into an Earthquake fanatic.
 
 That matters enormously, because **playing the matches is the expensive part**. Re-studying is
 nearly free. The clip is what makes re-studying safe.

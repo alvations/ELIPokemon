@@ -16,7 +16,7 @@ Your shiny detector needs grading. Two ways to do it — and on rare Pokémon, *
 
 ```
    In this patch of grass:
-   🐀 1,000,000 ordinary Pokémon
+   🐀 1,000,000 ordinary Rattata, Zubat and Caterpie
    ✨         1,000 shinies
 
    Your detector flags 10,900 Pokémon.
@@ -53,7 +53,7 @@ ten thousand out of a *million* is 1%, and 1% sounds wonderful.
 **The enormous pile of correctly-ignored Rattata drowns out your mistakes.** Scorecard B never
 mentions them, which is exactly why it stays honest.
 
-📌 **You throw balls. You don't throw "non-balls."** The scorecard that measures what you actually
+📌 **You throw Ultra Balls. You don't throw "non-balls."** The scorecard that measures what you actually
 *spend* is the one that matters.
 
 ## When each is fine 📋

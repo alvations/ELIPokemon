@@ -41,7 +41,7 @@ turns that matter.
 mistake and back up. One long deliberation.
 
 **2. 🎲 Consider several plans, then pick.**
-* 🗳️ Play it out three ways and go with the consensus.
+* 🗳️ Play it out three ways — Thunderbolt, Volt Switch, Protect — and go with the consensus.
 * 👨‍⚖️ Play it out five ways and let a judge pick the best.
 * ✅ Play it out five ways and **check which actually wins** — strongest by far, when you can check.
 
@@ -70,7 +70,7 @@ afford?"* It's *"what's the best split between raising it and letting it think?"
    🎯 HARD-BUT-REACHABLE — a six-way endgame with items and weather.
       Thinking: ✅ ✅ ✅ This is where ALL the value is.
 
-   🌋 IMPOSSIBLE — a matchup they simply don't understand.
+   🌋 IMPOSSIBLE — a Trick Room Bronzong line they simply don't understand.
       Thinking for an hour: still wrong. Just slower.
 ```
 

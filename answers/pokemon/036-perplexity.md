@@ -15,14 +15,14 @@ Watch a battle replay. Pause before each move. Ask your Trainer: *"what happens 
 **Perplexity is how many options they were effectively torn between.**
 
 ```
-   1     🎯 "Thunderbolt." And it was Thunderbolt. Every time.
+   1     🎯 "Thunderbolt the Gyarados." And it was. Every time.
             Perfect prediction. Nothing surprises them.
 
    2     🪙 Torn between two moves, coin-flip. Every turn.
 
    10    🤔 Effectively picking from ten plausible moves.
 
-   50    😐 Fifty options feel equally likely. That's a rookie.
+   50    😐 Fifty moves feel equally likely. That's a rookie on Route 1.
 
    50,000 🫠 No idea. Might as well name a random Pokémon.
 ```

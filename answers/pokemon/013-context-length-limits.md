@@ -14,7 +14,8 @@ Everyone assumes the limit is memory. It's four different limits wearing a trenc
 
 ## Wall 1: everyone must scout everyone 🔍
 
-Every Pokémon on the field sizes up every other Pokémon. Ten Pokémon is 100 comparisons. A
+Every Pokémon on the field sizes up every other Pokémon — Garchomp against Ferrothorn against
+Toxapex, all at once. Ten Pokémon is 100 comparisons. A
 hundred Pokémon is 10,000. A thousand is a million.
 
 Double the roster, **quadruple** the scouting. This is the one everybody knows about.
@@ -76,7 +77,7 @@ And the failure isn't uniform. Ask about a turn from the middle of a long battle
 
    Turn 3?    Crystal clear — that was the lead, everyone remembers the lead.
    Turn 380?  Crystal clear — that was thirty seconds ago.
-   Turn 190?  ...something about a Ferrothorn? Maybe?
+   Turn 190?  ...something about a Ferrothorn? Or was it Skarmory?
 ```
 
 Openings are memorable. Recent turns are fresh. **The middle is a swamp.** Exactly like a human

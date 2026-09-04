@@ -40,8 +40,8 @@ Of course it's on the tape. Where else would it be?
   through it move by move. Just as effective.
 * 📖 **They only saw the answers.** Never watched the battle, but memorised "the counter to Brock's
   Onix is Water." All the benefit, none of the footage.
-* 🎭 **They studied battles built from this battle.** Someone made practice drills modelled on the
-  Gym Circuit. Now the drills leak the exam.
+* 🎭 **They studied battles built from this battle.** Someone made practice drills modelled on
+  Brock's Onix and Misty's Starmie. Now the drills leak the exam.
 
 ## How to catch it 🔍
 
@@ -53,7 +53,8 @@ Of course it's on the tape. Where else would it be?
 
 **If you can't inspect the tapes** — which is the usual situation:
 
-* 🔀 **Shuffle the exam.** This is the elegant one. Reorder the questions. A Trainer who genuinely
+* 🔀 **Shuffle the exam.** This is the elegant one. Reorder the Gym Leaders — face Sabrina before
+Brock. A Trainer who genuinely
   understands is unaffected. A Trainer who memorised the paper **in its original order** stumbles,
   because they memorised a sequence, not a subject.
 * ✍️ **Start a question and stop.** Read the first half of a Gym battle and let them continue. If

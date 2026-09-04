@@ -30,7 +30,7 @@ be dead before you finish.
 
 ```
    ➡️ FORWARD — how the season went
-   Route 1 ──► Gym 1 ──► Gym 2 ──► ... ──► Champion ──► 💔 LOSS
+   Route 1 ──► Brock ──► Misty ──► ... ──► Champion ──► 💔 LOSS
       │          │         │                   │
    (note it)  (note it) (note it)          (note it)
    ↑ keep a record at every step — you'll need them
@@ -69,7 +69,7 @@ two things: who to blame behind you, and what to change here. So a full round of
 **three seasons' worth of effort** — one to play, two to review.
 
 **📝 Memory — the big one:** you have to **keep every note you took on the way forward.** You can't
-work out Gym 3's share of the blame without remembering what actually happened at Gym 3.
+work out Lt. Surge's share of the blame without remembering what actually happened in his Gym.
 
 Long season, big team, detailed notes — the filing cabinet is enormous, and it's usually the thing
 that limits how much you can train at once.
@@ -80,8 +80,8 @@ that limits how much you can train at once.
 it's a whisper. Route 1's tutor learns nothing. (Or the reverse — it amplifies each step and arrives
 as a scream.)
 
-**✏️ You overwrote your notes.** Tidied up your Gym 3 records to save space, and now you cannot
-apportion Gym 3's blame. The good news is that most systems shout at you when you do this. Some
+**✏️ You overwrote your notes.** Tidied up your Lt. Surge records to save space, and now you
+cannot apportion his share of the blame. The good news is that most systems shout at you when you do this. Some
 don't, and then you get **confidently wrong answers**, which is worse.
 
 **✂️ You cut the chain.** Somewhere in the middle, someone wrote down a *summary* instead of keeping

@@ -29,8 +29,8 @@ Send a scout instead. **They** read all forty, with their own bag. They come bac
 One sentence. Your bag never held the forty reports. This is the reason most good multi-Trainer
 setups exist.
 
-**2. ⚡ Genuinely parallel work.** Five opponents to scout, and no scouting depends on any other?
-Send five scouts. Five times faster.
+**2. ⚡ Genuinely parallel work.** Five opponents to scout — Politoed, Kingdra, Ferrothorn, Toxapex,
+Tapu Fini — and no scouting depends on any other? Send five scouts. Five times faster.
 
 **3. 🎯 Different jobs, different kit.** A cheap Trainer sorts the easy cases; the expensive one only
 sees the hard ones.
@@ -77,7 +77,8 @@ Absurd for *"what type is Pikachu?"*
 **🐛 Debugging is awful.** Five Trainers, running concurrently, each with their own bag, each
 slightly non-deterministic. Without tracing you will never work out what went wrong.
 
-**✍️ Two Trainers editing the same thing.** Two scouts both update the team sheet. One overwrites the
+**✍️ Two Trainers editing the same thing.** Two scouts both update the Garchomp entry on the team
+sheet. One overwrites the
 other. Silent, and catastrophic.
 
 ## The rules that actually hold 📋

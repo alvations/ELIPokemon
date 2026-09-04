@@ -10,7 +10,7 @@ tags: [mixed-precision, fp16, bf16, loss-scaling, fp8, tensor-cores]
 
 # Mixed precision: round the numbers, but not all of them
 
-Recording every stat to seven decimal places is wasteful. Round them and everything is half the size
+Recording every stat to seven decimal places is wasteful. Pikachu's Attack is 55, not 55.0000000. Round them and everything is half the size
 and several times faster.
 
 But you can't round **everything**, and *which* things you round is the whole skill.
@@ -81,7 +81,7 @@ Round the wrong thing and training silently stops.
 
 ```
    Pikachu's Attack:              55.000000
-   This week's adjustment:         0.0000004
+   This week's adjustment:         0.0000004  (four EVs' worth)
 
    In the rough format:  55.0 + 0.0000004 = 55.0
                                              ▲
@@ -103,7 +103,7 @@ Add them precisely, *then* round the result.
 ```
    ⚡ ROUGH — the heavy lifting        📐 PRECISE — the bookkeeping
    ──────────────────────             ────────────────────────────
-   Comparing Pokémon                  The official stat records
+   Comparing Gyarados to Golem        The official stat records
    Working out matchups               The trend notebooks
    Passing feedback around            Running totals
                                       Final scores

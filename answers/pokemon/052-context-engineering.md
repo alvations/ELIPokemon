@@ -23,8 +23,8 @@ matters far more than what you said at the start.
   ┌── THE BAG — limited space, everything competing ──────────────┐
   │                                                               │
   │  📜 your standing orders          ← same every battle          │
-  │  🔧 the list of items you can use ← grows with every addition   │
-  │  📄 scouting reports              ← biggest and most variable   │
+  │  🔧 Potions, Revives, Ultra Balls ← grows with every addition   │
+  │  📄 scouting reports on Toxapex   ← biggest and most variable   │
   │  📝 the log of everything so far  ← grows forever               │
   │  📊 results of everything tried   ← can be ENORMOUS             │
   │  🗒️ the current plan               ← working memory              │
@@ -42,8 +42,8 @@ extra page is another thing to be distracted by.
 
 **💸 Carrying costs money and time**, linearly. A stuffed bag isn't free just because it closes.
 
-**💥 One item can flood the bag.** Your Trainer checks the field once and gets back a fifty-page
-dump. Shove that straight in the bag and everything else is buried. **This is the single most common
+**💥 One item can flood the bag.** Your Trainer checks the field once and gets back the full
+fifty-page Pokédex entry for Ferrothorn. Shove that straight in the bag and everything else is buried. **This is the single most common
 way an agent dies.**
 
 **📈 Forty turns of notes.** By turn 40, the bag is mostly stale observations from turn 6, and your

@@ -15,7 +15,8 @@ the question.**
 
 ## 🗂️ The filing clerk — files first, asks later
 
-Reads every report **months in advance** and writes each one a single index card. Then files them.
+Reads every report **months in advance** and writes each one a single index card — *"Ferrothorn:
+Grass/Steel, defensive"* — then files them.
 
 When your question arrives, they compare your question to the cards. Ten million cards in about a
 millisecond.

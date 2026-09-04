@@ -16,9 +16,9 @@ The world moved. And there are four different ways it moves, needing four differ
 
 ## 1. 🌊 Different opponents now
 
-Last season: Water teams everywhere. This season: everyone runs Dragon.
+Last season: Politoed rain everywhere. This season: everyone runs Garchomp.
 
-Your Trainer still **understands** Dragon types perfectly. It just prepared for a tournament that
+Your Trainer still **understands** Garchomp perfectly. It just prepared for a tournament that
 isn't happening.
 
 📌 **Note: this doesn't necessarily hurt.** A Trainer with genuinely broad knowledge handles the new
@@ -42,14 +42,15 @@ recalibrating helps when the meaning itself has flipped.
 
 ## 3. 📊 Same game, different rates
 
-Shiny encounters went from 1-in-4096 to 1-in-500 after an event.
+Shiny encounters went from 1-in-4096 to 1-in-500 during a Community Day.
 
 Your Trainer's *judgement* is fine. Its **threshold** is now miscalibrated for how often the thing
 actually happens. Adjust the dial, don't retrain.
 
 ## 4. 🔧 Somebody broke the scoreboard
 
-The stadium changed how it reports HP — percentages instead of absolute numbers. Your Trainer is
+The stadium changed how it reports HP — percentages instead of absolute numbers, so a Blissey at
+"45" now means 45%, not 45 points. Your Trainer is
 reading "45" as forty-five HP when it means forty-five percent.
 
 📌 **This is most drift alerts.** Not the world changing — **your pipe leaking.** Check this
