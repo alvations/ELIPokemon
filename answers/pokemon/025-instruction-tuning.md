@@ -10,8 +10,9 @@ tags: [instruction-tuning, sft, lima, superficial-alignment, chat-template]
 
 # Instruction tuning is one week of obedience school
 
-Your Pokémon comes out of the wild grass knowing **everything**. Every type matchup, every
-terrain, every species. It is, in raw terms, already a monster.
+Your Pokémon comes out of the wild grass knowing **everything**. Every type matchup, that Drizzle
+sets rain and Drought sets sun, that Sturdy survives on 1 HP, every species. It is, in raw terms,
+already a monster.
 
 Say "Thunderbolt" and it ignores you completely. It knows the move. It knows Gyarados is
 Water/Flying and takes four times damage. It simply does not know that *you* are relevant.
@@ -51,7 +52,8 @@ A thousand. One week.
 Here's why. You are not teaching it *anything about Pokémon*. It already knows the type chart. It
 already knows what a good turn looks like. It knew all of it before you showed up.
 
-You're teaching it **that it has a Trainer**. That's one concept. Concepts need examples, not
+You're teaching it **that it has a Trainer**. That's one concept — the same one a Poké Ball
+establishes the moment it clicks shut. Concepts need examples, not
 volume — once it clicks, it clicks for everything.
 
 > The grass built the monster. The week just handed you the leash.
@@ -81,7 +83,7 @@ New knowledge goes in the grass, or gets handed over as a reference book at batt
 in obedience school.
 
 **Your habits become its habits.** Demonstrate with long flowery explanations and you get a
-Pokémon that monologues before every move. Demonstrate with bullet points and it bullet-points
+Pokémon that monologues before every Thunderbolt. Demonstrate with bullet points and it bullet-points
 its way through a Gym battle. Whatever's typical in your thousand examples becomes its default
 personality — including how *long* it takes to say anything.
 

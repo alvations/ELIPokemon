@@ -10,16 +10,16 @@ tags: [relu, gelu, swiglu, activations, gating]
 
 # Activation functions: how does a Pokémon decide to react?
 
-Something happens on the field. Your Pokémon has to decide **how strongly to respond.** That
-decision rule is the activation function.
+A Gyarados switches in. Your Ferrothorn has to decide **how strongly to respond.** That decision
+rule is the activation function.
 
 And first, why it must be a *rule* and not just arithmetic:
 
 > **Without a decision rule, a hundred Gyms collapse into one.**
 
-If every Gym just adds its opinion to a running total, you could have added them all up at the start
-and skipped the journey. The **non-linearity** — some genuine threshold, some "no, that doesn't
-matter" — is what makes Gym 47 capable of doing something Gym 3 couldn't.
+If Brock, Misty and Lt. Surge each just add their opinion to a running total, you could have added
+all eight badges up at the start and skipped the journey. The **non-linearity** — some genuine threshold, some "no, that doesn't
+matter" — is what makes Giovanni capable of teaching something Brock couldn't.
 
 ## The three rules 📊
 
@@ -33,11 +33,12 @@ matter" — is what makes Gym 47 capable of doing something Gym 3 couldn't.
         │ ╱                       ╲__│╱                      ╲__│╱
         │                            │                          │
 
-   In or out. Nothing        Mostly out, but a         Same idea, cheaper
-   in between.               whisper gets through.     to run.
+   Attack or don't.          Mostly don't, but a       Same idea, cheaper
+   Nothing in between.       whisper gets through.     to run.
 ```
 
-**🚪 The Bouncer.** Above the threshold, through at full strength. Below it, **nothing.**
+**🚪 The Bouncer.** Above the threshold, through at full strength — Thunderbolt, no hesitation.
+Below it, **nothing.**
 
 Simple, fast, and — crucially — it doesn't weaken the message passing through, which is what made
 deep Leagues possible at all.
@@ -59,8 +60,9 @@ Gating asks **two**, separately:
 ```
    🎚️ THE GATED RULE
 
-   Knob A: "What's my reaction?"        → "Thunderbolt, hard."
-   Knob B: "How much does this matter?" → "...only 20%. It's a feint."
+   Knob A: "What's my reaction?"        → "Thunderbolt the Gyarados."
+   Knob B: "How much does this matter?" → "...20%. It has a Focus Sash,
+                                            so it survives anyway."
 
    ✅ ANSWER = A × B  →  Thunderbolt, but held back.
 ```

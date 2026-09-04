@@ -14,7 +14,7 @@ Your new Trainer scores better in practice — it finally stops leading Magikarp
 real matches?**
 
 Those are genuinely different questions. A Trainer with better practice numbers can absolutely lose
-more tournaments — and one that "looks worse" on paper can win because it decides three times faster.
+to Cynthia — and one that "looks worse" on paper can win because it decides three times faster.
 
 **Only real matches settle it.**
 
@@ -22,8 +22,8 @@ more tournaments — and one that "looks worse" on paper can win because it deci
 
 **👤 Split by Trainer, not by match.**
 
-Give half your Trainers the new strategy and half the old one, and **keep each Trainer on one side for
-the whole test.**
+Give half your Trainers the new lead — Garchomp instead of Magikarp — and half the old one, and
+**keep each Trainer on one side for the whole test.**
 
 Split by *match* instead and the same Trainer plays some matches with the new strategy and some with
 the old — they'll get confused, carry habits across, and both sides get muddied.
@@ -69,7 +69,7 @@ find an effect; you found the day the dice favoured you.
 
 **2. ✨ Everything new looks good at first.**
 
-Trainers try harder with a new strategy. They pay attention. They're curious.
+Trainers try harder with a new lead. They actually read the Focus Sash. They're curious.
 
 Two weeks later, the novelty's gone and so is the improvement.
 
@@ -105,8 +105,8 @@ Trainers meet, it's changing the very thing you're measuring against.
 
 ## When you can't run a proper test ⚡
 
-* 🔀 **Blend both sides into one list.** For ranking, show results from both Trainers **mixed
-  together** and see which get picked. Far more sensitive — needs a fraction of the matches.
+* 🔀 **Blend both sides into one list.** For ranking Pokémon to catch, show suggestions from both
+  Trainers **mixed together** and see which get caught. Far more sensitive — needs a fraction of the matches.
 * 👻 **Run it silently.** Let the new Trainer call every turn **without anyone acting on it**, and
   compare its calls to the old one's. Zero risk. Catches every speed and crash problem. Tells you
   **nothing** about whether people prefer it.

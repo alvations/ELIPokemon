@@ -10,7 +10,7 @@ tags: [rag, retrieval, grounding, fine-tuning, architecture]
 
 # RAG is letting your Trainer consult the Pokédex mid-battle
 
-Two ways to make a Trainer who knows your Gym's roster:
+Two ways to make a Trainer who knows Misty's roster — Starmie, Politoed, Milotic:
 
 **🏕️ Train it in.** Months of study until every Pokémon on the roster is memorised.
 
@@ -31,7 +31,7 @@ reading question**, and reading is the thing it's actually good at.
 ## The lookup 🔍
 
 ```
-   ❓ "What beats a Rain team?"
+   ❓ "What beats a Politoed Rain team?"
               │
               ▼
    ┌─────────────────────┐        ┌────────────────────────────┐
@@ -52,15 +52,15 @@ reading question**, and reading is the thing it's actually good at.
    └──────────────────────────────────────┘
 ```
 
-Two passes matter: a **fast, broad** sweep to find candidates, then a **slow, careful** read to
-rank them. Doing only the fast pass gets you roughly-relevant pages. Doing only the slow pass on
+Two passes matter: a **fast, broad** sweep that pulls the Politoed, Kingdra and Ferrothorn pages,
+then a **slow, careful** read to rank them. Doing only the fast pass gets you roughly-relevant pages. Doing only the slow pass on
 everything takes all day.
 
 ## Pokédex vs camp 📊
 
 | | 📖 Pokédex | 🏕️ Camp |
 | --- | --- | --- |
-| Teaching it **facts** | ✅ the whole point | ❌ unreliable, breeds bluffing |
+| Teaching it **Toxapex's ability** | ✅ the whole point | ❌ unreliable, breeds bluffing |
 | Teaching it **style** | ❌ | ✅ the whole point |
 | Roster changed today | ✅ reprint one page | ❌ retrain, wait days |
 | "Where did that come from?" | ✅ page 47 | ❌ unanswerable |
@@ -89,7 +89,8 @@ Three arguments for the Pokédex that nobody mentions until it's too late:
 * 🔍 **Bad search ruins everything.** If the right page isn't found, a Champion-level Trainer with a
   Pokédex is no better than one without. **Most "the Pokédex didn't help" stories are search
   failures**, not Trainer failures.
-* 🌍 **Big-picture questions.** *"What are the overall trends across all 10,000 scouting reports?"*
+* 🌍 **Big-picture questions.** *"Is the metagame drifting toward Trick Room across all 10,000
+  scouting reports?"*
   Five pages cannot answer that. You need summaries of summaries.
 * 🔗 **Two-step questions.** *"Which of our opponents runs the Pokémon that just got banned?"* —
   first *what got banned* (Baton Pass), then *who runs it*. Two lookups chained. One finds neither.

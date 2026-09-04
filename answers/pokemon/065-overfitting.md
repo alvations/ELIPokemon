@@ -14,8 +14,8 @@ Your Trainer is **undefeated** in practice. Not one loss.
 
 They enter a real tournament and lose in round one.
 
-They didn't learn to battle. They learned **these specific opponents** — Brock's exact lead, the
-exact turn he uses Rock Tomb, the exact set he runs. Flawless recall of forty matches that will
+They didn't learn to battle. They learned **these specific opponents** — that Brock leads Geodude
+and switches to Onix, that Misty's Starmie clicks Protect on turn one. Flawless recall of forty matches that will
 never happen again.
 
 ## Watching it happen 📉
@@ -73,15 +73,16 @@ it, it's practice footage — you've just given it a fancier name.
 Here's what actually happens most of the time in real work. It's not memorisation. **It's cheating** —
 and no amount of stopping early or simplifying will fix it.
 
-**🔮 A feature from the future.** You're predicting which Pokémon will faint, and one of your inputs
-is `revive_used`. Of *course* you're at 100%. That field only gets filled in **after** the Pokémon
+**🔮 A feature from the future.** You're predicting which Pokémon will faint, and one of your
+inputs is `revive_used` — whether someone threw a Max Revive at it afterwards. Of *course* you're at 100%. That field only gets filled in **after** the Pokémon
 faints. It won't exist when you actually need to predict.
 
 **📅 Practising on tomorrow.** You split your footage randomly — so your Trainer studied June and
 July, and is now being "tested" on a match from **June**. It's not predicting. It's remembering. For
 anything time-ordered, **split by date**, always.
 
-**👥 The same opponent in both piles.** Brock's matches ended up in practice *and* in your test set.
+**👥 The same opponent in both piles.** Brock's matches ended up in practice *and* in your test
+set — his Geodude in one, his Onix in the other.
 Your Trainer knows Brock. Split by **opponent**, not by match.
 
 **🧪 Preparing the footage before splitting.** You normalised, cleaned, and indexed everything, *then*

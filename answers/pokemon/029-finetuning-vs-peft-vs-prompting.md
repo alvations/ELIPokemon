@@ -20,12 +20,12 @@ up it**.
         ❌ you must say it every single battle
 
   📋 2. HAND IT A SCOUTING REPORT   hours, cheap
-        "Here's today's opponent roster, freshly scouted."
+        "Misty leads Starmie; her Politoed has Drizzle."
         ✅ updates in seconds  ✅ you can check where a fact came from
         ❌ now your scouting is the weak link
 
   🎒 3. GIVE IT A HELD ITEM        days, moderate
-        Train a small adapter on a thousand examples.
+        Clip on a Mystic Water and train just that.
         ✅ cheap  ✅ swappable  ✅ Champion underneath is safe
         ❌ needs real training data
 
@@ -43,7 +43,7 @@ up it**.
 | --- | --- |
 | 📚 It doesn't **know** Toxapex got a new ability | Scouting report. **Never camp.** |
 | 📐 It **formats** wrong | Just tell it. Item if you're repeating yourself constantly. |
-| 🎭 Its **style/tone** is off | Held item. This is precisely what items are for. |
+| 🎭 Its **style/tone** is off | Mystic Water. This is precisely what items are for. |
 | 🤷 It **can't do the task at all** | Item with real data — or get a better Pokémon. |
 | 🌏 It needs a **whole new type** | Camp. Genuinely. |
 | 💸 It's too **slow or expensive** | Train a *small* Pokémon to copy your big one. |
@@ -52,7 +52,7 @@ up it**.
 
 Row one. It is *always* row one.
 
-> *"Our Pokémon doesn't know our Gym's roster. Let's send it to camp for a month."*
+> *"Our Pokémon doesn't know Misty runs Politoed now. Let's send it to camp for a month."*
 
 Here's what you get back. It still doesn't reliably know your roster — a month of camp is not how
 facts stick. What it *has* learned is that **when asked about your Gym, one answers immediately

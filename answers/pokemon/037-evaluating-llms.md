@@ -15,12 +15,13 @@ actual skill.
 
 ```
   🏅 THE GYM CIRCUIT — standardised, everyone takes them
-     Eight badges, same Leaders, same rosters.
+     Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni.
+     Same Leaders, same rosters, every year.
      ✅ cheap, repeatable, everyone's score is comparable
      ❌ they've been the same for years, and the answers have leaked
 
   🎯 THE PRACTICE FIELD — automatic checks
-     "Did the Pokémon actually faint?" — objective, no judging.
+     "Did Thunderbolt actually KO the Gyarados?" — objective, no judging.
      ✅ unfakeable and free  ❌ only works where there's a right answer
 
   👥 THE JUDGES — human ratings
@@ -37,7 +38,7 @@ actual skill.
 
 **1. 📖 They've seen the exam.** Your Trainer scores 94% on the Gym Circuit! Impressive — until you
 learn those exact battles have been in every training tape for six years. They didn't out-think
-Brock. They **memorised** Brock. Use freshly-written battles nobody could have studied.
+Brock's Onix. They **memorised** it. Use freshly-written battles nobody could have studied.
 
 **2. 🏔️ The test is too easy now.** Everyone scores 90%+ on the Circuit. So what's the remaining
 10%? Mostly **mistakes in the answer key**. Above about 90% you've stopped measuring Trainers and
@@ -50,7 +51,7 @@ asked differently.
 
 **4. 🎯 The Circuit isn't your job.** This is the big one.
 
-> Your Trainer got all eight badges. Congratulations. **You run a daycare.**
+> Your Trainer got all eight badges. Congratulations. **You run the Day Care on Route 5.**
 
 Beating Brock tells you nothing about whether they can handle a distressed Eevee. Nothing. Build a
 test out of **your actual work** — a hundred real cases from your own daycare beats every badge in
@@ -63,7 +64,7 @@ what for. Report a **profile**, always including cost and speed.
 **6. ☀️ You only tested the easy days.** Everyone tests: Pokémon healthy, clear weather, standard
 opponent.
 
-Nobody tests: the opponent cheats. The Pokémon is poisoned. Someone asks in a language your Trainer
+Nobody tests: the opponent stalls with Double Team. The Pokémon is poisoned. Someone asks in a language your Trainer
 barely knows. The battle runs 400 turns. The request is genuinely ambiguous. **That's where real
 failures live**, and it's exactly what nobody puts in the test set.
 

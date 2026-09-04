@@ -22,9 +22,9 @@ GRPO's idea is almost stupidly simple:
    ┌──────────────────────────────────────────────────────────────┐
    │  Same position. Eight attempts.                              │
    │                                                              │
-   │   attempt 1  ────────────►  WIN   ✅                         │
-   │   attempt 2  ────────────►  loss  ❌                         │
-   │   attempt 3  ────────────►  WIN   ✅                         │
+   │   attempt 1  Thunderbolt ─►  WIN   ✅                         │
+   │   attempt 2  Volt Switch ─►  loss  ❌                         │
+   │   attempt 3  Quick Attack►  WIN   ✅                         │
    │   attempt 4  ────────────►  loss  ❌                         │
    │   attempt 5  ────────────►  WIN   ✅                         │
    │   attempt 6  ────────────►  loss  ❌                         │
@@ -49,7 +49,8 @@ One fewer Pokémon in the gym, and no way for a bad prediction to poison the gra
 
 Pair this with the best kind of grading there is — **just check whether it worked**.
 
-Did the move actually KO? Did the calculation come out right? Did the strategy actually win?
+Did Thunderbolt actually KO the Gyarados? Did the damage roll come out right? Did the Rain team
+actually win?
 
 ```
    👨‍⚖️ A LEARNED JUDGE          🎯 THE SCOREBOARD
@@ -88,7 +89,8 @@ for winning.
 
 ## What it needs to work 📋
 
-* ✅ **A checkable outcome.** Maths, code, logic, anything with a right answer. *"Write me a moving
+* ✅ **A checkable outcome.** A damage calculation, a Speed tier, a type matchup — anything with a
+  right answer. *"Write me a moving
   poem"* has no scoreboard, and this whole method simply doesn't apply.
 * 🎲 **Battles it sometimes wins.** This is the subtle requirement. If all eight attempts lose,
   they're all equally bad and you've learned nothing. If all eight win, same. You need positions
