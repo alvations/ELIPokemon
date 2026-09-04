@@ -116,6 +116,50 @@ from datasets import load_dataset
 ds = load_dataset("json", data_files="dataset/elipokemon.jsonl", split="train")
 ```
 
+## Measuring and improving Pokémon-ness
+
+A Pokémon answer that reaches for **named** entities — real species, moves, items, abilities,
+characters, places — is doing more analogy work than one leaning on generic furniture
+("a Trainer", "a Gym", "a battle"). That is measurable, so it is measured.
+
+```bash
+python3 scripts/pokemon_score.py            # score all 100, rewrite LEDGER.md
+python3 scripts/pokemon_score.py --detail 042   # what one answer matched
+python3 scripts/ledger_history.py           # the score trend across git history
+```
+
+[`LEDGER.md`](LEDGER.md) is generated and committed, and scoring is deterministic — so the diff
+between two commits of that file *is* the change in Pokémon-ness, and `ledger_history.py`
+replays it.
+
+```
+score = breadth (0-45) + density (0-35) + specificity (0-20)
+```
+
+### Revising with Claude
+
+[`scripts/revise.py`](scripts/revise.py) asks Claude to raise a low-scoring answer, using the
+prompt in [`prompts/revise-pokemon-answer.md`](prompts/revise-pokemon-answer.md) — versioned in
+the repo so changes to the instructions are reviewable.
+
+```bash
+pip install anthropic
+python3 scripts/revise.py --lowest 5 --dry-run   # build prompts, no API calls
+python3 scripts/revise.py --lowest 5             # revise, keeping only improvements
+python3 scripts/revise.py --id 082 --min-gain 5
+```
+
+Each revision is fed the **serious** answer as the source of truth, and is discarded unless it
+raises the score, keeps the front matter byte-identical, and still passes `validate.py`.
+
+### The score is a search tool, not a target
+
+It counts named entities; it cannot tell whether they earn their place. That makes it a proxy,
+and this dataset contains answers about what happens when you optimise against one — see
+[`021`](answers/pokemon/021-reward-models.md) on Goodharting a reward model and
+[`038`](answers/pokemon/038-llm-as-a-judge.md) on judges that reward surface features. Use it to
+*find* answers worth a human look. A low score is a question, not a verdict.
+
 ## Conventions
 
 * **Serious answers** open with a one-paragraph "the answer you'd actually say out loud",
