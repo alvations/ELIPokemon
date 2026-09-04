@@ -15,8 +15,9 @@ abilities, weather, items. Good.
 
 But right now, **each coach keeps their own private notebook** on every Pokémon that's appeared.
 Eight coaches × forty Pokémon = eight thick notebooks of largely the same information. The
-Type Expert wrote "Gyarados: Water/Flying, holding Sash." The Weather Tracker wrote "Gyarados:
-Water/Flying, holding Sash." So did everyone else.
+Type Expert wrote "Gyarados: Water/Flying, Focus Sash." The Weather Tracker wrote "Gyarados:
+Water/Flying, Focus Sash." So did everyone else — and all eight wrote the same line about
+Ferrothorn's Leftovers.
 
 That's a lot of desk for one fact.
 
@@ -50,7 +51,8 @@ one filing cabinet.
 can now run thirty battles at once instead of four.
 
 But something is lost. Each coach used to record facts in the format *they* found useful — the
-Ability Scout jotting a note about Sturdy that the Type Expert would never have bothered with.
+Ability Scout jotting *"might have Intimidate"* under Gyarados, which the Type Expert would never
+have bothered with.
 Force everyone into one shared format and the notes drift toward the generic. The coaches still
 disagree, but they're now disagreeing about a blander summary. Play matters.
 
@@ -68,7 +70,7 @@ and run a short refresher camp, about 5% of the original training. The coaches a
 
 ## Which one do you want? 🎯
 
-* 🏆 **Eight notebooks** — one high-stakes exhibition match, quality above all, desk space is
+* 🏆 **Eight notebooks** — one high-stakes match against Cynthia, quality above all, desk space is
   free. Rare.
 * ✅ **Grouped** — you're running a tournament circuit and need throughput without dropping
   games. The default answer.

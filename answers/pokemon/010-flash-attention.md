@@ -12,7 +12,7 @@ tags: [flashattention, io-aware, tiling, online-softmax, hbm-sram]
 
 Your Pokémon are in two places. Six on your **belt** — instant access, but only six. Everything
 else is in the **PC box at the Pokémon Center**, which holds thousands but requires walking
-across town every time you want one.
+across town every time you want one. Bill built the box; he did not make it fast.
 
 ```
    🎒 THE BELT          6 slots        instant
@@ -22,7 +22,8 @@ across town every time you want one.
 
 ## How the rookie scouts a tournament 🐌
 
-You need to compare all your Pokémon against all forty of the opponent's.
+You need to compare all six of your Pokémon — Garchomp, Ferrothorn, Rotom, Toxapex, Tapu Fini,
+Gyarados — against all forty of the opponent's.
 
 The rookie does this:
 
@@ -39,7 +40,7 @@ forty Pokémon is manageable, eight thousand and you're papering the entire Cent
 Never write the poster at all.
 
 ```
-   Grab 6 of yours onto the belt.        ← stays on the belt the whole time
+   Grab your six onto the belt.          ← stays on the belt the whole time
    ┌─────────────────────────────────────────────────────┐
    │  for each batch of 6 enemy Pokémon:                 │
    │      pull them out                                  │
@@ -60,8 +61,8 @@ for the giant poster was needing the full picture first.
 
 The pro's trick: **keep a running tally and fix it as you go.**
 
-You're partway through and your best matchup so far scores 40. Then batch seven produces a
-monster scoring 900. The rookie would say "well, everything I computed is now wrong."
+You're partway through and your best matchup so far is a 40 against some Rattata. Then batch seven
+produces a Blissey scoring 900. The rookie would say "well, everything I computed is now wrong."
 
 The pro says: *"Everything so far was measured against 40. The new bar is 900. So scale
 everything I've already got down by exactly that much, then add the new one."* One correction,

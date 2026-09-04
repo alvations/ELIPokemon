@@ -10,7 +10,8 @@ tags: [zero, fsdp, sharding, deepspeed, memory-optimisation]
 
 # ZeRO: stop making every gym keep a full copy of everything
 
-Eight gyms, all training the same team on different opponents. Every gym holds:
+Eight gyms — Brock's through Giovanni's — all training the same team on different opponents. Every
+gym holds:
 
 * 📋 The team's stats
 * 📝 This week's feedback
@@ -67,11 +68,11 @@ The aggressive one. Now **no gym holds the whole team.** Gym A physically only h
 So how does anyone train?
 
 ```
-   🥊 About to train Charizard:
-      1. 📞 "Whoever has Charizard's stats, send them over."
-      2. ⚡ Train Charizard.
+   🥊 About to train Garchomp:
+      1. 📞 "Whoever has Garchomp's stats, send them over."
+      2. ⚡ Train Garchomp.
       3. 🗑️ THROW THE COPY AWAY IMMEDIATELY.
-      4. ➡️ Next Pokémon. Repeat.
+      4. ➡️ Next Pokémon — Ferrothorn. Repeat.
 ```
 
 At any moment each gym holds **one Pokémon's worth** of stats instead of the whole team.
@@ -81,7 +82,7 @@ train a team that could never fit anywhere.
 
 ❌ **Constant phone calls.** Every Pokémon, every step, a request goes out.
 
-**But — the clever part:** while training Charizard, **phone ahead for Blastoise's stats.** They
+**But — the clever part:** while training Garchomp, **phone ahead for Ferrothorn's stats.** They
 arrive while you're still busy. Do this well and most of the waiting disappears — the cost drops from
 "crippling" to "10–20% slower."
 
@@ -89,8 +90,8 @@ arrive while you're still busy. Do this well and most of the waiting disappears 
 
 People confuse this with splitting a Pokémon across gyms. They're different:
 
-* 🔪 **Splitting a Pokémon** divides the **work** — two gyms both work on Charizard simultaneously and
-  reconcile every turn. Chatty. Keep them in one building.
+* 🔪 **Splitting a Pokémon** divides the **work** — two gyms both work on Garchomp simultaneously
+  and reconcile every turn. Chatty. Keep them in one building.
 * 📚 **This** divides the **storage** — one gym does the work, having borrowed what it needs. Just
   fetching and returning. Tolerates slower links fine.
 

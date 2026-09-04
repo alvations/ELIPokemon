@@ -10,8 +10,8 @@ tags: [fairness, bias, privacy, differential-privacy, impossibility, memorisatio
 
 # Fairness and privacy: judging Trainers, and keeping their secrets
 
-You've built a system that predicts **which Trainers will make it to the League.** Gyms use it to
-decide who gets sponsorship.
+You've built a system that predicts **which Trainers will make it to the Indigo Plateau.** Gyms use
+it to decide who gets sponsorship.
 
 You need it to be **fair.** Which sounds simple, and is the hardest thing on this page.
 
@@ -19,7 +19,7 @@ You need it to be **fair.** Which sounds simple, and is the hardest thing on thi
 
 | What "fair" could mean | What it demands |
 | --- | --- |
-| 🎯 **Equal sponsorship rates** | The same *proportion* recommended from every region. |
+| 🎯 **Equal sponsorship rates** | The same *proportion* from Kanto, Johto, Hoenn and Alola. |
 | ✅ **Equal chances for the good ones** | A Trainer who *would* make it is equally likely to be spotted, wherever they're from. |
 | ❌ **Equal error rates** | Wrongly rejecting equally often across regions. |
 | 📊 **Honest numbers** | "70% likely" means 70% for a Kanto Trainer *and* a Johto Trainer. |
@@ -50,8 +50,8 @@ Different harms. Different fairness. Choose deliberately, write down why.
 
 ```
    1️⃣ 📜 HISTORY   Kanto has had more Champions — because Kanto has
-                    had more Gyms and funding for fifty years.
-                    Your data records this faithfully.
+                    had Brock, Misty and eight funded Gyms for fifty
+                    years. Your data records this faithfully.
 
    2️⃣ 📊 SAMPLING  You have ten thousand Kanto records and two
                     hundred from Alola.
@@ -60,8 +60,9 @@ Different harms. Different fairness. Choose deliberately, write down why.
                     that's really "got through a system that already
                     favoured Kanto."
 
-   4️⃣ 🔍 PROXIES   You removed "region." But you kept hometown,
-                    starter Pokémon, and which academy they attended.
+   4️⃣ 🔍 PROXIES   You removed "region." But you kept hometown, whether
+                    their starter was Bulbasaur or Rowlet, and which
+                    academy they attended.
                     You removed the label, not the information.
 
    5️⃣ ⚖️ TRAINING  Optimising overall accuracy means happily being

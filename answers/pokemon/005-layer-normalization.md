@@ -15,8 +15,8 @@ Level 50. Your lovingly EV-trained Level 100 Garchomp and your friend's Level 12
 into the same stadium on the same scale.
 
 That's LayerNorm. Before a Pokémon acts, its stats get rescaled to a sane range so the battle
-is decided by *strategy* — the relationships between the stats — and not by one number having
-run away to 40,000 while its teammates sit at 3.
+is decided by *strategy* — the relationships between the stats — and not by Blissey's 255 HP
+swamping every other number on the sheet.
 
 The important bit: the rescaling looks at **that one Pokémon's own six stats**. It doesn't
 peek at the rest of your team, and it doesn't care who else is in the tournament. So it works
@@ -26,8 +26,8 @@ completely lost when you show up alone.)
 
 ## Where you put the scale is a huge deal ⚖️
 
-Every Gym in the League is a checkpoint. Your team walks in, fights, walks out, moves to the
-next Gym. The question is where the Flat Rule scaler sits.
+Every Gym in the League is a checkpoint. Your team walks into Brock's, fights, walks out, moves on
+to Misty's. The question is where the Flat Rule scaler sits.
 
 ```
   POST-NORM: scaler is at the Gym EXIT       PRE-NORM: scaler is at the Gym DOOR
@@ -51,7 +51,7 @@ next Gym. The question is where the Flat Rule scaler sits.
 **Post-norm** rescales your actual team on the way out of every Gym. Eight Gyms, fine. But a
 League with a hundred Gyms? By the time news of the Champion's feedback travels back to your
 starter, it's been squashed through a hundred rescalers and arrived as a whisper. Your
-Charmander never learns anything. Deep post-norm teams just fall over.
+Charmander never learns Ember properly. Deep post-norm teams just fall over.
 
 **Pre-norm** rescales only the *copy* that steps into the arena. Your real team walks a clean
 corridor from Gym 1 straight through to the Champion, untouched. Feedback from the top comes
@@ -80,8 +80,8 @@ RMSNorm.
 It's tempting to say "it makes the numbers nice". The real payoff is that it makes the League
 **forgiving**.
 
-Without it, one Pokémon whose Attack drifted to 40,000 dominates every calculation, the
-Champion's feedback becomes wild and contradictory, and you spend all your time nursing the
+Without it, one Pokémon whose Attack drifted past Arceus territory dominates every calculation,
+the Champion's feedback becomes wild and contradictory, and you spend all your time nursing the
 training schedule instead of training. With it, doubling a Pokémon's raw stats changes nothing
 — it gets scaled right back — so the whole League stops caring about the exact numbers you
 started with and starts caring about the strategy. You can be sloppier about setup and still
