@@ -18,7 +18,7 @@ QLoRA's move: **compress the Champion, keep the item at full fidelity.**
 
 ```
    ┌────────────────────────────────────────────────────────────┐
-   │  🗜️ THE CHAMPION — compressed, frozen                      │
+   │  🗜️ YOUR GARCHOMP — compressed, frozen                     │
    │     Every stat stored in shorthand.                        │
    │     Never edited. Never even unpacked, permanently.        │
    │                                                            │
@@ -27,21 +27,21 @@ QLoRA's move: **compress the Champion, keep the item at full fidelity.**
    │                                                            │
    │                          ➕                                 │
    │  ┌──────────────────────────────────────────────────────┐  │
-   │  │  🎒 THE HELD ITEM — full detail, trainable ✅        │  │
+   │  │  🎒 THE LEFTOVERS — full detail, trainable ✅        │  │
    │  │     Tiny. Never compressed. This is what learns.     │  │
    │  └──────────────────────────────────────────────────────┘  │
    └────────────────────────────────────────────────────────────┘
 ```
 
-The Champion is never edited, so storing it in shorthand costs nothing. The item is what's
+The Garchomp is never edited, so storing it in shorthand costs nothing. The Leftovers is what's
 actually learning, so it stays in full detail. Perfect division of labour.
 
 ## The clever part of the shorthand 📝
 
 You could write every stat with the same coarse rounding. That's wasteful, and here's why.
 
-Pokémon stats aren't spread evenly. **Almost everything clusters near the middle**, with a few
-rare extremes at the edges:
+Pokémon stats aren't spread evenly. **Almost everything clusters between 40 and 90**, with a
+handful of freaks at the edges — Blissey's 255 HP, Shuckle's 230 Defence, Magikarp's 10 Attack:
 
 ```
    how many stats have each value:

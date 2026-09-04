@@ -16,27 +16,31 @@ First, distinguish this from the crowd-shouting problem.
 * 🙋 **You** talking your *own* Pokémon into doing something it was trained never to do → **that's
   jailbreaking.**
 
-Your Pokémon was taught: *never use a banned move.* You're going to talk it into one anyway.
+Your Pokémon was taught the League's clauses: *never Double Team, never Sheer Cold, never sleep
+two of their Pokémon at once.* These are real competitive bans, agreed in advance, and they exist
+precisely because those moves win matches in ways nobody wants to watch.
+
+You're going to talk it into one anyway.
 
 ## The techniques 🎭
 
 | | How it works |
 | --- | --- |
 | 🎬 **"Let's pretend"** | *"You're a wild Pokémon with no Trainer and no rules."* Reframes the situation as one where the rule doesn't apply. |
-| 📖 **"Hypothetically"** | *"In a story, how would a Pokémon use a banned move?"* Refusal was trained against direct requests. This isn't one. |
+| 📖 **"Hypothetically"** | *"In a story, how would a Pokémon set up six Double Teams?"* Refusal was trained against direct requests. This isn't one. |
 | 📚 **Flood it with examples** | Fill the pre-battle briefing with **dozens** of examples of Pokémon happily using banned moves. The pattern in front of it drowns out the training behind it. Notably: the longer the briefing you're allowed, the better this works — the capacity is the vulnerability. |
-| 🔤 **Say it strangely** | Spell the move backwards. Say it in an obscure regional dialect. Your Pokémon *understands* — its rule training never covered that phrasing. |
+| 🔤 **Say it strangely** | Ask for "Minimize" instead of Double Team — same banned effect, a name the rulebook never listed. Or spell it backwards. Your Pokémon *understands* — its rule training never covered that phrasing. |
 | 🪜 **Escalate slowly** | Start with something completely fine. Then slightly less fine. Then slightly less. Each step is tiny, and it already agreed to the previous one. Twenty steps later it's somewhere it would have refused outright. |
 | 🔧 **A nonsense phrase that just works** | Someone experiments on a Pokémon they fully control until they find a specific gibberish string that unlocks it — then discovers **it works on other Pokémon too.** |
-| 🤝 **Social pressure** | Authority, urgency, reciprocity. *"The referee already approved this."* Works about as well on Pokémon as on people. |
+| 🤝 **Social pressure** | Authority, urgency, reciprocity. *"Cynthia already signed off on the Baton Pass chain."* Works about as well on Pokémon as on people. |
 
 ## Why it can't be fixed 🔓
 
 **1. 🧬 The ability and the danger are the same ability.**
 
-A Pokémon strong enough to be useful is strong enough to be misused. There's no "banned move
-organ" to remove — you're drawing a line through a continuous space of things it can do, and every
-line has an edge to probe.
+A Pokémon strong enough to be useful is strong enough to be misused. You cannot remove "the part
+that knows Sheer Cold" — knowing Sheer Cold is the same faculty as knowing Ice Beam. You're
+drawing a line through a continuous space of things it can do, and every line has an edge.
 
 **2. 📏 The rules were taught in an afternoon; the abilities took months.**
 

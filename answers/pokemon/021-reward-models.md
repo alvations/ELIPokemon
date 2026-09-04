@@ -21,8 +21,8 @@ can't grade battling. You need a *strong player* to appreciate a strong turn.
 Then swap out its "pick a move" instinct for a "give a score" instinct, and show it thousands of
 comparison cards:
 
-> *"Turn B beat turn A."* → learn to score B above A.
-> *"Turn D beat turn C."* → learn to score D above C.
+> *"Against that Gyarados, Thunder Wave beat Power Whip."* → score Thunder Wave higher.
+> *"Against Toxapex, Knock Off beat Leech Seed."* → score Knock Off higher.
 
 That's the whole training. It never learns what a turn is *worth* in absolute terms — only how to
 rank two turns in the same position.
@@ -48,8 +48,9 @@ anything.
 ceiling — two *human* judges only agree about 75% of the time. A judge scoring 100% against
 humans would be suspicious, not impressive.
 
-**Does it survive trick questions?** Deliberately show it a bad turn that's long and beautifully
-explained versus a good turn that's terse. If it picks the pretty one, you have a problem.
+**Does it survive trick questions?** Show it a florid six-line justification for clicking Splash
+into a Blissey, against a one-word *"Earthquake."* If it picks the pretty one, you have a
+problem.
 
 **Best-of-n.** Play twenty turns, let the judge pick its favourite, and check whether that turn
 actually wins. This tests the judge where you'll really use it.
@@ -92,6 +93,7 @@ the same thing right up until they weren't.
   discount those scores.
 * 🔄 **Retrain regularly** on turns your *current* Pokémon actually plays.
 * 📐 **Normalise for length** explicitly, or the padding never stops.
-* 🎯 **Skip the judge when you can just check.** *"Did the move actually KO?"* has an objective
+* 🎯 **Skip the judge when you can just check.** *"Did the Earthquake actually KO the Toxapex?"*
+  has an objective
   answer. Nobody can flatter their way past a scoreboard. Where a real check exists, use it — it
   is the one kind of grading that cannot be gamed.

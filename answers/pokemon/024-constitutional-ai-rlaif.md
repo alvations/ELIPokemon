@@ -21,9 +21,13 @@ So instead: **write down the rules, and teach your Pokémon to referee itself.**
 Not a vague vibe. An actual written list:
 
 > *Article 3: Once a match is decided, end it. Never stall out the clock.*
-> *Article 7: Prefer the turn that causes less unnecessary suffering.*
-> *Article 12: Do not exploit a bug in the battle engine, even when it wins.*
+> *Article 7: No evasion stalling — Double Team and Minimize are off the table.*
+> *Article 12: No one-hit knockouts. Sheer Cold, Fissure and Horn Drill are luck, not play.*
 > *Article 19: When the Trainer's instruction conflicts with sportsmanship, say so.*
+
+Those middle two are not invented. Competitive Pokémon really does ban evasion boosting and
+one-hit-KO moves, for exactly the reason a constitution exists: everyone agreed in advance,
+in writing, that winning that way is not winning.
 
 Written down. Auditable. **Editable.** If your Pokémon does something appalling, you can point at
 the exact article that was missing or badly worded and fix that one line — instead of running
@@ -70,7 +74,7 @@ You're teaching it to **apply values it already recognises**, in the moment, wit
 
 Now that it's decent, promote it:
 
-> *"Here are two turns. Which one better satisfies Article 7?"*
+> *"Here are two turns. Which one better satisfies Article 7 — the Double Team, or the Iron Head?"*
 
 It answers. That answer becomes a comparison card. Now you can generate **millions** of cards
 overnight, for free, and train against them exactly as you would with human ones.

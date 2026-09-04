@@ -154,7 +154,9 @@ Scratch, Growl, Leer, Tackle, Bite, Agility, Spikes, Encore, Taunt, Disable,
 Yawn, Spore, Psychic, Facade, Wish, Charm, Feint, Rage, Harden, Withdraw,
 Thrash, Struggle, Splash, Metronome, Transform, Teleport, Dig, Fly, Cut,
 Strength, Flash, Rock Smash, Whirlpool, Waterfall, Headbutt, Curse, Amnesia,
-Belly Drum, Counter, Mirror Coat, Pain Split, Trick, Switcheroo, Volt Tackle
+Belly Drum, Counter, Mirror Coat, Pain Split, Trick, Switcheroo, Volt Tackle,
+Minimize, Sheer Cold, Fissure, Horn Drill, Guillotine, Hypnosis, Sing,
+Sand Attack, Flash, Swagger, Metal Burst, Assist, Sketch, Heal Block
 """
 
 ITEMS = """

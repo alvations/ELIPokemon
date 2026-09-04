@@ -19,7 +19,8 @@ Then someone noticed something.
 
 ## The realisation 💡
 
-You have a stack of comparison cards. *"In this position, turn B beat turn A."*
+You have a stack of comparison cards. *"Their Gyarados is out against your Ferrothorn:
+**Thunder Wave** beat **Power Whip**."*
 
 The old process was: train a judge on those cards → have the judge grade fresh battles → nudge
 the Pokémon toward higher grades.
@@ -27,7 +28,7 @@ the Pokémon toward higher grades.
 But work backwards. What does the *finished* Pokémon look like? It's whatever behaves such that
 its preferences match the cards. And if that's the destination, why go via the judge at all?
 
-> **A Pokémon that prefers the right turns already IS the judge.**
+> **A Ferrothorn that already reaches for Thunder Wave over Power Whip IS the judge.**
 
 There is no separate judge to hire. There never was. The judge was a middleman for information
 that was already sitting in the comparison cards.
@@ -38,10 +39,10 @@ that was already sitting in the comparison cards.
    OLD (PPO)                             NEW (DPO)
    ─────────                             ─────────
    1. train a judge on the cards         1. read a card
-   2. put Pokémon in a position          2. "make turn B more likely
-   3. let it battle                          than turn A — but don't
-   4. judge grades the battle                drift too far from the
-   5. nudge toward the grade                 photocopy"
+   2. send Ferrothorn out                2. "make Thunder Wave more
+   3. let it battle                          likely than Power Whip —
+   4. judge grades the battle                but don't drift too far
+   5. nudge toward the grade                 from the photocopy"
    6. repeat, forever                    3. next card
 
    4 Pokémon in the gym                  2 Pokémon in the gym
@@ -70,11 +71,12 @@ about a Pokémon it no longer is.
 
 DPO reliably teaches "don't do turn A." Genuinely good at that.
 
-What it's oddly bad at is teaching "do turn B." It often makes turn B *less* likely too — it just
-makes turn A less likely faster. Push down hard enough on the rejected option and the probability
-has to go somewhere, and it frequently goes to some **turn C** that nobody ever evaluated.
+What it's oddly bad at is teaching "do Thunder Wave." It often makes Thunder Wave *less* likely
+too — it just makes Power Whip less likely faster. Push down hard enough on the rejected move and
+the probability has to go somewhere, and it frequently lands on **Leech Seed**, which nobody ever
+compared against anything.
 
-Your Pokémon has learned what not to do, and filled the gap with something untested.
+Your Ferrothorn has learned what not to do, and filled the gap with something untested.
 
 ## The variants 🧬
 

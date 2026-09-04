@@ -21,8 +21,8 @@ Your Pokédex system gave a bad answer. **Whose fault?**
 
 Three completely different failures, and they need three completely different fixes:
 
-* 🔍 The scout fetched the **wrong reports**.
-* 🧠 The scout fetched the right ones and the Trainer **ignored them**.
+* 🔍 The scout fetched the **Skarmory** page when you asked about **Ferrothorn**.
+* 🧠 The scout fetched the right page and the Trainer **answered from memory anyway**.
 * 💬 Both did their job and the answer is still wrong.
 
 📌 If you only measure the final answer, you know something's broken and **nothing about what.**
@@ -31,12 +31,12 @@ page.
 
 ## 🔍 Grading the scout
 
-You need a list: *"for this question, report #47 is the right one."*
+You need a list: *"for **how do I beat Toxapex**, the Ferrothorn counters page is the right one."*
 
 **Was the right report in the fetched pile?** ← **the single most important number you have.**
 
-Because it's a **hard ceiling**. If report #47 wasn't fetched, no Trainer alive can use it. Not a
-better prompt, not a better model, not a bigger context. It wasn't there.
+Because it's a **hard ceiling**. If the Ferrothorn page wasn't fetched, no Trainer alive can use
+it. Not a better prompt, not a better model, not a bigger context. It wasn't there.
 
 Also worth tracking: how much **junk** came with it (distractions make the Trainer worse), and
 **how high up** the right report ranked — because a thick stack gets skimmed in the middle.
@@ -47,8 +47,9 @@ Measure this **before and after the coach's pass**, so you can see which stage i
 
 Now assume the right reports *were* fetched. Did the Trainer use them?
 
-**📌 Did it stick to the reports?** The RAG-specific question. Break the answer into individual
-claims and check each one against the reports. This catches the maddening failure where the scout did
+**📌 Did it stick to the reports?** The RAG-specific question. If the page says Ferrothorn runs
+Leftovers and the answer says Rocky Helmet, that is a grounding failure, not a knowledge one.
+Break the answer into individual claims and check each one against the reports. This catches the maddening failure where the scout did
 everything right and the Trainer answered from memory anyway.
 
 **🎯 Did it answer the actual question?** It can be perfectly grounded in the reports and still not

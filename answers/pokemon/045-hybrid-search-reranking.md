@@ -17,9 +17,10 @@ exactly what the other is good at.
 
 Searches for **the exact words you typed.** Nothing else.
 
-* ✅ *"Find report TM-4471."* → **Found it.** Instantly. Perfectly.
-* ❌ *"How do I stop paying for the Gym?"* → nothing. Your reports say *"cancel membership."*
-  Different words. The Literalist sees no match.
+* ✅ *"Find TM24."* → **Found it.** Instantly. Perfectly. That is Thunderbolt's TM number and
+  nothing else on earth is called TM24.
+* ❌ *"How do I stop my Charizard fainting the moment it switches in?"* → nothing. Your reports
+  say *"Stealth Rock removal."* Different words. The Literalist sees no match.
 
 Brilliant with codes, IDs, rare proper nouns, anything exact. Completely helpless with paraphrase.
 
@@ -27,9 +28,10 @@ Brilliant with codes, IDs, rare proper nouns, anything exact. Completely helples
 
 Searches by **meaning**, using the map.
 
-* ✅ *"How do I stop paying?"* → finds *"cancel membership"*, because they mean the same thing.
-* ❌ *"Find report TM-4471."* → returns TM-4470, TM-4472, TM-4469. To the map, all error codes live
-  in the same neighbourhood.
+* ✅ *"Charizard keeps fainting on entry"* → finds *"Stealth Rock removal"*, because they mean
+  the same thing.
+* ❌ *"Find TM24."* → returns TM23, TM25, TM26. To the map, every TM number lives in the same
+  neighbourhood.
 
 Brilliant with meaning. Genuinely bad at exactness.
 
@@ -45,7 +47,8 @@ Brilliant with meaning. Genuinely bad at exactness.
 
 The clever bit is **how** you combine them. You do *not* try to average their scores — the
 Literalist scores things out of some unbounded number, the Cartographer scores out of one. Those
-numbers mean nothing to each other.
+numbers mean nothing to each other, any more than a Gyarados's Attack stat and its type
+effectiveness multiplier can be added together.
 
 Instead you use **only the rankings**. *"You were 3rd on one list and 1st on the other."* Anything
 both scouts like rises to the top. Anything one scout loves still makes the cut. No score
@@ -53,7 +56,9 @@ reconciliation needed, nothing to tune.
 
 ## Now the coach 📋
 
-Both scouts share a limitation, and it's a deep one.
+Both scouts share a limitation, and it's a deep one. Ask either of them *"is Ferrothorn a good
+answer to Toxapex?"* and they will hand you the Ferrothorn page and the Toxapex page without ever
+checking the two against each other.
 
 Your scouts filed every report **before they knew what you'd ask.** They had to summarise each one
 down to something searchable, guessing at what might matter later. That guess is lossy, and it's
