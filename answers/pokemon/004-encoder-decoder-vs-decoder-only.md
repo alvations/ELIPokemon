@@ -35,15 +35,16 @@ look at**, and that single rule decides what job they can hold.
 
 The Judge gets the **full team sheet** before anything happens. Slot 6 informs their read of
 slot 1 just as much as the other way round. That total view makes them the best in the world
-at answering *"how strong is this team?"*, *"is this team Rain or Trick Room?"*, *"how similar
-is this team to that one?"*
+at answering *"how strong is this team?"*, *"is this Rain or Trick Room?"*, *"how similar is this
+team to that one?"*
 
 Their training is a memory drill: someone covers **one** Pokémon on the sheet with their thumb
-and the Judge names it from the rest of the team. Do that a million times and you develop an
+and the Judge names it from the rest of the team. Politoed, Kingdra, Ferrothorn, ?, Rotom,
+Tapu Fini — that blank is Toxapex, and you knew it from the company it keeps. Do that a million times and you develop an
 uncanny sense for what belongs together.
 
 But the Judge **cannot battle**. Their entire skill depends on seeing the finished sheet, and
-a real battle is a sheet being written one Pokémon at a time. Ask them to lead and they freeze:
+a real battle is a sheet being written one Pokémon at a time. Ask them to lead with Garchomp and they freeze:
 their read of slot 1 depends on a slot 6 that doesn't exist yet.
 
 Judges are your team raters, your matchmakers, your "find me teams like this one" search.

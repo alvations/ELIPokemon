@@ -92,7 +92,7 @@ Three arguments for the Pokédex that nobody mentions until it's too late:
 * 🌍 **Big-picture questions.** *"What are the overall trends across all 10,000 scouting reports?"*
   Five pages cannot answer that. You need summaries of summaries.
 * 🔗 **Two-step questions.** *"Which of our opponents runs the Pokémon that just got banned?"* —
-  that's two lookups chained. One lookup finds neither.
+  first *what got banned* (Baton Pass), then *who runs it*. Two lookups chained. One finds neither.
 * 🌫️ **Too many pages is worse than a few.** Hand over twenty pages and it does *worse* than with
   five. More pages, more distraction, and the middle of a thick stack gets skimmed.
 * ✂️ **The answer straddles a page break.** Half on page 12, half on page 13, and neither page

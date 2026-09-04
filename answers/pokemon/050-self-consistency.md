@@ -10,7 +10,7 @@ tags: [self-consistency, majority-vote, sampling, test-time-compute, verifier]
 
 # Self-consistency: run the calc six times and vote
 
-Your Trainer works out the damage. Gets an answer. It might be right.
+Your Trainer works out whether Thunderbolt KOs that Gyarados. Gets an answer. It might be right.
 
 So make them do it **six more times, from scratch**, and see what they keep saying.
 
@@ -79,7 +79,7 @@ with thinking time at battle time**, without retraining anything. Just let it th
 
 **🧱 A Trainer that's confidently wrong stays confidently wrong.**
 
-If your Trainer genuinely believes Electric is super-effective against Ground, all six attempts
+If your Trainer genuinely believes Thunderbolt is super effective against Golem, all six attempts
 happily agree. Voting confirms it. **Six times.**
 
 📌 This fixes *slips*, not *misconceptions*. Random mistakes scatter and get outvoted. A systematic

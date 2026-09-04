@@ -15,7 +15,8 @@ tags: [self-supervised, pretext-task, masked-modelling, contrastive, labels]
 To train a Trainer, you needed **labelled** footage. Someone had to sit and watch every battle and
 write down what it demonstrated.
 
-> *"This match shows a Rain team. This one shows a Trick Room setup. This one shows a pivot."*
+> *"This match shows a Politoed Rain team. This one shows a Bronzong Trick Room setup. This one
+> shows a Ferrothorn pivot."*
 
 Expensive. Slow. Boring. And you'd never get more than a few hundred thousand of them, because
 **people have to do it.**
@@ -27,7 +28,8 @@ mid-turn:
 
 > **"What happens next?"**
 
-The answer is **already on the tape.** Play three more seconds and you know.
+The answer — *they switched to Ferrothorn* — is **already on the tape.** Play three more seconds
+and you know.
 
 📌 **The footage grades itself.** Nobody labels anything. Ever.
 
@@ -72,7 +74,8 @@ footage is a storage problem.
 
 ## Different self-grading drills 🎯
 
-* ⏭️ **"What happens next?"** — the strongest. Every single turn of every match is a graded question.
+* ⏭️ **"What happens next?"** — the strongest. Every single turn of every match is a graded
+  question. *Drizzle went up; what comes in?* (Kingdra. Every time.)
 * 🙈 **"I've covered three turns. What were they?"** — you get to use context from *both* directions,
   which is genuinely useful. But you only cover about one turn in seven, so **six out of seven turns
   teach nothing.** Far less signal per hour of footage.

@@ -13,7 +13,7 @@ tags: [multimodal, vlm, vision-encoder, projector, cross-attention, llava]
 Your Trainer reads brilliantly. Hand it a **written** battle report and it's a genius.
 
 Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A
-photo isn't words.
+photo of a Gyarados isn't the word "Gyarados".
 
 ## Fix 1: translate the photo into words 🔤
 
@@ -80,7 +80,7 @@ components and built the bridge.
 ## What's still hard 😬
 
 **🔍 It can't read small print.** The spotter looks at the whole field at once and reports the gist.
-Ask it to read the tiny numbers on a scoreboard in the background and it can't — it never looked
+Ask it to read the Leftovers recovery ticking away in the corner of the HP bar and it can't — it never looked
 closely.
 
 The fix is to **chop the photo into pieces and examine each closely.** Which works, and multiplies
@@ -89,14 +89,14 @@ your bag problem by the number of pieces.
 **📦 Photos are enormous.** Four photos and your Trainer's bag is full, with no room for the actual
 conversation.
 
-**📐 It's bad at spatial questions.** *"How many Pokémon are on the left side?"* Counting and precise
+**📐 It's bad at spatial questions.** *"Is the Ferrothorn on Toxapex's left or right?"* Counting and precise
 positioning remain genuinely weak. It sees the gist, not the geometry.
 
 **🙈 It ignores the photo when the words are enough.**
 
 The insidious one. Ask *"what type is the Pokémon in this photo?"* and show a picture of a Gyarados —
-and your Trainer might answer from what a typical question like that usually means, **without ever
-really looking.**
+and your Trainer might say "Water/Flying" because that is what the *words* of the question
+usually go with, **without ever really looking.** It would say the same for a photo of Milotic.
 
 Confident. Fluent. **Didn't look at the picture.**
 

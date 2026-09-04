@@ -13,7 +13,8 @@ tags: [instruction-tuning, sft, lima, superficial-alignment, chat-template]
 Your Pokémon comes out of the wild grass knowing **everything**. Every type matchup, every
 terrain, every species. It is, in raw terms, already a monster.
 
-Say "Thunderbolt" and it ignores you completely.
+Say "Thunderbolt" and it ignores you completely. It knows the move. It knows Gyarados is
+Water/Flying and takes four times damage. It simply does not know that *you* are relevant.
 
 Not out of defiance. It has genuinely never encountered the concept that *a human making noises*
 is a thing that should change what it does. In the grass, sounds happen. You respond to the ones
@@ -22,8 +23,8 @@ that are threats. That's it.
 ## What the week actually teaches 🎓
 
 ```
-   🗣️  TRAINER SAYS:    "Use Thunderbolt."
-   ⚡  POKÉMON DOES:    uses Thunderbolt
+   🗣️  TRAINER SAYS:    "Thunderbolt the Gyarados."
+   ⚡  POKÉMON DOES:    Thunderbolts the Gyarados
                         └──────────────────┘
                           ← this is the only part being graded
 
@@ -66,7 +67,8 @@ that one instruction. You want the general lesson.
 
 **🚨 Never teach new facts here.** The big one.
 
-Try to teach a species that wasn't in the grass, and watch what actually gets learned:
+Try to teach it about a Pokémon that wasn't in the grass — some Paldean thing it has never met —
+and watch what actually gets learned:
 
 > *"When my Trainer asks about a Pokémon I've never encountered, the correct behaviour is to
 > answer immediately and confidently."*

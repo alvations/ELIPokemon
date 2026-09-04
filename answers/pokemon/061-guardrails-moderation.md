@@ -54,7 +54,7 @@ something stupid. **The words are identical in all three cases.** The junior ref
 
 Judging a *move* is easy:
 
-> *"It just used a banned move."*
+> *"It just used Double Team. That's an evasion clause violation."*
 
 No ambiguity. Nothing to interpret. That's why layer 4️⃣ catches more, more reliably, than layer 2️⃣ —
 and why skipping it in favour of an aggressive door policy is the standard mistake.
@@ -79,7 +79,7 @@ This is the one that quietly ruins products.
 
 Every referee makes mistakes in **both** directions. And here's the asymmetry:
 
-* ❌ **A banned move gets through** → incident. Alarms. Meeting. Everyone knows.
+* ❌ **A Sheer Cold gets through** → incident. Alarms. Meeting. Everyone knows.
 * 🤫 **A legitimate move gets blocked** → the Trainer shrugs and leaves. **You never find out.**
 
 Refuse enough real requests and you have a Pokémon nobody can use — and a dashboard showing zero

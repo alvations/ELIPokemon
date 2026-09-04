@@ -17,9 +17,9 @@ Four answers, and serious operations use all four at once.
 ## 1️⃣ Same Pokémon, different opponents 📋
 
 ```
-   🏟️ GYM A: [full team] vs opponents 1-8
-   🏟️ GYM B: [full team] vs opponents 9-16
-   🏟️ GYM C: [full team] vs opponents 17-24
+   🏟️ GYM A: [full team] vs Brock's challengers
+   🏟️ GYM B: [full team] vs Misty's challengers
+   🏟️ GYM C: [full team] vs Lt. Surge's challengers
               │
               └─► compare notes at the end of the day, average the lessons
 ```
@@ -33,14 +33,14 @@ learned each evening.
 ## 2️⃣ Split each Pokémon across gyms 🔪
 
 ```
-   🏟️ GYM A: Charizard's Attack and Speed
-   🏟️ GYM B: Charizard's Defence and Special
+   🏟️ GYM A: Garchomp's Attack and Speed
+   🏟️ GYM B: Garchomp's Defence and Special Defence
               │
               └─► must talk CONSTANTLY — they're running the same Pokémon
 ```
 
-Now no single gym holds a whole Pokémon. Gym A works out the physical side, Gym B the special side,
-and every single turn they have to reconcile.
+Now no single gym holds a whole Garchomp. Gym A works out whether Earthquake connects, Gym B
+whether it survives the Ice Beam coming back, and every single turn they have to reconcile.
 
 ✅ The only way when one Pokémon is too big for one gym.
 ❌ **They talk incessantly.** Put these gyms in different cities and you'll spend the whole season on
@@ -51,7 +51,7 @@ the phone.
 ## 3️⃣ Split the journey by stage 🛤️
 
 ```
-   🏟️ GYM A: Routes 1-3   ──► 🏟️ GYM B: Routes 4-6 ──► 🏟️ GYM C: Routes 7-8
+   🏟️ BROCK ──► 🏟️ MISTY ──► 🏟️ SURGE ──► 🏟️ ERIKA ──► ... ──► 🏟️ GIOVANNI
                           hand the Pokémon over at each boundary
 ```
 

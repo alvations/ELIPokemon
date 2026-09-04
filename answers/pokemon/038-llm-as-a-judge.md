@@ -31,8 +31,8 @@ winner. Same battles. Same referee. Different verdict.
 
 **2. 📏 They reward the longer battle.**
 
-A 40-turn grind *looks* more impressive than a clean 6-turn sweep. The 6-turn sweep was better
-play. The referee gives it to the grind.
+A 40-turn Toxapex stall *looks* more impressive than a clean six-turn Garchomp sweep. The sweep
+was better play. The referee gives it to the grind.
 
 **3. 🪞 They favour Trainers who play like them.**
 
@@ -84,7 +84,8 @@ trusts completely.
 
 ## When not to use one ⛔
 
-* 🎯 **When you can just check.** Did the Gyarados faint? That's a *fact*. A scoreboard cannot be
+* 🎯 **When you can just check.** Did the Thunderbolt faint the Gyarados? That's a *fact*. A
+  scoreboard cannot be
   charmed; a referee can. Never hire a referee for something you can look up.
 * ☠️ **For anything that really matters** — a ban, a disqualification — without a human reviewing.
 * 🧗 **When the battle is over the referee's head.**

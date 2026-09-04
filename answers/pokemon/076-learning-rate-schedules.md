@@ -33,7 +33,7 @@ Start gently. Build up over the first week or two.
 
 Three reasons, and the middle one is the one people miss:
 
-**1. 🩹 Obviously — don't injure it.** A brand new Pokémon has no conditioning.
+**1. 🩹 Obviously — don't injure it.** A Magikarp fresh out of the water has no conditioning.
 
 **2. 🧭 Your coaching instruments haven't calibrated yet.** ← the real reason
 
@@ -54,7 +54,8 @@ minutes.
 
 ## 📉 Easing off: from exploring to refining
 
-**Early on**, big changes are right. You don't know what this Pokémon should be yet. Try things.
+**Early on**, big changes are right. You don't know whether this Garchomp wants Attack or Speed
+yet. Try things.
 Restructure. Be bold.
 
 **Late on**, you're 95% of the way there. Big changes now just knock you off the thing you spent
@@ -102,7 +103,7 @@ Same results, vastly more practical — which is why the big modern training run
 * 🏕️ **Specialist camps need much gentler training than the original raising** — ten to a hundred
   times gentler. You're refining a Champion, not building one, and it's very easy to undo months of
   work in an afternoon.
-* 🎒 **Held items want it turned back UP** — much harder than a full retrain. There's very little
+* 🎒 **Leftovers want it turned back UP** — much harder than a full retrain. There's very little
   there to change, so you have to push it to move at all.
 * 🔬 **Find the ceiling in ten minutes.** Push harder and harder over a few hundred sessions and
   watch where the Pokémon starts falling apart. **Take a third of that.** Ten minutes of work, and it

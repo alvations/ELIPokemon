@@ -25,7 +25,8 @@ Do **not** start building. Start here — this is what's really being tested.
 * 💰 Spending money on Poké Balls?
 
 **These give completely different answers.** A system tuned for "wins the next battle" recommends the
-same six overpowered Pokémon to everyone, forever. Great numbers. And every Trainer's team is
+same Garchomp, Ferrothorn and Toxapex to everyone, forever. Great numbers. And every Trainer's
+team is
 identical, nobody's having fun, and half of them quit by spring.
 
 Then ask: **how many** Pokémon and Trainers? **How fast** must it answer? **What do you know** about
@@ -41,7 +42,7 @@ stages, spending more effort as the pile shrinks.**
           │
    ┌──────▼─────────────────────────────────┐  1️⃣ ROUGH SWEEP   ~10ms
    │  Several quick sources at once:        │     Goal: DON'T MISS ANYTHING
-   │   🗺️ similar to what they already like │     Cheap per Pokémon.
+   │   🗺️ similar to their Gyarados        │     Cheap per Pokémon.
    │   👥 what similar Trainers caught      │
    │   🔥 what's popular right now          │
    │   👀 what they recently looked at      │
@@ -67,7 +68,8 @@ jobs — trying to do both in one stage is why single-stage systems disappoint.
 
 ## Step 3: how the rough sweep works 🗺️
 
-Put every Pokémon on a map. Put every **Trainer** on the *same* map, near the Pokémon they'd like.
+Put every Pokémon on a map — Charmander beside Charmeleon, Toxapex beside Ferrothorn. Put every
+**Trainer** on the *same* map, near the Pokémon they'd like.
 
 Then recommending is just: **who's standing near this Trainer?** Instant, even with a hundred million
 of them.
@@ -96,10 +98,11 @@ Optimise only "will they catch it" and you'll recommend flashy legendaries nobod
 
 ## Step 5: brand new things ❄️
 
-**🆕 A new Pokémon** nobody has caught yet has no history at all. Use what you *can* see — its type,
-its stats, what it looks like — until real data arrives.
+**🆕 A newly released Pokémon** nobody has caught yet has no history at all. Use what you *can*
+see — its typing, its base stats, its Hidden Ability — until real data arrives.
 
-**🆕 A new Trainer** gets popular starters, plus whatever you can learn in their first five minutes.
+**🆕 A new Trainer** gets Bulbasaur, Charmander or Squirtle, plus whatever you can learn in their
+first five minutes.
 
 **🎲 And deliberately show things you're unsure about.**
 

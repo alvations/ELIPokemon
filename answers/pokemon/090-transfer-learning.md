@@ -10,7 +10,7 @@ tags: [transfer-learning, freezing, feature-extraction, discriminative-lr, domai
 
 # Transfer learning: your Champion already knows how to battle
 
-You need a Trainer who's great at **Water-type Gym battles.** You could raise one from scratch —
+You need a Trainer who's great at **Misty's Water Gym.** You could raise one from scratch —
 months of wild grass, the whole journey.
 
 Or you could take a Champion who already knows everything about battling in general, and **teach it
@@ -100,7 +100,7 @@ frozen Champion isn't frozen. Insidious, because everything looks correct.
 **5. 🚫 The Champion actively hurts.**
 
 Rare with a genuinely strong Champion, real with a mediocre one. If your Champion trained exclusively
-on underwater battles and you need a desert specialist, its instincts may be **worse than nothing** —
+in Sootopolis City and you need a Hoenn desert specialist, its instincts may be **worse than nothing** —
 it'll confidently apply lessons that don't hold.
 
 **Always sanity-check against a Trainer raised from scratch.** If starting fresh wins, your Champion

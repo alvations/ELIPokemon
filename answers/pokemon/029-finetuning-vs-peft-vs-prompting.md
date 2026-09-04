@@ -15,7 +15,7 @@ up it**.
 
 ```
   🗣️ 1. JUST TELL IT             seconds, free
-        "Lead with Ferrothorn. Never switch into Earthquake."
+        "Lead with Ferrothorn. Never switch it into Earthquake."
         ✅ instant  ✅ change your mind anytime  ✅ works on any Pokémon
         ❌ you must say it every single battle
 
@@ -41,7 +41,7 @@ up it**.
 
 | The problem | The fix |
 | --- | --- |
-| 📚 It doesn't **know** something | Scouting report. **Never camp.** |
+| 📚 It doesn't **know** Toxapex got a new ability | Scouting report. **Never camp.** |
 | 📐 It **formats** wrong | Just tell it. Item if you're repeating yourself constantly. |
 | 🎭 Its **style/tone** is off | Held item. This is precisely what items are for. |
 | 🤷 It **can't do the task at all** | Item with real data — or get a better Pokémon. |
@@ -72,8 +72,8 @@ saying it ten million times is not.
 **📐 You need format reliability.** Getting a Pokémon to produce *exactly* the right output shape
 99.9% of the time is often easier with a thousand examples than with any amount of instruction.
 
-**🐣 Shrinking a Champion.** The best use of training there is: have your expensive Champion play
-ten thousand battles, then train a **cheap little Pokémon to imitate it**. Ten times cheaper, ten
+**🐣 Shrinking a Champion.** The best use of training there is: have your expensive Cynthia-grade
+Trainer play ten thousand battles, then train a **cheap little Pokémon to imitate it**. Ten times cheaper, ten
 times faster, nearly as good on your specific job. Highest return on effort in the whole game.
 
 **🎨 Things you can't put into words.** House style. Domain judgement. The way *your* Gym does

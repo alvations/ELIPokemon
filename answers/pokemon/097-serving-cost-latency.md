@@ -33,14 +33,15 @@ is a grind, and every turn re-reads everything.
 Every turn costs. So **stop your Trainer monologuing.**
 
 > ❌ *"Let me consider all six of my Pokémon and their matchups against each of their six, taking
-> weather into account, and then explain my reasoning at length before finally..."*
+> Drizzle into account, and then explain my reasoning at length before finally..."*
 >
-> ✅ *"Thunderbolt."*
+> ✅ *"Thunderbolt the Gyarados."*
 
 Same decision. A fraction of the cost. **Asking for brevity is free**, and it directly cuts the
 expensive half of the bill.
 
-**2. 📋 Photocopy the standard briefing.**
+**2. 📋 Photocopy the standard briefing.** Every VGC match opens with the same Regulation G
+checklist.
 
 Every match starts with the same twelve-page rulebook? **Scout it once. Staple a copy into every
 notebook.** Never read it twice.
@@ -49,9 +50,9 @@ Cuts your time-to-first-move enormously, and the briefing becomes nearly free.
 
 📌 Requires the unchanging part to be **at the top** — reorder it and you lose the whole benefit.
 
-**3. 🎯 Don't send the Champion to every match. ← usually the biggest saving**
+**3. 🎯 Don't send Cynthia to every match. ← usually the biggest saving**
 
-Most challengers are ordinary. **A journeyman Trainer handles them fine.**
+Most challengers are a kid on Route 1 with a Rattata. **A journeyman Trainer handles them fine.**
 
 Put something quick at the door that asks *"is this hard?"* — route the routine matches to the cheap
 Trainer, escalate the tricky ones.
