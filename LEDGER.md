@@ -130,3 +130,24 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **78.4** | strong | [`085`](answers/pokemon/085-label-smoothing.md) | label-smoothing | 9 | 28 | 15 | 5.1 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
 
+## What this score does not measure
+
+It counts named entities. It cannot tell whether they are doing any work.
+
+That makes it a **proxy**, and this repository contains an answer about exactly
+what happens when you optimise against a proxy hard enough — see
+[`021`](answers/pokemon/021-reward-models.md) on Goodharting a reward model, and
+[`038`](answers/pokemon/038-llm-as-a-judge.md) on judges that reward surface
+features. A Pokémon answer can be stuffed with species names and be worse than the
+vague one it replaced.
+
+So the score is a **search tool, not a target**: it finds answers leaning on generic
+furniture so a human can go and look. Every raise in this ledger's history came from
+replacing an abstraction with a specific that made the analogy more concrete — the
+eight Kanto Gym Leaders standing in for a generic eight-stage pipeline, EV spreads
+standing in for "adjust something", the League's real evasion and OHKO clauses
+standing in for "a banned move". Where no such substitution existed, the answer was
+left alone at a low score.
+
+A low score is a question, not a verdict.
+

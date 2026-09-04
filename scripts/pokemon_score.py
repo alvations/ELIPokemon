@@ -383,7 +383,25 @@ def write_ledger(rows: list[dict]) -> None:
             f"[`{r['id']}`](answers/pokemon/{r['id']}-{r['slug']}.md) | {r['slug']} | "
             f"{r['distinct']} | {r['named_mentions']} | {r['generic_mentions']} | "
             f"{r['density_per_100w']:.1f} |")
-    out.append("")
+    out += ["", "## What this score does not measure", "",
+            "It counts named entities. It cannot tell whether they are doing any work.",
+            "",
+            "That makes it a **proxy**, and this repository contains an answer about exactly",
+            "what happens when you optimise against a proxy hard enough — see",
+            "[`021`](answers/pokemon/021-reward-models.md) on Goodharting a reward model, and",
+            "[`038`](answers/pokemon/038-llm-as-a-judge.md) on judges that reward surface",
+            "features. A Pokémon answer can be stuffed with species names and be worse than the",
+            "vague one it replaced.",
+            "",
+            "So the score is a **search tool, not a target**: it finds answers leaning on generic",
+            "furniture so a human can go and look. Every raise in this ledger's history came from",
+            "replacing an abstraction with a specific that made the analogy more concrete — the",
+            "eight Kanto Gym Leaders standing in for a generic eight-stage pipeline, EV spreads",
+            "standing in for \"adjust something\", the League's real evasion and OHKO clauses",
+            "standing in for \"a banned move\". Where no such substitution existed, the answer was",
+            "left alone at a low score.",
+            "",
+            "A low score is a question, not a verdict.", ""]
     (ROOT / "LEDGER.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
