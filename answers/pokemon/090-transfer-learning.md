@@ -24,11 +24,11 @@ Because most of what makes a Champion good has nothing to do with Water types.
    ┌──────────────────────────────────────────────────────────────┐
    │  🧱 THE BASICS                                                │
    │  Type effectiveness. Reading the field. When to switch.       │
-   │  How items work. Turn order.                                  │
+   │  That Leftovers ticks at end of turn. Speed decides order.    │
    │  ✅ Transfers to LITERALLY ANY battle. Never retrain this.    │
    ├──────────────────────────────────────────────────────────────┤
    │  🔧 THE INTERMEDIATE STUFF                                    │
-   │  Common team structures. Standard openings. Weather play.     │
+   │  Rain cores. Trick Room openings. When Drizzle beats Drought.  │
    │  ⚠️ Mostly transfers — some of it is format-specific.         │
    ├──────────────────────────────────────────────────────────────┤
    │  🎯 THE SPECIFICS                                             │
@@ -37,7 +37,7 @@ Because most of what makes a Champion good has nothing to do with Water types.
    └──────────────────────────────────────────────────────────────┘
 ```
 
-The basics are the same in every battle ever fought. The specifics are about *one opponent.*
+The basics are the same in every battle ever fought. The specifics are about *Misty.*
 
 📌 One genuinely surprising finding: the **middle** layer transfers worst of all — worse than either
 end. Those habits are tangled up with each other, and pulling them apart breaks them. The basics
@@ -82,7 +82,7 @@ intensity on a new task and **the first ten minutes destroy months of work.** St
 
 **2. 🎲 Attaching a clueless new specialist.**
 
-You bolt on a brand-new Water specialist who knows **nothing.** It immediately starts shouting wild,
+You bolt on a brand-new Starmie counter-specialist who knows **nothing.** It immediately starts shouting wild,
 random corrections — and those corrections propagate down into your Champion's carefully built
 basics.
 

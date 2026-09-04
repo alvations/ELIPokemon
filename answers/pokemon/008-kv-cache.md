@@ -10,8 +10,8 @@ tags: [kv-cache, inference, decoding, memory-bandwidth]
 
 # The KV cache is your battle notebook
 
-Every turn, a good Trainer scouts the field: what's out, what type it is, what it's holding,
-what it's already done. That scouting takes time.
+Every turn, a good Trainer scouts the field: what's out, what type it is, whether it's holding
+Leftovers or a Focus Sash, what it's already done. That scouting takes time.
 
 Now — here's the thing — **none of it changes**. Gyarados was Water/Flying on turn 1 and it's
 still Water/Flying on turn 40. So why are you re-scouting the whole field every single turn?
@@ -40,8 +40,8 @@ Write it down once. That notebook is the KV cache.
 
 ## Two completely different phases ⏱️
 
-**📖 Reading in the team sheet.** At the start you get the opponent's full roster and scout the
-lot in one go. Busy, focused, efficient — you're doing real work every second. A long roster
+**📖 Reading in the team sheet.** At the start you get the opponent's full roster — Politoed,
+Kingdra, Ferrothorn, Toxapex, Tapu Fini, Gyarados — and scout the lot in one go. Busy, focused, efficient — you're doing real work every second. A long roster
 takes longer, but it's *productive* time.
 
 **⚔️ Playing the turns.** Now you're making one decision per turn. And before each decision you
@@ -72,8 +72,8 @@ how many **notebooks** fit on the desk.
   when the match ends. This isn't compression at all; it's just not *wasting* space, and it's
   worth more than most actual compression.
 * ✏️ **Write smaller.** Abbreviate. Slightly harder to read, half the thickness.
-* 🪟 **Tear out old pages.** Turn 200 rarely needs turn 3. Keep a rolling window — but always
+* 🪟 **Tear out old pages.** Turn 200 rarely needs the Caterpie that fainted on turn 3. Keep a rolling window — but always
   keep page one, because Trainers have a strange habit of glancing back at the very first page
   whenever they've got nothing useful to look at, and tearing it out breaks them.
-* 📋 **Photocopy the standard briefing.** If every match starts with the same twelve-page rules
-  packet, scout it *once* and staple a copy into each notebook. Never read it twice.
+* 📋 **Photocopy the standard briefing.** If every match starts with the same twelve-page
+  Regulation G packet, scout it *once* and staple a copy into each notebook. Never read it twice.

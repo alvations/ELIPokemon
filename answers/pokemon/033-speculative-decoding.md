@@ -12,7 +12,7 @@ tags: [speculative-decoding, draft-model, medusa, eagle, rejection-sampling]
 
 Here's the strange economics of a Champion.
 
-Deciding **one** turn: the Champion must flip through its entire enormous Pokédex. Slow.
+Deciding **one** turn: Cynthia must flip through her entire enormous Pokédex. Slow.
 
 Checking **five proposed turns**: it flips through the same Pokédex... once. Barely slower than
 checking one.
@@ -26,7 +26,8 @@ So: **have someone else propose five turns, and let the Champion check them all 
 ```
   1️⃣ THE ROOKIE guesses ahead — fast, cheap, roughly right
 
-      Position → "Thunderbolt, then switch, then Protect, then Thunderbolt"
+      Position → "Thunderbolt, then switch to Ferrothorn, then Protect,
+                  then Thunderbolt"
 
   2️⃣ THE CHAMPION checks all four AT ONCE — one flip through the book
 
@@ -81,8 +82,8 @@ four ahead and get turn 1 wrong, and you wasted four guesses. There's a sweet sp
 
 ## Different rookies 🧑‍🎓
 
-* 🐣 **A small Pokémon from the same family.** Classic. Needs to speak the same language as the
-  Champion, and you have to house a second Pokémon.
+* 🐣 **A Pichu drafting for a Raichu.** Classic — same family, same instincts. Needs to speak the
+  same language as the Champion, and you have to house a second Pokémon.
 * ⏭️ **The Champion skimming.** Let the Champion skim the first few chapters only and guess from
   that. No second Pokémon at all.
 * 🐍 **Extra heads.** Bolt a few extra "guess the next turn" instincts onto the Champion itself, so
@@ -90,7 +91,7 @@ four ahead and get turn 1 wrong, and you wasted four guesses. There's a sweet sp
 * 🦅 **Guess in the Champion's own shorthand.** Instead of guessing *turns*, guess the half-formed
   thoughts the Champion has mid-flip. Much more accurate — the rookie is thinking in the
   Champion's language rather than translating.
-* 📋 **Just copy from the briefing.** Underrated. If the task is "summarise this scouting report,"
+* 📋 **Just copy from the briefing.** Underrated. If the task is "summarise the Toxapex report,"
   much of the output is already sitting in the report. Guess by copying. No rookie needed at all,
   and it works remarkably well.
 

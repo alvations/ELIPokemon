@@ -10,7 +10,7 @@ tags: [perplexity, cross-entropy, evaluation, tokenizer, bits-per-byte]
 
 # Perplexity: how surprised is your Trainer, every turn?
 
-Watch a battle replay. Pause before each move. Ask your Trainer: *"what happens next?"*
+Watch a Cynthia replay. Pause before each move. Ask your Trainer: *"what happens next?"*
 
 **Perplexity is how many options they were effectively torn between.**
 
@@ -22,7 +22,8 @@ Watch a battle replay. Pause before each move. Ask your Trainer: *"what happens 
 
    10    🤔 Effectively picking from ten plausible moves.
 
-   50    😐 Fifty moves feel equally likely. That's a rookie on Route 1.
+   50    😐 Fifty moves feel equally likely. Thunderbolt? Splash? Roost?
+            That's a rookie on Route 1.
 
    50,000 🫠 No idea. Might as well name a random Pokémon.
 ```
@@ -38,8 +39,8 @@ Watch a battle replay. Pause before each move. Ask your Trainer: *"what happens 
 * 🔮 **It's what makes forecasting possible.** Train a few small Trainers, plot their surprise, and
   you can predict how surprised a Trainer costing your entire season budget will be. That's how
   anyone dares to commit to an expensive training run.
-* 🚨 **It's your smoke alarm.** Compressed your Trainer's Pokédex and want to know if you broke
-  something? Changed the training footage? Surprise moves *first*, before anything else you'd
+* 🚨 **It's your smoke alarm.** Rounded every entry in your Trainer's Pokédex and want to know if
+  you broke something? Changed the training footage? Surprise moves *first*, before anything else you'd
   notice.
 
 ## Where it lies to you 🤥
@@ -90,7 +91,7 @@ made them good.**
 perplexity only sees fluency.
 
 **📋 It can't see whether they did what you asked.** You said "keep it under three moves." They
-wrote twelve. Perplexity has no opinion about this whatsoever.
+listed twelve, starting with Splash. Perplexity has no opinion about this whatsoever.
 
 ## The rule 📌
 

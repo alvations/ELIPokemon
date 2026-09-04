@@ -10,10 +10,10 @@ tags: [teacher-forcing, exposure-bias, scheduled-sampling, error-compounding]
 
 # Training with the Champion's replays vs actually playing
 
-Your apprentice studies exclusively by watching **Champion replays**, paused every turn:
-*"what does the Champion do here?"*
+Your apprentice studies exclusively by watching **Cynthia's replays**, paused every turn:
+*"what does she do here?"*
 
-They guess "Thunderbolt." Wrong — the Champion switched. You correct them, **rewind to the
+They guess "Thunderbolt." Wrong — she switched to Spiritomb. You correct them, **rewind to the
 Champion's actual position**, and continue.
 
 Note what just happened: no matter how badly they guessed, turn 5 starts from the *Champion's*
@@ -51,9 +51,10 @@ unfamiliar, they misplay *again*. Three turns later the match is unrecognisable.
 
 ## What this looks like from the stands 👀
 
-* 🔁 **Loops.** They switch Pikachu in, switch it out, switch it in, switch it out. Each move
+* 🔁 **Loops.** They switch Pikachu in, switch it out, switch it in, switch it out — burning
+  Stealth Rock damage every time. Each move
   looked locally fine; the sequence is nonsense.
-* 🌀 **Drift.** Twenty turns in, they're running a strategy nobody chose.
+* 🌀 **Drift.** Twenty turns in, they're playing Trick Room on a team that never had Bronzong.
 * 🎭 **Committing to a fiction.** They misidentify the opponent's Ferrothorn as a Skarmory on
   turn 3, and then play *ten flawless turns* against a Skarmory that does not exist. Every
   individual decision is correct given the premise. The premise was theirs.

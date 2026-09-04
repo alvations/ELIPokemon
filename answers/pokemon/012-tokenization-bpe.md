@@ -20,7 +20,7 @@ fine. But `CHARIZARD` eats nine tiles, a full team eats sixty, and the scoreboar
 exhausted before the match starts.
 
 **One tile per Pokémon.** `[CHARIZARD]` — one tile, instant. Beautiful, until a challenger shows
-up with a Charizard nicknamed **"Big Steve"** and you have no tile for it. You put up `[???]`
+up with a Charizard nicknamed **"Big Steve"**, or Alola releases Mimikyu, and you have no tile. You put up `[???]`
 and the crowd has no idea what's happening.
 
 ## The real answer: tiles for common chunks 🧩
@@ -28,7 +28,8 @@ and the crowd has no idea what's happening.
 Stock tiles for whatever shows up a lot.
 
 `[CHAR]` `[IZARD]` `[SAUR]` `[MON]` `[ITE]` `[MEGA]` `[▁a]` `[▁the]` `[ing]` — plus every single
-letter as a backstop, so **nothing is ever unspellable**.
+letter as a backstop, so **nothing is ever unspellable**. `[MEGA]` earns its place: Mega Charizard,
+Mega Gyarados, Mega Alakazam all reuse it.
 
 Now `CHARIZARD` is `[CHAR][IZARD]` — two tiles. `BULBASAUR` is `[BULBA][SAUR]`. And "Big Steve"
 is `[Big][▁Ste][ve]`, which is clumsy but *works*, because you kept the letters around.
@@ -59,7 +60,8 @@ spells identically.
 This one design choice explains almost every embarrassing model failure.
 
 **"How many R's in CHARIZARD?"** 🅁
-Your Trainer never saw letters. They saw `[CHAR][IZARD]` — two tiles. Asking them to count R's is
+Your Trainer never saw letters. They saw `[CHAR][IZARD]` — two tiles. Ask it about Ferrothorn and
+it is counting in `[FERRO][THORN]`. Asking them to count R's is
 like asking someone who reads Chinese characters how many strokes are in a word they only ever
 recognised as a whole shape. They'll guess. They'll be wrong. It is *not* a reasoning failure.
 
