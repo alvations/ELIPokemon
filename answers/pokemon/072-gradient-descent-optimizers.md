@@ -10,7 +10,8 @@ tags: [sgd, momentum, adam, adamw, optimizers, bias-correction]
 
 # Training up: how do you decide what to work on next?
 
-Your Pokémon lost. You need to adjust something. **How do you decide what, and by how much?**
+Your Garchomp lost. You need to adjust its EVs — the 508 points of effort you get to spread
+across its six stats. **How do you decide which stat, and by how much?**
 
 ## 🚶 Plain training: one loss, one adjustment
 
@@ -18,10 +19,10 @@ Lose a match, spot the weakness, adjust. Repeat.
 
 Two ways to gather evidence:
 
-* 🐌 **Play every opponent in the region, then adjust once.** Perfect information. Takes a month per
+* 🐌 **Play every opponent in Kanto, then adjust once.** Perfect information. Takes a month per
   adjustment.
-* 🏃 **Adjust after every single match.** Fast, and wildly noisy — one loss to a lucky critical hit
-  and you're rebuilding your whole strategy.
+* 🏃 **Adjust after every single match.** Fast, and wildly noisy — one loss to a lucky Critical Hit
+  and you've dumped 252 EVs into Special Defence for no reason.
 
 **In practice: adjust after every twenty matches.** Enough signal to be sane, fast enough to make
 progress. And the leftover noise is genuinely useful — it stops you getting stuck polishing one
@@ -29,7 +30,8 @@ narrow approach forever.
 
 ## 🏃‍♂️ Momentum: stop flip-flopping
 
-Here's a real failure. You keep adjusting between two things:
+Here's a real failure. You keep flip-flopping between Attack and Defence — 252 into one, then
+252 into the other, then back:
 
 ```
    😵 WITHOUT MOMENTUM               🏃 WITH MOMENTUM
@@ -64,7 +66,8 @@ Your Attack gets feedback every single match. Your Special Defence comes up **on
 Adjust both by the same amount and Special Defence never develops — it's simply mentioned too
 rarely.
 
-**So: scale the adjustment by how often you get feedback.**
+**So: scale the adjustment by how often you get feedback.** Speed comes up every single turn;
+Special Defence comes up when something finally clicks an Ice Beam at you.
 
 * 📢 **Constant feedback** → small careful adjustments. You'll get another chance tomorrow.
 * 🤫 **Rare feedback** → make it count. This might be your only data point this month.

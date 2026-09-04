@@ -33,9 +33,9 @@ anything new.
 
 Hire a hundred of them, show each a different slice, and **vote.**
 
-One scout is superstitious about red hats. Another about Tuesdays. A third about arena lighting. All
-different superstitions — so when they vote, **the superstitions cancel** and the real signal comes
-through.
+One scout is superstitious about red hats. Another thinks every Gyarados runs Dragon Dance. A third
+believes Ferrothorn always carries Leftovers. All different superstitions — so when they vote,
+**the superstitions cancel** and the real signal comes through.
 
 📌 **You want them individually wild.** Hire cautious, sensible scouts and the voting achieves
 nothing — you needed their errors to be *different*, and cautious people all make the *same* errors.
@@ -54,11 +54,11 @@ of noticing one thing.
 So chain them. Each new scout is handed **only the battles the previous ones got wrong.**
 
 ```
-   🪨 Scout 1:  "faster = wins."       Right 60% of the time.
+   🪨 Scout 1:  "faster = wins."             Right 60% of the time.
    🪨 Scout 2:  handed only the 40% it missed.
-                "unless it's Rock-type." Now up to 75%.
+                "unless it's holding a Focus Sash."   Now up to 75%.
    🪨 Scout 3:  handed the remaining 25%.
-                "unless it's raining."   Now 85%.
+                "unless Drizzle is up."               Now 85%.
    🪨 Scout 4:  ...
 ```
 

@@ -10,7 +10,8 @@ tags: [ab-testing, experimentation, power-analysis, novelty-effect, guardrails]
 
 # A/B testing: does the new Trainer actually win more?
 
-Your new Trainer scores better in practice. **Does it win more real matches?**
+Your new Trainer scores better in practice — it finally stops leading Magikarp. **Does it win more
+real matches?**
 
 Those are genuinely different questions. A Trainer with better practice numbers can absolutely lose
 more tournaments — and one that "looks worse" on paper can win because it decides three times faster.
@@ -34,10 +35,11 @@ the old — they'll get confused, carry habits across, and both sides get muddie
       Win rate. That's it. That's what decides.
 
    2️⃣ THE EXPLAINERS
-      Average turns per match. Switch frequency. Why did it win?
+      Average turns per match. Switch frequency. How often it
+      remembers Stealth Rock is up. Why did it win?
 
    3️⃣ THE DEAL-BREAKERS ⚠️
-      Time per turn. Cost. Complaint rate. Rule violations.
+      Time per turn. Cost. Complaint rate. Double Team violations.
       → These must NOT get worse, even if wins go up.
 ```
 

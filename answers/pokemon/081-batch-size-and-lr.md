@@ -10,12 +10,12 @@ tags: [batch-size, learning-rate-scaling, gradient-accumulation, critical-batch-
 
 # How many matches before you change anything?
 
-You're adjusting your Pokémon based on how it performs. **How many matches do you watch before
-deciding?**
+You're adjusting your Garchomp's EV spread based on how it performs. **How many matches do you
+watch before deciding?**
 
 ```
    1️⃣ ONE MATCH, then adjust
-      Lost to a critical hit? "REBUILD EVERYTHING."
+      Lost to one Critical Hit? "REBUILD EVERYTHING."
       🎲 Wildly noisy. You're chasing dice rolls.
 
    💯 A HUNDRED MATCHES, then adjust
@@ -31,8 +31,8 @@ Here's the thing that connects them:
 > can safely make.**
 
 ```
-   👀 1 match   → could be luck        → 🐁 tiny adjustment
-   👀 10 matches → probably real        → 🚶 moderate adjustment
+   👀 1 match   → could be one Critical Hit  → 🐁 4 EVs
+   👀 10 matches → probably real             → 🚶 60 EVs
    👀 100 matches → definitely real     → 🏃 confident adjustment
 ```
 
@@ -94,7 +94,8 @@ this and you're adjusting **ten times harder than intended**, and the run explod
 
 The single most common bug in this entire technique.
 
-**⚖️ Comparing against the room doesn't survive this.** If your Flat Rule scales Pokémon relative to
+**⚖️ Comparing against the room doesn't survive this.** Flat Rules scale you against whoever
+turned up today, so ten rooms of ten is not one room of a hundred. If your Flat Rule scales Pokémon relative to
 *whoever's in the room today*, then ten rooms of ten is genuinely different from one room of a
 hundred — the rooms were different.
 

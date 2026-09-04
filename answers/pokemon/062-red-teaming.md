@@ -22,10 +22,10 @@ loses you the tournament.
 
 | Who | What they've got | What they want |
 | --- | --- | --- |
-| 😄 **A curious kid** | pokes at it for fun | to see what happens |
-| 😤 **A determined opponent** | knows every published trick, persistent | to beat you specifically |
-| 😈 **Someone planting notes** | never shows up in person; hides orders in reports | your secrets |
-| 🤖 **A serious operation** | automated tools, thousands of attempts | anything, at scale |
+| 😄 **A curious kid on Route 1** | pokes at it for fun | to see what happens |
+| 😤 **A determined rival** | knows every published trick, persistent | to beat you specifically |
+| 😈 **Team Rocket** | never shows up in person; hides orders in scouting reports | your secrets |
+| 🏆 **Cynthia** | reads your whole season, finds the one hole | the Championship |
 
 📌 A team that only prepared for the kid gets destroyed by the third one — and won't understand what
 happened, because nobody was ever in the stadium.
@@ -34,9 +34,9 @@ happened, because nobody was ever in the stadium.
 
 Without one, you'll poke at whatever occurs to you and call it thorough. Write the list first:
 
-* ☠️ Banned moves
+* ☠️ Banned moves — Double Team, Sheer Cold, an illegal Baton Pass chain
 * 🩺 Confident advice it has no business giving
-* 🔓 Leaking your team sheet
+* 🔓 Leaking your team sheet before the match
 * 🎣 Following orders planted in a scouting report
 * ⚖️ Treating some Trainers differently for no good reason
 * 🏷️ **Your own product's specific disaster** — for a Gym reception desk, promising a badge you
@@ -58,8 +58,8 @@ That last category is the one nobody writes down and everyone gets burned by.
                                                          ⭐ This is the answer.
 ```
 
-Also worth doing: **bring in actual specialists** (someone who genuinely knows competitive play will
-find things a generalist can't even recognise as wrong), and **let outsiders try** — a bounty gets
+Also worth doing: **bring in actual specialists** (a VGC player will spot an illegal Speed tier or
+a Regulation G violation that a generalist cannot even recognise as wrong), and **let outsiders try** — a bounty gets
 you adversarial creativity you could never hire.
 
 ## Step 4: the part everyone skips 🔁

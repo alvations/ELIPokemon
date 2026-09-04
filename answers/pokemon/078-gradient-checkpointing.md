@@ -13,7 +13,8 @@ tags: [gradient-checkpointing, activation-recomputation, memory, training]
 To work out whose fault the loss was, you walk back through the season and need **your notes from
 every stop.**
 
-So you film everything. Every Gym, every route, every battle. And the footage archive becomes
+So you film everything. Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni — every
+Gym, every route, every battle. And the footage archive becomes
 **bigger than everything else you own** — bigger than your team records, bigger than your training
 notes. It's the thing that stops you training a longer season.
 
@@ -24,20 +25,20 @@ those two Gyms from the last checkpoint.**
 
 ```
    📹 FILM EVERYTHING
-   Gym1 ─► Gym2 ─► Gym3 ─► Gym4 ─► Gym5 ─► Gym6 ─► Gym7 ─► Gym8
-    🎬     🎬      🎬      🎬      🎬      🎬      🎬      🎬
+   Brock ─► Misty ─► Surge ─► Erika ─► Koga ─► Sabrina ─► Blaine ─► Giovanni
+    🎬       🎬        🎬        🎬       🎬       🎬          🎬         🎬
    Eight tapes. Instant review. An enormous archive.
 
    📸 FILM CHECKPOINTS ONLY
-   Gym1 ─► Gym2 ─► Gym3 ─► Gym4 ─► Gym5 ─► Gym6 ─► Gym7 ─► Gym8
-    🎬      ·       ·      🎬       ·       ·      🎬       ·
+   Brock ─► Misty ─► Surge ─► Erika ─► Koga ─► Sabrina ─► Blaine ─► Giovanni
+    🎬        ·         ·       🎬        ·        ·          🎬         ·
 
    Three tapes.
-   Need Gym 5? Start from the Gym 4 tape and REPLAY Gyms 4 and 5.
+   Need the Koga fight? Start from the Erika tape and REPLAY Erika and Koga.
 ```
 
-You had the Gym 4 state on tape, so replaying forward from there gets you Gym 5 exactly. Not an
-approximation — **the identical footage**, reconstructed.
+You had your team's exact state leaving Erika's Gym on tape, so replaying forward from there gets
+you the Koga fight exactly. Not an approximation — **the identical footage**, reconstructed.
 
 ## What it costs 💰
 

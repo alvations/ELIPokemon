@@ -15,13 +15,13 @@ tags: [decision-trees, random-forest, xgboost, gbdt, tabular]
 The simplest possible way to predict a battle. Just ask questions in order:
 
 ```
-                    Is it faster than me?
+                  Faster than my Garchomp?
                    ╱                    ╲
                  yes                     no
                 ╱                          ╲
-        Hits hard?                     Bulky?
-        ╱        ╲                    ╱      ╲
-    ⚡ sweeper  🏃 fast wall      🛡️ tank   🔄 pivot
+        Hits hard?                  Holding Leftovers?
+        ╱        ╲                    ╱           ╲
+   ⚡ Jolteon   🏃 Ninjask      🛡️ Toxapex    🔄 Ferrothorn
 ```
 
 ✅ **You can read it.** Print it out, hand it to a rookie, they can follow it. Nothing else here has
@@ -47,7 +47,8 @@ Without it, every scout would open with *"is it faster than me?"* — because Sp
 question, so **everyone** asks it first. A hundred scouts who all ask the same first question are
 basically **one scout**, and voting achieves nothing.
 
-Forcibly blind some of them to Speed and they're **forced to find other angles**. Now they make
+Forcibly blind some of them to Speed and they're **forced to find other angles** — typing, held
+item, whether it has Intimidate. Now they make
 genuinely *different* mistakes — and different mistakes cancel out when you vote. Identical mistakes
 don't.
 

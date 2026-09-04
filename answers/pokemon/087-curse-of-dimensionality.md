@@ -14,12 +14,14 @@ You want to find **similar Pokémon**. Sounds easy.
 
 ## With one stat 📏
 
-Sort everyone by Speed. Similar Speed, similar Pokémon. Ten Pokémon covers the whole range nicely.
+Sort everyone by Speed. Similar Speed, similar Pokémon — Jolteon next to Aerodactyl, Shuckle next
+to Snorlax. Ten Pokémon covers the whole range nicely.
 
 ## With two stats 📊
 
-Speed and Attack. Now you need a **grid** — and to cover it at the same resolution you need a hundred
-Pokémon, not ten.
+Speed and Attack. Now you need a **grid** — fast-and-strong (Garchomp), fast-and-weak (Ninjask),
+slow-and-strong (Snorlax), slow-and-weak (Magikarp) — and to cover it at the same resolution you
+need a hundred Pokémon, not ten.
 
 ## With six stats 📈
 
@@ -64,9 +66,9 @@ clusters, spotting the odd one out. The concept of "close" has stopped carrying 
 
 Because **real Pokémon don't fill the space.**
 
-Imagine every mathematically possible combination of a thousand measurements. Almost all of them are
-**nonsense** — creatures with 400 Attack and 2 HP, with contradictory typings, with abilities that
-can't coexist.
+Imagine every mathematically possible combination of a thousand measurements. Almost all of them
+are **nonsense** — creatures with Arceus's Attack and Magikarp's HP, with contradictory typings,
+with Sturdy and Levitate at the same time.
 
 Real Pokémon occupy a **tiny, highly structured pocket** of that enormous space. They cluster into
 families. Stats correlate. Types constrain movesets.

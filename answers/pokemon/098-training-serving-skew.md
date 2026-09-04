@@ -21,8 +21,8 @@ It just quietly gets things wrong.
 
 Practice used the one your analyst wrote. Tournaments use the one the stadium engineers built.
 
-Both display *"average damage over the last 30 turns."* They disagree about whether a turn where the
-Pokémon was asleep counts.
+Both display *"average damage over the last 30 turns."* They disagree about whether a turn lost to
+Hypnosis counts, and about whether Leftovers recovery is negative damage.
 
 Your Trainer learned one meaning. It's being shown the other.
 
@@ -39,8 +39,8 @@ Same question, different answers.
 
 ```
    ❌ WHAT WENT WRONG
-   Training on a match from JANUARY.
-   One of the inputs: "this Pokémon's total career wins."
+   Training on a Gyarados match from JANUARY.
+   One of the inputs: "this Gyarados's total career wins."
    ...computed in SEPTEMBER. 😱
 
    That number includes eight months of results that hadn't
@@ -106,7 +106,7 @@ overlooked fix there is.**
 
 ## Catching it 🕵️
 
-* 🔍 **Compare directly.** Take a Pokémon, read the practice scoreboard, read the live board.
+* 🔍 **Compare directly.** Take one Ferrothorn, read the practice scoreboard, read the live board.
   Different? There's your bug.
 * 👻 **Run practice on live matches** without acting on it, and diff the two.
 * 🚨 **Alarm on stale or missing figures** on the live board.
