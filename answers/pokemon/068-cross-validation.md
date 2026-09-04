@@ -13,13 +13,14 @@ tags: [cross-validation, k-fold, leakage, time-series, nested-cv]
 You want to know how good your Trainer is. You hold back Brock's Gym as a test and train on
 everything else.
 
-Then they lose to Brock. **Are they bad, or are they just bad against Rock types?**
+Then they lose to Onix. **Are they bad, or are they just bad against Rock types?**
 
 You have no idea, because you tested once.
 
 ## The fix 🔄
 
-Split your footage into five piles. Train on four, test on the fifth. **Rotate.**
+Split your footage into five piles — Brock's matches, Misty's, Lt. Surge's, Erika's, Koga's. Train
+on four, test on the fifth. **Rotate.**
 
 ```
    round 1  [🧪TEST][ train ][ train ][ train ][ train ]  → 72%
@@ -66,7 +67,7 @@ Your footage spans a year. Split it randomly and your Trainer studies December a
 You have forty matches against Brock. Random splitting puts thirty in training and ten in testing.
 Your Trainer isn't being tested — **it knows Brock.**
 
-✅ **Fix: split by opponent, not by match.** All of Brock in one pile. This is the most common
+✅ **Fix: split by opponent, not by match.** Every Onix match in one pile. This is the most common
 mistake in real projects, by a wide margin.
 
 **3. 🧹 Preparing the footage before splitting.**
@@ -76,7 +77,7 @@ You normalise, clean and index the whole year of footage, *then* split it.
 Too late. Your preparation already **looked at the test matches** — the averages it computed include
 them. ✅ **Prepare inside each round**, using only that round's training pile.
 
-**4. 👯 Duplicate footage.** The same match filmed from two angles, landing in both piles. Deduplicate
+**4. 👯 Duplicate footage.** The same Starmie match filmed from two angles, landing in both piles. Deduplicate
 first.
 
 **5. 🎰 Trying two hundred setups and keeping the best.**

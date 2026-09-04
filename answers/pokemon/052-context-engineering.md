@@ -28,7 +28,7 @@ matters far more than what you said at the start.
   │  📝 the log of everything so far  ← grows forever               │
   │  📊 results of everything tried   ← can be ENORMOUS             │
   │  🗒️ the current plan               ← working memory              │
-  │  ❓ what you actually asked        ← often the smallest thing    │
+  │  ❓ "should I Thunderbolt?"        ← often the smallest thing    │
   │                                                               │
   │  every page in here competes with every other page             │
   └───────────────────────────────────────────────────────────────┘
@@ -51,16 +51,16 @@ Trainer is reasoning about a battle that isn't happening any more.
 
 ## How to pack properly 🧳
 
-**📝 Condense the old pages.** When the bag fills, replace the first thirty turns with a one-page
-summary and carry on. Essential for long battles — and risky, because the detail you summarised away
+**📝 Condense the old pages.** When the bag fills, replace the first thirty turns with *"they lead
+Politoed, rain is up, Kingdra is the threat"* and carry on. Essential for long battles — and risky, because the detail you summarised away
 might have been the one that mattered.
 
 **🗒️ Keep a plan on a separate sheet.** Don't make your Trainer *remember* the plan from the log —
 have them **write it down and keep updating it.** It survives every condensing, it's short, and you
 can read it yourself to see what they think they're doing.
 
-**🔍 Carry the index, not the library.** Don't stuff every scouting report in the bag. Carry the
-*list* of reports and fetch one when you actually need it. Exactly how a person works with a filing
+**🔍 Carry the index, not the library.** Don't stuff the full Toxapex, Ferrothorn and Tapu Fini
+pages in the bag. Carry the *list* and fetch one when you actually need it. Exactly how a person works with a filing
 cabinet.
 
 **✂️ Cap what comes back.** Any check that could return fifty pages should return **one page and an
@@ -75,6 +75,7 @@ Anything that's identical every battle can be **pre-packed once** and reused —
 the *top* of the bag. Reorder it and you lose that, and pay full price every time.
 
 **🔧 Carry fewer items.** Counterintuitive: adding a useful item can make your Trainer **worse**.
+Six kinds of Poké Ball and it starts throwing the wrong one.
 Twenty items with overlapping descriptions and it starts picking the wrong one. Fewer, clearly
 distinct items beats a comprehensive kit.
 

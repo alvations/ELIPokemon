@@ -13,8 +13,8 @@ tags: [lora, peft, low-rank, adapters, intrinsic-dimension]
 Your Champion is perfect. Thousands of hours of training. You would like it to hit *slightly*
 harder with its one Water move.
 
-**Option A:** send it to a month-long Water camp, rebuild it from the ground up, and pray it
-comes back still knowing how to breathe fire.
+**Option A:** send your Charizard to a month-long Water camp, rebuild it from the ground up, and
+pray it comes back still knowing Flamethrower.
 
 **Option B:** give it a **Mystic Water**. 💧
 
@@ -42,7 +42,7 @@ comes back still knowing how to breathe fire.
 ## Why a small item is enough 🔑
 
 Because you are not making a **new Pokémon**. You're making a small adjustment to an
-extraordinary one.
+extraordinary one — the difference between a Charizard and a Charizard holding something.
 
 Everything needed to swing a Water move harder is already in there — it knows the move, it knows
 its own stats, it knows the type chart. It just needs a nudge toward *"lean on that line more
@@ -69,7 +69,7 @@ garage.
 **🎒 A bag full of items, one Pokémon.** This is the real magic.
 
 ```
-   ONE Champion  +  💧 Mystic Water   →  water specialist
+   ONE Charizard +  💧 Mystic Water   →  water specialist
                  +  🔥 Charcoal       →  fire specialist
                  +  ⚡ Magnet          →  electric specialist
                  +  🏥 Medical badge  →  medical specialist
@@ -102,7 +102,7 @@ Worst case, the item is useless and you take it off.
 
 ## When an item won't do it ⚠️
 
-A held item cannot teach your Fire Pokémon to be a **Water Pokémon**. It cannot teach a language
+A Charcoal cannot teach your Charizard to be a **Blastoise**. It cannot teach a language
 it has never heard, or a Pokémon type that didn't exist during its training.
 
 Items are for **steering**, not **rebuilding**. Style, tone, domain, format, specialisation — all

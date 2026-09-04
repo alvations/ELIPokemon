@@ -12,7 +12,7 @@ tags: [llm-as-judge, position-bias, verbosity-bias, self-preference, mt-bench]
 
 Human judges are slow, expensive, and get tired by the third battle of the afternoon.
 
-So: put a **Champion in the referee's chair.** They know the game. They can grade a thousand
+So: put **Cynthia in the referee's chair.** She knows the game. They can grade a thousand
 battles an hour. They never get tired.
 
 And it works better than you'd expect — a Champion referee agrees with human referees about 80% of
@@ -23,8 +23,7 @@ ceiling, and the Champion is basically at it.
 
 **1. 🔀 They favour whoever went first.**
 
-Show the same two battles in the opposite order and the Champion sometimes picks the *other*
-winner. Same battles. Same referee. Different verdict.
+Show the same two battles in the opposite order and Cynthia sometimes picks the *other* winner. Same battles. Same referee. Different verdict.
 
 > **The fix is not optional: judge both orders, every time.** If the verdict flips, call it a draw,
 > because that's what it actually was.
@@ -36,7 +35,7 @@ was better play. The referee gives it to the grind.
 
 **3. 🪞 They favour Trainers who play like them.**
 
-A Champion referee rates *its own students* higher. Not corruption — it just recognises its own
+Cynthia rates the Garchomp players higher. She would. Not corruption — it just recognises its own
 style as correct, because to it, it is.
 
 > Never let a Champion be the sole referee of its own students. Get referees from other Leagues.
@@ -66,7 +65,8 @@ number** — which is worse than an honest "I don't know," because it looks auth
    ✅ Give a real checklist, not "which was better?"
    ✅ Make them explain their reasoning BEFORE naming a winner.
       (Verdict first, reasoning after = they rationalise. Much worse.)
-   ✅ Show them a model answer if one exists. Biggest single improvement
+   ✅ Show them a model answer if one exists — the Champion's own line in that
+      exact position. Biggest single improvement
       available — a referee with a reference is a far better referee.
    ✅ Show a few correctly-graded examples first.
    ✅ Let them say "draw." Forcing a winner invents differences that

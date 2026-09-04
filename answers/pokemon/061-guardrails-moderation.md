@@ -22,7 +22,7 @@ stage, each catching what the last one missed.
    │ Obvious rule-break?    │     Milliseconds. Catches the obvious.
    └────┬──────────────────┘
    ┌────▼──────────────────┐  2️⃣ THE JUNIOR REF — reads the request
-   │ Does this LOOK like    │     "Is this trying something dodgy?"
+   │ Does this LOOK like    │     "Are they fishing for a Sheer Cold?"
    │ trouble?               │     Quick. Sometimes wrong.
    └────┬──────────────────┘
    ┌────▼──────────────────┐  3️⃣ YOUR POKÉMON — with its own training
@@ -34,8 +34,8 @@ stage, each catching what the last one missed.
    │ something private?     │
    └────┬──────────────────┘
    ┌────▼──────────────────┐  5️⃣ THE SCOREKEEPER — mechanical checks
-   │ Valid move name? Real  │     No judgement. Just: does this
-   │ target? Nothing leaked?│     check out?
+   │ Is Thunderbolt even in │     No judgement. Just: does this
+   │ its moveset? Enough PP?│     check out?
    └────┬──────────────────┘
         ▼  the move happens      6️⃣ + everything logged for review
 ```
@@ -49,8 +49,8 @@ But judging a *request* is genuinely hard:
 
 > *"How does Explosion work?"*
 
-That's a kid learning the game. Or a competitive player planning a strategy. Or someone about to do
-something stupid. **The words are identical in all three cases.** The junior ref is guessing.
+That's a kid on Route 1 learning the game. Or a competitive player planning a Self-Destruct lead.
+Or someone about to do something stupid. **The words are identical in all three cases.** The junior ref is guessing.
 
 Judging a *move* is easy:
 
@@ -86,8 +86,8 @@ Refuse enough real requests and you have a Pokémon nobody can use — and a das
 incidents, which everyone reads as success.
 
 📌 **Measure it deliberately.** Keep a list of requests that *sound* alarming but are completely
-fine — a kid asking how Explosion works, a researcher asking about a known exploit, a historical
-question about a violent tournament. Track how many get wrongly refused. **Report that number next
+fine — a kid asking how Explosion works, a researcher asking why Baton Pass got banned, a
+historical question about Giovanni. Track how many get wrongly refused. **Report that number next
 to your incident count.**
 
 > A system with zero incidents and a 15% false-refusal rate isn't safe. It's broken.
@@ -99,7 +99,8 @@ to your incident count.**
 * 💰 **Referees cost money.** At scale, a referee per turn is a real bill. Use quick ones.
 * 📅 **Version your rulebook.** Rules change. Log which version made each call, or you can never
   explain a decision from three months ago.
-* 📢 **Let people appeal.** Wrongly blocked? There must be a way to say so, and it must reach the
+* 📢 **Let people appeal.** A Trainer wrongly blocked from asking about Explosion must have a way
+  to say so, and it must reach the
   person who tunes the referees.
 * 🤐 **Don't explain the block in detail.** *"Blocked — banned move, category 4, rule 12(b)"* tells
   the next person exactly what to work around. **A detailed refusal is a free map of your defences.**

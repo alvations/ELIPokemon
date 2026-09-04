@@ -10,7 +10,8 @@ tags: [dropout, regularisation, ensemble, inverted-dropout, co-adaptation]
 
 # Dropout: bench half the team, at random, every practice
 
-Every practice session, you flip a coin for each Pokémon. Heads, they play. Tails, **they sit out.**
+Every practice session, you flip a coin for each Pokémon on the belt — Charizard, Blastoise,
+Garchomp, Ferrothorn, Toxapex, Gyarados. Heads, they play. Tails, **they sit out.**
 
 Every session. Randomly. All the way through training.
 
@@ -33,8 +34,8 @@ Then on tournament day: **everybody plays.**
 
 **1. 🤝 It breaks the co-dependency.**
 
-Left alone, your team develops fragile habits. Charizard learns *"Blastoise always handles the Rock
-types, so I never need to worry about them."* Efficient! And it collapses completely the moment
+Left alone, your team develops fragile habits. Charizard learns *"Blastoise always handles Brock's
+Onix, so I never need to worry about Rock types."* Efficient! And it collapses completely the moment
 Blastoise is unavailable.
 
 Bench Blastoise at random and Charizard can't build that habit. **Nobody can rely on anybody**, so
@@ -75,7 +76,7 @@ mistakes there is.
 
 * 🎲 **How often to bench?** Half is classic for a big loose squad. Much less — one in ten — for
   tightly-drilled modern teams.
-* 🚫 **Never bench your final decision-maker.** Someone has to actually call the move.
+* 🚫 **Never bench your final decision-maker.** Someone has to actually call the Thunderbolt.
 * ⚔️ **It fights with other methods.** Some other training techniques work by measuring the team's
   typical performance — and random benching makes those measurements wrong. Pick one.
 * 🐘 **Big modern teams often skip it entirely.**
@@ -89,8 +90,8 @@ mistakes there is.
 
 ## One clever reuse 🔮
 
-Keep the coin-flipping **on** during a real match. Run the same turn five times with five different
-half-teams.
+Keep the coin-flipping **on** during a real match against Cynthia. Run the same turn five times
+with five different half-teams.
 
 * ✅ All five agree → your team genuinely knows this position.
 * ❌ Five different answers → **they're guessing**, whatever they claim.
