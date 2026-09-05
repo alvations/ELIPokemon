@@ -10,9 +10,9 @@ tags: [reasoning-models, o1, r1, rlvr, thinking-tokens, distillation]
 
 # Reasoning Trainers: the ones who pause before moving
 
-Watch two Trainers in the same position.
+Watch two Trainers in the same position — your Pikachu out against their Gyarados.
 
-**😐 The chat Trainer** glances at the field and calls a move. One second. Usually fine.
+**😐 The chat Trainer** glances at the field and calls Thunderbolt. One second. Usually fine.
 
 **🧘 The reasoning Trainer** stands there. Ten seconds. Twenty. You can see them working:
 
@@ -97,9 +97,11 @@ isn't strong enough to stumble onto good deliberation by accident. But it can ab
 
 ## What they're bad at ⚠️
 
-* 🎨 **Anything unscoreable.** They were raised on positions with a right answer. *"Write a moving
+* 🎨 **Anything unscoreable.** They were raised on positions with a right answer — did the Gyarados
+  faint, yes or no. *"Write a moving
   speech"* has no scoreboard, and the whole training method simply doesn't apply.
-* 🐌 **Overthinking trivia.** Ask what type Pikachu is and they'll deliberate for thirty seconds.
+* 🐌 **Overthinking trivia.** Ask what type Pikachu is and they'll deliberate for thirty seconds
+  before saying Electric.
   Cap it.
 * 🔒 **You often can't see the deliberation.** Frequently hidden — and, per what we know about
   chains of thought, it wouldn't be a trustworthy account even if you could.

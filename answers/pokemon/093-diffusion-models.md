@@ -33,7 +33,8 @@ That's it. No adversary, no competition, no clever objective. Just: *"spot the s
 
 ## Then the magic 🎩
 
-Once your Trainer can spot static, hand it **pure static** and say *"remove the static."*
+Once your Trainer can spot static, hand it **pure static** and say *"remove the static — there is a
+Pokémon under there somewhere."*
 
 It does. Slightly. What's left is *marginally* less random.
 
@@ -63,11 +64,11 @@ for the forger.
 
 ## Four things that made it practical 🔧
 
-* 🗜️ **Work from a sketch, not the full photo.** Instead of developing every pixel, develop a small
-  compressed sketch and expand it at the end. Roughly fifty times cheaper — and the reason anyone can
+* 🗜️ **Work from a sketch, not the full sprite.** Instead of developing every pixel of the
+  Charizard, develop a small compressed sketch and expand it at the end. Roughly fifty times cheaper — and the reason anyone can
   run this on their own machine.
-* 🎚️ **The "how literally?" dial.** Train it to develop photos both *with* and *without* a
-  description, then at generation time **exaggerate the difference.** Crank it up and you get exactly
+* 🎚️ **The "how literally?" dial.** Train it to develop sprites both *with* and *without* a
+  description — *"an orange dragon with wings"*, then at generation time **exaggerate the difference.** Crank it up and you get exactly
   what you asked for, with less variety. Turn it down and you get more surprising results, less
   faithful. This one dial is what people mean by prompt strength.
 * ⚡ **Take bigger steps.** Three hundred rounds became fifty, then twenty, then — with some cleverness

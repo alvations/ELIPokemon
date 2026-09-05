@@ -44,8 +44,8 @@ Turn 14 is the important one. It happened during a losing stretch and it was **g
 things less bad than expected. Without the "what did we expect" baseline you'd punish it for
 happening during a loss.
 
-So you need a second Pokémon whose only job is **predicting how the match is going** at each
-turn. Not to play — just to say "from here, we're looking at about a 6." That prediction is what
+So you need a second Pokémon — a Chansey on the bench with a clipboard — whose only job is
+**predicting how the match is going** at each turn. Not to play — just to say "from here, we're looking at about a 6." That prediction is what
 every turn gets measured against.
 
 ## The clip: don't overreact to one match 🛑
@@ -91,11 +91,12 @@ weirdness gets caught the moment it happens rather than being averaged into a fi
 
 ## Why nobody enjoys running this 😩
 
-* 🏋️ **Four Pokémon in the gym.** Trainee, photocopy, judge, and the match-predictor.
+* 🏋️ **Four Pokémon in the gym.** The Garchomp being trained, its photocopy, the judge, and the
+  match-predictor.
 * ⏳ **Most of your time is spent playing matches**, not learning from them. You're running a
   tournament inside a training session.
-* 🎛️ **Six dials, all interacting.** How tight the leash, how big the clip, how far ahead the
-  predictor looks, how many times you re-study each match. Nudge one and the run either learns
+* 🎛️ **Six dials, all interacting** — more dials than a Pokémon has stats. How tight the leash, how
+  big the clip, how far ahead the predictor looks, how many times you re-study each match. Nudge one and the run either learns
   nothing or falls apart. There's no principled way to set them; it's lore.
 * 🔮 **The match-predictor is genuinely hard to train.** "How will this go?" from a half-finished
   battle is a legitimately difficult question, and if it predicts badly, every turn gets graded

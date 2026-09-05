@@ -12,7 +12,7 @@ tags: [test-time-compute, inference-scaling, best-of-n, verifier, reasoning]
 
 Two ways to win more battles.
 
-**🏋️ Train harder before the season.** Months in the grass, more experience, a stronger Pokémon.
+**🏋️ Train harder before the season.** Months in the grass, more EVs, a stronger Garchomp.
 Expensive, paid once, fixed forever.
 
 **⏳ Take longer per turn.** Same Pokémon, same Trainer — just **don't rush the decision.**
@@ -100,7 +100,8 @@ It thinks as long as it thinks.
 
 * 💸 **Your costs are no longer predictable.** Hard turns cost more than easy ones. Capacity planning
   that assumed a fixed price per turn is now wrong.
-* 🎚️ **Speed and accuracy are a dial you turn per turn.** Route the easy ones to a fast path.
+* 🎚️ **Speed and accuracy are a dial you turn per turn.** Route the Rattata to a fast path and save
+  the deliberation for Cynthia.
 * 🐣 **A small Trainer with thinking time can beat a big one without** — at the same total cost.
   Genuinely changes what you should deploy.
 * ✅ **A way to check answers is enormous leverage.** If you can verify a turn was good, you unlock

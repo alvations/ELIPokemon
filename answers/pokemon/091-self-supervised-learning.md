@@ -19,7 +19,8 @@ write down what it demonstrated.
 > shows a Ferrothorn pivot."*
 
 Expensive. Slow. Boring. And you'd never get more than a few hundred thousand of them, because
-**people have to do it.**
+**people have to do it** — someone has to sit and watch every Politoed lead and write down what
+it meant.
 
 ## 🌾 The new way
 
@@ -81,8 +82,8 @@ footage is a storage problem.
   teach nothing.** Far less signal per hour of footage.
 * 🧩 **"Here's 25% of a photo of the field. Draw the rest."** For images you have to hide **most** of
   it, because a picture is so redundant that hiding a corner is trivially easy.
-* 🔍 **"Two clips — same battle or different?"** Learn what makes battles similar without ever naming
-  anything.
+* 🔍 **"Two clips — same battle or different?"** Learn that a Politoed lead and a Drizzle turn belong
+  together, without anyone ever naming "rain team".
 
 ## The two catches ⚠️
 
@@ -99,7 +100,7 @@ next turn by spotting a watermark. That's why the good drills are good.
 Once footage is unlimited, the question stops being *"can we get more?"* and becomes **"which of this
 is worth watching?"**
 
-A million hours of terrible players teaches your Trainer to play terribly. So the real work — the
+A million hours of Route 1 kids teaches your Trainer to lead Magikarp. So the real work — the
 work everybody now spends their time on — is **curation**: filtering, deduplicating, and deciding
 what makes the cut.
 

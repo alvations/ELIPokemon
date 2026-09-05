@@ -10,7 +10,8 @@ tags: [roc-auc, pr-auc, imbalance, ranking-metrics, average-precision]
 
 # Two scorecards, and one of them flatters you
 
-Your shiny detector needs grading. Two ways to do it — and on rare Pokémon, **one of them lies.**
+Your shiny detector needs grading. Two ways to do it — and on something as rare as a shiny
+Gyarados, **one of them lies.**
 
 ## Setting the scene 🌾
 
@@ -47,7 +48,8 @@ Grade it.
 
 Because it divides by **a million.**
 
-Ten thousand wasted Ultra Balls is a catastrophe — it's your entire supply, several times over. But
+Ten thousand wasted Ultra Balls is a catastrophe — that is every Poké Mart in Kanto, several times
+over. But
 ten thousand out of a *million* is 1%, and 1% sounds wonderful.
 
 **The enormous pile of correctly-ignored Rattata drowns out your mistakes.** Scorecard B never
@@ -75,8 +77,8 @@ thing.
 
 It doesn't cut cleanly the other way either.
 
-A **0.4** on a patch with one shiny in a thousand may be **far more impressive** than a **0.6** on a
-patch where one in five is shiny. The second detector had an enormously easier job.
+A **0.4** at the Lake of Rage, where one shiny hides in a thousand Magikarp, may be **far more
+impressive** than a **0.6** in a patch where one in five is shiny. The second detector had an enormously easier job.
 
 📌 So always report **how rare the thing was.** Scorecard B numbers from different patches are not
 comparable, and treating them as such is a common way to pick the wrong model.

@@ -108,8 +108,8 @@ team is still, today, **the best there is.**
 People keep trying to replace it with the big modern approaches. Benchmark after benchmark, the relay
 team wins.
 
-The reason is structural. Battle stats are **jumbled** — Speed, a type, a held item, a win rate, all
-different kinds of thing, some of them useless. And the patterns are **jagged**: *"faster than 100 →
+The reason is structural. Battle stats are **jumbled** — a Speed number, a typing, a Leftovers, a
+win rate, all different kinds of thing, some of them useless. And the patterns are **jagged**: *"faster than 100 →
 completely different strategy"* is a hard cliff, not a smooth slope.
 
 Scouts asking yes/no questions handle cliffs and jumbled inputs naturally. The big modern approaches

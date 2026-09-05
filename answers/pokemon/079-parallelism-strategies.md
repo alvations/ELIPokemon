@@ -10,7 +10,7 @@ tags: [data-parallel, tensor-parallel, pipeline-parallel, 3d-parallelism, megatr
 
 # Four ways to split training across gyms
 
-One gym isn't enough. You have several. **How do you divide the work?**
+One gym isn't enough. You have Brock's, Misty's and Lt. Surge's. **How do you divide the work?**
 
 Four answers, and serious operations use all four at once.
 
@@ -24,8 +24,8 @@ Four answers, and serious operations use all four at once.
               └─► compare notes at the end of the day, average the lessons
 ```
 
-Every gym has a **complete copy** of the team. They just face different opponents and pool what they
-learned each evening.
+Every gym has a **complete copy** of the team — its own Garchomp, its own Ferrothorn. They just face
+different opponents and pool what they learned each evening.
 
 ✅ Dead simple. Scales beautifully.
 ❌ **Requires the whole team to fit in one gym.** The moment it doesn't, this is useless.
@@ -78,7 +78,8 @@ Send them **one after another** rather than one at a time and the idle gaps most
 
 ## 4️⃣ Split the Gym Leader roster 🎫
 
-Only applies if you're running a League of specialists: **put each Gym Leader in their own building**
+Only applies if you're running a League of specialists — Blaine for Fire, Brock for Rock: **put each
+Gym Leader in their own building**
 and route each challenger to whichever two they need.
 
 ✅ The only way to house a really large League.
