@@ -88,7 +88,8 @@ program on your machine, with your keys.
 
 ## Using it safely 🛡️
 
-* 🔒 **Give each ball the least access it needs.** A read-only job gets read-only access.
+* 🔒 **Give each ball the least access it needs.** A ball that only reads the Pokédex should not
+  reach the PC box.
 * ✋ **Confirm anything irreversible yourself.** Don't let a ball release your Pokémon unsupervised.
 * 📌 **Pin versions and read the code** before installing.
 * 🏛️ **Prefer official balls** — Silph Co. stock, not something a stranger handed you on Route 5 —

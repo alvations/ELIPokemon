@@ -57,7 +57,7 @@ It worked, and it was miserable to run:
   is a sphere — and produces only that, forever. Technically undefeated. Useless.
 
 The static approach has **no contest.** One Trainer, one job, a straightforward score. It trains
-stably, it covers the full variety of Pokémon instead of collapsing onto one, and it gets predictably
+stably, it covers Charizard and Blastoise and Venusaur instead of collapsing onto one, and it gets predictably
 better with more resources.
 
 ❌ Its one real cost: **it's slow.** Three hundred rounds of static removal per sprite, versus one shot

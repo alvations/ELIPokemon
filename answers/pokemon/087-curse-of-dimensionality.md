@@ -103,7 +103,7 @@ uniform — and that's the only reason any of this is possible.
   and work in those.
 * 🗺️ **Learn a map instead of using raw measurements.** Build coordinates *designed* so that
   distance means what you need.
-* ✂️ **Use fewer measurements.** Often the honest answer.
+* ✂️ **Use fewer measurements.** Six base stats told you most of it. Often the honest answer.
 * 📐 **Compare direction, not distance.** For very sparse descriptions, *"do these point the same
   way?"* survives much better than *"how far apart are they?"*
 * 📚 **Get more Pokémon.** The only real cure for sparseness, and it gets exponentially more expensive

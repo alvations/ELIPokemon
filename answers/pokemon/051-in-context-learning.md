@@ -43,8 +43,7 @@ So it was **not learning from your examples.** If it were, garbage in would mean
 
 ## What the examples are actually for 🗝️
 
-Your Trainer **already knew how to rate teams.** It watched a million battles. Team rating was in
-there the whole time.
+Your Trainer **already knew how to rate teams.** It watched a million battles at the Battle Tower. Team rating was in there the whole time.
 
 Your three examples aren't teaching. They're **pointing**:
 
@@ -96,5 +95,6 @@ found.
   prompt, try reordering — you'll often find that's the whole story.
 * 📊 **Eight to thirty examples** covers most tasks. Fewer isn't enough shape; more is diminishing
   returns until you reach the hundreds.
-* 🎯 **Pick examples that resemble the current question.** Rating a Sun team? Show Sun examples, not
+* 🎯 **Pick examples that resemble the current question.** Rating a Torkoal Sun team? Show Sun
+  examples, not
   a random three.

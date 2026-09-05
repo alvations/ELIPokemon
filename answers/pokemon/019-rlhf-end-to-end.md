@@ -21,7 +21,7 @@ normal looks like."
 ## Phase 2: Build a judge 👨‍⚖️
 
 You want to keep improving, but you can't have a human coach watching every single practice turn
-forever. Millions of turns. Nobody has that time.
+forever. Millions of turns, every Gym in every region. Nobody has that time.
 
 So instead: run a few thousand turns, and have humans do the one thing humans are actually good
 at — **pick the better of two**.

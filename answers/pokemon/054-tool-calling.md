@@ -76,7 +76,8 @@ when Charizard is at full HP, or isn't even out. Perfectly well-formed. Complete
 
 ## Designing the bag 🎒
 
-* 🎒 **Fewer items, clearly different.** Past twenty, they start grabbing the wrong one. Two items
+* 🎒 **Fewer items, clearly different.** Past twenty, they reach for a Great Ball when you wanted a
+  Full Restore. Two items
   with similar labels is worse than only having one of them.
 * 📋 **Say when NOT to use it**, in the label.
 * 📝 **Give a fixed list of options where you can.** *"Which Pokémon? Pick from: Pikachu, Charizard,

@@ -90,7 +90,8 @@ You'd think "always play your best move" is optimal. It isn't, and the failure i
 > Thunderbolt. Thunderbolt. Thunderbolt. Thunderbolt. Thunderbolt.
 
 Always taking the locally-safest option produces **loops**. Real Champions play slightly
-unexpectedly — not randomly, but not on rails either. Total predictability is its own weakness, and
+unexpectedly — not randomly, but not on rails either. Total predictability is its own weakness — a Trainer who always clicks Earthquake is a Trainer you
+switch Rotom into, and
 it's how you end up watching a Magikarp Splash at a wall for forty turns.
 
 ## 📐 The newer dial: min-p
