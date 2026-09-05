@@ -10,7 +10,7 @@ tags: [ann, hnsw, ivf, pq, vector-database, recall]
 
 # Finding the nearest Pokémon without checking all 100 million
 
-You've got your map. Now: *"find me the Pokémon most similar to this one."*
+You've got your map. Now: *"find me the Pokémon most similar to Gyarados."*
 
 The honest way is to measure the distance to **every single Pokémon on the map**. With a hundred
 million of them, that's a long walk for one question.
@@ -21,7 +21,8 @@ extremely close the rest. For search, that's a fantastic trade.
 
 ## Method 1: Fly Points 🗺️
 
-Build a network of shortcuts, layered like the Fly network in the games.
+Build a network of shortcuts, layered like the Fly network — Pallet Town to Viridian to Pewter,
+or one hop straight to Cinnabar.
 
 ```
   ✈️ TOP LAYER — a few major cities, huge distances
@@ -95,7 +96,7 @@ system works.
 
 | Map size | Method |
 | --- | --- |
-| 🤏 Under 10,000 | **Just check them all.** Honestly. It's fast enough and it's exactly right. |
+| 🤏 Under 10,000 | **Just check them all.** Fewer than the National Dex, twice over. It's fast enough and it's exactly right. |
 | 📗 10k – 10M | ✈️ Fly network |
 | 📚 10M – 1B | 🏞️ Regions + 🗜️ shorthand |
 | 🏛️ Over 1B | Regions + shorthand + split across many buildings |

@@ -24,11 +24,11 @@ The simplest possible way to predict a battle. Just ask questions in order:
    ⚡ Jolteon   🏃 Ninjask      🛡️ Toxapex    🔄 Ferrothorn
 ```
 
-✅ **You can read it.** Print it out, hand it to a rookie, they can follow it. Nothing else here has
+✅ **You can read it.** Print it out, hand it to a kid on Route 1, they can follow it. Nothing else here has
 that property.
 
-❌ **It's wildly unstable.** Retrain on a slightly different set of battles and you get a **completely
-different flowchart** — different root question, different everything.
+❌ **It's wildly unstable.** Retrain on a slightly different set of battles and the root question
+flips from Speed to typing — a **completely different flowchart** — different root question, different everything.
 
 That instability sounds like a fatal flaw. It's actually the foundation of both methods below.
 
@@ -115,5 +115,5 @@ completely different strategy"* is a hard cliff, not a smooth slope.
 Scouts asking yes/no questions handle cliffs and jumbled inputs naturally. The big modern approaches
 are built for smooth, uniform data — images, text — and pay for that assumption here.
 
-📌 **Faced with a spreadsheet, reach for the relay team.** Reaching for a Champion instead usually
-costs you accuracy *and* effort.
+📌 **Faced with a spreadsheet of Speed tiers and win rates, reach for the relay team.** Reaching for
+Cynthia instead usually costs you accuracy *and* effort.

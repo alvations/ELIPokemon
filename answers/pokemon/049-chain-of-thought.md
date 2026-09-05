@@ -22,7 +22,7 @@ Now:
 > 360 effective. My Pikachu's Special Attack is 199, doubled to 398 by its Light Ball. Gyarados
 > has 331 HP and nothing invested in Special Defence... yes, that's a comfortable KO."* ✅
 
-Same Pokémon. Same knowledge. **Vastly better answer.**
+Same Pikachu. Same knowledge. **Vastly better answer.**
 
 ## Why talking out loud actually helps 🧠
 
@@ -96,12 +96,12 @@ safety check.
 * 🔁 **Ask three times, take the majority.** Reliable, costs three times as much.
 * 🪜 **Break it into pieces** and solve in order.
 * 🧮 **Have them write the damage calc as an actual formula and run it.** Strictly better for
-  anything numerical — a calculator cannot make an arithmetic slip, and a Trainer reasoning out loud
+  anything numerical — base power, Speed tiers, Leftovers arithmetic — a calculator cannot make an arithmetic slip, and a Trainer reasoning out loud
   absolutely can.
 
 ## When to skip it ⏭️
 
-* ⚡ **Simple lookups.** *"What type is Pikachu?"* Asking them to deliberate wastes time and
+* ⚡ **Simple lookups.** *"What type is Pikachu?"* Electric. Asking them to deliberate wastes time and
   occasionally **talks them out of a correct instinct.**
 * ⏱️ **When speed matters.**
 * 🧘 **When the Trainer already deliberates on its own.** Modern reasoning Trainers were *trained* to

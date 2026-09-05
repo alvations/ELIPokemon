@@ -50,7 +50,8 @@ to catch them.
 
 It worked, and it was miserable to run:
 
-* ⚖️ Keep the two **exactly** balanced or it collapses. Detective too good → forger gives up.
+* ⚖️ Keep the two **exactly** balanced or it collapses. Detective too good → the forger gives up
+  and only ever draws Voltorb.
   Forger too good → detective learns nothing.
 * 🎯 The forger cheats. It finds **one** Pokémon it can fake convincingly — a Voltorb, because it
   is a sphere — and produces only that, forever. Technically undefeated. Useless.
@@ -73,7 +74,7 @@ for the forger.
   faithful. This one dial is what people mean by prompt strength.
 * ⚡ **Take bigger steps.** Three hundred rounds became fifty, then twenty, then — with some cleverness
   — **one or two.**
-* 📏 **Go in a straight line.** Newer approaches learn to travel **directly** from static to photo
+* 📏 **Go in a straight line.** Newer approaches learn to travel **directly** from static to sprite
   rather than wandering there. Fewer steps, simpler training, and it's what the frontier uses now.
 
 ## vs. the Trainer who writes one word at a time ✍️

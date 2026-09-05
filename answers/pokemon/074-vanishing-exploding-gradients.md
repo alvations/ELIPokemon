@@ -79,7 +79,8 @@ This is the structural fix, and it's why a hundred-Gym League works.
 **3. ⚖️ Keep everything on the same scale** so no Gym is shouting or whispering relative to its
 neighbours.
 
-**4. 🎚️ Set the volume correctly on day one.** Get the initial levels wrong and the message is
+**4. 🎚️ Set the volume correctly on day one.** A Magikarp and an Arceus do not start at the same
+place. Get the initial levels wrong and the message is
 already fading or amplifying **before you've trained anything.** There's a specific right answer for
 each kind of relay, and using the wrong one dooms the run from step zero.
 

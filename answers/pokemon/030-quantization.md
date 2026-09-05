@@ -15,8 +15,8 @@ Your Pokédex records Pikachu's Attack as **55.0000000** and Gyarados's as **125
 Did you need seven decimal places? You did not. **55** would have been fine. Round every entry in
 the book and it becomes a quarter as thick.
 
-Why that matters: the slow part of using a Pokédex isn't the thinking — it's **flipping through
-it**. Every single move, you flip the whole book. Make the book a quarter as thick and you flip
+Why that matters: the slow part of using a Pokédex isn't the thinking — it's **flipping from
+Bulbasaur to Blissey**. Every single move, you flip the whole book. Make the book a quarter as thick and you flip
 four times faster.
 
 Quantization is a speed trick disguised as a storage trick.
@@ -56,7 +56,7 @@ One outlier just destroyed the entire page. This is the whole difficulty.
 
 ## Four ways to handle the Blissey 🛠️
 
-* 🎯 **Give it its own page.** Write the freaks out in full detail and round everyone else
+* 🎯 **Give Blissey its own page.** Write the freaks out in full detail and round everyone else
   aggressively. It's only about 1% of entries, so you keep nearly all the savings.
 * ⚖️ **Spread the weirdness.** If one column has extreme values and its neighbour is tame,
   rebalance between them so neither is extreme. Move the difficulty to where it's cheaper to
@@ -87,7 +87,8 @@ Which one you want depends entirely on whether you're running **one battle** or 
 Round your Pokédex, then check it: *"What type is Charizard?"* Correct. *"What beats Gyarados?"*
 Correct. Everything looks fine. Ship it.
 
-Then in a tournament your Pokémon falls apart on a **six-step endgame calculation**.
+Then in a tournament your Pokémon falls apart on a **six-step endgame** — Leftovers, Stealth Rock,
+burn damage, a Focus Sash and two Speed tiers.
 
 Simple lookups survive rounding beautifully. It's the **long chains** that die — each step
 inherits the last step's rounding error, and by step six you're nowhere near the right answer.

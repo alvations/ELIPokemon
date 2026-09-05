@@ -15,14 +15,14 @@ Your Trainer reads brilliantly. Hand it a **written** Pokédex entry and it's a 
 Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A
 photo of a Gyarados isn't the word "Gyarados".
 
-## Fix 1: translate the photo into words 🔤
+## Fix 1: translate the sprite into words 🔤
 
 Hire a **spotter** who looks at the field and describes what they see — *"orange, wings, flame on
 the tail"* — not in English, but directly
 in the format your Trainer already understands.
 
 ```
-   📸 photo ─► 👁️ SPOTTER ─► 🔤 "tokens" ─┐
+   📸 sprite ─► 👁️ SPOTTER ─► 🔤 "tokens" ─┐
                                            ├─► 🧠 TRAINER (unchanged!)
    📝 text  ─► reading ────► 🔤 tokens ────┘
 ```
@@ -31,7 +31,7 @@ Your Trainer doesn't change at all. It just receives some tokens that happen to 
 photo instead of a page. As far as it's concerned, it's still reading.
 
 ✅ **Simple, cheap, reuses everything you already have.**
-❌ **A photo eats a LOT of space.** One picture might consume as much room as a thousand words — and
+❌ **A sprite eats a LOT of space.** One picture might consume as much room as a thousand words — and
 a few photos fill your Trainer's bag entirely.
 
 ## Fix 2: let the Trainer glance at the photo 👀
@@ -61,7 +61,8 @@ million sprites and captions. Specifically, hire a spotter who was
 **already trained to match photos with descriptions** (that shared map from before). Their
 observations are already halfway into word-shaped territory, which is most of the job done.
 
-**🔤 The translator.** A tiny converter turning the spotter's observations into the Trainer's format.
+**🔤 The translator.** A tiny converter turning *"orange, wings, tail flame"* into something the
+Trainer reads as "Charizard".
 Genuinely tiny — a couple of layers is enough, and fancier translators mostly haven't paid off.
 
 **🎓 Two training stages:**
@@ -90,7 +91,7 @@ The fix is to **chop the sprite into pieces and examine each closely** — the t
 crop, the wings in another. Which works, and multiplies
 your bag problem by the number of pieces.
 
-**📦 Photos are enormous.** Four photos and your Trainer's bag is full, with no room for the actual
+**📦 Sprites are enormous.** Four of them and your Trainer's bag is full, with no room for the actual
 conversation.
 
 **📐 It's bad at spatial questions.** *"Is the Ferrothorn on Toxapex's left or right?"* Counting and precise

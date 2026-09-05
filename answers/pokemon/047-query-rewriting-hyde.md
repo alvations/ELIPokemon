@@ -84,7 +84,7 @@ Now you get real material. Read it, and the specific answer is usually in there.
 
 That's **two** lookups pretending to be one. No single search answers it:
 
-1. *"What type is my rival's ace?"* → Dragon.
+1. *"What type is my rival's ace?"* → Garchomp, so Dragon/Ground.
 2. *"Which of my Pokémon are weak to Dragon?"* → these three.
 
 One search finds neither half. Split it.
