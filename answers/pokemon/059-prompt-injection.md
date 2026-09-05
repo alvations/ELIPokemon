@@ -10,7 +10,7 @@ tags: [prompt-injection, indirect-injection, security, agents, lethal-trifecta]
 
 # Prompt injection: the opposing Trainer shouts orders at YOUR Pokémon
 
-Your Pokémon takes orders **by listening.** That's it. That's the whole system.
+Your Ferrothorn takes orders **by listening.** That's it. That's the whole system.
 
 Which means it cannot tell the difference between:
 
@@ -36,7 +36,7 @@ Both are just... sounds. Arriving. Your Pokémon has no way to check who spoke.
 
 ## Two versions, one much worse 🚨
 
-**🙋 Someone shouting at their own Pokémon.** Annoying. Mostly they can only hurt themselves.
+**🙋 Someone shouting at their own Gyarados.** Annoying. Mostly they can only hurt themselves.
 
 **😈 A note planted where your Pokémon will read it.** This is the dangerous one.
 
@@ -79,7 +79,8 @@ Take away ③ and a planted note can still confuse it — but your secrets stay 
 
 These are structural. They don't depend on your Pokémon being clever.
 
-* 🔒 **Least access.** If the job is reading, don't grant releasing. Most agents are given far more
+* 🔒 **Least access.** If the job is reading the Pokédex, don't hand over the PC box where releasing
+  happens. Most agents are given far more
   authority than their task needs.
 * ✋ **You confirm anything irreversible.** Sending, deleting, releasing, buying. A planted note can
   *request* it; it cannot *do* it.

@@ -10,7 +10,7 @@ tags: [quantization, gptq, awq, int8, fp8, outliers]
 
 # Quantization is rounding off your Pokédex
 
-Your Pokédex records Pikachu's Attack as **55.0000000**.
+Your Pokédex records Pikachu's Attack as **55.0000000** and Gyarados's as **125.0000000**.
 
 Did you need seven decimal places? You did not. **55** would have been fine. Round every entry in
 the book and it becomes a quarter as thick.
@@ -84,7 +84,7 @@ Which one you want depends entirely on whether you're running **one battle** or 
 
 ## The trap 🕳️
 
-Round your Pokédex, then check it: *"What type is Charizard?"* Correct. *"What beats Water?"*
+Round your Pokédex, then check it: *"What type is Charizard?"* Correct. *"What beats Gyarados?"*
 Correct. Everything looks fine. Ship it.
 
 Then in a tournament your Pokémon falls apart on a **six-step endgame calculation**.

@@ -14,7 +14,7 @@ tags: [bias-variance, overfitting, double-descent, generalisation]
 
 Their entire strategy: **"always lead with Onix."**
 
-Rain? Onix. Sun? Onix. Facing a Water team? Onix.
+Rain? Onix. Sun? Onix. Facing Misty's Starmie? Onix, which is 4× weak to it.
 
 They are wrong in the *same way* every single time. Train them on new footage, hire a new coach,
 change leagues — still Onix. Their problem isn't inconsistency. It's that their whole worldview is
@@ -26,8 +26,8 @@ too simple to contain the game.
 
 They remember **everything.**
 
-> *"Last Tuesday, against a Trainer in a red hat, on a Tuesday, my Pikachu won with Quick Attack. So:
-> red hat, Tuesday → Quick Attack."*
+> *"Last Tuesday, against a Trainer in a red hat, my Pikachu won with Quick Attack. So: red hat,
+> Tuesday → Quick Attack."*
 
 They memorised their practice matches **perfectly** — down to the weather and what everyone was
 wearing. And they cannot handle a single new opponent, because no new opponent matches any
@@ -75,7 +75,7 @@ practice and real sets got tangled. Go and look.
 
 ## The one free improvement 🎁
 
-**More footage.**
+**More footage.** More opponents, more regions, more of the Battle Tower.
 
 Everything else is a trade. Simplify the Trainer and you cure superstition but risk one-trick.
 Regularise harder, same deal.

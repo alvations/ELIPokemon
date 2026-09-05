@@ -74,9 +74,10 @@ This is what people actually ship.
 
 ## Choosing what to cut 🎯
 
-* 📏 **Cut the shortest entries.** Crude. Works better than it has any right to.
-* 🔍 **Cut what you never look up.** Much better. A long entry you never consult is worthless; a
-  one-line entry you check every turn is critical. **Measure how often each entry is actually
+* 📏 **Cut the shortest entries.** Crude — it throws out Ditto because its entry is one line.
+  Works better than it has any right to.
+* 🔍 **Cut what you never look up.** Much better. The Arceus entry is long and you have never faced
+  one; the Ferrothorn entry is short and you check it every match. **Measure how often each entry is actually
   read**, not how big it is.
 * 🧮 **Cut carefully, and patch as you go.** Cut an entry, notice what got lost, and **edit the
   neighbouring entries** to cover the gap. Slow, best results.

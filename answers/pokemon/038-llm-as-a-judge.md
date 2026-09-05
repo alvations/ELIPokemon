@@ -43,8 +43,8 @@ style as correct, because to it, it is.
 
 **4. ✨ They're dazzled by presentation.**
 
-Confident calls, clean execution, decisive body language — all score well. Even when the underlying
-decision was wrong.
+A confidently called Earthquake into a Rotom-Wash scores better than a hesitant, correct switch.
+Even when the underlying decision was wrong.
 
 The specific weakness: a Champion referee is **much better at judging style than at catching a
 subtle mistake.** A beautifully-executed blunder beats a scruffy brilliancy nearly every time.
@@ -89,7 +89,8 @@ trusts completely.
   scoreboard cannot be
   charmed; a referee can. Never hire a referee for something you can look up.
 * ☠️ **For anything that really matters** — a ban, a disqualification — without a human reviewing.
-* 🧗 **When the battle is over the referee's head.**
+* 🧗 **When the battle is over the referee's head** — a Trick Room mirror that Cynthia herself would
+  have to think about.
 * 🏋️ **As the thing you train against, unsupervised.** Train hard enough against any referee and
   your Trainer stops learning to battle and starts learning to *impress that referee* — long,
   polished, confident, and progressively worse. It's the same trap as any judge, and it's why

@@ -12,7 +12,8 @@ tags: [diffusion, ddpm, denoising, latent-diffusion, cfg, flow-matching]
 
 ## Learning to undo the damage 📸
 
-Take a clean photo of a Charizard. Now **damage it slightly** — add a bit of static. Then a bit more.
+Take a clean sprite of a Charizard. Now **damage it slightly** — add a bit of static. Then a bit
+more.
 And more. After a few hundred rounds, it's pure static. The Charizard is gone.
 
 ```
@@ -38,8 +39,8 @@ It does. Slightly. What's left is *marginally* less random.
 
 Do it again. And again. Three hundred times.
 
-**A Charizard emerges** — one that never existed, developed out of pure noise by a Trainer whose only
-skill is knowing what static looks like and taking a bit off.
+**A Charizard emerges** — one that never existed, never appeared in any Pokédex, developed out of
+pure noise by a Trainer whose only skill is knowing what static looks like and taking a bit off.
 
 ## Why this replaced the old approach 🥊
 
@@ -86,7 +87,8 @@ for the forger.
 The split isn't arbitrary. **"A slightly damaged photo" is a sensible thing.** A photo with a bit of
 static is still recognisably a photo.
 
-**"A slightly damaged sentence" isn't.** What's halfway between "Pikachu" and "Charizard"? Not a word.
+**"A slightly damaged sentence" isn't.** What's halfway between "Pikachu" and "Charizard"? Not a
+word. Not a Pokémon. Not anything.
 Not anything. Text is made of discrete things with no meaningful in-between, so the whole "gradually
 remove the damage" idea has nothing to stand on.
 

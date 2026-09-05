@@ -12,7 +12,8 @@ tags: [scaling-laws, chinchilla, compute-optimal, kaplan, inference-cost]
 
 You have a fixed budget for the summer. You can spend it two ways:
 
-* 🍬 **Rare Candy** — pure levels. Bigger numbers, right now, and **no EVs whatsoever**.
+* 🍬 **Rare Candy** — pure levels. Bigger numbers, right now, and **no EVs whatsoever**. Vitamins
+  like Protein and Carbos have the same problem: bought stats, no battling behind them.
 * ⚔️ **Actual battles** — slower, but every fight builds EVs as well as levels.
 
 The scaling law question is: *what's the split?*
@@ -90,11 +91,12 @@ That's the difference between betting the season on a hunch and knowing what you
 **Low loss ≠ wins tournaments.** The curve predicts how well your Pokémon predicts. It's much
 vaguer about whether it beats the Elite Four.
 
-**Battle quality matters more than the law says.** 1,000 real Gym battles beat 10,000 fights
-against wild Rattata. Curation shifts the whole curve; the law's *shape* is stable, its
+**Battle quality matters more than the law says.** 1,000 battles against Brock, Misty and Sabrina
+beat 10,000 fights against wild Rattata on Route 1. Curation shifts the whole curve; the law's *shape* is stable, its
 *position* isn't.
 
-**You can run out of opponents.** There are only so many good trainers. (Rematches help — about
+**You can run out of opponents.** There are only so many good Trainers — eight Gym Leaders, an
+Elite Four, a Champion. (Rematches help — about
 four times through the same circuit is nearly as good as fresh opponents. After that, sharply
 diminishing.)
 

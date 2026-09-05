@@ -48,7 +48,7 @@ turn.** Better and unusable.
 
 **📐 Work out how many matches you need — first.**
 
-Chasing a **big** improvement? A few hundred matches will show it.
+Chasing a **big** improvement — Garchomp instead of Magikarp? A few hundred matches will show it.
 Chasing a **1%** improvement? You need **tens of thousands.**
 
 📌 And halving the effect you want to detect **quadruples** the matches needed.
@@ -108,7 +108,8 @@ Trainers meet, it's changing the very thing you're measuring against.
 * 🔀 **Blend both sides into one list.** For ranking Pokémon to catch, show suggestions from both
   Trainers **mixed together** and see which get caught. Far more sensitive — needs a fraction of
   the matches.
-* 👻 **Run it silently.** Let the new Trainer call every turn **without anyone acting on it**, and
+* 👻 **Run it silently.** Let the new Trainer call every turn — *"I'd Thunderbolt here"* — **without
+  anyone acting on it**, and
   compare its calls to the old one's. Zero risk. Catches every speed and crash problem. Tells you
   **nothing** about whether people prefer it.
 * ⏰ **Alternate by time.** Everyone gets the new strategy on odd days, the old one on even days.
