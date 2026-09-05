@@ -69,7 +69,7 @@ find an effect; you found the day the dice favoured you.
 
 **2. ✨ Everything new looks good at first.**
 
-Trainers try harder with a new lead. They actually read the Focus Sash. They're curious.
+Trainers try harder with a new lead. They actually read the Focus Sash and the Leftovers. They're curious.
 
 Two weeks later, the novelty's gone and so is the improvement.
 

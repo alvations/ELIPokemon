@@ -10,10 +10,9 @@ tags: [multimodal, vlm, vision-encoder, projector, cross-attention, llava]
 
 # Teaching your Trainer to look at the field, not just read about it
 
-Your Trainer reads brilliantly. Hand it a **written** Pokédex entry and it's a genius.
+Your Trainer reads brilliantly. Hand it a **written** Pokédex entry for Ferrothorn and it's a genius.
 
-Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A
-photo of a Gyarados isn't the word "Gyarados".
+Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A sprite of a Gyarados isn't the word "Gyarados".
 
 ## Fix 1: translate the sprite into words 🔤
 

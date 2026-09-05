@@ -27,7 +27,7 @@ And more. After a few hundred rounds, it's pure static. The Charizard is gone.
 ```
 
 The training is simple: **damage a photo by a random amount, and have the Trainer identify exactly
-what static was added.** Millions of times, at every damage level.
+what static was added.** Millions of times, at every damage level — Charizard, Blastoise, Venusaur, all of it.
 
 That's it. No adversary, no competition, no clever objective. Just: *"spot the static."*
 
@@ -60,7 +60,7 @@ The static approach has **no contest.** One Trainer, one job, a straightforward 
 stably, it covers the full variety of Pokémon instead of collapsing onto one, and it gets predictably
 better with more resources.
 
-❌ Its one real cost: **it's slow.** Three hundred rounds of static removal per photo, versus one shot
+❌ Its one real cost: **it's slow.** Three hundred rounds of static removal per sprite, versus one shot
 for the forger.
 
 ## Four things that made it practical 🔧

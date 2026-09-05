@@ -11,7 +11,7 @@ tags: [attention, multi-head, subspaces, induction-heads]
 # Multi-head attention, or: the coaching box at Nationals
 
 One head of attention is a Trainer who only knows the type chart — Electric beats Water, done. Good! Better than nothing!
-Also completely exploitable, because a Sturdy Golem or a Focus Sash will ruin their day and
+Also completely exploitable, because a Sturdy Golem or a Focus Sash Gyarados will ruin their day and
 they will never see it coming.
 
 Multi-head attention is the **coaching box**: several specialists watching the same battle at

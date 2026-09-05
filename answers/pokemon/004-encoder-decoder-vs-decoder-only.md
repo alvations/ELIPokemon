@@ -10,7 +10,7 @@ tags: [bert, gpt, t5, architecture, causal-mask]
 
 # Three kinds of Trainer
 
-Same Pokémon, same moves, same stadium. What changes is **what each Trainer is allowed to
+Same Garchomp, same Earthquake, same stadium. What changes is **what each Trainer is allowed to
 look at**, and that single rule decides what job they can hold.
 
 ```
@@ -74,7 +74,7 @@ and takes notes; a **Battler in the front** fights, glancing at those notes ever
 
 That glancing is cross-attention, and it's genuinely the right shape when the input is fixed
 and the output is new: translating a battle log, calling a match into a microphone, condensing
-a six-hour tournament into a highlight reel. The thing you're reading never changes; the thing
+a six-hour Indigo Plateau run into a highlight reel. The thing you're reading never changes; the thing
 you're producing grows.
 
 The cost is that you're paying two salaries and coordinating two people — a Judge and a Battler who

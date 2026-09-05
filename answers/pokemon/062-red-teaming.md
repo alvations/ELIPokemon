@@ -15,8 +15,7 @@ tags: [red-teaming, adversarial-testing, automated-red-teaming, coverage]
 **Red teaming** asks: *"what's the worst thing anyone could do to it?"* — and then hires someone to
 actually do it.
 
-Completely different jobs. The first tells you your average. The second finds the one matchup that
-loses you the tournament.
+Completely different jobs. The first tells you your average. The second finds the one matchup — a Trick Room Bronzong, say — that loses you the tournament.
 
 ## Step 1: who's actually coming for you? 🎯
 
@@ -96,7 +95,7 @@ The right answer, all three:
   item permissions, and the referees at least as often as in the Pokémon itself.
 * 🪜 **Test long conversations.** Real attacks **escalate over twenty turns.** Testing single
   requests misses the entire technique.
-* 🔄 **Rotate your red team.** People develop habits and stop finding new things. Fresh eyes find
+* 🔄 **Rotate your red team.** A Trainer who only ever tries Fire attacks develops habits and stop finding new things. Fresh eyes find
   fresh flaws.
 * 💚 **Look after them.** Spending every day trying to make a Pokémon do awful things takes a real
   toll. Rotation, support and limits aren't optional — and it's a genuine reason to automate
