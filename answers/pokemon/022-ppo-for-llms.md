@@ -83,8 +83,8 @@ nearly free. The clip is what makes re-studying safe.
 The weirdness penalty from the photocopy isn't applied once at the end. It's applied to **every
 single turn**:
 
-> *"That turn scored well. But it was also a genuinely bizarre thing to do, so I'm docking you
-> for that specifically."*
+> *"That turn scored well. But Splashing with a Garchomp is a genuinely bizarre thing to do, so
+> I'm docking you for that specifically."*
 
 Per-turn feedback instead of one number at the end. Much easier to learn from — and it means
 weirdness gets caught the moment it happens rather than being averaged into a final score.

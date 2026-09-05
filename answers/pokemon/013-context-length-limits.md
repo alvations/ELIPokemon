@@ -22,7 +22,8 @@ Double the roster, **quadruple** the scouting. This is the one everybody knows a
 
 ## Wall 2: the notebook 📓
 
-Every Pokémon that has appeared gets an entry, and the notebook is **per battle**. Running forty
+Every Pokémon that has appeared gets an entry — Politoed's Drizzle, Kingdra's Swift Swim — and the
+notebook is **per battle**. Running forty
 battles at once means forty notebooks on the desk. Stretch each battle to 400 turns and suddenly
 you can only run four.
 
@@ -102,5 +103,6 @@ a 20-turn one, and every piece of it is a chance for the Trainer to latch onto t
   the middle is not.
 * **Pull out the relevant turns and hand over just those.** A five-turn briefing usually beats a
   400-turn log. Cheaper, faster, and often more accurate.
-* Test on **your** multi-hop question, not on needle-finding. Needle-finding is a solved score
+* Test on **your** multi-hop question — *"given the Stealth Rock and the burn, does Charizard still
+  win?"* — not on needle-finding. Needle-finding is a solved score
   that tells you nothing about whether the Trainer can actually strategise.

@@ -28,7 +28,7 @@ in the format your Trainer already understands.
 ```
 
 Your Trainer doesn't change at all. It just receives some tokens that happen to have come from a
-photo instead of a page. As far as it's concerned, it's still reading.
+sprite instead of a Pokédex page. As far as it's concerned, it's still reading.
 
 ✅ **Simple, cheap, reuses everything you already have.**
 ❌ **A sprite eats a LOT of space.** One picture might consume as much room as a thousand words — and
@@ -36,7 +36,7 @@ a few photos fill your Trainer's bag entirely.
 
 ## Fix 2: let the Trainer glance at the photo 👀
 
-Instead of converting the photo into words, **give your Trainer the ability to look up.**
+Instead of converting the sprite into words, **give your Trainer the ability to look up.**
 
 Insert a "glance at the field" instinct that lets it check the sprite whenever it needs to, mid-thought,
 without the photo living in its bag at all.

@@ -31,7 +31,8 @@ Your Trainer learned one meaning. It's being shown the other.
 Practice figures were **corrected afterwards** — mistakes fixed, duplicates removed, late results
 added.
 
-Live figures are whatever arrived in the last second, mistakes and all.
+Live figures are whatever arrived in the last second, mistakes and all — a Ferrothorn logged as
+fainted when Sturdy actually held.
 
 Same question, different answers.
 

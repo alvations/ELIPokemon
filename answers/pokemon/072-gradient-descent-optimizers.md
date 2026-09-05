@@ -19,7 +19,8 @@ Lose a match, spot the weakness — Garchomp got outsped — adjust. Repeat.
 
 Two ways to gather evidence:
 
-* 🐌 **Play every opponent in Kanto, then adjust once.** Perfect information. Takes a month per
+* 🐌 **Play every opponent in Kanto — all eight Gyms and the Elite Four — then adjust once.**
+  Perfect information. Takes a month per
   adjustment.
 * 🏃 **Adjust after every single match.** Fast, and wildly noisy — one loss to a lucky Critical Hit
   and you've dumped 252 EVs into Special Defence for no reason.
@@ -96,7 +97,7 @@ routinely explodes in the first few steps.
 
 There's a famous mistake here, and it's the reason the standard method has a corrected version.
 
-Everyone charges their Pokémon **upkeep** to stop any one stat running away. The old approach folded
+Everyone charges their Pokémon **upkeep** to stop Attack running away with all 508 EVs. The old approach folded
 that upkeep into the same feedback channel as everything else.
 
 Which meant: **stats with noisy feedback got charged less upkeep.** Entirely by accident. The

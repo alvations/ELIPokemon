@@ -22,7 +22,8 @@ So: what specifically makes a second Trainer worth it?
 You need someone to read forty scouting reports. Do it yourself and your bag is now stuffed with
 forty reports, and you're trying to battle around them.
 
-Send a scout instead. **They** read all forty, with their own bag. They come back and say:
+Send a Noctowl instead — it has Keen Eye and nothing better to do. **It** reads all forty, with its
+own bag. They come back and say:
 
 > *"They're running Rain. Kingdra is the threat. Bring Ferrothorn."*
 
@@ -32,7 +33,7 @@ setups exist.
 **2. ⚡ Genuinely parallel work.** Five opponents to scout — Politoed, Kingdra, Ferrothorn, Toxapex,
 Tapu Fini — and no scouting depends on any other? Send five scouts. Five times faster.
 
-**3. 🎯 Different jobs, different kit.** A cheap Trainer sorts the easy cases; the expensive one only
+**3. 🎯 Different jobs, different kit.** A Route 1 Trainer sorts the Rattata; the expensive one only
 sees the hard ones.
 
 ## Shapes 📐
@@ -66,8 +67,8 @@ because the scout reported confidently and the lead has no way to check.
 **🗣️ Orders get garbled.** This is the classic. The lead says *"scout their Water team."* The scout
 hears *"scout their team."* Comes back with everything and nothing.
 
-📌 **Fix: be painfully specific.** Not *"look into their team"* but *"identify their Water-type
-Pokémon, their held items, and their likely weather setter. Report as a list. Do not comment on
+📌 **Fix: be painfully specific.** Not *"look into their team"* but *"identify their Water types,
+their held items, and whether the weather setter is Politoed or Pelipper. Report as a list. Do not comment on
 anything else."*
 
 **💰 It's expensive.** Genuinely — a research operation with a lead and several scouts can use

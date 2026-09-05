@@ -17,7 +17,7 @@ The world moved. And there are four different ways it moves, needing four differ
 
 ## 1. 🌊 Different opponents now
 
-Last season: Politoed rain everywhere. This season: everyone runs Garchomp.
+Last season: Politoed rain everywhere. This season: everyone runs Garchomp and Landorus.
 
 Your Trainer still **understands** Garchomp perfectly. It just prepared for a tournament that
 isn't happening.
@@ -43,7 +43,8 @@ recalibrating helps when the meaning itself has flipped.
 
 ## 3. 📊 Same game, different rates
 
-Shiny encounters went from 1-in-4096 to 1-in-500 during a Community Day.
+Shiny encounters went from 1-in-4096 to 1-in-500 during a Community Day — a Masuda-method rate
+without the breeding.
 
 Your Trainer's *judgement* is fine — it still knows a shiny Gyarados when it sees one. Its
 **threshold** is now miscalibrated for how often the thing
