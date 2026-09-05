@@ -31,8 +31,8 @@ narrow approach forever.
 
 ## 🏃‍♂️ Momentum: stop flip-flopping
 
-Here's a real failure. You keep flip-flopping between Attack and Defence — 252 into one, then
-252 into the other, then back:
+Here's a real failure. You keep flip-flopping between Attack and Defence — 252 into one, then 252
+into the other, then back — while the Speed tier that actually loses you games goes untouched:
 
 ```
    😵 WITHOUT MOMENTUM               🏃 WITH MOMENTUM
@@ -70,8 +70,10 @@ rarely.
 **So: scale the adjustment by how often you get feedback.** Speed comes up every single turn;
 Special Defence comes up when something finally clicks an Ice Beam at you.
 
-* 📢 **Constant feedback** → small careful adjustments. You'll get another chance tomorrow.
-* 🤫 **Rare feedback** → make it count. This might be your only data point this month.
+* 📢 **Constant feedback** (Speed decides every turn) → small careful adjustments. You'll get
+  another chance tomorrow.
+* 🤫 **Rare feedback** (Special Defence, which only matters against Ice Beam) → make it count. This
+  might be your only data point this month.
 
 Combine that with momentum and you get the standard method: **remember the trend** *and* **weight
 the adjustment by how noisy that stat's feedback has been.**

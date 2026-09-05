@@ -28,8 +28,8 @@ everything else follows from that.
 
 ## 🌲 Bagging: cure the erratic
 
-Your problem: **wildly inconsistent** scouts. Each one is brilliant on the battles it saw and lost on
-anything new.
+Your problem: **wildly inconsistent** scouts. Each one is brilliant on the Gyarados matches it saw
+and lost on anything new.
 
 Hire a hundred of them, show each a different slice, and **vote.**
 
@@ -88,7 +88,7 @@ The voting committee just shrugs it off as one vote in a hundred.
 
 ## Which to reach for 🎯
 
-* 🎪 **Scouts memorising and falling apart on new battles?** → **Vote.**
+* 🎪 **Scouts memorising Brock's exact lead and falling apart on Misty?** → **Vote.**
 * 🪨 **Scouts too simple to capture what's going on?** → **Chain.**
 * 🗑️ **Footage you don't fully trust?** → **Vote.** Chaining will hunt down every error you left in.
 * 🏆 **Need the best possible number, and have time to tune?** → **Chain.**
@@ -97,7 +97,8 @@ The voting committee just shrugs it off as one vote in a hundred.
 
 ## The third option 🎭
 
-Hire **completely different kinds** of expert — a stats scout, a type specialist, a psychologist —
+Hire **completely different kinds** of expert — a Speed-tier analyst, a type-chart specialist, a
+someone who only watches held items —
 and then hire a **manager** whose only job is knowing which expert to trust when.
 
 Best results there are. And a genuine nuisance to keep running: many experts to maintain, a manager to

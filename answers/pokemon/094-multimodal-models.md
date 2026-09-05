@@ -10,7 +10,7 @@ tags: [multimodal, vlm, vision-encoder, projector, cross-attention, llava]
 
 # Teaching your Trainer to look at the field, not just read about it
 
-Your Trainer reads brilliantly. Hand it a **written** battle report and it's a genius.
+Your Trainer reads brilliantly. Hand it a **written** Pokédex entry and it's a genius.
 
 Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A
 photo of a Gyarados isn't the word "Gyarados".
@@ -55,7 +55,8 @@ together**, so it never distinguishes the two.
 
 The common approach, because it's cheap and it works.
 
-**👁️ The spotter.** Don't train one — hire an existing one. Specifically, hire a spotter who was
+**👁️ The spotter.** Don't train one — hire an existing one, someone who has already looked at a
+million sprites and captions. Specifically, hire a spotter who was
 **already trained to match photos with descriptions** (that shared map from before). Their
 observations are already halfway into word-shaped territory, which is most of the job done.
 
@@ -101,12 +102,13 @@ usually go with, **without ever really looking.** It would say the same for a ph
 
 Confident. Fluent. **Didn't look at the picture.**
 
-**🎬 Video is photos times a thousand.** Every frame is a photo, and a photo is expensive. Picking
+**🎬 Video is photos times a thousand.** A whole battle replay is a photo per frame, and a photo is
+expensive. Picking
 *which* frames to look at is most of the problem.
 
 ## The bigger point 🌍
 
-The same recipe works for anything: **sound, 3D scans, sensor readings.** Hire a spotter for that
+The same recipe works for anything: **Pokémon cries, 3D models, sensor readings.** Hire a spotter for that
 thing, build a small translator, train the bridge.
 
 Your Trainer has become a general-purpose thinker about **anything you can find a spotter for.**

@@ -10,7 +10,7 @@ tags: [calibration, ece, reliability-diagram, temperature-scaling, confidence]
 
 # Calibration: does "I'm 90% sure" mean anything?
 
-Your Trainer calls a KO: *"Thunderbolt takes it. I'm 90% sure."*
+Your Trainer calls a KO: *"Thunderbolt takes that Gyarados. I'm 90% sure."*
 
 **Calibration asks: when they say 90%, are they right 90% of the time?**
 
@@ -26,7 +26,7 @@ That's a completely separate question from whether they're any good. Consider:
 If the number is honest, you can act on it:
 
 * 📈 *"95% sure"* → commit. Go for the KO.
-* 🤔 *"60% sure"* → play it safe. Switch instead.
+* 🤔 *"60% sure"* → play it safe. Switch to Ferrothorn instead.
 * 🆘 *"30% sure"* → don't guess. Ask a human.
 
 If the number is always "99%", you get none of that. Every call looks identical, and you find out
@@ -84,7 +84,7 @@ started with.
 **📊 Watch how firmly they say it.** Cheap. But it muddles "I'm unsure about the answer" with "I'm
 unsure how to phrase this."
 
-**💬 Just ask: "how sure are you?"** More useful, and badly calibrated — they'll say **80% or 90%**
+**💬 Just ask: "how sure are you about that Earthquake?"** More useful, and badly calibrated — they'll say **80% or 90%**
 almost every time. Round numbers, no real gradation.
 
 **🔁 The better method: ask three times and see if they agree.**
@@ -111,7 +111,7 @@ The beautiful part: this changes **nothing about which move they pick.** Their r
 untouched — only the numbers attached to it. Same accuracy, honest numbers. Always try this first.
 
 **📦 Have them name a set instead of an answer.** Rather than *"Thunderbolt, 90%"*, ask for *"the
-moves that could work here"* — and construct it so that the right move is in the set 95% of the
+moves that could work here — Thunderbolt, Volt Switch, Quick Attack"* — and construct it so that the right move is in the set 95% of the
 time. **An actual guarantee**, rather than a number you're hoping is honest. Increasingly the
 preferred approach when the stakes are real.
 

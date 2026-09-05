@@ -13,7 +13,7 @@ tags: [zero, fsdp, sharding, deepspeed, memory-optimisation]
 Eight gyms — Brock's through Giovanni's — all training the same team on different opponents. Every
 gym holds:
 
-* 📋 The team's stats
+* 📋 Garchomp's six stats, Ferrothorn's six, and so on
 * 📝 This week's feedback
 * 📚 **The complete training history** — every trend notebook, every noise estimate, going back to day
   one
@@ -41,7 +41,8 @@ You'd think a big team is mostly, well, the team. It isn't. It's mostly **paperw
 
 ## Level 1: split the history 📚
 
-Gym A keeps the history for Pokémon 1–2. Gym B for 3–4. And so on.
+Brock's Gym keeps the history for Garchomp and Ferrothorn. Misty's keeps Toxapex and Rotom. And
+so on.
 
 At the end of the week each gym updates **only its own** Pokémon and tells the others the results.
 
@@ -108,7 +109,7 @@ exactly the trade you want.
 ## Practical notes 📌
 
 * 🎁 **Turn on level 1 immediately.** Free storage savings, zero cost. There is no argument.
-* 📦 **Split at sensible boundaries** — one Gym's worth at a time. Too fine and you're on the phone
+* 📦 **Split at sensible boundaries** — one Gym's worth at a time, Brock's records with Brock's. Too fine and you're on the phone
   constantly; too coarse and you're back to storing everything.
 * 🤝 **Combine it with filming only checkpoints.** That shrinks your *footage archive*; this shrinks
   your *paperwork*. **Different piles.** Every large operation does both.

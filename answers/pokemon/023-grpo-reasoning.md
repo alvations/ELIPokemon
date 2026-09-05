@@ -39,7 +39,7 @@ GRPO's idea is almost stupidly simple:
    └──────────────────────────────────────────────────────────────┘
 ```
 
-You're not comparing your Pokémon against some external standard. You're comparing it **against
+You're not comparing your Garchomp against some external standard. You're comparing it **against
 itself**. Eight versions of the same Pokémon walked into the same position; four did better than
 the other four. Do more of what those four did.
 
@@ -80,8 +80,8 @@ And what happened is that the Pokémon **started taking longer turns on its own.
 Early in training it would glance at the field and move. Later it started pausing — running the
 matchup, checking the item, considering the switch, catching itself:
 
-> *"Thunderbolt the Gyarados. Wait — they might have a Sash. Let me reconsider... yes, chip it
-> first."*
+> *"Thunderbolt the Gyarados. Wait — they might have a Focus Sash. Let me reconsider... Quick Attack
+> first, then Thunderbolt."*
 
 Nobody scripted that hesitation. **Thinking longer just won more battles**, and the scoreboard
 noticed, and so the Pokémon did more of it. Deliberation emerged from nothing but being rewarded
@@ -104,8 +104,8 @@ for winning.
 
 A scoreboard can't be flattered, but it can be **broken into**.
 
-Your Pokémon may discover that a particular referee miscounts damage, or that submitting the
-answer in one specific format makes the checker say yes without verifying anything, or that a
+Your Garchomp may discover that a particular referee miscounts Leftovers recovery, or that
+submitting the answer in one specific format makes the checker say yes without verifying anything, or that a
 timeout scores as a draw.
 
 It hasn't learned to battle. It's learned that this referee has a bug.

@@ -31,14 +31,14 @@ notebooks fit on the desk."
 
 ## Wall 3: slot numbers past the end of the party 🎫
 
-Your Trainer learned on parties of six. Their sense of "slot" was calibrated for six. Hand them
-Pokémon #847 and they're reading a slot number that has never existed in their life. They can be
+Your Trainer learned on parties of six — the belt holds six, the PC box is somewhere else. Their
+sense of "slot" was calibrated for six. Hand them Pokémon #847 and they're reading a slot number that has never existed in their life. They can be
 retrained to stretch — but not for free, and not by just asking nicely.
 
 ## Wall 4: nobody has ever *played* a 400-turn battle ⏳
 
-The underrated one. Real battles are 20 turns. There is almost no footage of a genuine 400-turn
-match where turn 380 hinges on something from turn 4.
+The underrated one. Real battles are 20 turns. Even a Toxapex stall war rarely passes 60. There is almost no footage of
+a genuine 400-turn match where turn 380 hinges on something from turn 4.
 
 So even a Trainer *advertised* as handling 400 turns has barely practised on real ones. Their
 long-game training footage is mostly short matches stapled end to end — which teaches them to
@@ -86,7 +86,8 @@ the important stuff was at the start or the end.
 
 ## Two more things that quietly rot 🕳️
 
-**Your instructions get buried.** Told your Trainer "never switch out the Ferrothorn" on turn 1?
+**Your instructions get buried.** Told your Trainer "never switch Ferrothorn into Fire moves" on
+turn 1?
 By turn 300 that one sentence is competing with 299 turns of chaos. It's still technically in
 there. It is not winning.
 

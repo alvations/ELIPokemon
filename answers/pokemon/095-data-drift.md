@@ -10,7 +10,8 @@ tags: [drift, monitoring, psi, kl-divergence, retraining]
 
 # Drift: the metagame moved and nobody told your Trainer
 
-Your Trainer was brilliant last season. It's mediocre now. **Nothing changed on your side.**
+Your Trainer was brilliant last season, when Garchomp was everywhere. It's mediocre now. **Nothing
+changed on your side.**
 
 The world moved. And there are four different ways it moves, needing four different responses.
 
@@ -44,7 +45,8 @@ recalibrating helps when the meaning itself has flipped.
 
 Shiny encounters went from 1-in-4096 to 1-in-500 during a Community Day.
 
-Your Trainer's *judgement* is fine. Its **threshold** is now miscalibrated for how often the thing
+Your Trainer's *judgement* is fine — it still knows a shiny Gyarados when it sees one. Its
+**threshold** is now miscalibrated for how often the thing
 actually happens. Adjust the dial, don't retrain.
 
 ## 4. 🔧 Somebody broke the scoreboard
@@ -112,7 +114,8 @@ day one.**
 
 ## When to retrain 🔄
 
-* 📅 **On a schedule.** Simple, predictable, sometimes wasteful. Most teams do this.
+* 📅 **On a schedule** — every time a new Regulation drops. Simple, predictable, sometimes
+  wasteful. Most teams do this.
 * 🏆 **When you start losing.** Correct — and only works if results arrive quickly enough to act on.
 * 🚨 **When drift fires.** Fast, and noisy.
 
