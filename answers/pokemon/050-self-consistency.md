@@ -27,8 +27,8 @@ So make them do it **six more times, from scratch**, and see what they keep sayi
    🗳️  YES: 5    NO: 1     →  it KOs.
 ```
 
-Attempt 3 slipped somewhere. The other five didn't, and they didn't agree because they copied each
-other — they got there by **different routes**.
+Attempt 3 slipped somewhere — forgot the Focus Sash, most likely. The other five didn't, and they
+didn't agree because they copied each other; they got there by **different routes**.
 
 ## Why voting works 🎯
 
@@ -36,8 +36,8 @@ Here's the asymmetry that makes this so effective:
 
 > **There are many roads to the right answer. Wrong answers scatter.**
 
-Six correct calculations land on 341, give or take rounding. Six *mistakes* land on 280, 195, 412,
-88, 341-but-for-the-wrong-reason, and 6.
+Six correct calculations land on 341, give or take a damage roll. Six *mistakes* land on 280, 195,
+412, 88, 341-but-for-the-wrong-reason, and 6 — which is a Splash.
 
 So right answers **pile up** and wrong answers **spread out**. Count the pile.
 
@@ -85,7 +85,7 @@ happily agree. Voting confirms it. **Six times.**
 📌 This fixes *slips*, not *misconceptions*. Random mistakes scatter and get outvoted. A systematic
 misunderstanding shows up identically in all six and gets a landslide.
 
-**🔤 You need answers you can actually compare.** *"342 damage"* votes fine. *"Yes"* / *"No"* votes
+**🔤 You need answers you can actually compare.** *"342 damage"* votes fine. *"Thunderbolt"* votes
 fine. *"Write me a battle strategy"* — six different strategies, no majority, nothing to count.
 (Though for a *plan*, you can vote on whether it wins.)
 

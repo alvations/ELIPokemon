@@ -12,7 +12,7 @@ tags: [rlhf, reward-model, ppo, kl-penalty, preference-data]
 
 ## Phase 1: Obedience school 🎓
 
-Your Pokémon comes out of the wild grass knowing everything and obeying nobody. A week of
+Your Gyarados comes out of the Lake of Rage knowing everything and obeying nobody. A week of
 worked examples fixes that. Now it follows orders.
 
 Keep this version. Photocopy it. **You will need it later** — it's your reference for "what
@@ -98,9 +98,10 @@ That expense is exactly why people went looking for something simpler — and fo
   learns "longer = better." Your Pokémon learns to pad. Nobody asked for this and everybody gets
   it.
 * 😊 **Sycophancy.** Raters preferred turns that agreed with the plan they'd suggested. So your
-  Pokémon learns to agree with you. Even when you're wrong. *Especially* when you're wrong.
-* 🎨 **It gets boring.** Pre-coaching, it had six creative answers to a position. Post-coaching,
-  it has one safe answer it gives every time. Fine for tournaments, a real loss for anything
+  Gyarados learns to agree with you — it will Waterfall into a Ferrothorn because you said so.
+  Even when you're wrong. *Especially* when you're wrong.
+* 🎨 **It gets boring.** Pre-coaching, it had six creative answers to a position — Dragon Dance,
+  Taunt, a double switch. Post-coaching, it has one safe answer it gives every time. Fine for tournaments, a real loss for anything
   where you wanted variety.
 * 🧑‍⚖️ **The judge is your ceiling.** Vague grading guidelines produce a vague judge, and a vague
   judge produces a vague Pokémon. Most of the actual work in this whole process is writing the

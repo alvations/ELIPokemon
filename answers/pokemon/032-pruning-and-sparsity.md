@@ -10,8 +10,8 @@ tags: [pruning, sparsity, lottery-ticket, structured, wanda, sparsegpt]
 
 # Pruning: cutting entries out of the Pokédex
 
-Your Pokédex has entries you never read. Cut them out and the book gets thinner and faster to
-flip. Simple idea.
+Your Pokédex has entries you never read. You are never going to look up Unown's form variants
+mid-battle. Cut them out and the book gets thinner and faster to flip. Simple idea.
 
 The catch — and it's the whole question — is **how you cut**.
 
@@ -98,7 +98,7 @@ Honestly? **Pruning lost.**
 no exotic printing, and works everywhere. Cutting entries gives you either no speedup (snipping) or
 real knowledge loss (tearing pages).
 
-The one place the *idea* genuinely won is the **Gym Leader roster** — keep a library's worth of
-knowledge, but only ever open the two volumes you need for this challenger. That's sparsity done
+The one place the *idea* genuinely won is the **Gym Leader roster** — keep Brock, Misty and sixty
+others on the payroll, but only ever open the two volumes you need for this challenger. That's sparsity done
 right: you're not deleting knowledge, you're just not *consulting* most of it. Chosen fresh every
 time, instead of decided once with scissors.

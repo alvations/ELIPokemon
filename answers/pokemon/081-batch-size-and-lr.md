@@ -19,7 +19,8 @@ watch before deciding?**
       🎲 Wildly noisy. You're chasing dice rolls.
 
    💯 A HUNDRED MATCHES, then adjust
-      Now you can see the real pattern.
+      Now you can see the real pattern: Garchomp is losing the Speed
+      tier to Jolteon, not to bad luck.
       🎯 Trustworthy — but you only adjust once per hundred matches.
 ```
 
@@ -89,7 +90,8 @@ your gym.
 
 ## Three gotchas 🚨
 
-**➗ Divide by ten.** You summed ten sessions of lessons — so **average them**, don't just add. Forget
+**➗ Divide by ten.** You summed ten sessions of lessons — so **average them**, don't just add.
+Otherwise you dump 2,520 EVs into Speed, which is five times the legal cap. Forget
 this and you're adjusting **ten times harder than intended**, and the run explodes.
 
 The single most common bug in this entire technique.
@@ -102,13 +104,14 @@ hundred — the rooms were different.
 
 Scaling each Pokémon against **its own stats** is unaffected. One more reason modern setups use it.
 
-**📞 Don't phone the other gyms after every session.** You're accumulating — the intermediate tallies
-are meaningless. **Talk once, at the end.** Skip this and you're paying ten times the phone bill for
+**📞 Don't phone Brock and Misty after every session.** You're accumulating — the intermediate
+tallies are meaningless. **Talk once, at the end.** Skip this and you're paying ten times the phone bill for
 nine conversations about nothing.
 
 ## One last thing 🎲
 
 Watching more matches isn't automatically better for the *final* result.
 
-A bit of noise keeps your Pokémon from over-committing to any single pattern. So the biggest batch
+A bit of noise keeps your Garchomp from over-committing to any single pattern — from concluding
+that every opponent runs Ice Beam because two of them did. So the biggest batch
 that fits in your gym isn't necessarily the batch you want — it's just the fastest one.

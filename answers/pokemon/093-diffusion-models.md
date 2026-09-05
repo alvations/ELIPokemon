@@ -50,8 +50,8 @@ It worked, and it was miserable to run:
 
 * ⚖️ Keep the two **exactly** balanced or it collapses. Detective too good → forger gives up.
   Forger too good → detective learns nothing.
-* 🎯 The forger cheats. It finds **one** Pokémon it can fake convincingly and produces only that,
-  forever. Technically undefeated. Useless.
+* 🎯 The forger cheats. It finds **one** Pokémon it can fake convincingly — a Voltorb, because it
+  is a sphere — and produces only that, forever. Technically undefeated. Useless.
 
 The static approach has **no contest.** One Trainer, one job, a straightforward score. It trains
 stably, it covers the full variety of Pokémon instead of collapsing onto one, and it gets predictably

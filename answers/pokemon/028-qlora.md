@@ -38,7 +38,8 @@ actually learning, so it stays in full detail. Perfect division of labour.
 
 ## The clever part of the shorthand 📝
 
-You could write every stat with the same coarse rounding. That's wasteful, and here's why.
+You could write every stat with the same coarse rounding — the same marks for Blissey's 255 HP and
+Caterpie's 45. That's wasteful, and here's why.
 
 Pokémon stats aren't spread evenly. **Almost everything clusters between 40 and 90**, with a
 handful of freaks at the edges — Blissey's 255 HP, Shuckle's 230 Defence, Magikarp's 10 Attack:
@@ -81,19 +82,20 @@ a moment. But the run *finishes*, and that's the entire point.
 
 ## What it costs 💸
 
-**⏱️ Slower.** Every time the Champion acts, you unpack a stat from shorthand. That's real
+**⏱️ Slower.** Every time the Garchomp acts, you unpack a stat from shorthand. That's real
 overhead — call it 20-40%.
 
 But hold on: the alternative isn't "the same thing, faster." The alternative is **it doesn't fit
 in your gym at all.** A slower run beats no run.
 
 **📉 The starting point is slightly worse.** Compression loses a little. Straight out of the box,
-the compressed Champion is a touch duller than the original.
+the compressed Garchomp is a touch duller than the original — a Speed tier it used to win by one
+point, it now loses.
 
 The interesting part: after training, the finished result is **just as good**. The item learns to
 compensate for the rounding. Worse starting point, same finish line.
 
-**🔗 Fusing is awkward.** You can't cleanly fuse a full-detail item into a compressed Champion —
+**🔗 Fusing is awkward.** You can't cleanly fuse a full-detail Leftovers into a compressed Garchomp —
 you'd have to re-compress, and lose the item's precision doing it. So people usually just keep the
 item held, or fuse it into an uncompressed copy.
 

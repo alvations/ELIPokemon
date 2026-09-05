@@ -42,22 +42,22 @@ standing alone in a field.
 ## Where batch norm hurts 😖
 
 **🧍 You show up alone.** *"Your Garchomp's Attack is above average for today's tournament"* — and
-you're the only entrant. Above average compared to whom? It's meaningless, and this is exactly the situation
+you're the only entrant. Above average against whom, Magikarp? Above average compared to whom? It's meaningless, and this is exactly the situation
 during a real one-on-one battle.
 
 **📏 Your team sheets are different lengths.** Some Trainers brought six Pokémon, some brought two,
 and the empty slots are being averaged into "today's average Attack." A Blissey and three blanks
 is not a team; the statistics say otherwise.
 
-**🔀 Practice and tournament work differently.** During training you compare against whoever's in the
-room. On tournament day there's no room, so you fall back on **"the average across everyone I saw
+**🔀 Practice and tournament work differently.** During training your Garchomp is scaled against
+whoever's in the room — a Blissey one day, a Shuckle the next. On tournament day there's no room, so you fall back on **"the average across everyone I saw
 during training."**
 
 Two different rules, and the second is an approximation of the first. Forget to switch modes and
 your ratings are quietly wrong — with **no error, no warning**, just worse performance.
 
-**🌍 Everyone must agree on the average.** Run your tournament across five stadiums and every stadium
-needs to phone the others to compute today's average Attack. Every stat. Every round.
+**🌍 Everyone must agree on the average.** Run your tournament across Kanto, Johto and Hoenn and
+every stadium needs to phone the others to compute today's average Attack. Every stat. Every round.
 
 ## Where layer norm just works ✅
 
@@ -88,6 +88,8 @@ that jiggling acts as **free anti-memorisation**, which layer norm doesn't provi
   together, the two defensive ones together — rather than all six or all entrants.
   Room-independent, used where the crowd is too small to be a reliable reference.
 * ✂️ **RMS norm** — layer norm with the paperwork trimmed. The current default.
+* 🎯 **QK norm** — scale only the part where Pokémon size each other up, which stops a Garchomp's
+  Attack from dominating the read before the turn even starts.
 * 🎯 **QK norm** — apply it specifically to how Pokémon size each other up, which stabilises very
   large teams.
 
