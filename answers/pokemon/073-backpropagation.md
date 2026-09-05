@@ -10,14 +10,14 @@ tags: [backprop, chain-rule, autodiff, computational-graph, reverse-mode]
 
 # Backprop: tracing the loss back through the whole team
 
-You lost the Championship. **Whose fault was it?**
+You lost at the Indigo Plateau. **Whose fault was it?**
 
 Not a rhetorical question. You need an answer for **every single Pokémon, every move, every decision
 you made all season** — and you need it before next week.
 
 ## The stupid way 🐌
 
-Change one thing. Replay the entire season. See if you'd have won.
+Change one thing — 4 EVs into Garchomp's Speed. Replay the entire season. See if you'd have won.
 
 Then change the next thing. Replay the entire season again.
 
@@ -91,7 +91,8 @@ the actual record. Blame reaches that point and stops. Everything before it gets
 The symptom: **a Pokémon that never improves, no matter how much you train.** It isn't stubborn — no
 feedback is reaching it.
 
-**🎲 Some things you can't trace back.** *"I chose to switch"* is a decision, not a dial. There's no
+**🎲 Some things you can't trace back.** *"I switched Garchomp out for Ferrothorn"* is a decision,
+not a dial. There's no
 "how much" to adjust — you either switched or you didn't. Choices like that break the chain, and you
 need a different technique entirely (which is exactly why coaching-by-outcome exists — it's for the
 decisions blame can't flow through).

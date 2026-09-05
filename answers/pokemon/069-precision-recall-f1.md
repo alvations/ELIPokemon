@@ -10,7 +10,7 @@ tags: [precision, recall, f1, confusion-matrix, threshold]
 
 # Precision and recall: catching Pokémon in tall grass
 
-You're hunting a **Shiny Charizard**. Your detector says "shiny!" and you throw a ball.
+You're hunting a **shiny Charizard**. Your detector says "shiny!" and you throw an Ultra Ball.
 
 Four things can happen:
 
@@ -61,12 +61,12 @@ gives you the whole range. Which end you want depends entirely on what a mistake
 
 **🎯 Precision, when a false alarm is expensive.**
 
-*Auto-releasing Pokémon you flag as duplicates.* Wrongly release someone's Charizard and you've
-destroyed it. Be **certain** before acting. Missing a few duplicates is fine.
+*Auto-releasing Pokémon you flag as duplicates.* Wrongly release someone's shiny Charizard and it
+is gone from the PC box forever. Be **certain** before acting. Missing a few duplicates is fine.
 
 **🔍 Recall, when a miss is a disaster.**
 
-*Scanning for a Pokémon that will flee permanently.* You get one chance. Throw a hundred wasted
+*Scanning for a roaming Latias that will flee the moment you engage.* You get one chance. Throw a hundred wasted
 balls if it means catching the one that mattered — the ball is cheap and the miss is forever.
 
 **⚖️ Both, when you need one number to compare two detectors.**

@@ -38,8 +38,8 @@ Same budget. **Precise but narrow**, or **rough but unlimited**.
 
 ## Why precise-but-narrow is a nightmare 😱
 
-Training feedback comes in a **wild** range of magnitudes. Some corrections are enormous. Some are
-0.0000003.
+Training feedback comes in a **wild** range of magnitudes. Some corrections are Blissey-sized. Some
+are 0.0000003.
 
 The tiny ones fall **below the narrow format's floor** — and get recorded as **zero.**
 
@@ -94,7 +94,8 @@ completely normal.
 
 Keep the official records **precise**. Do the fast rough work on a copy.
 
-**📊 The trend notebooks.** Same reason — they accumulate tiny amounts over thousands of weeks.
+**📊 The trend notebooks.** Same reason — they accumulate tiny amounts over thousands of weeks, the
+way Leftovers gets there a sixteenth at a time.
 
 **➕ Anything that adds up a lot of numbers.** Add ten thousand rough numbers and the errors compound.
 Add them precisely, *then* round the result.
@@ -104,7 +105,7 @@ Add them precisely, *then* round the result.
 ```
    ⚡ ROUGH — the heavy lifting        📐 PRECISE — the bookkeeping
    ──────────────────────             ────────────────────────────
-   Comparing Gyarados to Golem        The official stat records
+   Comparing Gyarados to Golem        Garchomp's official stat sheet
    Working out matchups               The trend notebooks
    Passing feedback around            Running totals
                                       Final scores

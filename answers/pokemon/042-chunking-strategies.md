@@ -10,7 +10,8 @@ tags: [chunking, rag, semantic-chunking, late-chunking, context-window]
 
 # Chunking: how do you cut up the scouting reports?
 
-You've got a stack of scouting reports and you want to look things up fast. So you cut them into
+You've got a stack of scouting reports — Politoed, Kingdra, Ferrothorn, Toxapex — and you want to
+look things up fast. So you cut them into
 cards and file them.
 
 **How big do you cut the cards?** This sounds like a trivial question. It is the single most
@@ -89,6 +90,7 @@ strategies.
 A half-day of that routinely beats weeks of fiddling with everything downstream, because **no
 amount of clever searching finds an answer you cut in half.**
 
-**And clean the reports first.** 🧹 If every page has the same letterhead, page number, and footer,
+**And clean the reports first.** 🧹 If every page has the same Silph Co. letterhead, page number and
+footer,
 then every single card contains that boilerplate — and now every search matches every card,
 because they all share the same junk. Strip it before you cut.

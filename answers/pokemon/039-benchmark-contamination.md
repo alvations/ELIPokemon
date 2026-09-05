@@ -10,12 +10,12 @@ tags: [contamination, data-leakage, canary, livebench, memorisation]
 
 # Contamination: your Trainer studied the actual exam
 
-Your Trainer sweeps the Gym Circuit. Eight badges, no losses. Brilliant!
+Your Trainer sweeps the Gym Circuit. Eight badges — Boulder to Earth — no losses. Brilliant!
 
 Then you check the training footage and find that **every one of those eight Gym battles was on
 the tape.** Same Leaders, same rosters, same opening moves.
 
-They didn't out-think Brock. They **watched this exact battle four hundred times**.
+They didn't out-think Brock. They **watched his Geodude-into-Onix four hundred times**.
 
 And the problem isn't that the score is a bit inflated. It's that you no longer know anything at
 all about whether they can handle a Gym Leader they *haven't* seen — which was the only thing you
@@ -48,7 +48,8 @@ Of course it's on the tape. Where else would it be?
 **If you can inspect the tapes:**
 
 * 🔎 **Search for the exact battle.** Does this footage appear? Straightforward.
-* 🐦 **Plant a canary.** Hide a nonsense code word in your exam papers — `XQ7-FLAREON-9982`. If your
+* 🐦 **Plant a canary.** Hide a nonsense code word in your exam papers — a Pokémon that does not
+  exist, say — `XQ7-FLAREON-9982`. If your
   Trainer can *recite it back*, they've read the papers. Cheap, and every exam should do it.
 
 **If you can't inspect the tapes** — which is the usual situation:
@@ -68,8 +69,8 @@ Brock. A Trainer who genuinely
 * 🆕 **Write new battles.** Fresh matchups, published after the training cutoff. Nothing beats it.
 * 🔒 **Keep a private set** that never touches the internet.
 * 🔄 **Rotate the questions** so no fixed paper exists to memorise.
-* ✏️ **Change the surface details.** Same battle, but rename the Pokémon, change the HP numbers,
-  swap the arena. Understanding survives this untouched. **Memorisation doesn't.**
+* ✏️ **Change the surface details.** Same battle, but swap Onix for Steelix, change the HP numbers,
+  move it from Pewter City to Sootopolis. Understanding survives this untouched. **Memorisation doesn't.**
 
 That last trick produced the most damning evidence in the field: someone rebuilt a famous exam
 from scratch — same difficulty, same style, entirely new problems — and some Trainers dropped

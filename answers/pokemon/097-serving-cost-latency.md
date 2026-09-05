@@ -77,7 +77,7 @@ turns. Loose pages, handed out as needed.
 **but only when the Gym is quiet.** During a packed tournament it makes things *worse*, because
 there's no idle capacity to spend.
 
-**8. 🎓 Train your own specialist.** Have your Champion play ten thousand of *your* matches, then
+**8. 🎓 Train your own specialist.** Have Cynthia play ten thousand of *your* matches, then
 train a small cheap Trainer to copy it. **Ten times cheaper on your specific job.** Highest return of
 anything here, and it takes real effort.
 
@@ -87,7 +87,8 @@ Answer it once, keep the answer.
 ⚠️ **Dangerous** for anything personal or time-sensitive. *"How's MY team doing?"* must never come out
 of a shared cache.
 
-**10. 📺 Show the moves as they happen.** Doesn't make anything faster. **Transforms how fast it
+**10. 📺 Show the moves as they happen** — *"Garchomp used Earthquake!"* as it lands. Doesn't make
+anything faster. **Transforms how fast it
 feels** — a Trainer who starts moving immediately feels quick even in a long match. Cheap. Should be
 your default.
 

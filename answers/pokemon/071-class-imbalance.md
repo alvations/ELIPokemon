@@ -42,7 +42,8 @@ Your detector probably **ranks** perfectly well. It says "3% chance shiny" for t
 
 The bug is that you're only flagging things above **50%**. Nothing ever gets there.
 
-**Drop the threshold to 2%.** Costs nothing, takes one minute, no retraining, and it frequently
+**Drop the threshold to 2%.** Costs nothing, takes one minute, no retraining — you throw a few more
+Ultra Balls and catch the Gyarados, and it frequently
 solves the entire problem.
 
 📌 People rebuild their whole pipeline to fix something a threshold change would have handled.
@@ -76,7 +77,7 @@ detector the stakes.
 on Rattata. Force the training onto the cases it's still getting wrong.
 
 **6. 🔀 Ask a different question.** If shinies are *so* rare, stop asking "is this shiny?" and start
-asking **"is this Pokémon unusual in any way?"** Learn what normal looks like and flag anything that
+asking **"is anything about this Magikarp unusual?"** Learn what normal looks like and flag anything that
 isn't. Different problem, often a much better fit.
 
 **7. 🔍 Go and find more shinies.** Least glamorous, usually highest impact. Go and stand at the

@@ -17,8 +17,8 @@ already a monster.
 Say "Thunderbolt" and it ignores you completely. It knows the move. It knows Gyarados is
 Water/Flying and takes four times damage. It simply does not know that *you* are relevant.
 
-Not out of defiance. It has genuinely never encountered the concept that *a human making noises*
-is a thing that should change what it does. In the grass, sounds happen. You respond to the ones
+Not out of defiance. A wild Gyarados at the Lake of Rage has genuinely never encountered the
+concept that *a human making noises* is a thing that should change what it does. In the grass, sounds happen. You respond to the ones
 that are threats. That's it.
 
 ## What the week actually teaches 🎓
