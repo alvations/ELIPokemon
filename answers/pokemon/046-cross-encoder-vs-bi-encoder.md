@@ -16,7 +16,7 @@ the question.**
 ## 🗂️ The filing clerk — files first, asks later
 
 Reads every report **months in advance** and writes each one a single index card — *"Ferrothorn:
-Grass/Steel, defensive"* — then files them.
+Grass/Steel, Leftovers, defensive"* — then files them.
 
 When your question arrives, they compare your question to the cards. Ten million cards in about a
 millisecond.
@@ -27,7 +27,8 @@ question about any of them, weakly.
 
 ## 📋 The coach — reads them together
 
-Puts your question and one report side by side and reads both, properly.
+Puts your question and one report side by side and reads both, properly — the way you would compare
+a Toxapex spread against the Garchomp you plan to send in.
 
 They can spot things no index card could ever capture: that the report *mentions* Gyarados but
 only to say Ferrothorn walls it, which is not the same as countering it. That it says "**not**
@@ -58,7 +59,8 @@ possible at all — and the price of filing in advance is not knowing the questi
 
 There's a third approach that splits the difference nicely.
 
-Instead of one index card per report, write **one card per line** of the report. Still filed in
+Instead of one index card per report, write **one card per line** — one for the typing, one for the
+item, one for the ability. Still filed in
 advance — still searchable.
 
 Now when your question comes in, each *word* of your question goes hunting for its best matching

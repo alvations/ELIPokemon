@@ -12,11 +12,11 @@ tags: [react, agents, tool-use, agent-loop, planning]
 
 Two bad ways to battle.
 
-**🤔 The Overthinker.** Plans the entire forty-turn match before sending anything out. Beautiful
+**🤔 The Overthinker.** Plans the entire forty-turn match before sending Garchomp out. Beautiful
 plan. Turn 2, the opponent does something unexpected, and the plan is worthless — but they're still
 following it, because it's the plan.
 
-**⚡ The Button Masher.** No plan at all. Sees a Pokémon, attacks it. Sees another, attacks that. No
+**⚡ The Button Masher.** No plan at all. Sees a Gyarados, clicks Thunderbolt. Sees another, attacks that. No
 idea what they're building toward, and no idea why anything is happening.
 
 **ReAct is the actual answer: think one turn ahead, act, LOOK AT WHAT HAPPENED, think again.**
@@ -57,12 +57,13 @@ The loop itself is trivial. Everything hard is in the other four.
 The classic. Your Trainer switches Pikachu in. Then out. Then in. Then out. Each switch is
 individually defensible. Forty turns later they're still doing it and the clock has run out.
 
-📌 **Always set a hard limit.** A maximum turn count, a maximum time, a maximum cost. And watch for
+📌 **Always set a hard limit.** A maximum turn count, a maximum time, a maximum cost — the battle
+timer exists for a reason. And watch for
 the same action twice in a row — that's your loop alarm.
 
 **2. 💥 Something fails and it panics.**
 
-The Potion doesn't work. The switch is blocked. The move misses.
+The Super Potion doesn't work. The switch is blocked by Shadow Tag. Stone Edge misses.
 
 **Tell the Trainer what happened** — *"that failed, here's why"* — and let them adapt. Don't crash
 the battle. But **cap the retries**, because a Trainer will cheerfully attempt an impossible move

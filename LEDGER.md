@@ -15,34 +15,28 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**100 answers · mean 49.6 · median 47.4 · min 31.6 (094) · max 88.8 (006)**
+**101 answers · mean 50.9 · median 47.8 · min 31.5 (094) · max 100.0 (101)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 1 |
+| excellent | 80-100 | 2 |
 | strong | 65-79 | 9 |
-| adequate | 50-64 | 31 |
-| thin | 35-49 | 57 |
-| generic | 0-34 | 2 |
+| adequate | 50-64 | 35 |
+| thin | 35-49 | 54 |
+| generic | 0-34 | 1 |
 
 ## Every answer, lowest first
 
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| **31.6** | generic | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 5 | 7 | 30 | 0.9 |
-| **34.2** | generic | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 5 | 9 | 37 | 1.1 |
-| **36.5** | thin | [`060`](answers/pokemon/060-jailbreaks.md) | jailbreaks | 6 | 9 | 35 | 1.1 |
-| **36.7** | thin | [`048`](answers/pokemon/048-evaluating-rag.md) | evaluating-rag | 5 | 8 | 25 | 1.1 |
-| **36.8** | thin | [`040`](answers/pokemon/040-hallucination.md) | hallucination | 3 | 10 | 23 | 1.3 |
-| **37.1** | thin | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 8 | 8 | 57 | 1.1 |
-| **37.2** | thin | [`046`](answers/pokemon/046-cross-encoder-vs-bi-encoder.md) | cross-encoder-vs-bi-encoder | 4 | 7 | 17 | 1.2 |
+| **31.5** | generic | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 5 | 7 | 30 | 0.9 |
 | **37.2** | thin | [`093`](answers/pokemon/093-diffusion-models.md) | diffusion-models | 3 | 8 | 15 | 1.1 |
-| **37.3** | thin | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 7 | 8 | 40 | 1.1 |
 | **37.6** | thin | [`039`](answers/pokemon/039-benchmark-contamination.md) | benchmark-contamination | 5 | 10 | 40 | 1.5 |
 | **37.6** | thin | [`077`](answers/pokemon/077-mixed-precision-training.md) | mixed-precision-training | 4 | 5 | 9 | 0.8 |
 | **38.5** | thin | [`025`](answers/pokemon/025-instruction-tuning.md) | instruction-tuning | 6 | 10 | 43 | 1.4 |
 | **38.6** | thin | [`097`](answers/pokemon/097-serving-cost-latency.md) | serving-cost-latency | 8 | 8 | 49 | 1.1 |
 | **38.8** | thin | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 3 | 8 | 7 | 1.3 |
+| **38.9** | thin | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 8 | 9 | 56 | 1.2 |
 | **38.9** | thin | [`073`](answers/pokemon/073-backpropagation.md) | backpropagation | 4 | 7 | 12 | 1.0 |
 | **39.0** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 3 | 8 | 4 | 1.3 |
 | **39.0** | thin | [`088`](answers/pokemon/088-trees-forests-boosting.md) | trees-forests-boosting | 7 | 8 | 31 | 1.0 |
@@ -55,6 +49,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **40.3** | thin | [`022`](answers/pokemon/022-ppo-for-llms.md) | ppo-for-llms | 6 | 12 | 48 | 1.5 |
 | **40.7** | thin | [`044`](answers/pokemon/044-vector-databases-ann.md) | vector-databases-ann | 4 | 9 | 12 | 1.2 |
 | **40.7** | thin | [`056`](answers/pokemon/056-multi-agent-systems.md) | multi-agent-systems | 7 | 9 | 37 | 1.3 |
+| **40.8** | thin | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 6 | 11 | 37 | 1.4 |
 | **40.8** | thin | [`098`](answers/pokemon/098-training-serving-skew.md) | training-serving-skew | 6 | 8 | 24 | 1.2 |
 | **40.9** | thin | [`003`](answers/pokemon/003-multi-head-attention.md) | multi-head-attention | 6 | 10 | 42 | 1.6 |
 | **40.9** | thin | [`095`](answers/pokemon/095-data-drift.md) | data-drift | 6 | 9 | 27 | 1.3 |
@@ -65,6 +60,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
 | **42.3** | thin | [`024`](answers/pokemon/024-constitutional-ai-rlaif.md) | constitutional-ai-rlaif | 8 | 9 | 37 | 1.2 |
 | **42.8** | thin | [`058`](answers/pokemon/058-reasoning-models.md) | reasoning-models | 6 | 12 | 38 | 1.5 |
+| **43.2** | thin | [`048`](answers/pokemon/048-evaluating-rag.md) | evaluating-rag | 5 | 11 | 26 | 1.5 |
 | **43.2** | thin | [`050`](answers/pokemon/050-self-consistency.md) | self-consistency | 5 | 8 | 14 | 1.2 |
 | **43.4** | thin | [`038`](answers/pokemon/038-llm-as-a-judge.md) | llm-as-a-judge | 7 | 11 | 47 | 1.6 |
 | **43.4** | thin | [`083`](answers/pokemon/083-softmax-and-logsumexp.md) | softmax-and-logsumexp | 4 | 9 | 13 | 1.5 |
@@ -95,15 +91,19 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **51.5** | adequate | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 7 | 12 | 21 | 1.5 |
 | **51.7** | adequate | [`011`](answers/pokemon/011-mixture-of-experts.md) | mixture-of-experts | 7 | 13 | 31 | 1.9 |
 | **52.0** | adequate | [`081`](answers/pokemon/081-batch-size-and-lr.md) | batch-size-and-lr | 8 | 13 | 35 | 1.8 |
+| **52.1** | adequate | [`046`](answers/pokemon/046-cross-encoder-vs-bi-encoder.md) | cross-encoder-vs-bi-encoder | 7 | 10 | 17 | 1.6 |
 | **52.2** | adequate | [`068`](answers/pokemon/068-cross-validation.md) | cross-validation | 7 | 11 | 23 | 1.8 |
 | **52.3** | adequate | [`091`](answers/pokemon/091-self-supervised-learning.md) | self-supervised-learning | 8 | 12 | 31 | 1.8 |
+| **52.5** | adequate | [`060`](answers/pokemon/060-jailbreaks.md) | jailbreaks | 9 | 13 | 34 | 1.5 |
 | **53.2** | adequate | [`007`](answers/pokemon/007-transformer-feed-forward-block.md) | transformer-feed-forward-block | 7 | 10 | 16 | 1.7 |
 | **53.4** | adequate | [`092`](answers/pokemon/092-contrastive-learning.md) | contrastive-learning | 4 | 18 | 20 | 2.6 |
 | **53.6** | adequate | [`052`](answers/pokemon/052-context-engineering.md) | context-engineering | 8 | 11 | 23 | 1.6 |
 | **53.6** | adequate | [`057`](answers/pokemon/057-test-time-compute.md) | test-time-compute | 10 | 12 | 41 | 1.7 |
 | **53.9** | adequate | [`023`](answers/pokemon/023-grpo-reasoning.md) | grpo-reasoning | 7 | 15 | 35 | 2.1 |
+| **54.4** | adequate | [`040`](answers/pokemon/040-hallucination.md) | hallucination | 7 | 14 | 23 | 1.9 |
 | **54.8** | adequate | [`063`](answers/pokemon/063-model-calibration.md) | model-calibration | 7 | 13 | 17 | 1.9 |
 | **55.5** | adequate | [`079`](answers/pokemon/079-parallelism-strategies.md) | parallelism-strategies | 8 | 15 | 58 | 2.6 |
+| **55.6** | adequate | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 10 | 13 | 39 | 1.7 |
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |
 | **57.4** | adequate | [`082`](answers/pokemon/082-activation-functions.md) | activation-functions | 8 | 12 | 10 | 1.9 |
 | **57.9** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 32 | 1.8 |
@@ -129,6 +129,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **75.9** | strong | [`037`](answers/pokemon/037-evaluating-llms.md) | evaluating-llms | 14 | 16 | 34 | 2.4 |
 | **78.4** | strong | [`085`](answers/pokemon/085-label-smoothing.md) | label-smoothing | 9 | 28 | 15 | 5.1 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
+| **100.0** | excellent | [`101`](answers/pokemon/101-cross-lingual-transfer.md) | cross-lingual-transfer | 23 | 46 | 19 | 6.3 |
 
 ## What this score does not measure
 

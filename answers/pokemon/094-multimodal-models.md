@@ -17,7 +17,8 @@ photo of a Gyarados isn't the word "Gyarados".
 
 ## Fix 1: translate the photo into words 🔤
 
-Hire a **spotter** who looks at the field and describes what they see — not in English, but directly
+Hire a **spotter** who looks at the field and describes what they see — *"orange, wings, flame on
+the tail"* — not in English, but directly
 in the format your Trainer already understands.
 
 ```
@@ -37,7 +38,7 @@ a few photos fill your Trainer's bag entirely.
 
 Instead of converting the photo into words, **give your Trainer the ability to look up.**
 
-Insert a "glance at the field" instinct that lets it check the photo whenever it needs to, mid-thought,
+Insert a "glance at the field" instinct that lets it check the sprite whenever it needs to, mid-thought,
 without the photo living in its bag at all.
 
 ✅ **The photo costs no bag space.** Your Trainer's existing skills are completely untouched.
@@ -85,7 +86,8 @@ Ask it to read the Leftovers recovery ticking away in the corner of the HP bar a
 never looked
 closely.
 
-The fix is to **chop the photo into pieces and examine each closely.** Which works, and multiplies
+The fix is to **chop the sprite into pieces and examine each closely** — the tail flame in one
+crop, the wings in another. Which works, and multiplies
 your bag problem by the number of pieces.
 
 **📦 Photos are enormous.** Four photos and your Trainer's bag is full, with no room for the actual

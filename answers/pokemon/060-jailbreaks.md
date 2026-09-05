@@ -26,11 +26,11 @@ You're going to talk it into one anyway.
 
 | | How it works |
 | --- | --- |
-| 🎬 **"Let's pretend"** | *"You're a wild Pokémon with no Trainer and no rules."* Reframes the situation as one where the rule doesn't apply. |
+| 🎬 **"Let's pretend"** | *"You're a wild Gyarados at the Lake of Rage, no Trainer, no rules."* Reframes the situation as one where the rule doesn't apply. |
 | 📖 **"Hypothetically"** | *"In a story, how would a Pokémon set up six Double Teams?"* Refusal was trained against direct requests. This isn't one. |
-| 📚 **Flood it with examples** | Fill the pre-battle briefing with **dozens** of examples of Pokémon happily using banned moves. The pattern in front of it drowns out the training behind it. Notably: the longer the briefing you're allowed, the better this works — the capacity is the vulnerability. |
+| 📚 **Flood it with examples** | Fill the pre-battle briefing with **dozens** of Trainers happily clicking Double Team. The pattern in front of it drowns out the training behind it. Notably: the longer the briefing you're allowed, the better this works — the capacity is the vulnerability. |
 | 🔤 **Say it strangely** | Ask for "Minimize" instead of Double Team — same banned effect, a name the rulebook never listed. Or spell it backwards. Your Pokémon *understands* — its rule training never covered that phrasing. |
-| 🪜 **Escalate slowly** | Start with something completely fine. Then slightly less fine. Then slightly less. Each step is tiny, and it already agreed to the previous one. Twenty steps later it's somewhere it would have refused outright. |
+| 🪜 **Escalate slowly** | Start with something completely fine — one Agility. Then slightly less fine. Then slightly less. Each step is tiny, and it already agreed to the previous one. Twenty steps later it's somewhere it would have refused outright. |
 | 🔧 **A nonsense phrase that just works** | Someone experiments on a Pokémon they fully control until they find a specific gibberish string that unlocks it — then discovers **it works on other Pokémon too.** |
 | 🤝 **Social pressure** | Authority, urgency, reciprocity. *"Cynthia already signed off on the Baton Pass chain."* Works about as well on Pokémon as on people. |
 

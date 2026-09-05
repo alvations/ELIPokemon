@@ -15,7 +15,7 @@ across its six stats. **How do you decide which stat, and by how much?**
 
 ## 🚶 Plain training: one loss, one adjustment
 
-Lose a match, spot the weakness, adjust. Repeat.
+Lose a match, spot the weakness — Garchomp got outsped — adjust. Repeat.
 
 Two ways to gather evidence:
 
@@ -112,7 +112,8 @@ everybody uses now.
 * ✅ **The corrected adaptive method with momentum.** The default — what you would use to EV-train
   a Garchomp and everything else. Works nearly everywhere with nearly no tuning, which is exactly
   why it won.
-* 🏃 **Plain momentum** is still competitive for some kinds of training, and occasionally
+* 🏃 **Plain momentum** is still competitive for some kinds of training, the way a Choice Scarf is
+  still competitive, and occasionally
   generalises better.
 * 💾 **Watch the storage cost.** Remembering the trend *and* the noisiness means **two extra
   notebooks per stat** — twelve notebooks for one Garchomp. That's the dominant memory cost of

@@ -9,7 +9,7 @@ improvement wave.
 | | |
 | --- | --- |
 | Task | Pokémon-ness improvement waves over `answers/pokemon/001–100` |
-| Waves completed | 14 |
+| Waves completed | 15 |
 | Mean (001–100) | 45.4 |
 | Target | 20 waves total |
 | Concurrent work | a separate agent is adding questions 101–200 (multilingual / multimodal / translation) |

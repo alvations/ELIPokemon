@@ -33,7 +33,7 @@ page.
 
 You need a list: *"for **how do I beat Toxapex**, the Ferrothorn counters page is the right one."*
 
-**Was the right report in the fetched pile?** ← **the single most important number you have.**
+**Was the Ferrothorn page in the fetched pile?** ← **the single most important number you have.**
 
 Because it's a **hard ceiling**. If the Ferrothorn page wasn't fetched, no Trainer alive can use
 it. Not a better prompt, not a better model, not a bigger context. It wasn't there.
@@ -53,7 +53,8 @@ Break the answer into individual claims and check each one against the reports. 
 maddening failure where the scout did
 everything right and the Trainer answered from memory anyway.
 
-**🎯 Did it answer the actual question?** It can be perfectly grounded in the reports and still not
+**🎯 Did it answer the actual question?** You asked how to beat Toxapex; it explained what Toxapex
+is. Perfectly grounded, and still not
 address what was asked.
 
 **🔗 Do its citations hold up?** Different from the above! It can say something true and *cite the
@@ -69,7 +70,8 @@ too many and diluting its attention.
 **🤷 Does it admit when the answer ISN'T in the reports?** — and this is the most under-tested thing
 in the entire field.
 
-> Ask something **not in your reports at all.** Watch what happens.
+> Ask about a Pokémon that isn't in your archive at all — a Paldean thing nobody scouted. Watch
+> what happens.
 
 A system scoring 90% on answerable questions and **0% on unanswerable ones** is dangerous, because
 it invents an answer every time you stray outside the archive — and you have no idea, because nobody

@@ -48,13 +48,14 @@ questions get confident answers.* You installed the bluff.
 
 **4. 🗜️ Their memory is compressed.**
 
-Your Trainer can't store every Pokémon perfectly. Common ones are crisp. Ones they saw *once* are
+Your Trainer can't store every Pokémon perfectly. Pikachu and Charizard are crisp. Ones they saw *once* are
 stored as a rough impression, and reconstructing from a rough impression produces something
 plausible and wrong — right shape, wrong details.
 
 **5. 🎭 One lie becomes a world.**
 
-They invent an ability on turn 3, and then play **ten perfectly logical turns** based on it. Each
+They decide the Toxapex has Regenerator when it has Merciless, and then play **ten perfectly
+logical turns** based on it. Each
 turn is correct given the premise. The premise was fiction.
 
 ## Five different problems wearing one name 🏷️
@@ -84,7 +85,7 @@ And this means *actually rewarding it*, not just permitting it. If your judges k
 confident answers, you will train the honesty right back out. Fewer answers, more trustworthy —
 that's a real trade, and for most jobs it's the right one.
 
-**4. 🧮 Give it a calculator.** Damage calcs, dates, type charts — anything with a mechanical
+**4. 🧮 Give it a calculator.** Damage calcs, Speed tiers, the type chart — anything with a mechanical
 answer. Don't ask a Trainer to be a calculator.
 
 **5. 🔁 Ask three times.** Get the same answer thrice? Probably knows it. Get three *different*

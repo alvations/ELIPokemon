@@ -49,7 +49,7 @@ a real battle is a sheet being written one Pokémon at a time. Ask them to lead 
 they freeze:
 their read of slot 1 depends on a slot 6 that doesn't exist yet.
 
-Judges are your team raters, your matchmakers, your "find me teams like this one" search.
+Judges are your team raters, your matchmakers, your "find me another Rain team like this" search.
 
 ## ⚔️ The Battler — decoder-only
 
@@ -62,7 +62,7 @@ single turn** ask *"what happens next?"* No thumb over the sheet, no 15%-of-the-
 every turn of every battle is a graded exam question. That's why Battlers learn so much faster
 from the same footage.
 
-And it turns out *everything* is a battle. Rating a team? Battle it and see. Translating? Feed
+And it turns out *everything* is a battle. Rating a Politoed core? Battle it and see. Translating? Feed
 the words in as opening turns and let it continue. Summarising? Same. One Trainer, every job.
 
 This is why the modern world is full of Battlers.
@@ -77,7 +77,8 @@ and the output is new: translating a battle log, calling a match into a micropho
 a six-hour tournament into a highlight reel. The thing you're reading never changes; the thing
 you're producing grows.
 
-The cost is that you're paying two salaries and coordinating two people. Fine for a
+The cost is that you're paying two salaries and coordinating two people — a Judge and a Battler who
+have to agree on what they saw. Fine for a
 translation booth. Overkill for "be good at everything".
 
 ## Why Battlers took over the League 🏆
