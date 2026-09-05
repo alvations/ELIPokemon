@@ -1,5 +1,5 @@
 {
-  "count": 100,
+  "count": 110,
   "questions": [
     {
       "id": "001",
@@ -1594,6 +1594,166 @@
         "differential-privacy",
         "impossibility",
         "memorisation"
+      ]
+    },
+    {
+      "id": "101",
+      "slug": "cross-lingual-transfer",
+      "question": "What is cross-lingual transfer, and why does fine-tuning in one language help another?",
+      "category": "multilingual",
+      "difficulty": "core",
+      "serious_path": "answers/serious/101-cross-lingual-transfer.md",
+      "pokemon_path": "answers/pokemon/101-cross-lingual-transfer.md",
+      "tags": [
+        "cross-lingual",
+        "zero-shot",
+        "xlm-r",
+        "transfer",
+        "xtreme"
+      ]
+    },
+    {
+      "id": "102",
+      "slug": "tokenizer-fairness-token-premium",
+      "question": "Why do non-Latin scripts consume more tokens, and what does that token premium cost?",
+      "category": "multilingual",
+      "difficulty": "core",
+      "serious_path": "answers/serious/102-tokenizer-fairness-token-premium.md",
+      "pokemon_path": "answers/pokemon/102-tokenizer-fairness-token-premium.md",
+      "tags": [
+        "tokenization",
+        "fairness",
+        "fertility",
+        "byte-fallback",
+        "cost"
+      ]
+    },
+    {
+      "id": "103",
+      "slug": "curse-of-multilinguality",
+      "question": "What is the curse of multilinguality, and how do you fight it?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/103-curse-of-multilinguality.md",
+      "pokemon_path": "answers/pokemon/103-curse-of-multilinguality.md",
+      "tags": [
+        "multilingual",
+        "capacity",
+        "xlm-r",
+        "moe",
+        "interference"
+      ]
+    },
+    {
+      "id": "104",
+      "slug": "language-sampling-pretraining",
+      "question": "How do you sample languages when pretraining on an imbalanced multilingual corpus?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/104-language-sampling-pretraining.md",
+      "pokemon_path": "answers/pokemon/104-language-sampling-pretraining.md",
+      "tags": [
+        "sampling",
+        "temperature",
+        "unimax",
+        "data-mixture",
+        "pretraining"
+      ]
+    },
+    {
+      "id": "105",
+      "slug": "shared-multilingual-vocabulary",
+      "question": "How do you build a subword vocabulary shared across many languages?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/105-shared-multilingual-vocabulary.md",
+      "pokemon_path": "answers/pokemon/105-shared-multilingual-vocabulary.md",
+      "tags": [
+        "sentencepiece",
+        "vocabulary",
+        "byte-fallback",
+        "unigram-lm",
+        "character-coverage"
+      ]
+    },
+    {
+      "id": "106",
+      "slug": "script-vs-language",
+      "question": "What is the difference between a script and a language, and why does it matter?",
+      "category": "multilingual",
+      "difficulty": "core",
+      "serious_path": "answers/serious/106-script-vs-language.md",
+      "pokemon_path": "answers/pokemon/106-script-vs-language.md",
+      "tags": [
+        "script",
+        "orthography",
+        "digraphia",
+        "bcp-47",
+        "language-tags"
+      ]
+    },
+    {
+      "id": "107",
+      "slug": "code-switching",
+      "question": "What breaks when text switches language mid-sentence?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/107-code-switching.md",
+      "pokemon_path": "answers/pokemon/107-code-switching.md",
+      "tags": [
+        "code-switching",
+        "lid",
+        "hinglish",
+        "lince",
+        "gluecos"
+      ]
+    },
+    {
+      "id": "108",
+      "slug": "language-identification",
+      "question": "How does language identification work, and where does it fail?",
+      "category": "multilingual",
+      "difficulty": "core",
+      "serious_path": "answers/serious/108-language-identification.md",
+      "pokemon_path": "answers/pokemon/108-language-identification.md",
+      "tags": [
+        "lid",
+        "fasttext",
+        "corpus-quality",
+        "precision",
+        "glotlid"
+      ]
+    },
+    {
+      "id": "109",
+      "slug": "transliteration-romanisation",
+      "question": "What is transliteration, and when should you romanise text?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/109-transliteration-romanisation.md",
+      "pokemon_path": "answers/pokemon/109-transliteration-romanisation.md",
+      "tags": [
+        "transliteration",
+        "romanisation",
+        "uroman",
+        "arabizi",
+        "script-conversion"
+      ]
+    },
+    {
+      "id": "110",
+      "slug": "language-adapters",
+      "question": "What are language adapters, and when do you prefer them to one big multilingual model?",
+      "category": "multilingual",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/110-language-adapters.md",
+      "pokemon_path": "answers/pokemon/110-language-adapters.md",
+      "tags": [
+        "adapters",
+        "mad-x",
+        "modularity",
+        "peft",
+        "lora"
       ]
     }
   ]

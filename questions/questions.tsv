@@ -99,3 +99,13 @@ id	slug	category	difficulty	question
 098	training-serving-skew	mlops	intermediate	What is training-serving skew and how does a feature store help?
 099	ml-system-design	system-design	advanced	Walk me through designing a recommendation system end to end.
 100	fairness-bias-privacy	responsible-ai	intermediate	How do you think about fairness, bias, and privacy in an ML system?
+101	cross-lingual-transfer	multilingual	core	What is cross-lingual transfer, and why does fine-tuning in one language help another?
+102	tokenizer-fairness-token-premium	multilingual	core	Why do non-Latin scripts consume more tokens, and what does that token premium cost?
+103	curse-of-multilinguality	multilingual	intermediate	What is the curse of multilinguality, and how do you fight it?
+104	language-sampling-pretraining	multilingual	intermediate	How do you sample languages when pretraining on an imbalanced multilingual corpus?
+105	shared-multilingual-vocabulary	multilingual	intermediate	How do you build a subword vocabulary shared across many languages?
+106	script-vs-language	multilingual	core	What is the difference between a script and a language, and why does it matter?
+107	code-switching	multilingual	intermediate	What breaks when text switches language mid-sentence?
+108	language-identification	multilingual	core	How does language identification work, and where does it fail?
+109	transliteration-romanisation	multilingual	intermediate	What is transliteration, and when should you romanise text?
+110	language-adapters	multilingual	advanced	What are language adapters, and when do you prefer them to one big multilingual model?
