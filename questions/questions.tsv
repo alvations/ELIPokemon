@@ -127,3 +127,7 @@ id	slug	category	difficulty	question
 126	video-understanding	multimodal	advanced	How do you extend a vision-language model to video?
 127	chart-and-diagram-reasoning	multimodal	intermediate	Why do models struggle to read charts and diagrams?
 128	visual-grounding-spatial-reasoning	multimodal	intermediate	How do models point at things in an image, and why is spatial reasoning hard?
+129	mt-evaluation-beyond-bleu	translation	intermediate	Why is BLEU a poor metric for modern machine translation, and what replaced it?
+130	low-resource-translation	translation	advanced	How do you translate a language with almost no parallel data?
+131	document-level-translation	translation	intermediate	Why is sentence-level translation not enough?
+132	quality-estimation	translation	advanced	How do you tell whether a translation is good without a reference?

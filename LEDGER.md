@@ -15,21 +15,24 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**128 answers · mean 58.4 · median 53.9 · min 38.5 (094) · max 100.0 (111)**
+**132 answers · mean 57.7 · median 53.6 · min 27.2 (132) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 12 |
 | strong | 65-79 | 18 |
 | adequate | 50-64 | 56 |
-| thin | 35-49 | 42 |
-| generic | 0-34 | 0 |
+| thin | 35-49 | 44 |
+| generic | 0-34 | 2 |
 
 ## Every answer, lowest first
 
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| **27.2** | generic | [`132`](answers/pokemon/132-quality-estimation.md) | quality-estimation | 2 | 6 | 16 | 0.7 |
+| **28.7** | generic | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 3 | 7 | 22 | 0.8 |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
+| **41.4** | thin | [`131`](answers/pokemon/131-document-level-translation.md) | document-level-translation | 5 | 8 | 10 | 1.0 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
@@ -55,6 +58,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **45.8** | thin | [`095`](answers/pokemon/095-data-drift.md) | data-drift | 7 | 10 | 27 | 1.4 |
 | **46.2** | thin | [`064`](answers/pokemon/064-bias-variance-tradeoff.md) | bias-variance-tradeoff | 6 | 11 | 30 | 1.8 |
 | **46.3** | thin | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 6 | 11 | 20 | 1.2 |
+| **46.5** | thin | [`129`](answers/pokemon/129-mt-evaluation-beyond-bleu.md) | mt-evaluation-beyond-bleu | 7 | 10 | 22 | 1.2 |
 | **46.6** | thin | [`049`](answers/pokemon/049-chain-of-thought.md) | chain-of-thought | 5 | 11 | 20 | 1.6 |
 | **47.0** | thin | [`090`](answers/pokemon/090-transfer-learning.md) | transfer-learning | 8 | 11 | 38 | 1.5 |
 | **47.2** | thin | [`033`](answers/pokemon/033-speculative-decoding.md) | speculative-decoding | 8 | 12 | 50 | 1.8 |

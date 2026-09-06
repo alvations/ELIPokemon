@@ -1,5 +1,5 @@
 {
-  "count": 128,
+  "count": 132,
   "questions": [
     {
       "id": "001",
@@ -2058,6 +2058,75 @@
         "set-of-mark",
         "iou",
         "gui-agents"
+      ]
+    },
+    {
+      "id": "129",
+      "slug": "mt-evaluation-beyond-bleu",
+      "question": "Why is BLEU a poor metric for modern machine translation, and what replaced it?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/129-mt-evaluation-beyond-bleu.md",
+      "pokemon_path": "answers/pokemon/129-mt-evaluation-beyond-bleu.md",
+      "tags": [
+        "bleu",
+        "chrf",
+        "comet",
+        "bleurt",
+        "sacrebleu",
+        "mqm",
+        "wmt"
+      ]
+    },
+    {
+      "id": "130",
+      "slug": "low-resource-translation",
+      "question": "How do you translate a language with almost no parallel data?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/130-low-resource-translation.md",
+      "pokemon_path": "answers/pokemon/130-low-resource-translation.md",
+      "tags": [
+        "low-resource",
+        "back-translation",
+        "transfer",
+        "pivot",
+        "bitext-mining",
+        "flores"
+      ]
+    },
+    {
+      "id": "131",
+      "slug": "document-level-translation",
+      "question": "Why is sentence-level translation not enough?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/131-document-level-translation.md",
+      "pokemon_path": "answers/pokemon/131-document-level-translation.md",
+      "tags": [
+        "document-level",
+        "discourse",
+        "pronouns",
+        "formality",
+        "consistency",
+        "contrapro"
+      ]
+    },
+    {
+      "id": "132",
+      "slug": "quality-estimation",
+      "question": "How do you tell whether a translation is good without a reference?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/132-quality-estimation.md",
+      "pokemon_path": "answers/pokemon/132-quality-estimation.md",
+      "tags": [
+        "quality-estimation",
+        "comet-qe",
+        "calibration",
+        "routing",
+        "critical-errors",
+        "mqm"
       ]
     }
   ]
