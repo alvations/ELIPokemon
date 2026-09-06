@@ -8,30 +8,44 @@ unit of work finishes.
 
 | | |
 | --- | --- |
-| Improvement waves | **20 of 20 over `001–100` — target reached.** Mean over that range rose 22.4 → 53.2; every zero-scoring answer eliminated; minimum 0.0 → 38.5. Corpus-wide mean is now 56.8 across 116 answers. |
+| Improvement waves | **20 of 20 over `001–100` — target reached.** Mean over that range rose 22.4 → 53.2; every zero-scoring answer eliminated; minimum 0.0 → 38.5. Corpus-wide mean is now 58.9 across 132 answers. |
 | Documentation | **Done.** `README.md`, `HOW-IT-WAS-BUILT.md`, `LEARNINGS.md`, `RECREATE-PROMPT.md` committed in `a8f146c`. |
-| Corpus extension | **Stalled at 116 of the intended 200.** Questions 101–116 (all `multilingual`) are complete, committed and validating. The worker adding them stopped on an API session rate limit mid-batch, not on an error in the work. |
+| Corpus extension | **132 of the intended 200.** 101–116 `multilingual`, 117–128 `multimodal`, 129–132 `translation`. All complete, committed and validating. |
 | Open for the repo owner | The stale `claude/elipokemon-ml-interview-dataset-qibsci` branch must be deleted in the GitHub UI — delete pushes are rejected from this environment. |
 
 ## What to do next
 
-1. **Continue the extension from `117`.** The `multilingual` arc is well covered through
-   116; the intended remaining coverage is **multimodality** (vision-language encoders,
-   image tokenisation, cross-modal attention, audio/speech, video, OCR-grounded QA,
-   interleaved training data, modality-specific hallucination and evaluation) and
-   **translation** (MT evaluation beyond BLEU, low-resource and zero-shot MT, document- and
-   context-level translation, terminology and domain adaptation, post-editing, quality
-   estimation). Aim for roughly 40 multimodal and 40 translation questions to reach 200.
+1. **Continue the extension from `133`.** Covered so far: `multilingual` 101–116;
+   `multimodal` 117–128 (VLM architectures, patches, cross-modal attention, contrastive
+   pretraining, resolution, hallucination, document QA, interleaved data, ASR, video,
+   charts, grounding); `translation` 129–132 (metrics beyond BLEU, low-resource,
+   document-level, quality estimation).
+
+   Still to write — roughly 34 more each of multimodal and translation:
+   * **multimodal**: image generation and diffusion, audio/speech LLMs and duplex dialogue,
+     multimodal safety and jailbreaks through images, multimodal RAG, embodied and GUI
+     agents, 3D and depth, medical and scientific imaging, synthetic caption pipelines,
+     modality imbalance in training, multimodal benchmarks and their contamination.
+   * **translation**: terminology and glossary enforcement, domain adaptation, post-editing
+     and human-in-the-loop, LLM translation versus classical NMT, off-target and hallucinated
+     translation, formality and honorifics, gender bias in MT, speech translation and
+     simultaneous interpretation, subtitle and length constraints, localisation beyond text.
 2. **Work in batches of ~6–10 pairs and commit each batch.** The last worker lost nothing
    only because its finished files were on disk when it stopped; a batch that is committed
    cannot be lost at all. A TSV row and its two answer files go in the same commit.
-3. **Then run the wave loop over `101–200`.** New answers start near the baseline the
-   original 100 did, so the first waves should give the large gains (+2 to +4) rather than
-   the +0.6 the original set is now down to.
-4. **Do not run more waves over `001–100`.** Returns flattened to +0.6 and the remaining low
+3. **Score each new answer as you write it and ground it before committing.** New answers
+   written with the named-entity lesson already learned land around 45–85 unaided, so the
+   old wave loop is mostly unnecessary — but check, because a structural analogy can still
+   come in near 27 (Q130 and Q132 both did, and a single grounding pass took them to 82.6
+   and 54.9). Ground it in the same batch rather than deferring it to a wave.
+4. **Expect scorer vocabulary gaps, and fix them in their own commit.** Two turned up while
+   writing 117–132: the whole overworld-item and landmark vocabulary, and then the Nidoran
+   line, Follow Me, Rage Powder and Egg Move. A vocabulary change moves every historical
+   score, so it never shares a commit with content.
+5. **Do not run more waves over `001–100`.** Returns flattened to +0.6 and the remaining low
    scorers are structural analogies where forcing in species names trades clarity for score.
    See [`LEARNINGS.md`](LEARNINGS.md#the-score-is-a-search-tool-not-a-target).
-5. **Extend `TERMINOLOGY.md`** to cover any new Pokémon entities 101+ introduce, and link
+6. **Extend `TERMINOLOGY.md`** to cover any new Pokémon entities 101+ introduce, and link
    each new question reference to its answer file.
 
 ## How to resume
