@@ -15,20 +15,21 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**120 answers · mean 56.6 · median 52.2 · min 38.5 (094) · max 100.0 (108)**
+**124 answers · mean 56.3 · median 52.2 · min 26.4 (123) · max 100.0 (108)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 9 |
 | strong | 65-79 | 16 |
-| adequate | 50-64 | 48 |
-| thin | 35-49 | 47 |
-| generic | 0-34 | 0 |
+| adequate | 50-64 | 50 |
+| thin | 35-49 | 48 |
+| generic | 0-34 | 1 |
 
 ## Every answer, lowest first
 
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| **26.4** | generic | [`123`](answers/pokemon/123-document-understanding-ocr.md) | document-understanding-ocr | 3 | 3 | 8 | 0.3 |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
 | **41.7** | thin | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 5 | 10 | 20 | 1.1 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
@@ -55,6 +56,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **45.8** | thin | [`028`](answers/pokemon/028-qlora.md) | qlora | 6 | 11 | 29 | 1.6 |
 | **45.8** | thin | [`095`](answers/pokemon/095-data-drift.md) | data-drift | 7 | 10 | 27 | 1.4 |
 | **46.0** | thin | [`075`](answers/pokemon/075-batch-norm-vs-layer-norm.md) | batch-norm-vs-layer-norm | 7 | 12 | 37 | 1.6 |
+| **46.1** | thin | [`121`](answers/pokemon/121-high-resolution-tiling.md) | high-resolution-tiling | 6 | 11 | 8 | 1.2 |
 | **46.2** | thin | [`064`](answers/pokemon/064-bias-variance-tradeoff.md) | bias-variance-tradeoff | 6 | 11 | 30 | 1.8 |
 | **46.6** | thin | [`049`](answers/pokemon/049-chain-of-thought.md) | chain-of-thought | 5 | 11 | 20 | 1.6 |
 | **46.8** | thin | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 7 | 13 | 38 | 1.6 |
@@ -101,7 +103,9 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **54.8** | adequate | [`063`](answers/pokemon/063-model-calibration.md) | model-calibration | 7 | 13 | 17 | 1.9 |
 | **55.2** | adequate | [`073`](answers/pokemon/073-backpropagation.md) | backpropagation | 8 | 12 | 12 | 1.6 |
 | **55.5** | adequate | [`079`](answers/pokemon/079-parallelism-strategies.md) | parallelism-strategies | 8 | 15 | 58 | 2.6 |
+| **55.5** | adequate | [`122`](answers/pokemon/122-multimodal-hallucination.md) | multimodal-hallucination | 7 | 17 | 5 | 2.0 |
 | **55.6** | adequate | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 10 | 13 | 39 | 1.7 |
+| **56.2** | adequate | [`124`](answers/pokemon/124-interleaved-multimodal-data.md) | interleaved-multimodal-data | 10 | 10 | 16 | 1.2 |
 | **56.5** | adequate | [`117`](answers/pokemon/117-vision-language-architectures.md) | vision-language-architectures | 8 | 16 | 11 | 1.8 |
 | **57.1** | adequate | [`056`](answers/pokemon/056-multi-agent-systems.md) | multi-agent-systems | 10 | 13 | 36 | 1.8 |
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |

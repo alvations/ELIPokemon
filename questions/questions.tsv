@@ -119,3 +119,7 @@ id	slug	category	difficulty	question
 118	image-patches-tokenisation	multimodal	core	How is an image turned into tokens a transformer can read?
 119	cross-modal-attention	multimodal	intermediate	How does cross-attention let text attend to image features?
 120	contrastive-image-text-pretraining	multimodal	intermediate	How does contrastive image-text pretraining like CLIP actually work?
+121	high-resolution-tiling	multimodal	intermediate	How do vision-language models handle high-resolution images?
+122	multimodal-hallucination	multimodal	intermediate	Why do vision-language models hallucinate objects, and how do you measure it?
+123	document-understanding-ocr	multimodal	intermediate	How do you build question answering over scanned documents?
+124	interleaved-multimodal-data	multimodal	advanced	Why train on interleaved image-text documents instead of image-caption pairs?

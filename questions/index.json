@@ -1,5 +1,5 @@
 {
-  "count": 120,
+  "count": 124,
   "questions": [
     {
       "id": "001",
@@ -1920,6 +1920,75 @@
         "temperature",
         "siglip",
         "zero-shot"
+      ]
+    },
+    {
+      "id": "121",
+      "slug": "high-resolution-tiling",
+      "question": "How do vision-language models handle high-resolution images?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/121-high-resolution-tiling.md",
+      "pokemon_path": "answers/pokemon/121-high-resolution-tiling.md",
+      "tags": [
+        "resolution",
+        "anyres",
+        "tiling",
+        "position-interpolation",
+        "token-budget",
+        "navit"
+      ]
+    },
+    {
+      "id": "122",
+      "slug": "multimodal-hallucination",
+      "question": "Why do vision-language models hallucinate objects, and how do you measure it?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/122-multimodal-hallucination.md",
+      "pokemon_path": "answers/pokemon/122-multimodal-hallucination.md",
+      "tags": [
+        "hallucination",
+        "pope",
+        "chair",
+        "language-prior",
+        "contrastive-decoding",
+        "grounding"
+      ]
+    },
+    {
+      "id": "123",
+      "slug": "document-understanding-ocr",
+      "question": "How do you build question answering over scanned documents?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/123-document-understanding-ocr.md",
+      "pokemon_path": "answers/pokemon/123-document-understanding-ocr.md",
+      "tags": [
+        "ocr",
+        "docvqa",
+        "layout",
+        "reading-order",
+        "tables",
+        "anls",
+        "grounding"
+      ]
+    },
+    {
+      "id": "124",
+      "slug": "interleaved-multimodal-data",
+      "question": "Why train on interleaved image-text documents instead of image-caption pairs?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/124-interleaved-multimodal-data.md",
+      "pokemon_path": "answers/pokemon/124-interleaved-multimodal-data.md",
+      "tags": [
+        "interleaved",
+        "obelics",
+        "mmc4",
+        "in-context-learning",
+        "data-curation",
+        "packing"
       ]
     }
   ]
