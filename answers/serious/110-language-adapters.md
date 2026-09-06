@@ -22,7 +22,7 @@ Stack them and you get the design that makes this interesting.
 
 ```
                 ┌──────────────────────────────────────┐
-   input ──────►│ frozen multilingual backbone (XLM-R)  │
+   input ──────►│ frozen multilingual backbone (XLM-R) │
                 │   ├─ invertible adapter  ← per language, on the embeddings
                 │   ├─ language adapter    ← per language, monolingual LM data
                 │   └─ task adapter        ← per task, trained on ENGLISH

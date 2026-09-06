@@ -15,13 +15,13 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**106 answers · mean 55.2 · median 51.2 · min 38.5 (094) · max 100.0 (101)**
+**116 answers · mean 56.8 · median 52.2 · min 38.5 (094) · max 100.0 (108)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 6 |
-| strong | 65-79 | 13 |
-| adequate | 50-64 | 41 |
+| excellent | 80-100 | 9 |
+| strong | 65-79 | 16 |
+| adequate | 50-64 | 45 |
 | thin | 35-49 | 46 |
 | generic | 0-34 | 0 |
 
@@ -105,36 +105,46 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
 | **57.4** | adequate | [`082`](answers/pokemon/082-activation-functions.md) | activation-functions | 8 | 12 | 10 | 1.9 |
 | **57.5** | adequate | [`087`](answers/pokemon/087-curse-of-dimensionality.md) | curse-of-dimensionality | 10 | 12 | 32 | 1.8 |
+| **58.2** | adequate | [`107`](answers/pokemon/107-code-switching.md) | code-switching | 7 | 19 | 45 | 2.6 |
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |
 | **58.5** | adequate | [`080`](answers/pokemon/080-zero-and-fsdp.md) | zero-and-fsdp | 7 | 19 | 55 | 2.9 |
 | **58.8** | adequate | [`099`](answers/pokemon/099-ml-system-design.md) | ml-system-design | 11 | 14 | 47 | 1.9 |
+| **59.4** | adequate | [`113`](answers/pokemon/113-morphology-rich-languages.md) | morphology-rich-languages | 6 | 17 | 3 | 2.7 |
 | **59.9** | adequate | [`041`](answers/pokemon/041-rag-vs-finetuning.md) | rag-vs-finetuning | 10 | 13 | 26 | 1.7 |
 | **60.5** | adequate | [`021`](answers/pokemon/021-reward-models.md) | reward-models | 9 | 13 | 24 | 2.0 |
 | **60.7** | adequate | [`043`](answers/pokemon/043-embeddings.md) | embeddings | 10 | 12 | 13 | 1.7 |
+| **61.1** | adequate | [`112`](answers/pokemon/112-byte-level-and-tokenizer-free.md) | byte-level-and-tokenizer-free | 10 | 11 | 15 | 1.7 |
 | **61.7** | adequate | [`030`](answers/pokemon/030-quantization.md) | quantization | 9 | 14 | 22 | 2.1 |
 | **61.8** | adequate | [`010`](answers/pokemon/010-flash-attention.md) | flash-attention | 10 | 11 | 19 | 1.8 |
 | **62.0** | adequate | [`031`](answers/pokemon/031-knowledge-distillation.md) | knowledge-distillation | 5 | 22 | 38 | 3.3 |
+| **62.5** | adequate | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 9 | 15 | 29 | 2.2 |
 | **62.7** | adequate | [`055`](answers/pokemon/055-model-context-protocol.md) | model-context-protocol | 12 | 12 | 30 | 1.7 |
 | **64.3** | adequate | [`008`](answers/pokemon/008-kv-cache.md) | kv-cache | 11 | 15 | 50 | 2.6 |
 | **65.4** | strong | [`067`](answers/pokemon/067-dropout.md) | dropout | 10 | 15 | 34 | 2.5 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
+| **67.1** | strong | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 11 | 15 | 17 | 2.1 |
 | **67.5** | strong | [`102`](answers/pokemon/102-tokenizer-fairness-token-premium.md) | tokenizer-fairness-token-premium | 10 | 18 | 32 | 2.5 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
+| **69.8** | strong | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 11 | 15 | 15 | 2.4 |
 | **69.9** | strong | [`034`](answers/pokemon/034-sampling-temperature-top-p.md) | sampling-temperature-top-p | 9 | 21 | 28 | 3.0 |
 | **70.2** | strong | [`054`](answers/pokemon/054-tool-calling.md) | tool-calling | 9 | 22 | 29 | 3.1 |
 | **70.6** | strong | [`066`](answers/pokemon/066-l1-vs-l2-regularization.md) | l1-vs-l2-regularization | 6 | 27 | 20 | 4.5 |
+| **72.4** | strong | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 12 | 19 | 8 | 2.4 |
 | **73.7** | strong | [`016`](answers/pokemon/016-next-token-prediction.md) | next-token-prediction | 14 | 17 | 43 | 2.4 |
 | **74.2** | strong | [`001`](answers/pokemon/001-attention-mechanisms.md) | attention-mechanisms | 9 | 29 | 57 | 3.6 |
 | **75.8** | strong | [`078`](answers/pokemon/078-gradient-checkpointing.md) | gradient-checkpointing | 8 | 28 | 17 | 4.9 |
 | **75.9** | strong | [`037`](answers/pokemon/037-evaluating-llms.md) | evaluating-llms | 14 | 16 | 34 | 2.4 |
 | **76.4** | strong | [`051`](answers/pokemon/051-in-context-learning.md) | in-context-learning | 10 | 22 | 20 | 3.5 |
 | **78.4** | strong | [`085`](answers/pokemon/085-label-smoothing.md) | label-smoothing | 9 | 28 | 15 | 5.1 |
+| **83.6** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 14 | 20 | 20 | 3.1 |
 | **84.0** | excellent | [`105`](answers/pokemon/105-shared-multilingual-vocabulary.md) | shared-multilingual-vocabulary | 15 | 18 | 18 | 2.9 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
 | **91.4** | excellent | [`104`](answers/pokemon/104-language-sampling-pretraining.md) | language-sampling-pretraining | 14 | 37 | 17 | 6.4 |
 | **91.4** | excellent | [`106`](answers/pokemon/106-script-vs-language.md) | script-vs-language | 14 | 27 | 16 | 4.3 |
 | **96.6** | excellent | [`103`](answers/pokemon/103-curse-of-multilinguality.md) | curse-of-multilinguality | 16 | 37 | 11 | 5.4 |
+| **99.2** | excellent | [`111`](answers/pokemon/111-cross-lingual-embedding-alignment.md) | cross-lingual-embedding-alignment | 17 | 31 | 6 | 5.7 |
 | **100.0** | excellent | [`101`](answers/pokemon/101-cross-lingual-transfer.md) | cross-lingual-transfer | 23 | 46 | 19 | 6.3 |
+| **100.0** | excellent | [`108`](answers/pokemon/108-language-identification.md) | language-identification | 18 | 38 | 8 | 6.0 |
 
 ## What this score does not measure
 

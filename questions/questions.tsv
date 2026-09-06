@@ -109,3 +109,9 @@ id	slug	category	difficulty	question
 108	language-identification	multilingual	core	How does language identification work, and where does it fail?
 109	transliteration-romanisation	multilingual	intermediate	What is transliteration, and when should you romanise text?
 110	language-adapters	multilingual	advanced	What are language adapters, and when do you prefer them to one big multilingual model?
+111	cross-lingual-embedding-alignment	multilingual	intermediate	How do embedding spaces for different languages get aligned?
+112	byte-level-and-tokenizer-free	multilingual	advanced	Should a multilingual model go byte-level or tokeniser-free?
+113	morphology-rich-languages	multilingual	intermediate	How does rich morphology challenge subword models?
+114	word-segmentation-no-spaces	multilingual	intermediate	How do you handle languages that do not put spaces between words?
+115	unicode-normalisation	multilingual	core	Why does Unicode normalisation matter in a multilingual pipeline?
+116	multilingual-instruction-tuning	multilingual	intermediate	How do you instruction-tune a model to follow instructions in many languages?

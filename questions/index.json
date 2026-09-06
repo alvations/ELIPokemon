@@ -1,5 +1,5 @@
 {
-  "count": 110,
+  "count": 116,
   "questions": [
     {
       "id": "001",
@@ -1754,6 +1754,106 @@
         "modularity",
         "peft",
         "lora"
+      ]
+    },
+    {
+      "id": "111",
+      "slug": "cross-lingual-embedding-alignment",
+      "question": "How do embedding spaces for different languages get aligned?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/111-cross-lingual-embedding-alignment.md",
+      "pokemon_path": "answers/pokemon/111-cross-lingual-embedding-alignment.md",
+      "tags": [
+        "muse",
+        "procrustes",
+        "csls",
+        "isomorphism",
+        "bilingual-lexicon",
+        "hubness"
+      ]
+    },
+    {
+      "id": "112",
+      "slug": "byte-level-and-tokenizer-free",
+      "question": "Should a multilingual model go byte-level or tokeniser-free?",
+      "category": "multilingual",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/112-byte-level-and-tokenizer-free.md",
+      "pokemon_path": "answers/pokemon/112-byte-level-and-tokenizer-free.md",
+      "tags": [
+        "byte-level",
+        "byt5",
+        "canine",
+        "blt",
+        "robustness",
+        "sequence-length"
+      ]
+    },
+    {
+      "id": "113",
+      "slug": "morphology-rich-languages",
+      "question": "How does rich morphology challenge subword models?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/113-morphology-rich-languages.md",
+      "pokemon_path": "answers/pokemon/113-morphology-rich-languages.md",
+      "tags": [
+        "morphology",
+        "agglutination",
+        "sigmorphon",
+        "segmentation",
+        "inflection"
+      ]
+    },
+    {
+      "id": "114",
+      "slug": "word-segmentation-no-spaces",
+      "question": "How do you handle languages that do not put spaces between words?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/114-word-segmentation-no-spaces.md",
+      "pokemon_path": "answers/pokemon/114-word-segmentation-no-spaces.md",
+      "tags": [
+        "segmentation",
+        "chinese",
+        "thai",
+        "sacrebleu",
+        "tokenization",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "115",
+      "slug": "unicode-normalisation",
+      "question": "Why does Unicode normalisation matter in a multilingual pipeline?",
+      "category": "multilingual",
+      "difficulty": "core",
+      "serious_path": "answers/serious/115-unicode-normalisation.md",
+      "pokemon_path": "answers/pokemon/115-unicode-normalisation.md",
+      "tags": [
+        "unicode",
+        "nfc",
+        "nfkc",
+        "confusables",
+        "zwj",
+        "casefolding"
+      ]
+    },
+    {
+      "id": "116",
+      "slug": "multilingual-instruction-tuning",
+      "question": "How do you instruction-tune a model to follow instructions in many languages?",
+      "category": "multilingual",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/116-multilingual-instruction-tuning.md",
+      "pokemon_path": "answers/pokemon/116-multilingual-instruction-tuning.md",
+      "tags": [
+        "instruction-tuning",
+        "aya",
+        "translated-data",
+        "preference-data",
+        "multilingual"
       ]
     }
   ]

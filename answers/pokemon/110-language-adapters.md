@@ -21,9 +21,9 @@ That is the whole idea. Freeze the enormous, expensive Pokémon. Swap a disc per
 
 ```
               ┌────────────────────────────────────────────┐
-   battle ───►│  🧊 SILVALLY — frozen, never retrained      │
-              │     ├─ 💿 region disc  ← one per region     │
-              │     └─ 🎯 job disc     ← one per job        │
+   battle ───►│  🧊 SILVALLY — frozen, never retrained     │
+              │     ├─ 💿 region disc  ← one per region    │
+              │     └─ 🎯 job disc     ← one per job       │
               └────────────────────────────────────────────┘
 
    drilled with:  [ Kanto disc ] + [ Gym-battling disc ]
