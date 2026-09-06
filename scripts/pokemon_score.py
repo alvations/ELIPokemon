@@ -128,6 +128,7 @@ Glimmora Greavard Houndstone Flamigo Cetoddle Cetitan Veluza Dondozo
 Tatsugiri Annihilape Clodsire Farigiraf Dudunsparce Kingambit Great Tusk
 Iron Treads Baxcalibur Gimmighoul Gholdengo Wo-Chien Chien-Pao Ting-Lu Chi-Yu
 Roaring Moon Iron Valiant Koraidon Miraidon Walking Wake Iron Leaves
+ Nidoran Nidorina Nidorino Silvally Kricketune Vivillon Silcoon Cascoon
 """.split()
 
 MOVES = """
@@ -156,7 +157,9 @@ Thrash, Struggle, Splash, Metronome, Transform, Teleport, Dig, Fly, Cut,
 Strength, Flash, Rock Smash, Whirlpool, Waterfall, Headbutt, Curse, Amnesia,
 Belly Drum, Counter, Mirror Coat, Pain Split, Trick, Switcheroo, Volt Tackle,
 Minimize, Sheer Cold, Fissure, Horn Drill, Guillotine, Hypnosis, Sing,
-Sand Attack, Flash, Swagger, Metal Burst, Assist, Sketch, Heal Block
+Sand Attack, Flash, Swagger, Metal Burst, Assist, Sketch, Heal Block,
+Confusion, Chatter, Spotlight, Follow Me, Rage Powder, Quick Attack,
+Tail Whip, Dragon Claw, Dragon Rush, Dragon Tail, Outrage, Aqua Tail
 """
 
 ITEMS = """
@@ -237,7 +240,7 @@ Base Stat Total, Type Chart, Super Effective, STAB, Critical Hit, Shiny,
 Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
 Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
 Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
-Move Tutor, TM, HM
+Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video
 """
 
 
