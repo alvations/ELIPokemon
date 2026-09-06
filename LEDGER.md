@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**116 answers · mean 56.8 · median 52.2 · min 38.5 (094) · max 100.0 (108)**
+**120 answers · mean 56.6 · median 52.2 · min 38.5 (094) · max 100.0 (108)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 9 |
 | strong | 65-79 | 16 |
-| adequate | 50-64 | 45 |
-| thin | 35-49 | 46 |
+| adequate | 50-64 | 48 |
+| thin | 35-49 | 47 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -30,6 +30,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
+| **41.7** | thin | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 5 | 10 | 20 | 1.1 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
@@ -76,6 +77,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **49.8** | thin | [`035`](answers/pokemon/035-beam-search.md) | beam-search | 6 | 13 | 32 | 2.0 |
 | **49.9** | thin | [`061`](answers/pokemon/061-guardrails-moderation.md) | guardrails-moderation | 8 | 11 | 29 | 1.5 |
 | **50.0** | adequate | [`097`](answers/pokemon/097-serving-cost-latency.md) | serving-cost-latency | 10 | 11 | 48 | 1.5 |
+| **50.0** | adequate | [`118`](answers/pokemon/118-image-patches-tokenisation.md) | image-patches-tokenisation | 5 | 16 | 1 | 1.9 |
 | **50.2** | adequate | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 10 | 12 | 53 | 1.6 |
 | **50.2** | adequate | [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md) | finetuning-vs-peft-vs-prompting | 8 | 11 | 31 | 1.6 |
 | **50.4** | adequate | [`032`](answers/pokemon/032-pruning-and-sparsity.md) | pruning-and-sparsity | 7 | 11 | 9 | 1.4 |
@@ -100,6 +102,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **55.2** | adequate | [`073`](answers/pokemon/073-backpropagation.md) | backpropagation | 8 | 12 | 12 | 1.6 |
 | **55.5** | adequate | [`079`](answers/pokemon/079-parallelism-strategies.md) | parallelism-strategies | 8 | 15 | 58 | 2.6 |
 | **55.6** | adequate | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 10 | 13 | 39 | 1.7 |
+| **56.5** | adequate | [`117`](answers/pokemon/117-vision-language-architectures.md) | vision-language-architectures | 8 | 16 | 11 | 1.8 |
 | **57.1** | adequate | [`056`](answers/pokemon/056-multi-agent-systems.md) | multi-agent-systems | 10 | 13 | 36 | 1.8 |
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
@@ -109,6 +112,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |
 | **58.5** | adequate | [`080`](answers/pokemon/080-zero-and-fsdp.md) | zero-and-fsdp | 7 | 19 | 55 | 2.9 |
 | **58.8** | adequate | [`099`](answers/pokemon/099-ml-system-design.md) | ml-system-design | 11 | 14 | 47 | 1.9 |
+| **59.1** | adequate | [`120`](answers/pokemon/120-contrastive-image-text-pretraining.md) | contrastive-image-text-pretraining | 10 | 13 | 12 | 1.5 |
 | **59.4** | adequate | [`113`](answers/pokemon/113-morphology-rich-languages.md) | morphology-rich-languages | 6 | 17 | 3 | 2.7 |
 | **59.9** | adequate | [`041`](answers/pokemon/041-rag-vs-finetuning.md) | rag-vs-finetuning | 10 | 13 | 26 | 1.7 |
 | **60.5** | adequate | [`021`](answers/pokemon/021-reward-models.md) | reward-models | 9 | 13 | 24 | 2.0 |

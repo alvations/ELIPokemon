@@ -115,3 +115,7 @@ id	slug	category	difficulty	question
 114	word-segmentation-no-spaces	multilingual	intermediate	How do you handle languages that do not put spaces between words?
 115	unicode-normalisation	multilingual	core	Why does Unicode normalisation matter in a multilingual pipeline?
 116	multilingual-instruction-tuning	multilingual	intermediate	How do you instruction-tune a model to follow instructions in many languages?
+117	vision-language-architectures	multimodal	core	How do vision-language models connect an image encoder to a language model?
+118	image-patches-tokenisation	multimodal	core	How is an image turned into tokens a transformer can read?
+119	cross-modal-attention	multimodal	intermediate	How does cross-attention let text attend to image features?
+120	contrastive-image-text-pretraining	multimodal	intermediate	How does contrastive image-text pretraining like CLIP actually work?

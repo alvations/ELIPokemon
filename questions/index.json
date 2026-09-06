@@ -1,5 +1,5 @@
 {
-  "count": 116,
+  "count": 120,
   "questions": [
     {
       "id": "001",
@@ -1854,6 +1854,72 @@
         "translated-data",
         "preference-data",
         "multilingual"
+      ]
+    },
+    {
+      "id": "117",
+      "slug": "vision-language-architectures",
+      "question": "How do vision-language models connect an image encoder to a language model?",
+      "category": "multimodal",
+      "difficulty": "core",
+      "serious_path": "answers/serious/117-vision-language-architectures.md",
+      "pokemon_path": "answers/pokemon/117-vision-language-architectures.md",
+      "tags": [
+        "vlm",
+        "projector",
+        "cross-attention",
+        "clip",
+        "llava",
+        "flamingo"
+      ]
+    },
+    {
+      "id": "118",
+      "slug": "image-patches-tokenisation",
+      "question": "How is an image turned into tokens a transformer can read?",
+      "category": "multimodal",
+      "difficulty": "core",
+      "serious_path": "answers/serious/118-image-patches-tokenisation.md",
+      "pokemon_path": "answers/pokemon/118-image-patches-tokenisation.md",
+      "tags": [
+        "vit",
+        "patches",
+        "position-embeddings",
+        "patch-size",
+        "pooling"
+      ]
+    },
+    {
+      "id": "119",
+      "slug": "cross-modal-attention",
+      "question": "How does cross-attention let text attend to image features?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/119-cross-modal-attention.md",
+      "pokemon_path": "answers/pokemon/119-cross-modal-attention.md",
+      "tags": [
+        "cross-attention",
+        "gating",
+        "grounding",
+        "attention-sinks",
+        "registers"
+      ]
+    },
+    {
+      "id": "120",
+      "slug": "contrastive-image-text-pretraining",
+      "question": "How does contrastive image-text pretraining like CLIP actually work?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/120-contrastive-image-text-pretraining.md",
+      "pokemon_path": "answers/pokemon/120-contrastive-image-text-pretraining.md",
+      "tags": [
+        "clip",
+        "infonce",
+        "contrastive",
+        "temperature",
+        "siglip",
+        "zero-shot"
       ]
     }
   ]
