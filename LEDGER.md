@@ -15,21 +15,20 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**132 answers · mean 58.4 · median 53.6 · min 32.7 (132) · max 100.0 (111)**
+**132 answers · mean 58.9 · median 54.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 14 |
+| excellent | 80-100 | 15 |
 | strong | 65-79 | 18 |
-| adequate | 50-64 | 58 |
-| thin | 35-49 | 41 |
-| generic | 0-34 | 1 |
+| adequate | 50-64 | 59 |
+| thin | 35-49 | 40 |
+| generic | 0-34 | 0 |
 
 ## Every answer, lowest first
 
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| **32.7** | generic | [`132`](answers/pokemon/132-quality-estimation.md) | quality-estimation | 3 | 7 | 16 | 0.8 |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
@@ -40,7 +39,6 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **43.1** | thin | [`003`](answers/pokemon/003-multi-head-attention.md) | multi-head-attention | 6 | 11 | 42 | 1.8 |
 | **43.2** | thin | [`048`](answers/pokemon/048-evaluating-rag.md) | evaluating-rag | 5 | 11 | 26 | 1.5 |
 | **43.2** | thin | [`050`](answers/pokemon/050-self-consistency.md) | self-consistency | 5 | 8 | 14 | 1.2 |
-| **43.2** | thin | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 5 | 11 | 22 | 1.3 |
 | **43.4** | thin | [`038`](answers/pokemon/038-llm-as-a-judge.md) | llm-as-a-judge | 7 | 11 | 47 | 1.6 |
 | **43.4** | thin | [`083`](answers/pokemon/083-softmax-and-logsumexp.md) | softmax-and-logsumexp | 4 | 9 | 13 | 1.5 |
 | **44.1** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 4 | 10 | 4 | 1.6 |
@@ -101,6 +99,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **54.4** | adequate | [`040`](answers/pokemon/040-hallucination.md) | hallucination | 7 | 14 | 23 | 1.9 |
 | **54.4** | adequate | [`131`](answers/pokemon/131-document-level-translation.md) | document-level-translation | 8 | 13 | 10 | 1.6 |
 | **54.8** | adequate | [`063`](answers/pokemon/063-model-calibration.md) | model-calibration | 7 | 13 | 17 | 1.9 |
+| **54.9** | adequate | [`132`](answers/pokemon/132-quality-estimation.md) | quality-estimation | 9 | 13 | 23 | 1.3 |
 | **55.2** | adequate | [`073`](answers/pokemon/073-backpropagation.md) | backpropagation | 8 | 12 | 12 | 1.6 |
 | **55.2** | adequate | [`075`](answers/pokemon/075-batch-norm-vs-layer-norm.md) | batch-norm-vs-layer-norm | 9 | 14 | 37 | 1.9 |
 | **55.5** | adequate | [`079`](answers/pokemon/079-parallelism-strategies.md) | parallelism-strategies | 8 | 15 | 58 | 2.6 |
@@ -148,6 +147,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **77.5** | strong | [`102`](answers/pokemon/102-tokenizer-fairness-token-premium.md) | tokenizer-fairness-token-premium | 12 | 22 | 32 | 3.0 |
 | **78.4** | strong | [`085`](answers/pokemon/085-label-smoothing.md) | label-smoothing | 9 | 28 | 15 | 5.1 |
 | **82.1** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 14 | 23 | 8 | 2.9 |
+| **82.6** | excellent | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 15 | 26 | 22 | 2.7 |
 | **82.7** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 11 | 26 | 29 | 3.9 |
 | **83.5** | excellent | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 14 | 22 | 17 | 3.1 |
 | **85.7** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 19 | 22 | 26 | 2.4 |

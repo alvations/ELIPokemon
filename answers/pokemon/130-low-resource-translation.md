@@ -18,14 +18,20 @@ every technique below is a way of manufacturing a lesson nobody ever wrote down.
 
 ## 1. Find a relative who already knows it 🥚
 
-The highest-value move, and it is the oldest trick Trainers have. **Egg Groups.** If some other
-species in the same Egg Group knows the move, breed for it and the child is born already knowing
-what its parent knew.
+The highest-value move, and it is the oldest trick Trainers have: the **Egg Move**. If some other
+species in the same **Egg Group** knows it, breed for it and the child hatches already knowing what
+its parent knew.
+
+**Charmander** is the standard demonstration. It will never learn **Dragon Dance** by levelling up
+and there is no **TM** for it — but Charmander sits in the Dragon Egg Group, so a parent from that
+group hands it straight down, and a Charmander is born with a move its own species cannot teach
+itself. **Volt Tackle** is stranger still: **Pikachu** gets it *only* by being bred from a parent
+holding a **Light Ball**, and by no other route in the game at all.
 
 That is transfer from a related language. Spanish carries you a long way into Galician. Indonesian
 carries you a long way into Malay. **Not because someone wrote a phrasebook — because the families
-overlap**, and a Pokémon born into the right Egg Group inherits far more than a stranger could ever
-be taught.
+overlap**, and a Pokémon born into the right Egg Group inherits far more than any stranger could
+ever be taught it.
 
 ⚠️ But the family has to actually be shared. A relative who **writes in a completely different
 alphabet** (question 106) passes on much less than the family tree suggests — the kinship is real
@@ -62,13 +68,14 @@ only ever spars with itself. It gets very good at its own bad habits and nothing
 
 ## 3. Go looking for pairs that already exist 🔎
 
-Nobody wrote a parallel corpus. But two regions have both written up **the same species** in their
-own Pokédexes, in their own words, without ever coordinating. Line those entries up and you have
-pairs that nobody made on purpose.
+Nobody wrote a parallel corpus. But Kanto and Johto have both written up **Gyarados** in their own
+Pokédexes, in their own words, without ever coordinating — and so has every other region, for every
+other species. Line those entries up and you have pairs that nobody made on purpose.
 
 Match them by meaning rather than by wording, keep only the confident matches, and throw out
-anything where the two entries turn out to be about different Pokémon. ⚠️ The catch is circular:
-the matching tool is weakest for exactly the rare languages you are mining for.
+anything where one entry turns out to be about **Magikarp** and the other about the Gyarados it
+becomes. ⚠️ The catch is circular: the matching tool is weakest for exactly the rare languages you
+are mining for.
 
 ## 4. Trade through a third Trainer 🔁
 
