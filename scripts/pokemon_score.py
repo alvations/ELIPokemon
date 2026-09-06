@@ -171,7 +171,19 @@ Metal Coat, Black Glasses, Never-Melt Ice, Silk Scarf, Damp Rock, Heat Rock,
 Smooth Rock, Icy Rock, Light Clay, Terrain Extender, Booster Energy,
 Sitrus Berry, Lum Berry, Chesto Berry, Oran Berry, Leppa Berry, Exp. Share,
 Amulet Coin, Everstone, Light Ball, Thick Club, Metronome, Shell Bell,
-Berry Juice, Antidote
+Berry Juice, Antidote, Lucky Egg, Fresh Water, Soda Pop, Lemonade,
+Moomoo Milk, Escape Rope, Poké Doll, Town Map, Old Rod, Good Rod,
+Super Rod, Itemfinder, Dowsing Machine, Vs. Seeker, Safety Goggles,
+Zoom Lens, Wide Lens, Scope Lens, Bright Powder, Quick Claw, Expert Belt,
+Muscle Band, Wise Glasses, Toxic Orb, Flame Orb, Black Sludge, Big Root,
+Binding Band, Grip Claw, Iron Ball, Lagging Tail, Mental Herb, Power Herb,
+White Herb, Red Card, Eject Button, Covert Cloak, Loaded Dice,
+Punching Glove, Clear Amulet, Mirror Herb, Fire Stone, Water Stone,
+Thunder Stone, Leaf Stone, Moon Stone, Sun Stone, Shiny Stone, Dusk Stone,
+Dawn Stone, Ice Stone, Oval Stone, King's Rock, Dragon Scale, Up-Grade,
+Dubious Disc, Electirizer, Magmarizer, Razor Claw, Razor Fang,
+Reaper Cloth, Prism Scale, Deep Sea Tooth, Deep Sea Scale, Metal Powder,
+Quick Powder, Lucky Punch, Soothe Bell, Cleanse Tag
 """
 
 ABILITIES = """
@@ -199,7 +211,9 @@ Ryme, Tulip, Grusha, Lorelei, Bruno, Agatha, Lance, Sidney, Phoebe, Glacia,
 Drake, Aaron, Bertha, Flint, Lucian, Shauntal, Grimsley, Caitlin, Malva,
 Siebold, Wikstrom, Drasna, Hala, Olivia, Nanu, Hapu, Rika, Poppy, Hassel,
 Steven, Cynthia, Alder, Diantha, Leon, Geeta, Nemona, Professor Oak, Team Rocket,
-Nurse Joy, Officer Jenny
+Nurse Joy, Officer Jenny, Professor Elm, Professor Birch, Professor Rowan,
+Professor Juniper, Professor Sycamore, Professor Kukui, Professor Magnolia,
+Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull
 """
 
 PLACES = """
@@ -210,14 +224,20 @@ Cerulean Cave, Ecruteak City, Goldenrod City, Blackthorn City, Olivine City,
 Azalea Town, Sootopolis City, Mauville City, Rustboro City, Lilycove City,
 Battle Frontier, Battle Tower, Battle Maison, Pokémon Center, Pokémon League,
 Elite Four, Day Care, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea,
-Route 1, Tall Grass, PC box
+Route 1, Tall Grass, PC box, Kanto, Johto, Ruins of Alph, Lake of Rage,
+Seafoam Islands, Viridian Forest, Power Plant, Pokémon Tower, Union Cave,
+Whirl Islands, Mt. Silver, Violet City, Cherrygrove City, New Bark Town,
+Celadon Department Store, Slowpoke Well, Sprout Tower, Bell Tower,
+Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station
 """
 
 MECHANICS = """
 Flat Rules, VGC, Regulation G, Effort Values, EVs, IVs, Individual Values,
 Base Stat Total, Type Chart, Super Effective, STAB, Critical Hit, Shiny,
 Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
-Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit
+Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
+Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
+Move Tutor, TM, HM
 """
 
 
