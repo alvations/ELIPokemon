@@ -1,5 +1,5 @@
 {
-  "count": 124,
+  "count": 128,
   "questions": [
     {
       "id": "001",
@@ -1989,6 +1989,75 @@
         "in-context-learning",
         "data-curation",
         "packing"
+      ]
+    },
+    {
+      "id": "125",
+      "slug": "speech-recognition",
+      "question": "How does modern speech recognition work?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/125-speech-recognition.md",
+      "pokemon_path": "answers/pokemon/125-speech-recognition.md",
+      "tags": [
+        "asr",
+        "whisper",
+        "ctc",
+        "rnn-t",
+        "log-mel",
+        "wer",
+        "streaming"
+      ]
+    },
+    {
+      "id": "126",
+      "slug": "video-understanding",
+      "question": "How do you extend a vision-language model to video?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/126-video-understanding.md",
+      "pokemon_path": "answers/pokemon/126-video-understanding.md",
+      "tags": [
+        "video",
+        "frame-sampling",
+        "temporal",
+        "token-budget",
+        "long-context",
+        "needle-in-haystack"
+      ]
+    },
+    {
+      "id": "127",
+      "slug": "chart-and-diagram-reasoning",
+      "question": "Why do models struggle to read charts and diagrams?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/127-chart-and-diagram-reasoning.md",
+      "pokemon_path": "answers/pokemon/127-chart-and-diagram-reasoning.md",
+      "tags": [
+        "chartqa",
+        "plots",
+        "visual-reasoning",
+        "program-of-thought",
+        "synthetic-data",
+        "grounding"
+      ]
+    },
+    {
+      "id": "128",
+      "slug": "visual-grounding-spatial-reasoning",
+      "question": "How do models point at things in an image, and why is spatial reasoning hard?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/128-visual-grounding-spatial-reasoning.md",
+      "pokemon_path": "answers/pokemon/128-visual-grounding-spatial-reasoning.md",
+      "tags": [
+        "grounding",
+        "bounding-boxes",
+        "referring-expressions",
+        "set-of-mark",
+        "iou",
+        "gui-agents"
       ]
     }
   ]

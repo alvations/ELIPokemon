@@ -123,3 +123,7 @@ id	slug	category	difficulty	question
 122	multimodal-hallucination	multimodal	intermediate	Why do vision-language models hallucinate objects, and how do you measure it?
 123	document-understanding-ocr	multimodal	intermediate	How do you build question answering over scanned documents?
 124	interleaved-multimodal-data	multimodal	advanced	Why train on interleaved image-text documents instead of image-caption pairs?
+125	speech-recognition	multimodal	intermediate	How does modern speech recognition work?
+126	video-understanding	multimodal	advanced	How do you extend a vision-language model to video?
+127	chart-and-diagram-reasoning	multimodal	intermediate	Why do models struggle to read charts and diagrams?
+128	visual-grounding-spatial-reasoning	multimodal	intermediate	How do models point at things in an image, and why is spatial reasoning hard?

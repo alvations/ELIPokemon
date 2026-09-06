@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**124 answers · mean 58.2 · median 53.6 · min 38.5 (094) · max 100.0 (111)**
+**128 answers · mean 58.4 · median 53.9 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 11 |
-| strong | 65-79 | 17 |
-| adequate | 50-64 | 55 |
-| thin | 35-49 | 41 |
+| excellent | 80-100 | 12 |
+| strong | 65-79 | 18 |
+| adequate | 50-64 | 56 |
+| thin | 35-49 | 42 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -48,6 +48,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **45.3** | thin | [`047`](answers/pokemon/047-query-rewriting-hyde.md) | query-rewriting-hyde | 7 | 8 | 19 | 1.2 |
 | **45.5** | thin | [`084`](answers/pokemon/084-cross-entropy-loss.md) | cross-entropy-loss | 4 | 11 | 16 | 1.7 |
 | **45.5** | thin | [`096`](answers/pokemon/096-ab-testing-ml.md) | ab-testing-ml | 8 | 11 | 42 | 1.5 |
+| **45.5** | thin | [`125`](answers/pokemon/125-speech-recognition.md) | speech-recognition | 6 | 10 | 8 | 1.1 |
 | **45.6** | thin | [`015`](answers/pokemon/015-emergent-abilities.md) | emergent-abilities | 4 | 11 | 27 | 2.1 |
 | **45.6** | thin | [`077`](answers/pokemon/077-mixed-precision-training.md) | mixed-precision-training | 6 | 7 | 9 | 1.1 |
 | **45.8** | thin | [`028`](answers/pokemon/028-qlora.md) | qlora | 6 | 11 | 29 | 1.6 |
@@ -115,6 +116,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **59.9** | adequate | [`041`](answers/pokemon/041-rag-vs-finetuning.md) | rag-vs-finetuning | 10 | 13 | 26 | 1.7 |
 | **59.9** | adequate | [`124`](answers/pokemon/124-interleaved-multimodal-data.md) | interleaved-multimodal-data | 11 | 11 | 16 | 1.3 |
 | **60.5** | adequate | [`021`](answers/pokemon/021-reward-models.md) | reward-models | 9 | 13 | 24 | 2.0 |
+| **60.9** | adequate | [`126`](answers/pokemon/126-video-understanding.md) | video-understanding | 11 | 14 | 32 | 1.7 |
 | **61.0** | adequate | [`117`](answers/pokemon/117-vision-language-architectures.md) | vision-language-architectures | 9 | 18 | 11 | 2.0 |
 | **61.7** | adequate | [`030`](answers/pokemon/030-quantization.md) | quantization | 9 | 14 | 22 | 2.1 |
 | **61.8** | adequate | [`010`](answers/pokemon/010-flash-attention.md) | flash-attention | 10 | 11 | 19 | 1.8 |
@@ -127,6 +129,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **64.6** | adequate | [`043`](answers/pokemon/043-embeddings.md) | embeddings | 11 | 13 | 13 | 1.8 |
 | **65.4** | strong | [`067`](answers/pokemon/067-dropout.md) | dropout | 10 | 15 | 34 | 2.5 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
+| **66.7** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 10 | 21 | 18 | 2.4 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
 | **67.7** | strong | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 9 | 22 | 21 | 2.8 |
 | **69.9** | strong | [`034`](answers/pokemon/034-sampling-temperature-top-p.md) | sampling-temperature-top-p | 9 | 21 | 28 | 3.0 |
@@ -144,6 +147,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **79.2** | strong | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 13 | 18 | 15 | 2.9 |
 | **82.1** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 14 | 23 | 8 | 2.9 |
 | **82.7** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 11 | 26 | 29 | 3.9 |
+| **83.0** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 17 | 20 | 26 | 2.1 |
 | **87.6** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 15 | 21 | 20 | 3.3 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
 | **94.0** | excellent | [`106`](answers/pokemon/106-script-vs-language.md) | script-vs-language | 15 | 28 | 16 | 4.5 |
