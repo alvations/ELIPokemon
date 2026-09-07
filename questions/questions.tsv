@@ -143,3 +143,7 @@ id	slug	category	difficulty	question
 142	gender-bias-in-translation	translation	intermediate	Why do translation systems get gender wrong, and what can you do about it?
 143	simultaneous-speech-translation	translation	advanced	How does simultaneous speech translation work, and why is it hard?
 144	length-constrained-translation	translation	intermediate	How do you translate when the output has a hard length limit?
+145	gui-computer-use-agents	multimodal	advanced	How do agents that operate a computer from screenshots actually work?
+146	synthetic-captions-data-curation	multimodal	advanced	Why do multimodal models train on synthetic captions instead of web alt-text?
+147	multimodal-benchmarks-contamination	multimodal	intermediate	Why are multimodal benchmark scores so unreliable?
+148	modality-balance-training-recipes	multimodal	advanced	How do you balance modalities when training a multimodal model?

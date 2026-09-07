@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 148,
   "questions": [
     {
       "id": "001",
@@ -2332,6 +2332,74 @@
         "expansion",
         "line-breaking",
         "compliance"
+      ]
+    },
+    {
+      "id": "145",
+      "slug": "gui-computer-use-agents",
+      "question": "How do agents that operate a computer from screenshots actually work?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/145-gui-computer-use-agents.md",
+      "pokemon_path": "answers/pokemon/145-gui-computer-use-agents.md",
+      "tags": [
+        "computer-use",
+        "gui-agents",
+        "grounding",
+        "action-space",
+        "osworld",
+        "error-recovery"
+      ]
+    },
+    {
+      "id": "146",
+      "slug": "synthetic-captions-data-curation",
+      "question": "Why do multimodal models train on synthetic captions instead of web alt-text?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/146-synthetic-captions-data-curation.md",
+      "pokemon_path": "answers/pokemon/146-synthetic-captions-data-curation.md",
+      "tags": [
+        "synthetic-data",
+        "recaptioning",
+        "alt-text",
+        "filtering",
+        "model-collapse",
+        "curation"
+      ]
+    },
+    {
+      "id": "147",
+      "slug": "multimodal-benchmarks-contamination",
+      "question": "Why are multimodal benchmark scores so unreliable?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/147-multimodal-benchmarks-contamination.md",
+      "pokemon_path": "answers/pokemon/147-multimodal-benchmarks-contamination.md",
+      "tags": [
+        "benchmarks",
+        "contamination",
+        "blind-baseline",
+        "saturation",
+        "mmmu",
+        "evaluation-design"
+      ]
+    },
+    {
+      "id": "148",
+      "slug": "modality-balance-training-recipes",
+      "question": "How do you balance modalities when training a multimodal model?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/148-modality-balance-training-recipes.md",
+      "pokemon_path": "answers/pokemon/148-modality-balance-training-recipes.md",
+      "tags": [
+        "data-mixture",
+        "curriculum",
+        "forgetting",
+        "stage-training",
+        "ablation",
+        "loss-weighting"
       ]
     }
   ]
