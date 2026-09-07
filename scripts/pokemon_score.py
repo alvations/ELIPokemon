@@ -129,6 +129,7 @@ Tatsugiri Annihilape Clodsire Farigiraf Dudunsparce Kingambit Great Tusk
 Iron Treads Baxcalibur Gimmighoul Gholdengo Wo-Chien Chien-Pao Ting-Lu Chi-Yu
 Roaring Moon Iron Valiant Koraidon Miraidon Walking Wake Iron Leaves
  Nidoran Nidorina Nidorino Silvally Kricketune Vivillon Silcoon Cascoon
+ Crabominable Fletchinder Blacephalon Quilava
 """.split()
 
 MOVES = """
@@ -186,7 +187,11 @@ Thunder Stone, Leaf Stone, Moon Stone, Sun Stone, Shiny Stone, Dusk Stone,
 Dawn Stone, Ice Stone, Oval Stone, King's Rock, Dragon Scale, Up-Grade,
 Dubious Disc, Electirizer, Magmarizer, Razor Claw, Razor Fang,
 Reaper Cloth, Prism Scale, Deep Sea Tooth, Deep Sea Scale, Metal Powder,
-Quick Powder, Lucky Punch, Soothe Bell, Cleanse Tag
+Quick Powder, Lucky Punch, Soothe Bell, Cleanse Tag, Protein, Iron,
+Calcium, Zinc, Carbos, HP Up, PP Up, Bottle Cap, Gold Bottle Cap,
+Ability Capsule, Ability Patch, Heart Scale, Pomeg Berry, Kelpsy Berry,
+Qualot Berry, Hondew Berry, Grepa Berry, Tamato Berry, Burn Heal,
+Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy
 """
 
 ABILITIES = """
@@ -218,7 +223,7 @@ Nurse Joy, Officer Jenny, Professor Elm, Professor Birch, Professor Rowan,
 Professor Juniper, Professor Sycamore, Professor Kukui, Professor Magnolia,
 Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull,
 Youngster Joey, Youngster, Bug Catcher, Ace Trainer, Cooltrainer,
-Poké Maniac, Super Nerd, Rocket Grunt
+Poké Maniac, Super Nerd, Rocket Grunt, Name Rater, Move Deleter, Move Reminder
 """
 
 PLACES = """
@@ -233,7 +238,7 @@ Route 1, Tall Grass, PC box, Kanto, Johto, Ruins of Alph, Lake of Rage,
 Seafoam Islands, Viridian Forest, Power Plant, Pokémon Tower, Union Cave,
 Whirl Islands, Mt. Silver, Violet City, Cherrygrove City, New Bark Town,
 Celadon Department Store, Slowpoke Well, Sprout Tower, Bell Tower,
-Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station
+Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station, Poké Mart
 """
 
 MECHANICS = """
@@ -242,7 +247,8 @@ Base Stat Total, Type Chart, Super Effective, STAB, Critical Hit, Shiny,
 Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
 Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
 Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
-Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video
+Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video,
+Hyper Training, Original Trainer, Badly Poisoned
 """
 
 
