@@ -151,3 +151,7 @@ id	slug	category	difficulty	question
 150	localisation-beyond-text	translation	intermediate	What does localisation involve beyond translating the words?
 151	medical-scientific-imaging	multimodal	advanced	What makes medical and scientific imaging different from natural-image vision?
 152	3d-and-depth-understanding	multimodal	advanced	Why do vision-language models struggle with 3D and depth?
+153	speech-to-speech-translation	translation	advanced	How do you translate speech into speech while keeping the speaker's voice?
+154	dubbing-and-lip-sync	translation	advanced	What makes translating for dubbing different from translating subtitles?
+155	sign-language-translation	translation	advanced	Why is sign language translation not just video captioning?
+156	translating-code-and-markup	translation	intermediate	How do you translate documents containing code, markup and placeholders?

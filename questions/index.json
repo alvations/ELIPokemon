@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 156,
   "questions": [
     {
       "id": "001",
@@ -2469,6 +2469,74 @@
         "nerf",
         "gaussian-splatting",
         "embodied"
+      ]
+    },
+    {
+      "id": "153",
+      "slug": "speech-to-speech-translation",
+      "question": "How do you translate speech into speech while keeping the speaker's voice?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/153-speech-to-speech-translation.md",
+      "pokemon_path": "answers/pokemon/153-speech-to-speech-translation.md",
+      "tags": [
+        "s2st",
+        "voice-preservation",
+        "cascade",
+        "discrete-units",
+        "prosody-transfer",
+        "consent"
+      ]
+    },
+    {
+      "id": "154",
+      "slug": "dubbing-and-lip-sync",
+      "question": "What makes translating for dubbing different from translating subtitles?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/154-dubbing-and-lip-sync.md",
+      "pokemon_path": "answers/pokemon/154-dubbing-and-lip-sync.md",
+      "tags": [
+        "dubbing",
+        "isochrony",
+        "lip-sync",
+        "phonetic-matching",
+        "alignment",
+        "av-translation"
+      ]
+    },
+    {
+      "id": "155",
+      "slug": "sign-language-translation",
+      "question": "Why is sign language translation not just video captioning?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/155-sign-language-translation.md",
+      "pokemon_path": "answers/pokemon/155-sign-language-translation.md",
+      "tags": [
+        "sign-language",
+        "glosses",
+        "non-manual-markers",
+        "avatars",
+        "deaf-community",
+        "low-resource"
+      ]
+    },
+    {
+      "id": "156",
+      "slug": "translating-code-and-markup",
+      "question": "How do you translate documents containing code, markup and placeholders?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/156-translating-code-and-markup.md",
+      "pokemon_path": "answers/pokemon/156-translating-code-and-markup.md",
+      "tags": [
+        "markup",
+        "tags",
+        "placeholders",
+        "inline-formatting",
+        "xliff",
+        "segmentation"
       ]
     }
   ]

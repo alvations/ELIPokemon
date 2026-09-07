@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**152 answers · mean 59.3 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
+**156 answers · mean 59.3 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 17 |
-| strong | 65-79 | 24 |
-| adequate | 50-64 | 67 |
-| thin | 35-49 | 44 |
+| strong | 65-79 | 25 |
+| adequate | 50-64 | 69 |
+| thin | 35-49 | 45 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -61,6 +61,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **47.2** | thin | [`033`](answers/pokemon/033-speculative-decoding.md) | speculative-decoding | 8 | 12 | 50 | 1.8 |
 | **47.2** | thin | [`089`](answers/pokemon/089-bagging-vs-boosting.md) | bagging-vs-boosting | 8 | 9 | 24 | 1.2 |
 | **47.4** | thin | [`026`](answers/pokemon/026-catastrophic-forgetting.md) | catastrophic-forgetting | 8 | 9 | 29 | 1.5 |
+| **47.4** | thin | [`153`](answers/pokemon/153-speech-to-speech-translation.md) | speech-to-speech-translation | 6 | 8 | 11 | 1.4 |
 | **47.5** | thin | [`020`](answers/pokemon/020-dpo-vs-ppo.md) | dpo-vs-ppo | 5 | 15 | 38 | 2.1 |
 | **47.6** | thin | [`076`](answers/pokemon/076-learning-rate-schedules.md) | learning-rate-schedules | 7 | 8 | 15 | 1.1 |
 | **47.8** | thin | [`002`](answers/pokemon/002-positional-encodings-rope.md) | positional-encodings-rope | 8 | 10 | 30 | 1.4 |
@@ -98,6 +99,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **53.4** | adequate | [`123`](answers/pokemon/123-document-understanding-ocr.md) | document-understanding-ocr | 9 | 10 | 8 | 1.1 |
 | **53.6** | adequate | [`052`](answers/pokemon/052-context-engineering.md) | context-engineering | 8 | 11 | 23 | 1.6 |
 | **53.6** | adequate | [`057`](answers/pokemon/057-test-time-compute.md) | test-time-compute | 10 | 12 | 41 | 1.7 |
+| **53.6** | adequate | [`156`](answers/pokemon/156-translating-code-and-markup.md) | translating-code-and-markup | 7 | 13 | 8 | 1.8 |
 | **53.9** | adequate | [`023`](answers/pokemon/023-grpo-reasoning.md) | grpo-reasoning | 7 | 15 | 35 | 2.1 |
 | **54.2** | adequate | [`121`](answers/pokemon/121-high-resolution-tiling.md) | high-resolution-tiling | 8 | 14 | 8 | 1.5 |
 | **54.4** | adequate | [`040`](answers/pokemon/040-hallucination.md) | hallucination | 7 | 14 | 23 | 1.9 |
@@ -136,6 +138,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **62.7** | adequate | [`055`](answers/pokemon/055-model-context-protocol.md) | model-context-protocol | 12 | 12 | 30 | 1.7 |
 | **62.7** | adequate | [`120`](answers/pokemon/120-contrastive-image-text-pretraining.md) | contrastive-image-text-pretraining | 11 | 14 | 12 | 1.6 |
 | **62.8** | adequate | [`122`](answers/pokemon/122-multimodal-hallucination.md) | multimodal-hallucination | 9 | 19 | 5 | 2.2 |
+| **63.2** | adequate | [`154`](answers/pokemon/154-dubbing-and-lip-sync.md) | dubbing-and-lip-sync | 10 | 14 | 3 | 2.0 |
 | **64.1** | adequate | [`144`](answers/pokemon/144-length-constrained-translation.md) | length-constrained-translation | 9 | 19 | 16 | 2.4 |
 | **64.3** | adequate | [`008`](answers/pokemon/008-kv-cache.md) | kv-cache | 11 | 15 | 50 | 2.6 |
 | **64.6** | adequate | [`043`](answers/pokemon/043-embeddings.md) | embeddings | 11 | 13 | 13 | 1.8 |
@@ -150,6 +153,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
 | **67.7** | strong | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 9 | 22 | 21 | 2.8 |
 | **69.9** | strong | [`034`](answers/pokemon/034-sampling-temperature-top-p.md) | sampling-temperature-top-p | 9 | 21 | 28 | 3.0 |
+| **69.9** | strong | [`155`](answers/pokemon/155-sign-language-translation.md) | sign-language-translation | 13 | 15 | 7 | 1.8 |
 | **70.2** | strong | [`054`](answers/pokemon/054-tool-calling.md) | tool-calling | 9 | 22 | 29 | 3.1 |
 | **70.5** | strong | [`146`](answers/pokemon/146-synthetic-captions-data-curation.md) | synthetic-captions-data-curation | 13 | 15 | 11 | 1.9 |
 | **70.6** | strong | [`066`](answers/pokemon/066-l1-vs-l2-regularization.md) | l1-vs-l2-regularization | 6 | 27 | 20 | 4.5 |
