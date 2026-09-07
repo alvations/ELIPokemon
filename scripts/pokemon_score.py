@@ -216,7 +216,9 @@ Siebold, Wikstrom, Drasna, Hala, Olivia, Nanu, Hapu, Rika, Poppy, Hassel,
 Steven, Cynthia, Alder, Diantha, Leon, Geeta, Nemona, Professor Oak, Team Rocket,
 Nurse Joy, Officer Jenny, Professor Elm, Professor Birch, Professor Rowan,
 Professor Juniper, Professor Sycamore, Professor Kukui, Professor Magnolia,
-Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull
+Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull,
+Youngster Joey, Youngster, Bug Catcher, Ace Trainer, Cooltrainer,
+Poké Maniac, Super Nerd, Rocket Grunt
 """
 
 PLACES = """

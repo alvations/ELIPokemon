@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**140 answers · mean 58.8 · median 54.2 · min 38.5 (094) · max 100.0 (111)**
+**144 answers · mean 58.7 · median 53.9 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 15 |
-| strong | 65-79 | 21 |
-| adequate | 50-64 | 62 |
-| thin | 35-49 | 42 |
+| strong | 65-79 | 22 |
+| adequate | 50-64 | 63 |
+| thin | 35-49 | 44 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -57,6 +57,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **46.2** | thin | [`064`](answers/pokemon/064-bias-variance-tradeoff.md) | bias-variance-tradeoff | 6 | 11 | 30 | 1.8 |
 | **46.6** | thin | [`049`](answers/pokemon/049-chain-of-thought.md) | chain-of-thought | 5 | 11 | 20 | 1.6 |
 | **47.0** | thin | [`090`](answers/pokemon/090-transfer-learning.md) | transfer-learning | 8 | 11 | 38 | 1.5 |
+| **47.1** | thin | [`142`](answers/pokemon/142-gender-bias-in-translation.md) | gender-bias-in-translation | 4 | 15 | 13 | 1.9 |
 | **47.2** | thin | [`033`](answers/pokemon/033-speculative-decoding.md) | speculative-decoding | 8 | 12 | 50 | 1.8 |
 | **47.2** | thin | [`089`](answers/pokemon/089-bagging-vs-boosting.md) | bagging-vs-boosting | 8 | 9 | 24 | 1.2 |
 | **47.4** | thin | [`026`](answers/pokemon/026-catastrophic-forgetting.md) | catastrophic-forgetting | 8 | 9 | 29 | 1.5 |
@@ -67,6 +68,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **48.1** | thin | [`088`](answers/pokemon/088-trees-forests-boosting.md) | trees-forests-boosting | 9 | 10 | 32 | 1.3 |
 | **48.3** | thin | [`065`](answers/pokemon/065-overfitting.md) | overfitting | 7 | 11 | 31 | 1.7 |
 | **48.5** | thin | [`069`](answers/pokemon/069-precision-recall-f1.md) | precision-recall-f1 | 6 | 9 | 11 | 1.5 |
+| **48.6** | thin | [`144`](answers/pokemon/144-length-constrained-translation.md) | length-constrained-translation | 6 | 12 | 16 | 1.5 |
 | **48.7** | thin | [`017`](answers/pokemon/017-teacher-forcing-exposure-bias.md) | teacher-forcing-exposure-bias | 9 | 10 | 45 | 1.7 |
 | **48.9** | thin | [`039`](answers/pokemon/039-benchmark-contamination.md) | benchmark-contamination | 7 | 13 | 40 | 1.9 |
 | **49.3** | thin | [`074`](answers/pokemon/074-vanishing-exploding-gradients.md) | vanishing-exploding-gradients | 6 | 14 | 38 | 2.1 |
@@ -74,6 +76,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.0** | adequate | [`097`](answers/pokemon/097-serving-cost-latency.md) | serving-cost-latency | 10 | 11 | 48 | 1.5 |
 | **50.2** | adequate | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 10 | 12 | 53 | 1.6 |
 | **50.2** | adequate | [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md) | finetuning-vs-peft-vs-prompting | 8 | 11 | 31 | 1.6 |
+| **50.3** | adequate | [`141`](answers/pokemon/141-formality-and-honorifics.md) | formality-and-honorifics | 6 | 12 | 14 | 1.7 |
 | **50.4** | adequate | [`032`](answers/pokemon/032-pruning-and-sparsity.md) | pruning-and-sparsity | 7 | 11 | 9 | 1.4 |
 | **50.6** | adequate | [`062`](answers/pokemon/062-red-teaming.md) | red-teaming | 10 | 10 | 34 | 1.3 |
 | **50.6** | adequate | [`093`](answers/pokemon/093-diffusion-models.md) | diffusion-models | 5 | 15 | 14 | 2.0 |
@@ -139,6 +142,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **65.6** | strong | [`137`](answers/pokemon/137-diffusion-image-generation.md) | diffusion-image-generation | 8 | 23 | 12 | 2.8 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
 | **66.7** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 10 | 21 | 18 | 2.4 |
+| **67.4** | strong | [`143`](answers/pokemon/143-simultaneous-speech-translation.md) | simultaneous-speech-translation | 9 | 22 | 26 | 2.7 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
 | **67.7** | strong | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 9 | 22 | 21 | 2.8 |
 | **69.9** | strong | [`034`](answers/pokemon/034-sampling-temperature-top-p.md) | sampling-temperature-top-p | 9 | 21 | 28 | 3.0 |
