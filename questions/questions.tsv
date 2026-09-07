@@ -139,3 +139,7 @@ id	slug	category	difficulty	question
 138	speech-language-models	multimodal	advanced	How do you build a model that listens and speaks, rather than reads and writes?
 139	multimodal-safety-attacks	multimodal	advanced	How does adding images to a model create new safety problems?
 140	multimodal-retrieval	multimodal	intermediate	How do you build retrieval over documents that contain images and tables?
+141	formality-and-honorifics	translation	intermediate	How do you control formality and honorifics in translation?
+142	gender-bias-in-translation	translation	intermediate	Why do translation systems get gender wrong, and what can you do about it?
+143	simultaneous-speech-translation	translation	advanced	How does simultaneous speech translation work, and why is it hard?
+144	length-constrained-translation	translation	intermediate	How do you translate when the output has a hard length limit?

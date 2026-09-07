@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 144,
   "questions": [
     {
       "id": "001",
@@ -2264,6 +2264,74 @@
         "captioning",
         "chunking",
         "citation"
+      ]
+    },
+    {
+      "id": "141",
+      "slug": "formality-and-honorifics",
+      "question": "How do you control formality and honorifics in translation?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/141-formality-and-honorifics.md",
+      "pokemon_path": "answers/pokemon/141-formality-and-honorifics.md",
+      "tags": [
+        "formality",
+        "keigo",
+        "t-v-distinction",
+        "register",
+        "control-tokens",
+        "cocoa-mt"
+      ]
+    },
+    {
+      "id": "142",
+      "slug": "gender-bias-in-translation",
+      "question": "Why do translation systems get gender wrong, and what can you do about it?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/142-gender-bias-in-translation.md",
+      "pokemon_path": "answers/pokemon/142-gender-bias-in-translation.md",
+      "tags": [
+        "gender-bias",
+        "winomt",
+        "stereotypes",
+        "ambiguity",
+        "multiple-translations",
+        "fairness"
+      ]
+    },
+    {
+      "id": "143",
+      "slug": "simultaneous-speech-translation",
+      "question": "How does simultaneous speech translation work, and why is it hard?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/143-simultaneous-speech-translation.md",
+      "pokemon_path": "answers/pokemon/143-simultaneous-speech-translation.md",
+      "tags": [
+        "speech-translation",
+        "simultaneous",
+        "wait-k",
+        "latency",
+        "word-order",
+        "re-translation"
+      ]
+    },
+    {
+      "id": "144",
+      "slug": "length-constrained-translation",
+      "question": "How do you translate when the output has a hard length limit?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/144-length-constrained-translation.md",
+      "pokemon_path": "answers/pokemon/144-length-constrained-translation.md",
+      "tags": [
+        "subtitles",
+        "length-control",
+        "ui-strings",
+        "expansion",
+        "line-breaking",
+        "compliance"
       ]
     }
   ]
