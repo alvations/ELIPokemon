@@ -15,21 +15,20 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**152 answers · mean 59.0 · median 54.9 · min 32.6 (150) · max 100.0 (111)**
+**152 answers · mean 59.3 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 16 |
+| excellent | 80-100 | 17 |
 | strong | 65-79 | 24 |
 | adequate | 50-64 | 67 |
 | thin | 35-49 | 44 |
-| generic | 0-34 | 1 |
+| generic | 0-34 | 0 |
 
 ## Every answer, lowest first
 
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| **32.6** | generic | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 5 | 5 | 15 | 0.6 |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
 | **40.5** | thin | [`147`](answers/pokemon/147-multimodal-benchmarks-contamination.md) | multimodal-benchmarks-contamination | 6 | 7 | 18 | 1.0 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
@@ -169,6 +168,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **82.1** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 14 | 23 | 8 | 2.9 |
 | **82.6** | excellent | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 15 | 26 | 22 | 2.7 |
 | **82.7** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 11 | 26 | 29 | 3.9 |
+| **84.6** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 18 | 20 | 14 | 2.2 |
 | **85.7** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 19 | 22 | 26 | 2.4 |
 | **87.3** | excellent | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 15 | 23 | 17 | 3.2 |
 | **87.6** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 15 | 21 | 20 | 3.3 |

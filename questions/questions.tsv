@@ -147,3 +147,7 @@ id	slug	category	difficulty	question
 146	synthetic-captions-data-curation	multimodal	advanced	Why do multimodal models train on synthetic captions instead of web alt-text?
 147	multimodal-benchmarks-contamination	multimodal	intermediate	Why are multimodal benchmark scores so unreliable?
 148	modality-balance-training-recipes	multimodal	advanced	How do you balance modalities when training a multimodal model?
+149	post-editing-human-in-the-loop	translation	intermediate	How does machine translation post-editing work, and what does it cost?
+150	localisation-beyond-text	translation	intermediate	What does localisation involve beyond translating the words?
+151	medical-scientific-imaging	multimodal	advanced	What makes medical and scientific imaging different from natural-image vision?
+152	3d-and-depth-understanding	multimodal	advanced	Why do vision-language models struggle with 3D and depth?

@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 152,
   "questions": [
     {
       "id": "001",
@@ -2400,6 +2400,75 @@
         "stage-training",
         "ablation",
         "loss-weighting"
+      ]
+    },
+    {
+      "id": "149",
+      "slug": "post-editing-human-in-the-loop",
+      "question": "How does machine translation post-editing work, and what does it cost?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/149-post-editing-human-in-the-loop.md",
+      "pokemon_path": "answers/pokemon/149-post-editing-human-in-the-loop.md",
+      "tags": [
+        "post-editing",
+        "hter",
+        "post-editese",
+        "anchoring",
+        "transcreation",
+        "feedback-loop"
+      ]
+    },
+    {
+      "id": "150",
+      "slug": "localisation-beyond-text",
+      "question": "What does localisation involve beyond translating the words?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/150-localisation-beyond-text.md",
+      "pokemon_path": "answers/pokemon/150-localisation-beyond-text.md",
+      "tags": [
+        "localisation",
+        "i18n",
+        "formats",
+        "rtl",
+        "collation",
+        "transcreation",
+        "pluralisation"
+      ]
+    },
+    {
+      "id": "151",
+      "slug": "medical-scientific-imaging",
+      "question": "What makes medical and scientific imaging different from natural-image vision?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/151-medical-scientific-imaging.md",
+      "pokemon_path": "answers/pokemon/151-medical-scientific-imaging.md",
+      "tags": [
+        "medical-imaging",
+        "shortcut-learning",
+        "calibration",
+        "abstention",
+        "distribution-shift",
+        "sensitivity"
+      ]
+    },
+    {
+      "id": "152",
+      "slug": "3d-and-depth-understanding",
+      "question": "Why do vision-language models struggle with 3D and depth?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/152-3d-and-depth-understanding.md",
+      "pokemon_path": "answers/pokemon/152-3d-and-depth-understanding.md",
+      "tags": [
+        "depth-estimation",
+        "scale-ambiguity",
+        "point-clouds",
+        "nerf",
+        "gaussian-splatting",
+        "embodied"
       ]
     }
   ]
