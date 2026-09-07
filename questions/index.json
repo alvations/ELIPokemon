@@ -1,5 +1,5 @@
 {
-  "count": 136,
+  "count": 140,
   "questions": [
     {
       "id": "001",
@@ -2195,6 +2195,75 @@
         "language-tags",
         "detection",
         "oscillatory"
+      ]
+    },
+    {
+      "id": "137",
+      "slug": "diffusion-image-generation",
+      "question": "How do diffusion models generate images from text?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/137-diffusion-image-generation.md",
+      "pokemon_path": "answers/pokemon/137-diffusion-image-generation.md",
+      "tags": [
+        "diffusion",
+        "latent-diffusion",
+        "classifier-free-guidance",
+        "dit",
+        "flow-matching",
+        "fid"
+      ]
+    },
+    {
+      "id": "138",
+      "slug": "speech-language-models",
+      "question": "How do you build a model that listens and speaks, rather than reads and writes?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/138-speech-language-models.md",
+      "pokemon_path": "answers/pokemon/138-speech-language-models.md",
+      "tags": [
+        "speech-llm",
+        "audio-tokens",
+        "cascaded",
+        "end-to-end",
+        "duplex",
+        "prosody",
+        "voice-cloning"
+      ]
+    },
+    {
+      "id": "139",
+      "slug": "multimodal-safety-attacks",
+      "question": "How does adding images to a model create new safety problems?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/139-multimodal-safety-attacks.md",
+      "pokemon_path": "answers/pokemon/139-multimodal-safety-attacks.md",
+      "tags": [
+        "multimodal-safety",
+        "jailbreak",
+        "typographic-attack",
+        "prompt-injection",
+        "adversarial",
+        "agents"
+      ]
+    },
+    {
+      "id": "140",
+      "slug": "multimodal-retrieval",
+      "question": "How do you build retrieval over documents that contain images and tables?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/140-multimodal-retrieval.md",
+      "pokemon_path": "answers/pokemon/140-multimodal-retrieval.md",
+      "tags": [
+        "multimodal-rag",
+        "colpali",
+        "late-interaction",
+        "captioning",
+        "chunking",
+        "citation"
       ]
     }
   ]

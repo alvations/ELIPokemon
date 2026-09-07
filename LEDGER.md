@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**136 answers · mean 58.8 · median 53.9 · min 38.5 (094) · max 100.0 (111)**
+**140 answers · mean 58.8 · median 54.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 15 |
-| strong | 65-79 | 19 |
-| adequate | 50-64 | 61 |
-| thin | 35-49 | 41 |
+| strong | 65-79 | 21 |
+| adequate | 50-64 | 62 |
+| thin | 35-49 | 42 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -41,6 +41,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **43.2** | thin | [`050`](answers/pokemon/050-self-consistency.md) | self-consistency | 5 | 8 | 14 | 1.2 |
 | **43.4** | thin | [`038`](answers/pokemon/038-llm-as-a-judge.md) | llm-as-a-judge | 7 | 11 | 47 | 1.6 |
 | **43.4** | thin | [`083`](answers/pokemon/083-softmax-and-logsumexp.md) | softmax-and-logsumexp | 4 | 9 | 13 | 1.5 |
+| **43.4** | thin | [`138`](answers/pokemon/138-speech-language-models.md) | speech-language-models | 5 | 10 | 11 | 1.2 |
 | **44.1** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 4 | 10 | 4 | 1.6 |
 | **44.8** | thin | [`025`](answers/pokemon/025-instruction-tuning.md) | instruction-tuning | 7 | 12 | 44 | 1.6 |
 | **44.9** | thin | [`009`](answers/pokemon/009-mqa-and-gqa.md) | mqa-and-gqa | 6 | 10 | 31 | 1.8 |
@@ -108,6 +109,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **55.5** | adequate | [`079`](answers/pokemon/079-parallelism-strategies.md) | parallelism-strategies | 8 | 15 | 58 | 2.6 |
 | **55.6** | adequate | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 10 | 13 | 39 | 1.7 |
 | **56.5** | adequate | [`044`](answers/pokemon/044-vector-databases-ann.md) | vector-databases-ann | 8 | 14 | 12 | 1.8 |
+| **56.7** | adequate | [`139`](answers/pokemon/139-multimodal-safety-attacks.md) | multimodal-safety-attacks | 8 | 16 | 10 | 1.8 |
 | **57.1** | adequate | [`056`](answers/pokemon/056-multi-agent-systems.md) | multi-agent-systems | 10 | 13 | 36 | 1.8 |
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
@@ -134,6 +136,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **65.4** | strong | [`067`](answers/pokemon/067-dropout.md) | dropout | 10 | 15 | 34 | 2.5 |
 | **65.4** | strong | [`126`](answers/pokemon/126-video-understanding.md) | video-understanding | 12 | 15 | 32 | 1.8 |
 | **65.6** | strong | [`117`](answers/pokemon/117-vision-language-architectures.md) | vision-language-architectures | 10 | 20 | 11 | 2.2 |
+| **65.6** | strong | [`137`](answers/pokemon/137-diffusion-image-generation.md) | diffusion-image-generation | 8 | 23 | 12 | 2.8 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
 | **66.7** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 10 | 21 | 18 | 2.4 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
@@ -142,6 +145,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **70.2** | strong | [`054`](answers/pokemon/054-tool-calling.md) | tool-calling | 9 | 22 | 29 | 3.1 |
 | **70.6** | strong | [`066`](answers/pokemon/066-l1-vs-l2-regularization.md) | l1-vs-l2-regularization | 6 | 27 | 20 | 4.5 |
 | **70.7** | strong | [`136`](answers/pokemon/136-off-target-and-hallucinated-translation.md) | off-target-and-hallucinated-translation | 10 | 24 | 6 | 2.8 |
+| **72.9** | strong | [`140`](answers/pokemon/140-multimodal-retrieval.md) | multimodal-retrieval | 14 | 17 | 11 | 1.9 |
 | **73.7** | strong | [`016`](answers/pokemon/016-next-token-prediction.md) | next-token-prediction | 14 | 17 | 43 | 2.4 |
 | **74.2** | strong | [`001`](answers/pokemon/001-attention-mechanisms.md) | attention-mechanisms | 9 | 29 | 57 | 3.6 |
 | **74.4** | strong | [`112`](answers/pokemon/112-byte-level-and-tokenizer-free.md) | byte-level-and-tokenizer-free | 13 | 15 | 15 | 2.4 |

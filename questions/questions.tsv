@@ -135,3 +135,7 @@ id	slug	category	difficulty	question
 134	domain-adaptation-translation	translation	intermediate	How do you adapt a translation system to a specific domain?
 135	llm-versus-nmt-translation	translation	intermediate	When should you use an LLM for translation instead of a dedicated NMT model?
 136	off-target-and-hallucinated-translation	translation	advanced	Why do translation systems output the wrong language or invent content?
+137	diffusion-image-generation	multimodal	advanced	How do diffusion models generate images from text?
+138	speech-language-models	multimodal	advanced	How do you build a model that listens and speaks, rather than reads and writes?
+139	multimodal-safety-attacks	multimodal	advanced	How does adding images to a model create new safety problems?
+140	multimodal-retrieval	multimodal	intermediate	How do you build retrieval over documents that contain images and tables?
