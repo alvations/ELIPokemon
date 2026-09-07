@@ -8,28 +8,29 @@ unit of work finishes.
 
 | | |
 | --- | --- |
-| Improvement waves | **20 of 20 over `001–100` — target reached.** Mean over that range rose 22.4 → 53.2; every zero-scoring answer eliminated; minimum 0.0 → 38.5. Corpus-wide mean is now 58.9 across 132 answers. |
+| Improvement waves | **20 of 20 over `001–100` — target reached.** Mean over that range rose 22.4 → 53.2; every zero-scoring answer eliminated. Corpus-wide mean is now 59.3 across 152 answers. |
 | Documentation | **Done.** `README.md`, `HOW-IT-WAS-BUILT.md`, `LEARNINGS.md`, `RECREATE-PROMPT.md` committed in `a8f146c`. |
-| Corpus extension | **132 of the intended 200.** 101–116 `multilingual`, 117–128 `multimodal`, 129–132 `translation`. All complete, committed and validating. |
+| Corpus extension | **152 of the intended 200.** 101–116 `multilingual`, 117–128 and 137–140 and 145–148 and 151–152 `multimodal`, 129–136 and 141–144 and 149–150 `translation`. All complete, committed and validating. |
 | Open for the repo owner | The stale `claude/elipokemon-ml-interview-dataset-qibsci` branch must be deleted in the GitHub UI — delete pushes are rejected from this environment. |
 
 ## What to do next
 
-1. **Continue the extension from `133`.** Covered so far: `multilingual` 101–116;
-   `multimodal` 117–128 (VLM architectures, patches, cross-modal attention, contrastive
-   pretraining, resolution, hallucination, document QA, interleaved data, ASR, video,
-   charts, grounding); `translation` 129–132 (metrics beyond BLEU, low-resource,
-   document-level, quality estimation).
+1. **Continue the extension from `153`.** Covered so far: `multilingual` 101–116;
+   `multimodal` 117–128, 137–140, 145–148, 151–152; `translation` 129–136, 141–144,
+   149–150.
 
-   Still to write — roughly 34 more each of multimodal and translation:
-   * **multimodal**: image generation and diffusion, audio/speech LLMs and duplex dialogue,
-     multimodal safety and jailbreaks through images, multimodal RAG, embodied and GUI
-     agents, 3D and depth, medical and scientific imaging, synthetic caption pipelines,
-     modality imbalance in training, multimodal benchmarks and their contamination.
-   * **translation**: terminology and glossary enforcement, domain adaptation, post-editing
-     and human-in-the-loop, LLM translation versus classical NMT, off-target and hallucinated
-     translation, formality and honorifics, gender bias in MT, speech translation and
-     simultaneous interpretation, subtitle and length constraints, localisation beyond text.
+   Still to write — 48 more to reach 200. Candidate topics not yet covered:
+   * **multimodal**: video generation, audio/music generation, image editing and
+     inpainting, referring segmentation, egocentric video, sign language, remote
+     sensing, multimodal agents with tools, watermarking and provenance, efficient
+     VLM serving, streaming perception, multimodal chain-of-thought.
+   * **translation**: speech-to-speech translation, dubbing and lip-sync constraints,
+     sign language translation, code and markup translation, translation memory
+     systems, MT for accessibility, dialect and non-standard varieties, endangered
+     language documentation, community and participatory MT, MT security and
+     poisoning, translationese in training corpora, evaluation with professional
+     translators.
+
 2. **Work in batches of ~6–10 pairs and commit each batch.** The last worker lost nothing
    only because its finished files were on disk when it stopped; a batch that is committed
    cannot be lost at all. A TSV row and its two answer files go in the same commit.
