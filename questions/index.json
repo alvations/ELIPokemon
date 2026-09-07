@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 136,
   "questions": [
     {
       "id": "001",
@@ -2127,6 +2127,74 @@
         "routing",
         "critical-errors",
         "mqm"
+      ]
+    },
+    {
+      "id": "133",
+      "slug": "terminology-glossary-enforcement",
+      "question": "How do you make a translation system use the right terminology every time?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/133-terminology-glossary-enforcement.md",
+      "pokemon_path": "answers/pokemon/133-terminology-glossary-enforcement.md",
+      "tags": [
+        "terminology",
+        "glossary",
+        "constrained-decoding",
+        "do-not-translate",
+        "translation-memory"
+      ]
+    },
+    {
+      "id": "134",
+      "slug": "domain-adaptation-translation",
+      "question": "How do you adapt a translation system to a specific domain?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/134-domain-adaptation-translation.md",
+      "pokemon_path": "answers/pokemon/134-domain-adaptation-translation.md",
+      "tags": [
+        "domain-adaptation",
+        "fine-tuning",
+        "forgetting",
+        "retrieval",
+        "routing",
+        "in-domain-data"
+      ]
+    },
+    {
+      "id": "135",
+      "slug": "llm-versus-nmt-translation",
+      "question": "When should you use an LLM for translation instead of a dedicated NMT model?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/135-llm-versus-nmt-translation.md",
+      "pokemon_path": "answers/pokemon/135-llm-versus-nmt-translation.md",
+      "tags": [
+        "nmt",
+        "llm",
+        "mbr",
+        "quality-aware-decoding",
+        "latency",
+        "cost",
+        "controllability"
+      ]
+    },
+    {
+      "id": "136",
+      "slug": "off-target-and-hallucinated-translation",
+      "question": "Why do translation systems output the wrong language or invent content?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/136-off-target-and-hallucinated-translation.md",
+      "pokemon_path": "answers/pokemon/136-off-target-and-hallucinated-translation.md",
+      "tags": [
+        "off-target",
+        "hallucination",
+        "zero-shot",
+        "language-tags",
+        "detection",
+        "oscillatory"
       ]
     }
   ]

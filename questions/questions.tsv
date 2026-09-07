@@ -131,3 +131,7 @@ id	slug	category	difficulty	question
 130	low-resource-translation	translation	advanced	How do you translate a language with almost no parallel data?
 131	document-level-translation	translation	intermediate	Why is sentence-level translation not enough?
 132	quality-estimation	translation	advanced	How do you tell whether a translation is good without a reference?
+133	terminology-glossary-enforcement	translation	intermediate	How do you make a translation system use the right terminology every time?
+134	domain-adaptation-translation	translation	intermediate	How do you adapt a translation system to a specific domain?
+135	llm-versus-nmt-translation	translation	intermediate	When should you use an LLM for translation instead of a dedicated NMT model?
+136	off-target-and-hallucinated-translation	translation	advanced	Why do translation systems output the wrong language or invent content?
