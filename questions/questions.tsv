@@ -155,3 +155,7 @@ id	slug	category	difficulty	question
 154	dubbing-and-lip-sync	translation	advanced	What makes translating for dubbing different from translating subtitles?
 155	sign-language-translation	translation	advanced	Why is sign language translation not just video captioning?
 156	translating-code-and-markup	translation	intermediate	How do you translate documents containing code, markup and placeholders?
+157	video-generation	multimodal	advanced	How does video generation differ from image generation?
+158	image-editing-inpainting	multimodal	intermediate	How does instruction-based image editing work, and why is preservation hard?
+159	referring-segmentation	multimodal	intermediate	How do models select a specific region of an image from a description?
+160	multimodal-chain-of-thought	multimodal	advanced	Does chain-of-thought reasoning help vision-language models?

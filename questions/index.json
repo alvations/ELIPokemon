@@ -1,5 +1,5 @@
 {
-  "count": 156,
+  "count": 160,
   "questions": [
     {
       "id": "001",
@@ -2537,6 +2537,73 @@
         "inline-formatting",
         "xliff",
         "segmentation"
+      ]
+    },
+    {
+      "id": "157",
+      "slug": "video-generation",
+      "question": "How does video generation differ from image generation?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/157-video-generation.md",
+      "pokemon_path": "answers/pokemon/157-video-generation.md",
+      "tags": [
+        "video-generation",
+        "temporal-consistency",
+        "spacetime-patches",
+        "fvd",
+        "object-permanence"
+      ]
+    },
+    {
+      "id": "158",
+      "slug": "image-editing-inpainting",
+      "question": "How does instruction-based image editing work, and why is preservation hard?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/158-image-editing-inpainting.md",
+      "pokemon_path": "answers/pokemon/158-image-editing-inpainting.md",
+      "tags": [
+        "inpainting",
+        "instruct-editing",
+        "controlnet",
+        "identity-preservation",
+        "masks",
+        "editing-metrics"
+      ]
+    },
+    {
+      "id": "159",
+      "slug": "referring-segmentation",
+      "question": "How do models select a specific region of an image from a description?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/159-referring-segmentation.md",
+      "pokemon_path": "answers/pokemon/159-referring-segmentation.md",
+      "tags": [
+        "segmentation",
+        "sam",
+        "open-vocabulary",
+        "referring-expressions",
+        "miou",
+        "part-whole"
+      ]
+    },
+    {
+      "id": "160",
+      "slug": "multimodal-chain-of-thought",
+      "question": "Does chain-of-thought reasoning help vision-language models?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/160-multimodal-chain-of-thought.md",
+      "pokemon_path": "answers/pokemon/160-multimodal-chain-of-thought.md",
+      "tags": [
+        "multimodal-cot",
+        "visual-reasoning",
+        "test-time-compute",
+        "cropping",
+        "verification",
+        "tools"
       ]
     }
   ]
