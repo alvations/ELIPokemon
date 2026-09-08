@@ -171,3 +171,7 @@ id	slug	category	difficulty	question
 170	translationese	translation	advanced	What is translationese, and why does it distort MT evaluation?
 171	human-evaluation-translation	translation	intermediate	How do you run a human evaluation of translation quality properly?
 172	named-entity-translation	translation	intermediate	How should a translation system handle names?
+173	audio-and-music-generation	multimodal	advanced	How is audio and music generated, and what makes it harder than images?
+174	egocentric-and-streaming-perception	multimodal	advanced	What changes when a model sees the world from a first-person camera, continuously?
+175	remote-sensing-imagery	multimodal	advanced	What makes satellite and aerial imagery different from ordinary computer vision?
+176	multimodal-agents-with-tools	multimodal	advanced	How do you design a multimodal agent that uses tools rather than doing everything itself?

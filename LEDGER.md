@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**172 answers · mean 59.1 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
+**176 answers · mean 59.0 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
 | strong | 65-79 | 28 |
-| adequate | 50-64 | 76 |
-| thin | 35-49 | 50 |
+| adequate | 50-64 | 79 |
+| thin | 35-49 | 51 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -78,6 +78,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **48.9** | thin | [`039`](answers/pokemon/039-benchmark-contamination.md) | benchmark-contamination | 7 | 13 | 40 | 1.9 |
 | **49.3** | thin | [`074`](answers/pokemon/074-vanishing-exploding-gradients.md) | vanishing-exploding-gradients | 6 | 14 | 38 | 2.1 |
 | **49.7** | thin | [`133`](answers/pokemon/133-terminology-glossary-enforcement.md) | terminology-glossary-enforcement | 6 | 12 | 3 | 1.6 |
+| **49.8** | thin | [`174`](answers/pokemon/174-egocentric-and-streaming-perception.md) | egocentric-and-streaming-perception | 6 | 12 | 4 | 1.6 |
 | **49.9** | thin | [`061`](answers/pokemon/061-guardrails-moderation.md) | guardrails-moderation | 8 | 11 | 29 | 1.5 |
 | **50.0** | adequate | [`097`](answers/pokemon/097-serving-cost-latency.md) | serving-cost-latency | 10 | 11 | 48 | 1.5 |
 | **50.2** | adequate | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 10 | 12 | 53 | 1.6 |
@@ -93,7 +94,9 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **51.7** | adequate | [`011`](answers/pokemon/011-mixture-of-experts.md) | mixture-of-experts | 7 | 13 | 31 | 1.9 |
 | **51.8** | adequate | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 7 | 14 | 20 | 1.6 |
 | **52.0** | adequate | [`081`](answers/pokemon/081-batch-size-and-lr.md) | batch-size-and-lr | 8 | 13 | 35 | 1.8 |
+| **52.0** | adequate | [`175`](answers/pokemon/175-remote-sensing-imagery.md) | remote-sensing-imagery | 8 | 9 | 7 | 1.3 |
 | **52.1** | adequate | [`046`](answers/pokemon/046-cross-encoder-vs-bi-encoder.md) | cross-encoder-vs-bi-encoder | 7 | 10 | 17 | 1.6 |
+| **52.1** | adequate | [`176`](answers/pokemon/176-multimodal-agents-with-tools.md) | multimodal-agents-with-tools | 7 | 12 | 6 | 1.6 |
 | **52.2** | adequate | [`068`](answers/pokemon/068-cross-validation.md) | cross-validation | 7 | 11 | 23 | 1.8 |
 | **52.2** | adequate | [`135`](answers/pokemon/135-llm-versus-nmt-translation.md) | llm-versus-nmt-translation | 6 | 15 | 3 | 1.9 |
 | **52.3** | adequate | [`091`](answers/pokemon/091-self-supervised-learning.md) | self-supervised-learning | 8 | 12 | 31 | 1.8 |
@@ -121,6 +124,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **55.6** | adequate | [`053`](answers/pokemon/053-react-agents.md) | react-agents | 10 | 13 | 39 | 1.7 |
 | **56.5** | adequate | [`044`](answers/pokemon/044-vector-databases-ann.md) | vector-databases-ann | 8 | 14 | 12 | 1.8 |
 | **56.7** | adequate | [`139`](answers/pokemon/139-multimodal-safety-attacks.md) | multimodal-safety-attacks | 8 | 16 | 10 | 1.8 |
+| **56.7** | adequate | [`173`](answers/pokemon/173-audio-and-music-generation.md) | audio-and-music-generation | 9 | 12 | 7 | 1.5 |
 | **57.1** | adequate | [`056`](answers/pokemon/056-multi-agent-systems.md) | multi-agent-systems | 10 | 13 | 36 | 1.8 |
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
