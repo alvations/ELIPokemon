@@ -159,3 +159,7 @@ id	slug	category	difficulty	question
 158	image-editing-inpainting	multimodal	intermediate	How does instruction-based image editing work, and why is preservation hard?
 159	referring-segmentation	multimodal	intermediate	How do models select a specific region of an image from a description?
 160	multimodal-chain-of-thought	multimodal	advanced	Does chain-of-thought reasoning help vision-language models?
+161	translation-memory-systems	translation	intermediate	What is a translation memory, and how does it fit alongside MT?
+162	dialects-and-varieties	translation	advanced	Why do language technologies fail on dialects and non-standard varieties?
+163	endangered-language-documentation	translation	advanced	What can NLP actually do for endangered and under-documented languages?
+164	participatory-mt	translation	intermediate	What does community-driven language technology look like, and why does it work?

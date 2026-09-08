@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 164,
   "questions": [
     {
       "id": "001",
@@ -2604,6 +2604,74 @@
         "cropping",
         "verification",
         "tools"
+      ]
+    },
+    {
+      "id": "161",
+      "slug": "translation-memory-systems",
+      "question": "What is a translation memory, and how does it fit alongside MT?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/161-translation-memory-systems.md",
+      "pokemon_path": "answers/pokemon/161-translation-memory-systems.md",
+      "tags": [
+        "translation-memory",
+        "fuzzy-match",
+        "leverage",
+        "cat-tools",
+        "retrieval",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "162",
+      "slug": "dialects-and-varieties",
+      "question": "Why do language technologies fail on dialects and non-standard varieties?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/162-dialects-and-varieties.md",
+      "pokemon_path": "answers/pokemon/162-dialects-and-varieties.md",
+      "tags": [
+        "dialects",
+        "varieties",
+        "standard-language",
+        "normalisation",
+        "identification",
+        "fairness"
+      ]
+    },
+    {
+      "id": "163",
+      "slug": "endangered-language-documentation",
+      "question": "What can NLP actually do for endangered and under-documented languages?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/163-endangered-language-documentation.md",
+      "pokemon_path": "answers/pokemon/163-endangered-language-documentation.md",
+      "tags": [
+        "documentation",
+        "fieldwork",
+        "orthography",
+        "community-ownership",
+        "care-principles",
+        "asr"
+      ]
+    },
+    {
+      "id": "164",
+      "slug": "participatory-mt",
+      "question": "What does community-driven language technology look like, and why does it work?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/164-participatory-mt.md",
+      "pokemon_path": "answers/pokemon/164-participatory-mt.md",
+      "tags": [
+        "participatory-research",
+        "masakhane",
+        "common-voice",
+        "benefit-sharing",
+        "sustainability",
+        "evaluation"
       ]
     }
   ]
