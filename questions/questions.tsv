@@ -183,3 +183,7 @@ id	slug	category	difficulty	question
 182	vlm-distillation	multimodal	intermediate	How do you make a small vision-language model that is actually useful?
 183	multimodal-accessibility	multimodal	intermediate	How should multimodal models be used for accessibility?
 184	face-recognition-and-biometrics	multimodal	advanced	What should an engineer understand before building anything that recognises people?
+185	massively-multilingual-models	translation	advanced	What does it actually mean to say a model supports 200 languages?
+186	terminology-mining	translation	intermediate	How do you build a bilingual glossary without writing it by hand?
+187	mt-in-regulated-domains	translation	advanced	What changes when translation is used in medical, legal or financial contexts?
+188	cat-tools-and-translator-workflow	translation	intermediate	What does a professional translator's working environment look like, and why should an ML engineer care?

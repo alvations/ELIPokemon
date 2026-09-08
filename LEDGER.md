@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**184 answers · mean 58.5 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
+**188 answers · mean 58.5 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
-| strong | 65-79 | 28 |
-| adequate | 50-64 | 82 |
-| thin | 35-49 | 56 |
+| strong | 65-79 | 29 |
+| adequate | 50-64 | 84 |
+| thin | 35-49 | 57 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -54,6 +54,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **44.9** | thin | [`009`](answers/pokemon/009-mqa-and-gqa.md) | mqa-and-gqa | 6 | 10 | 31 | 1.8 |
 | **44.9** | thin | [`167`](answers/pokemon/167-multimodal-preference-tuning.md) | multimodal-preference-tuning | 6 | 7 | 4 | 1.1 |
 | **45.0** | thin | [`027`](answers/pokemon/027-lora.md) | lora | 5 | 13 | 35 | 1.9 |
+| **45.2** | thin | [`187`](answers/pokemon/187-mt-in-regulated-domains.md) | mt-in-regulated-domains | 7 | 8 | 18 | 1.1 |
 | **45.3** | thin | [`047`](answers/pokemon/047-query-rewriting-hyde.md) | query-rewriting-hyde | 7 | 8 | 19 | 1.2 |
 | **45.5** | thin | [`084`](answers/pokemon/084-cross-entropy-loss.md) | cross-entropy-loss | 4 | 11 | 16 | 1.7 |
 | **45.5** | thin | [`096`](answers/pokemon/096-ab-testing-ml.md) | ab-testing-ml | 8 | 11 | 42 | 1.5 |
@@ -107,6 +108,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **52.2** | adequate | [`135`](answers/pokemon/135-llm-versus-nmt-translation.md) | llm-versus-nmt-translation | 6 | 15 | 3 | 1.9 |
 | **52.3** | adequate | [`091`](answers/pokemon/091-self-supervised-learning.md) | self-supervised-learning | 8 | 12 | 31 | 1.8 |
 | **52.5** | adequate | [`060`](answers/pokemon/060-jailbreaks.md) | jailbreaks | 9 | 13 | 34 | 1.5 |
+| **52.6** | adequate | [`188`](answers/pokemon/188-cat-tools-and-translator-workflow.md) | cat-tools-and-translator-workflow | 7 | 12 | 18 | 1.6 |
 | **52.7** | adequate | [`125`](answers/pokemon/125-speech-recognition.md) | speech-recognition | 8 | 12 | 8 | 1.4 |
 | **53.1** | adequate | [`045`](answers/pokemon/045-hybrid-search-reranking.md) | hybrid-search-reranking | 7 | 12 | 19 | 1.7 |
 | **53.1** | adequate | [`161`](answers/pokemon/161-translation-memory-systems.md) | translation-memory-systems | 8 | 9 | 10 | 1.4 |
@@ -157,6 +159,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **62.0** | adequate | [`031`](answers/pokemon/031-knowledge-distillation.md) | knowledge-distillation | 5 | 22 | 38 | 3.3 |
 | **62.0** | adequate | [`118`](answers/pokemon/118-image-patches-tokenisation.md) | image-patches-tokenisation | 8 | 20 | 1 | 2.4 |
 | **62.4** | adequate | [`134`](answers/pokemon/134-domain-adaptation-translation.md) | domain-adaptation-translation | 11 | 14 | 27 | 1.6 |
+| **62.4** | adequate | [`186`](answers/pokemon/186-terminology-mining.md) | terminology-mining | 9 | 16 | 3 | 2.2 |
 | **62.6** | adequate | [`107`](answers/pokemon/107-code-switching.md) | code-switching | 8 | 20 | 45 | 2.8 |
 | **62.7** | adequate | [`055`](answers/pokemon/055-model-context-protocol.md) | model-context-protocol | 12 | 12 | 30 | 1.7 |
 | **62.7** | adequate | [`120`](answers/pokemon/120-contrastive-image-text-pretraining.md) | contrastive-image-text-pretraining | 11 | 14 | 12 | 1.6 |
@@ -174,6 +177,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **65.7** | strong | [`160`](answers/pokemon/160-multimodal-chain-of-thought.md) | multimodal-chain-of-thought | 11 | 14 | 11 | 1.9 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
 | **66.7** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 10 | 21 | 18 | 2.4 |
+| **67.2** | strong | [`185`](answers/pokemon/185-massively-multilingual-models.md) | massively-multilingual-models | 12 | 12 | 12 | 1.8 |
 | **67.4** | strong | [`143`](answers/pokemon/143-simultaneous-speech-translation.md) | simultaneous-speech-translation | 9 | 22 | 26 | 2.7 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
 | **67.7** | strong | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 9 | 22 | 21 | 2.8 |

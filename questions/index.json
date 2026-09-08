@@ -1,5 +1,5 @@
 {
-  "count": 184,
+  "count": 188,
   "questions": [
     {
       "id": "001",
@@ -3012,6 +3012,73 @@
         "thresholds",
         "consent",
         "regulation"
+      ]
+    },
+    {
+      "id": "185",
+      "slug": "massively-multilingual-models",
+      "question": "What does it actually mean to say a model supports 200 languages?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/185-massively-multilingual-models.md",
+      "pokemon_path": "answers/pokemon/185-massively-multilingual-models.md",
+      "tags": [
+        "nllb",
+        "coverage-claims",
+        "long-tail",
+        "per-language-reporting",
+        "moe",
+        "deployment-threshold"
+      ]
+    },
+    {
+      "id": "186",
+      "slug": "terminology-mining",
+      "question": "How do you build a bilingual glossary without writing it by hand?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/186-terminology-mining.md",
+      "pokemon_path": "answers/pokemon/186-terminology-mining.md",
+      "tags": [
+        "term-extraction",
+        "bilingual-alignment",
+        "validation",
+        "glossary-maintenance",
+        "precision"
+      ]
+    },
+    {
+      "id": "187",
+      "slug": "mt-in-regulated-domains",
+      "question": "What changes when translation is used in medical, legal or financial contexts?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/187-mt-in-regulated-domains.md",
+      "pokemon_path": "answers/pokemon/187-mt-in-regulated-domains.md",
+      "tags": [
+        "regulated",
+        "liability",
+        "validation",
+        "audit-trail",
+        "human-in-the-loop",
+        "critical-errors"
+      ]
+    },
+    {
+      "id": "188",
+      "slug": "cat-tools-and-translator-workflow",
+      "question": "What does a professional translator's working environment look like, and why should an ML engineer care?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/188-cat-tools-and-translator-workflow.md",
+      "pokemon_path": "answers/pokemon/188-cat-tools-and-translator-workflow.md",
+      "tags": [
+        "cat-tools",
+        "xliff",
+        "segmentation",
+        "qa-checks",
+        "workflow",
+        "integration"
       ]
     }
   ]
