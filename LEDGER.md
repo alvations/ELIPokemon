@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**196 answers · mean 58.3 · median 54.4 · min 38.5 (094) · max 100.0 (111)**
+**200 answers · mean 58.2 · median 54.4 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
-| strong | 65-79 | 31 |
-| adequate | 50-64 | 87 |
-| thin | 35-49 | 60 |
+| strong | 65-79 | 32 |
+| adequate | 50-64 | 88 |
+| thin | 35-49 | 62 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -31,8 +31,10 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
 | **39.1** | thin | [`184`](answers/pokemon/184-face-recognition-and-biometrics.md) | face-recognition-and-biometrics | 5 | 6 | 13 | 0.9 |
+| **39.9** | thin | [`199`](answers/pokemon/199-choosing-an-approach.md) | choosing-an-approach | 5 | 6 | 12 | 0.9 |
 | **40.2** | thin | [`169`](answers/pokemon/169-mt-security-and-poisoning.md) | mt-security-and-poisoning | 5 | 5 | 3 | 0.8 |
 | **40.5** | thin | [`147`](answers/pokemon/147-multimodal-benchmarks-contamination.md) | multimodal-benchmarks-contamination | 6 | 7 | 18 | 1.0 |
+| **40.9** | thin | [`197`](answers/pokemon/197-multimodal-model-documentation.md) | multimodal-model-documentation | 5 | 6 | 10 | 0.9 |
 | **41.2** | thin | [`194`](answers/pokemon/194-on-device-translation.md) | on-device-translation | 5 | 6 | 4 | 0.9 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
@@ -123,6 +125,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **53.6** | adequate | [`052`](answers/pokemon/052-context-engineering.md) | context-engineering | 8 | 11 | 23 | 1.6 |
 | **53.6** | adequate | [`057`](answers/pokemon/057-test-time-compute.md) | test-time-compute | 10 | 12 | 41 | 1.7 |
 | **53.6** | adequate | [`156`](answers/pokemon/156-translating-code-and-markup.md) | translating-code-and-markup | 7 | 13 | 8 | 1.8 |
+| **53.7** | adequate | [`200`](answers/pokemon/200-what-actually-matters.md) | what-actually-matters | 9 | 9 | 6 | 1.2 |
 | **53.9** | adequate | [`023`](answers/pokemon/023-grpo-reasoning.md) | grpo-reasoning | 7 | 15 | 35 | 2.1 |
 | **54.2** | adequate | [`121`](answers/pokemon/121-high-resolution-tiling.md) | high-resolution-tiling | 8 | 14 | 8 | 1.5 |
 | **54.2** | adequate | [`191`](answers/pokemon/191-3d-scene-generation.md) | 3d-scene-generation | 7 | 13 | 11 | 1.8 |
@@ -204,6 +207,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **74.4** | strong | [`112`](answers/pokemon/112-byte-level-and-tokenizer-free.md) | byte-level-and-tokenizer-free | 13 | 15 | 15 | 2.4 |
 | **75.8** | strong | [`078`](answers/pokemon/078-gradient-checkpointing.md) | gradient-checkpointing | 8 | 28 | 17 | 4.9 |
 | **75.9** | strong | [`037`](answers/pokemon/037-evaluating-llms.md) | evaluating-llms | 14 | 16 | 34 | 2.4 |
+| **76.1** | strong | [`198`](answers/pokemon/198-building-an-evaluation-suite.md) | building-an-evaluation-suite | 14 | 15 | 14 | 2.2 |
 | **76.4** | strong | [`051`](answers/pokemon/051-in-context-learning.md) | in-context-learning | 10 | 22 | 20 | 3.5 |
 | **77.5** | strong | [`102`](answers/pokemon/102-tokenizer-fairness-token-premium.md) | tokenizer-fairness-token-premium | 12 | 22 | 32 | 3.0 |
 | **78.4** | strong | [`085`](answers/pokemon/085-label-smoothing.md) | label-smoothing | 9 | 28 | 15 | 5.1 |

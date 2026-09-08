@@ -1,5 +1,5 @@
 {
-  "count": 196,
+  "count": 200,
   "questions": [
     {
       "id": "001",
@@ -3213,6 +3213,71 @@
         "cultural-validity",
         "native-authoring",
         "reporting"
+      ]
+    },
+    {
+      "id": "197",
+      "slug": "multimodal-model-documentation",
+      "question": "What should a multimodal model's documentation actually say?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/197-multimodal-model-documentation.md",
+      "pokemon_path": "answers/pokemon/197-multimodal-model-documentation.md",
+      "tags": [
+        "model-cards",
+        "datasheets",
+        "disclosure",
+        "intended-use",
+        "limitations",
+        "provenance"
+      ]
+    },
+    {
+      "id": "198",
+      "slug": "building-an-evaluation-suite",
+      "question": "How do you build an evaluation suite for a multimodal system from scratch?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/198-building-an-evaluation-suite.md",
+      "pokemon_path": "answers/pokemon/198-building-an-evaluation-suite.md",
+      "tags": [
+        "evaluation-design",
+        "capability-decomposition",
+        "controls",
+        "contamination",
+        "prioritisation"
+      ]
+    },
+    {
+      "id": "199",
+      "slug": "choosing-an-approach",
+      "question": "Given all these techniques, how do you decide which one your problem needs?",
+      "category": "synthesis",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/199-choosing-an-approach.md",
+      "pokemon_path": "answers/pokemon/199-choosing-an-approach.md",
+      "tags": [
+        "decision-framework",
+        "prioritisation",
+        "cost",
+        "synthesis",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "200",
+      "slug": "what-actually-matters",
+      "question": "After all of this, what actually matters?",
+      "category": "synthesis",
+      "difficulty": "core",
+      "serious_path": "answers/serious/200-what-actually-matters.md",
+      "pokemon_path": "answers/pokemon/200-what-actually-matters.md",
+      "tags": [
+        "synthesis",
+        "judgement",
+        "measurement",
+        "honesty",
+        "capstone"
       ]
     }
   ]

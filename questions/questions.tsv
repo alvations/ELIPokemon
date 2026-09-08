@@ -195,3 +195,7 @@ id	slug	category	difficulty	question
 194	on-device-translation	translation	intermediate	What changes when translation has to run on a phone?
 195	multilingual-reasoning	translation	advanced	Do models reason as well in other languages as they do in English?
 196	cross-lingual-evaluation-design	translation	advanced	How do you design an evaluation that is fair across languages?
+197	multimodal-model-documentation	multimodal	intermediate	What should a multimodal model's documentation actually say?
+198	building-an-evaluation-suite	multimodal	advanced	How do you build an evaluation suite for a multimodal system from scratch?
+199	choosing-an-approach	synthesis	advanced	Given all these techniques, how do you decide which one your problem needs?
+200	what-actually-matters	synthesis	core	After all of this, what actually matters?
