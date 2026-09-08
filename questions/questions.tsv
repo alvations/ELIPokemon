@@ -179,3 +179,7 @@ id	slug	category	difficulty	question
 178	translating-user-generated-content	translation	intermediate	What breaks when you translate chat messages and user-generated content?
 179	controlled-language-authoring	translation	intermediate	How does changing how the source is written improve translation?
 180	mt-infrastructure-and-cost	translation	intermediate	How do you run translation at scale without the bill running away?
+181	vision-language-action	multimodal	advanced	How do vision-language-action models control robots?
+182	vlm-distillation	multimodal	intermediate	How do you make a small vision-language model that is actually useful?
+183	multimodal-accessibility	multimodal	intermediate	How should multimodal models be used for accessibility?
+184	face-recognition-and-biometrics	multimodal	advanced	What should an engineer understand before building anything that recognises people?

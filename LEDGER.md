@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**180 answers · mean 58.8 · median 54.9 · min 38.5 (094) · max 100.0 (111)**
+**184 answers · mean 58.5 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
 | strong | 65-79 | 28 |
-| adequate | 50-64 | 81 |
-| thin | 35-49 | 53 |
+| adequate | 50-64 | 82 |
+| thin | 35-49 | 56 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -30,6 +30,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
+| **39.1** | thin | [`184`](answers/pokemon/184-face-recognition-and-biometrics.md) | face-recognition-and-biometrics | 5 | 6 | 13 | 0.9 |
 | **40.2** | thin | [`169`](answers/pokemon/169-mt-security-and-poisoning.md) | mt-security-and-poisoning | 5 | 5 | 3 | 0.8 |
 | **40.5** | thin | [`147`](answers/pokemon/147-multimodal-benchmarks-contamination.md) | multimodal-benchmarks-contamination | 6 | 7 | 18 | 1.0 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
@@ -62,6 +63,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **45.8** | thin | [`095`](answers/pokemon/095-data-drift.md) | data-drift | 7 | 10 | 27 | 1.4 |
 | **45.8** | thin | [`177`](answers/pokemon/177-multilingual-rag.md) | multilingual-rag | 5 | 10 | 8 | 1.5 |
 | **46.2** | thin | [`064`](answers/pokemon/064-bias-variance-tradeoff.md) | bias-variance-tradeoff | 6 | 11 | 30 | 1.8 |
+| **46.3** | thin | [`182`](answers/pokemon/182-vlm-distillation.md) | vlm-distillation | 5 | 10 | 13 | 1.5 |
 | **46.6** | thin | [`049`](answers/pokemon/049-chain-of-thought.md) | chain-of-thought | 5 | 11 | 20 | 1.6 |
 | **47.0** | thin | [`090`](answers/pokemon/090-transfer-learning.md) | transfer-learning | 8 | 11 | 38 | 1.5 |
 | **47.1** | thin | [`142`](answers/pokemon/142-gender-bias-in-translation.md) | gender-bias-in-translation | 4 | 15 | 13 | 1.9 |
@@ -73,6 +75,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **47.6** | thin | [`076`](answers/pokemon/076-learning-rate-schedules.md) | learning-rate-schedules | 7 | 8 | 15 | 1.1 |
 | **47.8** | thin | [`002`](answers/pokemon/002-positional-encodings-rope.md) | positional-encodings-rope | 8 | 10 | 30 | 1.4 |
 | **47.9** | thin | [`098`](answers/pokemon/098-training-serving-skew.md) | training-serving-skew | 7 | 10 | 25 | 1.5 |
+| **48.0** | thin | [`183`](answers/pokemon/183-multimodal-accessibility.md) | multimodal-accessibility | 7 | 7 | 9 | 1.1 |
 | **48.1** | thin | [`088`](answers/pokemon/088-trees-forests-boosting.md) | trees-forests-boosting | 9 | 10 | 32 | 1.3 |
 | **48.3** | thin | [`065`](answers/pokemon/065-overfitting.md) | overfitting | 7 | 11 | 31 | 1.7 |
 | **48.5** | thin | [`069`](answers/pokemon/069-precision-recall-f1.md) | precision-recall-f1 | 6 | 9 | 11 | 1.5 |
@@ -148,6 +151,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **60.5** | adequate | [`158`](answers/pokemon/158-image-editing-inpainting.md) | image-editing-inpainting | 5 | 19 | 5 | 3.1 |
 | **60.5** | adequate | [`170`](answers/pokemon/170-translationese.md) | translationese | 9 | 13 | 15 | 1.9 |
 | **60.9** | adequate | [`151`](answers/pokemon/151-medical-scientific-imaging.md) | medical-scientific-imaging | 11 | 12 | 20 | 1.4 |
+| **61.3** | adequate | [`181`](answers/pokemon/181-vision-language-action.md) | vision-language-action | 9 | 14 | 26 | 2.0 |
 | **61.7** | adequate | [`030`](answers/pokemon/030-quantization.md) | quantization | 9 | 14 | 22 | 2.1 |
 | **61.8** | adequate | [`010`](answers/pokemon/010-flash-attention.md) | flash-attention | 10 | 11 | 19 | 1.8 |
 | **62.0** | adequate | [`031`](answers/pokemon/031-knowledge-distillation.md) | knowledge-distillation | 5 | 22 | 38 | 3.3 |

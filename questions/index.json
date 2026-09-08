@@ -1,5 +1,5 @@
 {
-  "count": 180,
+  "count": 184,
   "questions": [
     {
       "id": "001",
@@ -2944,6 +2944,74 @@
         "latency",
         "throughput",
         "deployment"
+      ]
+    },
+    {
+      "id": "181",
+      "slug": "vision-language-action",
+      "question": "How do vision-language-action models control robots?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/181-vision-language-action.md",
+      "pokemon_path": "answers/pokemon/181-vision-language-action.md",
+      "tags": [
+        "vla",
+        "robotics",
+        "action-tokens",
+        "embodiment-gap",
+        "sim2real",
+        "teleoperation"
+      ]
+    },
+    {
+      "id": "182",
+      "slug": "vlm-distillation",
+      "question": "How do you make a small vision-language model that is actually useful?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/182-vlm-distillation.md",
+      "pokemon_path": "answers/pokemon/182-vlm-distillation.md",
+      "tags": [
+        "distillation",
+        "small-models",
+        "quantization",
+        "on-device",
+        "specialisation",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "183",
+      "slug": "multimodal-accessibility",
+      "question": "How should multimodal models be used for accessibility?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/183-multimodal-accessibility.md",
+      "pokemon_path": "answers/pokemon/183-multimodal-accessibility.md",
+      "tags": [
+        "alt-text",
+        "audio-description",
+        "captioning",
+        "wcag",
+        "user-testing",
+        "autonomy"
+      ]
+    },
+    {
+      "id": "184",
+      "slug": "face-recognition-and-biometrics",
+      "question": "What should an engineer understand before building anything that recognises people?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/184-face-recognition-and-biometrics.md",
+      "pokemon_path": "answers/pokemon/184-face-recognition-and-biometrics.md",
+      "tags": [
+        "face-recognition",
+        "biometrics",
+        "demographic-bias",
+        "thresholds",
+        "consent",
+        "regulation"
       ]
     }
   ]
