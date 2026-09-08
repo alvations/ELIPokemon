@@ -163,3 +163,7 @@ id	slug	category	difficulty	question
 162	dialects-and-varieties	translation	advanced	Why do language technologies fail on dialects and non-standard varieties?
 163	endangered-language-documentation	translation	advanced	What can NLP actually do for endangered and under-documented languages?
 164	participatory-mt	translation	intermediate	What does community-driven language technology look like, and why does it work?
+165	vlm-inference-efficiency	multimodal	advanced	What makes vision-language model inference expensive, and how do you fix it?
+166	watermarking-and-provenance	multimodal	advanced	Can you tell whether media was AI-generated, and what actually works?
+167	multimodal-preference-tuning	multimodal	advanced	How do you apply RLHF and DPO to vision-language models?
+168	multimodal-embeddings	multimodal	intermediate	How do you build a single embedding space for images and text?

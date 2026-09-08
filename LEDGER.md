@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**164 answers · mean 59.4 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
+**168 answers · mean 59.3 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
 | strong | 65-79 | 28 |
-| adequate | 50-64 | 71 |
-| thin | 35-49 | 47 |
+| adequate | 50-64 | 74 |
+| thin | 35-49 | 48 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -48,6 +48,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **44.1** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 4 | 10 | 4 | 1.6 |
 | **44.8** | thin | [`025`](answers/pokemon/025-instruction-tuning.md) | instruction-tuning | 7 | 12 | 44 | 1.6 |
 | **44.9** | thin | [`009`](answers/pokemon/009-mqa-and-gqa.md) | mqa-and-gqa | 6 | 10 | 31 | 1.8 |
+| **44.9** | thin | [`167`](answers/pokemon/167-multimodal-preference-tuning.md) | multimodal-preference-tuning | 6 | 7 | 4 | 1.1 |
 | **45.0** | thin | [`027`](answers/pokemon/027-lora.md) | lora | 5 | 13 | 35 | 1.9 |
 | **45.3** | thin | [`047`](answers/pokemon/047-query-rewriting-hyde.md) | query-rewriting-hyde | 7 | 8 | 19 | 1.2 |
 | **45.5** | thin | [`084`](answers/pokemon/084-cross-entropy-loss.md) | cross-entropy-loss | 4 | 11 | 16 | 1.7 |
@@ -79,6 +80,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.0** | adequate | [`097`](answers/pokemon/097-serving-cost-latency.md) | serving-cost-latency | 10 | 11 | 48 | 1.5 |
 | **50.2** | adequate | [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) | encoder-decoder-vs-decoder-only | 10 | 12 | 53 | 1.6 |
 | **50.2** | adequate | [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md) | finetuning-vs-peft-vs-prompting | 8 | 11 | 31 | 1.6 |
+| **50.2** | adequate | [`166`](answers/pokemon/166-watermarking-and-provenance.md) | watermarking-and-provenance | 5 | 14 | 23 | 2.0 |
 | **50.3** | adequate | [`141`](answers/pokemon/141-formality-and-honorifics.md) | formality-and-honorifics | 6 | 12 | 14 | 1.7 |
 | **50.4** | adequate | [`032`](answers/pokemon/032-pruning-and-sparsity.md) | pruning-and-sparsity | 7 | 11 | 9 | 1.4 |
 | **50.6** | adequate | [`062`](answers/pokemon/062-red-teaming.md) | red-teaming | 10 | 10 | 34 | 1.3 |
@@ -122,8 +124,10 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
 | **57.4** | adequate | [`082`](answers/pokemon/082-activation-functions.md) | activation-functions | 8 | 12 | 10 | 1.9 |
 | **57.5** | adequate | [`087`](answers/pokemon/087-curse-of-dimensionality.md) | curse-of-dimensionality | 10 | 12 | 32 | 1.8 |
+| **57.6** | adequate | [`168`](answers/pokemon/168-multimodal-embeddings.md) | multimodal-embeddings | 8 | 13 | 3 | 1.9 |
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |
 | **58.5** | adequate | [`080`](answers/pokemon/080-zero-and-fsdp.md) | zero-and-fsdp | 7 | 19 | 55 | 2.9 |
+| **58.7** | adequate | [`165`](answers/pokemon/165-vlm-inference-efficiency.md) | vlm-inference-efficiency | 9 | 12 | 11 | 1.8 |
 | **58.8** | adequate | [`099`](answers/pokemon/099-ml-system-design.md) | ml-system-design | 11 | 14 | 47 | 1.9 |
 | **59.0** | adequate | [`152`](answers/pokemon/152-3d-and-depth-understanding.md) | 3d-and-depth-understanding | 7 | 21 | 3 | 2.4 |
 | **59.5** | adequate | [`035`](answers/pokemon/035-beam-search.md) | beam-search | 8 | 15 | 32 | 2.3 |

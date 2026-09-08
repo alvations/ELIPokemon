@@ -1,5 +1,5 @@
 {
-  "count": 164,
+  "count": 168,
   "questions": [
     {
       "id": "001",
@@ -2672,6 +2672,74 @@
         "benefit-sharing",
         "sustainability",
         "evaluation"
+      ]
+    },
+    {
+      "id": "165",
+      "slug": "vlm-inference-efficiency",
+      "question": "What makes vision-language model inference expensive, and how do you fix it?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/165-vlm-inference-efficiency.md",
+      "pokemon_path": "answers/pokemon/165-vlm-inference-efficiency.md",
+      "tags": [
+        "inference",
+        "prefill",
+        "kv-cache",
+        "token-pruning",
+        "prefix-caching",
+        "batching"
+      ]
+    },
+    {
+      "id": "166",
+      "slug": "watermarking-and-provenance",
+      "question": "Can you tell whether media was AI-generated, and what actually works?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/166-watermarking-and-provenance.md",
+      "pokemon_path": "answers/pokemon/166-watermarking-and-provenance.md",
+      "tags": [
+        "watermarking",
+        "c2pa",
+        "provenance",
+        "detection",
+        "robustness",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "167",
+      "slug": "multimodal-preference-tuning",
+      "question": "How do you apply RLHF and DPO to vision-language models?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/167-multimodal-preference-tuning.md",
+      "pokemon_path": "answers/pokemon/167-multimodal-preference-tuning.md",
+      "tags": [
+        "rlhf-v",
+        "dpo",
+        "reward-model",
+        "hallucination",
+        "reward-hacking",
+        "over-refusal"
+      ]
+    },
+    {
+      "id": "168",
+      "slug": "multimodal-embeddings",
+      "question": "How do you build a single embedding space for images and text?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/168-multimodal-embeddings.md",
+      "pokemon_path": "answers/pokemon/168-multimodal-embeddings.md",
+      "tags": [
+        "embeddings",
+        "modality-gap",
+        "hard-negatives",
+        "instruction-embeddings",
+        "ann",
+        "hybrid-search"
       ]
     }
   ]
