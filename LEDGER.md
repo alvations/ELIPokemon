@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**176 answers · mean 59.0 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
+**180 answers · mean 58.8 · median 54.9 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
 | strong | 65-79 | 28 |
-| adequate | 50-64 | 79 |
-| thin | 35-49 | 51 |
+| adequate | 50-64 | 81 |
+| thin | 35-49 | 53 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -37,6 +37,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
 | **42.1** | thin | [`022`](answers/pokemon/022-ppo-for-llms.md) | ppo-for-llms | 6 | 13 | 48 | 1.6 |
 | **42.3** | thin | [`024`](answers/pokemon/024-constitutional-ai-rlaif.md) | constitutional-ai-rlaif | 8 | 9 | 37 | 1.2 |
+| **42.5** | thin | [`180`](answers/pokemon/180-mt-infrastructure-and-cost.md) | mt-infrastructure-and-cost | 4 | 9 | 5 | 1.4 |
 | **42.8** | thin | [`058`](answers/pokemon/058-reasoning-models.md) | reasoning-models | 6 | 12 | 38 | 1.5 |
 | **43.1** | thin | [`003`](answers/pokemon/003-multi-head-attention.md) | multi-head-attention | 6 | 11 | 42 | 1.8 |
 | **43.2** | thin | [`048`](answers/pokemon/048-evaluating-rag.md) | evaluating-rag | 5 | 11 | 26 | 1.5 |
@@ -59,6 +60,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **45.6** | thin | [`077`](answers/pokemon/077-mixed-precision-training.md) | mixed-precision-training | 6 | 7 | 9 | 1.1 |
 | **45.8** | thin | [`028`](answers/pokemon/028-qlora.md) | qlora | 6 | 11 | 29 | 1.6 |
 | **45.8** | thin | [`095`](answers/pokemon/095-data-drift.md) | data-drift | 7 | 10 | 27 | 1.4 |
+| **45.8** | thin | [`177`](answers/pokemon/177-multilingual-rag.md) | multilingual-rag | 5 | 10 | 8 | 1.5 |
 | **46.2** | thin | [`064`](answers/pokemon/064-bias-variance-tradeoff.md) | bias-variance-tradeoff | 6 | 11 | 30 | 1.8 |
 | **46.6** | thin | [`049`](answers/pokemon/049-chain-of-thought.md) | chain-of-thought | 5 | 11 | 20 | 1.6 |
 | **47.0** | thin | [`090`](answers/pokemon/090-transfer-learning.md) | transfer-learning | 8 | 11 | 38 | 1.5 |
@@ -91,6 +93,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.8** | adequate | [`012`](answers/pokemon/012-tokenization-bpe.md) | tokenization-bpe | 7 | 10 | 16 | 1.4 |
 | **51.3** | adequate | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 8 | 14 | 38 | 1.7 |
 | **51.3** | adequate | [`129`](answers/pokemon/129-mt-evaluation-beyond-bleu.md) | mt-evaluation-beyond-bleu | 8 | 11 | 22 | 1.3 |
+| **51.3** | adequate | [`179`](answers/pokemon/179-controlled-language-authoring.md) | controlled-language-authoring | 5 | 12 | 9 | 2.1 |
 | **51.7** | adequate | [`011`](answers/pokemon/011-mixture-of-experts.md) | mixture-of-experts | 7 | 13 | 31 | 1.9 |
 | **51.8** | adequate | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 7 | 14 | 20 | 1.6 |
 | **52.0** | adequate | [`081`](answers/pokemon/081-batch-size-and-lr.md) | batch-size-and-lr | 8 | 13 | 35 | 1.8 |
@@ -129,6 +132,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **57.4** | adequate | [`018`](answers/pokemon/018-pretraining-sft-rlhf.md) | pretraining-sft-rlhf | 10 | 13 | 40 | 2.0 |
 | **57.4** | adequate | [`019`](answers/pokemon/019-rlhf-end-to-end.md) | rlhf-end-to-end | 10 | 13 | 33 | 1.8 |
 | **57.4** | adequate | [`082`](answers/pokemon/082-activation-functions.md) | activation-functions | 8 | 12 | 10 | 1.9 |
+| **57.4** | adequate | [`178`](answers/pokemon/178-translating-user-generated-content.md) | translating-user-generated-content | 9 | 11 | 8 | 1.6 |
 | **57.5** | adequate | [`087`](answers/pokemon/087-curse-of-dimensionality.md) | curse-of-dimensionality | 10 | 12 | 32 | 1.8 |
 | **57.6** | adequate | [`168`](answers/pokemon/168-multimodal-embeddings.md) | multimodal-embeddings | 8 | 13 | 3 | 1.9 |
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |

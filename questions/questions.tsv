@@ -175,3 +175,7 @@ id	slug	category	difficulty	question
 174	egocentric-and-streaming-perception	multimodal	advanced	What changes when a model sees the world from a first-person camera, continuously?
 175	remote-sensing-imagery	multimodal	advanced	What makes satellite and aerial imagery different from ordinary computer vision?
 176	multimodal-agents-with-tools	multimodal	advanced	How do you design a multimodal agent that uses tools rather than doing everything itself?
+177	multilingual-rag	translation	advanced	How do you build retrieval-augmented generation across languages?
+178	translating-user-generated-content	translation	intermediate	What breaks when you translate chat messages and user-generated content?
+179	controlled-language-authoring	translation	intermediate	How does changing how the source is written improve translation?
+180	mt-infrastructure-and-cost	translation	intermediate	How do you run translation at scale without the bill running away?

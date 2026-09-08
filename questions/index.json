@@ -1,5 +1,5 @@
 {
-  "count": 176,
+  "count": 180,
   "questions": [
     {
       "id": "001",
@@ -2876,6 +2876,74 @@
         "specialists",
         "error-attribution",
         "cost"
+      ]
+    },
+    {
+      "id": "177",
+      "slug": "multilingual-rag",
+      "question": "How do you build retrieval-augmented generation across languages?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/177-multilingual-rag.md",
+      "pokemon_path": "answers/pokemon/177-multilingual-rag.md",
+      "tags": [
+        "multilingual-rag",
+        "cross-lingual-retrieval",
+        "query-translation",
+        "citation",
+        "language-control"
+      ]
+    },
+    {
+      "id": "178",
+      "slug": "translating-user-generated-content",
+      "question": "What breaks when you translate chat messages and user-generated content?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/178-translating-user-generated-content.md",
+      "pokemon_path": "answers/pokemon/178-translating-user-generated-content.md",
+      "tags": [
+        "ugc",
+        "chat",
+        "noisy-text",
+        "emoji",
+        "code-switching",
+        "latency",
+        "moderation"
+      ]
+    },
+    {
+      "id": "179",
+      "slug": "controlled-language-authoring",
+      "question": "How does changing how the source is written improve translation?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/179-controlled-language-authoring.md",
+      "pokemon_path": "answers/pokemon/179-controlled-language-authoring.md",
+      "tags": [
+        "controlled-language",
+        "source-authoring",
+        "ambiguity",
+        "simplified-technical-english",
+        "upstream"
+      ]
+    },
+    {
+      "id": "180",
+      "slug": "mt-infrastructure-and-cost",
+      "question": "How do you run translation at scale without the bill running away?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/180-mt-infrastructure-and-cost.md",
+      "pokemon_path": "answers/pokemon/180-mt-infrastructure-and-cost.md",
+      "tags": [
+        "caching",
+        "batching",
+        "routing",
+        "cost",
+        "latency",
+        "throughput",
+        "deployment"
       ]
     }
   ]
