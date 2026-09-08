@@ -167,3 +167,7 @@ id	slug	category	difficulty	question
 166	watermarking-and-provenance	multimodal	advanced	Can you tell whether media was AI-generated, and what actually works?
 167	multimodal-preference-tuning	multimodal	advanced	How do you apply RLHF and DPO to vision-language models?
 168	multimodal-embeddings	multimodal	intermediate	How do you build a single embedding space for images and text?
+169	mt-security-and-poisoning	translation	advanced	How can a translation system be attacked?
+170	translationese	translation	advanced	What is translationese, and why does it distort MT evaluation?
+171	human-evaluation-translation	translation	intermediate	How do you run a human evaluation of translation quality properly?
+172	named-entity-translation	translation	intermediate	How should a translation system handle names?

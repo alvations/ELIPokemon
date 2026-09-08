@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**168 answers · mean 59.3 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
+**172 answers · mean 59.1 · median 55.2 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
 | strong | 65-79 | 28 |
-| adequate | 50-64 | 74 |
-| thin | 35-49 | 48 |
+| adequate | 50-64 | 76 |
+| thin | 35-49 | 50 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -30,6 +30,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | score | band | id | answer | distinct | named | generic | per 100w |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | **38.5** | thin | [`094`](answers/pokemon/094-multimodal-models.md) | multimodal-models | 6 | 9 | 30 | 1.1 |
+| **40.2** | thin | [`169`](answers/pokemon/169-mt-security-and-poisoning.md) | mt-security-and-poisoning | 5 | 5 | 3 | 0.8 |
 | **40.5** | thin | [`147`](answers/pokemon/147-multimodal-benchmarks-contamination.md) | multimodal-benchmarks-contamination | 6 | 7 | 18 | 1.0 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
@@ -46,6 +47,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **43.4** | thin | [`138`](answers/pokemon/138-speech-language-models.md) | speech-language-models | 5 | 10 | 11 | 1.2 |
 | **43.9** | thin | [`164`](answers/pokemon/164-participatory-mt.md) | participatory-mt | 7 | 7 | 17 | 1.0 |
 | **44.1** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 4 | 10 | 4 | 1.6 |
+| **44.4** | thin | [`172`](answers/pokemon/172-named-entity-translation.md) | named-entity-translation | 6 | 7 | 11 | 1.0 |
 | **44.8** | thin | [`025`](answers/pokemon/025-instruction-tuning.md) | instruction-tuning | 7 | 12 | 44 | 1.6 |
 | **44.9** | thin | [`009`](answers/pokemon/009-mqa-and-gqa.md) | mqa-and-gqa | 6 | 10 | 31 | 1.8 |
 | **44.9** | thin | [`167`](answers/pokemon/167-multimodal-preference-tuning.md) | multimodal-preference-tuning | 6 | 7 | 4 | 1.1 |
@@ -136,6 +138,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **60.3** | adequate | [`014`](answers/pokemon/014-scaling-laws.md) | scaling-laws | 11 | 15 | 55 | 2.2 |
 | **60.5** | adequate | [`021`](answers/pokemon/021-reward-models.md) | reward-models | 9 | 13 | 24 | 2.0 |
 | **60.5** | adequate | [`158`](answers/pokemon/158-image-editing-inpainting.md) | image-editing-inpainting | 5 | 19 | 5 | 3.1 |
+| **60.5** | adequate | [`170`](answers/pokemon/170-translationese.md) | translationese | 9 | 13 | 15 | 1.9 |
 | **60.9** | adequate | [`151`](answers/pokemon/151-medical-scientific-imaging.md) | medical-scientific-imaging | 11 | 12 | 20 | 1.4 |
 | **61.7** | adequate | [`030`](answers/pokemon/030-quantization.md) | quantization | 9 | 14 | 22 | 2.1 |
 | **61.8** | adequate | [`010`](answers/pokemon/010-flash-attention.md) | flash-attention | 10 | 11 | 19 | 1.8 |
@@ -149,6 +152,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **63.2** | adequate | [`154`](answers/pokemon/154-dubbing-and-lip-sync.md) | dubbing-and-lip-sync | 10 | 14 | 3 | 2.0 |
 | **64.1** | adequate | [`144`](answers/pokemon/144-length-constrained-translation.md) | length-constrained-translation | 9 | 19 | 16 | 2.4 |
 | **64.3** | adequate | [`008`](answers/pokemon/008-kv-cache.md) | kv-cache | 11 | 15 | 50 | 2.6 |
+| **64.4** | adequate | [`171`](answers/pokemon/171-human-evaluation-translation.md) | human-evaluation-translation | 11 | 14 | 21 | 1.8 |
 | **64.6** | adequate | [`043`](answers/pokemon/043-embeddings.md) | embeddings | 11 | 13 | 13 | 1.8 |
 | **64.8** | adequate | [`113`](answers/pokemon/113-morphology-rich-languages.md) | morphology-rich-languages | 7 | 19 | 3 | 3.0 |
 | **65.4** | strong | [`067`](answers/pokemon/067-dropout.md) | dropout | 10 | 15 | 34 | 2.5 |

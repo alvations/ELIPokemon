@@ -1,5 +1,5 @@
 {
-  "count": 168,
+  "count": 172,
   "questions": [
     {
       "id": "001",
@@ -2740,6 +2740,74 @@
         "instruction-embeddings",
         "ann",
         "hybrid-search"
+      ]
+    },
+    {
+      "id": "169",
+      "slug": "mt-security-and-poisoning",
+      "question": "How can a translation system be attacked?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/169-mt-security-and-poisoning.md",
+      "pokemon_path": "answers/pokemon/169-mt-security-and-poisoning.md",
+      "tags": [
+        "data-poisoning",
+        "backdoor",
+        "prompt-injection",
+        "adversarial",
+        "supply-chain",
+        "extraction"
+      ]
+    },
+    {
+      "id": "170",
+      "slug": "translationese",
+      "question": "What is translationese, and why does it distort MT evaluation?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/170-translationese.md",
+      "pokemon_path": "answers/pokemon/170-translationese.md",
+      "tags": [
+        "translationese",
+        "test-set-direction",
+        "source-original",
+        "simplification",
+        "interference",
+        "wmt"
+      ]
+    },
+    {
+      "id": "171",
+      "slug": "human-evaluation-translation",
+      "question": "How do you run a human evaluation of translation quality properly?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/171-human-evaluation-translation.md",
+      "pokemon_path": "answers/pokemon/171-human-evaluation-translation.md",
+      "tags": [
+        "mqm",
+        "human-evaluation",
+        "rater-training",
+        "agreement",
+        "statistical-power",
+        "crowd-vs-expert"
+      ]
+    },
+    {
+      "id": "172",
+      "slug": "named-entity-translation",
+      "question": "How should a translation system handle names?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/172-named-entity-translation.md",
+      "pokemon_path": "answers/pokemon/172-named-entity-translation.md",
+      "tags": [
+        "named-entities",
+        "transliteration",
+        "entity-linking",
+        "exonyms",
+        "consistency",
+        "back-transliteration"
       ]
     }
   ]
