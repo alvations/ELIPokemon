@@ -1,5 +1,5 @@
 {
-  "count": 192,
+  "count": 196,
   "questions": [
     {
       "id": "001",
@@ -3147,6 +3147,72 @@
         "canaries",
         "alerting",
         "incident-response"
+      ]
+    },
+    {
+      "id": "193",
+      "slug": "multilingual-safety",
+      "question": "Why is model safety weaker in some languages than others?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/193-multilingual-safety.md",
+      "pokemon_path": "answers/pokemon/193-multilingual-safety.md",
+      "tags": [
+        "multilingual-safety",
+        "jailbreak",
+        "refusal-rates",
+        "moderation",
+        "red-teaming",
+        "coverage"
+      ]
+    },
+    {
+      "id": "194",
+      "slug": "on-device-translation",
+      "question": "What changes when translation has to run on a phone?",
+      "category": "translation",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/194-on-device-translation.md",
+      "pokemon_path": "answers/pokemon/194-on-device-translation.md",
+      "tags": [
+        "on-device",
+        "quantization",
+        "language-packs",
+        "offline",
+        "privacy",
+        "memory-budget"
+      ]
+    },
+    {
+      "id": "195",
+      "slug": "multilingual-reasoning",
+      "question": "Do models reason as well in other languages as they do in English?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/195-multilingual-reasoning.md",
+      "pokemon_path": "answers/pokemon/195-multilingual-reasoning.md",
+      "tags": [
+        "multilingual-reasoning",
+        "pivot-language",
+        "chain-of-thought",
+        "cross-lingual-gap",
+        "culture"
+      ]
+    },
+    {
+      "id": "196",
+      "slug": "cross-lingual-evaluation-design",
+      "question": "How do you design an evaluation that is fair across languages?",
+      "category": "translation",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/196-cross-lingual-evaluation-design.md",
+      "pokemon_path": "answers/pokemon/196-cross-lingual-evaluation-design.md",
+      "tags": [
+        "benchmark-design",
+        "translated-benchmarks",
+        "cultural-validity",
+        "native-authoring",
+        "reporting"
       ]
     }
   ]

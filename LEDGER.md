@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**192 answers · mean 58.4 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
+**196 answers · mean 58.3 · median 54.4 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
-| strong | 65-79 | 30 |
-| adequate | 50-64 | 86 |
-| thin | 35-49 | 58 |
+| strong | 65-79 | 31 |
+| adequate | 50-64 | 87 |
+| thin | 35-49 | 60 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -33,6 +33,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **39.1** | thin | [`184`](answers/pokemon/184-face-recognition-and-biometrics.md) | face-recognition-and-biometrics | 5 | 6 | 13 | 0.9 |
 | **40.2** | thin | [`169`](answers/pokemon/169-mt-security-and-poisoning.md) | mt-security-and-poisoning | 5 | 5 | 3 | 0.8 |
 | **40.5** | thin | [`147`](answers/pokemon/147-multimodal-benchmarks-contamination.md) | multimodal-benchmarks-contamination | 6 | 7 | 18 | 1.0 |
+| **41.2** | thin | [`194`](answers/pokemon/194-on-device-translation.md) | on-device-translation | 5 | 6 | 4 | 0.9 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
@@ -77,6 +78,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **47.6** | thin | [`076`](answers/pokemon/076-learning-rate-schedules.md) | learning-rate-schedules | 7 | 8 | 15 | 1.1 |
 | **47.8** | thin | [`002`](answers/pokemon/002-positional-encodings-rope.md) | positional-encodings-rope | 8 | 10 | 30 | 1.4 |
 | **47.9** | thin | [`098`](answers/pokemon/098-training-serving-skew.md) | training-serving-skew | 7 | 10 | 25 | 1.5 |
+| **47.9** | thin | [`195`](answers/pokemon/195-multilingual-reasoning.md) | multilingual-reasoning | 4 | 12 | 4 | 2.0 |
 | **48.0** | thin | [`183`](answers/pokemon/183-multimodal-accessibility.md) | multimodal-accessibility | 7 | 7 | 9 | 1.1 |
 | **48.1** | thin | [`088`](answers/pokemon/088-trees-forests-boosting.md) | trees-forests-boosting | 9 | 10 | 32 | 1.3 |
 | **48.3** | thin | [`065`](answers/pokemon/065-overfitting.md) | overfitting | 7 | 11 | 31 | 1.7 |
@@ -108,6 +110,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **52.1** | adequate | [`176`](answers/pokemon/176-multimodal-agents-with-tools.md) | multimodal-agents-with-tools | 7 | 12 | 6 | 1.6 |
 | **52.2** | adequate | [`068`](answers/pokemon/068-cross-validation.md) | cross-validation | 7 | 11 | 23 | 1.8 |
 | **52.2** | adequate | [`135`](answers/pokemon/135-llm-versus-nmt-translation.md) | llm-versus-nmt-translation | 6 | 15 | 3 | 1.9 |
+| **52.2** | adequate | [`196`](answers/pokemon/196-cross-lingual-evaluation-design.md) | cross-lingual-evaluation-design | 5 | 13 | 10 | 2.2 |
 | **52.3** | adequate | [`091`](answers/pokemon/091-self-supervised-learning.md) | self-supervised-learning | 8 | 12 | 31 | 1.8 |
 | **52.5** | adequate | [`060`](answers/pokemon/060-jailbreaks.md) | jailbreaks | 9 | 13 | 34 | 1.5 |
 | **52.6** | adequate | [`188`](answers/pokemon/188-cat-tools-and-translator-workflow.md) | cat-tools-and-translator-workflow | 7 | 12 | 18 | 1.6 |
@@ -179,6 +182,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **65.6** | strong | [`137`](answers/pokemon/137-diffusion-image-generation.md) | diffusion-image-generation | 8 | 23 | 12 | 2.8 |
 | **65.7** | strong | [`160`](answers/pokemon/160-multimodal-chain-of-thought.md) | multimodal-chain-of-thought | 11 | 14 | 11 | 1.9 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
+| **66.1** | strong | [`193`](answers/pokemon/193-multilingual-safety.md) | multilingual-safety | 10 | 15 | 10 | 2.3 |
 | **66.7** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 10 | 21 | 18 | 2.4 |
 | **67.2** | strong | [`185`](answers/pokemon/185-massively-multilingual-models.md) | massively-multilingual-models | 12 | 12 | 12 | 1.8 |
 | **67.4** | strong | [`143`](answers/pokemon/143-simultaneous-speech-translation.md) | simultaneous-speech-translation | 9 | 22 | 26 | 2.7 |

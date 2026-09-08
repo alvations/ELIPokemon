@@ -191,3 +191,7 @@ id	slug	category	difficulty	question
 190	image-quality-and-aesthetics	multimodal	intermediate	How do you score image quality and aesthetics, and what goes wrong?
 191	3d-scene-generation	multimodal	advanced	How do you generate 3D scenes and objects, and why is it harder than images?
 192	multimodal-monitoring	multimodal	advanced	How do you monitor a multimodal system in production?
+193	multilingual-safety	translation	advanced	Why is model safety weaker in some languages than others?
+194	on-device-translation	translation	intermediate	What changes when translation has to run on a phone?
+195	multilingual-reasoning	translation	advanced	Do models reason as well in other languages as they do in English?
+196	cross-lingual-evaluation-design	translation	advanced	How do you design an evaluation that is fair across languages?
