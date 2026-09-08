@@ -187,3 +187,7 @@ id	slug	category	difficulty	question
 186	terminology-mining	translation	intermediate	How do you build a bilingual glossary without writing it by hand?
 187	mt-in-regulated-domains	translation	advanced	What changes when translation is used in medical, legal or financial contexts?
 188	cat-tools-and-translator-workflow	translation	intermediate	What does a professional translator's working environment look like, and why should an ML engineer care?
+189	multimodal-data-flywheel	multimodal	advanced	How do you build a data flywheel for a multimodal product?
+190	image-quality-and-aesthetics	multimodal	intermediate	How do you score image quality and aesthetics, and what goes wrong?
+191	3d-scene-generation	multimodal	advanced	How do you generate 3D scenes and objects, and why is it harder than images?
+192	multimodal-monitoring	multimodal	advanced	How do you monitor a multimodal system in production?

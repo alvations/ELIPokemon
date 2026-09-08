@@ -1,5 +1,5 @@
 {
-  "count": 188,
+  "count": 192,
   "questions": [
     {
       "id": "001",
@@ -3079,6 +3079,74 @@
         "qa-checks",
         "workflow",
         "integration"
+      ]
+    },
+    {
+      "id": "189",
+      "slug": "multimodal-data-flywheel",
+      "question": "How do you build a data flywheel for a multimodal product?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/189-multimodal-data-flywheel.md",
+      "pokemon_path": "answers/pokemon/189-multimodal-data-flywheel.md",
+      "tags": [
+        "data-flywheel",
+        "feedback-loops",
+        "active-learning",
+        "labelling",
+        "drift",
+        "privacy"
+      ]
+    },
+    {
+      "id": "190",
+      "slug": "image-quality-and-aesthetics",
+      "question": "How do you score image quality and aesthetics, and what goes wrong?",
+      "category": "multimodal",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/190-image-quality-and-aesthetics.md",
+      "pokemon_path": "answers/pokemon/190-image-quality-and-aesthetics.md",
+      "tags": [
+        "aesthetics",
+        "iqa",
+        "reward-models",
+        "filtering",
+        "bias",
+        "subjectivity"
+      ]
+    },
+    {
+      "id": "191",
+      "slug": "3d-scene-generation",
+      "question": "How do you generate 3D scenes and objects, and why is it harder than images?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/191-3d-scene-generation.md",
+      "pokemon_path": "answers/pokemon/191-3d-scene-generation.md",
+      "tags": [
+        "3d-generation",
+        "multiview-consistency",
+        "sds",
+        "gaussian-splatting",
+        "meshes",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "192",
+      "slug": "multimodal-monitoring",
+      "question": "How do you monitor a multimodal system in production?",
+      "category": "multimodal",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/192-multimodal-monitoring.md",
+      "pokemon_path": "answers/pokemon/192-multimodal-monitoring.md",
+      "tags": [
+        "monitoring",
+        "drift",
+        "silent-failure",
+        "canaries",
+        "alerting",
+        "incident-response"
       ]
     }
   ]

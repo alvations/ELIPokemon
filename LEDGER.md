@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**188 answers · mean 58.5 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
+**192 answers · mean 58.4 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
-| strong | 65-79 | 29 |
-| adequate | 50-64 | 84 |
-| thin | 35-49 | 57 |
+| strong | 65-79 | 30 |
+| adequate | 50-64 | 86 |
+| thin | 35-49 | 58 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -49,6 +49,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **43.4** | thin | [`138`](answers/pokemon/138-speech-language-models.md) | speech-language-models | 5 | 10 | 11 | 1.2 |
 | **43.9** | thin | [`164`](answers/pokemon/164-participatory-mt.md) | participatory-mt | 7 | 7 | 17 | 1.0 |
 | **44.1** | thin | [`071`](answers/pokemon/071-class-imbalance.md) | class-imbalance | 4 | 10 | 4 | 1.6 |
+| **44.2** | thin | [`189`](answers/pokemon/189-multimodal-data-flywheel.md) | multimodal-data-flywheel | 5 | 8 | 9 | 1.3 |
 | **44.4** | thin | [`172`](answers/pokemon/172-named-entity-translation.md) | named-entity-translation | 6 | 7 | 11 | 1.0 |
 | **44.8** | thin | [`025`](answers/pokemon/025-instruction-tuning.md) | instruction-tuning | 7 | 12 | 44 | 1.6 |
 | **44.9** | thin | [`009`](answers/pokemon/009-mqa-and-gqa.md) | mqa-and-gqa | 6 | 10 | 31 | 1.8 |
@@ -94,6 +95,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.4** | adequate | [`032`](answers/pokemon/032-pruning-and-sparsity.md) | pruning-and-sparsity | 7 | 11 | 9 | 1.4 |
 | **50.6** | adequate | [`062`](answers/pokemon/062-red-teaming.md) | red-teaming | 10 | 10 | 34 | 1.3 |
 | **50.6** | adequate | [`093`](answers/pokemon/093-diffusion-models.md) | diffusion-models | 5 | 15 | 14 | 2.0 |
+| **50.6** | adequate | [`190`](answers/pokemon/190-image-quality-and-aesthetics.md) | image-quality-and-aesthetics | 7 | 9 | 5 | 1.4 |
 | **50.8** | adequate | [`012`](answers/pokemon/012-tokenization-bpe.md) | tokenization-bpe | 7 | 10 | 16 | 1.4 |
 | **51.3** | adequate | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 8 | 14 | 38 | 1.7 |
 | **51.3** | adequate | [`129`](answers/pokemon/129-mt-evaluation-beyond-bleu.md) | mt-evaluation-beyond-bleu | 8 | 11 | 22 | 1.3 |
@@ -120,6 +122,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **53.6** | adequate | [`156`](answers/pokemon/156-translating-code-and-markup.md) | translating-code-and-markup | 7 | 13 | 8 | 1.8 |
 | **53.9** | adequate | [`023`](answers/pokemon/023-grpo-reasoning.md) | grpo-reasoning | 7 | 15 | 35 | 2.1 |
 | **54.2** | adequate | [`121`](answers/pokemon/121-high-resolution-tiling.md) | high-resolution-tiling | 8 | 14 | 8 | 1.5 |
+| **54.2** | adequate | [`191`](answers/pokemon/191-3d-scene-generation.md) | 3d-scene-generation | 7 | 13 | 11 | 1.8 |
 | **54.4** | adequate | [`040`](answers/pokemon/040-hallucination.md) | hallucination | 7 | 14 | 23 | 1.9 |
 | **54.4** | adequate | [`131`](answers/pokemon/131-document-level-translation.md) | document-level-translation | 8 | 13 | 10 | 1.6 |
 | **54.8** | adequate | [`063`](answers/pokemon/063-model-calibration.md) | model-calibration | 7 | 13 | 17 | 1.9 |
@@ -189,6 +192,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **70.6** | strong | [`066`](answers/pokemon/066-l1-vs-l2-regularization.md) | l1-vs-l2-regularization | 6 | 27 | 20 | 4.5 |
 | **70.7** | strong | [`136`](answers/pokemon/136-off-target-and-hallucinated-translation.md) | off-target-and-hallucinated-translation | 10 | 24 | 6 | 2.8 |
 | **71.3** | strong | [`145`](answers/pokemon/145-gui-computer-use-agents.md) | gui-computer-use-agents | 14 | 15 | 9 | 1.7 |
+| **72.2** | strong | [`192`](answers/pokemon/192-multimodal-monitoring.md) | multimodal-monitoring | 13 | 15 | 7 | 2.1 |
 | **72.7** | strong | [`157`](answers/pokemon/157-video-generation.md) | video-generation | 10 | 22 | 23 | 3.1 |
 | **72.9** | strong | [`140`](answers/pokemon/140-multimodal-retrieval.md) | multimodal-retrieval | 14 | 17 | 11 | 1.9 |
 | **73.7** | strong | [`016`](answers/pokemon/016-next-token-prediction.md) | next-token-prediction | 14 | 17 | 43 | 2.4 |
