@@ -16,7 +16,8 @@ lessons.
 ## The 60-second version
 
 ELIPokémon pairs a serious ML interview answer with the same content re-expressed entirely
-through Pokémon. Everything downstream follows from three constraints:
+through Pokémon. **200 questions, 400 answers**, built between 2026-09-03 and 2026-09-09 across
+162 commits. Everything downstream follows from three constraints:
 
 1. **The two answers must agree on every technical claim.** A disagreement is a bug in the
    pair, not a stylistic difference.
@@ -36,6 +37,10 @@ python3 scripts/ledger_history.py    # replay the score trend across git history
 python3 scripts/revise.py --lowest 5 --dry-run   # LLM-assisted revision, no API calls
 ```
 
+Outside this directory: [`../DATASHEET.md`](../DATASHEET.md) is the dataset card (what was
+verified, what was not, what it should not be used for) and [`../CHANGELOG.md`](../CHANGELOG.md)
+is the release audit trail.
+
 ## Non-negotiables
 
 * Author is `alvations`. **No `Co-Authored-By` trailer, and no mention of Claude, AI, or any
@@ -45,3 +50,5 @@ python3 scripts/revise.py --lowest 5 --dry-run   # LLM-assisted revision, no API
   answer files** — otherwise validation breaks for every concurrent worker.
 * When another process may be working in the tree, use targeted `git add` paths. Never
   `git add -A`.
+* **Scorer vocabulary changes never share a commit with content.** A vocabulary change moves
+  every historical score; keeping it separate is what makes `ledger_history.py` readable.

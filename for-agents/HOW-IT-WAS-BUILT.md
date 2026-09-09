@@ -119,8 +119,12 @@ copies the surface form of its target" is written down, the next answer that nee
 idea uses Ditto too, and the corpus develops a shared vocabulary instead of 100 unrelated
 metaphors.
 
-Every question reference in the glossary was then turned into a link to the answer file
-(`[`078`](answers/pokemon/078-....md)`), making it navigable in both directions.
+Every question reference in the glossary was then turned into a link to the answer file, so it
+is navigable in both directions. The form, as written in `TERMINOLOGY.md` at the repo root:
+
+```markdown
+[`078`](answers/pokemon/078-gradient-checkpointing.md)
+```
 
 ## 6. The accuracy audit
 
@@ -219,8 +223,8 @@ anything.
 
 ## 11. Extension to 200
 
-Questions 101–200 (multilingual, multimodal, translation) were added by a second worker
-running concurrently. The coordination rules that made that safe:
+Questions 101–116 were started by a second worker running concurrently. The coordination rules
+that made that safe:
 
 * **targeted `git add` paths only** — `git add -A` from one worker swept the other's
   in-progress file into an unrelated commit, once, before this rule existed;
@@ -228,7 +232,38 @@ running concurrently. The coordination rules that made that safe:
   breaks `validate.py` for everyone;
 * disjoint ID ranges, so the two workers never edit the same file.
 
+That worker stopped mid-batch on an API rate limit, having written six complete answer pairs
+whose catalogue rows had not landed — so the files existed and were invisible to both
+`validate.py` and the dataset build. Recovering them was a five-minute job **because the front
+matter is self-describing**: the TSV rows were reconstructed from the files themselves. That is
+the redundancy in section 2 paying for itself.
+
+The remaining 84 questions (117–200) were written in batches of four, each batch validated,
+scored, ground if low, committed and pushed before the next began. Three changes from the
+001–100 process, all learned the hard way:
+
+1. **Score before committing, ground in the same batch.** New answers written after the
+   named-entity lesson land around 45–85 unaided, but a structural analogy still comes in low —
+   Q188 first scored **8.4**. Grinding it immediately kept the corpus floor at 38.5 throughout,
+   where deferring to a wave would have let a tail accumulate.
+2. **Expect scorer vocabulary gaps, and commit them separately.** Five turned up. The largest
+   was the entire "modify an already-raised Pokémon" toolkit, which meant Q149 scored 11.5 while
+   naming eight real items.
+3. **Read the file before editing it.** Carried over from the wave-19 fix; the miss rate stayed
+   near zero across 84 questions of edits.
+
 ---
+
+## 12. Release
+
+At 200 questions the repository was documented for readers rather than only for builders:
+`DATASHEET.md` (the dataset card — what was verified, what was not, what it must not be used
+for), `CHANGELOG.md` (the audit trail, every claim traceable to a commit), `TERMINOLOGY.md`
+extended to cover 101–200, and the tag `v0.1.0`.
+
+The dataset card was written against its own question 197, which argues that documentation
+should tell a reader something that would make them **not** use the thing. The limitations
+section of `DATASHEET.md` is the part that discharges that.
 
 ## The invariant, restated
 

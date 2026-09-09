@@ -9,30 +9,41 @@ unit of work finishes.
 | | |
 | --- | --- |
 | Improvement waves | **20 of 20 over `001–100` — target reached.** Corpus-wide mean is 58.2 across 200 answers, median 54.4, minimum 38.5. |
-| Documentation | **Done.** `README.md`, `HOW-IT-WAS-BUILT.md`, `LEARNINGS.md`, `RECREATE-PROMPT.md` committed in `a8f146c`. |
-| Corpus extension | **200 of 200 — complete.** 001–100 core ML/LLM, 101–116 `multilingual`, 117–128 / 137–140 / 145–148 / 151–152 / 157–160 / 165–168 / 173–176 / 181–184 / 189–192 / 197–198 `multimodal`, 129–136 / 141–144 / 149–150 / 153–156 / 161–164 / 169–172 / 177–180 / 185–188 / 193–196 `translation`, 199–200 `synthesis`. |
+| Documentation | **Complete.** `README`, `CONTRIBUTING`, `TERMINOLOGY` (both halves), `DATASHEET`, `CHANGELOG`, and this directory. |
+| Corpus extension | **200 of 200 — complete, documented and tagged `v0.1.0`.** |
 | Open for the repo owner | The stale `claude/elipokemon-ml-interview-dataset-qibsci` branch must be deleted in the GitHub UI — delete pushes are rejected from this environment. |
 
 ## What to do next
 
-**The dataset is complete.** 200 questions, 400 answer files, all validating. There is no
-outstanding build work.
+**The dataset is complete and released as `v0.1.0`.** There is no outstanding build work.
 
 If you are picking this up to extend or maintain it:
 
-1. **Adding a question?** Follow the loop in [`RECREATE-PROMPT.md`](RECREATE-PROMPT.md). Score it
-   before committing and ground it in the same batch if it lands under ~40 — that is the rule that
-   kept the corpus minimum at 38.5 through 100 new questions.
-2. **Expect scorer vocabulary gaps.** Five turned up while writing 117–200 (overworld items and
-   landmarks; the Nidoran line and redirection moves; vitamins and the Bottle Cap toolkit; Trainer
-   Classes; four long species names). A vocabulary change moves every historical score, so it
-   **never shares a commit with content**.
-3. **Do not run more waves over `001–100`.** Returns flattened to +0.6.
+1. **Adding a question?** [`../CONTRIBUTING.md`](../CONTRIBUTING.md) has the loop, including the
+   score-and-ground step. Ground it in the same batch if it lands under ~40 — that rule kept the
+   corpus floor at 38.5 through 100 new questions.
+2. **Expect scorer vocabulary gaps.** Five turned up during the build; the table in
+   [`LEARNINGS.md`](LEARNINGS.md#five-scorer-vocabulary-gaps-found-across-200-questions) lists
+   them. A vocabulary change moves every historical score, so it **never shares a commit with
+   content**.
+3. **Extend [`../TERMINOLOGY.md`](../TERMINOLOGY.md)** with any new entity, linked to its answer.
+4. **Update [`../CHANGELOG.md`](../CHANGELOG.md)** and, for a release, the counts in
+   [`../DATASHEET.md`](../DATASHEET.md).
+5. **Do not run more waves over `001–100`.** Returns flattened to +0.6.
    See [`LEARNINGS.md`](LEARNINGS.md#the-score-is-a-search-tool-not-a-target).
-4. **Extend `TERMINOLOGY.md`** — it currently covers the entities used in 001–100 and needs the
-   ones introduced by 101–200.
-5. **Open for the repo owner:** the stale `claude/elipokemon-ml-interview-dataset-qibsci` branch
-   must be deleted in the GitHub UI; delete pushes are rejected from this environment.
+
+### Known gaps worth closing
+
+* **No second full-corpus Pokémon audit over 101–200.** Those were reviewed per batch, not in one
+  sweep. The first sweep over 001–100 found 21 errors, so another sweep is likely to find some.
+* **Category imbalance** — 45 multimodal and 38 translation against 7 transformers. Reflects the
+  order of writing, not editorial judgement.
+* **No external technical review.** Recorded in [`../DATASHEET.md`](../DATASHEET.md).
+
+### Open for the repo owner
+
+* The stale `claude/elipokemon-ml-interview-dataset-qibsci` branch must be deleted in the GitHub
+  UI; delete pushes are rejected from this environment.
 
 ## How to resume
 

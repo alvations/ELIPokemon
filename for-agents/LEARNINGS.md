@@ -119,6 +119,29 @@ composing any replacement. The miss rate went to near zero.
 **Lesson:** in a long editing session, memory of file contents decays faster than confidence
 in that memory does. Re-read before every edit; it is cheaper than a failed edit.
 
+### Five scorer vocabulary gaps, found across 200 questions
+
+Bugs 1–3 above were found in the first week. Five more gaps turned up while writing 117–200, and
+they share a shape worth naming: **the vocabulary reflected what the first hundred answers
+happened to use, and the next hundred used different corners of the games.**
+
+| What was missing | Found while writing | Cost |
+| --- | --- | --- |
+| Kanto and Johto — while every *other* region was listed. Plus landmarks, overworld items, the regional Professors | 117–124 | Q123 scored 26.4 while naming Celadon's floors, Fresh Water, Soda Pop and a Town Map |
+| The whole Nidoran line, in SPECIES — while Nidoqueen and Nidoking were present. Plus Follow Me, Rage Powder, Spotlight | 125–132 | Q131's entire analogy is Nidoran♀ vs ♂ and it scored nothing for it |
+| Trainer Classes — Youngster Joey, Bug Catcher, Ace Trainer | 141–144 | Q141 34.9 → 50.3 with no edit |
+| The stat vitamins, and the Bottle Cap / Ability Capsule / Heart Scale toolkit, and the named services (Name Rater, Move Deleter, Move Reminder) | 149–152 | Q149 scored **11.5** while naming eight real items |
+| Four long species names — Crabominable, Fletchinder, Blacephalon, Quilava | 149–152 | the first two are exactly what Q144 is *about* |
+
+**The generalisation:** a hand-maintained vocabulary is a snapshot of what you have written so
+far, and it silently under-scores whatever you write next. Before concluding that a new answer is
+weak, check whether the scorer can *see* it — `--detail` shows exactly what matched.
+
+**And the line to hold.** `Gym Leader` was deliberately **rejected** as a vocabulary entry. It is
+barely more specific than the generic `Gym` it sits beside, and counting it would have lifted
+every score without any answer naming something real. A vocabulary fix that raises scores without
+improving answers is not a fix; it is the metric eating itself.
+
 ### The tooling that did not exist
 
 A request came in to check in "the scorer and ledger and the LLM revision calls and prompts
@@ -212,6 +235,35 @@ would be a nice piece of irony and a worse dataset.
 So `LEDGER.md` carries a "What this score does not measure" section, and it says the score
 is a search tool for finding answers worth re-reading — not a target. **A low score is a
 question. It is not a defect.**
+
+### Grinding beats waves, once you know what you are doing
+
+The 001–100 process was: write everything, score everything, then run twenty improvement waves.
+The 101–200 process was: score each answer as it was written, and ground it in the same batch if
+it landed below the corpus floor.
+
+The second is strictly better, and the reason is not effort — it is **context**. Grinding an
+answer minutes after writing it means you still remember which abstraction you settled for and
+why. Coming back to it three weeks later in wave 14, you are reverse-engineering your own
+reasoning from the text, which is slower and produces worse substitutions.
+
+Twenty-five answers in 101–200 were ground this way. The lowest first-write was 8.4. The corpus
+minimum never moved off 38.5.
+
+### The topics that resist grounding are a real category
+
+Not everything grinds well, and it is worth knowing which in advance. The answers that came in
+lowest were consistently the **process and workflow** topics — CAT tools (8.4), coverage claims
+(10.4), regulated domains (13.8), UGC (19.4), multimodal retrieval (26.6). These describe
+*procedures*, and procedures have no natural Pokémon referent the way a mechanism does.
+
+The fix that worked was not to force species names into the procedure. It was to find the place
+where the *stakes* live and name that — Full Restore against Full Heal for what a glossary must
+pin down, a Route 3 battle against a regulation match for what changes when you no longer set the
+standard, the FIGHT/BAG/POKéMON/RUN screen for a translator's working environment.
+
+📌 The pattern from Part 2 holds even here: **point at something Pokémon already contains.** It is
+just harder to find when the subject is a workflow.
 
 ### Report the flattening
 

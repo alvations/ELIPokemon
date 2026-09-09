@@ -4,6 +4,10 @@ Two ways in: build it from scratch with a Claude model, or seed the question lis
 public Hugging Face datasets and generate only the answers. Both end at the same invariant —
 paired answers that agree, Pokémon facts that are true, named entities doing real work.
 
+**Scope note.** The shipped dataset is 200 questions in four arcs: 001–100 core ML/LLM,
+101–116 multilingual, 45 multimodal, 38 translation, plus two synthesis questions at the end.
+The prompt below rebuilds any of them; only the question list changes.
+
 ---
 
 ## Part 1 — Build it from scratch
@@ -152,6 +156,23 @@ For each error, quote the exact claim, state the true fact, and propose a replac
 preserves the analogy. If the true fact makes a BETTER analogy than the incorrect one, say
 so — that is usually the right fix. If there are no errors, say so and stop.
 ```
+
+### Score as you go, do not save it for a wave
+
+The original build wrote 100 answers and then ran 20 improvement waves. The extension scored each
+answer **as it was written** and ground it in the same batch if it fell below the corpus floor.
+
+The second is better, for a reason that is not effort: **context**. Grinding an answer minutes
+after writing it means you still remember which abstraction you settled for. Coming back weeks
+later, you are reverse-engineering your own reasoning from the text.
+
+```bash
+python3 scripts/pokemon_score.py --detail 042    # what did it actually match?
+```
+
+⚠️ Before concluding an answer is weak, check the scorer can *see* it. Five vocabulary gaps
+turned up during the build; one answer scored 11.5 while naming eight real items. `--detail`
+settles it in one command.
 
 ### Then the scorer, the ledger, and the waves
 
