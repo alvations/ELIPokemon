@@ -226,3 +226,8 @@ id	slug	category	difficulty	question
 225	agentic-post-training-and-evaluation	open-weights	advanced	A model claims long-horizon agentic tool use and tops a frontend-code arena. How do you check either claim?
 226	hosting-long-context-multimodal-weights	open-weights	advanced	An open checkpoint advertises a 1M-token window and native vision. What does self-hosting cost that renting hides?
 227	open-weight-licence-conditions	open-weights	intermediate	An open-weight model ships under a 'modified MIT' licence. What does that actually oblige you to?
+228	attention-variants-and-kv-arithmetic	open-weights	advanced	Walk me through MHA, MQA, GQA and multi-head latent attention with real shapes. What does each one actually divide?
+229	fine-grained-expert-routing	open-weights	advanced	How does fine-grained MoE routing actually work, and what does router collapse look like while it is happening?
+230	multi-token-prediction-and-drafting	open-weights	advanced	Multi-token prediction shows up as a training objective and as a decoding trick. Are they the same thing?
+231	linear-and-hybrid-attention	open-weights	advanced	Linear and hybrid attention promise to kill the quadratic term. What do they actually give up?
+232	reading-an-open-model-card	open-weights	intermediate	You have downloaded an open model's weights. What do you read before you try to serve it?

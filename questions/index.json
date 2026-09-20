@@ -1,5 +1,5 @@
 {
-  "count": 227,
+  "count": 232,
   "questions": [
     {
       "id": "001",
@@ -3710,6 +3710,86 @@
         "compliance",
         "deployment",
         "legal"
+      ]
+    },
+    {
+      "id": "228",
+      "slug": "attention-variants-and-kv-arithmetic",
+      "question": "Walk me through MHA, MQA, GQA and multi-head latent attention with real shapes. What does each one actually divide?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/228-attention-variants-and-kv-arithmetic.md",
+      "pokemon_path": "answers/pokemon/228-attention-variants-and-kv-arithmetic.md",
+      "tags": [
+        "attention",
+        "kv-cache",
+        "gqa",
+        "mla",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "229",
+      "slug": "fine-grained-expert-routing",
+      "question": "How does fine-grained MoE routing actually work, and what does router collapse look like while it is happening?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/229-fine-grained-expert-routing.md",
+      "pokemon_path": "answers/pokemon/229-fine-grained-expert-routing.md",
+      "tags": [
+        "mixture-of-experts",
+        "routing",
+        "load-balancing",
+        "deepseek",
+        "training"
+      ]
+    },
+    {
+      "id": "230",
+      "slug": "multi-token-prediction-and-drafting",
+      "question": "Multi-token prediction shows up as a training objective and as a decoding trick. Are they the same thing?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/230-multi-token-prediction-and-drafting.md",
+      "pokemon_path": "answers/pokemon/230-multi-token-prediction-and-drafting.md",
+      "tags": [
+        "multi-token-prediction",
+        "speculative-decoding",
+        "deepseek",
+        "inference",
+        "throughput"
+      ]
+    },
+    {
+      "id": "231",
+      "slug": "linear-and-hybrid-attention",
+      "question": "Linear and hybrid attention promise to kill the quadratic term. What do they actually give up?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/231-linear-and-hybrid-attention.md",
+      "pokemon_path": "answers/pokemon/231-linear-and-hybrid-attention.md",
+      "tags": [
+        "linear-attention",
+        "hybrid",
+        "minimax",
+        "long-context",
+        "sparse-attention"
+      ]
+    },
+    {
+      "id": "232",
+      "slug": "reading-an-open-model-card",
+      "question": "You have downloaded an open model's weights. What do you read before you try to serve it?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/232-reading-an-open-model-card.md",
+      "pokemon_path": "answers/pokemon/232-reading-an-open-model-card.md",
+      "tags": [
+        "model-card",
+        "licensing",
+        "tokenizer",
+        "quantisation",
+        "vllm"
       ]
     }
   ]

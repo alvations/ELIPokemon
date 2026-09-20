@@ -15,12 +15,12 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**227 answers · mean 63.5 · median 59.5 · min 39.9 (199) · max 100.0 (210)**
+**232 answers · mean 64.0 · median 60.5 · min 39.9 (199) · max 100.0 (210)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 34 |
-| strong | 65-79 | 57 |
+| excellent | 80-100 | 38 |
+| strong | 65-79 | 58 |
 | adequate | 50-64 | 86 |
 | thin | 35-49 | 50 |
 | generic | 0-34 | 0 |
@@ -222,19 +222,24 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **78.4** | strong | [`112`](answers/pokemon/112-byte-level-and-tokenizer-free.md) | byte-level-and-tokenizer-free | 14 | 16 | 15 | 2.5 |
 | **79.0** | strong | [`117`](answers/pokemon/117-vision-language-architectures.md) | vision-language-architectures | 11 | 31 | 11 | 3.5 |
 | **79.7** | strong | [`001`](answers/pokemon/001-attention-mechanisms.md) | attention-mechanisms | 10 | 31 | 57 | 3.9 |
+| **79.9** | strong | [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md) | attention-variants-and-kv-arithmetic | 16 | 23 | 48 | 2.3 |
 | **80.4** | excellent | [`148`](answers/pokemon/148-modality-balance-training-recipes.md) | modality-balance-training-recipes | 16 | 18 | 29 | 2.1 |
 | **80.8** | excellent | [`220`](answers/pokemon/220-thinking-budget-and-effort-control.md) | thinking-budget-and-effort-control | 12 | 37 | 43 | 3.4 |
 | **80.9** | excellent | [`145`](answers/pokemon/145-gui-computer-use-agents.md) | gui-computer-use-agents | 15 | 22 | 9 | 2.5 |
 | **81.3** | excellent | [`102`](answers/pokemon/102-tokenizer-fairness-token-premium.md) | tokenizer-fairness-token-premium | 13 | 23 | 32 | 3.1 |
+| **82.9** | excellent | [`231`](answers/pokemon/231-linear-and-hybrid-attention.md) | linear-and-hybrid-attention | 27 | 28 | 45 | 2.0 |
+| **83.2** | excellent | [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md) | multi-token-prediction-and-drafting | 26 | 34 | 87 | 2.5 |
 | **85.1** | excellent | [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md) | agentic-post-training-and-evaluation | 24 | 31 | 68 | 2.5 |
 | **86.1** | excellent | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 16 | 27 | 22 | 2.8 |
 | **86.2** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 12 | 27 | 29 | 4.0 |
 | **86.4** | excellent | [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md) | hosting-long-context-multimodal-weights | 18 | 27 | 53 | 2.5 |
 | **86.5** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 19 | 22 | 14 | 2.5 |
+| **86.9** | excellent | [`229`](answers/pokemon/229-fine-grained-expert-routing.md) | fine-grained-expert-routing | 25 | 34 | 39 | 2.5 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
 | **89.5** | excellent | [`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md) | multi-token-prediction-and-speculation | 23 | 31 | 68 | 3.0 |
 | **90.3** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 20 | 27 | 26 | 2.9 |
 | **90.4** | excellent | [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md) | capability-thresholds-and-staged-release | 17 | 22 | 30 | 3.0 |
+| **91.2** | excellent | [`232`](answers/pokemon/232-reading-an-open-model-card.md) | reading-an-open-model-card | 29 | 42 | 65 | 3.0 |
 | **91.4** | excellent | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 14 | 28 | 15 | 4.5 |
 | **92.3** | excellent | [`207`](answers/pokemon/207-sparse-moe-serving.md) | sparse-moe-serving | 18 | 23 | 32 | 3.1 |
 | **92.3** | excellent | [`222`](answers/pokemon/222-open-weight-licence-patchwork.md) | open-weight-licence-patchwork | 26 | 38 | 43 | 3.1 |
