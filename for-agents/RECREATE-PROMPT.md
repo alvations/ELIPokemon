@@ -4,9 +4,10 @@ Two ways in: build it from scratch with a Claude model, or seed the question lis
 public Hugging Face datasets and generate only the answers. Both end at the same invariant —
 paired answers that agree, Pokémon facts that are true, named entities doing real work.
 
-**Scope note.** The shipped dataset is 200 questions in four arcs: 001–100 core ML/LLM,
-101–116 multilingual, 45 multimodal, 38 translation, plus two synthesis questions at the end.
-The prompt below rebuilds any of them; only the question list changes.
+**Scope note.** The shipped dataset is 212 questions in five arcs: 001–100 core ML/LLM,
+101–116 multilingual, 45 multimodal, 38 translation, two synthesis questions, and 201–212 on
+named frontier systems. The prompt below rebuilds any of them; only the question list changes —
+**except the last arc**, which needs the extra rules in the section below.
 
 ---
 
@@ -173,6 +174,28 @@ python3 scripts/pokemon_score.py --detail 042    # what did it actually match?
 ⚠️ Before concluding an answer is weak, check the scorer can *see* it. Five vocabulary gaps
 turned up during the build; one answer scored 11.5 while naming eight real items. `--detail`
 settles it in one command.
+
+### Questions about named products need three extra rules
+
+The frontier arc (201–212) names real companies, prices, parameter counts and benchmark scores.
+Nothing else in the dataset does, and generating it the same way would produce confident,
+undated, unsourced claims — the exact failure the arc is about.
+
+1. **Resolve the names before writing anything.** Codenames collide and get garbled. Two
+   organisations shipped an "Astra" in 2026; "Solar" and "Sol" are unrelated products; "Luna" is
+   a tier and "Lunar" is nothing. Search first, and write down what each name actually resolves
+   to before a single answer is drafted.
+2. **Record the source tier for every number**, and say so in the answer when it is not a
+   primary source. Model cards, docs pages and system cards are the authority; launch posts are
+   true-and-selected; aggregator blogs are copies of each other. If the primary page is
+   unreachable, the answer says the figure came from coverage and names where the authority
+   lives.
+3. **Date the claim inside the answer, not only in the dataset card.** Each of the twelve ends
+   with a "where this stands, <month year>" note separating what will rot from what transfers.
+
+And write up the brief's own errors rather than silently correcting them. The request that
+produced this arc contained three name mistakes, and saying so in question 212 is worth more
+than a tidier answer would have been.
 
 ### Then the scorer, the ledger, and the waves
 

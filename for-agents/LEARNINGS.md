@@ -119,9 +119,9 @@ composing any replacement. The miss rate went to near zero.
 **Lesson:** in a long editing session, memory of file contents decays faster than confidence
 in that memory does. Re-read before every edit; it is cheaper than a failed edit.
 
-### Five scorer vocabulary gaps, found across 200 questions
+### Seven scorer vocabulary gaps, found across 212 questions
 
-Bugs 1–3 above were found in the first week. Five more gaps turned up while writing 117–200, and
+Bugs 1–3 above were found in the first week. Seven more gaps turned up while writing 117–212, and
 they share a shape worth naming: **the vocabulary reflected what the first hundred answers
 happened to use, and the next hundred used different corners of the games.**
 
@@ -132,6 +132,8 @@ happened to use, and the next hundred used different corners of the games.**
 | Trainer Classes — Youngster Joey, Bug Catcher, Ace Trainer | 141–144 | Q141 34.9 → 50.3 with no edit |
 | The stat vitamins, and the Bottle Cap / Ability Capsule / Heart Scale toolkit, and the named services (Name Rater, Move Deleter, Move Reminder) | 149–152 | Q149 scored **11.5** while naming eight real items |
 | Four long species names — Crabominable, Fletchinder, Blacephalon, Quilava | 149–152 | the first two are exactly what Q144 is *about* |
+| The accuracy cluster — Focus Blast, Zap Cannon, Dynamic Punch — plus No Guard, Illusion, the Contest system and the breeding items | 201–204 | Q202's whole argument is that the games' printed percentages are honest, and it scored 43.3 |
+| **The Pokédex.** Also Bill's PC, the S.S. Anne, the Hall of Fame, the three regional storage developers, the terrains, Missingno., Truant and Slow Start | 205–212 | the single largest recalibration in the project: corpus mean 59.0 → 62.1 |
 
 **The generalisation:** a hand-maintained vocabulary is a snapshot of what you have written so
 far, and it silently under-scores whatever you write next. Before concluding that a new answer is
@@ -270,3 +272,49 @@ just harder to find when the subject is a workflow.
 When gains fell to +0.6, that was reported rather than presented as continued progress. An
 improvement loop that reports diminishing returns honestly can be stopped at the right point
 by whoever is running it. One that reports every wave as a win cannot.
+
+### A good analogy can score near zero, and the scorer is right to do it
+
+Questions 206 and 207 first drafted at **22.8** and **10.3** — far under a corpus floor of 38.5,
+and the worst first-writes in the project after Q188.
+
+Neither was badly written. The analogies were, if anything, the tightest in the arc: a million-
+token context window is **Bill's PC**, and a sparse mixture-of-experts is **a party of six with
+one Pokémon on the field**. The problem is that `pc box`, `party`, `team`, `battle`, `switch` and
+`turn` are all in the scorer's `GENERIC` set — *on purpose*, because they are exactly the
+furniture that a lazy answer leans on. The structural analogy was excellent and every word
+carrying it was, by design, worth nothing.
+
+The fix was not to abandon the analogy. It was to bind it to things that have names: Bill,
+Lanette, Bebe and Amanita who each rebuilt that PC; **Lance**'s **Dragonite** and the **Ice
+Beam** that answers it; **Charizard** sweeping while **Onix** stays at level 12 and **Exp.
+Share** being the fix. 22.8 → 83.8 and 10.3 → 89.1, with the skeleton of both answers unchanged.
+
+**The lesson is the inverse of Goodhart, and worth holding alongside it.** The usual worry is a
+metric that rewards bad work. This is a metric that *fails to reward good work* — and following
+it anyway still improved both answers, because "name the thing" is good advice even when the
+reason you were given it was a number. A proxy can be wrong about the score and right about the
+edit.
+
+### Writing about named products is a different discipline
+
+The frontier arc (201–212) is the only part of this dataset that names real companies, real
+prices and real benchmark scores, and it needed rules the rest did not:
+
+* **Sort the claim before writing it down.** Checkable now (price, window, licence, model ID),
+  checkable with work (a benchmark with a harness), only checkable on your own traffic
+  ("40–200× faster"), and not checkable at all (rumour). Q212 is that taxonomy, and writing the
+  arc is what produced it.
+* **Primary sources are not always reachable.** Several vendor pages were blocked by the build
+  environment's egress policy. Where a figure came from secondary coverage, the answer says so
+  and names the model card as the authority. It would have been easy, and dishonest, to write
+  those numbers with the confidence of a first-hand reading.
+* **Date every product claim, in the answer itself.** Every answer in the arc ends with a
+  "where this stands, September 2026" note. Documentation that says the *dataset* is dated is
+  weaker than an answer that says so where the claim is made.
+* **Write up your own brief's errors rather than silently fixing them.** The request that
+  produced this arc named a "lunar" model that does not exist, treated "Astra" as one product
+  when two organisations ship one, and set Upstage's Solar beside OpenAI's Sol. Correcting that
+  quietly would have been polite and would have thrown away the best available example of
+  exactly the failure Q210 and Q212 are about.
+

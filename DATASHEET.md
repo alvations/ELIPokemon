@@ -1,4 +1,4 @@
-# Dataset card — ELIPokémon v0.1.0
+# Dataset card — ELIPokémon v0.2.0
 
 Question 197 of this dataset argues that documentation should tell a reader something that
 would make them **not** use the thing. This file tries to hold itself to that.
@@ -9,14 +9,14 @@ would make them **not** use the thing. This file tries to hold itself to that.
 
 | | |
 | --- | --- |
-| **Version** | v0.1.0 |
-| **Records** | 200 questions · 400 answer files · ~259,000 words |
+| **Version** | v0.2.0 |
+| **Records** | 212 questions · 424 answer files · ~276,000 words |
 | **Format** | Markdown with YAML front matter; generated `dataset/elipokemon.jsonl` (1.8 MB) |
 | **Fields** | `id`, `slug`, `question`, `category`, `difficulty`, `answer_serious`, `answer_pokemon`, `tags` |
 | **Language** | English |
-| **Difficulty split** | 49 core · 90 intermediate · 61 advanced |
+| **Difficulty split** | 50 core · 94 intermediate · 68 advanced |
 | **Licence** | Content CC BY 4.0 · code MIT |
-| **Built** | 2026-09-03 → 2026-09-09, 162 commits |
+| **Built** | 2026-09-03 → 2026-09-20 |
 
 ## What it is
 
@@ -47,6 +47,12 @@ Stated plainly, because this is the section that matters:
 * **Not balanced.** 45 multimodal and 38 translation questions against 7 on transformers. The
   distribution reflects the order things were written in, not an editorial judgement about
   importance.
+* **Not a current reference on any product.** Questions 201–212 name real systems and quote real
+  prices, parameter counts, benchmark scores and capability tiers. Every figure was taken from
+  public documentation and coverage in **September 2026**, several from secondary sources because
+  the primary pages were unreachable from the build environment, and **none was verified by
+  running the systems described**. Each answer in that arc carries a dated "where this stands"
+  note. Treat the arc as a snapshot of what was being said, not of what is true now.
 * **Not multilingual.** It is *about* multilingual NLP, in English only. Question 196 argues
   that a translated benchmark measures familiarity with the source culture; that criticism
   applies to any translation of this dataset.
@@ -68,12 +74,12 @@ is repeated in the script's docstring.
 
 | Property | How it is enforced | Coverage |
 | --- | --- | --- |
-| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 200/200 |
-| Front matter matches the catalogue exactly | `scripts/validate.py` | 400/400 |
-| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 200/200 |
-| Minimum length (120 words) | `scripts/validate.py` | 400/400 |
+| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 212/212 |
+| Front matter matches the catalogue exactly | `scripts/validate.py` | 424/424 |
+| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 212/212 |
+| Minimum length (120 words) | `scripts/validate.py` | 424/424 |
 | Pokémon factual accuracy | Manual audit of all 100 Pokémon answers after the first pass; per-batch review thereafter | See caveat below |
-| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 200/200 |
+| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 212/212 |
 | Technical accuracy | **Author review only. No external review.** | — |
 
 ### The Pokémon accuracy caveat
@@ -98,15 +104,16 @@ commits of `LEDGER.md` *is* the change.
 score = breadth (0-45) + density (0-35) + specificity (0-20)
 ```
 
-Current: mean **58.2**, median **54.4**, minimum **38.5**, maximum **100.0**.
+Current: mean **62.1**, median **58.5**, minimum **39.9**, maximum **100.0**.
 
 **This is a proxy and it is gameable.** It counts named entities; it cannot tell whether they
 earn their place. It was used as a search tool for finding answers worth re-reading, not as an
 optimisation target — and the dataset contains three answers (021, 038, 190) explaining exactly
 what goes wrong when a proxy becomes a goal. Treat a low score as a question.
 
-**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary. Five gaps were
-found and closed during the build; a term the vocabulary does not know scores zero, so
+**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary. Seven gaps were
+found and closed during the build — the seventh being that **the Pokédex had no entry at all**
+after 212 questions; a term the vocabulary does not know scores zero, so
 historical scores are not comparable across those commits. Each vocabulary change was committed
 on its own, with no content change, so the discontinuities are identifiable in
 `ledger_history.py` output.
@@ -117,13 +124,15 @@ on its own, with no content change, so the discontinuities are identifiable in
 2. **Category imbalance**, listed above.
 3. **No external technical review.** One author, no peer review, no citation checking.
 4. **Recency.** Written in 2026; specific architectures and benchmark names will date. The
-   synthesis answers (199, 200) were written to outlive the specifics; the rest will not.
+   synthesis answers (199, 200) were written to outlive the specifics; the rest will not, and
+   **questions 201–212 are the extreme case** — that arc is about named products by design.
 5. **`for-agents/RECREATE-PROMPT.md` names Hugging Face dataset *families* rather than exact
    identifiers**, deliberately — Hub IDs drift, get gated and get renamed. Resolve any
    identifier against the Hub before relying on it.
-6. **The glossary is complete but uneven.** `TERMINOLOGY.md` covers both halves; Part I (001–100)
-   is more thorough per entry than Part II (101–200), where the long tail of single-mention
-   species is listed rather than defined.
+6. **The glossary is complete but uneven.** `TERMINOLOGY.md` covers all three arcs; Part I
+   (001–100) is more thorough per entry than Part II (101–200), where the long tail of
+   single-mention species is listed rather than defined. Part III (201–212) is complete.
+7. **No second full-corpus Pokémon audit** has been run over 101–212.
 
 ## Ethical notes
 
@@ -153,7 +162,7 @@ on its own, with no content change, so the discontinuities are identifiable in
             Machine Learning Interview Questions},
   author = {alvations},
   year   = {2026},
-  note   = {Version 0.1.0},
+  note   = {Version 0.2.0},
   url    = {https://github.com/alvations/ELIPokemon}
 }
 ```

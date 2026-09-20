@@ -10,6 +10,64 @@ Every entry below is traceable to a commit. Score movements are reproducible wit
 
 ---
 
+## [0.2.0] — 2026-09-20
+
+**212 questions, 424 answers.** Adds a fifth arc and closes two scorer vocabulary gaps.
+
+### Added
+
+**Frontier systems — questions 201–212** (`4bedcce`, `37e8bcc`, `4ae2d15`)
+
+Twelve questions anchored on named systems as they stood in September 2026: TypeSafe AI's Jev
+and the System One model class, training against proper scoring rules, what a constrained output
+space does and does not guarantee, the `effort` dial on the Claude 5 family, tier routing across
+GPT-5.6 Sol/Terra/Luna and the Claude lineup, million-token context windows, sparse
+mixture-of-experts serving anchored on Upstage's Solar Open 2, open-weight equivalence across the
+DeepSeek/Qwen/Kimi/GLM/Llama/Gemma field, distillation lineage from Gemini to Gemma 4, model name
+collisions, capability thresholds and staged release, and how to read a model announcement.
+
+Every answer in the arc ends with a dated **"where this stands"** note. The material was
+assembled from public documentation and coverage rather than first-hand testing, and this is
+stated in the answers themselves, in [README.md](README.md), in [DATASHEET.md](DATASHEET.md) and
+in the glossary. Question 212 is explicitly reflexive about it: the brief that produced the arc
+named a "lunar" model that does not exist, treated "Astra" as one product when two organisations
+ship one, and placed Upstage's Solar beside OpenAI's Sol as though they were related. Those
+errors are written up in the answer rather than quietly corrected.
+
+**Glossary Part III** — 57 entities used in 201–212 had no entry. Added with the same rule as
+Parts I and II: every term listed actually appears in an answer, and each is linked to the
+answers that use it. 83 new links, all verified to resolve.
+
+### Changed — scorer recalibrations
+
+Committed separately from content, as always, with no content change in either.
+
+| Commit | What | Corpus mean |
+| --- | --- | --- |
+| `3feab37` | Sixth gap. Focus Blast, Zap Cannon and Dynamic Punch were unknown to the scorer, as were No Guard, Illusion, the Contest system and the breeding items | 58.2 → 58.6 |
+| `4a1342c` | Seventh gap, and the largest. **The Pokédex itself had no entry after 212 questions**, nor did Bill's PC, the S.S. Anne, the Hall of Fame, the regional storage developers, the terrains, Missingno., Truant or Slow Start | 59.0 → 62.1 |
+
+`Bill` was deliberately **not** added as a character: the word collides with an ordinary English
+noun, so it went into the `AMBIGUOUS` set and `Bill's PC` is counted instead. `Brier` was added
+to the mechanics list by mistake during the first of these and removed before the commit — a
+machine-learning term scoring as a Pokémon entity would have corrupted every score in the file.
+
+### Grinding
+
+Two answers first drafted below the corpus floor and were ground in the same batch, per the rule
+in [CONTRIBUTING.md](CONTRIBUTING.md): **206 at 22.8 → 83.8** and **207 at 10.3 → 89.1**. Both had
+leaned on storage and party language that the scorer treats as generic furniture by design; the
+fix was binding them to named entities, not adding more words.
+
+Corpus figures at this release: mean **62.1**, median **58.5**, minimum **39.9**, maximum
+**100.0** across 212 answers.
+
+### Known limitations at this release
+
+Everything listed at 0.1.0 still applies. One is added: **the frontier arc is dated**. It names
+products, prices, parameter counts and capability-framework tiers that were accurate in
+September 2026 and are the fastest-moving facts in the dataset.
+
 ## [0.1.0] — 2026-09-09
 
 First tagged release. **200 questions, 400 answers, all validating.**

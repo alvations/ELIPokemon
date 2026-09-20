@@ -11,8 +11,8 @@ tags: [reproducibility, model-ids, versioning, evaluation, provenance]
 # "Raichu" is not enough to know what you are facing
 
 **Raichu** is Electric. **Raichu** is also Electric/Psychic, if it is the Alolan one, and then it
-has **Surge Surfer** instead of **Static** and doubles its Speed in **Electric Terrain**. Ponyta is
-Fire in Kanto and **Psychic** in Galar. Same name. Different Pokémon. Sending out a Ground-type
+has **Surge Surfer** instead of **Static** and doubles its Speed in **Electric Terrain**.
+Ponyta is Fire in Kanto and **Psychic** in Galar. Same name. Different Pokémon. Sending out a Ground-type
 because "Raichu is Electric" loses you the turn and the battle.
 
 Two labs shipped something called Astra in 2026 — a Google DeepMind research prototype whose

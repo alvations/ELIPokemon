@@ -265,6 +265,37 @@ The dataset card was written against its own question 197, which argues that doc
 should tell a reader something that would make them **not** use the thing. The limitations
 section of `DATASHEET.md` is the part that discharges that.
 
+## 13. The frontier arc (201–212)
+
+A fifth arc, added after the 0.1.0 release, and the only one that names real companies, real
+prices and real benchmark numbers. The pipeline was unchanged — TSV row and both answers in one
+commit, `validate.py` before every commit, score as written, grind in the same batch — but three
+steps were added in front of it.
+
+**Research before drafting, and resolve the names first.** The brief named eight things; two of
+them did not exist as stated. `lunar` turned out to be OpenAI's **Luna** tier; `solar` collapsed
+Upstage's **Solar** line together with OpenAI's **Sol**; and `Astra` names both a Google DeepMind
+research prototype and an OpenAI model released in the same year. Resolving those took six
+searches and changed what the arc could honestly claim.
+
+**Record the source tier for every figure.** Vendor documentation where reachable, coverage where
+not. `openai.com`, `huggingface.co`, `datacamp.com`, `typesafe.ai`, `flaviocopes.com` and
+`mindstudio.ai` were all blocked by the build environment's egress policy, so several figures
+came from secondary sources. Every answer that rests on one says so.
+
+**Date the claim inside the answer.** Every one of the twelve ends with a "where this stands,
+September 2026" section naming what will rot and where the authority actually lives. A dataset
+card that says the corpus is dated is weaker than an answer that says it at the point of claim.
+
+Two answers landed far under the floor on first write — 206 at 22.8 and 207 at 10.3 — because
+their analogies were built on terms the scorer classes as generic *by design*. Both were ground
+in the same batch. The write-up is in
+[`LEARNINGS.md`](LEARNINGS.md#a-good-analogy-can-score-near-zero-and-the-scorer-is-right-to-do-it).
+
+Two vocabulary gaps fell out of the arc, each committed on its own with no content change. The
+second was the largest recalibration in the project's history, and the reason is worth stating
+plainly: **the Pokédex had no entry in the scorer after 212 questions.**
+
 ## The invariant, restated
 
 Everything above is machinery for one property: **a reader can hold the two answers side by

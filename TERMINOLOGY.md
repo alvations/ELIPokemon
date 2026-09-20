@@ -2,10 +2,11 @@
 
 A glossary for reading the Pokémon answers in `answers/pokemon/`.
 
-The dataset is in two halves and so is this file. **Part I** covers questions 001–100 (the
-core ML and LLM set). **Part II** covers 101–200 (multilingual, multimodal and translation),
-which lean on a different corner of the games. Both parts follow the same rule: every term
-listed actually appears in the answers, and the last column says what it is standing in for.
+The dataset is in three arcs and so is this file. **Part I** covers questions 001–100 (the
+core ML and LLM set). **Part II** covers 101–200 (multilingual, multimodal and translation).
+**Part III** covers 201–212 (named frontier systems as of September 2026), which lean on the
+rules of the format rather than the battle. All three follow the same rule: every term listed
+actually appears in the answers, and the last column says what it is standing in for.
 
 ## Who this is for
 
@@ -841,3 +842,127 @@ an issue.
 
 Pokémon is a trademark of Nintendo / Creatures Inc. / GAME FREAK inc. This project is an
 unaffiliated educational work and uses the names nominatively for teaching purposes.
+
+---
+
+# Part III — the frontier questions (201–212)
+
+Questions 201–212 are about **named systems that existed in September 2026**: typed decision
+models, effort dials, million-token windows, sparse mixtures, open-weight equivalence,
+distillation lineage, model naming, and capability-gated releases.
+
+That arc leans on a corner of the games the first two parts barely touched — **the rules of the
+format rather than the battle**. Registration limits, storage, breeding, obedience, regional
+forms, and the doors that stay shut until you have the badges. The recurring conventions below
+are worth reading before the individual terms.
+
+## The spine of Part III
+
+* **Four move slots are a schema.** A Pokémon knows at most four moves, so its answer space is
+  enumerated before the battle starts. That is the whole analogy for a typed decision model, and
+  ([`201`](answers/pokemon/201-system-one-models.md)) — which calls any move in the game — is its opposite.
+* **A party of six with one on the field is a sparse mixture of experts.** You carry six and
+  battle with one. The one on the field sets what the turn costs; all six set what you carry.
+* **Bill's PC is the context window.** Storage grew across every generation. The party cap never
+  moved. Input grew; output did not.
+* **Breeding is distillation.** An Egg Move transfers from a parent that did the expensive work.
+  The level does not transfer. Neither does the stat total.
+* **Regional forms are name collisions.** ([`210`](answers/pokemon/210-model-name-collisions.md), [`212`](answers/pokemon/212-reading-model-announcements.md)) is Electric in Kanto and Electric/Psychic
+  in Alola. A name is not an identifier; the summary screen is.
+* **A locked door is a capability threshold.** ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) opens for a proven record, and
+  the ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) is rationed to one.
+* **The score is not the Pokémon.** ([`208`](answers/pokemon/208-open-weight-equivalence.md)) and ([`208`](answers/pokemon/208-open-weight-equivalence.md)) both have a base stat total
+  of 670 and abilities that make it nearly unusable. Part III uses them wherever a benchmark
+  number is being mistaken for a capability.
+
+## Species named in 201–212
+
+| Species | Type | What it is | What it stands in for here |
+| --- | --- | --- | --- |
+| **Slaking** | Normal | Base stat total **670** — above most legendaries — with the ability ([`208`](answers/pokemon/208-open-weight-equivalence.md)), so it can only act every other turn | The benchmark score that does not survive contact with the task ([`208`](answers/pokemon/208-open-weight-equivalence.md)) |
+| **Regigigas** | Normal | Also **670**, with ([`208`](answers/pokemon/208-open-weight-equivalence.md)): its Attack and Speed are halved for the first five turns | The same lesson twice, because the point needs making twice ([`208`](answers/pokemon/208-open-weight-equivalence.md)) |
+| **Dragonite** | Dragon/Flying | Dratini's final stage. Dragon/Flying means **Ice hits it at 4×** | Both the hard matchup that a long context has to reason about *and* the parent whose Egg Moves a level-1 hatchling inherits ([`206`](answers/pokemon/206-million-token-context.md), [`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md)) |
+| **Gengar** | Ghost/Poison | Ghost is **immune** to Normal and Fighting — 0×, not resisted | The well-typed move that does nothing: the schema was satisfied and the turn was still wasted ([`203`](answers/pokemon/203-constrained-output-and-hallucination.md)) |
+| **Ivysaur** | Grass/Poison | The middle Bulbasaur stage, base stat total 405 against 318 and 525 | The middle tier of a model family: same arena, different stats, different price ([`205`](answers/pokemon/205-model-tiering-and-routing.md)) |
+| **Ninjask** | Bug/Flying | Has ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)), which raises its Speed every turn without spending one, and learns ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) | Adaptive thinking that costs no explicit turn, and the hand-off that preserves what was accumulated ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Scizor** | Bug/Steel | A Swords Dance user; the setup sweeper of the dataset's examples | The high-effort posture, when the matchup justifies spending turns before attacking ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+
+## Places and storage named in 201–212
+
+| Place | What it is | What it stands in for here |
+| --- | --- | --- |
+| **Bill's PC** | The Pokémon Storage System, written by Bill in Kanto and rebuilt in every region since | The context window. Enormous, and it never once raised the party cap ([`206`](answers/pokemon/206-million-token-context.md), [`207`](answers/pokemon/207-sparse-moe-serving.md)) |
+| **Pokémon HOME** | The cloud service that moves Pokémon forward between games | Carrying a model's assumptions across a generation, including the ones that stopped being true ([`206`](answers/pokemon/206-million-token-context.md)) |
+| **Battle Tower** | A streak format: you win or the run ends, and no judge is consulted | Training against a verifiable outcome rather than a rater's preference ([`202`](answers/pokemon/202-calibrated-decision-training.md), [`204`](answers/pokemon/204-effort-and-adaptive-thinking.md), [`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md), [`212`](answers/pokemon/212-reading-model-announcements.md)) |
+| **Hall of Fame** | Where a winning team is recorded — and the data ([`212`](answers/pokemon/212-reading-model-announcements.md)) corrupts | The record a "harmless" exploit quietly damages ([`212`](answers/pokemon/212-reading-model-announcements.md)) |
+| **S.S. Anne** | The ship in Vermilion City. A truck sits beside it, reachable with Surf, and nothing is under it | The most famous false rumour in the games, used as the model for reading unverifiable claims ([`212`](answers/pokemon/212-reading-model-announcements.md)) |
+| **Viridian City** | The first town past Pallet | Wherever an answer needs "packed this morning, already stale" ([`206`](answers/pokemon/206-million-token-context.md)) |
+
+## People named in 201–212
+
+| Person | Who they are | What they stand in for here |
+| --- | --- | --- |
+| **Lanette** | Developed Hoenn's storage system | One of three rebuilds of the same PC, none of which changed the party cap ([`206`](answers/pokemon/206-million-token-context.md)) |
+| **Bebe** | Developed Sinnoh's storage system | As above ([`206`](answers/pokemon/206-million-token-context.md)) |
+| **Amanita** | Developed Unova's storage system | As above ([`206`](answers/pokemon/206-million-token-context.md)) |
+
+**Bill**, who wrote the original, is deliberately *not* counted as a named entity by
+`scripts/pokemon_score.py` — the word collides with an ordinary English noun, so the scorer
+counts `Bill's PC` instead. The decision is recorded in the `AMBIGUOUS` set.
+
+## Moves named in 201–212
+
+| Move | What it does | What it stands in for here |
+| --- | --- | --- |
+| **Metronome** | Calls a randomly selected move from the entire game | Unconstrained generation: an open output space, revealed only once it resolves ([`201`](answers/pokemon/201-system-one-models.md)) |
+| **Struggle** | What a Pokémon does when no move has PP left. The game does not invent a fifth move | The null option in a decision schema. A schema without one returns a confident wrong answer instead ([`201`](answers/pokemon/201-system-one-models.md), [`203`](answers/pokemon/203-constrained-output-and-hallucination.md)) |
+| **Focus Blast** | Fighting, 120 power, **70% accuracy** | A probability the engine actually keeps. The dataset's canonical calibrated number ([`201`](answers/pokemon/201-system-one-models.md), [`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Hydro Pump** | Water, 110 power, **80% accuracy** | As above ([`201`](answers/pokemon/201-system-one-models.md), [`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Zap Cannon** | Electric, 120 power, **50% accuracy**, always paralyses | As above, at the extreme ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Dynamic Punch** | Fighting, 100 power, **50% accuracy**, always confuses — a certainty under ([`202`](answers/pokemon/202-calibrated-decision-training.md)) | What happens when a reward only counts wins: the number stops carrying information ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Sheer Cold** | A one-hit KO move, 30% base accuracy, and it **fails outright** against a higher-level target | Honest odds that also decline rather than pretend ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Ice Beam** | Ice, 90 power, 100% accuracy | The one answer that matters against Dragonite, found by reasoning over a whole collection ([`206`](answers/pokemon/206-million-token-context.md)) |
+| **Quick Attack** | Normal, 40 power, **+1 priority**: it resolves first regardless of Speed | Fixed low latency bought by accepting a narrow effect ([`201`](answers/pokemon/201-system-one-models.md)) |
+| **Extreme Speed** | Normal, 80 power, **+2 priority**. An Egg Move for Dratini | The inherited capability a level-1 hatchling has and cannot yet use ([`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md)) |
+| **Sucker Punch** | Dark, +1 priority, and **fails unless the target is attacking** | A tool that only works when the situation matches its assumption ([`201`](answers/pokemon/201-system-one-models.md)) |
+| **U-turn** | Attacks, then switches the user out | Routing to a second model, and the turn that the routing costs ([`207`](answers/pokemon/207-sparse-moe-serving.md)) |
+| **Whirlwind** / **Dragon Tail** | Force the target to switch, so a different Pokémon ends up on the field | The served model is not the requested model. Log what fought ([`210`](answers/pokemon/210-model-name-collisions.md)) |
+| **Baton Pass** | Switches out and **passes accumulated stat changes** to the replacement | A mid-conversation effort change that preserves the prompt cache ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Belly Drum** | Halves the user's maximum HP to raise Attack to the **+6** cap | Maximum effort: unconstrained spending, occasionally worse than the default ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Swords Dance** / **Dragon Dance** / **Calm Mind** | Spend a turn to raise stats, capped at +6 | The intermediate effort levels ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Body Slam** | Normal, 85 power | Used only to make the point that setup does not lengthen the attack ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Shadow Ball** | Ghost, 80 power | Filling a fourth move slot in the enumerated-schema diagram ([`201`](answers/pokemon/201-system-one-models.md)) |
+| **Strength** | Moves boulders outside battle — including the truck beside the S.S. Anne | The verification that settles a rumour by simply going and looking ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md), [`212`](answers/pokemon/212-reading-model-announcements.md)) |
+
+## Items, abilities and mechanics named in 201–212
+
+| Term | What it is | What it stands in for here |
+| --- | --- | --- |
+| **Choice Scarf** | ×1.5 Speed, and **locks the holder into the first move it picks** | Constraint bought for speed. The point that locking output is an item, not a species ([`201`](answers/pokemon/201-system-one-models.md), [`203`](answers/pokemon/203-constrained-output-and-hallucination.md), [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) |
+| **Life Orb** | ×1.3 damage, 10% recoil per hit | Scaffolding that raises a model's ceiling after it was evaluated ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) |
+| **Exp. Share** | Spreads experience across the party | The load-balancing that stops one expert doing all the work and the rest going stale ([`207`](answers/pokemon/207-sparse-moe-serving.md)) |
+| **Destiny Knot** | A breeding item: passes **five** of the parents' IVs to the offspring | The inherited benefit of curation work you never did yourself ([`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md)) |
+| **Everstone** | Prevents evolution; a parent holding one passes its **Nature** | Style and manner surviving distillation when capability does not ([`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md)) |
+| **Poffin** | Baked from Berries to raise a Pokémon's Contest conditions | Optimising for a judge's impression ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Levitate** | Complete immunity to Ground moves | Earthquake is legal, well-typed, and does nothing. Type safety is not truth ([`203`](answers/pokemon/203-constrained-output-and-hallucination.md)) |
+| **No Guard** | Every move used by **or against** the Pokémon hits | An improper scoring rule: reward only the win and the confidence number goes to 1.0 and stays there ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Truant** / **Slow Start** | Act every other turn; halved Attack and Speed for five turns | Why a base stat total is not a capability ([`208`](answers/pokemon/208-open-weight-equivalence.md)) |
+| **Speed Boost** | +1 Speed at the end of every turn, automatically | Adaptive thinking: the model decides, you set the posture ([`204`](answers/pokemon/204-effort-and-adaptive-thinking.md)) |
+| **Imposter** | Ditto's Hidden Ability: Transforms into the opponent on entry | Reimplementing a closed model's mechanism from open parts ([`208`](answers/pokemon/208-open-weight-equivalence.md)) |
+| **Surge Surfer** | Doubles Speed in **Electric Terrain**. Alolan Raichu only | Proof that the regional form is a different Pokémon, not a re-skin ([`210`](answers/pokemon/210-model-name-collisions.md)) |
+| **Base Stat Total** | The sum of a species' six base stats | A benchmark score: comparable, and not predictive on its own ([`205`](answers/pokemon/205-model-tiering-and-routing.md)) |
+| **IVs** | Individual Values, 0–31 per stat, fixed per Pokémon | The part of measured capability that depends on how the thing was raised ([`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md), [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) |
+| **VGC** | The official doubles format: register six, bring four, two on the field | The explicit total-versus-active split ([`207`](answers/pokemon/207-sparse-moe-serving.md)) |
+| **Mega Evolution** / **Terastallize** | Later mechanics that raise a Pokémon's ceiling without changing the Pokémon | Post-release capability growth: the tier was assigned to the checkpoint, not to your system ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) |
+| **Pokémon Contest** | Judged on Cool, Beauty, Cute, Smart and Tough | Training against human preference ([`202`](answers/pokemon/202-calibrated-decision-training.md)) |
+| **Pokédex** | Records every species seen and caught, and lets you filter | Retrieval, which long context made optional and did not make obsolete ([`206`](answers/pokemon/206-million-token-context.md), [`210`](answers/pokemon/210-model-name-collisions.md), [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md), [`212`](answers/pokemon/212-reading-model-announcements.md)) |
+| **ID No.** | The trainer ID on the summary screen, alongside the Original Trainer | The pinned identifier, as against the nickname anyone may change ([`210`](answers/pokemon/210-model-name-collisions.md)) |
+| **Missingno.** | A genuine Red/Blue glitch: duplicates the sixth bag item, corrupts Hall of Fame data | A rumour that turned out to be true, and harmful anyway ([`212`](answers/pokemon/212-reading-model-announcements.md)) |
+
+## A note on recency
+
+Part III is the part of this glossary most likely to age badly, and not because of the Pokémon.
+The systems it describes — model tiers, context limits, capability frameworks, which weights are
+downloadable — were accurate in September 2026 and are the fastest-moving facts in the dataset.
+The Pokémon side of every entry above will still be true in ten years. The other column will not.
+Question 212 is about exactly this, and applies to itself.

@@ -3,7 +3,7 @@
 > **E**xplain **L**ike **I** play **Pokémon** — a dataset of serious machine learning
 > and LLM interview questions, each answered twice.
 
-**200 questions · 400 answers · ~259,000 words.** Every question ships with **two** answers:
+**212 questions · 424 answers · ~276,000 words.** Every question ships with **two** answers:
 
 | Style | What it is | Where it lives |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ explanation-quality eval, or just a fun way to revise before an interview.
 
 ## Contents
 
-The set is built in three arcs.
+The set is built in five arcs.
 
 ### Core ML and LLM — questions 001–100
 
@@ -94,6 +94,28 @@ reasoning · cross-lingual evaluation design.
 ### Synthesis — questions 199–200
 
 How to choose between all of the above, and what actually transfers.
+
+### Frontier systems — questions 201–212
+
+Named systems as they stood in **September 2026**, and the reasoning that outlives them.
+
+| Question | Anchored on |
+| --- | --- |
+| 201 System One models | TypeSafe AI's Jev: non-autoregressive, typed decisions over an enumerated schema |
+| 202 Calibrated decision training | Proper scoring rules and the Brier score, against preference-tuned rewards |
+| 203 Constrained output and hallucination | What "cannot hallucinate" guarantees, and what it does not |
+| 204 Effort and adaptive thinking | The `effort` dial on the Claude 5 family, and why it is not a token budget |
+| 205 Tiering and routing | GPT-5.6 Sol/Terra/Luna and the Claude lineup: same window, different capability |
+| 206 Million-token context | What 1M in and 128K out actually changes, including the tokenizer |
+| 207 Sparse MoE serving | Upstage's Solar Open 2: active parameters buy FLOPs, total parameters cost memory |
+| 208 Open-weight equivalence | DeepSeek, Qwen, Kimi, GLM, Llama, Gemma — and four meanings of "equivalent" |
+| 209 Distillation lineage | Gemma 4 from Gemini: what transfers, what does not, and the capacity gap |
+| 210 Model name collisions | Two "Astra"s in one year; identifiers versus names |
+| 211 Capability thresholds | Staged release, elicitation, and why a saturated eval breaks a threshold |
+| 212 Reading announcements | Sorting claims into checkable, reproducible, task-specific and rumour |
+
+**This arc is deliberately the most perishable part of the dataset.** It is a September 2026
+snapshot built from public sources, not first-hand testing. Question 212 says so about itself.
 
 ## Layout
 
@@ -173,7 +195,7 @@ characters, places — is doing more analogy work than one leaning on generic fu
 ("a Trainer", "a Gym", "a battle"). That is measurable, so it is measured.
 
 ```bash
-python3 scripts/pokemon_score.py                # score all 200, rewrite LEDGER.md
+python3 scripts/pokemon_score.py                # score all 212, rewrite LEDGER.md
 python3 scripts/pokemon_score.py --detail 042   # what one answer matched
 python3 scripts/ledger_history.py               # the score trend across git history
 ```
@@ -186,7 +208,7 @@ replays it.
 score = breadth (0-45) + density (0-35) + specificity (0-20)
 ```
 
-Current: **mean 58.2 · median 54.4 · minimum 38.5** across 200 answers.
+Current: **mean 62.1 · median 58.5 · minimum 39.9** across 212 answers.
 
 ### Revising with Claude
 
@@ -243,6 +265,9 @@ what was not, and what it should not be used for. The short version:
   interview answer, not a paper — **verify before citing**.
 * Pokémon facts were audited; 21 errors were found and fixed in the first pass, and further
   corrections are recorded in [CHANGELOG.md](CHANGELOG.md).
+* Questions **201–212 name real products and quote real figures from public coverage**, dated
+  September 2026. They will go out of date faster than anything else here; each one ends with a
+  "where this stands" note saying so.
 * `for-agents/` documents the build process, the failures, and a prompt for reconstructing the
   dataset from scratch.
 
