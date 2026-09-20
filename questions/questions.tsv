@@ -203,3 +203,7 @@ id	slug	category	difficulty	question
 202	calibrated-decision-training	frontier	advanced	Jev is trained against a proper scoring rule rather than human preference. What does that actually change?
 203	constrained-output-and-hallucination	frontier	advanced	If a model can only emit options from a fixed schema, has hallucination been solved?
 204	effort-and-adaptive-thinking	frontier	intermediate	Modern reasoning models expose an effort dial instead of a thinking-token budget. How do you tune it?
+205	model-tiering-and-routing	frontier	intermediate	Frontier families now ship three or four tiers that share a context window. What actually differs, and how do you route between them?
+206	million-token-context	frontier	advanced	Million-token context windows are now standard, including in open weights. What does that change, and what does it not?
+207	sparse-moe-serving	frontier	advanced	An open model advertises 250B total parameters with 15B active. What does that buy you when you go to serve it?
+208	open-weight-equivalence	frontier	advanced	What is the open-weight equivalent of a given frontier model, and what does 'equivalent' actually mean?

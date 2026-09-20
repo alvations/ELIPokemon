@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**204 answers · mean 58.6 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
+**208 answers · mean 58.7 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 18 |
+| excellent | 80-100 | 20 |
 | strong | 65-79 | 36 |
-| adequate | 50-64 | 88 |
-| thin | 35-49 | 62 |
+| adequate | 50-64 | 89 |
+| thin | 35-49 | 63 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -36,6 +36,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **41.2** | thin | [`194`](answers/pokemon/194-on-device-translation.md) | on-device-translation | 5 | 6 | 4 | 0.9 |
 | **41.8** | thin | [`005`](answers/pokemon/005-layer-normalization.md) | layer-normalization | 9 | 9 | 64 | 1.3 |
 | **41.8** | thin | [`036`](answers/pokemon/036-perplexity.md) | perplexity | 6 | 10 | 37 | 1.6 |
+| **41.9** | thin | [`208`](answers/pokemon/208-open-weight-equivalence.md) | open-weight-equivalence | 7 | 10 | 40 | 1.4 |
 | **42.0** | thin | [`059`](answers/pokemon/059-prompt-injection.md) | prompt-injection | 5 | 10 | 25 | 1.4 |
 | **42.1** | thin | [`022`](answers/pokemon/022-ppo-for-llms.md) | ppo-for-llms | 6 | 13 | 48 | 1.6 |
 | **42.3** | thin | [`024`](answers/pokemon/024-constitutional-ai-rlaif.md) | constitutional-ai-rlaif | 8 | 9 | 37 | 1.2 |
@@ -116,6 +117,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **52.5** | adequate | [`060`](answers/pokemon/060-jailbreaks.md) | jailbreaks | 9 | 13 | 34 | 1.5 |
 | **52.6** | adequate | [`188`](answers/pokemon/188-cat-tools-and-translator-workflow.md) | cat-tools-and-translator-workflow | 7 | 12 | 18 | 1.6 |
 | **52.7** | adequate | [`125`](answers/pokemon/125-speech-recognition.md) | speech-recognition | 8 | 12 | 8 | 1.4 |
+| **52.7** | adequate | [`205`](answers/pokemon/205-model-tiering-and-routing.md) | model-tiering-and-routing | 7 | 18 | 56 | 2.4 |
 | **53.1** | adequate | [`045`](answers/pokemon/045-hybrid-search-reranking.md) | hybrid-search-reranking | 7 | 12 | 19 | 1.7 |
 | **53.1** | adequate | [`161`](answers/pokemon/161-translation-memory-systems.md) | translation-memory-systems | 8 | 9 | 10 | 1.4 |
 | **53.2** | adequate | [`007`](answers/pokemon/007-transformer-feed-forward-block.md) | transformer-feed-forward-block | 7 | 10 | 16 | 1.7 |
@@ -218,11 +220,13 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **80.4** | excellent | [`148`](answers/pokemon/148-modality-balance-training-recipes.md) | modality-balance-training-recipes | 16 | 18 | 29 | 2.1 |
 | **82.1** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 14 | 23 | 8 | 2.9 |
 | **82.6** | excellent | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 15 | 26 | 22 | 2.7 |
+| **83.8** | excellent | [`206`](answers/pokemon/206-million-token-context.md) | million-token-context | 16 | 18 | 18 | 2.5 |
 | **84.6** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 18 | 20 | 14 | 2.2 |
 | **85.7** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 19 | 22 | 26 | 2.4 |
 | **86.2** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 12 | 27 | 29 | 4.0 |
 | **87.6** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 15 | 21 | 20 | 3.3 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
+| **89.1** | excellent | [`207`](answers/pokemon/207-sparse-moe-serving.md) | sparse-moe-serving | 17 | 21 | 32 | 2.9 |
 | **90.0** | excellent | [`159`](answers/pokemon/159-referring-segmentation.md) | referring-segmentation | 14 | 27 | 4 | 3.8 |
 | **91.1** | excellent | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 16 | 24 | 17 | 3.4 |
 | **91.4** | excellent | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 14 | 28 | 15 | 4.5 |

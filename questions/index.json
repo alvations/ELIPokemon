@@ -1,5 +1,5 @@
 {
-  "count": 204,
+  "count": 208,
   "questions": [
     {
       "id": "001",
@@ -3342,6 +3342,70 @@
         "inference-cost",
         "prompt-caching",
         "latency"
+      ]
+    },
+    {
+      "id": "205",
+      "slug": "model-tiering-and-routing",
+      "question": "Frontier families now ship three or four tiers that share a context window. What actually differs, and how do you route between them?",
+      "category": "frontier",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/205-model-tiering-and-routing.md",
+      "pokemon_path": "answers/pokemon/205-model-tiering-and-routing.md",
+      "tags": [
+        "routing",
+        "cascades",
+        "cost",
+        "model-selection",
+        "tiering"
+      ]
+    },
+    {
+      "id": "206",
+      "slug": "million-token-context",
+      "question": "Million-token context windows are now standard, including in open weights. What does that change, and what does it not?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/206-million-token-context.md",
+      "pokemon_path": "answers/pokemon/206-million-token-context.md",
+      "tags": [
+        "long-context",
+        "retrieval",
+        "prompt-caching",
+        "tokenizer",
+        "prefill"
+      ]
+    },
+    {
+      "id": "207",
+      "slug": "sparse-moe-serving",
+      "question": "An open model advertises 250B total parameters with 15B active. What does that buy you when you go to serve it?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/207-sparse-moe-serving.md",
+      "pokemon_path": "answers/pokemon/207-sparse-moe-serving.md",
+      "tags": [
+        "mixture-of-experts",
+        "serving",
+        "memory",
+        "routing",
+        "quantisation"
+      ]
+    },
+    {
+      "id": "208",
+      "slug": "open-weight-equivalence",
+      "question": "What is the open-weight equivalent of a given frontier model, and what does 'equivalent' actually mean?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/208-open-weight-equivalence.md",
+      "pokemon_path": "answers/pokemon/208-open-weight-equivalence.md",
+      "tags": [
+        "open-weights",
+        "licensing",
+        "benchmarks",
+        "distillation",
+        "evaluation"
       ]
     }
   ]
