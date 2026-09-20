@@ -85,6 +85,36 @@ the thing being measured. One commit, one kind of change.
 the vocabulary. Caught by scores falling where no edit had been made. **Vocabulary files
 need a length assertion.**)
 
+### Scorer bug 4 — a line wrap split multi-word entities
+
+Found at 232 questions, present since about question 100.
+
+Prose in this repo wraps at 98 columns. The scorer matched against the wrapped text, so any
+entity whose name crossed a line break was invisible to it — or worse, matched as something
+shorter:
+
+```
+   ...the opponent sets Stealth      ->  "Stealth Rock"  matched as NOTHING
+   Rock on the way in...
+
+   ...you can still bring Trick      ->  "Trick Room"    matched as the move
+   Room back...                          "Trick", a different move entirely
+```
+
+An audit of all 232 answers found **19 split entities across 17 of them**, the earliest at
+question 102. Every one was a real named entity, in an answer whose score had been treated as a
+measurement for the whole project.
+
+Fixed in the matcher, not by re-wrapping the seventeen files: single newlines are joined before
+matching, paragraph breaks are left alone, and the word count is still taken from the original
+text. Re-wrapping would have fixed nineteen instances and left the defect in place for the
+twentieth.
+
+**The generalisation is the uncomfortable one.** The metric read text that another rule — the
+98-column wrap — was reformatting underneath it. Neither rule was wrong on its own. If you
+measure text you also format, the formatter is part of the metric, and nobody writes a test for
+that.
+
 ### The line-wrap regression
 
 Answers are wrapped at ~98 columns. Dozens of string-replacement edits joined prose past
@@ -317,4 +347,45 @@ prices and real benchmark scores, and it needed rules the rest did not:
   when two organisations ship one, and set Upstage's Solar beside OpenAI's Sol. Correcting that
   quietly would have been polite and would have thrown away the best available example of
   exactly the failure Q210 and Q212 are about.
+
+### Parallel writing worked. Parallel judgement did not.
+
+Questions 213–232 were written as four independent streams, one per model family, each in its
+own checkout, integrated centrally afterwards. The writing parallelised cleanly — four families,
+no shared files, no coordination needed beyond disjoint ID blocks.
+
+The *judgement* did not, and it failed in the same direction four times.
+
+Every stream hit the same wall: `arxiv.org` and `huggingface.co` are blocked from this
+environment. Every stream handled it honestly at the level of the individual claim — each said
+which figures came from coverage. And three of the four still wrote sentences like *"the V2 and
+V3 numbers are from the technical reports"* while linking arXiv identifiers they could not
+possibly have opened. Not one of them was lying; each had the results from working knowledge and
+described where the results *originate*. But a reader would take it as a reading.
+
+Central integration caught it because the same reviewer saw all four at once. No individual
+stream could have — each had exactly one instance of it and a good local reason.
+
+Two things follow. **Delegate the writing; keep the provenance audit central.** And **a
+consistent error across independent workers is a property of the task, not of the workers** — if
+four writers all overstate the same way, the brief made it easy to.
+
+The fix was a `**Citation note.**` block added at integration to every answer that links a paper,
+stating plainly that the identifier was named from working knowledge and the paper was not
+opened.
+
+### The brief was wrong, and the right move was to write against it
+
+Question 231 was commissioned as "linear and hybrid attention, MiniMax-style". By the time it was
+written, the lab most associated with that approach had gone back to full attention over
+multi-hop reasoning deficits and returned with block-sparse attention on a conventional backbone.
+
+The question was built on the retraction instead of the premise, which is a better question: a
+lab publishing why its own architecture did not work is stronger evidence about the trade-off
+than any paper arguing that it does.
+
+The brief was assembled from search summaries. That makes a brief **tier-three evidence** by
+question 212's own taxonomy — the same standard the arc applies to vendor claims applies to the
+instructions for writing about them. A writer who finds the premise false should say so and
+write the true thing, not satisfy the premise.
 

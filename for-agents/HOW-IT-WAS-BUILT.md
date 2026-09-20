@@ -296,6 +296,44 @@ Two vocabulary gaps fell out of the arc, each committed on its own with no conte
 second was the largest recalibration in the project's history, and the reason is worth stating
 plainly: **the Pokédex had no entry in the scorer after 212 questions.**
 
+## 14. The open-weight arc (213–232), written in parallel
+
+Twenty questions across four model families, written as **four independent streams** rather than
+one sequential pass. Each stream got its own checkout of the repository, a disjoint block of
+twenty IDs, and the same brief: the repository's rules, the quality gate, the research
+discipline from section 13, and a list of analogies already spent so no two streams reached for
+the same device.
+
+**What the isolation bought.** The earlier build lost work twice to concurrency — a `git add -A`
+that swept up another worker's files, and a TSV row committed without its answers. Separate
+checkouts make both impossible by construction: streams cannot see each other's files, and the
+catalogue is only ever assembled centrally. The cost is that the integrator re-runs every gate
+from scratch, because a validator that passed in an isolated checkout has only proved that block
+is internally consistent.
+
+**Integration, in order.** For each stream: verify the checkout is clean and its own validator
+passes; grep for forbidden content; check every answer carries its dated provenance note; read
+one pair end to end; copy the answer files; append the TSV rows; re-run `validate.py`,
+`build_dataset.py` and the scorer against the **whole** corpus; then commit and push that block
+before starting the next. Four content commits, in ID order, each pushed before the next began.
+
+**What central review caught that no stream could.** Three of the four described figures as
+coming "from the technical report" while linking arXiv identifiers that the egress proxy made
+unreachable. Each was locally defensible — the results really are those papers' — and each would
+read to anyone else as a first-hand citation. Only a reviewer holding all four saw the pattern.
+A `**Citation note.**` block was added at integration to every answer linking a paper. The
+write-up is in [`LEARNINGS.md`](LEARNINGS.md#parallel-writing-worked-parallel-judgement-did-not).
+
+**What the streams found that central review would not have.** Between them they reported four
+scorer vocabulary gaps — none of the sixteen Kanto and Hoenn Badges was listed although every
+Gym Leader was — and one genuine scorer bug: a multi-word entity split across the 98-column wrap
+matched as a shorter term or as nothing. An audit put it at **19 entities across 17 answers,
+reaching back to question 102**. Both were fixed in their own content-free commits, after all
+four content blocks had landed, so the score discontinuity sits at one identifiable point.
+
+**Two questions were written against their briefs**, and both improved. Neither stream asked
+permission; both explained why in their hand-back, which is the behaviour you want.
+
 ## The invariant, restated
 
 Everything above is machinery for one property: **a reader can hold the two answers side by

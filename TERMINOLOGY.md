@@ -2,11 +2,13 @@
 
 A glossary for reading the Pokémon answers in `answers/pokemon/`.
 
-The dataset is in three arcs and so is this file. **Part I** covers questions 001–100 (the
+The dataset is in four arcs and so is this file. **Part I** covers questions 001–100 (the
 core ML and LLM set). **Part II** covers 101–200 (multilingual, multimodal and translation).
 **Part III** covers 201–212 (named frontier systems as of September 2026), which lean on the
-rules of the format rather than the battle. All three follow the same rule: every term listed
-actually appears in the answers, and the last column says what it is standing in for.
+rules of the format rather than the battle. **Part IV** covers 213–232 (open-weight
+architectures), which lean on the numbers — Effort Values, base power, stat stages, damage
+rolls. All four follow the same rule: every term listed actually appears in the answers, and the
+last column says what it is standing in for.
 
 ## Who this is for
 
@@ -966,3 +968,127 @@ The systems it describes — model tiers, context limits, capability frameworks,
 downloadable — were accurate in September 2026 and are the fastest-moving facts in the dataset.
 The Pokémon side of every entry above will still be true in ten years. The other column will not.
 Question 212 is about exactly this, and applies to itself.
+
+---
+
+# Part IV — the open-weight questions (213–232)
+
+Questions 213–232 walk through four open-weight model families and the mechanisms they share.
+They are the most *mechanical* answers in the dataset — several of them do arithmetic — and the
+Pokémon halves do the same arithmetic with Pokémon quantities.
+
+That pushes them into a corner of the games the first three parts barely used: **the numbers**.
+Effort Values, base power, stat stages, damage rolls, the exact contents of a replay file. Read
+the spine first; the tables after it are reference.
+
+## The spine of Part IV
+
+* **A Battle Video stores commands, not footage.** The game reconstructs the battle from a small
+  record. That is a compressed latent cache, and it is why ([`213`](answers/pokemon/213-multi-head-latent-attention.md), [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md), [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) carries the
+  attention-variant questions.
+* **Effort Values are a step rule.** Four EVs buy exactly one point, counted one at a time and
+  floored; ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) doubles the yield and halves your Speed. That is an optimizer, with
+  a learning rate and a cost.
+* **([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) is two Pokémon under one name.** ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) flips it between
+  ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) and ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)), and only the move *it* picks triggers the flip.
+  Dense versus sparse, in one species.
+* **([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) lands two turns after you choose it.** Aim now, collect later — the whole
+  of multi-token prediction and drafting.
+* **The stat-stage slate saturates and can be wiped.** ±6 and no further, and ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) clears
+  it. A fixed-size running state is exactly what linear attention keeps instead of the tape.
+* **A rental team is not your team.** The ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) hands you a set you did not build
+  and did not train. Renting an endpoint is not downloading weights.
+* **The ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`227`](answers/pokemon/227-open-weight-licence-conditions.md), [`232`](answers/pokemon/232-reading-an-open-model-card.md)) mark never changes.** Obedience is gated by Badges, the
+  ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`227`](answers/pokemon/227-open-weight-licence-conditions.md)) refuses an outsider, and none of it depends on how good the Pokémon is. That
+  is a licence.
+
+## The five the arc turns on
+
+| Term | What it is | What it stands in for here |
+| --- | --- | --- |
+| **Vs. Recorder** / **Battle Video** | Saves a battle as a replay the game *reconstructs*, not as stored video | A compressed KV cache: keep the latent, re-derive the rest at read time ([`213`](answers/pokemon/213-multi-head-latent-attention.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md), [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md)) |
+| **Aegislash** | Steel/Ghost. 60/50/150/50/150/60 in Shield Forme and the mirror in Blade Forme — **520 either way**, with half the points facing the wrong way at any moment | A dense checkpoint against a sparse one at the same nominal size ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) |
+| **Future Sight** | Psychic, 120 power. Chosen on one turn, lands two turns later | Predicting more than one token ahead, as an objective and as a draft ([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) |
+| **Macho Brace** | Doubles EV yield and halves the holder's Speed while held | An optimizer trading step quality against wall-clock ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) |
+| **Battle Factory** | Frontier facility: you are handed rentals, swap blind after each win, and never see a summary screen you built | A hosted endpoint against weights you hold ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+
+## Species named in 213–232
+
+| Species | Type | Note | Used for |
+| --- | --- | --- | --- |
+| **Aegislash** | Steel/Ghost | See above; ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) is the only thing that reverts the forme | Dense against sparse ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) |
+| **Shedinja** | Bug/Ghost | 1 HP, and ([`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md), [`229`](answers/pokemon/229-fine-grained-expert-routing.md)) blocks every damaging move that is not super effective — though weather and status still chip it | A model that is unbeatable on its benchmark and fragile everywhere else ([`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md), [`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+| **Xatu** | Psychic/Flying | Learns ([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)); 95 Speed against Espeon's 110 | The drafter that aims two turns out ([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) |
+| **Regieleki** | Electric | **200 base Speed**, the highest in the games | The ceiling case in any latency argument ([`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md)) |
+| **Luvdisc** | Water | Base stat total **330** | The bottom of a comparison whose top is Garchomp at 600 ([`214`](answers/pokemon/214-fine-grained-and-shared-experts.md)) |
+| **Pachirisu** | Electric | An unfancied Electric squirrel that famously won a world championship | Benchmark rank against fitness for a specific field ([`214`](answers/pokemon/214-fine-grained-and-shared-experts.md)) |
+| **Sceptile** / **Rayquaza** | Grass · Dragon/Flying | **530** against **680** | Two checkpoints from one region, licensed differently ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)) |
+| **Aggron** | Steel/Rock | Fighting is **4×** into it | The worked type-arithmetic example ([`214`](answers/pokemon/214-fine-grained-and-shared-experts.md)) |
+| **Starly** / **Staravia** | Normal/Flying | The canonical 1-Speed-EV species, and the worked example in the Macho Brace documentation itself | One gradient step ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) |
+| **Machop** / **Machoke** | Fighting | Machoke evolves only by **trade** | A capability that only exists once it changes hands ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)) |
+| **Gastly** / **Haunter** | Ghost/Poison | Haunter likewise evolves by trade | As above ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)) |
+| **Seadra** | Water | Evolves by trade **holding a Dragon Scale** | A conditional licence: the trade alone is not enough ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)) |
+| **Incineroar** | Fire/Dark | Unambiguously legal in the standard format, which is why it appears instead of a restricted legendary | Choosing the example that does not need adjudicating ([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+| **Toxapex** | Poison/Water | Enormously defensive, almost no offence | A model optimised on one axis only ([`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+| **Salamence** | Dragon/Flying | Ice lands at 4×, as on Dragonite | The shared weakness across a family ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)) |
+| **Caterpie** / **Weedle** | Bug · Bug/Poison | 1 EV yield each | The smallest useful training signal ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`220`](answers/pokemon/220-thinking-budget-and-effort-control.md)) |
+
+The remaining species appear once each and are not defined here: **Gardevoir** ([`223`](answers/pokemon/223-trillion-parameter-moe-sparsity.md)), **Geodude** ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Heatran** ([`229`](answers/pokemon/229-fine-grained-expert-routing.md)), **Jirachi** ([`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)), **Poliwhirl** ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)), **Tentacool** ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Treecko** ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)). Part II
+established that convention for single-mention species and Part IV follows it.
+
+## Moves named in 213–232
+
+| Move | What it does | Used for |
+| --- | --- | --- |
+| **King's Shield** | Aegislash's signature move; protects and reverts it to Shield Forme | The only thing that flips the forme back ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) |
+| **Future Sight** / **Doom Desire** | Psychic and Steel; chosen now, land two turns later | Multi-token prediction and drafting ([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) |
+| **Haze** | Resets **every** stat stage on the field to zero | Wiping a fixed-size recurrent state ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Clear Smog** | Removes the target's stat changes on hit | The same, aimed ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Reflect** / **Light Screen** | Halve physical and special damage for five turns, eight with ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) | A bounded window that decays ([`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md), [`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Petal Dance** / **Thrash** / **Outrage** | Lock the user in for 2–3 turns, then confuse it | Committing to a plan you cannot revise mid-way ([`232`](answers/pokemon/232-reading-an-open-model-card.md)) |
+| **Fake Out** | +3 priority, and only on the turn the user enters | The highest-priority draft, available once ([`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md)) |
+| **Solar Beam** | Charges a turn first — unless the sun is up or a ([`221`](answers/pokemon/221-long-context-extension-yarn.md)) is held | Prefill against decode ([`221`](answers/pokemon/221-long-context-extension-yarn.md), [`232`](answers/pokemon/232-reading-an-open-model-card.md)) |
+| **Hyper Beam** / **Giga Impact** | Enormous power, then a forced recharge turn | Throughput that costs you the next step ([`220`](answers/pokemon/220-thinking-budget-and-effort-control.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md), [`232`](answers/pokemon/232-reading-an-open-model-card.md)) |
+| **Stealth Rock** | Damages everything that switches in, every time | The always-on shared expert ([`214`](answers/pokemon/214-fine-grained-and-shared-experts.md), [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md), [`229`](answers/pokemon/229-fine-grained-expert-routing.md), [`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Spikes** / **Toxic Spikes** / **Sticky Web** | Stack on the ground and apply on entry | Costs paid by every routed token ([`229`](answers/pokemon/229-fine-grained-expert-routing.md), [`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Rapid Spin** / **Defog** | Clear hazards | Undoing that cost, at the price of a turn ([`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+
+## Items, abilities and mechanics named in 213–232
+
+| Term | What it is | Used for |
+| --- | --- | --- |
+| **Macho Brace** | ×2 EV yield, halved Speed | The optimizer trade ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) |
+| **Power Bracer** and the Power set | Fixed EV bonus in one stat, halved Speed | Per-parameter step sizes ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) |
+| **Pokérus** | Doubles EV yield, and it spreads | A free multiplier on every step ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md)) |
+| **Effort Values** | 4 buy 1 point; 252 per stat, 510 total | The step rule, its granularity and its budget ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`221`](answers/pokemon/221-long-context-extension-yarn.md), [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) |
+| **Stat Stage** | ±6 and no further; saturating | A fixed-size state that stops absorbing ([`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md)) |
+| **Critical Hit** | Ignores the defender's positive stat stages; damage is also rolled over 16 values at 85–100% | A path that bypasses the accumulated state, and why one sample proves nothing ([`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+| **Light Clay** / **Smooth Rock** / **Terrain Extender** | Extend screens, weather and terrain from five turns to eight | Stretching a trained window rather than training a longer one ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) |
+| **Gold Bottle Cap** | Hyper Trains every stat to look maximal; the stored value is unchanged, and it is not passed on by breeding | A reported number that does not survive being inherited ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`232`](answers/pokemon/232-reading-an-open-model-card.md)) |
+| **Lucky Egg** | ×1.5 experience, the same multiplier an outsider Pokémon already gets | Two different sources of the same speed-up ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)) |
+| **Stance Change** | Flips Aegislash's forme, triggered only by the move it selects | Routing decided by the input, not by the opponent ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) |
+| **Wonder Guard** | Blocks every damaging move that is not super effective | Narrow invulnerability ([`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md), [`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+| **Species Clause** / **Item Clause** | Format rules forbidding duplicate species and duplicate held items | A load-balancing loss, written as a rule ([`229`](answers/pokemon/229-fine-grained-expert-routing.md)) |
+| **Power Spot** | Where Dynamax is available at all | A capability that exists only in the right location ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) |
+| **Trainer Card** / **Knowledge Symbol** | Your record, and the symbol a Frontier Brain awards | A published result and who attests it ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md)) |
+| **The Badges** | Sixteen named Badges across Kanto and Hoenn; each raises the level at which an outsider obeys | Licence terms, tiered by what you have earned ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)) |
+
+## Places and people named in 213–232
+
+| Term | What it is | Used for |
+| --- | --- | --- |
+| **Battle Frontier** | Seven facilities, each testing something different | An evaluation suite rather than one benchmark ([`213`](answers/pokemon/213-multi-head-latent-attention.md), [`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) |
+| **Battle Factory** | Rentals you did not build | A hosted endpoint ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+| **Battle Palace** / **Arena** / **Dome** / **Pike** / **Pyramid** | The other facilities: Nature decides your moves; judged on offence; bracket play; pure variance; no map and no items | Five different things an evaluation can measure ([`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+| **Noland** / **Spenser** / **Anabel** | Frontier Brains — the Factory, the Palace and the Tower | The examiners, each testing their own thing ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+| **Indigo Plateau** / **Pokémon League** | Where the run ends | The evaluation that decides whether any of it worked ([`213`](answers/pokemon/213-multi-head-latent-attention.md), [`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`223`](answers/pokemon/223-trillion-parameter-moe-sparsity.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) |
+
+## A note on what will and will not date
+
+Everything on the left of these tables is stable: Aegislash's base stats, Future Sight's two
+turns, the ±6 cap and the 85–100 damage roll will be true for as long as the games are.
+
+Everything the arc attaches them *to* — parameter counts, licence thresholds, which lab shipped
+what — is a September 2026 snapshot, and a minority of it was read first-hand at that. Each
+answer says which of its claims are primary and which came from coverage. Question 212 is the
+instruction manual for reading the rest of this part, and it applies to this part hardest.

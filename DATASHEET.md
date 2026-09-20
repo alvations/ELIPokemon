@@ -1,4 +1,4 @@
-# Dataset card — ELIPokémon v0.2.0
+# Dataset card — ELIPokémon v0.3.0
 
 Question 197 of this dataset argues that documentation should tell a reader something that
 would make them **not** use the thing. This file tries to hold itself to that.
@@ -9,12 +9,12 @@ would make them **not** use the thing. This file tries to hold itself to that.
 
 | | |
 | --- | --- |
-| **Version** | v0.2.0 |
-| **Records** | 212 questions · 424 answer files · ~276,000 words |
-| **Format** | Markdown with YAML front matter; generated `dataset/elipokemon.jsonl` (1.8 MB) |
+| **Version** | v0.3.0 |
+| **Records** | 232 questions · 464 answer files · ~318,000 words |
+| **Format** | Markdown with YAML front matter; generated `dataset/elipokemon.jsonl` (2.2 MB) |
 | **Fields** | `id`, `slug`, `question`, `category`, `difficulty`, `answer_serious`, `answer_pokemon`, `tags` |
 | **Language** | English |
-| **Difficulty split** | 50 core · 94 intermediate · 68 advanced |
+| **Difficulty split** | 50 core · 99 intermediate · 83 advanced |
 | **Licence** | Content CC BY 4.0 · code MIT |
 | **Built** | 2026-09-03 → 2026-09-20 |
 
@@ -47,12 +47,16 @@ Stated plainly, because this is the section that matters:
 * **Not balanced.** 45 multimodal and 38 translation questions against 7 on transformers. The
   distribution reflects the order things were written in, not an editorial judgement about
   importance.
-* **Not a current reference on any product.** Questions 201–212 name real systems and quote real
-  prices, parameter counts, benchmark scores and capability tiers. Every figure was taken from
-  public documentation and coverage in **September 2026**, several from secondary sources because
-  the primary pages were unreachable from the build environment, and **none was verified by
-  running the systems described**. Each answer in that arc carries a dated "where this stands"
-  note. Treat the arc as a snapshot of what was being said, not of what is true now.
+* **Not a current reference on any product.** Questions 201–232 name real systems and quote real
+  prices, parameter counts, benchmark scores and capability tiers, dated **September 2026**, and
+  **nothing was verified by running the systems described**. Each answer carries a dated "where
+  this stands" note separating what is primary from what is coverage. In the 213–232 arc a
+  minority of sources really were read first-hand — two licence files, two technical-report PDFs,
+  an inference config and a vendor repository, all via `raw.githubusercontent.com`, which the
+  build environment permits — and those are marked as primary. Everything else came from search
+  coverage, because `arxiv.org`, `huggingface.co` and most vendor pages are blocked. Where an
+  answer links an arXiv identifier, a **citation note** states that the paper was named from
+  working knowledge and not opened. Treat the arc as a snapshot of what was being said.
 * **Not multilingual.** It is *about* multilingual NLP, in English only. Question 196 argues
   that a translated benchmark measures familiarity with the source culture; that criticism
   applies to any translation of this dataset.
@@ -74,12 +78,12 @@ is repeated in the script's docstring.
 
 | Property | How it is enforced | Coverage |
 | --- | --- | --- |
-| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 212/212 |
-| Front matter matches the catalogue exactly | `scripts/validate.py` | 424/424 |
-| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 212/212 |
-| Minimum length (120 words) | `scripts/validate.py` | 424/424 |
+| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 232/232 |
+| Front matter matches the catalogue exactly | `scripts/validate.py` | 464/464 |
+| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 232/232 |
+| Minimum length (120 words) | `scripts/validate.py` | 464/464 |
 | Pokémon factual accuracy | Manual audit of all 100 Pokémon answers after the first pass; per-batch review thereafter | See caveat below |
-| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 212/212 |
+| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 232/232 |
 | Technical accuracy | **Author review only. No external review.** | — |
 
 ### The Pokémon accuracy caveat
@@ -111,9 +115,10 @@ earn their place. It was used as a search tool for finding answers worth re-read
 optimisation target — and the dataset contains three answers (021, 038, 190) explaining exactly
 what goes wrong when a proxy becomes a goal. Treat a low score as a question.
 
-**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary. Seven gaps were
+**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary. Eight gaps were
 found and closed during the build — the seventh being that **the Pokédex had no entry at all**
-after 212 questions; a term the vocabulary does not know scores zero, so
+after 212 questions, and the eighth that none of the sixteen Kanto and Hoenn **Badges** was
+listed although every Gym Leader was; a term the vocabulary does not know scores zero, so
 historical scores are not comparable across those commits. Each vocabulary change was committed
 on its own, with no content change, so the discontinuities are identifiable in
 `ledger_history.py` output.
@@ -132,7 +137,12 @@ on its own, with no content change, so the discontinuities are identifiable in
 6. **The glossary is complete but uneven.** `TERMINOLOGY.md` covers all three arcs; Part I
    (001–100) is more thorough per entry than Part II (101–200), where the long tail of
    single-mention species is listed rather than defined. Part III (201–212) is complete.
-7. **No second full-corpus Pokémon audit** has been run over 101–212.
+7. **No second full-corpus Pokémon audit** has been run over 101–232.
+8. **Scores are not comparable across the wrap fix.** Until v0.3.0 the scorer matched against
+   wrapped text, so a named entity split across a line break scored as a shorter term or as
+   nothing — 19 such entities across 17 answers, reaching back to question 102. The matcher now
+   joins single newlines first. Every score recorded before that change understates its answer by
+   an unknown amount.
 
 ## Ethical notes
 
@@ -162,7 +172,7 @@ on its own, with no content change, so the discontinuities are identifiable in
             Machine Learning Interview Questions},
   author = {alvations},
   year   = {2026},
-  note   = {Version 0.2.0},
+  note   = {Version 0.3.0},
   url    = {https://github.com/alvations/ELIPokemon}
 }
 ```

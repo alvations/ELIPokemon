@@ -3,7 +3,7 @@
 > **E**xplain **L**ike **I** play **Pokémon** — a dataset of serious machine learning
 > and LLM interview questions, each answered twice.
 
-**212 questions · 424 answers · ~276,000 words.** Every question ships with **two** answers:
+**232 questions · 464 answers · ~318,000 words.** Every question ships with **two** answers:
 
 | Style | What it is | Where it lives |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ explanation-quality eval, or just a fun way to revise before an interview.
 
 ## Contents
 
-The set is built in five arcs.
+The set is built in six arcs.
 
 ### Core ML and LLM — questions 001–100
 
@@ -116,6 +116,29 @@ Named systems as they stood in **September 2026**, and the reasoning that outliv
 
 **This arc is deliberately the most perishable part of the dataset.** It is a September 2026
 snapshot built from public sources, not first-hand testing. Question 212 says so about itself.
+
+### Open weights — questions 213–232
+
+Four detailed architecture walkthroughs of the open-weight frontier, plus the mechanisms that
+cut across all of them.
+
+| Questions | Family | Covers |
+| --- | --- | --- |
+| 213–217 | **DeepSeek** | Multi-head Latent Attention against GQA and MQA · fine-grained plus shared experts and auxiliary-loss-free balancing · multi-token prediction · FP8 training and how to read a cost figure · GRPO and what MIT weights grant |
+| 218–222 | **Qwen** | Dense against MoE at comparable size · hosted service tiers against downloadable checkpoints · thinking budgets and effort levels · long-context extension against trained context · an Apache checkpoint and a conditional one in the same release |
+| 223–227 | **Kimi** | Sparsity at the trillion mark · Muon, MuonClip and logit self-deactivation · agentic post-training and evaluating a human-preference-Elo claim · hosting a 1M multimodal checkpoint · a modified MIT and a Model-as-a-Service gate |
+| 228–232 | **Mechanisms** | MHA→MQA→GQA→MLA with real bytes per token · expert routing and router collapse · MTP and drafting · linear and hybrid attention · reading a model card into a serving stack |
+
+The mechanism answers reproduce their arithmetic rather than asserting it: the 576-value latent
+over 61 layers comes out at 70,272 bytes per token, and the expert arithmetic totals 670.9B
+parameters with 36.5B active — both matching the published figures.
+
+**Source discipline is recorded per claim.** `arxiv.org` and `huggingface.co` are blocked from
+the environment this was written in; `raw.githubusercontent.com` is not, so licence files,
+inference configs and two technical-report PDFs were read first-hand and are marked as primary,
+while everything reached only through coverage is marked as coverage. Where an answer links an
+arXiv identifier it carries a **citation note** saying the paper was named from working
+knowledge and not opened.
 
 ## Layout
 
@@ -195,7 +218,7 @@ characters, places — is doing more analogy work than one leaning on generic fu
 ("a Trainer", "a Gym", "a battle"). That is measurable, so it is measured.
 
 ```bash
-python3 scripts/pokemon_score.py                # score all 212, rewrite LEDGER.md
+python3 scripts/pokemon_score.py                # score all 232, rewrite LEDGER.md
 python3 scripts/pokemon_score.py --detail 042   # what one answer matched
 python3 scripts/ledger_history.py               # the score trend across git history
 ```
@@ -208,7 +231,7 @@ replays it.
 score = breadth (0-45) + density (0-35) + specificity (0-20)
 ```
 
-Current: **mean 62.1 · median 58.5 · minimum 39.9** across 212 answers.
+Current: **mean 64.2 · median 60.5 · minimum 39.9** across 232 answers.
 
 ### Revising with Claude
 
@@ -265,9 +288,9 @@ what was not, and what it should not be used for. The short version:
   interview answer, not a paper — **verify before citing**.
 * Pokémon facts were audited; 21 errors were found and fixed in the first pass, and further
   corrections are recorded in [CHANGELOG.md](CHANGELOG.md).
-* Questions **201–212 name real products and quote real figures from public coverage**, dated
-  September 2026. They will go out of date faster than anything else here; each one ends with a
-  "where this stands" note saying so.
+* Questions **201–232 name real products and quote real figures**, dated September 2026. They
+  will go out of date faster than anything else here; each one ends with a "where this stands"
+  note saying which claims are primary, which are coverage, and where the authority lives.
 * `for-agents/` documents the build process, the failures, and a prompt for reconstructing the
   dataset from scratch.
 

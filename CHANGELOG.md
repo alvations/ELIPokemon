@@ -10,6 +10,85 @@ Every entry below is traceable to a commit. Score movements are reproducible wit
 
 ---
 
+## [0.3.0] — 2026-09-20
+
+**232 questions, 464 answers.** Adds a sixth arc on open weights, and fixes a scorer bug that had
+been quietly under-counting the corpus since the beginning.
+
+### Added
+
+**Open weights — questions 213–232** (`e770d62`, `864e2f1`, `068c032`, `a95888d`)
+
+Four detailed architecture walkthroughs, written in four parallel streams — one per family, each
+in an isolated checkout, integrated and audited centrally.
+
+| Questions | Family | Central material |
+| --- | --- | --- |
+| 213–217 | DeepSeek | MLA against GQA and MQA · fine-grained plus shared experts · multi-token prediction · FP8 training and cost figures · GRPO and MIT weights |
+| 218–222 | Qwen | dense against MoE · hosted tiers against downloadable checkpoints · thinking budgets · context extension against trained context · the licence patchwork |
+| 223–227 | Kimi | trillion-scale sparsity · Muon and MuonClip · agentic post-training and human-preference Elo · hosting 1M multimodal weights · two licences from one lab |
+| 228–232 | Mechanisms | attention variants with real byte counts · expert routing · MTP and drafting · linear and hybrid attention · reading a model card into a serving stack |
+
+**The arithmetic is reproduced, not asserted.** DeepSeek's inference config was read directly and
+three independent checks reconcile with the published figures to the byte: 576 cached values over
+61 layers gives 70,272 B per token; the Llama-3.1-405B and Qwen-2.5-72B comparisons come out at
+516,096 B and 327,680 B; the expert arithmetic totals 670.9B parameters with 36.5B active.
+
+**Source discipline, recorded per claim.** `arxiv.org`, `huggingface.co` and most vendor pages are
+blocked from the build environment; `raw.githubusercontent.com` and the GitHub API are not. Both
+Kimi licence files and both Kimi technical-report PDFs, DeepSeek's inference config, and Qwen's
+own repository were therefore read **first-hand** and are marked primary. Everything else is
+marked as coverage. Two Qwen model cards and the Max licence were read through verbatim
+third-party reproductions — two of them, agreeing word for word — and the answers say so.
+
+Where an answer links an arXiv identifier it now carries a **citation note** stating that the
+paper was named from working knowledge and **not opened**, because the host is blocked. This was
+added during integration: the first drafts described figures as coming "from the technical
+report", which overstated the provenance.
+
+**Two questions were rewritten against their own brief**, and both are better for it. 231 was
+commissioned on linear-attention stacks; the lab most associated with them has since returned to
+full attention over multi-hop reasoning deficits, so the question is built on the retraction
+instead. 225 qualifies a leading arena placement on the merits — it is blind human-preference
+Elo, which is question 202's Contest-appeal axis rather than a verifiable reward.
+
+### Fixed
+
+**Scorer bug 4 — a line wrap split multi-word entities** (`c4b9c91`)
+
+Prose wraps at 98 columns, so an entity could straddle a line break. `Trick\nRoom` matched as the
+move **Trick**; `Stealth\nRock` matched as nothing. An audit found **19 split entities across 17
+of 232 answers**, reaching back to question 102 — every one of them a named entity the scorer
+could not see, in an answer whose score had been treated as a measurement ever since.
+
+Fixed in the matcher rather than by re-wrapping the 17 files: single newlines are joined before
+matching, so the scorer sees what a reader sees. Paragraph breaks are untouched and the word
+count is still taken from the original text.
+
+### Changed — scorer vocabulary
+
+| Commit | What | Corpus mean |
+| --- | --- | --- |
+| `813a4c1` | Eighth batch. The six Generation III Battle Frontier facilities and the seven Frontier Brains; all sixteen Kanto and Hoenn Badges, none of which were listed although every Gym Leader was; the delayed-damage moves; Reflect, whose partners Light Screen and Aurora Veil were already present; Starly and Staravia, where Staraptor was already listed; the rest of the Power items; Pokérus | 64.0 → 64.2 |
+
+Three proposals were **declined** on the `Gym Leader` precedent — a term barely more specific than
+the furniture it sits beside inflates every score without any answer naming something real:
+`Doubles`, `Singles` and `Priority`. Three Frontier Brains (`Lucy`, `Brandon`, `Tucker`) are
+listed and then excluded through `AMBIGUOUS`, as the file already does for `Karen` and `James`:
+they collide with ordinary given names and no answer uses them.
+
+### Grinding
+
+One answer first drafted below the floor and was ground in the same batch: **222 at 43.2 → 92.3**,
+by binding abstractions to specifics rather than adding vocabulary.
+
+### Known limitations at this release
+
+Everything at 0.2.0 still applies, and the recency warning now covers **201–232**. One is added:
+**scores recorded before `c4b9c91` are not comparable with scores after it.** The wrap fix
+changes the meaning of every historical score, as a vocabulary change does, and the discontinuity
+is identifiable in `ledger_history.py` output.
+
 ## [0.2.0] — 2026-09-20
 
 **212 questions, 424 answers.** Adds a fifth arc and closes two scorer vocabulary gaps.
