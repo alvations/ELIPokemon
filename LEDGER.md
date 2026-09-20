@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**232 answers · mean 64.0 · median 60.5 · min 39.9 (199) · max 100.0 (210)**
+**232 answers · mean 64.2 · median 60.5 · min 39.9 (199) · max 100.0 (218)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 38 |
-| strong | 65-79 | 58 |
+| excellent | 80-100 | 40 |
+| strong | 65-79 | 57 |
 | adequate | 50-64 | 86 |
-| thin | 35-49 | 50 |
+| thin | 35-49 | 49 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -64,7 +64,6 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **47.2** | thin | [`163`](answers/pokemon/163-endangered-language-documentation.md) | endangered-language-documentation | 7 | 7 | 3 | 1.0 |
 | **47.4** | thin | [`026`](answers/pokemon/026-catastrophic-forgetting.md) | catastrophic-forgetting | 8 | 9 | 29 | 1.5 |
 | **47.4** | thin | [`153`](answers/pokemon/153-speech-to-speech-translation.md) | speech-to-speech-translation | 6 | 8 | 11 | 1.4 |
-| **47.4** | thin | [`197`](answers/pokemon/197-multimodal-model-documentation.md) | multimodal-model-documentation | 6 | 9 | 10 | 1.4 |
 | **47.5** | thin | [`020`](answers/pokemon/020-dpo-vs-ppo.md) | dpo-vs-ppo | 5 | 15 | 38 | 2.1 |
 | **47.6** | thin | [`076`](answers/pokemon/076-learning-rate-schedules.md) | learning-rate-schedules | 7 | 8 | 15 | 1.1 |
 | **47.8** | thin | [`002`](answers/pokemon/002-positional-encodings-rope.md) | positional-encodings-rope | 8 | 10 | 30 | 1.4 |
@@ -89,6 +88,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.8** | adequate | [`012`](answers/pokemon/012-tokenization-bpe.md) | tokenization-bpe | 7 | 10 | 16 | 1.4 |
 | **51.0** | adequate | [`177`](answers/pokemon/177-multilingual-rag.md) | multilingual-rag | 6 | 12 | 8 | 1.8 |
 | **51.3** | adequate | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 8 | 14 | 38 | 1.7 |
+| **51.3** | adequate | [`197`](answers/pokemon/197-multimodal-model-documentation.md) | multimodal-model-documentation | 7 | 10 | 10 | 1.5 |
 | **51.3** | adequate | [`208`](answers/pokemon/208-open-weight-equivalence.md) | open-weight-equivalence | 9 | 12 | 40 | 1.7 |
 | **51.7** | adequate | [`011`](answers/pokemon/011-mixture-of-experts.md) | mixture-of-experts | 7 | 13 | 31 | 1.9 |
 | **51.9** | adequate | [`183`](answers/pokemon/183-multimodal-accessibility.md) | multimodal-accessibility | 8 | 8 | 9 | 1.3 |
@@ -160,7 +160,6 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **63.3** | adequate | [`203`](answers/pokemon/203-constrained-output-and-hallucination.md) | constrained-output-and-hallucination | 10 | 16 | 39 | 2.4 |
 | **63.5** | adequate | [`124`](answers/pokemon/124-interleaved-multimodal-data.md) | interleaved-multimodal-data | 12 | 12 | 16 | 1.4 |
 | **64.0** | adequate | [`168`](answers/pokemon/168-multimodal-embeddings.md) | multimodal-embeddings | 9 | 16 | 3 | 2.4 |
-| **64.1** | adequate | [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md) | hosted-tiers-versus-open-checkpoints | 12 | 16 | 34 | 1.7 |
 | **64.2** | adequate | [`082`](answers/pokemon/082-activation-functions.md) | activation-functions | 9 | 15 | 10 | 2.4 |
 | **64.4** | adequate | [`170`](answers/pokemon/170-translationese.md) | translationese | 10 | 14 | 15 | 2.1 |
 | **64.4** | adequate | [`171`](answers/pokemon/171-human-evaluation-translation.md) | human-evaluation-translation | 11 | 14 | 21 | 1.8 |
@@ -206,7 +205,6 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **74.9** | strong | [`202`](answers/pokemon/202-calibrated-decision-training.md) | calibrated-decision-training | 12 | 17 | 25 | 2.7 |
 | **75.2** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 11 | 27 | 18 | 3.0 |
 | **75.3** | strong | [`136`](answers/pokemon/136-off-target-and-hallucinated-translation.md) | off-target-and-hallucinated-translation | 11 | 26 | 6 | 3.1 |
-| **75.6** | strong | [`216`](answers/pokemon/216-fp8-training-and-cost-figures.md) | fp8-training-and-cost-figures | 15 | 20 | 39 | 2.0 |
 | **75.8** | strong | [`078`](answers/pokemon/078-gradient-checkpointing.md) | gradient-checkpointing | 8 | 28 | 17 | 4.9 |
 | **75.8** | strong | [`113`](answers/pokemon/113-morphology-rich-languages.md) | morphology-rich-languages | 8 | 26 | 3 | 4.2 |
 | **75.8** | strong | [`162`](answers/pokemon/162-dialects-and-varieties.md) | dialects-and-varieties | 8 | 31 | 13 | 4.4 |
@@ -224,36 +222,37 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **79.7** | strong | [`001`](answers/pokemon/001-attention-mechanisms.md) | attention-mechanisms | 10 | 31 | 57 | 3.9 |
 | **79.9** | strong | [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md) | attention-variants-and-kv-arithmetic | 16 | 23 | 48 | 2.3 |
 | **80.4** | excellent | [`148`](answers/pokemon/148-modality-balance-training-recipes.md) | modality-balance-training-recipes | 16 | 18 | 29 | 2.1 |
+| **80.6** | excellent | [`216`](answers/pokemon/216-fp8-training-and-cost-figures.md) | fp8-training-and-cost-figures | 16 | 22 | 39 | 2.2 |
+| **80.7** | excellent | [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md) | hosted-tiers-versus-open-checkpoints | 16 | 21 | 34 | 2.2 |
 | **80.8** | excellent | [`220`](answers/pokemon/220-thinking-budget-and-effort-control.md) | thinking-budget-and-effort-control | 12 | 37 | 43 | 3.4 |
 | **80.9** | excellent | [`145`](answers/pokemon/145-gui-computer-use-agents.md) | gui-computer-use-agents | 15 | 22 | 9 | 2.5 |
 | **81.3** | excellent | [`102`](answers/pokemon/102-tokenizer-fairness-token-premium.md) | tokenizer-fairness-token-premium | 13 | 23 | 32 | 3.1 |
-| **82.9** | excellent | [`231`](answers/pokemon/231-linear-and-hybrid-attention.md) | linear-and-hybrid-attention | 27 | 28 | 45 | 2.0 |
-| **83.2** | excellent | [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md) | multi-token-prediction-and-drafting | 26 | 34 | 87 | 2.5 |
-| **85.1** | excellent | [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md) | agentic-post-training-and-evaluation | 24 | 31 | 68 | 2.5 |
+| **84.8** | excellent | [`231`](answers/pokemon/231-linear-and-hybrid-attention.md) | linear-and-hybrid-attention | 30 | 31 | 45 | 2.3 |
 | **86.1** | excellent | [`130`](answers/pokemon/130-low-resource-translation.md) | low-resource-translation | 16 | 27 | 22 | 2.8 |
 | **86.2** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 12 | 27 | 29 | 4.0 |
 | **86.4** | excellent | [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md) | hosting-long-context-multimodal-weights | 18 | 27 | 53 | 2.5 |
 | **86.5** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 19 | 22 | 14 | 2.5 |
-| **86.9** | excellent | [`229`](answers/pokemon/229-fine-grained-expert-routing.md) | fine-grained-expert-routing | 25 | 34 | 39 | 2.5 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
-| **89.5** | excellent | [`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md) | multi-token-prediction-and-speculation | 23 | 31 | 68 | 3.0 |
+| **88.9** | excellent | [`229`](answers/pokemon/229-fine-grained-expert-routing.md) | fine-grained-expert-routing | 28 | 37 | 39 | 2.7 |
 | **90.3** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 20 | 27 | 26 | 2.9 |
 | **90.4** | excellent | [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md) | capability-thresholds-and-staged-release | 17 | 22 | 30 | 3.0 |
-| **91.2** | excellent | [`232`](answers/pokemon/232-reading-an-open-model-card.md) | reading-an-open-model-card | 29 | 42 | 65 | 3.0 |
+| **91.0** | excellent | [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md) | multi-token-prediction-and-drafting | 29 | 42 | 87 | 3.1 |
 | **91.4** | excellent | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 14 | 28 | 15 | 4.5 |
+| **91.8** | excellent | [`232`](answers/pokemon/232-reading-an-open-model-card.md) | reading-an-open-model-card | 30 | 43 | 65 | 3.1 |
 | **92.3** | excellent | [`207`](answers/pokemon/207-sparse-moe-serving.md) | sparse-moe-serving | 18 | 23 | 32 | 3.1 |
-| **92.3** | excellent | [`222`](answers/pokemon/222-open-weight-licence-patchwork.md) | open-weight-licence-patchwork | 26 | 38 | 43 | 3.1 |
 | **92.5** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 15 | 30 | 8 | 3.8 |
-| **93.6** | excellent | [`227`](answers/pokemon/227-open-weight-licence-conditions.md) | open-weight-licence-conditions | 22 | 32 | 50 | 3.3 |
 | **94.0** | excellent | [`159`](answers/pokemon/159-referring-segmentation.md) | referring-segmentation | 15 | 29 | 4 | 4.1 |
 | **94.3** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 16 | 24 | 20 | 3.7 |
+| **94.4** | excellent | [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md) | agentic-post-training-and-evaluation | 30 | 41 | 68 | 3.4 |
 | **94.5** | excellent | [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md) | muon-optimizer-and-training-stability | 24 | 36 | 68 | 3.4 |
+| **94.5** | excellent | [`227`](answers/pokemon/227-open-weight-licence-conditions.md) | open-weight-licence-conditions | 23 | 33 | 50 | 3.4 |
 | **95.8** | excellent | [`206`](answers/pokemon/206-million-token-context.md) | million-token-context | 22 | 25 | 18 | 3.5 |
+| **95.9** | excellent | [`222`](answers/pokemon/222-open-weight-licence-patchwork.md) | open-weight-licence-patchwork | 31 | 43 | 43 | 3.5 |
 | **96.2** | excellent | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 17 | 26 | 17 | 3.7 |
 | **96.5** | excellent | [`213`](answers/pokemon/213-multi-head-latent-attention.md) | multi-head-latent-attention | 16 | 41 | 49 | 4.0 |
 | **96.6** | excellent | [`106`](answers/pokemon/106-script-vs-language.md) | script-vs-language | 16 | 31 | 16 | 5.0 |
+| **96.7** | excellent | [`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md) | multi-token-prediction-and-speculation | 24 | 37 | 68 | 3.6 |
 | **97.3** | excellent | [`223`](answers/pokemon/223-trillion-parameter-moe-sparsity.md) | trillion-parameter-moe-sparsity | 22 | 33 | 54 | 3.7 |
-| **98.1** | excellent | [`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md) | dense-versus-moe-checkpoints | 17 | 40 | 38 | 3.9 |
 | **99.2** | excellent | [`104`](answers/pokemon/104-language-sampling-pretraining.md) | language-sampling-pretraining | 17 | 40 | 17 | 6.9 |
 | **100.0** | excellent | [`101`](answers/pokemon/101-cross-lingual-transfer.md) | cross-lingual-transfer | 28 | 71 | 19 | 9.8 |
 | **100.0** | excellent | [`103`](answers/pokemon/103-curse-of-multilinguality.md) | curse-of-multilinguality | 20 | 44 | 11 | 6.4 |
@@ -261,6 +260,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **100.0** | excellent | [`108`](answers/pokemon/108-language-identification.md) | language-identification | 23 | 52 | 8 | 8.2 |
 | **100.0** | excellent | [`111`](answers/pokemon/111-cross-lingual-embedding-alignment.md) | cross-lingual-embedding-alignment | 19 | 38 | 6 | 7.0 |
 | **100.0** | excellent | [`210`](answers/pokemon/210-model-name-collisions.md) | model-name-collisions | 23 | 34 | 31 | 5.5 |
+| **100.0** | excellent | [`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md) | dense-versus-moe-checkpoints | 21 | 53 | 38 | 5.1 |
 
 ## What this score does not measure
 

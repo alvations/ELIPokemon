@@ -162,7 +162,9 @@ Sand Attack, Flash, Swagger, Metal Burst, Assist, Sketch, Heal Block,
 Confusion, Chatter, Spotlight, Follow Me, Rage Powder, Quick Attack,
 Tail Whip, Dragon Claw, Dragon Rush, Dragon Tail, Outrage, Aqua Tail,
 Focus Blast, Zap Cannon, Dynamic Punch, Hurricane, Blizzard, Inferno,
-Cross Chop, Megahorn, Play Rough, Iron Head, Body Press, Knock Off
+Cross Chop, Megahorn, Play Rough, Iron Head, Body Press, Knock Off,
+Future Sight, Doom Desire, Reflect, Haze, Clear Smog, Petal Dance,
+King's Shield, Wish, Healing Wish, Memento, Explosion, Fake Out, Thrash
 """
 
 ITEMS = """
@@ -195,7 +197,9 @@ Ability Capsule, Ability Patch, Heart Scale, Pomeg Berry, Kelpsy Berry,
 Qualot Berry, Hondew Berry, Grepa Berry, Tamato Berry, Burn Heal,
 Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy,
 Poffin, Poffins, Pokéblock, Pokéblocks, Sitrus Berry, Lum Berry, Berry Juice,
-Destiny Knot, Everstone, Power Weight, Power Bracer, Macho Brace
+Destiny Knot, Everstone, Power Weight, Power Bracer, Macho Brace,
+Power Belt, Power Anklet, Power Lens, Power Band, Smooth Rock, Light Clay,
+Terrain Extender, Lucky Egg
 """
 
 ABILITIES = """
@@ -215,7 +219,7 @@ Surge Surfer, Stance Change, Multitype
 """
 
 CHARACTERS = """
-Lanette, Bebe, Amanita,
+Lanette, Bebe, Amanita, Noland, Spenser, Anabel, Greta, Tucker, Lucy, Brandon,
 Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni, Falkner,
 Bugsy, Whitney, Morty, Chuck, Jasmine, Pryce, Clair, Roxanne, Brawly, Wattson,
 Flannery, Norman, Winona, Tate, Liza, Wallace, Juan, Roark, Gardenia, Maylene,
@@ -247,7 +251,8 @@ Seafoam Islands, Viridian Forest, Power Plant, Pokémon Tower, Union Cave,
 Whirl Islands, Mt. Silver, Violet City, Cherrygrove City, New Bark Town,
 Celadon Department Store, Slowpoke Well, Sprout Tower, Bell Tower,
 Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station, Poké Mart,
-Bill's PC, S.S. Anne, Hall of Fame, Pokémon HOME
+Bill's PC, S.S. Anne, Hall of Fame, Pokémon HOME, Battle Factory,
+Battle Palace, Battle Arena, Battle Dome, Battle Pike, Battle Pyramid
 """
 
 MECHANICS = """
@@ -257,7 +262,12 @@ Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
 Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
 Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
 Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video,
-Pokémon Contest, Contest Spectacular, Contest Condition, Pokédex,
+Pokémon Contest, Contest Spectacular, Contest Condition, Pokédex, Pokérus,
+Blade Forme, Shield Forme, Trainer Card, Knowledge Symbol, Power Spot,
+Species Clause, Item Clause, Multi Battle, Damage Roll, Frontier Brain,
+Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge,
+Marsh Badge, Volcano Badge, Earth Badge, Stone Badge, Knuckle Badge,
+Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge,
 ID No., Electric Terrain, Grassy Terrain, Misty Terrain, Psychic Terrain,
 Missingno., Regional Form, Battle Format,
 Hyper Training, Original Trainer, Badly Poisoned
@@ -306,7 +316,7 @@ AMBIGUOUS = {
     "Weather", "Terrain", "Static", "Pressure", "Simple", "Contrary", "Unaware",
     "Immunity", "Trace", "Download", "Filter", "Analytic", "Speed", "Toxic",
     "Blaze", "Torrent", "Swarm", "Defiant", "Competitive", "Justified",
-    "Held Item", "Super Effective", "Bill",
+    "Held Item", "Super Effective", "Bill", "Lucy", "Brandon", "Tucker",
 }
 for group in NAMED.values():
     group -= AMBIGUOUS
