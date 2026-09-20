@@ -15,13 +15,13 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**208 answers · mean 58.7 · median 54.8 · min 38.5 (094) · max 100.0 (111)**
+**212 answers · mean 59.0 · median 54.9 · min 38.5 (094) · max 100.0 (210)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 20 |
+| excellent | 80-100 | 22 |
 | strong | 65-79 | 36 |
-| adequate | 50-64 | 89 |
+| adequate | 50-64 | 91 |
 | thin | 35-49 | 63 |
 | generic | 0-34 | 0 |
 
@@ -104,6 +104,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **50.8** | adequate | [`012`](answers/pokemon/012-tokenization-bpe.md) | tokenization-bpe | 7 | 10 | 16 | 1.4 |
 | **51.3** | adequate | [`072`](answers/pokemon/072-gradient-descent-optimizers.md) | gradient-descent-optimizers | 8 | 14 | 38 | 1.7 |
 | **51.3** | adequate | [`179`](answers/pokemon/179-controlled-language-authoring.md) | controlled-language-authoring | 5 | 12 | 9 | 2.1 |
+| **51.6** | adequate | [`212`](answers/pokemon/212-reading-model-announcements.md) | reading-model-announcements | 9 | 11 | 29 | 1.4 |
 | **51.7** | adequate | [`011`](answers/pokemon/011-mixture-of-experts.md) | mixture-of-experts | 7 | 13 | 31 | 1.9 |
 | **51.8** | adequate | [`119`](answers/pokemon/119-cross-modal-attention.md) | cross-modal-attention | 7 | 14 | 20 | 1.6 |
 | **52.0** | adequate | [`081`](answers/pokemon/081-batch-size-and-lr.md) | batch-size-and-lr | 8 | 13 | 35 | 1.8 |
@@ -151,6 +152,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **57.4** | adequate | [`178`](answers/pokemon/178-translating-user-generated-content.md) | translating-user-generated-content | 9 | 11 | 8 | 1.6 |
 | **57.5** | adequate | [`087`](answers/pokemon/087-curse-of-dimensionality.md) | curse-of-dimensionality | 10 | 12 | 32 | 1.8 |
 | **57.6** | adequate | [`168`](answers/pokemon/168-multimodal-embeddings.md) | multimodal-embeddings | 8 | 13 | 3 | 1.9 |
+| **58.0** | adequate | [`209`](answers/pokemon/209-distillation-from-a-frontier-parent.md) | distillation-from-a-frontier-parent | 9 | 13 | 33 | 2.1 |
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |
 | **58.5** | adequate | [`080`](answers/pokemon/080-zero-and-fsdp.md) | zero-and-fsdp | 7 | 19 | 55 | 2.9 |
 | **58.7** | adequate | [`165`](answers/pokemon/165-vlm-inference-efficiency.md) | vlm-inference-efficiency | 9 | 12 | 11 | 1.8 |
@@ -224,6 +226,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **84.6** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 18 | 20 | 14 | 2.2 |
 | **85.7** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 19 | 22 | 26 | 2.4 |
 | **86.2** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 12 | 27 | 29 | 4.0 |
+| **86.6** | excellent | [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md) | capability-thresholds-and-staged-release | 16 | 21 | 30 | 2.9 |
 | **87.6** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 15 | 21 | 20 | 3.3 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
 | **89.1** | excellent | [`207`](answers/pokemon/207-sparse-moe-serving.md) | sparse-moe-serving | 17 | 21 | 32 | 2.9 |
@@ -237,6 +240,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **100.0** | excellent | [`105`](answers/pokemon/105-shared-multilingual-vocabulary.md) | shared-multilingual-vocabulary | 20 | 28 | 18 | 4.4 |
 | **100.0** | excellent | [`108`](answers/pokemon/108-language-identification.md) | language-identification | 22 | 43 | 8 | 6.8 |
 | **100.0** | excellent | [`111`](answers/pokemon/111-cross-lingual-embedding-alignment.md) | cross-lingual-embedding-alignment | 19 | 38 | 6 | 7.0 |
+| **100.0** | excellent | [`210`](answers/pokemon/210-model-name-collisions.md) | model-name-collisions | 19 | 29 | 31 | 4.7 |
 
 ## What this score does not measure
 

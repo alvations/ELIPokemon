@@ -1,5 +1,5 @@
 {
-  "count": 208,
+  "count": 212,
   "questions": [
     {
       "id": "001",
@@ -3406,6 +3406,70 @@
         "benchmarks",
         "distillation",
         "evaluation"
+      ]
+    },
+    {
+      "id": "209",
+      "slug": "distillation-from-a-frontier-parent",
+      "question": "Open models like Gemma are distilled from closed frontier models. What survives that transfer and what does not?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/209-distillation-from-a-frontier-parent.md",
+      "pokemon_path": "answers/pokemon/209-distillation-from-a-frontier-parent.md",
+      "tags": [
+        "distillation",
+        "capacity-gap",
+        "open-weights",
+        "calibration",
+        "licensing"
+      ]
+    },
+    {
+      "id": "210",
+      "slug": "model-name-collisions",
+      "question": "Two labs shipped something called Astra in the same year. Why is model naming an engineering problem?",
+      "category": "frontier",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/210-model-name-collisions.md",
+      "pokemon_path": "answers/pokemon/210-model-name-collisions.md",
+      "tags": [
+        "reproducibility",
+        "model-ids",
+        "versioning",
+        "evaluation",
+        "provenance"
+      ]
+    },
+    {
+      "id": "211",
+      "slug": "capability-thresholds-and-staged-release",
+      "question": "A lab says its new model crossed a critical capability threshold and shipped it with restricted access. How should an engineer read that?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/211-capability-thresholds-and-staged-release.md",
+      "pokemon_path": "answers/pokemon/211-capability-thresholds-and-staged-release.md",
+      "tags": [
+        "preparedness",
+        "staged-release",
+        "dual-use",
+        "evaluation",
+        "deployment"
+      ]
+    },
+    {
+      "id": "212",
+      "slug": "reading-model-announcements",
+      "question": "A new model is announced with striking numbers and you cannot test it yet. How do you read the claim?",
+      "category": "frontier",
+      "difficulty": "core",
+      "serious_path": "answers/serious/212-reading-model-announcements.md",
+      "pokemon_path": "answers/pokemon/212-reading-model-announcements.md",
+      "tags": [
+        "evidence",
+        "benchmarks",
+        "rumour",
+        "primary-sources",
+        "procurement"
       ]
     }
   ]

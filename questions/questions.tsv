@@ -207,3 +207,7 @@ id	slug	category	difficulty	question
 206	million-token-context	frontier	advanced	Million-token context windows are now standard, including in open weights. What does that change, and what does it not?
 207	sparse-moe-serving	frontier	advanced	An open model advertises 250B total parameters with 15B active. What does that buy you when you go to serve it?
 208	open-weight-equivalence	frontier	advanced	What is the open-weight equivalent of a given frontier model, and what does 'equivalent' actually mean?
+209	distillation-from-a-frontier-parent	frontier	advanced	Open models like Gemma are distilled from closed frontier models. What survives that transfer and what does not?
+210	model-name-collisions	frontier	intermediate	Two labs shipped something called Astra in the same year. Why is model naming an engineering problem?
+211	capability-thresholds-and-staged-release	frontier	advanced	A lab says its new model crossed a critical capability threshold and shipped it with restricted access. How should an engineer read that?
+212	reading-model-announcements	frontier	core	A new model is announced with striking numbers and you cannot test it yet. How do you read the claim?
