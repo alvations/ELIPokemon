@@ -329,6 +329,13 @@ def body_of(path: pathlib.Path) -> str:
 
 def score_text(text: str) -> dict:
     words = len(text.split())
+
+    # Prose is wrapped at 98 columns, so a multi-word entity can straddle a line
+    # break: "Trick\nRoom" matched as the move "Trick", and "Stealth\nRock" as
+    # nothing at all. Join single newlines before matching so the scorer sees what
+    # a reader sees. Paragraph breaks (blank lines) are left alone, and the word
+    # count above is taken from the original text, so it is unaffected.
+    text = re.sub(r"\n(?!\n)", " ", text)
     hits: dict[str, list[str]] = {k: [] for k in NAMED}
     distinct: set[str] = set()
     named_mentions = 0
