@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 222,
   "questions": [
     {
       "id": "001",
@@ -3550,6 +3550,86 @@
         "licensing",
         "open-weights",
         "deepseek"
+      ]
+    },
+    {
+      "id": "218",
+      "slug": "dense-versus-moe-checkpoints",
+      "question": "Qwen ships a dense 27B checkpoint and a 35B-A3B mixture-of-experts checkpoint in the same generation. When is the dense one the right answer?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/218-dense-versus-moe-checkpoints.md",
+      "pokemon_path": "answers/pokemon/218-dense-versus-moe-checkpoints.md",
+      "tags": [
+        "qwen",
+        "mixture-of-experts",
+        "dense-models",
+        "quantisation",
+        "fine-tuning"
+      ]
+    },
+    {
+      "id": "219",
+      "slug": "hosted-tiers-versus-open-checkpoints",
+      "question": "Qwen sells Flash, Plus and Max endpoints and also publishes downloadable checkpoints. Which of those can you actually run yourself?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/219-hosted-tiers-versus-open-checkpoints.md",
+      "pokemon_path": "answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md",
+      "tags": [
+        "qwen",
+        "open-weights",
+        "api-products",
+        "naming",
+        "procurement"
+      ]
+    },
+    {
+      "id": "220",
+      "slug": "thinking-budget-and-effort-control",
+      "question": "Qwen controls reasoning with a thinking switch, a token budget and an effort level. How does that differ from a single effort dial?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/220-thinking-budget-and-effort-control.md",
+      "pokemon_path": "answers/pokemon/220-thinking-budget-and-effort-control.md",
+      "tags": [
+        "qwen",
+        "reasoning-effort",
+        "thinking-budget",
+        "latency",
+        "prompt-caching"
+      ]
+    },
+    {
+      "id": "221",
+      "slug": "long-context-extension-yarn",
+      "question": "Qwen's checkpoints are 262K native and advertised as extensible to 1M with YaRN. What degrades when you stretch a window instead of training it?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/221-long-context-extension-yarn.md",
+      "pokemon_path": "answers/pokemon/221-long-context-extension-yarn.md",
+      "tags": [
+        "qwen",
+        "long-context",
+        "yarn",
+        "rope",
+        "linear-attention"
+      ]
+    },
+    {
+      "id": "222",
+      "slug": "open-weight-licence-patchwork",
+      "question": "Two checkpoints from the same Qwen release carry different licences. How does that change what you are allowed to build?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/222-open-weight-licence-patchwork.md",
+      "pokemon_path": "answers/pokemon/222-open-weight-licence-patchwork.md",
+      "tags": [
+        "qwen",
+        "licensing",
+        "open-weights",
+        "compliance",
+        "procurement"
       ]
     }
   ]

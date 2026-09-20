@@ -216,3 +216,8 @@ id	slug	category	difficulty	question
 215	multi-token-prediction-and-speculation	open-weights	advanced	Is multi-token prediction the same thing as speculative decoding?
 216	fp8-training-and-cost-figures	open-weights	intermediate	A lab says it trained its model in FP8 for $5.576M. How do you read that figure?
 217	grpo-and-mit-weights	open-weights	intermediate	DeepSeek ships MIT-licensed weights trained with GRPO. What does that actually let a downstream team do?
+218	dense-versus-moe-checkpoints	open-weights	advanced	Qwen ships a dense 27B checkpoint and a 35B-A3B mixture-of-experts checkpoint in the same generation. When is the dense one the right answer?
+219	hosted-tiers-versus-open-checkpoints	open-weights	intermediate	Qwen sells Flash, Plus and Max endpoints and also publishes downloadable checkpoints. Which of those can you actually run yourself?
+220	thinking-budget-and-effort-control	open-weights	advanced	Qwen controls reasoning with a thinking switch, a token budget and an effort level. How does that differ from a single effort dial?
+221	long-context-extension-yarn	open-weights	advanced	Qwen's checkpoints are 262K native and advertised as extensible to 1M with YaRN. What degrades when you stretch a window instead of training it?
+222	open-weight-licence-patchwork	open-weights	advanced	Two checkpoints from the same Qwen release carry different licences. How does that change what you are allowed to build?
