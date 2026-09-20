@@ -1,5 +1,5 @@
 {
-  "count": 200,
+  "count": 204,
   "questions": [
     {
       "id": "001",
@@ -3278,6 +3278,70 @@
         "measurement",
         "honesty",
         "capstone"
+      ]
+    },
+    {
+      "id": "201",
+      "slug": "system-one-models",
+      "question": "What is a System One model, and when would you reach for one instead of an LLM?",
+      "category": "frontier",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/201-system-one-models.md",
+      "pokemon_path": "answers/pokemon/201-system-one-models.md",
+      "tags": [
+        "system-one",
+        "non-autoregressive",
+        "classification",
+        "latency",
+        "jev"
+      ]
+    },
+    {
+      "id": "202",
+      "slug": "calibrated-decision-training",
+      "question": "Jev is trained against a proper scoring rule rather than human preference. What does that actually change?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/202-calibrated-decision-training.md",
+      "pokemon_path": "answers/pokemon/202-calibrated-decision-training.md",
+      "tags": [
+        "calibration",
+        "brier-score",
+        "proper-scoring-rules",
+        "rlhf",
+        "reward-design"
+      ]
+    },
+    {
+      "id": "203",
+      "slug": "constrained-output-and-hallucination",
+      "question": "If a model can only emit options from a fixed schema, has hallucination been solved?",
+      "category": "frontier",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/203-constrained-output-and-hallucination.md",
+      "pokemon_path": "answers/pokemon/203-constrained-output-and-hallucination.md",
+      "tags": [
+        "hallucination",
+        "constrained-decoding",
+        "schema",
+        "type-safety",
+        "abstention"
+      ]
+    },
+    {
+      "id": "204",
+      "slug": "effort-and-adaptive-thinking",
+      "question": "Modern reasoning models expose an effort dial instead of a thinking-token budget. How do you tune it?",
+      "category": "frontier",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/204-effort-and-adaptive-thinking.md",
+      "pokemon_path": "answers/pokemon/204-effort-and-adaptive-thinking.md",
+      "tags": [
+        "effort",
+        "adaptive-thinking",
+        "inference-cost",
+        "prompt-caching",
+        "latency"
       ]
     }
   ]

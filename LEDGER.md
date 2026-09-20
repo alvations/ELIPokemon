@@ -15,14 +15,14 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**200 answers · mean 58.2 · median 54.4 · min 38.5 (094) · max 100.0 (111)**
+**204 answers · mean 58.2 · median 54.4 · min 38.5 (094) · max 100.0 (111)**
 
 | band | range | answers |
 | --- | --- | --- |
 | excellent | 80-100 | 18 |
-| strong | 65-79 | 32 |
-| adequate | 50-64 | 88 |
-| thin | 35-49 | 62 |
+| strong | 65-79 | 34 |
+| adequate | 50-64 | 89 |
+| thin | 35-49 | 63 |
 | generic | 0-34 | 0 |
 
 ## Every answer, lowest first
@@ -47,6 +47,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **43.2** | thin | [`048`](answers/pokemon/048-evaluating-rag.md) | evaluating-rag | 5 | 11 | 26 | 1.5 |
 | **43.2** | thin | [`050`](answers/pokemon/050-self-consistency.md) | self-consistency | 5 | 8 | 14 | 1.2 |
 | **43.3** | thin | [`163`](answers/pokemon/163-endangered-language-documentation.md) | endangered-language-documentation | 6 | 6 | 3 | 0.9 |
+| **43.3** | thin | [`202`](answers/pokemon/202-calibrated-decision-training.md) | calibrated-decision-training | 6 | 9 | 25 | 1.4 |
 | **43.4** | thin | [`038`](answers/pokemon/038-llm-as-a-judge.md) | llm-as-a-judge | 7 | 11 | 47 | 1.6 |
 | **43.4** | thin | [`083`](answers/pokemon/083-softmax-and-logsumexp.md) | softmax-and-logsumexp | 4 | 9 | 13 | 1.5 |
 | **43.4** | thin | [`138`](answers/pokemon/138-speech-language-models.md) | speech-language-models | 5 | 10 | 11 | 1.2 |
@@ -152,6 +153,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **58.5** | adequate | [`042`](answers/pokemon/042-chunking-strategies.md) | chunking-strategies | 8 | 13 | 7 | 2.0 |
 | **58.5** | adequate | [`080`](answers/pokemon/080-zero-and-fsdp.md) | zero-and-fsdp | 7 | 19 | 55 | 2.9 |
 | **58.7** | adequate | [`165`](answers/pokemon/165-vlm-inference-efficiency.md) | vlm-inference-efficiency | 9 | 12 | 11 | 1.8 |
+| **58.7** | adequate | [`203`](answers/pokemon/203-constrained-output-and-hallucination.md) | constrained-output-and-hallucination | 9 | 15 | 39 | 2.2 |
 | **58.8** | adequate | [`099`](answers/pokemon/099-ml-system-design.md) | ml-system-design | 11 | 14 | 47 | 1.9 |
 | **59.0** | adequate | [`152`](answers/pokemon/152-3d-and-depth-understanding.md) | 3d-and-depth-understanding | 7 | 21 | 3 | 2.4 |
 | **59.5** | adequate | [`035`](answers/pokemon/035-beam-search.md) | beam-search | 8 | 15 | 32 | 2.3 |
@@ -191,6 +193,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **67.4** | strong | [`143`](answers/pokemon/143-simultaneous-speech-translation.md) | simultaneous-speech-translation | 9 | 22 | 26 | 2.7 |
 | **67.6** | strong | [`086`](answers/pokemon/086-pca.md) | pca | 13 | 15 | 43 | 2.2 |
 | **67.7** | strong | [`100`](answers/pokemon/100-fairness-bias-privacy.md) | fairness-bias-privacy | 9 | 22 | 21 | 2.8 |
+| **69.0** | strong | [`204`](answers/pokemon/204-effort-and-adaptive-thinking.md) | effort-and-adaptive-thinking | 13 | 19 | 62 | 2.5 |
 | **69.1** | strong | [`162`](answers/pokemon/162-dialects-and-varieties.md) | dialects-and-varieties | 7 | 25 | 13 | 3.5 |
 | **69.9** | strong | [`034`](answers/pokemon/034-sampling-temperature-top-p.md) | sampling-temperature-top-p | 9 | 21 | 28 | 3.0 |
 | **69.9** | strong | [`155`](answers/pokemon/155-sign-language-translation.md) | sign-language-translation | 13 | 15 | 7 | 1.8 |
@@ -200,6 +203,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **70.7** | strong | [`136`](answers/pokemon/136-off-target-and-hallucinated-translation.md) | off-target-and-hallucinated-translation | 10 | 24 | 6 | 2.8 |
 | **71.3** | strong | [`145`](answers/pokemon/145-gui-computer-use-agents.md) | gui-computer-use-agents | 14 | 15 | 9 | 1.7 |
 | **72.2** | strong | [`192`](answers/pokemon/192-multimodal-monitoring.md) | multimodal-monitoring | 13 | 15 | 7 | 2.1 |
+| **72.6** | strong | [`201`](answers/pokemon/201-system-one-models.md) | system-one-models | 12 | 20 | 47 | 2.8 |
 | **72.7** | strong | [`157`](answers/pokemon/157-video-generation.md) | video-generation | 10 | 22 | 23 | 3.1 |
 | **72.9** | strong | [`140`](answers/pokemon/140-multimodal-retrieval.md) | multimodal-retrieval | 14 | 17 | 11 | 1.9 |
 | **73.7** | strong | [`016`](answers/pokemon/016-next-token-prediction.md) | next-token-prediction | 14 | 17 | 43 | 2.4 |

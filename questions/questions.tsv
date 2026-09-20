@@ -199,3 +199,7 @@ id	slug	category	difficulty	question
 198	building-an-evaluation-suite	multimodal	advanced	How do you build an evaluation suite for a multimodal system from scratch?
 199	choosing-an-approach	synthesis	advanced	Given all these techniques, how do you decide which one your problem needs?
 200	what-actually-matters	synthesis	core	After all of this, what actually matters?
+201	system-one-models	frontier	intermediate	What is a System One model, and when would you reach for one instead of an LLM?
+202	calibrated-decision-training	frontier	advanced	Jev is trained against a proper scoring rule rather than human preference. What does that actually change?
+203	constrained-output-and-hallucination	frontier	advanced	If a model can only emit options from a fixed schema, has hallucination been solved?
+204	effort-and-adaptive-thinking	frontier	intermediate	Modern reasoning models expose an effort dial instead of a thinking-token budget. How do you tune it?
