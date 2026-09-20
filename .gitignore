@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Agent worktrees created by the local tooling; never part of the dataset.
+/.claude/worktrees/
