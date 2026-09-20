@@ -221,3 +221,8 @@ id	slug	category	difficulty	question
 220	thinking-budget-and-effort-control	open-weights	advanced	Qwen controls reasoning with a thinking switch, a token budget and an effort level. How does that differ from a single effort dial?
 221	long-context-extension-yarn	open-weights	advanced	Qwen's checkpoints are 262K native and advertised as extensible to 1M with YaRN. What degrades when you stretch a window instead of training it?
 222	open-weight-licence-patchwork	open-weights	advanced	Two checkpoints from the same Qwen release carry different licences. How does that change what you are allowed to build?
+223	trillion-parameter-moe-sparsity	open-weights	advanced	A lab ships a 1T-parameter MoE activating 32B, then a 2.8T one activating 104B. What is sparsity a knob for?
+224	muon-optimizer-and-training-stability	open-weights	advanced	A lab trains its trillion-parameter models with Muon instead of AdamW. What should a practitioner take from that?
+225	agentic-post-training-and-evaluation	open-weights	advanced	A model claims long-horizon agentic tool use and tops a frontend-code arena. How do you check either claim?
+226	hosting-long-context-multimodal-weights	open-weights	advanced	An open checkpoint advertises a 1M-token window and native vision. What does self-hosting cost that renting hides?
+227	open-weight-licence-conditions	open-weights	intermediate	An open-weight model ships under a 'modified MIT' licence. What does that actually oblige you to?

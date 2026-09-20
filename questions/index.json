@@ -1,5 +1,5 @@
 {
-  "count": 222,
+  "count": 227,
   "questions": [
     {
       "id": "001",
@@ -3630,6 +3630,86 @@
         "open-weights",
         "compliance",
         "procurement"
+      ]
+    },
+    {
+      "id": "223",
+      "slug": "trillion-parameter-moe-sparsity",
+      "question": "A lab ships a 1T-parameter MoE activating 32B, then a 2.8T one activating 104B. What is sparsity a knob for?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/223-trillion-parameter-moe-sparsity.md",
+      "pokemon_path": "answers/pokemon/223-trillion-parameter-moe-sparsity.md",
+      "tags": [
+        "mixture-of-experts",
+        "sparsity",
+        "scaling-laws",
+        "attention",
+        "open-weights"
+      ]
+    },
+    {
+      "id": "224",
+      "slug": "muon-optimizer-and-training-stability",
+      "question": "A lab trains its trillion-parameter models with Muon instead of AdamW. What should a practitioner take from that?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/224-muon-optimizer-and-training-stability.md",
+      "pokemon_path": "answers/pokemon/224-muon-optimizer-and-training-stability.md",
+      "tags": [
+        "optimizers",
+        "muon",
+        "training-stability",
+        "pretraining",
+        "attention"
+      ]
+    },
+    {
+      "id": "225",
+      "slug": "agentic-post-training-and-evaluation",
+      "question": "A model claims long-horizon agentic tool use and tops a frontend-code arena. How do you check either claim?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/225-agentic-post-training-and-evaluation.md",
+      "pokemon_path": "answers/pokemon/225-agentic-post-training-and-evaluation.md",
+      "tags": [
+        "agents",
+        "tool-use",
+        "synthetic-data",
+        "evaluation",
+        "leaderboards"
+      ]
+    },
+    {
+      "id": "226",
+      "slug": "hosting-long-context-multimodal-weights",
+      "question": "An open checkpoint advertises a 1M-token window and native vision. What does self-hosting cost that renting hides?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/226-hosting-long-context-multimodal-weights.md",
+      "pokemon_path": "answers/pokemon/226-hosting-long-context-multimodal-weights.md",
+      "tags": [
+        "long-context",
+        "kv-cache",
+        "multimodal",
+        "serving",
+        "open-weights"
+      ]
+    },
+    {
+      "id": "227",
+      "slug": "open-weight-licence-conditions",
+      "question": "An open-weight model ships under a 'modified MIT' licence. What does that actually oblige you to?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/227-open-weight-licence-conditions.md",
+      "pokemon_path": "answers/pokemon/227-open-weight-licence-conditions.md",
+      "tags": [
+        "licensing",
+        "open-weights",
+        "compliance",
+        "deployment",
+        "legal"
       ]
     }
   ]
