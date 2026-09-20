@@ -15,12 +15,12 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
   specificity  named / (named + generic) mentions
 ```
 
-**212 answers · mean 62.1 · median 58.5 · min 39.9 (199) · max 100.0 (210)**
+**217 answers · mean 62.5 · median 58.6 · min 39.9 (199) · max 100.0 (210)**
 
 | band | range | answers |
 | --- | --- | --- |
-| excellent | 80-100 | 24 |
-| strong | 65-79 | 53 |
+| excellent | 80-100 | 26 |
+| strong | 65-79 | 56 |
 | adequate | 50-64 | 85 |
 | thin | 35-49 | 50 |
 | generic | 0-34 | 0 |
@@ -167,6 +167,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **65.1** | strong | [`176`](answers/pokemon/176-multimodal-agents-with-tools.md) | multimodal-agents-with-tools | 8 | 21 | 6 | 2.8 |
 | **65.4** | strong | [`067`](answers/pokemon/067-dropout.md) | dropout | 10 | 15 | 34 | 2.5 |
 | **65.6** | strong | [`137`](answers/pokemon/137-diffusion-image-generation.md) | diffusion-image-generation | 8 | 23 | 12 | 2.8 |
+| **65.6** | strong | [`217`](answers/pokemon/217-grpo-and-mit-weights.md) | grpo-and-mit-weights | 12 | 21 | 52 | 2.0 |
 | **65.8** | strong | [`013`](answers/pokemon/013-context-length-limits.md) | context-length-limits | 13 | 16 | 55 | 2.2 |
 | **66.2** | strong | [`186`](answers/pokemon/186-terminology-mining.md) | terminology-mining | 10 | 17 | 3 | 2.3 |
 | **66.5** | strong | [`134`](answers/pokemon/134-domain-adaptation-translation.md) | domain-adaptation-translation | 12 | 15 | 27 | 1.8 |
@@ -194,6 +195,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **72.5** | strong | [`122`](answers/pokemon/122-multimodal-hallucination.md) | multimodal-hallucination | 10 | 26 | 5 | 3.0 |
 | **72.5** | strong | [`185`](answers/pokemon/185-massively-multilingual-models.md) | massively-multilingual-models | 13 | 14 | 12 | 2.1 |
 | **72.7** | strong | [`157`](answers/pokemon/157-video-generation.md) | video-generation | 10 | 22 | 23 | 3.1 |
+| **72.7** | strong | [`214`](answers/pokemon/214-fine-grained-and-shared-experts.md) | fine-grained-and-shared-experts | 14 | 18 | 25 | 1.9 |
 | **73.7** | strong | [`016`](answers/pokemon/016-next-token-prediction.md) | next-token-prediction | 14 | 17 | 43 | 2.4 |
 | **73.8** | strong | [`007`](answers/pokemon/007-transformer-feed-forward-block.md) | transformer-feed-forward-block | 8 | 22 | 16 | 3.8 |
 | **73.9** | strong | [`120`](answers/pokemon/120-contrastive-image-text-pretraining.md) | contrastive-image-text-pretraining | 13 | 20 | 12 | 2.3 |
@@ -202,6 +204,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **74.9** | strong | [`202`](answers/pokemon/202-calibrated-decision-training.md) | calibrated-decision-training | 12 | 17 | 25 | 2.7 |
 | **75.2** | strong | [`128`](answers/pokemon/128-visual-grounding-spatial-reasoning.md) | visual-grounding-spatial-reasoning | 11 | 27 | 18 | 3.0 |
 | **75.3** | strong | [`136`](answers/pokemon/136-off-target-and-hallucinated-translation.md) | off-target-and-hallucinated-translation | 11 | 26 | 6 | 3.1 |
+| **75.6** | strong | [`216`](answers/pokemon/216-fp8-training-and-cost-figures.md) | fp8-training-and-cost-figures | 15 | 20 | 39 | 2.0 |
 | **75.8** | strong | [`078`](answers/pokemon/078-gradient-checkpointing.md) | gradient-checkpointing | 8 | 28 | 17 | 4.9 |
 | **75.8** | strong | [`113`](answers/pokemon/113-morphology-rich-languages.md) | morphology-rich-languages | 8 | 26 | 3 | 4.2 |
 | **75.8** | strong | [`162`](answers/pokemon/162-dialects-and-varieties.md) | dialects-and-varieties | 8 | 31 | 13 | 4.4 |
@@ -224,6 +227,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **86.2** | excellent | [`116`](answers/pokemon/116-multilingual-instruction-tuning.md) | multilingual-instruction-tuning | 12 | 27 | 29 | 4.0 |
 | **86.5** | excellent | [`150`](answers/pokemon/150-localisation-beyond-text.md) | localisation-beyond-text | 19 | 22 | 14 | 2.5 |
 | **88.8** | excellent | [`006`](answers/pokemon/006-residual-connections.md) | residual-connections | 13 | 34 | 42 | 5.7 |
+| **89.5** | excellent | [`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md) | multi-token-prediction-and-speculation | 23 | 31 | 68 | 3.0 |
 | **90.3** | excellent | [`127`](answers/pokemon/127-chart-and-diagram-reasoning.md) | chart-and-diagram-reasoning | 20 | 27 | 26 | 2.9 |
 | **90.4** | excellent | [`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md) | capability-thresholds-and-staged-release | 17 | 22 | 30 | 3.0 |
 | **91.4** | excellent | [`110`](answers/pokemon/110-language-adapters.md) | language-adapters | 14 | 28 | 15 | 4.5 |
@@ -233,6 +237,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **94.3** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 16 | 24 | 20 | 3.7 |
 | **95.8** | excellent | [`206`](answers/pokemon/206-million-token-context.md) | million-token-context | 22 | 25 | 18 | 3.5 |
 | **96.2** | excellent | [`115`](answers/pokemon/115-unicode-normalisation.md) | unicode-normalisation | 17 | 26 | 17 | 3.7 |
+| **96.5** | excellent | [`213`](answers/pokemon/213-multi-head-latent-attention.md) | multi-head-latent-attention | 16 | 41 | 49 | 4.0 |
 | **96.6** | excellent | [`106`](answers/pokemon/106-script-vs-language.md) | script-vs-language | 16 | 31 | 16 | 5.0 |
 | **99.2** | excellent | [`104`](answers/pokemon/104-language-sampling-pretraining.md) | language-sampling-pretraining | 17 | 40 | 17 | 6.9 |
 | **100.0** | excellent | [`101`](answers/pokemon/101-cross-lingual-transfer.md) | cross-lingual-transfer | 28 | 71 | 19 | 9.8 |

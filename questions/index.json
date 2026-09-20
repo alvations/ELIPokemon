@@ -1,5 +1,5 @@
 {
-  "count": 212,
+  "count": 217,
   "questions": [
     {
       "id": "001",
@@ -3470,6 +3470,86 @@
         "rumour",
         "primary-sources",
         "procurement"
+      ]
+    },
+    {
+      "id": "213",
+      "slug": "multi-head-latent-attention",
+      "question": "What does Multi-head Latent Attention actually cost, and what does it buy against GQA and MQA?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/213-multi-head-latent-attention.md",
+      "pokemon_path": "answers/pokemon/213-multi-head-latent-attention.md",
+      "tags": [
+        "attention",
+        "kv-cache",
+        "mla",
+        "gqa",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "214",
+      "slug": "fine-grained-and-shared-experts",
+      "question": "Why does DeepSeek use hundreds of small experts plus a shared one, and balance them without an auxiliary loss?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/214-fine-grained-and-shared-experts.md",
+      "pokemon_path": "answers/pokemon/214-fine-grained-and-shared-experts.md",
+      "tags": [
+        "mixture-of-experts",
+        "routing",
+        "load-balancing",
+        "deepseekmoe",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "215",
+      "slug": "multi-token-prediction-and-speculation",
+      "question": "Is multi-token prediction the same thing as speculative decoding?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/215-multi-token-prediction-and-speculation.md",
+      "pokemon_path": "answers/pokemon/215-multi-token-prediction-and-speculation.md",
+      "tags": [
+        "multi-token-prediction",
+        "speculative-decoding",
+        "training-objective",
+        "throughput",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "216",
+      "slug": "fp8-training-and-cost-figures",
+      "question": "A lab says it trained its model in FP8 for $5.576M. How do you read that figure?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/216-fp8-training-and-cost-figures.md",
+      "pokemon_path": "answers/pokemon/216-fp8-training-and-cost-figures.md",
+      "tags": [
+        "fp8",
+        "mixed-precision",
+        "training-cost",
+        "quantisation",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "217",
+      "slug": "grpo-and-mit-weights",
+      "question": "DeepSeek ships MIT-licensed weights trained with GRPO. What does that actually let a downstream team do?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/217-grpo-and-mit-weights.md",
+      "pokemon_path": "answers/pokemon/217-grpo-and-mit-weights.md",
+      "tags": [
+        "grpo",
+        "reinforcement-learning",
+        "licensing",
+        "open-weights",
+        "deepseek"
       ]
     }
   ]
