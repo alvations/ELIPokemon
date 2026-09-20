@@ -160,7 +160,9 @@ Belly Drum, Counter, Mirror Coat, Pain Split, Trick, Switcheroo, Volt Tackle,
 Minimize, Sheer Cold, Fissure, Horn Drill, Guillotine, Hypnosis, Sing,
 Sand Attack, Flash, Swagger, Metal Burst, Assist, Sketch, Heal Block,
 Confusion, Chatter, Spotlight, Follow Me, Rage Powder, Quick Attack,
-Tail Whip, Dragon Claw, Dragon Rush, Dragon Tail, Outrage, Aqua Tail
+Tail Whip, Dragon Claw, Dragon Rush, Dragon Tail, Outrage, Aqua Tail,
+Focus Blast, Zap Cannon, Dynamic Punch, Hurricane, Blizzard, Inferno,
+Cross Chop, Megahorn, Play Rough, Iron Head, Body Press, Knock Off
 """
 
 ITEMS = """
@@ -191,7 +193,8 @@ Quick Powder, Lucky Punch, Soothe Bell, Cleanse Tag, Protein, Iron,
 Calcium, Zinc, Carbos, HP Up, PP Up, Bottle Cap, Gold Bottle Cap,
 Ability Capsule, Ability Patch, Heart Scale, Pomeg Berry, Kelpsy Berry,
 Qualot Berry, Hondew Berry, Grepa Berry, Tamato Berry, Burn Heal,
-Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy
+Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy,
+Poffin, Poffins, Pokéblock, Pokéblocks, Sitrus Berry, Lum Berry, Berry Juice
 """
 
 ABILITIES = """
@@ -204,7 +207,9 @@ Competitive, Justified, Solar Power, Dry Skin, Thick Fat, Solid Rock,
 Clear Body, Soundproof, Overgrow, Blaze, Torrent, Swarm, Shed Skin,
 Natural Cure, Own Tempo, Inner Focus, Cursed Body, Protean, Libero,
 Beast Boost, Grassy Surge, Misty Surge, Electric Surge, Psychic Surge,
-Good as Gold, Quark Drive, Protosynthesis, Supreme Overlord, Unnerve
+Good as Gold, Quark Drive, Protosynthesis, Supreme Overlord, Unnerve,
+No Guard, Compound Eyes, Victory Star, Hustle, Illusion, Imposter,
+Disguise, Sniper, Super Luck, Magic Bounce
 """
 
 CHARACTERS = """
@@ -248,6 +253,7 @@ Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
 Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
 Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
 Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video,
+Pokémon Contest, Contest Spectacular, Contest Condition,
 Hyper Training, Original Trainer, Badly Poisoned
 """
 
