@@ -194,7 +194,8 @@ Calcium, Zinc, Carbos, HP Up, PP Up, Bottle Cap, Gold Bottle Cap,
 Ability Capsule, Ability Patch, Heart Scale, Pomeg Berry, Kelpsy Berry,
 Qualot Berry, Hondew Berry, Grepa Berry, Tamato Berry, Burn Heal,
 Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy,
-Poffin, Poffins, Pokéblock, Pokéblocks, Sitrus Berry, Lum Berry, Berry Juice
+Poffin, Poffins, Pokéblock, Pokéblocks, Sitrus Berry, Lum Berry, Berry Juice,
+Destiny Knot, Everstone, Power Weight, Power Bracer, Macho Brace
 """
 
 ABILITIES = """
@@ -209,10 +210,12 @@ Natural Cure, Own Tempo, Inner Focus, Cursed Body, Protean, Libero,
 Beast Boost, Grassy Surge, Misty Surge, Electric Surge, Psychic Surge,
 Good as Gold, Quark Drive, Protosynthesis, Supreme Overlord, Unnerve,
 No Guard, Compound Eyes, Victory Star, Hustle, Illusion, Imposter,
-Disguise, Sniper, Super Luck, Magic Bounce
+Disguise, Sniper, Super Luck, Magic Bounce, Truant, Slow Start,
+Surge Surfer, Stance Change, Multitype
 """
 
 CHARACTERS = """
+Lanette, Bebe, Amanita,
 Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni, Falkner,
 Bugsy, Whitney, Morty, Chuck, Jasmine, Pryce, Clair, Roxanne, Brawly, Wattson,
 Flannery, Norman, Winona, Tate, Liza, Wallace, Juan, Roark, Gardenia, Maylene,
@@ -243,7 +246,8 @@ Route 1, Tall Grass, PC box, Kanto, Johto, Ruins of Alph, Lake of Rage,
 Seafoam Islands, Viridian Forest, Power Plant, Pokémon Tower, Union Cave,
 Whirl Islands, Mt. Silver, Violet City, Cherrygrove City, New Bark Town,
 Celadon Department Store, Slowpoke Well, Sprout Tower, Bell Tower,
-Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station, Poké Mart
+Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station, Poké Mart,
+Bill's PC, S.S. Anne, Hall of Fame, Pokémon HOME
 """
 
 MECHANICS = """
@@ -253,7 +257,9 @@ Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
 Entry Hazard, Held Item, Poké Ball, Stat Stage, Four-Move Limit, Base Power,
 Type Effectiveness, Not Very Effective, Level Cap, Evolution Stone,
 Move Tutor, TM, HM, Egg Move, Egg Group, Vs. Recorder, Battle Video,
-Pokémon Contest, Contest Spectacular, Contest Condition,
+Pokémon Contest, Contest Spectacular, Contest Condition, Pokédex,
+ID No., Electric Terrain, Grassy Terrain, Misty Terrain, Psychic Terrain,
+Missingno., Regional Form, Battle Format,
 Hyper Training, Original Trainer, Badly Poisoned
 """
 
@@ -300,7 +306,7 @@ AMBIGUOUS = {
     "Weather", "Terrain", "Static", "Pressure", "Simple", "Contrary", "Unaware",
     "Immunity", "Trace", "Download", "Filter", "Analytic", "Speed", "Toxic",
     "Blaze", "Torrent", "Swarm", "Defiant", "Competitive", "Justified",
-    "Held Item", "Super Effective",
+    "Held Item", "Super Effective", "Bill",
 }
 for group in NAMED.values():
     group -= AMBIGUOUS
