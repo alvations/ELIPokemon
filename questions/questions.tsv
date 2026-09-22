@@ -236,3 +236,8 @@ id	slug	category	difficulty	question
 235	when-a-small-moe-stops-paying	open-weights	advanced	A 26B model that activates 4B per token should be cheap to run. On one consumer card it often is not. What went wrong?
 236	multimodality-in-a-small-checkpoint	open-weights	advanced	What has to give when you put vision and audio into a checkpoint that has to fit on one card?
 237	shipping-open-weights-on-device	open-weights	intermediate	You want to ship an open-weight model inside a phone application. What does the memory envelope really look like, and what does an Apache-2.0 licence let you do that a custom one does not?
+238	base-model-versus-starting-point	open-weights	advanced	A lab ships open weights and calls them a good open-weights base for customisation. Is that a base model?
+239	post-training-an-open-checkpoint	open-weights	intermediate	You have downloaded a frontier-scale open checkpoint. What is the path from those weights to something that does your job?
+240	apache-two-at-frontier-scale	open-weights	advanced	A 975B-parameter open-weight model ships under plain Apache 2.0. What does an unconditional licence at that scale actually change?
+241	honest-self-description-as-evidence	open-weights	intermediate	A lab publishes a model and says plainly that it is not the strongest one available. How much should that move you?
+242	multimodal-pretraining-mixture	open-weights	advanced	A model is pretrained on 45 trillion tokens spanning text, images, audio and video. What does that mixture buy, what does it cost, and how would you evaluate it?
