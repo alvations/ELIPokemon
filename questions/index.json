@@ -1,5 +1,5 @@
 {
-  "count": 237,
+  "count": 257,
   "questions": [
     {
       "id": "001",
@@ -3793,6 +3793,166 @@
       ]
     },
     {
+      "id": "233",
+      "slug": "effective-parameter-counts",
+      "question": "Gemma 4 ships checkpoints called E2B and E4B whose effective parameter count is not their parameter count. What is that label actually telling you?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/233-effective-parameter-counts.md",
+      "pokemon_path": "answers/pokemon/233-effective-parameter-counts.md",
+      "tags": [
+        "gemma",
+        "per-layer-embeddings",
+        "on-device",
+        "parameter-counts",
+        "memory"
+      ]
+    },
+    {
+      "id": "234",
+      "slug": "sliding-window-and-stability-stack",
+      "question": "Walk me through the attention and stability stack in a small open model — sliding windows, GQA, KV sharing and the norms. What is each one actually buying?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/234-sliding-window-and-stability-stack.md",
+      "pokemon_path": "answers/pokemon/234-sliding-window-and-stability-stack.md",
+      "tags": [
+        "sliding-window-attention",
+        "gqa",
+        "kv-cache",
+        "rope",
+        "normalisation"
+      ]
+    },
+    {
+      "id": "235",
+      "slug": "when-a-small-moe-stops-paying",
+      "question": "A 26B model that activates 4B per token should be cheap to run. On one consumer card it often is not. What went wrong?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/235-when-a-small-moe-stops-paying.md",
+      "pokemon_path": "answers/pokemon/235-when-a-small-moe-stops-paying.md",
+      "tags": [
+        "mixture-of-experts",
+        "gemma",
+        "consumer-gpu",
+        "quantisation",
+        "serving"
+      ]
+    },
+    {
+      "id": "236",
+      "slug": "multimodality-in-a-small-checkpoint",
+      "question": "What has to give when you put vision and audio into a checkpoint that has to fit on one card?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/236-multimodality-in-a-small-checkpoint.md",
+      "pokemon_path": "answers/pokemon/236-multimodality-in-a-small-checkpoint.md",
+      "tags": [
+        "multimodal",
+        "vision-encoder",
+        "token-budget",
+        "on-device",
+        "gemma"
+      ]
+    },
+    {
+      "id": "237",
+      "slug": "shipping-open-weights-on-device",
+      "question": "You want to ship an open-weight model inside a phone application. What does the memory envelope really look like, and what does an Apache-2.0 licence let you do that a custom one does not?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/237-shipping-open-weights-on-device.md",
+      "pokemon_path": "answers/pokemon/237-shipping-open-weights-on-device.md",
+      "tags": [
+        "on-device",
+        "quantisation",
+        "apache-2",
+        "licensing",
+        "memory"
+      ]
+    },
+    {
+      "id": "238",
+      "slug": "base-model-versus-starting-point",
+      "question": "A lab ships open weights and calls them a good open-weights base for customisation. Is that a base model?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/238-base-model-versus-starting-point.md",
+      "pokemon_path": "answers/pokemon/238-base-model-versus-starting-point.md",
+      "tags": [
+        "base-model",
+        "post-training",
+        "open-weights",
+        "evaluation",
+        "model-cards"
+      ]
+    },
+    {
+      "id": "239",
+      "slug": "post-training-an-open-checkpoint",
+      "question": "You have downloaded a frontier-scale open checkpoint. What is the path from those weights to something that does your job?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/239-post-training-an-open-checkpoint.md",
+      "pokemon_path": "answers/pokemon/239-post-training-an-open-checkpoint.md",
+      "tags": [
+        "fine-tuning",
+        "lora",
+        "post-training",
+        "distillation",
+        "open-weights"
+      ]
+    },
+    {
+      "id": "240",
+      "slug": "apache-two-at-frontier-scale",
+      "question": "A 975B-parameter open-weight model ships under plain Apache 2.0. What does an unconditional licence at that scale actually change?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/240-apache-two-at-frontier-scale.md",
+      "pokemon_path": "answers/pokemon/240-apache-two-at-frontier-scale.md",
+      "tags": [
+        "licensing",
+        "apache-2",
+        "open-weights",
+        "compliance",
+        "deployment"
+      ]
+    },
+    {
+      "id": "241",
+      "slug": "honest-self-description-as-evidence",
+      "question": "A lab publishes a model and says plainly that it is not the strongest one available. How much should that move you?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/241-honest-self-description-as-evidence.md",
+      "pokemon_path": "answers/pokemon/241-honest-self-description-as-evidence.md",
+      "tags": [
+        "claims",
+        "evaluation",
+        "model-cards",
+        "open-weights",
+        "evidence"
+      ]
+    },
+    {
+      "id": "242",
+      "slug": "multimodal-pretraining-mixture",
+      "question": "A model is pretrained on 45 trillion tokens spanning text, images, audio and video. What does that mixture buy, what does it cost, and how would you evaluate it?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/242-multimodal-pretraining-mixture.md",
+      "pokemon_path": "answers/pokemon/242-multimodal-pretraining-mixture.md",
+      "tags": [
+        "multimodal",
+        "pretraining",
+        "data-mixture",
+        "evaluation",
+        "open-weights"
+      ]
+    },
+    {
       "id": "243",
       "slug": "deepspeed-deepseek-name-collision",
       "question": "A ticket asks you to deploy DeepSpeed 4.0. What is wrong with that sentence?",
@@ -3870,6 +4030,166 @@
         "release-engineering",
         "deepspeed",
         "dependencies"
+      ]
+    },
+    {
+      "id": "248",
+      "slug": "qwen-3-6-consolidation-release",
+      "question": "Qwen 3.6 shipped an open 27B dense and a 35B-A3B MoE with vision and a 256K window. What was that generation for?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/248-qwen-3-6-consolidation-release.md",
+      "pokemon_path": "answers/pokemon/248-qwen-3-6-consolidation-release.md",
+      "tags": [
+        "qwen",
+        "open-weights",
+        "point-release",
+        "multimodal",
+        "deployment"
+      ]
+    },
+    {
+      "id": "249",
+      "slug": "a-generation-that-never-opened",
+      "question": "Qwen 3.7 shipped as Max and Plus and never as weights. How do you plan around a generation you can only rent?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/249-a-generation-that-never-opened.md",
+      "pokemon_path": "answers/pokemon/249-a-generation-that-never-opened.md",
+      "tags": [
+        "qwen",
+        "open-weights",
+        "roadmap-risk",
+        "procurement",
+        "release-cadence"
+      ]
+    },
+    {
+      "id": "250",
+      "slug": "one-generation-four-artefacts",
+      "question": "Qwen 3.8 ships a 27B dense, a Flash-Next, a 2.4T-A95B and a hosted Max. What does that line-up tell you?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/250-one-generation-four-artefacts.md",
+      "pokemon_path": "answers/pokemon/250-one-generation-four-artefacts.md",
+      "tags": [
+        "qwen",
+        "open-weights",
+        "post-training",
+        "packaging",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "251",
+      "slug": "migrating-between-point-releases",
+      "question": "A point release lands on the same architecture with a much better index score. How do you decide whether to migrate?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/251-migrating-between-point-releases.md",
+      "pokemon_path": "answers/pokemon/251-migrating-between-point-releases.md",
+      "tags": [
+        "qwen",
+        "regression-testing",
+        "migration",
+        "evaluation",
+        "serving"
+      ]
+    },
+    {
+      "id": "252",
+      "slug": "superseded-checkpoints-and-fine-tunes",
+      "question": "The open checkpoint you deployed and fine-tuned has just been superseded. What actually changes?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/252-superseded-checkpoints-and-fine-tunes.md",
+      "pokemon_path": "answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md",
+      "tags": [
+        "open-weights",
+        "fine-tuning",
+        "lifecycle",
+        "pinning",
+        "reproducibility"
+      ]
+    },
+    {
+      "id": "258",
+      "slug": "diffusion-language-models",
+      "question": "Diffusion language models generate a whole sequence at once instead of left to right. What has actually shipped, and what does the approach cost?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/258-diffusion-language-models.md",
+      "pokemon_path": "answers/pokemon/258-diffusion-language-models.md",
+      "tags": [
+        "diffusion",
+        "decoding",
+        "non-autoregressive",
+        "parallel-decoding",
+        "inference"
+      ]
+    },
+    {
+      "id": "259",
+      "slug": "non-autoregressive-generation",
+      "question": "Non-autoregressive generation has been reinvented every few years since 2018. Why does the field keep returning to it, and why does it keep retreating?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/259-non-autoregressive-generation.md",
+      "pokemon_path": "answers/pokemon/259-non-autoregressive-generation.md",
+      "tags": [
+        "non-autoregressive",
+        "machine-translation",
+        "distillation",
+        "speculative-decoding",
+        "latency"
+      ]
+    },
+    {
+      "id": "260",
+      "slug": "decoding-parameter-interactions",
+      "question": "Walk me through temperature, top-k, top-p, min-p and the repetition penalties. Which of them interact badly, and why is a 'creative' preset not one dial?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/260-decoding-parameter-interactions.md",
+      "pokemon_path": "answers/pokemon/260-decoding-parameter-interactions.md",
+      "tags": [
+        "sampling",
+        "temperature",
+        "min-p",
+        "repetition-penalty",
+        "decoding"
+      ]
+    },
+    {
+      "id": "261",
+      "slug": "beam-search-and-mbr-decoding",
+      "question": "Beam search is still standard in machine translation and unused in open-ended generation. What exactly is the difference?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/261-beam-search-and-mbr-decoding.md",
+      "pokemon_path": "answers/pokemon/261-beam-search-and-mbr-decoding.md",
+      "tags": [
+        "beam-search",
+        "mbr",
+        "likelihood",
+        "degeneration",
+        "machine-translation"
+      ]
+    },
+    {
+      "id": "262",
+      "slug": "grammar-constrained-decoding",
+      "question": "How does grammar-constrained decoding work at the logit level, and what does it cost when the grammar fights the model?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/262-grammar-constrained-decoding.md",
+      "pokemon_path": "answers/pokemon/262-grammar-constrained-decoding.md",
+      "tags": [
+        "constrained-decoding",
+        "grammar",
+        "structured-output",
+        "json-schema",
+        "masking"
       ]
     }
   ]
