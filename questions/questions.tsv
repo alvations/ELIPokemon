@@ -261,3 +261,8 @@ id	slug	category	difficulty	question
 260	decoding-parameter-interactions	optimization	intermediate	Walk me through temperature, top-k, top-p, min-p and the repetition penalties. Which of them interact badly, and why is a 'creative' preset not one dial?
 261	beam-search-and-mbr-decoding	optimization	advanced	Beam search is still standard in machine translation and unused in open-ended generation. What exactly is the difference?
 262	grammar-constrained-decoding	optimization	advanced	How does grammar-constrained decoding work at the logit level, and what does it cost when the grammar fights the model?
+268	roofline-decode-and-prefill	optimization	advanced	Decode is memory-bandwidth-bound and prefill is compute-bound. Do the roofline arithmetic, and say what follows for kernel work.
+269	flashattention-to-flashinfer	optimization	advanced	FlashAttention already fuses attention into one kernel. What does a serving kernel library like FlashInfer have to do that a single fused kernel does not?
+270	serving-stack-around-the-kernel	optimization	intermediate	Paged attention, continuous batching, chunked prefill and CUDA graphs are four separate fixes. What does each one fix, and where do they collide?
+271	training-kernels-and-fusion	optimization	advanced	A fine-tuning library claims 2x faster training and 70 percent less VRAM from custom kernels. Where does that actually come from?
+272	reading-a-kernel-benchmark	optimization	intermediate	Someone shows you a kernel benchmark with a 12x speedup. What do you check before you believe it?
