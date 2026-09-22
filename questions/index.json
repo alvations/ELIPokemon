@@ -1,5 +1,5 @@
 {
-  "count": 232,
+  "count": 237,
   "questions": [
     {
       "id": "001",
@@ -3790,6 +3790,86 @@
         "tokenizer",
         "quantisation",
         "vllm"
+      ]
+    },
+    {
+      "id": "243",
+      "slug": "deepspeed-deepseek-name-collision",
+      "question": "A ticket asks you to deploy DeepSpeed 4.0. What is wrong with that sentence?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/243-deepspeed-deepseek-name-collision.md",
+      "pokemon_path": "answers/pokemon/243-deepspeed-deepseek-name-collision.md",
+      "tags": [
+        "versioning",
+        "naming",
+        "deepspeed",
+        "deepseek",
+        "supply-chain"
+      ]
+    },
+    {
+      "id": "244",
+      "slug": "zero-stages-and-memory-arithmetic",
+      "question": "Walk me through DeepSpeed's ZeRO stages 1, 2 and 3 with real memory arithmetic. What does each one shard?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/244-zero-stages-and-memory-arithmetic.md",
+      "pokemon_path": "answers/pokemon/244-zero-stages-and-memory-arithmetic.md",
+      "tags": [
+        "zero",
+        "deepspeed",
+        "distributed-training",
+        "memory",
+        "data-parallelism"
+      ]
+    },
+    {
+      "id": "245",
+      "slug": "offload-and-3d-parallelism",
+      "question": "ZeRO-Offload moves optimizer state to CPU and ZeRO-Infinity to NVMe. When does that pay, and when is 3D parallelism the better answer?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/245-offload-and-3d-parallelism.md",
+      "pokemon_path": "answers/pokemon/245-offload-and-3d-parallelism.md",
+      "tags": [
+        "zero-offload",
+        "nvme",
+        "3d-parallelism",
+        "pipeline",
+        "deepspeed"
+      ]
+    },
+    {
+      "id": "246",
+      "slug": "point-release-model-versions",
+      "question": "DeepSeek shipped V4.1-Flash four months after V4-Flash. What does a minor version bump on a model actually promise?",
+      "category": "open-weights",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/246-point-release-model-versions.md",
+      "pokemon_path": "answers/pokemon/246-point-release-model-versions.md",
+      "tags": [
+        "versioning",
+        "deepseek",
+        "evaluation",
+        "migration",
+        "serving"
+      ]
+    },
+    {
+      "id": "247",
+      "slug": "reading-changelogs-and-cadence",
+      "question": "How do you read a library's changelog and release cadence to tell a real capability change from a repackaging?",
+      "category": "open-weights",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/247-reading-changelogs-and-cadence.md",
+      "pokemon_path": "answers/pokemon/247-reading-changelogs-and-cadence.md",
+      "tags": [
+        "semver",
+        "changelogs",
+        "release-engineering",
+        "deepspeed",
+        "dependencies"
       ]
     }
   ]

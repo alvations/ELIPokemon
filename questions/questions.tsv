@@ -231,3 +231,8 @@ id	slug	category	difficulty	question
 230	multi-token-prediction-and-drafting	open-weights	advanced	Multi-token prediction shows up as a training objective and as a decoding trick. Are they the same thing?
 231	linear-and-hybrid-attention	open-weights	advanced	Linear and hybrid attention promise to kill the quadratic term. What do they actually give up?
 232	reading-an-open-model-card	open-weights	intermediate	You have downloaded an open model's weights. What do you read before you try to serve it?
+243	deepspeed-deepseek-name-collision	open-weights	intermediate	A ticket asks you to deploy DeepSpeed 4.0. What is wrong with that sentence?
+244	zero-stages-and-memory-arithmetic	open-weights	advanced	Walk me through DeepSpeed's ZeRO stages 1, 2 and 3 with real memory arithmetic. What does each one shard?
+245	offload-and-3d-parallelism	open-weights	advanced	ZeRO-Offload moves optimizer state to CPU and ZeRO-Infinity to NVMe. When does that pay, and when is 3D parallelism the better answer?
+246	point-release-model-versions	open-weights	advanced	DeepSeek shipped V4.1-Flash four months after V4-Flash. What does a minor version bump on a model actually promise?
+247	reading-changelogs-and-cadence	open-weights	intermediate	How do you read a library's changelog and release cadence to tell a real capability change from a repackaging?
