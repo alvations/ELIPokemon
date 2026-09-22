@@ -241,3 +241,13 @@ id	slug	category	difficulty	question
 240	apache-two-at-frontier-scale	open-weights	advanced	A 975B-parameter open-weight model ships under plain Apache 2.0. What does an unconditional licence at that scale actually change?
 241	honest-self-description-as-evidence	open-weights	intermediate	A lab publishes a model and says plainly that it is not the strongest one available. How much should that move you?
 242	multimodal-pretraining-mixture	open-weights	advanced	A model is pretrained on 45 trillion tokens spanning text, images, audio and video. What does that mixture buy, what does it cost, and how would you evaluate it?
+243	deepspeed-deepseek-name-collision	open-weights	intermediate	A ticket asks you to deploy DeepSpeed 4.0. What is wrong with that sentence?
+244	zero-stages-and-memory-arithmetic	open-weights	advanced	Walk me through DeepSpeed's ZeRO stages 1, 2 and 3 with real memory arithmetic. What does each one shard?
+245	offload-and-3d-parallelism	open-weights	advanced	ZeRO-Offload moves optimizer state to CPU and ZeRO-Infinity to NVMe. When does that pay, and when is 3D parallelism the better answer?
+246	point-release-model-versions	open-weights	advanced	DeepSeek shipped V4.1-Flash four months after V4-Flash. What does a minor version bump on a model actually promise?
+247	reading-changelogs-and-cadence	open-weights	intermediate	How do you read a library's changelog and release cadence to tell a real capability change from a repackaging?
+248	qwen-3-6-consolidation-release	open-weights	intermediate	Qwen 3.6 shipped an open 27B dense and a 35B-A3B MoE with vision and a 256K window. What was that generation for?
+249	a-generation-that-never-opened	open-weights	advanced	Qwen 3.7 shipped as Max and Plus and never as weights. How do you plan around a generation you can only rent?
+250	one-generation-four-artefacts	open-weights	advanced	Qwen 3.8 ships a 27B dense, a Flash-Next, a 2.4T-A95B and a hosted Max. What does that line-up tell you?
+251	migrating-between-point-releases	open-weights	advanced	A point release lands on the same architecture with a much better index score. How do you decide whether to migrate?
+252	superseded-checkpoints-and-fine-tunes	open-weights	intermediate	The open checkpoint you deployed and fine-tuned has just been superseded. What actually changes?
