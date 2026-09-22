@@ -261,6 +261,11 @@ id	slug	category	difficulty	question
 260	decoding-parameter-interactions	optimization	intermediate	Walk me through temperature, top-k, top-p, min-p and the repetition penalties. Which of them interact badly, and why is a 'creative' preset not one dial?
 261	beam-search-and-mbr-decoding	optimization	advanced	Beam search is still standard in machine translation and unused in open-ended generation. What exactly is the difference?
 262	grammar-constrained-decoding	optimization	advanced	How does grammar-constrained decoding work at the logit level, and what does it cost when the grammar fights the model?
+263	ptq-versus-qat-and-weight-only	optimization	intermediate	When does quantisation-aware training earn its cost over post-training quantisation, and what does weight-only quantisation buy that W8A8 does not?
+264	outlier-channels-and-quantisation-algorithms	optimization	advanced	Explain outlier channels, and what GPTQ, AWQ and SmoothQuant each do about them.
+265	quantisation-formats-and-group-size	optimization	advanced	What is actually inside a quantised model file? Walk me through k-quants, group size, and the hardware 4-bit formats.
+266	kv-cache-quantisation	optimization	advanced	At what context length does the KV cache cost more than the weights, and what does quantising the cache cost you?
+267	evaluating-a-quantised-model	optimization	intermediate	A quantised build's perplexity moved by 0.15. Is that fine? How would you evaluate it honestly?
 268	roofline-decode-and-prefill	optimization	advanced	Decode is memory-bandwidth-bound and prefill is compute-bound. Do the roofline arithmetic, and say what follows for kernel work.
 269	flashattention-to-flashinfer	optimization	advanced	FlashAttention already fuses attention into one kernel. What does a serving kernel library like FlashInfer have to do that a single fused kernel does not?
 270	serving-stack-around-the-kernel	optimization	intermediate	Paged attention, continuous batching, chunked prefill and CUDA graphs are four separate fixes. What does each one fix, and where do they collide?
