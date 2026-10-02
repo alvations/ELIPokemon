@@ -11,13 +11,16 @@ tags: [sampling, temperature, min-p, repetition-penalty, decoding]
 # The encounter table is the distribution
 
 Every patch of **Tall Grass**, every fishing spot and every surf tile in the game has a table
-behind it: a list of species, each holding a share of the encounters, and the shares add to a
-hundred. **Route 1** in Red and Blue has exactly two entries — **Pidgey** and **Rattata** — and
-Pidgey is the commoner of the two. **Mt. Moon** is mostly **Zubat** and **Geodude** with
-**Clefairy** as the rare row. **Viridian Forest** is **Caterpie**, **Weedle** and **Metapod**,
-and somewhere down at the bottom of that table sits **Pikachu**. Those are probability
-distributions you can actually look at, and every generation since has published more of them:
-**Hoothoot** at night, **Ledyba** in the morning, different tables on the same tile.
+behind it: ten slots, each with a fixed share out of 256 — 51, 51, 39, 25, 25, 25, 13, 13, 11, 3 —
+and a species written into each slot. **Route 1** in Red and Blue has exactly two species,
+**Pidgey** in six slots and **Rattata** in four, and the weights make them **exactly 128 each**.
+Six rows against four, dead even: the count of slots is not the probability, which is the first
+thing the table teaches. **Mt. Moon**'s first floor is the lopsided one — **Zubat** 202,
+**Geodude** 38, **Paras** 13, **Clefairy** 3. **Viridian Forest** puts **Pikachu** in the last two
+slots, 14 out of 256, under four commoner rows whose identity depends on which cartridge you
+bought. Those are probability distributions you can actually look at, and every generation since
+has published more of them: **Hoothoot** at night, **Ledyba** in the morning, different tables on
+the same tile.
 
 Question 034 explains what each dial is. This one is about what they do to each other, and the
 frame that makes it tractable is that they are three different operations, not five notches on one
@@ -50,20 +53,22 @@ The order they apply in is not a preference. It is written into the game.
 
 ## What each one does to the table
 
-**Shape.** Squeeze the shares toward the top row and **Pidgey** takes almost everything; stretch
-them and the 1% row climbs. What it never does is **reorder**: the rarest row is still the rarest
-row, it is just no longer 1%. Nothing in your bag squeezes a table this way while leaving its
-order untouched, and that is exactly the point — this is the one dial that edits the table rather
-than filtering it.
+**Shape.** Squeeze the shares toward the top row and **Zubat** takes almost everything that is
+left of **Mt. Moon**; stretch them and **Clefairy**'s three climbs. What it never does is
+**reorder**: the rarest row is still the rarest row, it is just no longer 1%. Nothing in your bag
+squeezes a table this way while leaving its order untouched, and that is exactly the point — this
+is the one dial that edits the table rather than filtering it.
 
 **The k commonest rows.** A fixed count, blind to the route. Keep three in **Mt. Moon** and you
 keep **Zubat** and **Geodude** and throw **Clefairy** away; keep three on **Route 1** and you have
 kept a row that does not exist. Three is three whether the table has two rows or twelve.
 
-**Rows until the shares total 90.** This one widens in **Viridian Forest**, where **Caterpie**,
-**Weedle** and **Metapod** have to be counted before you are anywhere near ninety, and narrows to
-almost nothing on **Route 1**. That is exactly what a fixed count cannot do — and note what it
-costs either way: **Pikachu** is under the line in both.
+**Rows until the shares total 90.** This one is table-shaped in a way a fixed count never is. On
+**Mt. Moon** it stops after two rows, because **Zubat** and **Geodude** are already past ninety
+between them. In **Viridian Forest** it has to count four before it gets there. And on **Route
+1**, where the two rows are 50 and 50, it cannot stop until it has taken **everything** — the
+flattest table is the one a nucleus cut leaves completely untouched. Note what it costs in two of
+the three: **Clefairy** and **Pikachu** are both under the line.
 
 **Every row at least a fifth as common as the top row.** This is the **Repel** trick, exactly.
 Repel blocks any wild Pokémon whose level is below your lead's, so the bar is not a fixed number
@@ -102,8 +107,9 @@ works for one is meaningless for the other. Do not port it across.
   repetition penalty does to structured output, where the same brace and the same key must come
   back again and again — use a grammar (question 262) and leave the penalties alone.
 * **Three cuts stacked become one row.** Top-three, top-ninety-percent and a fifth-of-the-top all
-  laid over a lopsided table leave **Pidgey**, every time, and only a floor rule stops the table
-  from emptying entirely.
+  laid over **Mt. Moon** leave **Zubat**, every time, and only a floor rule stops the table from
+  emptying entirely. Laid over **Route 1** they do nothing at all, because there is nothing
+  lopsided for them to bite on — the same three cuts, two tables, opposite outcomes.
 * **The rules have been rewritten between generations.** The same items in the same bag do not
   behave identically in two different games. Pin the game before you pin the numbers.
 

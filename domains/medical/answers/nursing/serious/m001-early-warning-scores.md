@@ -128,8 +128,8 @@ only responds to numbers teaches people to stop looking.
 
 ## The human stakes, said plainly
 
-Everything above is about a mechanism, and a mechanism can be discussed coolly. What it is attached
-to cannot.
+Everything above is about a mechanism, and a mechanism can be discussed coolly. What it is
+attached to cannot.
 
 A patient who is compensating is a person doing silent, expensive work to stay level. They may be
 talking to you, answering questions, apologising for being a bother. The reason anyone cares about
@@ -139,17 +139,18 @@ the chart, the sum, the trigger threshold, the escalation ladder, the phone call
 purpose, which is that somebody more experienced arrives while there is still reserve left to work
 with.
 
-That is also why the design choices in this answer are not bureaucratic. A trigger threshold set in
-advance exists so that the decision to call does not depend on who is on shift, how confident they
-feel at four in the morning, or whether they are willing to risk irritating a senior colleague. A
-concern-based route exists so that a nurse who can see that something is wrong is not required to
-wait for the arithmetic to agree with them. Both are ways of removing the burden of nerve from an
-individual and putting it into a system, and both were introduced because people died while
-somebody at the bedside was worried and did not escalate.
+That is also why the design choices in this answer are not bureaucratic. A trigger threshold set
+in advance exists so that the decision to call does not depend on who is on shift, how confident
+they feel at four in the morning, or whether they are willing to risk irritating a senior
+colleague. A concern-based route exists so that a nurse who can see that something is wrong is not
+required to wait for the arithmetic to agree with them. Both are ways of removing the burden of
+nerve from an individual and putting it into a system, and both were introduced because people
+died while somebody at the bedside was worried and did not escalate.
 
-The score is not the patient. A total of two does not mean a person is well, and a total of seven is
-not a diagnosis. Anyone studying this should expect to meet patients whose numbers were reassuring
-and who were not, and the right response to that is to keep looking, not to distrust the chart.
+The score is not the patient. A total of two does not mean a person is well, and a total of seven
+is not a diagnosis. Anyone studying this should expect to meet patients whose numbers were
+reassuring and who were not, and the right response to that is to keep looking, not to distrust
+the chart.
 
 ## What an examiner digs into next
 

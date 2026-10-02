@@ -284,6 +284,7 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **98.2** | excellent | [`114`](answers/pokemon/114-word-segmentation-no-spaces.md) | word-segmentation-no-spaces | 17 | 25 | 20 | 3.9 |
 | **99.2** | excellent | [`104`](answers/pokemon/104-language-sampling-pretraining.md) | language-sampling-pretraining | 17 | 40 | 17 | 6.9 |
 | **99.2** | excellent | [`109`](answers/pokemon/109-transliteration-romanisation.md) | transliteration-romanisation | 17 | 32 | 8 | 4.1 |
+| **99.5** | excellent | [`260`](answers/pokemon/260-decoding-parameter-interactions.md) | decoding-parameter-interactions | 30 | 63 | 22 | 3.9 |
 | **100.0** | excellent | [`101`](answers/pokemon/101-cross-lingual-transfer.md) | cross-lingual-transfer | 27 | 70 | 19 | 9.6 |
 | **100.0** | excellent | [`103`](answers/pokemon/103-curse-of-multilinguality.md) | curse-of-multilinguality | 21 | 45 | 11 | 6.5 |
 | **100.0** | excellent | [`105`](answers/pokemon/105-shared-multilingual-vocabulary.md) | shared-multilingual-vocabulary | 22 | 30 | 18 | 4.8 |
@@ -298,7 +299,6 @@ score = breadth (0-45) + density (0-35) + specificity (0-20)
 | **100.0** | excellent | [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) | multimodal-pretraining-mixture | 19 | 55 | 61 | 4.8 |
 | **100.0** | excellent | [`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md) | deepspeed-deepseek-name-collision | 20 | 49 | 60 | 5.0 |
 | **100.0** | excellent | [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) | qwen-3-6-consolidation-release | 23 | 39 | 20 | 4.1 |
-| **100.0** | excellent | [`260`](answers/pokemon/260-decoding-parameter-interactions.md) | decoding-parameter-interactions | 32 | 61 | 22 | 4.1 |
 | **100.0** | excellent | [`266`](answers/pokemon/266-kv-cache-quantisation.md) | kv-cache-quantisation | 31 | 55 | 68 | 4.1 |
 | **100.0** | excellent | [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) | roofline-decode-and-prefill | 26 | 57 | 23 | 4.2 |
 

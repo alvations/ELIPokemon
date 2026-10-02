@@ -10,11 +10,11 @@ tags: [resnet, residual, gradient-flow, identity]
 
 # Residual connections
 
-A residual block computes `y = x + F(x)` instead of `y = F(x)`. The layer learns a *correction*
-to its input rather than a replacement for it. [He et al. (2015)](https://arxiv.org/abs/1512.03385)
-introduced this to fix a specific embarrassment: plain 56-layer CNNs had **higher training
-error** than 20-layer ones. Not overfitting — they could not even fit. Deep plain networks
-struggle to learn the identity function, so adding layers made things strictly worse.
+A residual block computes `y = x + F(x)` instead of `y = F(x)`. The layer learns a *correction* to
+its input rather than a replacement for it. [He et al. (2015)](https://arxiv.org/abs/1512.03385)
+introduced this to fix a specific embarrassment: plain 56-layer CNNs had **higher training error**
+than 20-layer ones. Not overfitting — they could not even fit. Deep plain networks struggle to
+learn the identity function, so adding layers made things strictly worse.
 
 ## The gradient argument
 
