@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 30,
   "questions": [
     {
       "id": "m001",
@@ -424,6 +424,91 @@
         "lead-time",
         "length-bias",
         "epidemiology"
+      ]
+    },
+    {
+      "id": "m016",
+      "slug": "describing-a-skin-lesion",
+      "question": "How should a skin lesion be described, and why does the primary morphology constrain the differential more than any other single step?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m016-describing-a-skin-lesion.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m016-describing-a-skin-lesion.md",
+      "tags": [
+        "morphology",
+        "examination",
+        "description",
+        "documentation",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "m017",
+      "slug": "distribution-and-configuration",
+      "question": "Why do the distribution of a rash and the configuration of its lesions carry as much diagnostic weight as the individual lesions?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m017-distribution-and-configuration.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m017-distribution-and-configuration.md",
+      "tags": [
+        "distribution",
+        "configuration",
+        "examination",
+        "pattern",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "m018",
+      "slug": "assessing-skin-of-colour",
+      "question": "Why do the standard descriptions of erythema, cyanosis and jaundice fail in darker skin, and what changes?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m018-assessing-skin-of-colour.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m018-assessing-skin-of-colour.md",
+      "tags": [
+        "skin-of-colour",
+        "erythema",
+        "pigmentation",
+        "examination",
+        "competence"
+      ]
+    },
+    {
+      "id": "m019",
+      "slug": "topical-therapy-and-quantity",
+      "question": "Why is under-application the commonest reason a topical treatment appears not to work, and what do potency, vehicle and quantity each contribute?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m019-topical-therapy-and-quantity.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m019-topical-therapy-and-quantity.md",
+      "tags": [
+        "topical",
+        "potency",
+        "vehicle",
+        "fingertip-unit",
+        "adherence"
+      ]
+    },
+    {
+      "id": "m020",
+      "slug": "dermoscopy-in-principle",
+      "question": "What does dermoscopy add over the naked eye, and why is it pattern recognition over a structured vocabulary rather than magnification?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m020-dermoscopy-in-principle.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m020-dermoscopy-in-principle.md",
+      "tags": [
+        "dermoscopy",
+        "optics",
+        "vocabulary",
+        "pattern-recognition",
+        "training"
       ]
     }
   ]
