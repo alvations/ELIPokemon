@@ -1,5 +1,5 @@
 {
-  "count": 95,
+  "count": 100,
   "questions": [
     {
       "id": "m001",
@@ -1444,6 +1444,91 @@
         "histamine",
         "bradykinin",
         "anaphylaxis"
+      ]
+    },
+    {
+      "id": "m091",
+      "slug": "pituitary-mass-effect-and-sequential-failure",
+      "question": "Why does a pituitary lesion cause trouble in two unrelated ways, and why do its hormone axes fail in a predictable order?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m091-pituitary-mass-effect-and-sequential-failure.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m091-pituitary-mass-effect-and-sequential-failure.md",
+      "tags": [
+        "pituitary",
+        "hypopituitarism",
+        "mass-effect",
+        "prolactin",
+        "apoplexy"
+      ]
+    },
+    {
+      "id": "m092",
+      "slug": "sodium-as-a-statement-about-water",
+      "question": "Why is the serum sodium concentration a statement about water rather than about salt?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m092-sodium-as-a-statement-about-water.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m092-sodium-as-a-statement-about-water.md",
+      "tags": [
+        "sodium",
+        "water",
+        "vasopressin",
+        "hyponatraemia",
+        "osmolality"
+      ]
+    },
+    {
+      "id": "m093",
+      "slug": "bone-remodelling-and-its-fast-markers",
+      "question": "Bone remodelling is a slow balance. Why is it monitored with markers that move in weeks, and what can those markers not tell you?",
+      "category": "endocrinology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m093-bone-remodelling-and-its-fast-markers.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m093-bone-remodelling-and-its-fast-markers.md",
+      "tags": [
+        "bone",
+        "remodelling",
+        "turnover-markers",
+        "osteoporosis",
+        "coupling"
+      ]
+    },
+    {
+      "id": "m094",
+      "slug": "the-growth-hormone-axis-as-a-pulse-train",
+      "question": "Growth hormone is secreted in bursts, so a single measurement of it is uninterpretable. How is a pulsatile system measured instead?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m094-the-growth-hormone-axis-as-a-pulse-train.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m094-the-growth-hormone-axis-as-a-pulse-train.md",
+      "tags": [
+        "growth-hormone",
+        "igf-1",
+        "pulsatility",
+        "acromegaly",
+        "dynamic-testing"
+      ]
+    },
+    {
+      "id": "m095",
+      "slug": "the-adrenal-incidentaloma",
+      "question": "An adrenal mass is found on a scan done for something else. What two questions does that force, and why are they independent?",
+      "category": "endocrinology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m095-the-adrenal-incidentaloma.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m095-the-adrenal-incidentaloma.md",
+      "tags": [
+        "adrenal",
+        "incidentaloma",
+        "overdiagnosis",
+        "phaeochromocytoma",
+        "imaging"
       ]
     },
     {

@@ -84,6 +84,11 @@ m087	hair-and-nail-as-a-timeline	dermatology	intermediate	Why are the nail plate
 m088	photoprotection-and-cumulative-dose	dermatology	core	Why is photoageing a function of cumulative ultraviolet dose, and why is the number printed on a sunscreen not the protection a person gets?
 m089	blistering-and-the-level-of-the-split	dermatology	advanced	Why does the level at which the skin splits determine almost everything that follows in a blistering disease?
 m090	urticaria-and-angioedema	dermatology	intermediate	Why is a weal that comes and goes a different problem from a swelling that does not, and what follows from that for treatment?
+m091	pituitary-mass-effect-and-sequential-failure	endocrinology	advanced	Why does a pituitary lesion cause trouble in two unrelated ways, and why do its hormone axes fail in a predictable order?
+m092	sodium-as-a-statement-about-water	endocrinology	advanced	Why is the serum sodium concentration a statement about water rather than about salt?
+m093	bone-remodelling-and-its-fast-markers	endocrinology	intermediate	Bone remodelling is a slow balance. Why is it monitored with markers that move in weeks, and what can those markers not tell you?
+m094	the-growth-hormone-axis-as-a-pulse-train	endocrinology	advanced	Growth hormone is secreted in bursts, so a single measurement of it is uninterpretable. How is a pulsatile system measured instead?
+m095	the-adrenal-incidentaloma	endocrinology	intermediate	An adrenal mass is found on a scan done for something else. What two questions does that force, and why are they independent?
 m096	targeted-therapy-and-resistance	oncology	advanced	Why does a targeted therapy that is working stop working, and what does the mechanism of escape tell you about what to do next?
 m097	tumour-heterogeneity-and-one-biopsy	oncology	advanced	In what sense is a single tumour biopsy a sample of a population under selection, and what follows for how a biomarker result is interpreted?
 m098	the-multidisciplinary-meeting	oncology	intermediate	What is a cancer multidisciplinary meeting actually for, and what failure modes is it designed to prevent?
