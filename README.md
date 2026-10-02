@@ -3,8 +3,8 @@
 > **E**xplain **L**ike **I** play **Pokémon** — a dataset of serious machine learning
 > and LLM interview questions, each answered twice.
 
-**272 questions · 544 answers · ~415,000 words** in the machine-learning domain, plus a
-second domain under [`domains/medical/`](domains/medical/). Every question ships with **two** answers:
+**272 questions · 544 answers · ~415,000 words** in the machine-learning domain, plus a second
+domain under [`domains/medical/`](domains/medical/). Every question ships with **two** answers:
 
 | Style | What it is | Where it lives |
 | --- | --- | --- |
@@ -46,7 +46,18 @@ The short version: revision material for people already training in the field, n
 review, not a decision aid, not for use in an emergency, and every answer attributes its claims
 to a named document while stating plainly that none of those documents was retrieved.
 
-Its record schema matches this domain's, so the two JSONL files concatenate.
+It holds **70 questions and 140 answers**, ten in each specialty, mean Pokémon-ness 88.4 against
+this domain's 69.1. Its record schema matches this domain's, so the two JSONL files concatenate.
+
+Two things about it are worth knowing before you read any of it. Its floor is **45**, not this
+domain's 38.5, and [`domains/medical/README.md`](domains/medical/README.md) says why. And a dozen
+topics that were commissioned are **deliberately unwritten** — frailty, paediatric differences,
+analgesia, crowding and flow, delirium, pain in someone who cannot self-report, supportive and
+palliative care — each declined by a writer because every available analogy required a Pokémon to
+stand in for a frightened, confused or hurting person.
+[`domains/medical/for-agents/CONVENTIONS.md`](domains/medical/for-agents/CONVENTIONS.md) Part III
+records each refusal and the reason. The gaps are the clearest statement of the domain's standard
+that it has.
 
 ## Contents
 

@@ -116,11 +116,11 @@ optimisation target — and the dataset contains three answers (021, 038, 190) e
 what goes wrong when a proxy becomes a goal. Treat a low score as a question.
 
 **Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary, now about 1,700
-terms. Nine batches of gaps were found and closed during the build — the seventh being that **the Pokédex had no entry at all**
-after 212 questions, and the eighth that none of the sixteen Kanto and Hoenn **Badges** was
-listed although every Gym Leader was; a term the vocabulary does not know scores zero, so
-historical scores are not comparable across those commits. Each vocabulary change was committed
-on its own, with no content change, so the discontinuities are identifiable in
+terms. Nine batches of gaps were found and closed during the build — the seventh being that **the
+Pokédex had no entry at all** after 212 questions, and the eighth that none of the sixteen Kanto
+and Hoenn **Badges** was listed although every Gym Leader was; a term the vocabulary does not know
+scores zero, so historical scores are not comparable across those commits. Each vocabulary change
+was committed on its own, with no content change, so the discontinuities are identifiable in
 `ledger_history.py` output.
 
 ## Known limitations
@@ -138,14 +138,21 @@ on its own, with no content change, so the discontinuities are identifiable in
    (001–100) is more thorough per entry than Part II (101–200), where the long tail of
    single-mention species is listed rather than defined. Part III (201–212) is complete.
 7. **No second full-corpus Pokémon audit** has been run over 101–232.
-8. **A second domain is in progress and is governed separately.** `domains/medical/` carries its
-   own [SAFETY.md](domains/medical/SAFETY.md), its own blocking validator, and a stricter standard
-   than this one: every answer must attribute each claim to a named document **and state that the
-   document was not retrieved**, because no medical authority is reachable from the build
+8. **A second domain holds 70 questions and is governed separately.** `domains/medical/` carries
+   its own [SAFETY.md](domains/medical/SAFETY.md), its own blocking validator, and a stricter
+   standard than this one: every answer must attribute each claim to a named document **and state
+   that the document was not retrieved**, because no medical authority is reachable from the build
    environment. Nothing in that directory has had clinical review. Read its safety file before
-   using any of it, and do not treat the two domains as having the same evidentiary standard —
-   the medical one is stricter about sourcing and weaker about everything a guideline would
-   settle.
+   using any of it, and do not treat the two domains as having the same evidentiary standard — the
+   medical one is stricter about sourcing and weaker about everything a guideline would settle.
+   Its coverage is also **deliberately incomplete in a way that is not random**: around a dozen
+   commissioned topics were declined by writers because every available analogy required a Pokémon
+   to stand in for a frightened, confused, dying or hurting person. Frailty, paediatric
+   differences, analgesia, crowding and flow, delirium, pain in someone who cannot self-report,
+   and supportive and palliative care are all absent for that reason, which means the domain
+   systematically under-covers the subjects where the stakes are highest. Anyone measuring its
+   coverage against a curriculum will find exactly that hole, and it is a design decision rather
+   than an oversight.
 9. **Scores are not comparable across two matcher fixes.** The line-wrap fix at v0.3.0, and a
    plural-form fix at v0.4.0: until the latter, a plural of a named entity scored nothing as an
    entity and then scored *against* the answer as generic furniture — 51 such mentions across 34

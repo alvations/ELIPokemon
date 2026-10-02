@@ -10,6 +10,131 @@ Every entry below is traceable to a commit. Score movements are reproducible wit
 
 ---
 
+## [0.5.0] — 2026-10-02
+
+**272 questions in the machine-learning domain, 70 in the medical one — 684 answers in all.**
+The medical domain went from a scaffold with 35 questions to seven specialties of ten apiece.
+
+### Added
+
+**Medical waves one completion and two — m036–m070** (`70feba4`, `609b2d7`)
+
+Fifty-five new pairs across all seven specialties. Domain mean 88.4, median 89.0, floor 62.6,
+validator passing on all 140 files. Every specialty now holds exactly ten.
+
+**`domains/medical/for-agents/CONVENTIONS.md`** (`c41b0fc`, `d863c67`)
+
+The shared analogy registry. `BRIEF.md` step 5 had told every writer since the domain opened to
+read it and it did not exist; two writers went looking, failed, and said so. It is extracted from
+the pairs that exist rather than invented, every mapping names the pair that established it, and
+it carries eleven house devices, the per-specialty tables, the mappings that are **not** available
+with the reason from `SAFETY.md`, and nine mechanical claims that competent writers got wrong from
+memory and that were caught against the disassemblies.
+
+**`TERMINOLOGY.md` Part VI** (this release)
+
+The twenty-seven Pokémon mechanics the medical domain brought into the corpus for the first time,
+each with the exact mechanic and the generation it belongs to. Seven writers asked for this and
+the brief holds that they report and integration adds, because seven people editing one glossary
+in seven worktrees is a guaranteed conflict.
+
+**`scripts/rewrap.py`** (`769bab3`)
+
+The 98-column re-wrapper `LEARNINGS.md` has asked for since the first release. It was never a
+committed script, so every writer rolled their own in the shared scratchpad — and in one wave
+three of them had their copy silently overwritten mid-task by a sibling using the same filename.
+It is surgical rather than a reflow tool: a paragraph already inside the limit is emitted byte for
+byte, so the sweep it enabled is a readable 310-file commit instead of an unreadable one.
+
+### Changed
+
+**Vocabulary batch eleven, 1,820 → 1,928 terms** (`4a056e5`)
+
+Every addition was reported by a writer as an exact string that was load-bearing and scored zero.
+ML mean 69.0 → 69.1, medical 85.7 → 86.4, nothing below the floor.
+
+The case the batch exists for is m039. `Stockpile`, `Swallow` and `Spit Up` carry its entire
+central device and all three were invisible; the writer named them fourteen times for nothing and
+wrote *"adding species names to lift the number would have made it a worse answer; the honest fix
+is a vocabulary commit."* It was. **m039 goes 68.1 → 82.0 with not one word of the answer
+changed.**
+
+Four gaps were costing answers that had already shipped: `Magic Coat` and `Snatch` both appear in
+the committed m031; `Reversal` was absent while `Flail` is present despite being the same
+`EFFECT_FLAIL`; `Ho-Oh` was absent while nine comparable legendaries were present; and `Rock
+Blast`, `Bullet Seed`, `Fury Swipes` and `Icicle Spear` are the whole multi-hit class.
+
+`Parlyz Heal` is added **alongside** `Paralyze Heal` because `Parlyz Heal` is what
+`src/data/items.h` calls it, and a writer kept the game's own spelling knowing it would score
+nothing rather than silently correct the data file.
+
+**The nine brief defects seven writers reported are settled** (`d863c67`)
+
+Section order, the 98-character rule not applying to table rows, the basis-marker vocabulary and
+form, whether `Sources` points at the standing list or repeats it, what the do-not-edit line means
+about the medical ledger, the `TERMINOLOGY.md`/`CONTRIBUTING.md` conflict, scratchpad filename
+collisions, and a `BrokenPipeError` that made `score.py --detail | head` look like a failure.
+
+**The validator now enforces the house section it already claimed to** (`7745e49`)
+
+`BRIEF.md` marked the plain-prose stakes section "the validator checks for it". It did not. Three
+writers diagnosed that independently, and one named the consequence exactly: it is why five pairs
+shipped under five bespoke headings, and why `m001`'s serious half had no such section at all for
+seventy questions. The check is style-keyed and matches on a line prefix; verified by breaking it
+on purpose.
+
+### Fixed
+
+**`answers/pokemon/260` — four claims, one root cause** (`3916d23`)
+
+The encounter tables were written from memory. Route 1 does not have Pidgey as the commoner of two
+species: Pidgey holds six slots and Rattata four, and the weights make them **exactly 128 each**.
+Six rows against four coming out dead even is a sharper opening than the error was, because it is
+the first lesson the table teaches — the count of slots is not the probability.
+
+That error then propagated into three arguments built on a lopsided Route 1 that does not exist,
+including a nucleus-cut paragraph claiming the rule "narrows to almost nothing" there when at 50
+and 50 it cannot stop until it has taken both rows. The flattest table is the one the rule leaves
+completely untouched, and the three-table comparison the paragraph now makes is the point it was
+reaching for and failing to make. Score 100.0 → 99.5, and that trade is not close.
+
+**310 over-wide paragraphs** (`4fbffb7`)
+
+Mechanical, verified by differencing the whole diff's token multisets to zero and by both ledgers
+being byte-identical before and after.
+
+### The writers were right and the briefs were wrong, again
+
+This remains the most useful section in any release. Across one wave of seven:
+
+* **Two corrections I ordered had false premises.** The oncology five already carried the
+  counterpart section under five bespoke headings, so renaming was right and adding would have
+  duplicated correct prose — except `m030`, which argued overdiagnosis as a decision problem and
+  never named it as a harm. The emergency five were in the same position. Both writers renamed
+  instead of adding, and both said so.
+* **A writer refused a mechanism rather than invent one.** Asked for the resistance mechanism that
+  makes stewardship a collective-action problem, m045 supplies the *transfer* half from code and
+  declines the *selection* half, naming the real competitive-play phenomenon and marking it as
+  not-from-code, because inventing a selection mechanic would have been the dishonest version.
+* **A writer argued the schema, not the answer.** Declining supportive and palliative care:
+  a Pokémon half with no Pokémon in it is not a low-scoring pair, it is a **degenerate record**
+  for a dataset whose premise is two registers of the same content. That argument is now a rule.
+* **A writer predicted its successor's mistake.** Declining frailty: *"the next writer will reach
+  for Shedinja too."* They will, so `CONVENTIONS.md` Part III says so.
+* **Thirty-odd Pokémon claims were corrected against the disassemblies rather than written from
+  memory**, among them: `Curse` costs half the bar only for a Ghost, so Snorlax as the user would
+  have been an outright error; `Rapid Spin` clears exactly one thing per use; `Future Sight`
+  computes damage at the moment of use; `Light Ball` doubles Special Attack only; Sandstorm's
+  Rock-type Special Defence boost is a fourth-generation change and does not exist in Emerald;
+  all three vending-machine drinks cost ¥200 whatever the sign says; the Safari Zone counter is
+  set to 502; and *"most moves use `EFFECT_HIT`"* is false — it is 24 of 355, which killed a
+  device and produced a better one.
+* **A writer caught itself.** One answer's Sources paragraph claimed reads that belonged to two
+  other answers in the same block. It was rewritten to name only what that answer uses, and the
+  writer flagged it as exactly the failure mode `LEARNINGS.md` describes for parallel streams.
+
+---
+
 ## [0.4.0] — 2026-10-02
 
 **272 questions, 544 answers**, plus a **second domain** scaffolded under `domains/medical/`.
@@ -55,13 +180,13 @@ matched as a move inside a fenced block. Both directions are tested.
 | `acb30c8` | Ninth batch, 93 terms. The seventeen type-resist Berries, which carry the whole central device of 235 and scored nothing for fourteen mentions; `Drill Peck`, on which 243's contrast entirely rests; the Repel and Lure families; `Safari Ball` and `Potion` while ten other Ball types and three Potion tiers were already listed; five evolution-line holes of the Nidoran shape | 67.8 → 68.4 |
 
 Five declined on the `Gym Leader` precedent: `Characteristic` (collides with an ordinary English
-word exactly as `Nature` does, and `Nature` is already excluded), `Bait` and `Rock` (argued against
-by the worker who proposed them), `Bag` and `IV Judge`.
+word exactly as `Nature` does, and `Nature` is already excluded), `Bait` and `Rock` (argued
+against by the worker who proposed them), `Bag` and `IV Judge`.
 
 ### What the writing found that the briefs had wrong
 
-Eight workers wrote these forty questions, and **six of them corrected the brief they were given**.
-Recording this because it is the most useful thing in the release:
+Eight workers wrote these forty questions, and **six of them corrected the brief they were
+given**. Recording this because it is the most useful thing in the release:
 
 * **Inkling is not a base model.** The brief said it was; the reference implementation that
   shipped on release day documents a chat template and a seven-level effort dial. 238 became

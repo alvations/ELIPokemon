@@ -42,10 +42,11 @@ they are.
   `answers/serious/` for the same id. Both answers describe the same reality; that is
   the whole premise.
 
-Every question id in this file is a **link**: [`007`](answers/pokemon/007-transformer-feed-forward-block.md) opens
-`answers/pokemon/007-transformer-feed-forward-block.md`, because this glossary exists to
-help you read the Pokémon answers. The serious counterpart is always the same filename
-under `answers/serious/` — swap the directory in the URL.
+Every question id in this file is a **link**:
+[`007`](answers/pokemon/007-transformer-feed-forward-block.md) opens
+`answers/pokemon/007-transformer-feed-forward-block.md`, because this glossary exists to help you
+read the Pokémon answers. The serious counterpart is always the same filename under
+`answers/serious/` — swap the directory in the URL.
 
 ---
 
@@ -56,9 +57,9 @@ kind), a level, six numeric stats, one or two elemental **types**, up to four **
 one **ability**, and optionally one **held item**. In the dataset a Pokémon is usually
 the model itself, or one token in a sequence, depending on the question.
 
-**Trainer.** The human who owns and directs the Pokémon. Trainers do not act on the
-field; they issue orders and their Pokémon carry them out. This split matters enormously
-in [`054`](answers/pokemon/054-tool-calling.md), where it becomes the model-versus-harness boundary.
+**Trainer.** The human who owns and directs the Pokémon. Trainers do not act on the field; they
+issue orders and their Pokémon carry them out. This split matters enormously in
+[`054`](answers/pokemon/054-tool-calling.md), where it becomes the model-versus-harness boundary.
 
 **Type.** Every Pokémon and every attacking move has an elemental type — Fire, Water,
 Grass, Electric, Rock, Ground, Steel, Flying, Dragon, Ghost, Fairy, Bug, Fighting,
@@ -77,17 +78,19 @@ attacking type does to each defending type. The multipliers are:
 | Doubly resisted | 0.25× | both types resist |
 | No effect / immunity | 0× | Electric into Ground (Golem) — literally nothing happens |
 
-The 4× and 0× cases are load-bearing throughout the dataset, because they are the two
-extremes an attention distribution needs ([`001`](answers/pokemon/001-attention-mechanisms.md)), the cliff a pass/fail benchmark hides
-([`015`](answers/pokemon/015-emergent-abilities.md)), and the arithmetic a chain of thought has to actually perform ([`049`](answers/pokemon/049-chain-of-thought.md)).
+The 4× and 0× cases are load-bearing throughout the dataset, because they are the two extremes an
+attention distribution needs ([`001`](answers/pokemon/001-attention-mechanisms.md)), the cliff a
+pass/fail benchmark hides ([`015`](answers/pokemon/015-emergent-abilities.md)), and the arithmetic
+a chain of thought has to actually perform ([`049`](answers/pokemon/049-chain-of-thought.md)).
 
 **Party.** The six Pokémon a Trainer carries, in a fixed order. Slot 1 is sent out
 first. The order is strategy, not decoration.
 
-**PC box.** Storage at a Pokémon Center holding everything not in your party —
-thousands of Pokémon, unordered, and requiring a trip to reach. The dataset uses it two
-ways: as an unordered set with no notion of position ([`002`](answers/pokemon/002-positional-encodings-rope.md)), and as large, slow,
-far-away memory as opposed to the six fast slots on your belt ([`010`](answers/pokemon/010-flash-attention.md)).
+**PC box.** Storage at a Pokémon Center holding everything not in your party — thousands of
+Pokémon, unordered, and requiring a trip to reach. The dataset uses it two ways: as an unordered
+set with no notion of position ([`002`](answers/pokemon/002-positional-encodings-rope.md)), and as
+large, slow, far-away memory as opposed to the six fast slots on your belt
+([`010`](answers/pokemon/010-flash-attention.md)).
 
 **HP (hit points).** A Pokémon's health. At zero it **faints** and can no longer battle.
 
@@ -95,79 +98,89 @@ far-away memory as opposed to the six fast slots on your belt ([`010`](answers/p
 the dataset's stock example of a fact you can simply check rather than have graded
 ([`023`](answers/pokemon/023-grpo-reasoning.md), [`038`](answers/pokemon/038-llm-as-a-judge.md)).
 
-**Moves.** The four attacks or effects a Pokémon knows. Four is a hard cap: to learn a
-fifth, one must be forgotten, and the game asks you which. [`006`](answers/pokemon/006-residual-connections.md) builds residual
-connections out of the fact that you are *allowed to say no*; [`026`](answers/pokemon/026-catastrophic-forgetting.md) builds catastrophic
-forgetting out of a hypothetical version where the game never asks.
+**Moves.** The four attacks or effects a Pokémon knows. Four is a hard cap: to learn a fifth, one
+must be forgotten, and the game asks you which.
+[`006`](answers/pokemon/006-residual-connections.md) builds residual connections out of the fact
+that you are *allowed to say no*; [`026`](answers/pokemon/026-catastrophic-forgetting.md) builds
+catastrophic forgetting out of a hypothetical version where the game never asks.
 
-**PP (power points).** Each move has a limited number of uses per trip, refilled at a
-Pokémon Center. Appears once, in [`001`](answers/pokemon/001-attention-mechanisms.md), as the resource that runs out when you try to
-compare everyone on the field to everyone else.
+**PP (power points).** Each move has a limited number of uses per trip, refilled at a Pokémon
+Center. Appears once, in [`001`](answers/pokemon/001-attention-mechanisms.md), as the resource
+that runs out when you try to compare everyone on the field to everyone else.
 
-**Ability.** A passive trait, one per Pokémon, that changes the rules for it
-specifically — see the abilities table below. Abilities are the reason a coach whose
-only skill is the type chart gets ambushed ([`001`](answers/pokemon/001-attention-mechanisms.md), [`003`](answers/pokemon/003-multi-head-attention.md)).
+**Ability.** A passive trait, one per Pokémon, that changes the rules for it specifically — see
+the abilities table below. Abilities are the reason a coach whose only skill is the type chart
+gets ambushed ([`001`](answers/pokemon/001-attention-mechanisms.md),
+[`003`](answers/pokemon/003-multi-head-attention.md)).
 
-**Held item.** One object a Pokémon carries into battle, granting a persistent effect.
-Small, swappable, and it does not change the Pokémon. This is the dataset's single most
-reused mapping: a held item is a LoRA adapter ([`026`](answers/pokemon/026-catastrophic-forgetting.md), [`027`](answers/pokemon/027-lora.md), [`028`](answers/pokemon/028-qlora.md), [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md)).
+**Held item.** One object a Pokémon carries into battle, granting a persistent effect. Small,
+swappable, and it does not change the Pokémon. This is the dataset's single most reused mapping: a
+held item is a LoRA adapter ([`026`](answers/pokemon/026-catastrophic-forgetting.md),
+[`027`](answers/pokemon/027-lora.md), [`028`](answers/pokemon/028-qlora.md),
+[`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md)).
 
-**Level.** 1 to 100. Higher levels mean higher stats. Levels are gained by battling, or
-bought outright with Rare Candy — the tradeoff [`014`](answers/pokemon/014-scaling-laws.md) is built on.
+**Level.** 1 to 100. Higher levels mean higher stats. Levels are gained by battling, or bought
+outright with Rare Candy — the tradeoff [`014`](answers/pokemon/014-scaling-laws.md) is built on.
 
-**EVs (effort values).** Hidden training points a Pokémon accumulates by battling, which
-raise specific stats. "EV-trained" means deliberately conditioned rather than merely
-levelled ([`005`](answers/pokemon/005-layer-normalization.md), [`047`](answers/pokemon/047-query-rewriting-hyde.md)).
+**EVs (effort values).** Hidden training points a Pokémon accumulates by battling, which raise
+specific stats. "EV-trained" means deliberately conditioned rather than merely levelled
+([`005`](answers/pokemon/005-layer-normalization.md),
+[`047`](answers/pokemon/047-query-rewriting-hyde.md)).
 
-**Evolution.** A permanent transformation into a different, usually stronger species,
-triggered by level, item or condition. It is discrete: nothing, nothing, nothing, then a
-different creature. [`015`](answers/pokemon/015-emergent-abilities.md) uses it as the image of a genuine phase transition, and then
-spends the rest of the answer arguing that most claimed emergence is a badly chosen
-metric rather than a real evolution.
+**Evolution.** A permanent transformation into a different, usually stronger species, triggered by
+level, item or condition. It is discrete: nothing, nothing, nothing, then a different creature.
+[`015`](answers/pokemon/015-emergent-abilities.md) uses it as the image of a genuine phase
+transition, and then spends the rest of the answer arguing that most claimed emergence is a badly
+chosen metric rather than a real evolution.
 
-**Rare Candy.** An item granting one level instantly, with none of the experience that
-normally comes with it. Pure scale, no substance. [`014`](answers/pokemon/014-scaling-laws.md) makes it parameters, and battles
-the training tokens.
+**Rare Candy.** An item granting one level instantly, with none of the experience that normally
+comes with it. Pure scale, no substance. [`014`](answers/pokemon/014-scaling-laws.md) makes it
+parameters, and battles the training tokens.
 
-**Releasing a Pokémon.** Permanently letting one go. It is irreversible and there is no
-undo, which is why [`055`](answers/pokemon/055-model-context-protocol.md) and [`059`](answers/pokemon/059-prompt-injection.md) use it as the archetypal action a tool or an agent must
-never be allowed to take unsupervised.
+**Releasing a Pokémon.** Permanently letting one go. It is irreversible and there is no undo,
+which is why [`055`](answers/pokemon/055-model-context-protocol.md) and
+[`059`](answers/pokemon/059-prompt-injection.md) use it as the archetypal action a tool or an
+agent must never be allowed to take unsupervised.
 
-**Nickname.** A Pokémon can be renamed to anything. [`012`](answers/pokemon/012-tokenization-bpe.md) uses a Charizard nicknamed
-"Big Steve" to show why a vocabulary of whole names cannot work.
+**Nickname.** A Pokémon can be renamed to anything.
+[`012`](answers/pokemon/012-tokenization-bpe.md) uses a Charizard nicknamed "Big Steve" to show
+why a vocabulary of whole names cannot work.
 
 ---
 
 ## Battling
 
-**Turn.** Both sides choose an action, then both resolve. Battles in the dataset run
-anywhere from 6 turns ([`038`](answers/pokemon/038-llm-as-a-judge.md)) to a hypothetical 400 ([`013`](answers/pokemon/013-context-length-limits.md)).
+**Turn.** Both sides choose an action, then both resolve. Battles in the dataset run anywhere from
+6 turns ([`038`](answers/pokemon/038-llm-as-a-judge.md)) to a hypothetical 400
+([`013`](answers/pokemon/013-context-length-limits.md)).
 
-**Single vs Double Battle.** In a Single Battle one Pokémon per side is out. In a
-**Double Battle** two per side are out simultaneously, so a move must choose a target
-among several. [`001`](answers/pokemon/001-attention-mechanisms.md) opens with a Double Battle precisely because attention needs more
-than one candidate to attend to.
+**Single vs Double Battle.** In a Single Battle one Pokémon per side is out. In a **Double
+Battle** two per side are out simultaneously, so a move must choose a target among several.
+[`001`](answers/pokemon/001-attention-mechanisms.md) opens with a Double Battle precisely because
+attention needs more than one candidate to attend to.
 
-**Switching.** Swapping the active Pokémon for one from your party. Costs your action
-for the turn. Switch loops — in, out, in, out — are the dataset's picture of an agent
-that never terminates ([`053`](answers/pokemon/053-react-agents.md)) and of exposure-bias drift ([`017`](answers/pokemon/017-teacher-forcing-exposure-bias.md)).
+**Switching.** Swapping the active Pokémon for one from your party. Costs your action for the
+turn. Switch loops — in, out, in, out — are the dataset's picture of an agent that never
+terminates ([`053`](answers/pokemon/053-react-agents.md)) and of exposure-bias drift
+([`017`](answers/pokemon/017-teacher-forcing-exposure-bias.md)).
 
-**Weather.** A field condition lasting several turns, usually set by an ability or a
-move. **Rain** boosts Water moves and makes some abilities live; **sun** boosts Fire.
-Weather teams are built entirely around it: [`016`](answers/pokemon/016-next-token-prediction.md) and [`051`](answers/pokemon/051-in-context-learning.md) both use "Politoed sets
-rain, Swift Swim Kingdra sweeps" as an example of a plan you have to have been following
-to predict the next move.
+**Weather.** A field condition lasting several turns, usually set by an ability or a move.
+**Rain** boosts Water moves and makes some abilities live; **sun** boosts Fire. Weather teams are
+built entirely around it: [`016`](answers/pokemon/016-next-token-prediction.md) and
+[`051`](answers/pokemon/051-in-context-learning.md) both use "Politoed sets rain, Swift Swim
+Kingdra sweeps" as an example of a plan you have to have been following to predict the next move.
 
-**Entry hazards.** Effects laid on the opponent's side that damage Pokémon as they
-switch in. **Stealth Rock** is the famous one: floating stones that hurt anything
-entering, scaled by its Rock weakness — so a 4×-weak Charizard loses half its HP just by
-appearing. In [`001`](answers/pokemon/001-attention-mechanisms.md) it is the thing an RNN forgot nine turns ago; in [`007`](answers/pokemon/007-transformer-feed-forward-block.md) it is a fact
-the Pokédex knows about Charizard.
+**Entry hazards.** Effects laid on the opponent's side that damage Pokémon as they switch in.
+**Stealth Rock** is the famous one: floating stones that hurt anything entering, scaled by its
+Rock weakness — so a 4×-weak Charizard loses half its HP just by appearing. In
+[`001`](answers/pokemon/001-attention-mechanisms.md) it is the thing an RNN forgot nine turns ago;
+in [`007`](answers/pokemon/007-transformer-feed-forward-block.md) it is a fact the Pokédex knows
+about Charizard.
 
-**Setup moves.** Moves that boost your own stats instead of attacking — **Swords Dance**
-sharply raises Attack. Setup is only worth it when you can afford the turn. [`019`](answers/pokemon/019-rlhf-end-to-end.md) uses
-"Swords Dance six times against a Magikarp" as its picture of reward hacking: locally
-adored by the judge, catastrophic in the match.
+**Setup moves.** Moves that boost your own stats instead of attacking — **Swords Dance** sharply
+raises Attack. Setup is only worth it when you can afford the turn.
+[`019`](answers/pokemon/019-rlhf-end-to-end.md) uses "Swords Dance six times against a Magikarp"
+as its picture of reward hacking: locally adored by the judge, catastrophic in the match.
 
 **Protect.** A move that blocks everything aimed at you for one turn. Cannot be relied
 on repeatedly.
@@ -175,115 +188,143 @@ on repeatedly.
 **Substitute.** A move that spends some of your own HP to put up a decoy that absorbs
 attacks.
 
-**Trick Room.** A move that inverts the speed order for five turns, so the slowest
-Pokémon moves first. Whole teams are built around it — the Bronzong-and-Rhyperior team
-in [`051`](answers/pokemon/051-in-context-learning.md) is a textbook one. Recognising a Trick Room team from its roster is the example
-[`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) uses for what an encoder-only model is good at.
+**Trick Room.** A move that inverts the speed order for five turns, so the slowest Pokémon moves
+first. Whole teams are built around it — the Bronzong-and-Rhyperior team in
+[`051`](answers/pokemon/051-in-context-learning.md) is a textbook one. Recognising a Trick Room
+team from its roster is the example
+[`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) uses for what an encoder-only
+model is good at.
 
-**Win condition.** The specific route by which a team plans to win. Identifying the
-opponent's win condition is the multi-hop reasoning task in [`013`](answers/pokemon/013-context-length-limits.md) and the strategic
-inference in [`016`](answers/pokemon/016-next-token-prediction.md).
+**Win condition.** The specific route by which a team plans to win. Identifying the opponent's win
+condition is the multi-hop reasoning task in [`013`](answers/pokemon/013-context-length-limits.md)
+and the strategic inference in [`016`](answers/pokemon/016-next-token-prediction.md).
 
-**Metagame.** The prevailing set of popular teams and counters at a given moment. It
-drifts, which is why [`020`](answers/pokemon/020-dpo-vs-ppo.md) warns that a two-year-old collection of preference cards
-trains you for last season.
+**Metagame.** The prevailing set of popular teams and counters at a given moment. It drifts, which
+is why [`020`](answers/pokemon/020-dpo-vs-ppo.md) warns that a two-year-old collection of
+preference cards trains you for last season.
 
-**Flat Rules / Level 50.** A common competitive format that sets every Pokémon to Level
-50 regardless of its actual level, so matches are decided by team and play rather than
-by grinding. [`005`](answers/pokemon/005-layer-normalization.md) makes this layer normalization, and the analogy is exact: the
-rescaling looks only at the one Pokémon in front of it, and it destroys the advantage of
-one runaway number.
+**Flat Rules / Level 50.** A common competitive format that sets every Pokémon to Level 50
+regardless of its actual level, so matches are decided by team and play rather than by grinding.
+[`005`](answers/pokemon/005-layer-normalization.md) makes this layer normalization, and the
+analogy is exact: the rescaling looks only at the one Pokémon in front of it, and it destroys the
+advantage of one runaway number.
 
 **Banned move / banlist.** Competitive formats forbid certain moves and Pokémon outright.
-[`060`](answers/pokemon/060-jailbreaks.md) uses "never use a banned move" as the trained rule a jailbreak is trying to talk the
-Pokémon past — and notes that a banned move is far easier to recognise *after* the fact
-than a sneaky request is beforehand.
+[`060`](answers/pokemon/060-jailbreaks.md) uses "never use a banned move" as the trained rule a
+jailbreak is trying to talk the Pokémon past — and notes that a banned move is far easier to
+recognise *after* the fact than a sneaky request is beforehand.
 
-**Team sheet.** The declared list of your six Pokémon, their items and their moves, shown
-to the opponent before a competitive match. [`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) uses it for what an encoder sees all at
-once; [`056`](answers/pokemon/056-multi-agent-systems.md) and [`059`](answers/pokemon/059-prompt-injection.md) use it as the shared state two agents must not both write to, and as
-the secret an injected instruction wants to exfiltrate.
+**Team sheet.** The declared list of your six Pokémon, their items and their moves, shown to the
+opponent before a competitive match.
+[`004`](answers/pokemon/004-encoder-decoder-vs-decoder-only.md) uses it for what an encoder sees
+all at once; [`056`](answers/pokemon/056-multi-agent-systems.md) and
+[`059`](answers/pokemon/059-prompt-injection.md) use it as the shared state two agents must not
+both write to, and as the secret an injected instruction wants to exfiltrate.
 
-**Regulation G.** A named ruleset for one season of official competitive play. Appears
-once, in [`047`](answers/pokemon/047-query-rewriting-hyde.md), as an example of a query that is too specific to retrieve against.
+**Regulation G.** A named ruleset for one season of official competitive play. Appears once, in
+[`047`](answers/pokemon/047-query-rewriting-hyde.md), as an example of a query that is too
+specific to retrieve against.
 
-**Tier (S / A / F).** Community shorthand ranking teams or Pokémon from best (S) to
-useless (F). [`051`](answers/pokemon/051-in-context-learning.md) uses tier letters as the label set for a few-shot classification task.
+**Tier (S / A / F).** Community shorthand ranking teams or Pokémon from best (S) to useless (F).
+[`051`](answers/pokemon/051-in-context-learning.md) uses tier letters as the label set for a
+few-shot classification task.
 
 ---
 
 ## The world and progression
 
-**Gym.** A themed challenge building, usually specialising in one type. Beat it and you
-get a badge. Gyms are stops on a fixed circuit, which is why [`005`](answers/pokemon/005-layer-normalization.md) and [`006`](answers/pokemon/006-residual-connections.md) use "a Gym"
-to mean one layer of a deep network and "the League" to mean the stack.
+**Gym.** A themed challenge building, usually specialising in one type. Beat it and you get a
+badge. Gyms are stops on a fixed circuit, which is why
+[`005`](answers/pokemon/005-layer-normalization.md) and
+[`006`](answers/pokemon/006-residual-connections.md) use "a Gym" to mean one layer of a deep
+network and "the League" to mean the stack.
 
-**Gym Leader.** The specialist who runs a Gym. Each is a genuine expert in exactly one
-type and nothing else, which is what makes them the experts in [`011`](answers/pokemon/011-mixture-of-experts.md)'s Mixture-of-Experts.
+**Gym Leader.** The specialist who runs a Gym. Each is a genuine expert in exactly one type and
+nothing else, which is what makes them the experts in
+[`011`](answers/pokemon/011-mixture-of-experts.md)'s Mixture-of-Experts.
 
-**Badge.** The token you get for beating a Gym. Eight badges qualify you for the Elite
-Four. In [`037`](answers/pokemon/037-evaluating-llms.md) and [`039`](answers/pokemon/039-benchmark-contamination.md) the eight badges are public benchmarks — standardised,
-comparable, and thoroughly leaked.
+**Badge.** The token you get for beating a Gym. Eight badges qualify you for the Elite Four. In
+[`037`](answers/pokemon/037-evaluating-llms.md) and
+[`039`](answers/pokemon/039-benchmark-contamination.md) the eight badges are public benchmarks —
+standardised, comparable, and thoroughly leaked.
 
 **Gym Circuit.** The dataset's collective name for the eight badges taken as an exam
-([`037`](answers/pokemon/037-evaluating-llms.md), [`039`](answers/pokemon/039-benchmark-contamination.md)).
+([`037`](answers/pokemon/037-evaluating-llms.md),
+[`039`](answers/pokemon/039-benchmark-contamination.md)).
 
 **Elite Four.** Four consecutive high-level Trainers you must beat back to back, with no
 healing between them, after collecting all eight badges.
 
-**Champion.** The final opponent, above the Elite Four, and the strongest Trainer in the
-region. Throughout the dataset "Champion" means the large, expensive, strong model, in
-contrast to the **rookie** ([`031`](answers/pokemon/031-knowledge-distillation.md), [`033`](answers/pokemon/033-speculative-decoding.md)) — and "the Champion's feedback reaching your
-starter" is backpropagation through a deep stack ([`005`](answers/pokemon/005-layer-normalization.md), [`006`](answers/pokemon/006-residual-connections.md)).
+**Champion.** The final opponent, above the Elite Four, and the strongest Trainer in the region.
+Throughout the dataset "Champion" means the large, expensive, strong model, in contrast to the
+**rookie** ([`031`](answers/pokemon/031-knowledge-distillation.md),
+[`033`](answers/pokemon/033-speculative-decoding.md)) — and "the Champion's feedback reaching your
+starter" is backpropagation through a deep stack
+([`005`](answers/pokemon/005-layer-normalization.md),
+[`006`](answers/pokemon/006-residual-connections.md)).
 
-**Victory Road.** The long, linear, one-way gauntlet leading to the Elite Four. [`001`](answers/pokemon/001-attention-mechanisms.md)
-uses it for strictly sequential processing: Pokémon 1, then 2, then 3, and by the end you
-have forgotten why.
+**Victory Road.** The long, linear, one-way gauntlet leading to the Elite Four.
+[`001`](answers/pokemon/001-attention-mechanisms.md) uses it for strictly sequential processing:
+Pokémon 1, then 2, then 3, and by the end you have forgotten why.
 
-**Route.** Numbered stretches of land between towns. **Route 1** is the very first, home
-to the weakest wild Pokémon. [`006`](answers/pokemon/006-residual-connections.md) puts "the Route 1 tutor who taught your Charmander to
-Scratch" at the far end of the gradient path.
+**Route.** Numbered stretches of land between towns. **Route 1** is the very first, home to the
+weakest wild Pokémon. [`006`](answers/pokemon/006-residual-connections.md) puts "the Route 1 tutor
+who taught your Charmander to Scratch" at the far end of the gradient path.
 
-**Pewter City.** The town with the first Gym, Brock's ([`016`](answers/pokemon/016-next-token-prediction.md), [`039`](answers/pokemon/039-benchmark-contamination.md)).
+**Pewter City.** The town with the first Gym, Brock's
+([`016`](answers/pokemon/016-next-token-prediction.md),
+[`039`](answers/pokemon/039-benchmark-contamination.md)).
 
-**Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos.** The regions of successive games. [`044`](answers/pokemon/044-vector-databases-ann.md)
-uses them purely as named spatial partitions of a map — the clusters of an IVF index.
+**Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos.** The regions of successive games.
+[`044`](answers/pokemon/044-vector-databases-ann.md) uses them purely as named spatial partitions
+of a map — the clusters of an IVF index.
 
-**Tall grass / wild encounters.** Walking through grass triggers battles with wild,
-untrained, unowned Pokémon. Nobody supervises this and nobody grades it. In this dataset
-the wild grass is **always** pretraining ([`018`](answers/pokemon/018-pretraining-sft-rlhf.md), [`019`](answers/pokemon/019-rlhf-end-to-end.md), [`025`](answers/pokemon/025-instruction-tuning.md), [`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md), [`036`](answers/pokemon/036-perplexity.md), [`040`](answers/pokemon/040-hallucination.md)).
+**Tall grass / wild encounters.** Walking through grass triggers battles with wild, untrained,
+unowned Pokémon. Nobody supervises this and nobody grades it. In this dataset the wild grass is
+**always** pretraining ([`018`](answers/pokemon/018-pretraining-sft-rlhf.md),
+[`019`](answers/pokemon/019-rlhf-end-to-end.md),
+[`025`](answers/pokemon/025-instruction-tuning.md),
+[`029`](answers/pokemon/029-finetuning-vs-peft-vs-prompting.md),
+[`036`](answers/pokemon/036-perplexity.md), [`040`](answers/pokemon/040-hallucination.md)).
 
 **Pokédex.** The in-game encyclopedia listing every species, its types, and its
 behaviour. The dataset's most heavily reused prop — see
 [One term, several jobs](#one-term-several-jobs), because it does three different jobs.
 
-**Pokémon Center.** A free clinic in every town that fully heals your party, and where
-the PC boxes live. In [`043`](answers/pokemon/043-embeddings.md) "how do I heal my Pokémon?" versus "where can I restore HP?"
-is the canonical pair of queries with zero words in common and identical meaning.
+**Pokémon Center.** A free clinic in every town that fully heals your party, and where the PC
+boxes live. In [`043`](answers/pokemon/043-embeddings.md) "how do I heal my Pokémon?" versus
+"where can I restore HP?" is the canonical pair of queries with zero words in common and identical
+meaning.
 
-**Poké Ball.** The device used to catch and carry a Pokémon. [`002`](answers/pokemon/002-positional-encodings-rope.md) numbers them, then
-spins them, to build up absolute versus rotary positional encoding. [`055`](answers/pokemon/055-model-context-protocol.md) makes the ball
-itself the standard: one design that works with every species, maintained by the species
-rather than by each Trainer — the Model Context Protocol. A **Master Ball** is
-the unique, never-fails, single-use version — [`054`](answers/pokemon/054-tool-calling.md)'s example of an irreversible action a
-tool harness must guard.
+**Poké Ball.** The device used to catch and carry a Pokémon.
+[`002`](answers/pokemon/002-positional-encodings-rope.md) numbers them, then spins them, to build
+up absolute versus rotary positional encoding.
+[`055`](answers/pokemon/055-model-context-protocol.md) makes the ball itself the standard: one
+design that works with every species, maintained by the species rather than by each Trainer — the
+Model Context Protocol. A **Master Ball** is the unique, never-fails, single-use version —
+[`054`](answers/pokemon/054-tool-calling.md)'s example of an irreversible action a tool harness
+must guard.
 
 **Fly.** A move that transports you instantly between towns you have already visited —
 a sparse network of long-range shortcuts layered over the map you otherwise have to walk.
 [`044`](answers/pokemon/044-vector-databases-ann.md) maps it directly onto HNSW.
 
-**TM (Technical Machine).** A consumable disc that teaches a move, identified by number
-(`TM24`, `TM25`). The dataset uses TM identifiers as its running example of an **exact
-code**: strings where semantic similarity is actively wrong, because `TM24` and `TM25`
-are neighbours on the map and unrelated in fact ([`043`](answers/pokemon/043-embeddings.md), [`045`](answers/pokemon/045-hybrid-search-reranking.md), [`047`](answers/pokemon/047-query-rewriting-hyde.md)).
+**TM (Technical Machine).** A consumable disc that teaches a move, identified by number (`TM24`,
+`TM25`). The dataset uses TM identifiers as its running example of an **exact code**: strings
+where semantic similarity is actively wrong, because `TM24` and `TM25` are neighbours on the map
+and unrelated in fact ([`043`](answers/pokemon/043-embeddings.md),
+[`045`](answers/pokemon/045-hybrid-search-reranking.md),
+[`047`](answers/pokemon/047-query-rewriting-hyde.md)).
 
-**Potion / Super Potion / Antidote / Full Heal.** Healing items. A Potion restores HP; an
-Antidote or Full Heal cures status conditions instead. [`054`](answers/pokemon/054-tool-calling.md) uses the distinction to show
-that a tool description must say *when not to* use the tool.
+**Potion / Super Potion / Antidote / Full Heal.** Healing items. A Potion restores HP; an Antidote
+or Full Heal cures status conditions instead. [`054`](answers/pokemon/054-tool-calling.md) uses
+the distinction to show that a tool description must say *when not to* use the tool.
 
-**Daycare.** In the games, a facility that raises Pokémon for you. In [`037`](answers/pokemon/037-evaluating-llms.md) and [`039`](answers/pokemon/039-benchmark-contamination.md) it
-is a deliberately mundane job — *"you got all eight badges; you run a daycare"* — standing
-for your actual production use case, which no public benchmark measures.
+**Daycare.** In the games, a facility that raises Pokémon for you. In
+[`037`](answers/pokemon/037-evaluating-llms.md) and
+[`039`](answers/pokemon/039-benchmark-contamination.md) it is a deliberately mundane job — *"you
+got all eight badges; you run a daycare"* — standing for your actual production use case, which no
+public benchmark measures.
 
 ---
 
@@ -752,7 +793,11 @@ Six ideas carry most of the extension. If you read only one table, read this one
 | **Onix / Steelix** | Rock/Ground · Steel/Ground | 8.8 m and 9.2 m of rock snake | Scale ambiguity: a photograph of an Onix and of a **toy** Onix are the same photograph ([`123`](answers/pokemon/123-document-understanding-ocr.md), [`150`](answers/pokemon/150-localisation-beyond-text.md), [`152`](answers/pokemon/152-3d-and-depth-understanding.md), [`154`](answers/pokemon/154-dubbing-and-lip-sync.md), [`159`](answers/pokemon/159-referring-segmentation.md), [`168`](answers/pokemon/168-multimodal-embeddings.md), +4 more) |
 | **Umbreon / Espeon / Vaporeon / Jolteon / Flareon / Leafeon / Glaceon / Sylveon** | various | The eight ways an **Eevee** can evolve, each triggered differently | **A topology diagram**: eight branches from one node, each labelled with its cause. Nothing on it is a quantity ([`127`](answers/pokemon/127-chart-and-diagram-reasoning.md)) |
 
-Also appearing once or twice each, in passing: Absol, Alcremie, Arbok, Bagon, Bulbasaur, Chimchar, Cinderace, Clefairy, Corsola, Dratini, Dusknoir, Emolga, Furfrou, Genesect, Gible, Golbat, Graveler, Greninja, Hitmonlee, Illumise, Infernape, Kadabra, Kecleon, Klefki, Lapras, Lugia, Minun, Monferno, Mudsdale, Piplup, Plusle, Ponyta, Quilava, Raticate, Regirock, Regice, Registeel, Sentret, Sneasel, Turtwig, Vivillon, Volbeat, Wormadam, Zebstrika.
+Also appearing once or twice each, in passing: Absol, Alcremie, Arbok, Bagon, Bulbasaur, Chimchar,
+Cinderace, Clefairy, Corsola, Dratini, Dusknoir, Emolga, Furfrou, Genesect, Gible, Golbat,
+Graveler, Greninja, Hitmonlee, Illumise, Infernape, Kadabra, Kecleon, Klefki, Lapras, Lugia,
+Minun, Monferno, Mudsdale, Piplup, Plusle, Ponyta, Quilava, Raticate, Regirock, Regice, Registeel,
+Sentret, Sneasel, Turtwig, Vivillon, Volbeat, Wormadam, Zebstrika.
 
 ## Places named in 101–200
 
@@ -865,20 +910,25 @@ are worth reading before the individual terms.
 
 * **Four move slots are a schema.** A Pokémon knows at most four moves, so its answer space is
   enumerated before the battle starts. That is the whole analogy for a typed decision model, and
-  ([`201`](answers/pokemon/201-system-one-models.md)) — which calls any move in the game — is its opposite.
+  ([`201`](answers/pokemon/201-system-one-models.md)) — which calls any move in the game — is its
+  opposite.
 * **A party of six with one on the field is a sparse mixture of experts.** You carry six and
   battle with one. The one on the field sets what the turn costs; all six set what you carry.
 * **Bill's PC is the context window.** Storage grew across every generation. The party cap never
   moved. Input grew; output did not.
 * **Breeding is distillation.** An Egg Move transfers from a parent that did the expensive work.
   The level does not transfer. Neither does the stat total.
-* **Regional forms are name collisions.** ([`210`](answers/pokemon/210-model-name-collisions.md), [`212`](answers/pokemon/212-reading-model-announcements.md)) is Electric in Kanto and Electric/Psychic
-  in Alola. A name is not an identifier; the summary screen is.
-* **A locked door is a capability threshold.** ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) opens for a proven record, and
-  the ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) is rationed to one.
-* **The score is not the Pokémon.** ([`208`](answers/pokemon/208-open-weight-equivalence.md)) and ([`208`](answers/pokemon/208-open-weight-equivalence.md)) both have a base stat total
-  of 670 and abilities that make it nearly unusable. Part III uses them wherever a benchmark
-  number is being mistaken for a capability.
+* **Regional forms are name collisions.** ([`210`](answers/pokemon/210-model-name-collisions.md),
+  [`212`](answers/pokemon/212-reading-model-announcements.md)) is Electric in Kanto and
+  Electric/Psychic in Alola. A name is not an identifier; the summary screen is.
+* **A locked door is a capability threshold.**
+  ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) opens for a proven
+  record, and the ([`211`](answers/pokemon/211-capability-thresholds-and-staged-release.md)) is
+  rationed to one.
+* **The score is not the Pokémon.** ([`208`](answers/pokemon/208-open-weight-equivalence.md)) and
+  ([`208`](answers/pokemon/208-open-weight-equivalence.md)) both have a base stat total of 670 and
+  abilities that make it nearly unusable. Part III uses them wherever a benchmark number is being
+  mistaken for a capability.
 
 ## Species named in 201–212
 
@@ -987,23 +1037,41 @@ the spine first; the tables after it are reference.
 ## The spine of Part IV
 
 * **A Battle Video stores commands, not footage.** The game reconstructs the battle from a small
-  record. That is a compressed latent cache, and it is why ([`213`](answers/pokemon/213-multi-head-latent-attention.md), [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md), [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) carries the
+  record. That is a compressed latent cache, and it is why
+  ([`213`](answers/pokemon/213-multi-head-latent-attention.md),
+  [`226`](answers/pokemon/226-hosting-long-context-multimodal-weights.md),
+  [`228`](answers/pokemon/228-attention-variants-and-kv-arithmetic.md),
+  [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) carries the
   attention-variant questions.
 * **Effort Values are a step rule.** Four EVs buy exactly one point, counted one at a time and
-  floored; ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md), [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) doubles the yield and halves your Speed. That is an optimizer, with
-  a learning rate and a cost.
-* **([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) is two Pokémon under one name.** ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) flips it between
-  ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) and ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)), and only the move *it* picks triggers the flip.
-  Dense versus sparse, in one species.
-* **([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md), [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) lands two turns after you choose it.** Aim now, collect later — the whole
-  of multi-token prediction and drafting.
-* **The stat-stage slate saturates and can be wiped.** ±6 and no further, and ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) clears
-  it. A fixed-size running state is exactly what linear attention keeps instead of the tape.
-* **A rental team is not your team.** The ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) hands you a set you did not build
-  and did not train. Renting an endpoint is not downloading weights.
-* **The ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`227`](answers/pokemon/227-open-weight-licence-conditions.md), [`232`](answers/pokemon/232-reading-an-open-model-card.md)) mark never changes.** Obedience is gated by Badges, the
-  ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md), [`222`](answers/pokemon/222-open-weight-licence-patchwork.md), [`227`](answers/pokemon/227-open-weight-licence-conditions.md)) refuses an outsider, and none of it depends on how good the Pokémon is. That
-  is a licence.
+  floored; ([`216`](answers/pokemon/216-fp8-training-and-cost-figures.md),
+  [`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)) doubles the yield and
+  halves your Speed. That is an optimizer, with a learning rate and a cost.
+* **([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) is two Pokémon under one
+  name.** ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) flips it between
+  ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)) and
+  ([`218`](answers/pokemon/218-dense-versus-moe-checkpoints.md)), and only the move *it* picks
+  triggers the flip. Dense versus sparse, in one species.
+* **([`215`](answers/pokemon/215-multi-token-prediction-and-speculation.md),
+  [`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)) lands two turns after you
+  choose it.** Aim now, collect later — the whole of multi-token prediction and drafting.
+* **The stat-stage slate saturates and can be wiped.** ±6 and no further, and
+  ([`231`](answers/pokemon/231-linear-and-hybrid-attention.md)) clears it. A fixed-size running
+  state is exactly what linear attention keeps instead of the tape.
+* **A rental team is not your team.** The
+  ([`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md),
+  [`225`](answers/pokemon/225-agentic-post-training-and-evaluation.md)) hands you a set you did
+  not build and did not train. Renting an endpoint is not downloading weights.
+* **The ([`217`](answers/pokemon/217-grpo-and-mit-weights.md),
+  [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md),
+  [`222`](answers/pokemon/222-open-weight-licence-patchwork.md),
+  [`227`](answers/pokemon/227-open-weight-licence-conditions.md),
+  [`232`](answers/pokemon/232-reading-an-open-model-card.md)) mark never changes.** Obedience is
+  gated by Badges, the ([`217`](answers/pokemon/217-grpo-and-mit-weights.md),
+  [`219`](answers/pokemon/219-hosted-tiers-versus-open-checkpoints.md),
+  [`222`](answers/pokemon/222-open-weight-licence-patchwork.md),
+  [`227`](answers/pokemon/227-open-weight-licence-conditions.md)) refuses an outsider, and none of
+  it depends on how good the Pokémon is. That is a licence.
 
 ## The five the arc turns on
 
@@ -1036,8 +1104,15 @@ the spine first; the tables after it are reference.
 | **Salamence** | Dragon/Flying | Ice lands at 4×, as on Dragonite | The shared weakness across a family ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)) |
 | **Caterpie** / **Weedle** | Bug · Bug/Poison | 1 EV yield each | The smallest useful training signal ([`217`](answers/pokemon/217-grpo-and-mit-weights.md), [`220`](answers/pokemon/220-thinking-budget-and-effort-control.md)) |
 
-The remaining species appear once each and are not defined here: **Gardevoir** ([`223`](answers/pokemon/223-trillion-parameter-moe-sparsity.md)), **Geodude** ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Heatran** ([`229`](answers/pokemon/229-fine-grained-expert-routing.md)), **Jirachi** ([`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)), **Poliwhirl** ([`227`](answers/pokemon/227-open-weight-licence-conditions.md)), **Tentacool** ([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Treecko** ([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)). Part II
-established that convention for single-mention species and Part IV follows it.
+The remaining species appear once each and are not defined here: **Gardevoir**
+([`223`](answers/pokemon/223-trillion-parameter-moe-sparsity.md)), **Geodude**
+([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Heatran**
+([`229`](answers/pokemon/229-fine-grained-expert-routing.md)), **Jirachi**
+([`230`](answers/pokemon/230-multi-token-prediction-and-drafting.md)), **Poliwhirl**
+([`227`](answers/pokemon/227-open-weight-licence-conditions.md)), **Tentacool**
+([`224`](answers/pokemon/224-muon-optimizer-and-training-stability.md)), **Treecko**
+([`222`](answers/pokemon/222-open-weight-licence-patchwork.md)). Part II established that
+convention for single-mention species and Part IV follows it.
 
 ## Moves named in 213–232
 
@@ -1113,26 +1188,40 @@ its links and not defined, as Part II established.
 ## The spine of Part V
 
 * **A held item is one slot, and the Berries are the catalogue.** A Pokémon carries exactly one
-  item, and the seventeen type-resist Berries each answer exactly one weakness. Choosing which
-  is the whole of ([`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)) as expert routing.
-* **Encore, Taunt and Disable are bounded windows; ([`234`](answers/pokemon/234-sliding-window-and-stability-stack.md), [`237`](answers/pokemon/237-shipping-open-weights-on-device.md)) never expire.** Three turns
+  item, and the seventeen type-resist Berries each answer exactly one weakness. Choosing which is
+  the whole of ([`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)) as expert routing.
+* **Encore, Taunt and Disable are bounded windows;
+  ([`234`](answers/pokemon/234-sliding-window-and-stability-stack.md),
+  [`237`](answers/pokemon/237-shipping-open-weights-on-device.md)) never expire.** Three turns
   against forever is local attention against a global layer.
-* **([`233`](answers/pokemon/233-effective-parameter-counts.md), [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md), [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)) makes a smaller thing outperform its size class** — but only while it is not
-  fully evolved, which is the catch that makes it an honest analogy for an effective parameter
-  count rather than a flattering one.
+* **([`233`](answers/pokemon/233-effective-parameter-counts.md),
+  [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md),
+  [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)) makes a smaller thing outperform its
+  size class** — but only while it is not fully evolved, which is the catch that makes it an
+  honest analogy for an effective parameter count rather than a flattering one.
 * **A Fossil is not a Pokémon.** An  is revived into one, and what you get
   depends on what you do next. That is a base model, and it is why 238 could be written about a
   checkpoint that turned out not to be one.
-* **([`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md)) and ([`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md)) have nearly the same name and nothing else in common.**
-  Ground against Normal/Flying. A name is not an identifier.
-* **The ([`237`](answers/pokemon/237-shipping-open-weights-on-device.md), [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md), [`245`](answers/pokemon/245-offload-and-3d-parallelism.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md), +5) returns a Pokémon levelled up with its first move silently gone.** An
-  upgrade that improves the headline number and quietly removes something you were using.
+* **([`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md)) and
+  ([`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md)) have nearly the same name
+  and nothing else in common.** Ground against Normal/Flying. A name is not an identifier.
+* **The ([`237`](answers/pokemon/237-shipping-open-weights-on-device.md),
+  [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md),
+  [`245`](answers/pokemon/245-offload-and-3d-parallelism.md),
+  [`251`](answers/pokemon/251-migrating-between-point-releases.md), +5) returns a Pokémon levelled
+  up with its first move silently gone.** An upgrade that improves the headline number and quietly
+  removes something you were using.
 * **The fishing rods are an acceptance rate you can read.** Most casts return nothing, the rod
   decides how often and what, and the real slot percentages are in the games' own data.
-* **A ([`267`](answers/pokemon/267-evaluating-a-quantised-model.md), [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)) is sixteen values from 85 to 100 per cent.** One sample proves nothing;
-  the spread is the claim.
-* **The ([`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`245`](answers/pokemon/245-offload-and-3d-parallelism.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md), +4) issues two budgets at once** — thirty balls and five hundred steps —
-  and which runs out first depends on what you came in for. Two resources, one of them binding.
+* **A ([`267`](answers/pokemon/267-evaluating-a-quantised-model.md),
+  [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)) is sixteen values from 85 to 100 per
+  cent.** One sample proves nothing; the spread is the claim.
+* **The ([`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+  [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+  [`245`](answers/pokemon/245-offload-and-3d-parallelism.md),
+  [`250`](answers/pokemon/250-one-generation-four-artefacts.md), +4) issues two budgets at once**
+  — thirty balls and five hundred steps — and which runs out first depends on what you came in
+  for. Two resources, one of them binding.
 * **The  reports a band, never a number.** Thirty-two values collapsed into a
   handful of phrases, with more resolution kept at the extremes. That is quantisation, including
   the part people forget.
@@ -1173,19 +1262,306 @@ its links and not defined, as Part II established.
 Named once or twice each, for one specific fact, and listed rather than defined — the
 convention Part II set. Follow the link to see what the entity is doing.
 
-**Species** — Bellsprout [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Breloom [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Carvanha [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Celebi [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Chien-Pao [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Corphish [`254`](answers/pokemon/254-draft-and-verify-families.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Cradily [`254`](answers/pokemon/254-draft-and-verify-families.md) · Cyndaquil [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Dragapult [`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Electabuzz [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Feebas [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Gholdengo [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Giratina [`246`](answers/pokemon/246-point-release-model-versions.md) · Gloom [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Goldeen [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md), [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Groudon [`246`](answers/pokemon/246-point-release-model-versions.md), [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Happiny [`233`](answers/pokemon/233-effective-parameter-counts.md), [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Heracross [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Hoothoot [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Kangaskhan [`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Kyogre [`246`](answers/pokemon/246-point-release-model-versions.md), [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Ledyba [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Linoone [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Magmar [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Mankey [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Metapod [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Miltank [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Mudkip [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Muk [`254`](answers/pokemon/254-draft-and-verify-families.md) · Octillery [`254`](answers/pokemon/254-draft-and-verify-families.md), [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Oddish [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`250`](answers/pokemon/250-one-generation-four-artefacts.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Persian [`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Phanpy [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Piloswine [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Poliwag [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Primeape [`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Rhyhorn [`268`](answers/pokemon/268-roofline-decode-and-prefill.md), [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Rillaboom [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Seaking [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Sharpedo [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Suicune [`246`](answers/pokemon/246-point-release-model-versions.md), [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Tauros [`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`260`](answers/pokemon/260-decoding-parameter-interactions.md), [`265`](answers/pokemon/265-quantisation-formats-and-group-size.md), +2 · Teddiursa [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Torchic [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Tropius [`255`](answers/pokemon/255-tree-drafting-and-verification.md) · Typhlosion [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Venonat [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Vileplume [`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Weavile [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md), [`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Wobbuffet [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Zigzagoon [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`271`](answers/pokemon/271-training-kernels-and-fusion.md)
+**Species** — Bellsprout [`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Breloom
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Carvanha
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Celebi
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Chien-Pao
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Corphish
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Cradily
+[`254`](answers/pokemon/254-draft-and-verify-families.md) · Cyndaquil
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Dragapult
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Electabuzz
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Feebas
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Gholdengo
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Giratina
+[`246`](answers/pokemon/246-point-release-model-versions.md) · Gloom
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Goldeen
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md),
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Groudon
+[`246`](answers/pokemon/246-point-release-model-versions.md),
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Happiny
+[`233`](answers/pokemon/233-effective-parameter-counts.md),
+[`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Heracross
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Hoothoot
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Kangaskhan
+[`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Kyogre
+[`246`](answers/pokemon/246-point-release-model-versions.md),
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Ledyba
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Linoone
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Magmar
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Mankey
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Metapod
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Miltank
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Mudkip
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Muk
+[`254`](answers/pokemon/254-draft-and-verify-families.md) · Octillery
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Oddish
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Persian
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Phanpy
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Piloswine
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Poliwag
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Primeape
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Rhyhorn
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md),
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Rillaboom
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Seaking
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Sharpedo
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Suicune
+[`246`](answers/pokemon/246-point-release-model-versions.md),
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Tauros
+[`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md),
+[`265`](answers/pokemon/265-quantisation-formats-and-group-size.md), +2 · Teddiursa
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Torchic
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Tropius
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md) · Typhlosion
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Venonat
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Vileplume
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md) · Weavile
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md),
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Wobbuffet
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Zigzagoon
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md)
 
-**Moves** — Aurora Veil [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Baneful Bunker [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Bulk Up [`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Close Combat [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Confuse Ray [`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Destiny Bond [`237`](answers/pokemon/237-shipping-open-weights-on-device.md) · Disable [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md), [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Dragon Claw [`264`](answers/pokemon/264-outlier-channels-and-quantisation-algorithms.md), [`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Drill Peck [`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md) · Fire Blast [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Fissure [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Focus Punch [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Foul Play [`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Giga Drain [`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Gravity [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Guillotine [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Heal Block [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Hidden Power [`258`](answers/pokemon/258-diffusion-language-models.md), [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Horn Drill [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Hypnosis [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Ice Punch [`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Imprison [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Iron Tail [`258`](answers/pokemon/258-diffusion-language-models.md) · Knock Off [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Mega Punch [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Perish Song [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Sand Attack [`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md) · Scald [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Screech [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Sleep Powder [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Soft-Boiled [`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Softboiled [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Spore [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Stone Edge [`264`](answers/pokemon/264-outlier-channels-and-quantisation-algorithms.md) · Sunny Day [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Swagger [`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Sweet Scent [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Taunt [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md), [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Torment [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Water Gun [`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Will-O-Wisp [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md)
+**Moves** — Aurora Veil [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) ·
+Baneful Bunker [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Bulk Up
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Close Combat
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Confuse Ray
+[`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Destiny Bond
+[`237`](answers/pokemon/237-shipping-open-weights-on-device.md) · Disable
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md),
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Dragon Claw
+[`264`](answers/pokemon/264-outlier-channels-and-quantisation-algorithms.md),
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Drill Peck
+[`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md) · Fire Blast
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Fissure
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Focus Punch
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Foul Play
+[`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Giga Drain
+[`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Gravity
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Guillotine
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Heal Block
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Hidden Power
+[`258`](answers/pokemon/258-diffusion-language-models.md),
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Horn Drill
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Hypnosis
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Ice Punch
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md) · Imprison
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Iron Tail
+[`258`](answers/pokemon/258-diffusion-language-models.md) · Knock Off
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Mega Punch
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Perish Song
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Sand Attack
+[`243`](answers/pokemon/243-deepspeed-deepseek-name-collision.md) · Scald
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Screech
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Sleep Powder
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Soft-Boiled
+[`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Softboiled
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Spore
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Stone Edge
+[`264`](answers/pokemon/264-outlier-channels-and-quantisation-algorithms.md) · Sunny Day
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Swagger
+[`265`](answers/pokemon/265-quantisation-formats-and-group-size.md) · Sweet Scent
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Taunt
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md),
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Torment
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Water Gun
+[`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Will-O-Wisp
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md)
 
-**Items** — Amulet Coin [`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · Black Sludge [`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Chople Berry [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Clear Bell [`246`](answers/pokemon/246-point-release-model-versions.md) · Dusk Ball [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Energy Powder [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Escape Rope [`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Ether [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Expert Belt [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Fire Stone [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · GS Ball [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Gold Teeth [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Good Rod [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md), [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Hard Stone [`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Heal Ball [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Honey [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Hyper Potion [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Leppa Berry [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Light Ball [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Lum Berry [`269`](answers/pokemon/269-flashattention-to-flashinfer.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Lure [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Max Elixir [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Max Revive [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Net Ball [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Old Rod [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md), [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md), +2 · Oval Stone [`233`](answers/pokemon/233-effective-parameter-counts.md), [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · PP Up [`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Pokéblock [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Pomeg Berry [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Power Herb [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Quick Ball [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Quick Claw [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Repel [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md), [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Safari Ball [`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md), [`260`](answers/pokemon/260-decoding-parameter-interactions.md), +1 · Shiny Charm [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Shuca Berry [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Sitrus Berry [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md), [`269`](answers/pokemon/269-flashattention-to-flashinfer.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Thunder Stone [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md), [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Timer Ball [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Vs. Seeker [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Water Stone [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Yache Berry [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)
+**Items** — Amulet Coin [`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · Black Sludge
+[`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Chople Berry
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Clear Bell
+[`246`](answers/pokemon/246-point-release-model-versions.md) · Dusk Ball
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Energy Powder
+[`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Escape Rope
+[`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Ether
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Expert Belt
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Fire Stone
+[`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · GS Ball
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Gold Teeth
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Good Rod
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md),
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Hard Stone
+[`238`](answers/pokemon/238-base-model-versus-starting-point.md) · Heal Ball
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Honey
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Hyper Potion
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Leppa Berry
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Light Ball
+[`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Lum Berry
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Lure
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Max Elixir
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Max Revive
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Net Ball
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Old Rod
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md),
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md), +2 · Oval Stone
+[`233`](answers/pokemon/233-effective-parameter-counts.md),
+[`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · PP Up
+[`244`](answers/pokemon/244-zero-stages-and-memory-arithmetic.md) · Pokéblock
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md) · Pomeg Berry
+[`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Power Herb
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Quick Ball
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Quick Claw
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Repel
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md),
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Safari Ball
+[`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`256`](answers/pokemon/256-speculative-decoding-at-high-batch.md),
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md), +1 · Shiny Charm
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Shuca Berry
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Sitrus Berry
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md),
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Thunder Stone
+[`239`](answers/pokemon/239-post-training-an-open-checkpoint.md),
+[`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Timer Ball
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Vs. Seeker
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Water Stone
+[`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Yache Berry
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)
 
-**Abilities** — Flame Body [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Intimidate [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Multiscale [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Natural Cure [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Own Tempo [`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Regenerator [`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md), [`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Snow Warning [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Sticky Hold [`254`](answers/pokemon/254-draft-and-verify-families.md) · Telepathy [`259`](answers/pokemon/259-non-autoregressive-generation.md) · Unnerve [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)
+**Abilities** — Flame Body [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) ·
+Intimidate [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Multiscale
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Natural Cure
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Own Tempo
+[`242`](answers/pokemon/242-multimodal-pretraining-mixture.md) · Regenerator
+[`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md),
+[`262`](answers/pokemon/262-grammar-constrained-decoding.md) · Snow Warning
+[`234`](answers/pokemon/234-sliding-window-and-stability-stack.md) · Sticky Hold
+[`254`](answers/pokemon/254-draft-and-verify-families.md) · Telepathy
+[`259`](answers/pokemon/259-non-autoregressive-generation.md) · Unnerve
+[`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md)
 
-**People and Trainer classes** — Cooltrainer [`269`](answers/pokemon/269-flashattention-to-flashinfer.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Cynthia [`259`](answers/pokemon/259-non-autoregressive-generation.md), [`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Eusine [`246`](answers/pokemon/246-point-release-model-versions.md), [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Falkner [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Fishing Guru [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Jasmine [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Norman [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Poké Maniac [`268`](answers/pokemon/268-roofline-decode-and-prefill.md), [`269`](answers/pokemon/269-flashattention-to-flashinfer.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Professor Birch [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Pryce [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Rocket Grunt [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Super Nerd [`238`](answers/pokemon/238-base-model-versus-starting-point.md), [`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Warden [`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`268`](answers/pokemon/268-roofline-decode-and-prefill.md), [`271`](answers/pokemon/271-training-kernels-and-fusion.md), +1 · Whitney [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md)
+**People and Trainer classes** — Cooltrainer
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Cynthia
+[`259`](answers/pokemon/259-non-autoregressive-generation.md),
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md) · Eusine
+[`246`](answers/pokemon/246-point-release-model-versions.md),
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Falkner
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Fishing Guru
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md) · Jasmine
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Norman
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Poké Maniac
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md),
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Professor Birch
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Pryce
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Rocket Grunt
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Super Nerd
+[`238`](answers/pokemon/238-base-model-versus-starting-point.md),
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md) · Warden
+[`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md),
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md), +1 · Whitney
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`251`](answers/pokemon/251-migrating-between-point-releases.md)
 
-**Places** — Battle Maison [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Celadon City [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Dewford Town [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Distortion World [`246`](answers/pokemon/246-point-release-model-versions.md) · Fuchsia City [`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`247`](answers/pokemon/247-reading-changelogs-and-cadence.md), [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Goldenrod City [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Ilex Forest [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Lilycove City [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Mossdeep City [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md) · New Bark Town [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Olivine City [`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Pal Park [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Pewter Gym [`233`](answers/pokemon/233-effective-parameter-counts.md) · Rock Tunnel [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Route 102 [`254`](answers/pokemon/254-draft-and-verify-families.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Route 118 [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Route 119 [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`254`](answers/pokemon/254-draft-and-verify-families.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Secret House [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Sky Pillar [`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Tall Grass [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`253`](answers/pokemon/253-speculative-decoding-exactness.md), [`255`](answers/pokemon/255-tree-drafting-and-verification.md), [`257`](answers/pokemon/257-acceptance-rate-in-production.md), +2 · Union Cave [`258`](answers/pokemon/258-diffusion-language-models.md) · Viridian Forest [`260`](answers/pokemon/260-decoding-parameter-interactions.md), [`266`](answers/pokemon/266-kv-cache-quantisation.md)
+**Places** — Battle Maison [`235`](answers/pokemon/235-when-a-small-moe-stops-paying.md) · Celadon
+City [`239`](answers/pokemon/239-post-training-an-open-checkpoint.md) · Dewford Town
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Distortion World
+[`246`](answers/pokemon/246-point-release-model-versions.md) · Fuchsia City
+[`236`](answers/pokemon/236-multimodality-in-a-small-checkpoint.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`247`](answers/pokemon/247-reading-changelogs-and-cadence.md),
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Goldenrod City
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md),
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Ilex Forest
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Lilycove City
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Mossdeep City
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md) · New Bark Town
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Olivine City
+[`248`](answers/pokemon/248-qwen-3-6-consolidation-release.md) · Pal Park
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Pewter Gym
+[`233`](answers/pokemon/233-effective-parameter-counts.md) · Rock Tunnel
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`271`](answers/pokemon/271-training-kernels-and-fusion.md) · Route 102
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Route 118
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Route 119
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`254`](answers/pokemon/254-draft-and-verify-families.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md) · Secret House
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`268`](answers/pokemon/268-roofline-decode-and-prefill.md) · Sky Pillar
+[`249`](answers/pokemon/249-a-generation-that-never-opened.md) · Tall Grass
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`253`](answers/pokemon/253-speculative-decoding-exactness.md),
+[`255`](answers/pokemon/255-tree-drafting-and-verification.md),
+[`257`](answers/pokemon/257-acceptance-rate-in-production.md), +2 · Union Cave
+[`258`](answers/pokemon/258-diffusion-language-models.md) · Viridian Forest
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md),
+[`266`](answers/pokemon/266-kv-cache-quantisation.md)
 
-**Mechanics** — Badly Poisoned [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md), [`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Boulder Badge [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md) · Cascade Badge [`266`](answers/pokemon/266-kv-cache-quantisation.md) · Endless Battle Clause [`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · HM [`237`](answers/pokemon/237-shipping-open-weights-on-device.md), [`240`](answers/pokemon/240-apache-two-at-frontier-scale.md), [`241`](answers/pokemon/241-honest-self-description-as-evidence.md), [`251`](answers/pokemon/251-migrating-between-point-releases.md) · Masuda Method [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Medium Fast [`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · Move Tutor [`250`](answers/pokemon/250-one-generation-four-artefacts.md), [`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Multi Battle [`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · PokéRadar [`260`](answers/pokemon/260-decoding-parameter-interactions.md) · STAB [`269`](answers/pokemon/269-flashattention-to-flashinfer.md), [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Shiny [`260`](answers/pokemon/260-decoding-parameter-interactions.md), [`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Soul Badge [`237`](answers/pokemon/237-shipping-open-weights-on-device.md) · Speed Tier [`267`](answers/pokemon/267-evaluating-a-quantised-model.md), [`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)
+**Mechanics** — Badly Poisoned [`234`](answers/pokemon/234-sliding-window-and-stability-stack.md),
+[`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · Boulder Badge
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md) · Cascade Badge
+[`266`](answers/pokemon/266-kv-cache-quantisation.md) · Endless Battle Clause
+[`261`](answers/pokemon/261-beam-search-and-mbr-decoding.md) · HM
+[`237`](answers/pokemon/237-shipping-open-weights-on-device.md),
+[`240`](answers/pokemon/240-apache-two-at-frontier-scale.md),
+[`241`](answers/pokemon/241-honest-self-description-as-evidence.md),
+[`251`](answers/pokemon/251-migrating-between-point-releases.md) · Masuda Method
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · Medium Fast
+[`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · Move Tutor
+[`250`](answers/pokemon/250-one-generation-four-artefacts.md),
+[`252`](answers/pokemon/252-superseded-checkpoints-and-fine-tunes.md) · Multi Battle
+[`245`](answers/pokemon/245-offload-and-3d-parallelism.md) · PokéRadar
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md) · STAB
+[`269`](answers/pokemon/269-flashattention-to-flashinfer.md),
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md) · Shiny
+[`260`](answers/pokemon/260-decoding-parameter-interactions.md),
+[`270`](answers/pokemon/270-serving-stack-around-the-kernel.md) · Soul Badge
+[`237`](answers/pokemon/237-shipping-open-weights-on-device.md) · Speed Tier
+[`267`](answers/pokemon/267-evaluating-a-quantised-model.md),
+[`272`](answers/pokemon/272-reading-a-kernel-benchmark.md)
 
 ## A note on proportion
 
@@ -1197,3 +1573,71 @@ appears once.
 
 If you are reading a single answer, the spine is enough. If you are auditing the corpus, the
 links are the point — every entity above is reachable from the answer that uses it.
+
+# Part VI — the medical domain (m001–m070)
+
+The medical domain is governed separately. Its safety rules are in
+[`domains/medical/SAFETY.md`](domains/medical/SAFETY.md), its shared analogy registry is in
+[`domains/medical/for-agents/CONVENTIONS.md`](domains/medical/for-agents/CONVENTIONS.md), and that
+registry rather than this file is what a writer reads before drafting. What belongs here is the
+other thing: the Pokémon mechanics the medical answers brought into the corpus for the first time.
+Seven writers asked for exactly this, and the brief holds that they report the entities and
+integration adds them, because seven people editing one glossary in seven worktrees is a
+guaranteed conflict.
+
+Everything below was read out of `pret/pokered`, `pret/pokeemerald` or
+`rh-hideout/pokeemerald-expansion` by the writer who used it. Where a mechanic is
+generation-dependent the generation is part of the entry, because an unqualified mechanical figure
+is the single most common defect in drafts and the one a reader is least able to catch.
+
+## Mechanics named for the first time in the medical domain
+
+| Term | What it is, exactly | What it stands in for |
+| --- | --- | --- |
+| **Stat Experience** (Gen I) | Five hidden counters, ceiling 65,535, incremented by every defeated species' base stat. Exactly four events recalculate from them: a level-up, a vitamin, a Rare Candy, a withdrawal from a box | A cached record that silently diverges from the thing it summarises. Because Medium Fast is exactly *n*³, the gap between refreshes lengthens as the hidden burden grows — the chronic-disease review interval |
+| **`Substitute`'s quarter** | Costs exactly maxHP/4, and **fails outright if current HP is already at or below that quarter** | A barrier built out of the substance it protects, which cannot be built once the substance is gone |
+| **`Haze`** | Clears every stat stage on the field and restores not one point of `substituteHP` | An intervention that resets state and rebuilds no structure |
+| **`Flail`'s power table** | 48ths, with cut-offs at 1/4/9/16/32 giving 200/150/100/80/40/20 | An inverse amplified reporter — and the **flat top third** is why a suppressed reporter cannot grade severity |
+| **`Reversal`** | The same `EFFECT_FLAIL`, read the other way | The pair that makes one quantity carry two opposite functions |
+| **`TryChangeBattleTerrain`** | Returns false when its own terrain is already up, and **does not refresh the timer** | Exogenous replacement suppressing an axis, including the lapse on the original clock when the outside supply stops |
+| **The terrain layer** | Grassy, Psychic, Misty, Electric — each five turns, eight with `Terrain Extender`, and affecting **grounded battlers only** | The axis hormones, kept distinct from weather (the glucose-control hormones). `Levitate` is a tissue without the receptor; `Gravity`, `Iron Ball` and `Ingrain` are what force it to respond |
+| **`ApplyBadgeStatBoosts`** | Four badges, the even bits, each ×1.125 as `stat += stat>>3`. Returns immediately in a link battle | A relative advantage, awarded for having already won, that widens the absolute gap while improving both — and is invisible in the only format where like is compared with like. The four that boost are exactly the four the obedience check does not use |
+| **`SweetScentWildEncounter`** | Calls the field routine with **flags = 0**, where an ordinary step passes `WILD_CHECK_REPEL \| WILD_CHECK_KEEN_EYE` | The open question that bypasses every filter you had running |
+| **`SwitchInClearSetData`** | Deletes all stat stages, `status2`, `gStatuses3`, the whole `DisableStruct` and every history field; `status1`, HP and PP survive | What crosses a handover boundary against what does not. `Baton Pass`'s hand-written whitelist does **not** include the history |
+| **`DEFAULT_STAT_STAGE`** | Both the never-set value and the cleared value | The pertinent negative: a field that cannot distinguish "not asked" from "asked and normal" |
+| **`truantSwitchInHack`** | A named field added after a loss was discovered | What a data structure looks like once somebody has been bitten |
+| **`MIMIC_FORBIDDEN_END`** | A sentinel sitting mid-list in `sMovesForbiddenToCopy`, so Mimic and Metronome read different prefixes of one list | Two designs sharing one pool with different eligibility criteria |
+| **The multi-hit distribution** | `Random() & 3`, redrawn when above 1 as `(Random() & 3) + 2`: 2 and 3 at three-eighths each, 4 and 5 at one-eighth each. `Rock Blast`, `Bullet Seed`, `Fury Swipes`, `Icicle Spear` | Fractionation — many small deliveries whose count is itself a draw |
+| **`Protect`'s consecutive-use counter** (Gen III) | 1, 1/2, 1/4, 1/8 — and it **resets to zero whenever the last resulting move was not one of the family** | Pulsatility: a rhythm that must be interrupted to be sustained |
+| **`Rapid Spin`** | `Cmd_rapidspinfree` clears exactly **one** thing per use, in a fixed order: trapping, then Leech Seed, then Spikes | A review point that addresses one item however many are outstanding |
+| **`Future Sight`** | Damage computed **at the moment of use** and stored, not on landing | Delayed release, where the dose is fixed at administration |
+| **`Lock-On` / `Mind Reader`** | The next move cannot miss | The intravenous route: F = 1 is a property of the route, not an improvement to the drug |
+| **`Light Screen`** | Halves special damage, with three exact bypasses — a critical hit (it applies only when the crit multiplier is 1), a physical move (`Reflect` covers that), and `Brick Break` | First-pass extraction, and the three ways round it |
+| **`Sketch` / Egg Moves** | One permanently copies a move used against you; the other is inherited down a breeding line | Horizontal against vertical gene transfer. The games keep them in separate mechanics, so an acquired move does not then travel down a line — which is where the analogy is thinner than the biology, and the answer says so |
+| **`gFrontierBannedSpecies`** | Ten species, plus duplicate-species and duplicate-item checks | A restricted formulary, written into the cartridge |
+| **`Utility Umbrella`** | Ignores the effects of rain and harsh sunlight on its holder | Protecting one condition from the other condition's treatment |
+| **`Heavy-Duty Boots`** | Voids the entry-hazard table entirely for its holder | An exemption that operates on the environment's effect rather than on the hazard |
+| **`Bicycle` / `Bike Voucher`** | The shop lists it at a price the money format cannot hold (`ds 3 ; BCD`, max ¥999,999), and **no code path sells it for money** — only the Fan Club chairman's voucher, given if you say yes to his story | A priced route that does not exist, against the route that works and is not priced at all |
+| **`GetWhoStrikesFirst`** | Seven factors multiply into one observable: who acts first | A single downstream sign produced by several independent mechanisms, each with a non-interchangeable counter |
+| **`attackcanceler`** | A fourteen-case chain with an `effect == 0` short-circuit, re-rolled every turn | Why one successful attempt cannot be extrapolated to the next, and where the asymmetry in the evidence comes from |
+| **`gItemEffect_CheriBerry`** | Six bytes, one bit, at index 3 | A single-purpose intervention beside a shared pipeline reached through forty-five jumps by forty-one effect scripts |
+
+## Two things the medical domain established that are not mechanics
+
+* **Three separate routines in one game refuse to report zero** — the health bar's forced 1,
+  `Super Fang`'s floor, and `Cmd_scaledamagebyhealthratio`'s. Read together they are an assay's
+  lower limit of detection, exactly, and no single one of them is.
+* **`GetScaledHPFraction(hp, maxHP, 48)`** is the same 48 as the health bar's pixel width. The
+  quantised readout and the amplified reporter are built on one constant, which is the sort of
+  thing you only find by reading the source.
+
+## And the mechanics that are deliberately not used
+
+Recorded here because the glossary is where someone will look for them.
+[`CONVENTIONS.md`](domains/medical/for-agents/CONVENTIONS.md) Part III has the reasons in full.
+
+`Revive` and `Max Revive`, for anything at all. Fainting, KO and Revive as death, resuscitation or
+bereavement. Catching as diagnosis or admission. The Day Care, egg groups and `Destiny Knot` for
+the reproductive axis. `Shedinja` as a frail patient — it is available for a type-override point
+with no person attached, and not otherwise. And any mapping at all that requires a Pokémon to
+stand in for a confused, frightened, dying or hurting person.
