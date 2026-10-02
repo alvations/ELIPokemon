@@ -1,5 +1,5 @@
 {
-  "count": 257,
+  "count": 272,
   "questions": [
     {
       "id": "001",
@@ -4113,6 +4113,86 @@
       ]
     },
     {
+      "id": "253",
+      "slug": "speculative-decoding-exactness",
+      "question": "Speculative decoding claims to be exact, not approximate. Why is that true?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/253-speculative-decoding-exactness.md",
+      "pokemon_path": "answers/pokemon/253-speculative-decoding-exactness.md",
+      "tags": [
+        "speculative-decoding",
+        "rejection-sampling",
+        "exactness",
+        "inference",
+        "sampling"
+      ]
+    },
+    {
+      "id": "254",
+      "slug": "draft-and-verify-families",
+      "question": "A separate draft model, Medusa heads, EAGLE, lookahead, n-gram lookup — how do the drafting families differ?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/254-draft-and-verify-families.md",
+      "pokemon_path": "answers/pokemon/254-draft-and-verify-families.md",
+      "tags": [
+        "speculative-decoding",
+        "eagle",
+        "medusa",
+        "lookahead",
+        "prompt-lookup"
+      ]
+    },
+    {
+      "id": "255",
+      "slug": "tree-drafting-and-verification",
+      "question": "What does verifying a tree of candidates instead of a single chain buy you?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/255-tree-drafting-and-verification.md",
+      "pokemon_path": "answers/pokemon/255-tree-drafting-and-verification.md",
+      "tags": [
+        "speculative-decoding",
+        "tree-attention",
+        "medusa",
+        "eagle",
+        "acceptance-rate"
+      ]
+    },
+    {
+      "id": "256",
+      "slug": "speculative-decoding-at-high-batch",
+      "question": "Speculative decoding is a large win at batch size one. Why can it be a loss at high batch?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/256-speculative-decoding-at-high-batch.md",
+      "pokemon_path": "answers/pokemon/256-speculative-decoding-at-high-batch.md",
+      "tags": [
+        "speculative-decoding",
+        "roofline",
+        "batching",
+        "throughput",
+        "serving"
+      ]
+    },
+    {
+      "id": "257",
+      "slug": "acceptance-rate-in-production",
+      "question": "How would you tell whether speculative decoding is actually paying for itself in production?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/257-acceptance-rate-in-production.md",
+      "pokemon_path": "answers/pokemon/257-acceptance-rate-in-production.md",
+      "tags": [
+        "speculative-decoding",
+        "acceptance-rate",
+        "observability",
+        "benchmarking",
+        "serving"
+      ]
+    },
+    {
       "id": "258",
       "slug": "diffusion-language-models",
       "question": "Diffusion language models generate a whole sequence at once instead of left to right. What has actually shipped, and what does the approach cost?",
@@ -4190,6 +4270,166 @@
         "structured-output",
         "json-schema",
         "masking"
+      ]
+    },
+    {
+      "id": "263",
+      "slug": "ptq-versus-qat-and-weight-only",
+      "question": "When does quantisation-aware training earn its cost over post-training quantisation, and what does weight-only quantisation buy that W8A8 does not?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/263-ptq-versus-qat-and-weight-only.md",
+      "pokemon_path": "answers/pokemon/263-ptq-versus-qat-and-weight-only.md",
+      "tags": [
+        "quantisation",
+        "ptq",
+        "qat",
+        "weight-only",
+        "inference"
+      ]
+    },
+    {
+      "id": "264",
+      "slug": "outlier-channels-and-quantisation-algorithms",
+      "question": "Explain outlier channels, and what GPTQ, AWQ and SmoothQuant each do about them.",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/264-outlier-channels-and-quantisation-algorithms.md",
+      "pokemon_path": "answers/pokemon/264-outlier-channels-and-quantisation-algorithms.md",
+      "tags": [
+        "quantisation",
+        "outliers",
+        "gptq",
+        "awq",
+        "smoothquant"
+      ]
+    },
+    {
+      "id": "265",
+      "slug": "quantisation-formats-and-group-size",
+      "question": "What is actually inside a quantised model file? Walk me through k-quants, group size, and the hardware 4-bit formats.",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/265-quantisation-formats-and-group-size.md",
+      "pokemon_path": "answers/pokemon/265-quantisation-formats-and-group-size.md",
+      "tags": [
+        "gguf",
+        "k-quants",
+        "group-size",
+        "mxfp4",
+        "nvfp4"
+      ]
+    },
+    {
+      "id": "266",
+      "slug": "kv-cache-quantisation",
+      "question": "At what context length does the KV cache cost more than the weights, and what does quantising the cache cost you?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/266-kv-cache-quantisation.md",
+      "pokemon_path": "answers/pokemon/266-kv-cache-quantisation.md",
+      "tags": [
+        "kv-cache",
+        "quantisation",
+        "long-context",
+        "serving",
+        "memory"
+      ]
+    },
+    {
+      "id": "267",
+      "slug": "evaluating-a-quantised-model",
+      "question": "A quantised build's perplexity moved by 0.15. Is that fine? How would you evaluate it honestly?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/267-evaluating-a-quantised-model.md",
+      "pokemon_path": "answers/pokemon/267-evaluating-a-quantised-model.md",
+      "tags": [
+        "quantisation",
+        "evaluation",
+        "perplexity",
+        "kl-divergence",
+        "calibration"
+      ]
+    },
+    {
+      "id": "268",
+      "slug": "roofline-decode-and-prefill",
+      "question": "Decode is memory-bandwidth-bound and prefill is compute-bound. Do the roofline arithmetic, and say what follows for kernel work.",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/268-roofline-decode-and-prefill.md",
+      "pokemon_path": "answers/pokemon/268-roofline-decode-and-prefill.md",
+      "tags": [
+        "roofline",
+        "bandwidth",
+        "prefill",
+        "decode",
+        "kernels"
+      ]
+    },
+    {
+      "id": "269",
+      "slug": "flashattention-to-flashinfer",
+      "question": "FlashAttention already fuses attention into one kernel. What does a serving kernel library like FlashInfer have to do that a single fused kernel does not?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/269-flashattention-to-flashinfer.md",
+      "pokemon_path": "answers/pokemon/269-flashattention-to-flashinfer.md",
+      "tags": [
+        "flashattention",
+        "flashinfer",
+        "kernels",
+        "paged-attention",
+        "jit"
+      ]
+    },
+    {
+      "id": "270",
+      "slug": "serving-stack-around-the-kernel",
+      "question": "Paged attention, continuous batching, chunked prefill and CUDA graphs are four separate fixes. What does each one fix, and where do they collide?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/270-serving-stack-around-the-kernel.md",
+      "pokemon_path": "answers/pokemon/270-serving-stack-around-the-kernel.md",
+      "tags": [
+        "vllm",
+        "paged-attention",
+        "continuous-batching",
+        "chunked-prefill",
+        "cuda-graphs"
+      ]
+    },
+    {
+      "id": "271",
+      "slug": "training-kernels-and-fusion",
+      "question": "A fine-tuning library claims 2x faster training and 70 percent less VRAM from custom kernels. Where does that actually come from?",
+      "category": "optimization",
+      "difficulty": "advanced",
+      "serious_path": "answers/serious/271-training-kernels-and-fusion.md",
+      "pokemon_path": "answers/pokemon/271-training-kernels-and-fusion.md",
+      "tags": [
+        "triton",
+        "fusion",
+        "lora",
+        "gradient-checkpointing",
+        "moe"
+      ]
+    },
+    {
+      "id": "272",
+      "slug": "reading-a-kernel-benchmark",
+      "question": "Someone shows you a kernel benchmark with a 12x speedup. What do you check before you believe it?",
+      "category": "optimization",
+      "difficulty": "intermediate",
+      "serious_path": "answers/serious/272-reading-a-kernel-benchmark.md",
+      "pokemon_path": "answers/pokemon/272-reading-a-kernel-benchmark.md",
+      "tags": [
+        "benchmarks",
+        "warm-up",
+        "autotuning",
+        "determinism",
+        "scepticism"
       ]
     }
   ]
