@@ -1,5 +1,5 @@
 {
-  "count": 10,
+  "count": 15,
   "questions": [
     {
       "id": "m001",
@@ -169,6 +169,91 @@
         "handover",
         "trust",
         "records"
+      ]
+    },
+    {
+      "id": "m031",
+      "slug": "primary-survey-ordering",
+      "question": "Why is the primary survey ordered airway, breathing, circulation, and what is that ordering actually sorting on?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m031-primary-survey-ordering.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m031-primary-survey-ordering.md",
+      "tags": [
+        "primary-survey",
+        "abcde",
+        "prioritisation",
+        "protocol-design",
+        "revision"
+      ]
+    },
+    {
+      "id": "m032",
+      "slug": "why-protocols-exist",
+      "question": "Why are time-critical decisions written down as protocols instead of left to individual clinical judgement?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m032-why-protocols-exist.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m032-why-protocols-exist.md",
+      "tags": [
+        "protocols",
+        "cognitive-load",
+        "variance",
+        "standardisation",
+        "human-factors"
+      ]
+    },
+    {
+      "id": "m033",
+      "slug": "what-triage-optimises",
+      "question": "What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m033-what-triage-optimises.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m033-what-triage-optimises.md",
+      "tags": [
+        "triage",
+        "mass-casualty",
+        "prioritisation",
+        "marginal-benefit",
+        "training"
+      ]
+    },
+    {
+      "id": "m034",
+      "slug": "compensation-and-the-sick-patient",
+      "question": "Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m034-compensation-and-the-sick-patient.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m034-compensation-and-the-sick-patient.md",
+      "tags": [
+        "compensation",
+        "deterioration",
+        "observations",
+        "early-warning",
+        "physiology"
+      ]
+    },
+    {
+      "id": "m035",
+      "slug": "first-aid-for-untrained-bystanders",
+      "question": "Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m035-first-aid-for-untrained-bystanders.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m035-first-aid-for-untrained-bystanders.md",
+      "tags": [
+        "first-aid",
+        "bystander",
+        "guidance-design",
+        "simplification",
+        "dispatcher"
       ]
     }
   ]
