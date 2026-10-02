@@ -42,6 +42,38 @@ Stated plainly, because this is the section that matters.
 * **Not about any real person.** There are no case histories, no patient data, and no
   identifiable details. Every scenario is constructed.
 
+## Sourcing, and why there are no quotations
+
+Every answer names the documents that would settle its claims, in a `## Sources` section.
+**None of those documents was retrieved.**
+
+That is not a shortcut. The environment this was written in refuses every medical
+authority at the network layer — `who.int`, `cdc.gov`, `nice.org.uk`, PubMed, the national
+formularies, the resuscitation councils, even Wikipedia all return a policy denial. Web
+search still returns aggregated summaries of those sources, but a summary is the
+summariser's words. Presenting one as a guideline quotation would be fabricating a medical
+citation, and that is the most damaging single thing this directory could contain: a
+plausible-looking reference that does not say what it is claimed to say, attached to
+clinical material, is worse than no reference at all.
+
+So the standard here is **attribution without quotation**:
+
+* every answer names the specific document a reader should open, precisely enough to find
+  it, with the issuing body named;
+* that section is headed by a verbatim statement that none of it was retrieved;
+* **no answer contains quoted source text, a DOI, an author-year citation, or a guideline
+  reference code.** `scripts/medical/validate.py` fails the build on all four patterns;
+* each load-bearing clinical claim is marked inline with what it rests on — consensus,
+  country-dependent, or mechanism rather than guideline;
+* claims that could not be attributed to a nameable document were cut rather than softened.
+
+The consequence, stated plainly: **this directory tells you where to check, not what the
+source says.** If you need the source's words, open the source.
+
+If the environment's network policy is later widened to allow the medical authorities, the
+honest upgrade is a revision pass that adds real quotations and real references to answers
+that currently carry neither — not a claim that the existing ones were sourced all along.
+
 ## Where the Pokémon framing stops
 
 The analogy is for **mechanism**: how a drug distributes, why a feedback loop runs away,

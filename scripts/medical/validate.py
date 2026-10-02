@@ -16,7 +16,16 @@ And three the medical domain adds, because the failure modes here are different:
   * no answer may address the reader as their clinician -- the second person
     paired with an imperative about their own treatment. Teaching material
     explains what is done and why; it does not instruct a reader about their own
-    care. The check is deliberately crude and over-flags; see ALLOWED below.
+    care. The check is deliberately crude and over-flags.
+
+And two about sourcing, because no medical authority is reachable from the build
+environment and the only honest response to that is to say so in every answer:
+  * every answer must carry a "## Sources" section naming the documents that would
+    settle its claims, headed by the verbatim statement that none was retrieved;
+  * nothing may read as a quotation from a source that was not opened -- no
+    "the guideline states \u2018...\u2019", no DOIs, no author-year citations, no
+    guideline reference codes. A fabricated medical citation is the most damaging
+    single defect this dataset could contain.
 """
 
 from __future__ import annotations
@@ -38,6 +47,26 @@ from build_dataset import (  # noqa: E402
 
 MIN_WORDS = 120
 SAFETY_HEADING = "## Scope and safety"
+SOURCES_HEADING = "## Sources"
+
+# No medical authority is reachable from the build environment -- who.int, cdc.gov,
+# nice.org.uk, pubmed, the formularies and the resuscitation councils are all refused
+# by the egress proxy. So every answer must name the documents that would settle its
+# claims AND state plainly that none of them was opened. An answer that cited a source
+# it could not read would be worse than one that cited nothing.
+NOT_RETRIEVED = "**None of the sources below was retrieved.**"
+
+# Anything that presents un-retrieved source text as a quotation. These are the
+# fabrication shapes, and in medical content a fabricated citation is the most
+# damaging single defect available.
+FABRICATED_CITATION = re.compile(
+    r"(guideline|guidance|monograph|formulary|standard|consensus|statement|review)\s+"
+    r"(?:states|says|reads|notes|recommends)\s*[:,]?\s*[\"\u201c]"
+    r"|\bdoi:\s*10\."
+    r"|\bet al\.\s*\(?\d{4}"
+    r"|\b(?:NG|CG|QS|TA|DG)\d{2,4}\b",
+    re.IGNORECASE,
+)
 
 # Phrases that would make the text read as direction to a patient rather than
 # explanation to a student. Matched case-insensitively against the body.
@@ -93,6 +122,16 @@ def main() -> int:
                 problems.append(f"{rel}: serious answers must include a fenced diagram")
             if SAFETY_HEADING not in body:
                 problems.append(f"{rel}: missing a '{SAFETY_HEADING}' section")
+            if SOURCES_HEADING not in body:
+                problems.append(f"{rel}: missing a '{SOURCES_HEADING}' section")
+            elif NOT_RETRIEVED not in body:
+                problems.append(
+                    f"{rel}: the '{SOURCES_HEADING}' section must carry the "
+                    f"not-retrieved statement verbatim"
+                )
+            cite = FABRICATED_CITATION.search(body)
+            if cite:
+                problems.append(f"{rel}: reads as a quotation from an unread source: {cite.group(0)!r}")
             hit = PATIENT_DIRECTIVE.search(body)
             if hit:
                 problems.append(f"{rel}: reads as direction to a patient: {hit.group(0)!r}")
