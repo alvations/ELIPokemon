@@ -133,6 +133,22 @@ Roaring Moon Iron Valiant Koraidon Miraidon Walking Wake Iron Leaves
 Parasect, Venomoth, Omastar, Kabutops, Victreebel, Weepinbell, Sandslash
 """.split()
 
+# Whitespace-splitting SPECIES cannot represent a two-word name: "Great Tusk" became the
+# terms "Great" and "Tusk", and "Iron Treads" contributed a bare "Iron". Those fragments
+# then matched ordinary English -- 27 spurious species mentions across the corpus, in
+# answers whose authors never mentioned a Paradox Pokemon. The fragments are removed from
+# the split block below and the real names live here, comma-separated and intact.
+SPECIES_MULTIWORD = """
+Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks,
+Roaring Moon, Walking Wake, Gouging Fire, Raging Bolt, Iron Treads, Iron Bundle,
+Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns, Iron Valiant, Iron Leaves,
+Iron Boulder, Iron Crown, Tapu Koko, Tapu Lele, Tapu Bulu, Tapu Fini,
+Mr. Mime, Mime Jr., Mr. Rime, Type: Null
+"""
+
+# The bare tokens a whitespace split left behind. Each is an ordinary English word.
+SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
+
 MOVES = """
 Thunderbolt, Thunder, Thunder Wave, Volt Switch, Quick Attack, Iron Tail, Splash,
 Flamethrower, Fire Blast, Smokescreen, Dragon Rage, Dragon Dance, Dragon Claw,
@@ -291,16 +307,22 @@ Pokéathlon, Speed Tie, Poké Transporter
 
 
 def _clean(raw):
-    """Split a comma-separated vocabulary block into a set of terms."""
+    """Split a comma-separated vocabulary block into a set of terms.
+
+    Strips stray commas as well as whitespace. SPECIES is whitespace-split rather than
+    comma-split, so a contributor appending "Parasect, Venomoth" to it used to produce
+    the terms "Parasect," and "Venomoth," -- entries that look right in the file and can
+    never match anything. Seven species were silently absent that way.
+    """
     if isinstance(raw, str):
         parts = raw.replace("\n", " ").split(",")
     else:
         parts = raw
-    return {p.strip() for p in parts if p.strip()}
+    return {p.strip().strip(",") for p in parts if p.strip().strip(",")}
 
 
 NAMED: dict[str, set[str]] = {
-    "species": _clean(SPECIES),
+    "species": (_clean(SPECIES) - SPECIES_FRAGMENTS) | _clean(SPECIES_MULTIWORD),
     "move": _clean(MOVES),
     "item": _clean(ITEMS),
     "ability": _clean(ABILITIES),
