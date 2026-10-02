@@ -158,6 +158,21 @@ def main() -> int:
             if hit:
                 problems.append(f"{rel}: reads as direction to a patient: {hit.group(0)!r}")
 
+    # Every answer file must have a catalogue row, not only the other way round. The
+    # loop above walks the catalogue and checks its files exist, which cannot see a file
+    # with no row. Six of those sat in the tree undetected: an integration script
+    # extracted new rows with a grep for "^+m0", which silently matched nothing from
+    # m100 upwards, so five emergency pairs and one oncology pair were fully written,
+    # fully valid and absent from the catalogue -- invisible to this gate and to the
+    # dataset build, while the scorer counted them.
+    catalogued = {e["id"] for e in entries}
+    for style in STYLES:
+        for path in sorted((DOMAIN / "answers").glob(f"*/{style}/m*.md")):
+            mid = path.name.split("-")[0]
+            if mid not in catalogued:
+                rel = path.relative_to(ROOT)
+                problems.append(f"{rel}: answer file has no row in the catalogue")
+
     if problems:
         print(f"FAILED: {len(problems)} problem(s)")
         for problem in problems:

@@ -79,3 +79,18 @@ m082	access-and-demand	general-practice	advanced	Why does a system that is easy 
 m083	shared-decision-making	general-practice	advanced	Why does a preference-sensitive decision have no single right answer, and what does that demand of the consultation?
 m084	overdiagnosis-in-primary-care	general-practice	advanced	What is overdiagnosis, why can it never be seen in an individual, and what makes primary care generate it without any screening programme?
 m085	the-prevention-paradox	general-practice	advanced	Why can an intervention prevent many cases across a population while offering almost no individual in it a benefit they could notice?
+m086	skin-infections-and-the-scraping	dermatology	intermediate	Why do skin infections and infestations that look alike need different treatments, and what is the skin scraping or swab actually for?
+m087	hair-and-nail-as-a-timeline	dermatology	intermediate	Why are the nail plate and the hair shaft records of events that happened months earlier, and what does that change about the history?
+m088	photoprotection-and-cumulative-dose	dermatology	core	Why is photoageing a function of cumulative ultraviolet dose, and why is the number printed on a sunscreen not the protection a person gets?
+m089	blistering-and-the-level-of-the-split	dermatology	advanced	Why does the level at which the skin splits determine almost everything that follows in a blistering disease?
+m090	urticaria-and-angioedema	dermatology	intermediate	Why is a weal that comes and goes a different problem from a swelling that does not, and what follows from that for treatment?
+m096	targeted-therapy-and-resistance	oncology	advanced	Why does a targeted therapy that is working stop working, and what does the mechanism of escape tell you about what to do next?
+m097	tumour-heterogeneity-and-one-biopsy	oncology	advanced	In what sense is a single tumour biopsy a sample of a population under selection, and what follows for how a biomarker result is interpreted?
+m098	the-multidisciplinary-meeting	oncology	intermediate	What is a cancer multidisciplinary meeting actually for, and what failure modes is it designed to prevent?
+m099	performance-status	oncology	intermediate	Why does a crude ordinal performance status scale predict tolerance of systemic therapy better than more precise measurements, and where does it mislead?
+m100	biomarker-driven-treatment-selection	oncology	advanced	Why are a biomarker test and the drug it selects for treated as one object rather than two, and what goes wrong when they are separated?
+m101	chest-pain-ordered-by-danger	emergency	advanced	Why is the workup for chest pain ordered by danger rather than by likelihood, when a dozen unrelated mechanisms produce the same complaint?
+m102	breathlessness-splits-by-system	emergency	intermediate	Why does the differential for breathlessness split by system rather than by severity, and what do the first few observations actually buy?
+m103	splinting-is-treatment	emergency	intermediate	Why is immobilising a fracture treatment in its own right rather than packaging for transport?
+m104	imaging-and-decision-rules	emergency	advanced	Why is imaging a test with a harm of its own, and what is a clinical decision rule actually for?
+m105	the-social-presentation	emergency	advanced	Why is a presentation that looks social rather than medical still a clinical problem, and why is dismissing it a diagnostic error?

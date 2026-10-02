@@ -1,5 +1,5 @@
 {
-  "count": 80,
+  "count": 95,
   "questions": [
     {
       "id": "m001",
@@ -1359,6 +1359,261 @@
         "high-risk-strategy",
         "attributable-risk",
         "public-health"
+      ]
+    },
+    {
+      "id": "m086",
+      "slug": "skin-infections-and-the-scraping",
+      "question": "Why do skin infections and infestations that look alike need different treatments, and what is the skin scraping or swab actually for?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m086-skin-infections-and-the-scraping.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m086-skin-infections-and-the-scraping.md",
+      "tags": [
+        "skin-infection",
+        "dermatophyte",
+        "scabies",
+        "microscopy",
+        "antimicrobials"
+      ]
+    },
+    {
+      "id": "m087",
+      "slug": "hair-and-nail-as-a-timeline",
+      "question": "Why are the nail plate and the hair shaft records of events that happened months earlier, and what does that change about the history?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m087-hair-and-nail-as-a-timeline.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m087-hair-and-nail-as-a-timeline.md",
+      "tags": [
+        "nail",
+        "hair",
+        "alopecia",
+        "onychodystrophy",
+        "timeline"
+      ]
+    },
+    {
+      "id": "m088",
+      "slug": "photoprotection-and-cumulative-dose",
+      "question": "Why is photoageing a function of cumulative ultraviolet dose, and why is the number printed on a sunscreen not the protection a person gets?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m088-photoprotection-and-cumulative-dose.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m088-photoprotection-and-cumulative-dose.md",
+      "tags": [
+        "photoprotection",
+        "ultraviolet",
+        "photoageing",
+        "sunscreen",
+        "prevention"
+      ]
+    },
+    {
+      "id": "m089",
+      "slug": "blistering-and-the-level-of-the-split",
+      "question": "Why does the level at which the skin splits determine almost everything that follows in a blistering disease?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m089-blistering-and-the-level-of-the-split.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m089-blistering-and-the-level-of-the-split.md",
+      "tags": [
+        "blistering",
+        "pemphigus",
+        "pemphigoid",
+        "immunofluorescence",
+        "biopsy"
+      ]
+    },
+    {
+      "id": "m090",
+      "slug": "urticaria-and-angioedema",
+      "question": "Why is a weal that comes and goes a different problem from a swelling that does not, and what follows from that for treatment?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m090-urticaria-and-angioedema.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m090-urticaria-and-angioedema.md",
+      "tags": [
+        "urticaria",
+        "angioedema",
+        "histamine",
+        "bradykinin",
+        "anaphylaxis"
+      ]
+    },
+    {
+      "id": "m096",
+      "slug": "targeted-therapy-and-resistance",
+      "question": "Why does a targeted therapy that is working stop working, and what does the mechanism of escape tell you about what to do next?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m096-targeted-therapy-and-resistance.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m096-targeted-therapy-and-resistance.md",
+      "tags": [
+        "targeted-therapy",
+        "resistance",
+        "biomarkers",
+        "progression",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "m097",
+      "slug": "tumour-heterogeneity-and-one-biopsy",
+      "question": "In what sense is a single tumour biopsy a sample of a population under selection, and what follows for how a biomarker result is interpreted?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m097-tumour-heterogeneity-and-one-biopsy.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m097-tumour-heterogeneity-and-one-biopsy.md",
+      "tags": [
+        "heterogeneity",
+        "clonal-evolution",
+        "biopsy",
+        "sampling",
+        "liquid-biopsy"
+      ]
+    },
+    {
+      "id": "m098",
+      "slug": "the-multidisciplinary-meeting",
+      "question": "What is a cancer multidisciplinary meeting actually for, and what failure modes is it designed to prevent?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m098-the-multidisciplinary-meeting.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m098-the-multidisciplinary-meeting.md",
+      "tags": [
+        "multidisciplinary-team",
+        "decision-making",
+        "governance",
+        "pathways",
+        "documentation"
+      ]
+    },
+    {
+      "id": "m099",
+      "slug": "performance-status",
+      "question": "Why does a crude ordinal performance status scale predict tolerance of systemic therapy better than more precise measurements, and where does it mislead?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m099-performance-status.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m099-performance-status.md",
+      "tags": [
+        "performance-status",
+        "assessment",
+        "reliability",
+        "eligibility",
+        "geriatric-oncology"
+      ]
+    },
+    {
+      "id": "m100",
+      "slug": "biomarker-driven-treatment-selection",
+      "question": "Why are a biomarker test and the drug it selects for treated as one object rather than two, and what goes wrong when they are separated?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m100-biomarker-driven-treatment-selection.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m100-biomarker-driven-treatment-selection.md",
+      "tags": [
+        "biomarkers",
+        "companion-diagnostics",
+        "assay-validation",
+        "pre-analytics",
+        "cut-offs"
+      ]
+    },
+    {
+      "id": "m101",
+      "slug": "chest-pain-ordered-by-danger",
+      "question": "Why is the workup for chest pain ordered by danger rather than by likelihood, when a dozen unrelated mechanisms produce the same complaint?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m101-chest-pain-ordered-by-danger.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m101-chest-pain-ordered-by-danger.md",
+      "tags": [
+        "chest-pain",
+        "undifferentiated",
+        "prioritisation",
+        "differential",
+        "revision"
+      ]
+    },
+    {
+      "id": "m102",
+      "slug": "breathlessness-splits-by-system",
+      "question": "Why does the differential for breathlessness split by system rather than by severity, and what do the first few observations actually buy?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m102-breathlessness-splits-by-system.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m102-breathlessness-splits-by-system.md",
+      "tags": [
+        "breathlessness",
+        "differential",
+        "observations",
+        "oxygenation",
+        "revision"
+      ]
+    },
+    {
+      "id": "m103",
+      "slug": "splinting-is-treatment",
+      "question": "Why is immobilising a fracture treatment in its own right rather than packaging for transport?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m103-splinting-is-treatment.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m103-splinting-is-treatment.md",
+      "tags": [
+        "fractures",
+        "immobilisation",
+        "prevention",
+        "counterfactual",
+        "revision"
+      ]
+    },
+    {
+      "id": "m104",
+      "slug": "imaging-and-decision-rules",
+      "question": "Why is imaging a test with a harm of its own, and what is a clinical decision rule actually for?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m104-imaging-and-decision-rules.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m104-imaging-and-decision-rules.md",
+      "tags": [
+        "imaging",
+        "decision-rules",
+        "harm",
+        "over-testing",
+        "revision"
+      ]
+    },
+    {
+      "id": "m105",
+      "slug": "the-social-presentation",
+      "question": "Why is a presentation that looks social rather than medical still a clinical problem, and why is dismissing it a diagnostic error?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m105-the-social-presentation.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m105-the-social-presentation.md",
+      "tags": [
+        "function",
+        "attribution",
+        "environment",
+        "assessment",
+        "revision"
       ]
     }
   ]
