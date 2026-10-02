@@ -84,6 +84,32 @@ additions, and the validator enforces the first two.
   attributed to a nameable document was cut, not softened.
 * **Every answer is dated**, in a `## Where this stands` line, because guidance moves.
 
+## The quality gate, and the floor
+
+```bash
+python3 scripts/medical/score.py            # table by specialty; rewrites LEDGER.md
+python3 scripts/medical/score.py --detail m001
+```
+
+**The floor for this domain is 45**, not the 38.5 that `../../CONTRIBUTING.md` names for the
+machine-learning domain. Two reasons, and they pull in opposite directions:
+
+* Every answer here carries four **mandated plain-prose sections** — `Where the metaphor stops`,
+  `The human stakes, said plainly`, `Sources` and `Scope and safety` — which are required to
+  contain no analogy. **The scorer excludes them**, so an answer is measured on its
+  analogy-bearing body. Before that exclusion existed, three writers independently reported the
+  house pattern costing them 1–4 points, which meant the gate punished exactly the behaviour the
+  brief asks for.
+* With the exclusion in place the scores run higher than the machine-learning domain's, so the
+  floor can be higher too.
+
+[`LEDGER.md`](LEDGER.md) is generated and committed, so its diff is the change in Pokémon-ness —
+the same contract the other domain has.
+
+**And the floor is not the arbiter.** Where holding the line on taste or safety costs score, the
+lower score is correct and the writer says so. That is written into
+[`for-agents/BRIEF.md`](for-agents/BRIEF.md).
+
 ## Status
 
 Building toward the first 100. See [`../../CHANGELOG.md`](../../CHANGELOG.md) for the audit
