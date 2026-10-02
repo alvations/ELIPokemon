@@ -110,6 +110,31 @@ Four mechanisms, none of them about how good the Trainer is:
   them with Caterpie and Metapod, and slot 9 of the Safari Zone's centre area is **Scyther** in
   Red and **Pinsir** in Blue. Nobody should carry a table across the boundary.
 
+## Where the metaphor stops
+
+A low prior probability is a statement about a population, and it is delivered to one person. Both
+halves of that sentence are true at once, and the harm lives in the gap between them. Of the
+people told that something is probably nothing, a small number have the thing — and for them the
+reasoning was not careless, it was correct and it was wrong about them. Holding both of those at
+the same time is what makes a significant-event review useful rather than an exercise in blame,
+and it is also what makes the safety-net in the next question a requirement rather than a nicety.
+
+The harm runs in the other direction too, and is less often counted. Reading a positive result at
+a clinic's predictive value when it was produced in a waiting room sends well people into
+investigation they did not need: procedures with their own complications, time away from work and
+family, and a lasting change in how someone understands their own body. A cascade of investigation
+started by one over-read result is a real injury, and the person at the end of it has no way to
+know it was avoidable.
+
+And the part that is not statistical at all. The prior a clinician actually uses is not a
+published figure; it is partly an impression of the person in front of them. Where that impression
+tracks who someone is rather than what they have — their weight, their first language, a
+psychiatric diagnosis in their record, their race, how many times they have been in — then
+base-rate reasoning stops being arithmetic and becomes a mechanism for not believing people. This
+is a documented pattern, not a theoretical risk, and better arithmetic does not fix it. The
+question that does some work is whether the same finding in a different person would have been
+given the same weight.
+
 ## What a Gym Leader is listening for
 
 Whether the Trainer reaches for the ratio rather than the raw percentage, and can say why one

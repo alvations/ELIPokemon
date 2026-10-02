@@ -55,6 +55,23 @@ in exactly the sense that a test result is diagnostic information. A clinician w
 person has not attended in four years is working from a different prior than one who does not, and
 the finding in front of them both is identical.
 
+## What discontinuity costs, concretely
+
+There is no single measurable penalty for discontinuity the way there is for, say, a missed dose,
+which is exactly why the costs have to be listed as mechanisms rather than asserted as a loss of
+something intangible. Four of them *[mechanism, not guideline]*:
+
+* **Re-investigation.** A clinician who does not know what has already been excluded repeats it,
+  and the repeat carries the same false-positive rate it did the first time.
+* **The diagnostic clock restarts.** A presentation that is the third of its kind is a different
+  presentation from a first, and that fact lives in whether anyone recognises it as the third. If
+  it is read as a first, the clock that should be running is not.
+* **A safety-net held in one person's head stops existing** the moment somebody else takes the
+  consultation, which is precisely the situation the net was built for.
+* **The "this is not like them" signal has no substitute.** It cannot be written down in advance
+  because nobody knows which change will matter, and it is the signal most often cited after the
+  event by the clinician who did catch something early.
+
 ## What it buys, stated honestly
 
 The observational literature on continuity is large and consistent in direction: higher continuity

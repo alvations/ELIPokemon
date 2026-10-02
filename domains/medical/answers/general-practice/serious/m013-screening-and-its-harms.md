@@ -111,6 +111,28 @@ tolerance of overdiagnosis *[country-dependent]*. For that reason no interval, a
 threshold appears in this answer. A reader comparing two countries' programmes and concluding that
 one must be wrong has usually not read either one's published rationale.
 
+## The human stakes, said plainly
+
+Overdiagnosis is a harm done to a well person. It is worth refusing the softer phrasings, because
+the softer phrasings are what let it be filed as an accounting adjustment. Someone who was never
+going to be troubled by a disease is given its name, its investigation, its treatment and its
+complications, and afterwards lives as a person who has had it. None of that is a statistical
+artefact; the statistics are only how the harm becomes visible at all.
+
+The cruelty in the structure is that the person can never find out which they were. The one whose
+life was saved and the one who was harmed look identical to themselves, to their family and to
+their clinician, and both are sincerely grateful. That asymmetry is why an honest public case for
+a programme is so hard to make: its beneficiaries are identifiable and will say so, while the
+people it harmed believe they were beneficiaries and will say so just as loudly. Anyone presenting
+a programme has to resist the testimony that is easiest to obtain.
+
+Two obligations follow. An invitation is a system acting on someone who did not ask, so the duty
+to inform is higher than for a test somebody requested, not lower — and material written to raise
+uptake is not information, whatever else it is. And the benefit has to be checked for where it
+lands: uptake is consistently lowest among the people carrying the most disease, so a programme
+can show a real average benefit while bypassing those who needed it most, which widens a gap
+rather than closing one.
+
 ## What an examiner digs into next
 
 Whether the candidate rejects survival-from-diagnosis as evidence without being prompted. Then

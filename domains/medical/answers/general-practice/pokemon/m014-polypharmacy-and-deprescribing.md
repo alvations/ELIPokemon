@@ -138,6 +138,13 @@ arrive as a surprise inside a medication review, which is the practical reason i
 anticipatory discussion held while there is time for it, with the person themselves deciding what
 matters to them.
 
+The other half of the same section, which is easier to forget because nobody reports it. Taking
+fifteen medicines is itself a daily experience — the timing, the counting, the swallowing, the
+collecting, the cost where there is one, and the constant reminder of being a person with fifteen
+conditions. That burden falls on the person and is largely invisible to whoever writes the
+prescriptions, because it rarely arrives in a consultation as a complaint about medicines. It
+arrives as tiredness, or as not taking them, and both get read as something else.
+
 ## The thing not to take away
 
 The counterweight. A Pokémon that has run every move out of PP is reduced to Struggle, which

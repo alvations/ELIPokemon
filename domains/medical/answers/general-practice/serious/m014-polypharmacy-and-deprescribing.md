@@ -113,7 +113,7 @@ whole list is visible, which is usually primary care. That means the stopper is 
 the reasoning that produced the start, and the honest first move is frequently to find out what
 the intention was rather than to adjudicate it.
 
-## Time to benefit, said plainly
+## The human stakes, said plainly
 
 Some medicines produce their benefit over a long horizon. Where the benefit accrues over years and
 a person's circumstances have changed, the balance that justified starting may no longer hold, and
@@ -121,6 +121,13 @@ noticing that is part of good care rather than a withdrawal of it. This is not a
 anyone's worth or a rationing argument, and it is not a conversation that should arrive as a
 surprise in a medication review — which is exactly why it belongs in an anticipatory discussion
 held while there is time for it, with the person deciding what matters to them *[consensus]*.
+
+The other half of the same section, which is easier to forget because nobody reports it. Taking
+fifteen medicines is itself a daily experience — the timing, the counting, the swallowing, the
+collecting, the cost where there is one, and the constant reminder of being a person with fifteen
+conditions. That burden is borne by the person and is largely invisible to whoever writes the
+prescriptions, because it never appears in a consultation as a complaint about medicines. It
+appears as tiredness, or as not taking them, and both are routinely read as something else.
 
 ## The thing not to stop
 
