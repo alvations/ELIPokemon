@@ -56,6 +56,16 @@ SOURCES_HEADING = "## Sources"
 # it could not read would be worse than one that cited nothing.
 NOT_RETRIEVED = "**None of the sources below was retrieved.**"
 
+# The house pattern: every pair carries one section with the analogy dropped, where the
+# stakes are stated plainly. The Pokemon half announces that the metaphor stops; the
+# serious half says what is at stake for a person. BRIEF.md has always claimed the
+# validator enforced this and until now it did not, which is how five pairs shipped under
+# five bespoke headings and one shipped with no such section at all.
+STAKES_HEADING = {
+    "pokemon": "## Where the metaphor stops",
+    "serious": "## The human stakes, said plainly",
+}
+
 # Anything that presents un-retrieved source text as a quotation. These are the
 # fabrication shapes, and in medical content a fabricated citation is the most
 # damaging single defect available.
@@ -120,6 +130,9 @@ def main() -> int:
                 problems.append(f"{rel}: body is only {len(body.split())} words (min {MIN_WORDS})")
             if style == "serious" and "```" not in body:
                 problems.append(f"{rel}: serious answers must include a fenced diagram")
+            stakes = STAKES_HEADING[style]
+            if not any(line.startswith(stakes) for line in body.splitlines()):
+                problems.append(f"{rel}: missing a '{stakes}' section")
             if SAFETY_HEADING not in body:
                 problems.append(f"{rel}: missing a '{SAFETY_HEADING}' section")
             if SOURCES_HEADING not in body:
