@@ -1,5 +1,5 @@
 {
-  "count": 5,
+  "count": 10,
   "questions": [
     {
       "id": "m001",
@@ -84,6 +84,91 @@
         "perfusion",
         "charting",
         "assessment"
+      ]
+    },
+    {
+      "id": "m011",
+      "slug": "the-undifferentiated-presentation",
+      "question": "Why does an identical finding mean something different in general practice than in a hospital clinic, and how does prevalence change what it is worth?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m011-the-undifferentiated-presentation.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m011-the-undifferentiated-presentation.md",
+      "tags": [
+        "bayes",
+        "prevalence",
+        "predictive-value",
+        "referral",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "m012",
+      "slug": "red-flags-and-safety-netting",
+      "question": "What is safety-netting actually for, and what separates a safety-net that works from reassurance that only sounds like one?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m012-red-flags-and-safety-netting.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m012-red-flags-and-safety-netting.md",
+      "tags": [
+        "safety-netting",
+        "red-flags",
+        "uncertainty",
+        "documentation",
+        "diagnostic-delay"
+      ]
+    },
+    {
+      "id": "m013",
+      "slug": "screening-and-its-harms",
+      "question": "Why is a screening programme not simply more testing, and what do lead-time bias, length bias and overdiagnosis each do to its apparent benefit?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m013-screening-and-its-harms.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m013-screening-and-its-harms.md",
+      "tags": [
+        "screening",
+        "overdiagnosis",
+        "lead-time-bias",
+        "length-bias",
+        "public-health"
+      ]
+    },
+    {
+      "id": "m014",
+      "slug": "polypharmacy-and-deprescribing",
+      "question": "Why is the number of medicines a risk factor in its own right, and what makes a decision to stop different in kind from a decision to start?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m014-polypharmacy-and-deprescribing.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m014-polypharmacy-and-deprescribing.md",
+      "tags": [
+        "polypharmacy",
+        "deprescribing",
+        "interactions",
+        "prescribing-cascade",
+        "medication-review"
+      ]
+    },
+    {
+      "id": "m015",
+      "slug": "continuity-of-care",
+      "question": "What does continuity of care actually buy, and why is it a clinical intervention rather than a courtesy?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m015-continuity-of-care.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m015-continuity-of-care.md",
+      "tags": [
+        "continuity",
+        "relational-continuity",
+        "handover",
+        "trust",
+        "records"
       ]
     }
   ]
