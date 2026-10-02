@@ -110,7 +110,7 @@ checks by name whether the selected move is Quick Attack, then by name whether i
 then falls through to Speed. Two hand-written special cases in the battle loop, and no table
 anywhere. Question m032 is about why that got replaced with a written-down number on every entry.
 
-## Where the game stops
+## Where the metaphor stops
 
 Plainly, and without the metaphor, because this is the part it is not for.
 

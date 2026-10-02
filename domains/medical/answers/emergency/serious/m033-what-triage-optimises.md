@@ -113,6 +113,31 @@ documented trail of decisions that will be reviewed later, calmly, by people wit
 nobody had at the time. A system that could not survive that review honestly would not be usable;
 saying out loud in advance what it is optimising is how it survives it.
 
+## The human stakes, said plainly
+
+The arithmetic above allocates a resource. What it allocates it between is people, and three
+things about that appear nowhere in the optimisation.
+
+The lowest-priority category is not an abandoned category. Every system of this kind keeps comfort
+and reassessment inside it, and keeps it explicitly open to revision as resource arrives, because
+the ranking was conditional on a resource position that changes. A category assigned in the first
+minutes of an incident is a statement about what was available then. **(Consensus** that re-triage
+and continuing care of that group are built into these systems; **country-dependent** in what the
+categories are called and how each service words them.**)**
+
+Nothing in the ranking is a judgement about anyone's worth. It ranks where a unit of a scarce
+thing changes the most outcomes, and it would return the same answer about any two people whoever
+they were. Saying that out loud matters, because the ranking is easily misheard as the other thing
+— both by the people applying it and by everyone reading about it afterwards.
+
+And the cost of these decisions lands on whoever made them, immediately and sometimes for a long
+time. The section above says that and this one will not improve on it by saying it twice; what
+belongs here is the practical half. The provision — debriefing, peer support, occupational health,
+and in many services a formal post-incident process — is part of the system rather than an
+afterthought to it, and the decisions will later be reviewed calmly by people who know things
+nobody knew at the time. Both of those are easier to carry if they are known in advance rather
+than discovered afterwards.
+
 ## What an examiner digs into next
 
 * State the objective function, and state what changed between routine practice and a

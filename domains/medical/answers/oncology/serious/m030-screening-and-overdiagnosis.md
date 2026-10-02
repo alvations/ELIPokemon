@@ -167,10 +167,19 @@ in incidence is not producible by any of the three biases in this answer.
 So **the right first question about a screening programme is which of the two it is**, before any
 question about its performance.
 
-## What this does not tell any individual
+## The human stakes, said plainly
 
 Everything above is population reasoning, and it is the correct kind of reasoning for evaluating a
 programme. It does not tell any particular person what to do, and it cannot.
+
+Overdiagnosis first, because it is the harm most easily left as an abstraction and should not be.
+It means a person who felt well was told they had cancer, was treated for cancer, and carried
+everything that follows — surgery and its consequences, systemic therapy or radiotherapy and
+theirs, surveillance, and a diagnosis that does not go away and that travels with them through
+every later medical encounter and, in some systems, into insurance and employment — when the
+disease was never going to trouble them. That is a serious harm done by a well-meant system to
+somebody who was fine, and it is the reason a programme is obliged to publish its harms beside its
+benefits rather than only its benefits.
 
 For one person deciding whether to take up an invitation, the relevant facts are their own risk,
 the specific test, what the programme offers where they live, and their own view of the trade

@@ -141,6 +141,33 @@ reader population itself changes: a document written for a public with no traini
 telephone is not the right document for a public where many people have had some training and
 almost everyone is holding a phone with a call handler on the other end.
 
+## The human stakes, said plainly
+
+The removals listed above were not corrections of carelessness. Every one of them was taught in
+good faith, by people who believed it helped, to readers who then did it to someone they cared
+about. Butter or ice onto a burn. Vomiting induced after a swallowed poison. A snake bite cut,
+heated or sucked. A head tilted back for a nosebleed. Alcohol given to someone cold or collapsed.
+The lay pulse check, which cost more in delay than it ever recovered in accuracy. **(Consensus**
+that each was removed from mainstream lay guidance; **country-dependent** in how each council
+words its current position.**)** The honest summary is that advice given with good intentions
+caused harm, that this was found out, and that the advice was withdrawn. That sequence is the
+discipline working — and it is also why a forty-year-old leaflet is not a safe thing to act from.
+
+Three consequences are about the reader rather than the document. The reader of bystander guidance
+is usually frightened and often knows the person in front of them, which is the hardest set of
+conditions in which to read anything, and is exactly why the written instruction is blunt, short
+and nearly branchless. A bystander who tries and does it imperfectly has not done the wrong thing:
+across everyone who attempts it, attempting is better than not attempting, and that is the
+principle the document is built around rather than a reassurance added to the end of it
+**(consensus)**. And the people most affected afterwards are frequently the ones who were there
+and acted; support after an event of this kind exists, through the ambulance service that attended
+and through primary care, and using it is an ordinary thing to do.
+
+One instruction carries all of this. **Calling the local emergency number is how a bystander
+obtains the branch logic the document had to leave out**, from a call handler who can assess and
+correct in real time. Where such a handler is giving instructions, those are the instructions that
+apply, and they are current in a way no written account including this one can be.
+
 ## What an examiner digs into next
 
 * State the objective function for each document and name the difference in one sentence.

@@ -208,7 +208,7 @@ they fail in characteristic ways:
 regulators in different jurisdictions weigh them differently (**consensus**,
 **country-dependent**). Anyone presenting this as settled has not read the argument.
 
-## And here the Pokémon framing stops
+## Where the metaphor stops
 
 Everything above is about instruments, thresholds and inference, and a game is a good place to
 look at those. What follows is about people, so it is said plainly and without the analogy.

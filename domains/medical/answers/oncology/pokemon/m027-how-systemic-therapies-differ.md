@@ -219,7 +219,7 @@ A teaching scheme, not a taxonomy of nature (**consensus**).
 * **The word chemotherapy** is used colloquially for all of it, which is worth knowing when a
   conversation is plainly at cross purposes.
 
-## And here the Pokémon framing stops
+## Where the metaphor stops
 
 Everything above is about mechanism, and the analogy earns its place there. What follows is about
 people, so it is said plainly.

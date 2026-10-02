@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**45 answers · mean 86.4 · median 85.4 · min 62.6 · max 100.0**
+**70 answers · mean 88.4 · median 89.0 · min 62.6 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -33,22 +33,46 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 83.3 | excellent | m053 | dermatology | acne-mechanism-and-sequence | 24 | 34 | 33 |
 | 83.7 | excellent | m040 | nursing | falls-risk-multifactorial | 25 | 29 | 52 |
 | 84.1 | excellent | m005 | nursing | fluid-balance-charting | 20 | 27 | 54 |
+| 84.2 | excellent | m046 | general-practice | chronic-disease-review | 23 | 41 | 79 |
 | 84.3 | excellent | m014 | general-practice | polypharmacy-and-deprescribing | 20 | 31 | 53 |
+| 85.0 | excellent | m065 | oncology | randomisation-against-registries | 23 | 56 | 61 |
+| 85.0 | excellent | m069 | emergency | supportive-care-and-the-antidote-exception | 34 | 44 | 28 |
 | 85.1 | excellent | m028 | oncology | why-toxicity-is-predictable | 21 | 51 | 45 |
 | 85.3 | excellent | m027 | oncology | how-systemic-therapies-differ | 27 | 60 | 40 |
 | 85.4 | excellent | m001 | nursing | early-warning-scores | 24 | 35 | 64 |
 | 85.8 | excellent | m052 | dermatology | psoriasis-as-systemic-disease | 25 | 38 | 29 |
+| 86.0 | excellent | m062 | oncology | radiotherapy-and-fractionation | 24 | 67 | 58 |
 | 86.3 | excellent | m023 | endocrinology | glycation-marker-and-continuous-monitoring | 35 | 47 | 50 |
+| 86.3 | excellent | m063 | oncology | what-a-surgical-margin-means | 20 | 57 | 41 |
 | 86.7 | excellent | m020 | dermatology | dermoscopy-in-principle | 22 | 35 | 42 |
+| 88.1 | excellent | m061 | oncology | how-a-cancer-spreads | 22 | 52 | 20 |
 | 88.2 | excellent | m055 | dermatology | leg-ulcers-and-vascular-assessment | 32 | 53 | 44 |
 | 88.3 | excellent | m030 | oncology | screening-and-overdiagnosis | 26 | 59 | 15 |
 | 88.7 | excellent | m036 | nursing | infection-prevention-hand-hygiene | 21 | 37 | 41 |
 | 89.0 | excellent | m012 | general-practice | red-flags-and-safety-netting | 15 | 46 | 21 |
+| 89.0 | excellent | m057 | endocrinology | adrenal-insufficiency | 19 | 48 | 43 |
+| 90.2 | excellent | m047 | general-practice | multimorbidity-and-guidelines | 26 | 44 | 52 |
+| 90.5 | excellent | m060 | endocrinology | the-reproductive-axis-as-an-oscillator | 20 | 49 | 36 |
+| 90.5 | excellent | m064 | oncology | tumour-markers-and-screening | 28 | 75 | 54 |
 | 91.2 | excellent | m015 | general-practice | continuity-of-care | 32 | 42 | 72 |
 | 91.3 | excellent | m009 | pharmacology | drug-interactions-mechanisms | 27 | 52 | 63 |
+| 91.4 | excellent | m041 | pharmacology | therapeutic-drug-monitoring | 43 | 54 | 94 |
 | 91.8 | excellent | m034 | emergency | compensation-and-the-sick-patient | 20 | 37 | 34 |
+| 92.1 | excellent | m045 | pharmacology | antimicrobial-stewardship | 27 | 53 | 56 |
+| 92.9 | excellent | m043 | pharmacology | adherence-and-regimen-design | 18 | 49 | 59 |
+| 93.1 | excellent | m066 | emergency | shock-categories-by-mechanism | 23 | 43 | 49 |
+| 93.6 | excellent | m058 | endocrinology | cortisol-excess-and-the-shape-of-the-tests | 22 | 60 | 47 |
+| 93.7 | excellent | m048 | general-practice | the-consultation-and-premature-closure | 24 | 56 | 52 |
+| 93.8 | excellent | m049 | general-practice | antibiotics-under-uncertainty | 28 | 51 | 32 |
+| 94.4 | excellent | m070 | emergency | handover-and-what-crosses-the-boundary | 26 | 52 | 39 |
+| 95.1 | excellent | m056 | endocrinology | thyroid-axis-and-its-counterintuitive-tests | 21 | 64 | 44 |
 | 95.6 | excellent | m008 | pharmacology | therapeutic-index | 20 | 48 | 52 |
+| 96.2 | excellent | m059 | endocrinology | calcium-and-the-parathyroid-loop | 29 | 64 | 42 |
 | 96.5 | excellent | m017 | dermatology | distribution-and-configuration | 22 | 43 | 22 |
+| 96.8 | excellent | m044 | pharmacology | formulation-and-route | 34 | 58 | 47 |
+| 97.1 | excellent | m068 | emergency | mechanism-of-injury-as-a-prior | 30 | 55 | 31 |
+| 97.2 | excellent | m050 | general-practice | health-inequality-as-mechanism | 38 | 60 | 67 |
+| 97.4 | excellent | m042 | pharmacology | renal-and-hepatic-impairment | 22 | 53 | 59 |
 | 97.6 | excellent | m003 | nursing | medicines-administration-system | 34 | 49 | 49 |
 | 99.4 | excellent | m004 | nursing | dressings-and-pressure-damage | 39 | 52 | 53 |
 | 99.9 | excellent | m016 | dermatology | describing-a-skin-lesion | 29 | 46 | 40 |
@@ -59,3 +83,4 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m021 | endocrinology | two-mechanisms-type-1-type-2 | 25 | 69 | 56 |
 | 100.0 | excellent | m031 | emergency | primary-survey-ordering | 31 | 65 | 73 |
 | 100.0 | excellent | m033 | emergency | what-triage-optimises | 24 | 58 | 43 |
+| 100.0 | excellent | m067 | emergency | what-speech-proves-about-the-airway | 48 | 58 | 47 |

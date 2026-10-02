@@ -98,7 +98,7 @@ Two asymmetries follow, and both are visible at the table.
   absence of them is not good news. **Focus Sash** is silent in the same way once it has been
   consumed: the slot is simply empty now, and no part of the screen reports an empty slot.
 
-## Where the game stops
+## Where the metaphor stops
 
 Plain prose from here, with no metaphor at all, because this is the part that is about people.
 

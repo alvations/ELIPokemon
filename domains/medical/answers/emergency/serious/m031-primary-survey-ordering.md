@@ -102,6 +102,26 @@ compression of the reasoning chosen for robustness rather than for elegance, and
 compression — coarseness, and a false air of sequence — is accepted on purpose. Question m032 is
 about that trade in general.
 
+## The human stakes, said plainly
+
+Everything above is a sort. What is being sorted is how much time a person has left.
+
+An airway that is completely obstructed stops oxygen entering the body at all, and the tissue that
+runs out first is brain, which holds almost no reserve of its own. Ventilatory failure arrives at
+the same place more slowly. Loss of circulating volume is slower again, and the rate of loss
+decides how much slower — the same volume lost over an hour and lost over four minutes are not the
+same problem. Rising pressure inside a closed skull, and a core temperature falling while nobody
+is looking, are slower still and stay reversible for longer. That last point is the one most often
+misread: the later letters sit late because their clocks are long, not because what happens there
+matters less to the person it is happening to. **(Mechanism.)**
+
+Two things follow that are worth saying with no machinery around them. The ordering is not a
+ranking of people and it is not a ranking of how much anything matters; nobody further down the
+sort is being valued less. And reaching the last letter is not the same as the person being safe —
+which is why a structured survey is built to be run again rather than finished, and why the
+commonest serious failure it exists to prevent is a competent, frightened person giving all of
+their attention to the injury they can see.
+
 ## What an examiner digs into next
 
 * What is the sort key, in one sentence, without naming the letters?

@@ -111,6 +111,35 @@ with. That is why such systems differ between institutions, why they are revised
 published as adjuncts to assessment rather than as replacements for it. A score that disagrees
 with a worried clinician is information about the score as much as about the patient.
 
+## The human stakes, said plainly
+
+Stated without the control theory: this is the mechanism behind a person who looks well and is
+not.
+
+Failure to recognise a deteriorating patient is a well-described and much-studied failure in
+hospital care, and the structure of this answer is the structure of why it happens. The numbers
+were charted. They were in range. The range was being held at a cost that nothing on the chart
+recorded, and the point at which the holding stops is abrupt rather than gradual. **(Mechanism**
+for why the numbers behave that way; **consensus** that unrecognised deterioration is a major
+source of avoidable harm, which is why structured observation and escalation systems were
+introduced at all.**)**
+
+Who this misleads is not random, and that is the part worth holding on to. Compensation is most
+complete in the people with the most reserve, so a young, previously fit person's reassuring
+observations are the least reliable reassurance available and their collapse is the steepest. At
+the other end, where the response is blunted — by age, by long-term illness, or by medicines
+acting on the very effectors the body would otherwise recruit — the expected change never appears
+at all, and its absence reads as calm. Neither group is served by a glance at a chart.
+
+Three things follow that are about people rather than physiology. A person's own account, and a
+relative's observation that they are not themselves, are data about a defended system from the one
+vantage point that sees it from the inside; they are often the earliest signal and are often
+discounted. The documented fact that an experienced clinician is worried performs well for the
+same reason, and its one real weakness is that it does not survive a handover unless somebody
+writes it down as a finding. And because the failure is structural rather than personal, the
+remedy is structural too: repeated observation, aggregated scoring, and escalation routes that do
+not depend on one tired person's confidence being high enough to use them.
+
 ## What an examiner digs into next
 
 * What is being measured when a regulated value is recorded, and what is not?

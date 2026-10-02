@@ -1,5 +1,5 @@
 {
-  "count": 45,
+  "count": 70,
   "questions": [
     {
       "id": "m001",
@@ -682,6 +682,176 @@
       ]
     },
     {
+      "id": "m041",
+      "slug": "therapeutic-drug-monitoring",
+      "question": "Which drugs are monitored by plasma concentration rather than by effect, what has to be true before a concentration can be interpreted, and what does a trough actually tell you?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m041-therapeutic-drug-monitoring.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m041-therapeutic-drug-monitoring.md",
+      "tags": [
+        "therapeutic-drug-monitoring",
+        "trough",
+        "steady-state",
+        "protein-binding",
+        "assay"
+      ]
+    },
+    {
+      "id": "m042",
+      "slug": "renal-and-hepatic-impairment",
+      "question": "Why do renal and hepatic impairment change prescribing in different ways, and why is there a usable number for one of them and not for the other?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m042-renal-and-hepatic-impairment.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m042-renal-and-hepatic-impairment.md",
+      "tags": [
+        "renal-impairment",
+        "hepatic-impairment",
+        "first-pass",
+        "protein-binding",
+        "clearance"
+      ]
+    },
+    {
+      "id": "m043",
+      "slug": "adherence-and-regimen-design",
+      "question": "What makes a regimen hard to take, why does the timing of a side effect matter more than its severity, and why is calling someone non-compliant a statement about the prescription?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m043-adherence-and-regimen-design.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m043-adherence-and-regimen-design.md",
+      "tags": [
+        "adherence",
+        "regimen-design",
+        "side-effect-timing",
+        "deprescribing",
+        "measurement-bias"
+      ]
+    },
+    {
+      "id": "m044",
+      "slug": "formulation-and-route",
+      "question": "Why does the same drug behave differently by route, and what does a modified-release preparation actually modify?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m044-formulation-and-route.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m044-formulation-and-route.md",
+      "tags": [
+        "route-of-administration",
+        "bioavailability",
+        "modified-release",
+        "first-pass",
+        "dose-dumping"
+      ]
+    },
+    {
+      "id": "m045",
+      "slug": "antimicrobial-stewardship",
+      "question": "What is antimicrobial stewardship optimising, and why does the way resistance spreads make it a collective-action problem rather than an individual prescribing decision?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m045-antimicrobial-stewardship.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m045-antimicrobial-stewardship.md",
+      "tags": [
+        "antimicrobial-stewardship",
+        "resistance",
+        "horizontal-gene-transfer",
+        "de-escalation",
+        "collective-action"
+      ]
+    },
+    {
+      "id": "m046",
+      "slug": "chronic-disease-review",
+      "question": "Why does a structured review at a fixed interval outperform reactive consulting for a condition that produces no symptoms, and what makes a review a clinical act rather than an administrative one?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m046-chronic-disease-review.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m046-chronic-disease-review.md",
+      "tags": [
+        "chronic-disease",
+        "review",
+        "recall",
+        "registers",
+        "asymptomatic"
+      ]
+    },
+    {
+      "id": "m047",
+      "slug": "multimorbidity-and-guidelines",
+      "question": "Why do single-disease guidelines stop composing once a person has four conditions, and what has to replace them?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m047-multimorbidity-and-guidelines.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m047-multimorbidity-and-guidelines.md",
+      "tags": [
+        "multimorbidity",
+        "guidelines",
+        "treatment-burden",
+        "competing-risk",
+        "prioritisation"
+      ]
+    },
+    {
+      "id": "m048",
+      "slug": "the-consultation-and-premature-closure",
+      "question": "Why does the opening question shape the diagnosis, and what does a hypothesis formed in the first minute actually cost?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m048-the-consultation-and-premature-closure.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m048-the-consultation-and-premature-closure.md",
+      "tags": [
+        "consultation",
+        "premature-closure",
+        "anchoring",
+        "agenda",
+        "diagnostic-error"
+      ]
+    },
+    {
+      "id": "m049",
+      "slug": "antibiotics-under-uncertainty",
+      "question": "Why do the individual and the population optimum genuinely differ when an antibiotic is considered under diagnostic uncertainty?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m049-antibiotics-under-uncertainty.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m049-antibiotics-under-uncertainty.md",
+      "tags": [
+        "antibiotics",
+        "stewardship",
+        "resistance",
+        "externality",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "m050",
+      "slug": "health-inequality-as-mechanism",
+      "question": "Why is the inverse care law a mechanism rather than a complaint, and what does treating it as a mechanism change?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m050-health-inequality-as-mechanism.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m050-health-inequality-as-mechanism.md",
+      "tags": [
+        "health-inequality",
+        "inverse-care-law",
+        "access",
+        "equity",
+        "proportionate-universalism"
+      ]
+    },
+    {
       "id": "m051",
       "slug": "eczema-and-the-barrier",
       "question": "Why is atopic eczema best understood as a barrier disease, and why is the quantity of emollient the intervention rather than an adjunct?",
@@ -764,6 +934,261 @@
         "ankle-brachial-index",
         "wound-bed",
         "offloading"
+      ]
+    },
+    {
+      "id": "m056",
+      "slug": "thyroid-axis-and-its-counterintuitive-tests",
+      "question": "Why does the three-level thyroid feedback loop make its tests counterintuitive, and what is the pituitary's output actually reporting?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m056-thyroid-axis-and-its-counterintuitive-tests.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m056-thyroid-axis-and-its-counterintuitive-tests.md",
+      "tags": [
+        "thyroid",
+        "tsh",
+        "feedback",
+        "hypothyroidism",
+        "thyrotoxicosis"
+      ]
+    },
+    {
+      "id": "m057",
+      "slug": "adrenal-insufficiency",
+      "question": "Adrenal insufficiency is uncommon and its symptoms are unremarkable. Why is it the endocrine diagnosis it is most dangerous to miss?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m057-adrenal-insufficiency.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m057-adrenal-insufficiency.md",
+      "tags": [
+        "adrenal",
+        "cortisol",
+        "aldosterone",
+        "acth",
+        "crisis"
+      ]
+    },
+    {
+      "id": "m058",
+      "slug": "cortisol-excess-and-the-shape-of-the-tests",
+      "question": "Why do the tests for cortisol excess have the shape they do, and why is imaging the wrong first step?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m058-cortisol-excess-and-the-shape-of-the-tests.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m058-cortisol-excess-and-the-shape-of-the-tests.md",
+      "tags": [
+        "cushings",
+        "cortisol",
+        "dynamic-testing",
+        "suppression",
+        "incidentaloma"
+      ]
+    },
+    {
+      "id": "m059",
+      "slug": "calcium-and-the-parathyroid-loop",
+      "question": "Why is calcium control the cleanest worked feedback loop in medicine, and how does the pair of calcium and parathyroid hormone locate the lesion?",
+      "category": "endocrinology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m059-calcium-and-the-parathyroid-loop.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m059-calcium-and-the-parathyroid-loop.md",
+      "tags": [
+        "calcium",
+        "parathyroid",
+        "vitamin-d",
+        "phosphate",
+        "magnesium"
+      ]
+    },
+    {
+      "id": "m060",
+      "slug": "the-reproductive-axis-as-an-oscillator",
+      "question": "Every other endocrine axis holds a set point. Why is the reproductive axis a cyclical controller instead, and what does that change about reading its tests?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m060-the-reproductive-axis-as-an-oscillator.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m060-the-reproductive-axis-as-an-oscillator.md",
+      "tags": [
+        "reproductive-axis",
+        "gnrh",
+        "pulsatility",
+        "gonadotrophins",
+        "feedback"
+      ]
+    },
+    {
+      "id": "m061",
+      "slug": "how-a-cancer-spreads",
+      "question": "How does a cancer spread, and why is the pattern of spread organ-specific rather than random?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m061-how-a-cancer-spreads.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m061-how-a-cancer-spreads.md",
+      "tags": [
+        "metastasis",
+        "routes-of-spread",
+        "organotropism",
+        "lymphatics",
+        "cascade"
+      ]
+    },
+    {
+      "id": "m062",
+      "slug": "radiotherapy-and-fractionation",
+      "question": "What does ionising radiation actually do to a cell, and why is a course of radiotherapy divided into many small fractions instead of being given all at once?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m062-radiotherapy-and-fractionation.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m062-radiotherapy-and-fractionation.md",
+      "tags": [
+        "radiotherapy",
+        "fractionation",
+        "dna-damage",
+        "therapeutic-ratio",
+        "radiobiology"
+      ]
+    },
+    {
+      "id": "m063",
+      "slug": "what-a-surgical-margin-means",
+      "question": "What does a surgical margin actually mean, and in what sense is a clear margin a probability statement rather than a guarantee?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m063-what-a-surgical-margin-means.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m063-what-a-surgical-margin-means.md",
+      "tags": [
+        "surgery",
+        "margins",
+        "residual-disease",
+        "sampling",
+        "pathology"
+      ]
+    },
+    {
+      "id": "m064",
+      "slug": "tumour-markers-and-screening",
+      "question": "What is a tumour marker actually measuring, and why are almost none of them useful as screening tests even where they are useful for monitoring?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m064-tumour-markers-and-screening.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m064-tumour-markers-and-screening.md",
+      "tags": [
+        "tumour-markers",
+        "screening",
+        "predictive-value",
+        "assay",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "m065",
+      "slug": "randomisation-against-registries",
+      "question": "What does randomisation buy in an oncology trial that no amount of analysis of a registry can buy, and where is a registry the better instrument?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m065-randomisation-against-registries.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m065-randomisation-against-registries.md",
+      "tags": [
+        "clinical-trials",
+        "randomisation",
+        "confounding",
+        "registries",
+        "evidence"
+      ]
+    },
+    {
+      "id": "m066",
+      "slug": "shock-categories-by-mechanism",
+      "question": "Why are the categories of shock defined by mechanism rather than by blood pressure, and how can the pressure be normal while perfusion is not?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m066-shock-categories-by-mechanism.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m066-shock-categories-by-mechanism.md",
+      "tags": [
+        "shock",
+        "perfusion",
+        "classification",
+        "haemodynamics",
+        "revision"
+      ]
+    },
+    {
+      "id": "m067",
+      "slug": "what-speech-proves-about-the-airway",
+      "question": "Why does whether someone can talk carry so much information about the airway, and what exactly does a normal voice rule out and fail to rule out?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m067-what-speech-proves-about-the-airway.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m067-what-speech-proves-about-the-airway.md",
+      "tags": [
+        "airway",
+        "assessment",
+        "information-value",
+        "asymmetry",
+        "revision"
+      ]
+    },
+    {
+      "id": "m068",
+      "slug": "mechanism-of-injury-as-a-prior",
+      "question": "Why does the mechanism of injury change what is looked for in trauma, when the examination itself is the same either way?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m068-mechanism-of-injury-as-a-prior.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m068-mechanism-of-injury-as-a-prior.md",
+      "tags": [
+        "trauma",
+        "mechanism-of-injury",
+        "priors",
+        "occult-injury",
+        "revision"
+      ]
+    },
+    {
+      "id": "m069",
+      "slug": "supportive-care-and-the-antidote-exception",
+      "question": "Why is the management of most poisonings supportive rather than antidotal, and what has to be true before a specific antidote is worth reaching for?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m069-supportive-care-and-the-antidote-exception.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m069-supportive-care-and-the-antidote-exception.md",
+      "tags": [
+        "toxicology",
+        "supportive-care",
+        "antidotes",
+        "final-common-pathway",
+        "revision"
+      ]
+    },
+    {
+      "id": "m070",
+      "slug": "handover-and-what-crosses-the-boundary",
+      "question": "Why is the handover from pre-hospital to hospital the point at which information loss costs most, and what is it that actually gets lost?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m070-handover-and-what-crosses-the-boundary.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m070-handover-and-what-crosses-the-boundary.md",
+      "tags": [
+        "handover",
+        "information-loss",
+        "pertinent-negatives",
+        "human-factors",
+        "revision"
       ]
     }
   ]

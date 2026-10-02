@@ -166,7 +166,7 @@ endocrine effects do not resolve and require lifelong replacement (**consensus**
 therapies and T-cell-engaging antibodies add syndromes from cytokine release and from neurological
 effects, each with its own graded pathway.
 
-## What these are, to the people who have them
+## The human stakes, said plainly
 
 Everything above is mechanism, and mechanism is genuinely useful — it makes the list derivable
 instead of memorised, and it makes the timing plannable. It is also not the thing itself, and this

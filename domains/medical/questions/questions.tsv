@@ -39,8 +39,33 @@ m037	recognising-sepsis	nursing	advanced	Why is the response to suspected sepsis
 m038	indwelling-devices-and-infection	nursing	intermediate	Why is every indwelling device a standing trade against infection risk, and why is duration the dominant term?
 m039	nutrition-and-swallowing	nursing	intermediate	What does a nutrition and swallowing assessment actually protect against, and what goes wrong when it is skipped?
 m040	falls-risk-multifactorial	nursing	advanced	Why do multifactorial falls risks resist single-intervention fixes, and why can preventing falls cause harm?
+m041	therapeutic-drug-monitoring	pharmacology	advanced	Which drugs are monitored by plasma concentration rather than by effect, what has to be true before a concentration can be interpreted, and what does a trough actually tell you?
+m042	renal-and-hepatic-impairment	pharmacology	advanced	Why do renal and hepatic impairment change prescribing in different ways, and why is there a usable number for one of them and not for the other?
+m043	adherence-and-regimen-design	pharmacology	intermediate	What makes a regimen hard to take, why does the timing of a side effect matter more than its severity, and why is calling someone non-compliant a statement about the prescription?
+m044	formulation-and-route	pharmacology	intermediate	Why does the same drug behave differently by route, and what does a modified-release preparation actually modify?
+m045	antimicrobial-stewardship	pharmacology	advanced	What is antimicrobial stewardship optimising, and why does the way resistance spreads make it a collective-action problem rather than an individual prescribing decision?
+m046	chronic-disease-review	general-practice	intermediate	Why does a structured review at a fixed interval outperform reactive consulting for a condition that produces no symptoms, and what makes a review a clinical act rather than an administrative one?
+m047	multimorbidity-and-guidelines	general-practice	advanced	Why do single-disease guidelines stop composing once a person has four conditions, and what has to replace them?
+m048	the-consultation-and-premature-closure	general-practice	advanced	Why does the opening question shape the diagnosis, and what does a hypothesis formed in the first minute actually cost?
+m049	antibiotics-under-uncertainty	general-practice	advanced	Why do the individual and the population optimum genuinely differ when an antibiotic is considered under diagnostic uncertainty?
+m050	health-inequality-as-mechanism	general-practice	advanced	Why is the inverse care law a mechanism rather than a complaint, and what does treating it as a mechanism change?
 m051	eczema-and-the-barrier	dermatology	core	Why is atopic eczema best understood as a barrier disease, and why is the quantity of emollient the intervention rather than an adjunct?
 m052	psoriasis-as-systemic-disease	dermatology	intermediate	Why is psoriasis described as a systemic inflammatory disease that presents on the skin, and what follows from that for assessment?
 m053	acne-mechanism-and-sequence	dermatology	intermediate	What are the mechanisms of acne, and why does the order in which treatments are added follow from them?
 m054	drug-eruptions-and-the-emergencies	dermatology	advanced	How are drug eruptions recognised as patterns, and which few of them are emergencies?
 m055	leg-ulcers-and-vascular-assessment	dermatology	intermediate	Why does the vascular assessment come before the dressing in a chronic leg ulcer, and what makes compression the treatment rather than the wound covering?
+m056	thyroid-axis-and-its-counterintuitive-tests	endocrinology	advanced	Why does the three-level thyroid feedback loop make its tests counterintuitive, and what is the pituitary's output actually reporting?
+m057	adrenal-insufficiency	endocrinology	advanced	Adrenal insufficiency is uncommon and its symptoms are unremarkable. Why is it the endocrine diagnosis it is most dangerous to miss?
+m058	cortisol-excess-and-the-shape-of-the-tests	endocrinology	advanced	Why do the tests for cortisol excess have the shape they do, and why is imaging the wrong first step?
+m059	calcium-and-the-parathyroid-loop	endocrinology	intermediate	Why is calcium control the cleanest worked feedback loop in medicine, and how does the pair of calcium and parathyroid hormone locate the lesion?
+m060	the-reproductive-axis-as-an-oscillator	endocrinology	advanced	Every other endocrine axis holds a set point. Why is the reproductive axis a cyclical controller instead, and what does that change about reading its tests?
+m061	how-a-cancer-spreads	oncology	intermediate	How does a cancer spread, and why is the pattern of spread organ-specific rather than random?
+m062	radiotherapy-and-fractionation	oncology	advanced	What does ionising radiation actually do to a cell, and why is a course of radiotherapy divided into many small fractions instead of being given all at once?
+m063	what-a-surgical-margin-means	oncology	intermediate	What does a surgical margin actually mean, and in what sense is a clear margin a probability statement rather than a guarantee?
+m064	tumour-markers-and-screening	oncology	advanced	What is a tumour marker actually measuring, and why are almost none of them useful as screening tests even where they are useful for monitoring?
+m065	randomisation-against-registries	oncology	advanced	What does randomisation buy in an oncology trial that no amount of analysis of a registry can buy, and where is a registry the better instrument?
+m066	shock-categories-by-mechanism	emergency	advanced	Why are the categories of shock defined by mechanism rather than by blood pressure, and how can the pressure be normal while perfusion is not?
+m067	what-speech-proves-about-the-airway	emergency	intermediate	Why does whether someone can talk carry so much information about the airway, and what exactly does a normal voice rule out and fail to rule out?
+m068	mechanism-of-injury-as-a-prior	emergency	intermediate	Why does the mechanism of injury change what is looked for in trauma, when the examination itself is the same either way?
+m069	supportive-care-and-the-antidote-exception	emergency	advanced	Why is the management of most poisonings supportive rather than antidotal, and what has to be true before a specific antidote is worth reaching for?
+m070	handover-and-what-crosses-the-boundary	emergency	intermediate	Why is the handover from pre-hospital to hospital the point at which information loss costs most, and what is it that actually gets lost?

@@ -202,7 +202,7 @@ biases in this answer.**
 So the right first question about any screening programme is which of the two kinds it is, before
 any question about how well it performs.
 
-## And here the Pokémon framing stops
+## Where the metaphor stops
 
 Everything above is about instruments and sampling, and a game with readable encounter tables is a
 good place to see it. What follows is about people, and it is said plainly.

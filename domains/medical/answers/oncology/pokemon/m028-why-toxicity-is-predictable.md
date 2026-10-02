@@ -207,7 +207,7 @@ indirect damage without touching the move's power: the shape of supportive care,
 intercepts a cost without blunting the agent. Real mechanic, real principle, and not a promise
 that every cost has an interceptor. Most do not.
 
-## And here the Pokémon framing stops
+## Where the metaphor stops
 
 Everything above is mechanism, and the analogy earns its keep there: it makes the list derivable
 instead of memorised and the timing plannable instead of alarming. It is not the thing itself, and

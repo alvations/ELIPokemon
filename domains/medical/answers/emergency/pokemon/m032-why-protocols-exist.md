@@ -120,7 +120,7 @@ And the variance that is genuinely irreducible stays. On an exact Speed tie, in 
 both games call a random number and flip a coin. No table removes that. A protocol narrows the
 spread; it does not promise a single answer where the situation does not contain one.
 
-## Where the game stops
+## Where the metaphor stops
 
 Plainly, without the metaphor, because this part is not a mechanic.
 

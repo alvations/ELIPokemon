@@ -116,7 +116,7 @@ conceptually orthogonal, keeping them separate is what makes each one reproducib
 that combines them is a third thing — a prognostic grouping, neither a stage nor a grade, and it
 should be named as such when it is reported.
 
-## What a population label does not tell an individual
+## The human stakes, said plainly
 
 A stage group and a grade are descriptions of a disease. They are not a forecast about a person. A
 group statistic is an average over a large, varied population assembled at some point in the past,

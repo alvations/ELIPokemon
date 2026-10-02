@@ -100,6 +100,32 @@ The last row is the subtle one. An informal agreement under stress collapses tow
 individual thinks best, which is exactly the wide distribution the protocol existed to remove. A
 written protocol under stress collapses toward the document.
 
+## The human stakes, said plainly
+
+The argument above is about distributions. The reason it is worth making is about what happens to
+a person in a room where something is going badly.
+
+Under threat, noise, pain, exhaustion and time pressure, how much a human being can hold in mind
+at once falls; attention narrows onto whatever is loudest rather than whatever is most important;
+and the capacity to notice that the plan has stopped fitting degrades earlier than the capacity to
+carry the plan out. None of that is a character defect, none of it can be fixed by trying harder,
+and it does not spare the experienced or the senior. It is the ordinary response of an ordinary
+nervous system to fear, and it is as true of whoever is leading as of anyone else in the room.
+**(Mechanism** — an argument about how people think when frightened, checkable by reasoning.**)**
+
+So a protocol is not a comment on the competence of the person following it. It is an
+acknowledgement that the conditions are hostile to thinking, written down in advance by people who
+were not standing in those conditions, and the respectful reading of it is that it exists to give
+a frightened person back the capacity to notice the one thing a document cannot notice for them.
+
+The other half of this is less comfortable. Because a protocol makes the remaining error
+systematic rather than random, a badly written one reaches every person it is applied to and goes
+on doing so until somebody revises it, which is why revision cycles, incident reporting and audit
+belong to the same system rather than being bureaucracy attached to it. And when a time-critical
+decision goes badly, the people who were in the room are affected by it. Services that run this
+kind of work also run debriefing, peer support and occupational health provision; those routes
+exist precisely for that, and they are easier to use if they were known about beforehand.
+
 ## What an examiner digs into next
 
 * What are the three conditions, and what happens if only two of them hold?

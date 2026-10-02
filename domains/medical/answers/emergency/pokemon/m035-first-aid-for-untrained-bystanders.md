@@ -87,7 +87,7 @@ Which is also why the games print numbers at all instead of saying *usually hits
 not a feeling. Base Power is a number. A vague instruction cannot be taught, rehearsed, counted
 along with, or corrected halfway through; a specified one can.
 
-## Where the game stops
+## Where the metaphor stops
 
 Plain prose from here. This section is about people and the metaphor is set down.
 

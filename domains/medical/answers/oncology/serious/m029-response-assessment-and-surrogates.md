@@ -154,7 +154,7 @@ ways:
 regulators in different jurisdictions weigh them differently (**consensus**,
 **country-dependent**). Anyone who presents this as settled has not read the argument.
 
-## Why a better scan is not a longer life
+## The human stakes, said plainly
 
 Stated plainly, because it is the point of the question.
 

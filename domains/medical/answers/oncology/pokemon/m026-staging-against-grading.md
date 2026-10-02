@@ -144,7 +144,7 @@ reasonable answer to anatomy under-predicting behaviour, it does blur the orthog
 answer opened with, and the honest position is that the result is a third thing — a prognostic
 grouping, neither a stage nor a grade — which should be reported under its own name.
 
-## And here the Pokémon framing stops
+## Where the metaphor stops
 
 A stage group and a grade describe a disease. They are not a forecast about a person, and nothing
 in a game is a useful picture of that, so this part is said plainly and without the analogy.

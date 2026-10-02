@@ -178,7 +178,7 @@ They are a teaching scheme, not a taxonomy of nature (**consensus**).
 * **The word chemotherapy** is used colloquially for all systemic anticancer treatment, which is
   worth knowing when a conversation seems to be at cross purposes.
 
-## What none of this tells you about an individual
+## The human stakes, said plainly
 
 Mechanism predicts the *shape* of a toxicity profile. It does not predict what a given person will
 experience, in what combination, or how much it will matter to them — and the choice between

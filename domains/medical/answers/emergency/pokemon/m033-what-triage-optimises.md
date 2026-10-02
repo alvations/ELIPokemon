@@ -108,7 +108,7 @@ else happens.
   in five, by the parameter in Emerald's item table — is unplannable under either. No sorting rule
   promises a single answer where the situation does not contain one.
 
-## Where the game stops, and it stops hard here
+## Where the metaphor stops
 
 No metaphor for this part. It is read straight.
 
