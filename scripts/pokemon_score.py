@@ -183,7 +183,13 @@ Cross Chop, Megahorn, Play Rough, Iron Head, Body Press, Knock Off,
 Future Sight, Doom Desire, Reflect, Haze, Clear Smog, Petal Dance,
 King's Shield, Wish, Healing Wish, Memento, Explosion, Fake Out, Thrash,
 Drill Peck, Mega Punch, Focus Punch, Hidden Power, Torment, Imprison, Gravity, Sweet
-Scent, Soft-Boiled, Screech, Baneful Bunker
+Scent, Soft-Boiled, Screech, Baneful Bunker,
+Super Fang, Seismic Toss, Night Shade, Take Down, Submission, Howl, Rest, Refresh,
+Heal Bell, Aromatherapy, Safeguard, Spite, Glare, Wrap, Bind, Fire Spin, Clamp, Sand
+Tomb, Infestation, Magma Storm, Sleep Talk, Nightmare, Ingrain, Aqua Ring, Return,
+Frustration, Dream Eater, Flare Blitz, Head Smash, Wood Hammer, Blaze Kick, Mega Kick,
+Rolling Kick, Mud-Slap, Lock-On, Mind Reader, Foresight, Supersonic, Leech Life, Wing
+Attack, Focus Energy, Endure, Vital Throw, Revenge, Roar
 """
 
 ITEMS = """
@@ -223,7 +229,10 @@ Safari Ball, Potion, Repel, Super Repel, Max Repel, Lure, Super Lure, Max Lure, 
 Shiny Charm, GS Ball, Clear Bell, Energy Powder, Gold Teeth, Explorer Kit, Mint, Occa
 Berry, Passho Berry, Wacan Berry, Rindo Berry, Yache Berry, Chople Berry, Kebia Berry,
 Shuca Berry, Coba Berry, Payapa Berry, Tanga Berry, Charti Berry, Kasib Berry, Haban
-Berry, Colbur Berry, Babiri Berry, Chilan Berry
+Berry, Colbur Berry, Babiri Berry, Chilan Berry,
+Potion, Elixir, Revive, Max Ether, Pecha Berry, Rawst Berry, Cheri Berry, Persim
+Berry, Aspear Berry, Sticky Barb, Shed Shell, Heavy-Duty Boots, Energy Root, Heal
+Powder, Revival Herb, White Flute, Black Flute, Poké Flute, Dive Ball, Nest Ball
 """
 
 ABILITIES = """
@@ -240,7 +249,10 @@ Good as Gold, Quark Drive, Protosynthesis, Supreme Overlord, Unnerve,
 No Guard, Compound Eyes, Victory Star, Hustle, Illusion, Imposter,
 Disguise, Sniper, Super Luck, Magic Bounce, Truant, Slow Start,
 Surge Surfer, Stance Change, Multitype,
-Suction Cups, Sticky Hold, Moody, Pickup, Harvest, Gluttony, Pickpocket, Telepathy
+Suction Cups, Sticky Hold, Moody, Pickup, Harvest, Gluttony, Pickpocket, Telepathy,
+Guts, Insomnia, Vital Spirit, Early Bird, Limber, Water Veil, Magma Armor, Marvel
+Scale, Poison Heal, Synchronize, Hydration, Leaf Guard, Rock Head, Air Lock, Cloud
+Nine, Sand Veil, Forecast, Triage, Gale Wings, White Smoke
 """
 
 CHARACTERS = """
@@ -281,7 +293,8 @@ Bill's PC, S.S. Anne, Hall of Fame, Pokémon HOME, Battle Factory,
 Battle Palace, Battle Arena, Battle Dome, Battle Pike, Battle Pyramid,
 Pal Park, Ilex Forest, Sky Pillar, Distortion World, Secret House, Pewter Museum of
 Science, Pokémon Lab, Dewford Town, Mossdeep City, Lilycove Department Store, Route
-102, Route 118, Route 119, Battle Tree, Pokémon Bank, Nursery
+102, Route 118, Route 119, Battle Tree, Pokémon Bank, Nursery,
+Fallarbor Town, Verdanturf Town
 """
 
 MECHANICS = """
@@ -302,7 +315,10 @@ Missingno., Regional Form, Battle Format,
 Hyper Training, Original Trainer, Badly Poisoned,
 Team Preview, Origin Forme, Medium Fast, Encounter Slot, Masuda Method, PokéRadar,
 Endless Battle Clause, Individual Value, Stat Experience, DVs, Horde Encounter,
-Pokéathlon, Speed Tie, Poké Transporter
+Pokéathlon, Speed Tie, Poké Transporter,
+Burn, Poison, Paralysis, Sleep, Freeze, Encounter Slot, Encounter Rate, Encounter
+Table, Personality Value, Body Color, Individual Value, Stat Experience, DVs, Adamant,
+Impish, Naughty, Lonely, Sassy
 """
 
 
@@ -361,8 +377,16 @@ for group in NAMED.values():
     group -= AMBIGUOUS
 
 def body_of(path: pathlib.Path) -> str:
+    """Return an answer's body, after the YAML front matter.
+
+    The split takes maxsplit=2. Without it, a "---" line anywhere in the body -- a
+    horizontal rule, or a dashed rule inside a fenced table -- silently truncated the
+    scored text at that point. One answer was being measured over 423 of its 1,496
+    words, and a writer changed its table rules to "===" to work around it, which is
+    the wrong direction: the matcher is what should tolerate the content.
+    """
     text = path.read_text(encoding="utf-8")
-    parts = text.split("---\n")
+    parts = text.split("---\n", 2)
     return parts[2] if len(parts) > 2 else text
 
 
@@ -374,7 +398,12 @@ def score_text(text: str) -> dict:
     # nothing at all. Join single newlines before matching so the scorer sees what
     # a reader sees. Paragraph breaks (blank lines) are left alone, and the word
     # count above is taken from the original text, so it is unaffected.
-    text = re.sub(r"\n(?!\n)", " ", text)
+    #
+    # The trailing [ \t]* is the fix to the first version of this, which joined the
+    # newline but not the indent after it -- so an entity wrapped inside a list item
+    # became "Ultra   Ball" and still matched nothing. Three live instances were found
+    # by writers who reworded around them before it was understood as a defect.
+    text = re.sub(r"\n(?!\n)[ \t]*", " ", text)
     hits: dict[str, list[str]] = {k: [] for k in NAMED}
     distinct: set[str] = set()
     named_mentions = 0
