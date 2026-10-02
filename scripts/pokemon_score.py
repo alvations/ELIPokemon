@@ -365,7 +365,17 @@ def score_text(text: str) -> dict:
     )
     working = text
     for term, kind in terms:
-        pattern = r"(?<![\w-])" + re.escape(term) + r"(?![\w-])"
+        # Allow a plural. "Ace Trainers" used to score nothing AND then count as the
+        # generic "trainers", so a plural was a double penalty: 51 such mentions across
+        # 34 answers at the time this was added.
+        #
+        # Scoped deliberately to multi-word terms and to proper nouns. A single-word move
+        # or ability pluralises into an ordinary English word -- "Cuts", "Transforms",
+        # "Protects", "Earthquakes" -- and widening the pattern there would trade this
+        # under-count for an over-count, which is the defect in the other direction.
+        plural = " " in term or kind in ("species", "character")
+        suffix = r"s?(?![\w-])" if plural else r"(?![\w-])"
+        pattern = r"(?<![\w-])" + re.escape(term) + suffix
         found = re.findall(pattern, working)
         if not found:
             continue
