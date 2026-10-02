@@ -1,5 +1,5 @@
 {
-  "count": 15,
+  "count": 20,
   "questions": [
     {
       "id": "m001",
@@ -254,6 +254,91 @@
         "guidance-design",
         "simplification",
         "dispatcher"
+      ]
+    },
+    {
+      "id": "m021",
+      "slug": "two-mechanisms-type-1-type-2",
+      "question": "Type 1 and type 2 diabetes are diagnosed by the same measurement. Why are they different diseases?",
+      "category": "endocrinology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m021-two-mechanisms-type-1-type-2.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m021-two-mechanisms-type-1-type-2.md",
+      "tags": [
+        "diabetes",
+        "type-1",
+        "type-2",
+        "insulin-resistance",
+        "beta-cell"
+      ]
+    },
+    {
+      "id": "m022",
+      "slug": "insulin-as-a-control-problem",
+      "question": "Why is replacing insulin with injections intrinsically hard, and what do basal and bolus each do?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m022-insulin-as-a-control-problem.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m022-insulin-as-a-control-problem.md",
+      "tags": [
+        "insulin",
+        "basal-bolus",
+        "feedback",
+        "control-lag",
+        "hypoglycaemia"
+      ]
+    },
+    {
+      "id": "m023",
+      "slug": "glycation-marker-and-continuous-monitoring",
+      "question": "What does glycated haemoglobin measure that a spot glucose cannot, and where does it mislead?",
+      "category": "endocrinology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m023-glycation-marker-and-continuous-monitoring.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m023-glycation-marker-and-continuous-monitoring.md",
+      "tags": [
+        "hba1c",
+        "monitoring",
+        "continuous-glucose",
+        "variability",
+        "red-cell-turnover"
+      ]
+    },
+    {
+      "id": "m024",
+      "slug": "why-the-complications-differ",
+      "question": "Why do the microvascular and macrovascular complications of diabetes differ in mechanism and time course?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m024-why-the-complications-differ.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m024-why-the-complications-differ.md",
+      "tags": [
+        "complications",
+        "microvascular",
+        "macrovascular",
+        "retinopathy",
+        "nephropathy"
+      ]
+    },
+    {
+      "id": "m025",
+      "slug": "ketoacidosis-and-the-hyperosmolar-state",
+      "question": "Why do diabetic ketoacidosis and the hyperosmolar hyperglycaemic state present so differently?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m025-ketoacidosis-and-the-hyperosmolar-state.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m025-ketoacidosis-and-the-hyperosmolar-state.md",
+      "tags": [
+        "ketoacidosis",
+        "hyperosmolar",
+        "counter-regulation",
+        "osmolality",
+        "potassium"
       ]
     }
   ]
