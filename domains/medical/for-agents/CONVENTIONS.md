@@ -66,6 +66,11 @@ you how these sound in place.
 | Therapeutic index | Take Down pays 4:1 recoil, Double-Edge 3:1 — and the printed ratio is not the margin | m008 |
 | Pharmacodynamics outliving pharmacokinetics | Drizzle keeps raining after Kyogre has gone | m009 |
 | Predictable adverse effect against idiosyncratic one | Hyper Beam always recharges; Rough Skin only ever happens to someone else | m010 |
+| Therapeutic drug monitoring | The Blissey/Shedinja bar as volume of distribution; the five conditions under which a concentration is worth measuring at all | m041 |
+| Renal and hepatic impairment | **Light Screen as first-pass extraction**, with three exact bypasses: a critical hit (the screen applies only when the crit multiplier is 1), a physical move (Reflect covers that route), and Brick Break | m042 |
+| Adherence and regimen design | Snorlax learning Rest and Snore at the same level | m043 |
+| Formulation and route | **Accuracy = bioavailability**, with power × accuracy as the delivered dose; **Lock-On / Mind Reader = the intravenous route**, where F = 1 is a property of the route and not an improvement to the move; the partial-trapping family as modified release; Future Sight as delayed release, because damage is computed at the moment of use | m044 |
+| Antimicrobial stewardship | **Sketch as horizontal gene transfer, Egg Moves as vertical**; `gFrontierBannedSpecies` plus the duplicate checks as a formulary written into the cartridge; Rapid Spin clearing exactly one thing per use, in a fixed order, as the review point | m045 |
 
 ### General practice — m011–m015
 
@@ -76,6 +81,11 @@ you how these sound in place.
 | Screening against case-finding | Sweeping the grass on purpose is a different act from meeting something in it | m013 |
 | Polypharmacy | Four slots, one item, and the fourth addition is the one that loses | m014 |
 | Continuity, and shared care | A Pokémon someone else raised does not obey, and that is in the code — badge-gated, by level | m015 |
+| Chronic disease review | **Generation I Stat Experience** as a cached record: five hidden counters nobody displays, refreshed by exactly four events, and because Medium Fast is *n*³ the interval between refreshes lengthens exactly as the hidden burden grows | m046 |
+| Multimorbidity and guidelines | Stealth Rock as a product of two documented terms, where Skarmory, Scizor and Snorlax all land on maxHP/8 by different routes — a composed answer that looks ordinary is not evidence that anything is ordinary. **Utility Umbrella** as protecting one condition from the other condition's treatment | m047 |
+| The consultation, and premature closure | `SweetScentWildEncounter` passes **flags = 0** where an ordinary step passes `WILD_CHECK_REPEL \| WILD_CHECK_KEEN_EYE`: the open question bypasses every filter you had running. Premature closure is the Choice lock, `gCurrentMove = *choicedMove` | m048 |
+| Antibiotics under uncertainty | The Safari Zone as a shared counter: 30 balls against 58.8 expected encounters, where no individual throw can be named as the wasteful one | m049 |
+| Health inequality as mechanism | `ApplyBadgeStatBoosts`: ×1.125 is **relative**, so it widens the absolute gap while improving both; it is awarded for having already won; and it returns immediately in a link battle, so the advantage is invisible in the only format where like is compared with like. The four badges that boost are the even bits — exactly the four that m015's obedience check does *not* use | m050 |
 
 ### Dermatology — m016–m020, m051–m055
 
@@ -101,6 +111,11 @@ you how these sound in place.
 | A cumulative marker against a point measurement | Return's base power is the whole history; the HP bar is now | m023 |
 | Complications that accrue against those that wait | Badly Poisoned counting turns; Stealth Rock waiting at the door | m024 |
 | Negative feedback and suppression | Solar Power fires only in harsh sunlight, and one turn of rain switches it off completely | m025 |
+| The axis hormones, as a layer distinct from the metabolic ones | **The terrain layer**, deliberately kept separate from weather (which stays the glucose-control hormones): Grassy for thyroid hormone, Psychic for cortisol, Misty for calcium, Electric's five-turn timer for the reproductive cycle. The payoff is that terrain affects **grounded battlers only**, so Levitate / Flying / Air Balloon is a tissue without the receptor and Gravity / Iron Ball / Ingrain is what forces it to respond | m056–m060 |
+| An amplified reporter that reads inversely | **`Flail`'s six-band power table** — 48ths with cut-offs at 1/4/9/16/32 giving 200/150/100/80/40/20. The *flat top third* is what makes "a suppressed reporter cannot grade severity" work | m056 |
+| Exogenous replacement suppressing the axis | **`TryChangeBattleTerrain` returns false when its own terrain is already up and does not refresh the timer** — including the lapse on the original clock when the outside supply stops. One mechanic, three answers | m057–m059 |
+| A suppression test | `Intimidate` against `Clear Body`; `Hyper Cutter` as the stat-specific block | m058 |
+| Pulsatility | The `Protect` consecutive-use counter: 1, 1/2, 1/4, 1/8 in Gen III, and **it resets to zero whenever the last resulting move was not one of the family** | m060 |
 
 ### Oncology — m026–m030
 
@@ -111,6 +126,11 @@ you how these sound in place.
 | Exemptions that go by category rather than by name | The exemption list is types, not names — and the counter says when | m028 |
 | What a response measurement cannot show | The bar is 48 pixels and never renders empty while anything is left | m029 |
 | Sampling, and the thing the sample did not change | Three rods, one pond, and the pond never changed | m030 |
+| Spread, and organotropism | The `MIMIC_FORBIDDEN_END` sentinel sitting mid-list in `sMovesForbiddenToCopy`, so Mimic and Metronome read different prefixes of one exclusion list | m061 |
+| Fractionation | The multi-hit class — `Random() & 3` redrawn, giving 2 and 3 at three-eighths each and 4 and 5 at one-eighth — with Rock Blast, Bullet Seed, Fury Swipes and Icicle Spear | m062 |
+| A surgical margin | `GetScaledHPFraction(hp, maxHP, 48)` — the Flail table uses literally the same 48 as the health bar | m063 |
+| Tumour markers, and a lower limit of detection | **Three separate routines in one game refusing to report zero**: the bar's forced 1, Super Fang's floor, and `Cmd_scaledamagebyhealthratio`'s. Flail and Water Spout as opposite functions of one quantity | m064 |
+| Randomisation against registries | The allocated object is a **move**, the confounder is the player's choice of when to use it, and the registry is the battle log — so nothing stands in for a person | m065 |
 
 ### Emergency — m031–m035
 
@@ -121,6 +141,11 @@ you how these sound in place.
 | What triage optimises | Trick Room inverts the sort key and leaves the brackets alone | m033 |
 | Compensation, and the reserve the monitor is not showing | PP is the budget, the bar is not showing it, and the bar is all the game shows | m034 |
 | First aid for the untrained | Focus Energy *said* it raised the critical-hit rate; in Red and Blue it quartered it | m035 |
+| Shock categories by mechanism | The seven-factor Speed pipeline in `GetWhoStrikesFirst`, where the only observable is who acts first and each broken factor has a non-interchangeable counter. Ninjask at 160 quartered still beats Shuckle at 5; Jolteon at 130 with two drops loses to it | m066 |
+| What speech proves about the airway | `attackcanceler` and the fourteen-case `AtkCanceler_UnableToUseMove` chain, with the `effect == 0` short-circuit as the source of the asymmetry and per-turn re-rolls as the reason a pass cannot be extrapolated | m067 |
+| Mechanism of injury as a prior | `Cmd_trysetfutureattack` storing the whole consequence at the moment of use; the four semi-invulnerable `sDMG_MULTIPLIER` doublings as state at the instant of transfer; and the explicit `setbyte sDMG_MULTIPLIER, 1` on the no-bonus branch as anchoring implemented in code | m068 |
+| Supportive care, and the antidote exception | Forty-one effect scripts reaching one shared pipeline through forty-five jumps, with five labelled entry points, against single-purpose items that are six bytes with one bit | m069 |
+| Handover, and what crosses the boundary | `SwitchInClearSetData`: what is deleted against what survives (`status1`, HP, PP); Baton Pass's hand-written whitelist, which does **not** include the history; `DEFAULT_STAT_STAGE` as both the never-set and the cleared value — the pertinent-negative problem; and `truantSwitchInHack` as what a field list looks like after someone discovers a loss | m070 |
 
 ## Part III — Devices that are not available, and why
 
@@ -140,6 +165,27 @@ Not a style preference. These come out of `../SAFETY.md`, which you have read tw
 - **Catching as diagnosis or admission.** Specifically avoided: catching is acquisitive and
   non-consensual, and the mapping reads badly however carefully it is framed. Poké Ball mechanics
   are used in m011–m013 for *probability* only, never for the act.
+- **Frailty via Shedinja, and the shape it shares with others.** Shedinja — 1 HP, Wonder Guard,
+  ended by one point of anything — is the obvious mapping for frailty and it requires a creature to
+  be the patient whose resilience is the subject. A writer reached for it, saw the problem, and wrote
+  health inequality instead, noting that *"the next writer will reach for Shedinja too"*. They were
+  right. Shedinja is available for a **type-override** point with no person attached (m047 uses it
+  that way); it is not available as a frail patient. The same shape blocked paediatric differences (a
+  low-level Pokémon as the patient), analgesia, and crowding and flow (boxed Pokémon as queued
+  patients). All four remain unwritten and should be commissioned with an explicit instruction about
+  what may stand in for the patient, or not at all.
+- **A Pokémon half with no Pokémon in it.** Raised by a writer declining supportive and palliative
+  care, and the argument is worth keeping: that territory is almost entirely what `SAFETY.md` fences
+  off, so there is no mechanism left to carry an analogy, and the result would not be a low-scoring
+  pair but a *degenerate record* for a dataset whose premise is two registers of the same content.
+  The corpus floor for taste-constrained answers is around 45, not zero. If an answer would land near
+  zero because the whole subject is set aside, the subject is set aside — do not write it and do not
+  soften the taste rule to make it scoreable.
+- **Revive and Max Revive, for anything.** They sit in the same `item_effects.h` table as everything
+  else, and nothing in Pokémon may stand in for resuscitating a person. m069 says so in its own text.
+- **Breeding mechanics for the reproductive axis.** Day Care, egg groups and Destiny Knot are the
+  obvious mapping and would have scored well. m060 keeps the analogy entirely on the *controller* —
+  rhythms, thresholds, sign reversals — and says so out loud, which makes the omission legible.
 - **Any mechanic whose humour depends on the condition.** The Pokémon half is a teaching register,
   not a comic one. Check your jokes against the question "would I say this in front of someone who
   has it".

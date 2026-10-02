@@ -16,6 +16,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import os
 import pathlib
 import sys
 
@@ -143,4 +144,15 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    # Piping into head closes stdout early. Without this the interpreter prints a
+    # BrokenPipeError traceback on exit, which looks like a tool failure in a log and
+    # was reported as one. Reported by a writer running `--detail mNNN | head`.
+    try:
+        code = main()
+    except BrokenPipeError:
+        code = 0
+    try:
+        sys.stdout.flush()
+    except BrokenPipeError:
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+    sys.exit(code)

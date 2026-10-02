@@ -25,10 +25,17 @@ Both halves carry the same sections in the same order:
 | H1 | yes | A claim, not a label |
 | body | yes | The mechanism. At least one column-aligned fenced diagram in the serious half |
 | `## Where the metaphor stops` (Pokémon) / `## The human stakes, said plainly` (serious) | yes | **Plain prose, no analogy.** House pattern — the validator checks for it |
-| `## What an examiner digs into next` | yes | Or a specialty-appropriate equivalent |
+| `## What an examiner digs into next` | yes | Or a specialty-appropriate equivalent. **Its position is the specialty's, not this table's** — see below |
 | `## Sources` | yes | See below. Immediately before Scope and safety |
 | `## Scope and safety` | yes | What this is not for, and local guidance |
 | `## Where this stands, <Month Year>` | yes | What will date, and where the authority lives |
+
+**On the order of the last four.** This table's order is the common case, not a rule. Specialties
+differ — some put `## What an examiner digs into next` before `## Sources`, others after
+`## Scope and safety` — and two writers found that out by matching their specialty against a table
+that contradicted it. **Match the pairs already in your specialty.** The only hard constraint is
+that `## Sources` comes immediately before `## Scope and safety`. The two halves of your own pair
+must correspond section for section, so a reader can set them side by side.
 
 Front matter, with `question` matching the catalogue row character for character:
 
@@ -44,8 +51,10 @@ tags: [four, or, five, lowercase, tags]
 ---
 ```
 
-Both answers at least 600 words. Prose wraps at 98 **characters** — an em dash is one character,
-not three. Never wrap inside a fenced block.
+Both answers at least 600 words. **Prose** wraps at 98 **characters** — an em dash is one
+character, not three. Never wrap inside a fenced block, and **the 98 does not apply to Markdown
+table rows**; long rows are normal here and a writer checking their own wrapping should not try to
+break them.
 
 ## The clinical rules, which are not negotiable
 
@@ -84,12 +93,22 @@ So every answer carries a `## Sources` section:
 * then the documents a reader should open, named precisely enough to find, with the issuing body
   named. **Standing documents for your specialty live in `SOURCES-<specialty>.md` in this
   directory — point at that file and list only what is specific to your answer.** That keeps the
-  section short; near-identical 180-word blocks repeated a hundred times are waste.
+  section short; near-identical 180-word blocks repeated a hundred times are waste. Early answers
+  repeat the standing list inline instead; that is the older form, it is not the one to copy, and it
+  is being swept. If the pairs you read for voice repeat it, follow this instruction and not them.
 * **no quotation marks around source text, no DOIs, no author-year citations, no guideline codes,
   no URLs.**
 
 Mark each load-bearing claim inline with its basis: *mechanism*, *definitional*, *consensus*, or
 *country-dependent*. Declare your markers once per answer.
+
+**Use those four words and the italic inline form**, which is what most of the corpus does. Two
+divergences were tried and are not adopted: *guideline-dependent* for *country-dependent* (same
+meaning, two spellings, no gain), and a declared `[M]` `[C]` `[D]` `[L]` bracket legend. The bracket
+form is genuinely denser and the writer who used it offered to be normalised against; the reason to
+keep the prose form is that the serious half is meant to read as prose a person could say aloud, and
+a sentence carrying three bracketed codes does not. Where existing answers in your specialty use the
+bracket form, leave them; new answers use the prose form.
 
 **Pokémon facts are different, and you may source them properly.** `raw.githubusercontent.com`
 reaches `pret/pokered`, `pret/pokeemerald` and `rh-hideout/pokeemerald-expansion`. Read the
@@ -143,10 +162,31 @@ the one place in this repository where the metric is not the arbiter.
 3. `scripts/medical/build_dataset.py` re-run, outputs included.
 4. Commit in your worktree as `alvations <alvations@gmail.com>`, no trailers. **Do not push.**
 
+**The session scratchpad is shared between everyone writing at the same time, and it is not
+isolated.** Three writers in one wave had helper scripts silently overwritten mid-task by a sibling
+using the same filename, and one of them watched its own script print another writer's file list.
+Nothing was lost because they noticed, which is luck. **Prefix every scratchpad filename with your
+specialty and ID block** — `endo-m056-m060-reflow.py`, not `reflow.py` — and smoke-test any
+reflow or rewrite helper as a no-op against an existing answer before pointing it at your own.
+
 ## Do not edit
 
 `scripts/` anything, `../SAFETY.md`, `../README.md`, `CONVENTIONS.md`, the root `README.md`,
-`CHANGELOG.md`, `DATASHEET.md`, `TERMINOLOGY.md`, `LEDGER.md`, or `../../../for-agents/`. Report
+`CHANGELOG.md`, `DATASHEET.md`, `TERMINOLOGY.md`, and **both** `LEDGER.md` files — the root one and
+`../LEDGER.md` — or `../../../for-agents/`.
+
+**On `../LEDGER.md` specifically**, because three writers read that line three different ways and
+all three readings were reasonable. Run `score.py --detail mNNN` to read your own score. Do **not**
+run bare `score.py`, which rewrites the ledger. Several specialties are written concurrently in
+sibling worktrees, so a ledger regenerated in your worktree reflects a partial tree, and five
+writers doing it produces five conflicting ledgers. **Integration regenerates it centrally, once,
+after all blocks land.** If you have already regenerated it, say so in your hand-back; it is not a
+problem, it is just noise in your diff.
+
+**`TERMINOLOGY.md` and `CONTRIBUTING.md` step 6 conflict**, and a writer was right to flag it. Step 6
+asks for new Pokémon entities to be added to the glossary; this brief forbids editing it, because
+seven writers editing one file in seven worktrees is a guaranteed conflict. **The brief wins:** list
+the new entities in your hand-back and integration adds them. Report
 vocabulary gaps, validator false positives and any defect you find in your hand-back instead — six
 scorer bugs have been found that way and all six are now fixed.
 
