@@ -101,16 +101,16 @@ gone, and from the fourth generation a **Light Clay** stretches it to eight. Not
 Screen is improved by wanting it more. It is a timer, so the only levers are how often you set it
 and how long each setting lasts.
 
-An emollient's effect on water loss is transient in exactly that way. [mechanism] Twice a day, and
-more often during a flare, beats a richer preparation used once, and that is a statement about
+An emollient's effect on water loss is transient in exactly that way. (**mechanism**) Twice a day,
+and more often during a flare, beats a richer preparation used once, and that is a statement about
 frequency rather than about potency.
 
 And the quantity is set by the fact that it goes on the **whole surface**, not on the patches,
 because the barrier defect is present in normal-looking skin. National formularies publish tables
 of suitable amounts per week; for an adult with widespread dry skin the figures are of the order
 of several hundred grams a week, and a 50 g or 100 g tube is not a week of anything.
-[country-dependent] Look the table up. The sibling answer in this set on topical quantity makes
-the general case; here the quantity is not a dosing detail, it *is* the treatment of the
+(**country-dependent**) Look the table up. The sibling answer in this set on topical quantity
+makes the general case; here the quantity is not a dosing detail, it *is* the treatment of the
 structural lesion.
 
 Acceptability is part of the dose, and the games already made this argument: a **Master Ball**
@@ -148,7 +148,7 @@ spacing of emollient against topical corticosteroid is genuinely unsettled and p
 
 Above the first rung the ladder runs through topical calcineurin inhibitors, phototherapy,
 conventional systemic immunosuppressants, and the newer targeted biologics and oral Janus kinase
-inhibitors, with eligibility and monitoring that are firmly **country-dependent**. Every one of
+inhibitors, with eligibility and monitoring that are firmly (**country-dependent**). Every one of
 those rungs is a better **Haze**. Not one of them puts up a **Substitute**, which is why the
 emollient does not stop when the systemic starts.
 

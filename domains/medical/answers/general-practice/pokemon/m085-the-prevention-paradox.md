@@ -182,7 +182,7 @@ Specific to this answer:
   number needed to treat.
 * The national prevention or public-health strategy applying where the reader works, for which
   measures are population measures locally and what is actually delivered
-  *[country-dependent]*.
+  (**country-dependent**).
 * The primary literature on whichever specific preventive intervention is in question, for the
   absolute effect size and the harms, since the argument here is structural and supplies no
   figures.

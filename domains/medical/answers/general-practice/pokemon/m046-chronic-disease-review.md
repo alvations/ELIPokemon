@@ -201,10 +201,10 @@ Specific to this answer:
 
 * The national guideline for whichever long-term condition is in question, issued by the body that
   governs the reader's practice, for the review interval and the variables it expects
-  *[country-dependent]*.
+  (**country-dependent**).
 * The specification of the reader's own incentive or quality framework for primary care, which is
   what actually determines what a review contains and is recorded for in that system
-  *[country-dependent]*.
+  (**country-dependent**).
 * Any systematic review of the effect of pay-for-performance or indicator-based schemes in primary
   care, in the health-services-research literature, for the direction of effect and for the
   authors' assessment of how much is recording behaviour.

@@ -53,7 +53,7 @@ The healing ladder is explicit and numbered. In the **Kanto** games a **Potion**
 
 Except the rungs were rebalanced in later generations. Quote the figure 50 for a **Super Potion**
 without naming the generation it came from and you have handed somebody a number they cannot act
-on. Topical corticosteroid potency is **country-dependent** in exactly that way. The United
+on. Topical corticosteroid potency is (**country-dependent**) in exactly that way. The United
 Kingdom formulary uses four groups — mild, moderate, potent, very potent. The United States uses
 seven numbered classes, I to VII, with class I the **strongest**, which is the opposite direction
 from how most people assume a numbered scale runs. The same product can sit in differently named

@@ -162,7 +162,8 @@ structural at all. The complaint does not carry which. The generators differ in 
 orders of magnitude and in treatment completely, and treatment for one of the major vascular
 causes can worsen another — which is the argument against settling the question by pattern
 recognition. **(Consensus** on the differential and on the harm of mistaking those two for each
-other; the agents, thresholds and pathways are **country-dependent** and none is given here.**)**
+other; the agents, thresholds and pathways are (**country-dependent**) and none is given
+here.**)**
 
 The workup is therefore ordered by a product: how likely this generator is here, how much harm
 follows from missing it, and how much that harm is reduced by finding it now rather than later.

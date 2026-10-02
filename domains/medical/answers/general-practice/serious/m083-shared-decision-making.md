@@ -14,10 +14,10 @@ Some decisions have a right answer that a clinician can look up. Others do not, 
 the evidence is immature — because the evidence has done everything evidence can do and the
 remaining step is a comparison between unlike quantities. Naming which kind of decision is in the
 room is the first clinical act, and getting that wrong in either direction is the common failure
-*[definitional]*.
+(**definitional**).
 
-Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*.
+Load-bearing claims below are marked with what they rest on: **mechanism**, **definitional**,
+(**consensus**) or (**country-dependent**).
 
 ## Three classes, and only one of them is shared
 
@@ -28,7 +28,7 @@ Load-bearing claims below are marked with what they rest on: *mechanism*, *defin
 * **Preference-sensitive.** The options differ in *which* outcomes they risk. One offers a small
   chance of avoiding a large future harm at the cost of a certain, ongoing, present burden; the
   other offers the reverse. Ranking them requires an exchange rate between a present certainty
-  and a future probability, and no trial contains one *[mechanism]*.
+  and a future probability, and no trial contains one (**mechanism**).
 * **Supply-sensitive.** What happens is predicted better by what is locally available than by
   anything about the person. Worth naming because it is frequently mistaken for the second class.
 
@@ -71,11 +71,11 @@ Load-bearing claims below are marked with what they rest on: *mechanism*, *defin
 
 1. **Say that there is a decision.** The single most common failure is that the person never
    learns a choice was made. A sentence that names the options, including doing nothing for now,
-   is the whole intervention and costs seconds *[consensus]*.
+   is the whole intervention and costs seconds (**consensus**).
 2. **Numbers in a usable form.** Absolute rather than relative, the same denominator throughout,
    over a stated time horizon, with benefit and harm given in the same format and in both
    directions. Mixed framing — benefit as relative, harm as absolute — reliably changes decisions
-   without informing them *[consensus]*.
+   without informing them (**consensus**).
 3. **Ask what matters, then check what was heard.** Not as a courtesy: the exchange rate is the
    missing input and the person is the only source of it. Repeating back what they said about it
    is how the clinician finds out whether the conversation worked.
@@ -85,7 +85,7 @@ Load-bearing claims below are marked with what they rest on: *mechanism*, *defin
 5. **Use the instrument if one exists.** A decision aid's function is to move the information to
    the moment of the decision, in a form the person can hold. Aids improve knowledge and the
    match between values and choices; whether they change which option is chosen varies by
-   decision *[consensus]*.
+   decision (**consensus**).
 6. **Record the reasons, not just the outcome.** The next clinician inherits a decision that
    looks arbitrary without them, and an unexplained decision gets quietly reversed. This is the
    same documentation argument m012 makes about safety-nets.
@@ -96,7 +96,7 @@ Load-bearing claims below are marked with what they rest on: *mechanism*, *defin
 
 * **Choice as abandonment.** Options recited, no recommendation available on request, no support.
   This is worse than paternalism for the people least equipped to arbitrate, and it widens the
-  gap m050 describes *[consensus]*.
+  gap m050 describes (**consensus**).
 * **Consent theatre.** A signature, a leaflet, a documented discussion nobody can reconstruct.
 * **Sharing an effectiveness-sensitive decision** to avoid the work of persuading, or because the
   conversation is uncomfortable.
@@ -148,11 +148,11 @@ Specific to this answer:
 
 * The shared decision making guidance issued by the national body for clinical guidelines in the
   reader's own country, which sets out what is expected of the consultation locally
-  *[country-dependent]*.
+  (**country-dependent**).
 * The consent and capacity law and professional guidance applying in the reader's jurisdiction,
   which is the authority on what information must be given and on how a refusal is handled. This
   differs materially between countries and has shifted in several over the last decade
-  *[country-dependent]*.
+  (**country-dependent**).
 * The published decision aids maintained for the specific decision in question, together with the
   inventory criteria used to appraise them, for whether an aid is fit to use.
 * Any systematic review of patient decision aids, for the effects on knowledge, decisional

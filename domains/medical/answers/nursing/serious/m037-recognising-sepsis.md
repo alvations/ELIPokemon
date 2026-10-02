@@ -18,9 +18,10 @@ that sentence do the work. **Dysregulated**: a large part of the damage is the r
 organism. And **dysfunction**: it is not the infection that defines sepsis, it is what the
 response to the infection has done to organs that were not infected.
 
-Markers used below: *mechanism* means checkable by reasoning; *definitional* means it is what the
-word means; *consensus* means mainstream agreement across major guidance; *contested* means the
-field genuinely disagrees; *country-dependent* means the reader's own guidance decides.
+Markers used below: **mechanism** means checkable by reasoning; **definitional** means it is what
+the word means; (**consensus**) means mainstream agreement across major guidance; *contested*
+means the field genuinely disagrees; (**country-dependent**) means the reader's own guidance
+decides.
 
 ## Why time is in the design at all
 

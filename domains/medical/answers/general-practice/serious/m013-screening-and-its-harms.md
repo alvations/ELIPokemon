@@ -15,7 +15,7 @@ requested by someone with a problem, and the default — doing nothing — is al
 screening test is offered by a system to a population that is, overwhelmingly, well, and the
 default is genuinely acceptable. That inverts the burden of proof: the programme has to show it
 does more good than harm, because the harms land on people who had nothing wrong with them and
-would otherwise have had an uneventful year *[consensus]*.
+would otherwise have had an uneventful year (**consensus**).
 
 So "more testing is better" is not a conservative position. It is a strong claim, and three
 specific statistical artefacts make a programme look as though it has justified that claim when it
@@ -42,8 +42,8 @@ Survival measured from the date of diagnosis is not a measure of benefit, becaus
 the date of diagnosis by construction. The only measure that cannot be gamed this way is
 disease-specific mortality — ideally all-cause mortality — in the whole *invited* population,
 compared with a whole uninvited population, counted from the moment of invitation regardless of
-who attended *[consensus]*. Stage-shift, survival rates and case fatality are all compatible with
-zero benefit.
+who attended (**consensus**). Stage-shift, survival rates and case fatality are all compatible
+with zero benefit.
 
 ## Length bias, and overdiagnosis as its limiting case
 
@@ -83,7 +83,7 @@ Three things about overdiagnosis are worth saying precisely because they are cou
   rate.
 * **Its harms are the full harms of the diagnosis.** Investigation, treatment and its
   complications, the change in how someone understands their own body, and the downstream effects
-  on insurance and employment in some systems *[country-dependent]*.
+  on insurance and employment in some systems (**country-dependent**).
 
 ## Why the decision is population-level even though the consultation is not
 
@@ -102,12 +102,12 @@ population judgement which an individual is entitled to decline.
 Classical conditions for a worthwhile programme were set out decades ago by the World Health
 Organization and have been revised repeatedly since; they remain the standard frame, and the
 revisions have mostly been about adding the harms side and the requirement for an organised
-programme rather than opportunistic testing *[consensus]*.
+programme rather than opportunistic testing (**consensus**).
 
 **Which programmes exist, at what ages, and at what intervals differs substantially between
 countries** — including between countries with similar wealth and similar disease burden, because
 the judgement depends on local incidence, local capacity, local treatment pathways and local
-tolerance of overdiagnosis *[country-dependent]*. For that reason no interval, age range or
+tolerance of overdiagnosis (**country-dependent**). For that reason no interval, age range or
 threshold appears in this answer. A reader comparing two countries' programmes and concluding that
 one must be wrong has usually not read either one's published rationale.
 
@@ -156,7 +156,7 @@ Specific to this answer:
   the later revisions issued by the same organisation, for the conditions a programme must meet.
 * The published rationale, age range and interval for each programme operating in the reader's own
   country, issued by that country's national screening body or equivalent committee
-  *[country-dependent]*.
+  (**country-dependent**).
 * The information leaflet that the reader's own national programme sends with its invitations,
   which is the document that actually states the benefits and harms to the public in that country.
 * Any standard textbook of epidemiology or public health, for the derivations of lead-time bias,

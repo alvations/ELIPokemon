@@ -16,7 +16,7 @@ systematic rather than random, and that the one capacity it degrades earliest is
 notice it is degraded. Those three facts together are why it is a design problem. *This framing is
 mechanism; the individual effects are consensus from the sleep and human-factors literature.*
 
-Markers used below: *mechanism*, *definitional*, *consensus*, *country-dependent*.
+Markers used below: **mechanism**, **definitional**, **consensus**, **country-dependent**.
 
 Three largely independent inputs, and the night shift loads all three at once:
 
@@ -172,8 +172,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * The reader's national occupational health and safety body's guidance on shift work and fatigue,
   for the risk-management framing and for what employers are required to do.

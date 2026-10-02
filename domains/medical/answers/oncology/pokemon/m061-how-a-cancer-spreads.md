@@ -31,7 +31,7 @@ conditions.** No Pokémon in this answer stands in for a person with cancer, and
 dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The channels, drawn as what they are
 
@@ -93,7 +93,8 @@ Two features of the games' geography make the same point sharper than a diagram 
   Cave is the clean case: two warps, one tunnel, and a pair of cities that look unrelated on the
   **Town Map** become neighbours. The standard mechanical account of spread to the axial skeleton
   turns on exactly this — the valveless venous plexuses around the vertebral column are an edge
-  that bypasses the usual sequence (**consensus** on the anatomy, **mechanism** for what follows).
+  that bypasses the usual sequence (**consensus** on the anatomy, (**mechanism**) for what
+  follows).
 * **Fly's destination list is enumerated, not open.** You can Fly to the towns on the list and
   nowhere else, and the list is a property of the world rather than of the Pokémon doing the
   flying. A site's regional node field is the same kind of object: a defined, ordered set of
@@ -162,14 +163,14 @@ Two consequences come free, and both are commonly got wrong:
 ## What the pattern is actually used for
 
 * **Staging investigation is directed rather than exhaustive**, chosen from the known pattern for
-  that primary site rather than by looking everywhere (**consensus**, **country-dependent** in
+  that primary site rather than by looking everywhere (**consensus**, (**country-dependent**) in
   protocol).
 * **The node field is treated as the anatomical object it is** — sampled, mapped or irradiated as
   a field, by site-specific rules.
 * **A cancer of unknown primary is worked up from its pattern of spread**, because the pattern
   carries information about where it started (**consensus**).
 * **A limited-volume metastatic pattern is managed differently from a widespread one in several
-  diseases**, and whether that is offered where you are is strongly **country-dependent**.
+  diseases**, and whether that is offered where you are is strongly (**country-dependent**).
 
 And one honest limit, which the games supply themselves. **Diglett's Cave does not explain why
 anyone dug it.** The two warps are in the file because they are in the file; no principle about
@@ -269,5 +270,5 @@ move. The anatomy will not move at all. What moves is the molecular detail of or
 is unsettled and is deliberately not pinned to a named molecule here, and the clinical periphery:
 what circulating tumour DNA is used for, how limited-volume metastatic disease is defined and
 treated, and which staging investigations are protocolised for which site. Those last are
-**country-dependent**, under revision, and belong to the current local protocol rather than to a
+(**country-dependent**), under revision, and belong to the current local protocol rather than to a
 revision note like this one.

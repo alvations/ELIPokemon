@@ -16,8 +16,8 @@ are three questions, they are answered by three different kinds of evidence, and
 muddle in this area comes from treating an answer to the first as an answer to the third.
 
 **Claims are marked by kind:** **mechanism** (derivable from how the measurement or the biology
-works), **definitional** (true because a criterion says so), **consensus** (widely agreed
-professional practice), **country-dependent** (varies by nation, region or institution, and
+works), (**definitional**) (true because a criterion says so), (**consensus**) (widely agreed
+professional practice), (**country-dependent**) (varies by nation, region or institution, and
 changes).
 
 ## The chain, and where information is lost at each link

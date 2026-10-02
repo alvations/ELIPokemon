@@ -40,7 +40,7 @@ Reversible inhibition is **concentration-dependent and dose-dependent**: it swit
 inhibitor accumulates and off as it clears. Mechanism-based inhibition is the asymmetric case —
 immediate onset, but recovery waits on resynthesis of the enzyme, so the offset looks like an
 inducer's offset rather than an inhibitor's. That asymmetry is the single most useful thing to
-know about this family, and it is *mechanism*, not guideline.
+know about this family, and it is (**mechanism**), not guideline.
 
 Well-established inhibitor examples, named for their mechanism and not for any magnitude:
 clarithromycin and erythromycin, the azole antifungals such as fluconazole and ketoconazole,

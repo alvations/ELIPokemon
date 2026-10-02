@@ -34,7 +34,7 @@ weather flags and targeting rules.** No Pokémon in this answer stands in for a 
 and the analogy is dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The two schedules, drawn
 
@@ -216,14 +216,14 @@ there are exactly two ways to move it (**mechanism**):
 * **Biologically.** Exploit a difference between the target and the normal tissue. Fractionation
   is the oldest and most reliable such lever, and concurrent radiosensitising systemic therapy is
   another that works by widening the difference at the cost of adding toxicity (**consensus**,
-  with **country-dependent** regimens).
+  with (**country-dependent**) regimens).
 
 So "more dose" is never the whole answer and "less dose" is never a safe default. And the honest
 limit, which the multi-hit code supplies itself: **splitting a total is only ever worth what the
 difference in recovery is worth.** Where the tumour's fractionation sensitivity resembles that of
 the dose-limiting tissue, fewer and larger fractions can give equivalent control with acceptable
-late effects — which diseases those are, and what is actually offered, is **consensus** in
-principle and firmly **country-dependent** in practice.
+late effects — which diseases those are, and what is actually offered, is (**consensus**) in
+principle and firmly (**country-dependent**) in practice.
 
 ## Where the metaphor stops
 

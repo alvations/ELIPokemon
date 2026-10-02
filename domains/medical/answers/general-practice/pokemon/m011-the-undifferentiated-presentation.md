@@ -160,7 +160,7 @@ Specific to this answer:
   its quoted figures transfer to a primary-care population.
 * The suspected-cancer or urgent-referral criteria issued by the national or regional body that
   governs the reader's own practice, for the thresholds that set a downstream clinic's prevalence
-  *[country-dependent]*.
+  (**country-dependent**).
 * Any reporting-standards statement for diagnostic accuracy studies, issued by the relevant
   methodology group, for what a study must disclose about its setting and spectrum.
 

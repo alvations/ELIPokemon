@@ -62,8 +62,8 @@ is worth being explicit about why. There, flow can be normal or above normal whi
 tissue fails, because the problem is in the distribution of that flow and in the capacity of
 tissue to extract from it. A classification built on pressure, or even on flow, has no vocabulary
 for a patient whose numbers are adequate and whose cells are not. **(Mechanism** for the failure
-of extraction and distribution; the terminology for the subcategories is **country-dependent** and
-has been revised.**)**
+of extraction and distribution; the terminology for the subcategories is (**country-dependent**)
+and has been revised.**)**
 
 ## Why the pressure is the worst available single variable
 
@@ -96,8 +96,8 @@ factors — and almost all of them are clinical rather than numerical.
 * **Evidence of the consequence.** Markers of tissue that is not receiving enough — the state of
   consciousness, urine output over time, and the laboratory evidence of anaerobic metabolism —
   speak to delivery rather than to pressure. **(Consensus** that these are the quantities
-  monitored; the thresholds attached to them are **country-dependent** and are revised, so none is
-  stated here.**)**
+  monitored; the thresholds attached to them are (**country-dependent**) and are revised, so none
+  is stated here.**)**
 * **The trajectory.** A factor that is failing produces a moving picture. Any of the above,
   repeated, carries more than all of them once.
 * **The history and the context.** The prior probability over categories is set long before any
@@ -134,8 +134,8 @@ and the people who hold it best — those with the most reserve — are the peop
 when the work can no longer be done, is the most abrupt. The reverse error is real too, and
 quieter: a pressure that reads low in someone who is warm, alert and perfusing well may be that
 person's ordinary pressure, and treating the number rather than the person carries its own harm.
-**(Mechanism** for both; **consensus** that unrecognised shock and delayed recognition of it are a
-major and studied source of avoidable harm.**)**
+**(Mechanism** for both; (**consensus**) that unrecognised shock and delayed recognition of it are
+a major and studied source of avoidable harm.**)**
 
 None of this is a reason for a reader to form a view about any particular person, including
 themselves. It is an account of why a classification is drawn the way it is, written for someone
@@ -179,8 +179,8 @@ apply here. Specific to this answer:
   including this one.
 
 Markers used above: **definitional** (what the term means), **mechanism** (follows from physiology
-or arithmetic and is checkable by reasoning), **consensus** (agreed across mainstream sources as
-of writing), **country-dependent** (genuinely differs between countries or institutions). No
+or arithmetic and is checkable by reasoning), (**consensus**) (agreed across mainstream sources as
+of writing), (**country-dependent**) (genuinely differs between countries or institutions). No
 thresholds, doses or management sequences are stated, and nothing is quoted, because none of these
 documents was opened.
 

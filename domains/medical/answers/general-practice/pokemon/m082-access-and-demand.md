@@ -146,7 +146,7 @@ Specific to this answer:
 
 * The access standards, contractual requirements and reporting definitions that apply to the
   reader's own practice, which differ substantially between countries and are revised frequently
-  *[country-dependent]*.
+  (**country-dependent**).
 * The reader's own organisation's access and workforce data, which is the only place the local
   version of this argument can be settled.
 * The published literature on total triage, on same-day access models and on telephone or online

@@ -25,11 +25,12 @@ when an Earthquake meets a **Flygon** — whose only listed ability, in both slo
 
 ## Markers used in this answer
 
-The clinical claims here carry the same inline markers as the serious half. *mechanism* — follows
-from biology and is checkable by reasoning. *definitional* — a term's meaning. *consensus* —
-standard across current textbooks and national guidance. *country-dependent* — differs between
-countries or institutions, and yours is the authority. The Pokémon claims are not marked this way;
-they are listed in the `## Sources` section with the file they were checked against.
+The clinical claims here carry the same inline markers as the serious half. **mechanism** —
+follows from biology and is checkable by reasoning. (**definitional**) — a term's meaning.
+(**consensus**) — standard across current textbooks and national guidance. (**country-dependent**)
+— differs between countries or institutions, and yours is the authority. The Pokémon claims are
+not marked this way; they are listed in the `## Sources` section with the file they were checked
+against.
 
 ## Two lesions, and the one that moves is the one that is behaving normally
 
@@ -119,7 +120,7 @@ The weal itself is mast cell activation in the dermis: histamine and other media
 vessels, increase permeability so fluid enters the interstitium, and stimulate sensory nerves —
 redness, swelling and itch, which is why all three arrive together. The shallow compartment is why
 it itches and why it goes: a small volume of fluid in a thin space is reabsorbed quickly.
-[mechanism]
+(**mechanism**)
 
 Three routes reach that same activation. An allergen cross-linking IgE, which is mostly **acute**
 urticaria with a clear exposure. Direct activation by some drugs, including opioids and
@@ -227,10 +228,10 @@ history. The causes are angiotensin-converting-enzyme inhibitors — which reduc
 breakdown, and where the first attack may come months or years after starting, which is the
 commonest reason the link is missed — and hereditary or acquired deficiency of C1 inhibitor.
 
-Antihistamines, corticosteroids and adrenaline do not act on that pathway. [consensus] The
+Antihistamines, corticosteroids and adrenaline do not act on that pathway. (**consensus**) The
 specific treatments are different in kind: C1 inhibitor replacement, a bradykinin receptor
 antagonist and a plasma kallikrein inhibitor are the classes involved, and which agents are
-available, licensed and funded is firmly **country-dependent**. No agent or dose is named here.
+available, licensed and funded is firmly (**country-dependent**). No agent or dose is named here.
 What matters at this level is that the airway risk is real, the treatment is pathway-specific, and
 people with the hereditary form are managed by a specialist service with an individual plan that
 is the authority in an attack.
@@ -238,15 +239,15 @@ is the authority in an attack.
 ## Treatment, at the level of principle
 
 Urticaria is divided by duration, conventionally at six weeks, into acute and chronic, and chronic
-into spontaneous and inducible. [definitional] The mainstay is a non-sedating H1-antihistamine,
-with national guidance describing up-titration beyond the standard licensed amount under
-specialist advice where the response is inadequate — the multiples, the licensing position and who
-may do it are **country-dependent** and live in your guidance and formulary, not here. The older
-sedating antihistamines are generally avoided for maintenance because of their effects on sleep
-architecture, cognition and driving. Long-term systemic corticosteroids are not a treatment for
-chronic urticaria, though a short course has a place in a severe flare in some guidance. Beyond
-that are specialist escalations including an anti-IgE monoclonal antibody, with availability
-differing by country.
+into spontaneous and inducible. (**definitional**) The mainstay is a non-sedating
+H1-antihistamine, with national guidance describing up-titration beyond the standard licensed
+amount under specialist advice where the response is inadequate — the multiples, the licensing
+position and who may do it are (**country-dependent**) and live in your guidance and formulary,
+not here. The older sedating antihistamines are generally avoided for maintenance because of their
+effects on sleep architecture, cognition and driving. Long-term systemic corticosteroids are not a
+treatment for chronic urticaria, though a short course has a place in a severe flare in some
+guidance. Beyond that are specialist escalations including an anti-IgE monoclonal antibody, with
+availability differing by country.
 
 For the bradykinin pathway the principle inverts: identify the pathway, stop the responsible drug
 where there is one, and use a pathway-specific treatment through a service holding that person's

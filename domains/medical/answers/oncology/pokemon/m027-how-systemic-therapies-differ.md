@@ -22,7 +22,7 @@ outcome is being dressed up as a game. The analogy is for why a mechanism has th
 has, and it is dropped the moment the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The shape of the argument
 
@@ -145,7 +145,7 @@ That is endocrine therapy (**mechanism**). For a disease driven through a hormon
 strategy is to interrupt the signal rather than poison the cell: block the receptor, degrade it,
 or cut off the ligand by suppressing the gland that makes it or the enzyme that synthesises it, in
 combinations that depend on the disease and the physiological setting (**consensus**,
-**country-dependent** in regimen choice). Three consequences, all mechanical:
+(**country-dependent**) in regimen choice). Three consequences, all mechanical:
 
 * **It is largely cytostatic, so it is slower.** The effect accrues over longer periods, and in
   the post-operative setting treatment runs for years rather than weeks.
@@ -191,8 +191,8 @@ mechanism and not from a list:
 * **Some of it does not resolve**, endocrine organs in particular, which can need lifelong
   replacement (**consensus**).
 
-**So the management is different in kind** (**mechanism**, **country-dependent** in protocol). The
-answer to an immune-related adverse event is immunosuppression, and in some cases stopping for
+**So the management is different in kind** (**mechanism**, (**country-dependent**) in protocol).
+The answer to an immune-related adverse event is immunosuppression, and in some cases stopping for
 good — not the dose reduction that answers a cytotoxic toxicity. You do not clear a sandstorm by
 attacking less. Engineered cell therapies and T-cell-engaging antibodies add two further
 mechanism-derived syndromes, from cytokine release and from neurological effects, each with its

@@ -25,7 +25,7 @@ weather.** No Pokémon in this answer stands in for a person with cancer, and th
 dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## Property, not identity — and the separate question of when
 
@@ -113,7 +113,7 @@ between agents, is not universal, and reverses when the progenitor compartment r
 **Germ-cell precursors** divide, so effects on fertility are a mechanistic consequence rather than
 bad luck — and because they are mechanistic, they are foreseeable while treatment is still being
 planned. That is why discussion of fertility preservation belongs before treatment starts, and is
-standard practice in most systems (**consensus**, **country-dependent** in what is available and
+standard practice in most systems (**consensus**, (**country-dependent**) in what is available and
 funded).
 
 ## Where the rule stops, and the data says so too
@@ -193,7 +193,7 @@ self. Three consequences follow with no extra observation required:
 * **The latency is variable and an event can start after treatment ends** — the weather outlasts
   the Pokémon that set it.
 
-**So management differs in kind** (**mechanism**, **country-dependent** in protocol):
+**So management differs in kind** (**mechanism**, (**country-dependent**) in protocol):
 immunosuppression, and sometimes stopping for good, rather than the dose reduction that answers a
 cytotoxic toxicity — which cannot address a process the drug is not driving. Some endocrine
 effects do not resolve and need lifelong replacement (**consensus**). Cell therapies and T-cell

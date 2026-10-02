@@ -22,7 +22,8 @@ modified-release tablet does **not** change how fast the body gets rid of the dr
 fast the drug goes in. The two are different processes and the formulation only touches one of
 them.
 
-Claims are marked **[M]** mechanism, **[D]** definitional, **[C]** consensus, or **[L]** local.
+Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
+or (**country-dependent**) local.
 
 ## Route by route, in terms of fraction and rate
 
@@ -66,13 +67,13 @@ Two of those rows carry most of the clinical weight.
 **Intramuscular and subcutaneous absorption depends on perfusion.** In shock, peripheral perfusion
 falls, so the depot is not absorbed and the drug is not where you think it is — and when perfusion
 is restored the accumulated depot arrives at once. That is why the intravenous route is used when
-the situation is unstable, and it is a mechanism rather than a preference **[M]**.
+the situation is unstable, and it is a mechanism rather than a preference (**mechanism**).
 
 **Intrathecal doses are orders of magnitude smaller than systemic ones**, because the compartment
 is small and the drug was given by that route precisely to avoid dilution in the body. A systemic
 dose given intrathecally is therefore catastrophic, and the never-event status of that error in
 several countries is the reason the route carries distinct labelling and distinct checking
-procedures **[C]**, which are local and absolute **[L]**.
+procedures (**consensus**), which are local and absolute (**country-dependent**).
 
 ## First pass, and the one piece of algebra worth memorising
 
@@ -101,11 +102,12 @@ procedures **[C]**, which are local and absolute **[L]**.
 A high extraction ratio also means a **variable** F, because a small change in a large extraction
 produces a large change in the small remainder. That variability is why some drugs are available
 only as injections, and why two oral products of the same high-extraction drug are harder to show
-equivalent **[M]**.
+equivalent (**mechanism**).
 
 ## What modified release actually modifies
 
-The vocabulary first, because the terms are used loosely and they mean different things **[D]**:
+The vocabulary first, because the terms are used loosely and they mean different things
+(**definitional**):
 
 * **Delayed release** — an enteric coat that withholds release until the pH rises past the
   stomach. It changes **when** release begins. It does not change how much is released or over how
@@ -149,14 +151,15 @@ Three consequences follow, and they are the reason anyone bothers:
    elimination, the decline you observe after the last dose is the **absorption** rate, not the
    elimination rate. The terminal slope you measure belongs to the formulation, not to the drug.
    That is the "flip-flop" situation, and it means the half-life quoted for a modified-release
-   product is not the drug's half-life **[M]**.
+   product is not the drug's half-life (**mechanism**).
 
 ## Why these products are not crushed, split or chewed
 
 The rate-controlling mechanism **is the dosage form** — a matrix, a membrane, a coated pellet, an
 osmotic pump. Destroy it mechanically and the whole dose becomes immediately available: **dose
 dumping**, which converts a day's exposure into a single peak. For a drug with a narrow margin
-that is a toxic dose administered correctly in every respect except the one that mattered **[C]**.
+that is a toxic dose administered correctly in every respect except the one that mattered
+(**consensus**).
 
 Two corollaries that follow from the same fact:
 
@@ -164,7 +167,7 @@ Two corollaries that follow from the same fact:
   They release by different mechanisms over different profiles, so bioequivalence must be shown
   for the specific pair rather than inferred from the shared active ingredient. Some products are
   therefore prescribed and dispensed **by brand**, and which ones is a regulatory decision that
-  differs by country **[L]**.
+  differs by country (**country-dependent**).
 * **For a narrow-index drug, the standard bioequivalence acceptance limits may not be narrow
   enough**, which is why several regulators apply tighter criteria to those products. The limits
   themselves are regulator property and this answer does not state them; `m008` is the index half

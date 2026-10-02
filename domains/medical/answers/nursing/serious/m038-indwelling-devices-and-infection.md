@@ -16,9 +16,9 @@ catheter, a tracheostomy, a gastrostomy, a surgical drain, any implanted prosthe
 crosses that barrier and **keeps it crossed**. That is not a side effect of the device. It is what
 the device is. *Mechanism.*
 
-Markers used below: *mechanism* means checkable by reasoning; *definitional* means it is what the
-word means; *consensus* means mainstream agreement across major guidance; *country-dependent*
-means the reader's own policy decides.
+Markers used below: **mechanism** means checkable by reasoning; **definitional** means it is what
+the word means; (**consensus**) means mainstream agreement across major guidance;
+(**country-dependent**) means the reader's own policy decides.
 
 ## Two mechanisms, not one
 

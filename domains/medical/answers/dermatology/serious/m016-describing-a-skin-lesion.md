@@ -21,7 +21,7 @@ much smaller space.
 
 ## The vocabulary, which is definitional rather than contested
 
-These terms are stable across standard texts, and the basis of each is *definitional* — they are
+These terms are stable across standard texts, and the basis of each is **definitional** — they are
 conventions of language, not findings from a study. Three axes do nearly all the work: whether the
 surface contour is changed, whether what is raising it is solid or fluid, and whether the surface
 has been lost.
@@ -59,9 +59,9 @@ the size is recorded in millimetres as well as named, which removes the ambiguit
 
 ## Why the morphology is really a statement about depth
 
-The reason primary morphology outperforms every other single descriptor is *mechanism*: the word
-you choose is a claim about which layer of the skin the process is in, and therefore about what
-kind of process it can be.
+The reason primary morphology outperforms every other single descriptor is (**mechanism**): the
+word you choose is a claim about which layer of the skin the process is in, and therefore about
+what kind of process it can be.
 
 ```
    WHAT THE WORD COMMITS YOU TO
@@ -89,7 +89,7 @@ different anatomical compartments. That is what the vocabulary is encoding.
 
 ## Secondary morphology is a record of time, not of diagnosis
 
-*Scale, crust, excoriation, lichenification, fissuring, atrophy, scarring* are *definitional*
+*Scale, crust, excoriation, lichenification, fissuring, atrophy, scarring* are (**definitional**)
 terms too, but they describe what has happened to a lesion since it appeared — the disease plus
 scratching plus treatment plus weeks. A plaque that has been rubbed for two months is lichenified,
 and the lichenification tells you about the itch, not the cause. Leading with a secondary feature
@@ -99,10 +99,10 @@ unrelated processes produce the same crust.
 ## The description that is worth writing down
 
 A useful record is ordered so that the morphology decision is forced first, and so that the next
-reader can re-reason from it rather than inherit a conclusion. By *consensus* among standard texts
-the components are: number; size in millimetres; the body sites involved; the configuration the
-lesions make; the **primary morphology**; secondary change; colour; surface; border definition;
-and what palpation adds. Two practical points follow.
+reader can re-reason from it rather than inherit a conclusion. By (**consensus**) among standard
+texts the components are: number; size in millimetres; the body sites involved; the configuration
+the lesions make; the **primary morphology**; secondary change; colour; surface; border
+definition; and what palpation adds. Two practical points follow.
 
 **Palpation is part of the description, not an addition to it.** A patch and a plaque cannot be
 separated by eye, and a nodule is defined by having bulk you can feel. Induration, warmth,
@@ -122,7 +122,7 @@ are, how angry the surface looks today. The primary morphology varies least of a
 
 That is not a coincidence. The morphology is a statement about the anatomical compartment, and the
 compartment is a property of the disease process. Colour, extent and surface change are properties
-of *this* person, *this* skin tone, *this* week, and this much scratching. [mechanism] A
+of *this* person, *this* skin tone, *this* week, and this much scratching. (**mechanism**) A
 description that leads with the most variable feature has led with the least informative one — and
 it has led with the feature most likely to differ between the photograph in the textbook and the
 patient in front of you, which is the subject of the sibling answer in this set on assessing skin

@@ -180,7 +180,7 @@ Specific to this answer:
 
 * The national guideline on multimorbidity or on the care of people with several long-term
   conditions, issued by the body that governs the reader's practice, which is the document that
-  states the prioritisation approach expected locally *[country-dependent]*.
+  states the prioritisation approach expected locally (**country-dependent**).
 * The eligibility criteria sections of the pivotal trials behind any specific recommendation being
   applied, which is where the applicability question is actually settled.
 * Any systematic review of the representation of multimorbidity in randomised trials, in the

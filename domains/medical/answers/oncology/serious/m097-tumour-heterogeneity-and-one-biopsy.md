@@ -27,9 +27,9 @@ Three separate consequences follow, and they are usually run together.
   about any individual cell had to change for that to be true.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the biology or the sampling works), **definitional** (true because a classification says
-so), **consensus** (widely agreed professional practice), or **country-dependent** (varies by
-nation, region or institution, and changes).
+from how the biology or the sampling works), (**definitional**) (true because a classification
+says so), (**consensus**) (widely agreed professional practice), or (**country-dependent**)
+(varies by nation, region or institution, and changes).
 
 ## The three axes, drawn
 
@@ -169,7 +169,7 @@ answering a question nobody asked.
 **When** is governed by the same test as everything else here: the result has to be capable of
 changing what is done. A molecular result that cannot alter management, in a disease where no
 matched option exists or is reachable, is a procedure with risk and no decision attached
-(**consensus**, strongly **country-dependent**, since what is reachable is a matter of local
+(**consensus**, strongly (**country-dependent**), since what is reachable is a matter of local
 availability).
 
 ## The human stakes, said plainly

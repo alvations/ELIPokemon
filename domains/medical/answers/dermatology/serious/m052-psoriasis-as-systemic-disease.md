@@ -14,8 +14,8 @@ Psoriasis is an immune-mediated inflammatory disease in which the visible plaque
 consequence of a cytokine axis that is not local. Activated dendritic cells produce
 interleukin-23; interleukin-23 sustains a T-helper-17 population; those cells produce
 interleukin-17A and related cytokines; and keratinocytes respond by proliferating, retaining their
-nuclei into the stratum corneum and recruiting neutrophils. [mechanism] The thick, scaly, sharply
-demarcated plaque with its silvery scale is that cascade's readout in one organ.
+nuclei into the stratum corneum and recruiting neutrophils. (**mechanism**) The thick, scaly,
+sharply demarcated plaque with its silvery scale is that cascade's readout in one organ.
 
 The same cytokines are acting elsewhere, on synovium, on entheses, on vascular endothelium, on gut
 mucosa and on the uveal tract. That is the whole reason the word *systemic* is used, and it is not
@@ -24,9 +24,9 @@ that have nothing to do with skin.
 
 ## Markers used in this answer
 
-*mechanism* — follows from physiology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from physiology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## One upstream driver, many downstream readouts
 
@@ -60,44 +60,44 @@ meaning. *consensus* — standard across current textbooks and national guidance
 
 The diagram explains the single most examinable fact about psoriasis treatment: an agent aimed at
 the narrow part of the cascade improves more than one organ at once, and an agent aimed at the
-skin box improves the skin box. [mechanism] It also explains why the biologic era reorganised the
-specialty rather than just adding to it.
+skin box improves the skin box. (**mechanism**) It also explains why the biologic era reorganised
+the specialty rather than just adding to it.
 
 ## What follows for assessment, in order of how often it is missed
 
 **Psoriatic arthritis.** A substantial minority of people with psoriasis develop it — figures of
 the order of one in five to one in three are commonly quoted, and they vary with the population
-studied and the case definition used. [consensus] Skin disease usually precedes joint disease by
-years, which means the dermatology or general-practice review is the screening opportunity, and
+studied and the case definition used. (**consensus**) Skin disease usually precedes joint disease
+by years, which means the dermatology or general-practice review is the screening opportunity, and
 the damage it prevents is structural and irreversible. The questions are about inflammatory
 pattern rather than pain alone: morning stiffness lasting more than half an hour, improvement with
 movement rather than rest, a whole digit swollen rather than a joint, heel or insertional pain,
 and inflammatory back symptoms. Validated screening questionnaires exist and which one is used is
-**country-dependent**.
+(**country-dependent**).
 
 **Nails.** Nail psoriasis — pitting, onycholysis, subungual hyperkeratosis, the salmon-coloured
 oil drop sign — is associated with psoriatic arthritis and with disease of the adjacent distal
 interphalangeal joint, which is anatomically unsurprising since the nail apparatus and that joint
-share connective tissue. [consensus] Nails are also hard to treat and disproportionately
+share connective tissue. (**consensus**) Nails are also hard to treat and disproportionately
 disabling, which is the next point.
 
 **Severity is not area.** Body surface area and composite scores such as the Psoriasis Area and
 Severity Index are the common currency for eligibility and for trials, and they systematically
 under-rate certain sites. Scalp, nails, palms, soles, flexures and genital skin can occupy a tiny
-area and dominate a person's life. [consensus] This is why a quality-of-life instrument is used
-alongside an area measure rather than instead of it, and why eligibility criteria for systemic
-therapy in most countries include an impact measure as well as an area one.
+area and dominate a person's life. (**consensus**) This is why a quality-of-life instrument is
+used alongside an area measure rather than instead of it, and why eligibility criteria for
+systemic therapy in most countries include an impact measure as well as an area one.
 
 **Cardiometabolic risk.** Psoriasis, particularly severe psoriasis, is associated with metabolic
 syndrome, obesity, type 2 diabetes, hypertension, dyslipidaemia, non-alcoholic fatty liver disease
-and cardiovascular events. [consensus] Whether the association is causal, shared-pathway, or
+and cardiovascular events. (**consensus**) Whether the association is causal, shared-pathway, or
 confounded by smoking, alcohol and adiposity is still debated, and the honest statement is that
 the association is robust and the mechanism is not settled. What follows practically is
 uncontroversial: people with psoriasis have their cardiovascular risk factors reviewed, and the
-interval and the tool used are **country-dependent**.
+interval and the tool used are (**country-dependent**).
 
 **Mood.** Depression and anxiety are more common in psoriasis than in matched populations, and the
-association is strong enough that it is asked about rather than waited for. [consensus]
+association is strong enough that it is asked about rather than waited for. (**consensus**)
 
 ## Triggers, and the one that is a prescribing trap
 
@@ -106,11 +106,11 @@ plaques along the line of the injury is the Koebner phenomenon, which is covered
 answer in this set on distribution and configuration. Smoking and obesity are associated with both
 incidence and severity. Several drug classes can precipitate or worsen psoriasis — lithium,
 beta-blockers, antimalarials and interferons are the ones consistently named in textbooks.
-[consensus]
+(**consensus**)
 
 The trap is systemic corticosteroid. Abrupt withdrawal of a systemic steroid given for something
 else can precipitate a severe flare, including generalised pustular and erythrodermic forms, and
-this is the standard reason systemic steroids are avoided as psoriasis treatment. [consensus]
+this is the standard reason systemic steroids are avoided as psoriasis treatment. (**consensus**)
 
 ## The ladder, and why its rungs have different reach
 
@@ -125,13 +125,13 @@ standing three — act broadly and carry monitoring requirements set by your own
 biologic classes target the narrow part of the diagram: tumour necrosis factor, the shared p40
 subunit of interleukin-12 and interleukin-23, interleukin-17 and its receptor, and interleukin-23
 alone; oral small molecules add further options. Which agents are licensed, which are funded, in
-what order, and on what eligibility criteria is **country-dependent** and changes often enough
+what order, and on what eligibility criteria is (**country-dependent**) and changes often enough
 that it should be looked up every time rather than recalled.
 
 Two clinical states sit outside the ladder because they are acute. **Generalised pustular
 psoriasis** and **erythrodermic psoriasis** present with a systemically unwell patient, impaired
 thermoregulation, fluid and electrolyte loss and a risk of secondary infection; both are managed
-as inpatient problems with senior and often multidisciplinary involvement. [consensus]
+as inpatient problems with senior and often multidisciplinary involvement. (**consensus**)
 
 ## The human stakes, said plainly
 

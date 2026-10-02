@@ -48,7 +48,7 @@ The rows are not variants of one another. Two of them are treated in ways that a
 harmful if the other is the true diagnosis, which is the strongest possible argument against
 settling the question by pattern recognition alone. **(Consensus** that the major vascular
 differentials require separating before treatment commits, and that treatment for one can worsen
-the other; the specific agents, thresholds and pathways are **country-dependent** and are not
+the other; the specific agents, thresholds and pathways are (**country-dependent**) and are not
 given here.**)**
 
 ## Why ordering by danger is not the same as ordering by probability
@@ -80,7 +80,7 @@ most specific available; they are the fast, repeatable, widely available ones wh
 redirects everything downstream. Slower tests with greater discriminating power come second, not
 because they matter less but because their answer arrives after the window in which the first
 decision had to be made. **(Consensus** on the principle; which tests, in what order, with what
-turnaround, is institutional and **country-dependent**.**)**
+turnaround, is institutional and (**country-dependent**).**)**
 
 Three consequences follow, and all three look illogical from outside.
 
@@ -117,10 +117,10 @@ much weaker than it feels as a verdict on any one row. Individual descriptors �
 it feels like, what it moves with, what it radiates to — shift the probabilities, usually less
 than the confidence they generate; and several national bodies have moved away from describing
 presentations as *typical* or *atypical* on the grounds that the vocabulary encoded a false
-confidence and systematically under-weighted presentations in groups the old descriptions were
-not derived from. **(Consensus** that no single historical feature is sufficient on its own;
-**country-dependent** for the terminology now preferred, which differs between national bodies and
-is still moving.**)**
+confidence and systematically under-weighted presentations in groups the old descriptions were not
+derived from. **(Consensus** that no single historical feature is sufficient on its own;
+(**country-dependent**) for the terminology now preferred, which differs between national bodies
+and is still moving.**)**
 
 That is why the history is treated as a prior rather than a conclusion — the same use question
 m011 makes of the encounter table, where the setting changes what is probable without ever
@@ -191,8 +191,8 @@ apply here. Specific to this answer:
   where they work and outranks every general account including this one.
 
 Markers used above: **mechanism** (follows from physiology or from decision theory and is
-checkable by reasoning), **consensus** (agreed across mainstream sources as of writing),
-**country-dependent** (genuinely differs between countries, societies or institutions). No
+checkable by reasoning), (**consensus**) (agreed across mainstream sources as of writing),
+(**country-dependent**) (genuinely differs between countries, societies or institutions). No
 thresholds, scores, intervals, agents or test sequences are stated, and nothing is quoted, because
 none of these documents was opened.
 

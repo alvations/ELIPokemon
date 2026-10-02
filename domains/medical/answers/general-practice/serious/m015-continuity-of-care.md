@@ -11,7 +11,7 @@ tags: [continuity, relational-continuity, handover, trust, records]
 # Continuity is a diagnostic instrument that happens to feel like a kindness
 
 The first move in any good answer is to split the word, because three different things are called
-continuity and they come apart *[consensus]*:
+continuity and they come apart (**consensus**):
 
 * **Relational continuity** — the same clinician over time.
 * **Informational continuity** — the same record, legible and complete, whoever is reading it.
@@ -119,7 +119,7 @@ it can be dosed. Continuity passes all three.
   rota design do not survive.
 * **The system shapes what is possible.** Where people are registered with one practice,
   relational continuity is the default that has to be protected; in open-access systems it has to
-  be constructed, and the measures mean different things *[country-dependent]*.
+  be constructed, and the measures mean different things (**country-dependent**).
 
 ## The human stakes, said plainly
 
@@ -155,7 +155,7 @@ Specific to this answer:
 * The methods section of whichever continuity index a reader intends to quote, issued by the group
   that published it, for how it handles people with very few or very many contacts.
 * The reader's own national primary-care policy framework, which determines whether continuity is
-  the default to protect or something to construct *[country-dependent]*.
+  the default to protect or something to construct (**country-dependent**).
 * The reader's own organisation's registration, booking and named-clinician arrangements, which
   are the only authority on what continuity is actually achievable locally.
 

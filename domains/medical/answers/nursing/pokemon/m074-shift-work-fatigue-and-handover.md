@@ -204,8 +204,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * The reader's national occupational health and safety body's guidance on shift work and fatigue,
   for the risk-management framing and the employer duties.

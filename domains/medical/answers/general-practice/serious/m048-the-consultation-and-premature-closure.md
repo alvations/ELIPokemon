@@ -25,7 +25,7 @@ reasoning downstream can recover information that the first question excluded fr
    more than one concern, and the one named first is frequently not the one they are most worried
    about — the worrying one is often held back until the clinician appears to have finished, or is
    raised at the point when the consultation is visibly ending. That this pattern exists is not
-   controversial; its frequency differs by setting and by how it is measured *[consensus]*.
+   controversial; its frequency differs by setting and by how it is measured (**consensus**).
 2. **An uninterrupted opening statement is short.** Shorter than clinicians expect, and much
    shorter than the time its interruption goes on to cost. Specific averages have been published
    by several groups and they differ; the useful version of the finding is the direction, which is

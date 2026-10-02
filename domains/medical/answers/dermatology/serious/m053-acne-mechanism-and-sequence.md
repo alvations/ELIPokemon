@@ -18,25 +18,25 @@ cannot hold a result.
 
 ## Markers used in this answer
 
-*mechanism* — follows from physiology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from physiology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The four mechanisms
 
 **One: altered follicular keratinisation.** Corneocytes lining the follicular duct fail to shed
 normally and accumulate, plugging the duct. The resulting **microcomedo** is the primary lesion of
-acne and the precursor of everything visible. [consensus] This is the upstream step, and the
+acne and the precursor of everything visible. (**consensus**) This is the upstream step, and the
 reason the ordering of treatment exists at all.
 
 **Two: sebum.** Sebaceous glands enlarge and sebum output rises under androgen drive, which is why
 acne begins around adrenarche and puberty rather than earlier. The composition changes as well as
-the quantity. [mechanism] Sebum is substrate.
+the quantity. (**mechanism**) Sebum is substrate.
 
 **Three: the follicular microbiome.** *Cutibacterium acnes*, formerly *Propionibacterium acnes*,
 is a skin commensal that proliferates in the lipid-rich, relatively anaerobic plugged duct. It is
 not a pathogen in the ordinary sense — it is present on everybody — and the modern view emphasises
-strain-level differences and biofilm rather than simple overgrowth. [consensus] This matters
+strain-level differences and biofilm rather than simple overgrowth. (**consensus**) This matters
 clinically: acne is not an infection, and treating it as one is the root of the stewardship
 problem below.
 
@@ -44,8 +44,8 @@ problem below.
 eventually rupture of the follicular wall, spilling keratin and lipid into the dermis and
 producing the deep, slow, scarring lesions. The older teaching had inflammation arriving after the
 comedo; the current position is that inflammatory change is detectable early, including in
-clinically normal-looking skin. [consensus] That revision is not cosmetic — it is the argument for
-treating early rather than waiting for inflammatory lesions.
+clinically normal-looking skin. (**consensus**) That revision is not cosmetic — it is the argument
+for treating early rather than waiting for inflammatory lesions.
 
 ## How the mechanisms produce the lesions you can see
 
@@ -101,33 +101,33 @@ treating early rather than waiting for inflammatory lesions.
 
 **Combination, not monotherapy.** Four mechanisms, and no topical agent covers all four, so
 inflammatory acne is treated with agents that cover different columns — characteristically a
-retinoid with benzoyl peroxide, or a retinoid with an antibacterial. [consensus] This is also the
-reason fixed combination preparations exist.
+retinoid with benzoyl peroxide, or a retinoid with an antibacterial. (**consensus**) This is also
+the reason fixed combination preparations exist.
 
 **Never an antibiotic alone.** Antibiotic monotherapy, topical or oral, selects resistant *C.
 acnes* and resistant commensals including staphylococci and streptococci, and the resistance is
 transmissible and persists. The standard response is to pair every antibiotic with benzoyl
 peroxide or a retinoid, to limit the duration of oral courses, and not to use topical and oral
-antibiotics of the same class together. [consensus] Benzoyl peroxide is the usual partner
+antibiotics of the same class together. (**consensus**) Benzoyl peroxide is the usual partner
 specifically because it kills by oxidation and acquired resistance to it is not described.
-[mechanism] The duration limits and the preferred agents are **country-dependent**.
+(**mechanism**) The duration limits and the preferred agents are (**country-dependent**).
 
 **Adequate duration before judging.** Follicular keratinisation normalises over weeks, so a
 regimen is given a genuine trial — in the order of two to three months — before it is called a
-failure. [consensus] Early irritation from a retinoid is expected, is dose- and frequency-related,
-and is the commonest reason a regimen is abandoned in week two. Establishing what was actually
-applied, and how often, comes before escalating; the sibling answer in this set on topical
-quantity is the general case.
+failure. (**consensus**) Early irritation from a retinoid is expected, is dose- and
+frequency-related, and is the commonest reason a regimen is abandoned in week two. Establishing
+what was actually applied, and how often, comes before escalating; the sibling answer in this set
+on topical quantity is the general case.
 
 **Maintenance is a separate phase.** Clearance removes the visible lesions; it does not remove
 mechanism one. Continuing a topical retinoid after clearance is what prevents the microcomedones
 re-accumulating, and stopping everything on clearance is the commonest cause of relapse.
-[consensus]
+(**consensus**)
 
 **Treat early where scarring is in prospect.** Nodulocystic disease, truncal disease, a strong
 family history of scarring, existing scars, and significant psychological impact all shorten the
 observation period before escalation, because the endpoint being avoided is permanent. Which of
-these constitutes a referral threshold is **country-dependent**.
+these constitutes a referral threshold is (**country-dependent**).
 
 ## Isotretinoin, which is why the table has a bottom row
 
@@ -141,7 +141,8 @@ country that licenses it operates a pregnancy prevention framework around it —
 requirements, pregnancy testing before, during and after treatment, and limits on the quantity
 dispensed. The details are set by your national regulator and are not reproducible here.
 Mucocutaneous effects are near-universal. Baseline and on-treatment monitoring is required and the
-panel differs by country. Prescribing is usually restricted to specialists. [country-dependent]
+panel differs by country. Prescribing is usually restricted to specialists.
+(**country-dependent**)
 
 The question of psychiatric adverse effects — depression, mood change and suicidality — has been
 reviewed repeatedly by national regulators, and the current position in several countries is that
@@ -155,14 +156,14 @@ writing about this should check their own regulator's current position rather th
 An abrupt, monomorphic, papulopustular eruption without comedones is an acneiform drug eruption
 rather than acne — corticosteroids, androgens, lithium, some antiepileptics and the epidermal
 growth factor receptor inhibitors are the classic causes, and the absence of comedones is the
-discriminating sign. [consensus] Rosacea has no comedones either and has flushing and
+discriminating sign. (**consensus**) Rosacea has no comedones either and has flushing and
 telangiectasia instead. Hidradenitis suppurativa affects the flexures with sinuses and bridged
 scarring. *Malassezia* folliculitis is itchy, monomorphic and truncal. Acne fulminans is abrupt,
 ulcerating, with systemic features, and is an urgent problem.
 
 And a pattern worth naming: acne of abrupt onset in an adult woman, with hirsutism, menstrual
 irregularity, or features suggesting virilisation, prompts endocrine assessment rather than only
-dermatological treatment. [consensus]
+dermatological treatment. (**consensus**)
 
 ## The human stakes, said plainly
 

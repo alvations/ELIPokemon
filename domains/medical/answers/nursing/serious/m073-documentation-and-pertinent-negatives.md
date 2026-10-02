@@ -17,7 +17,7 @@ there will read it and act on it**, often at three in the morning, often without
 you anything. *This is mechanism rather than guideline; the specific duties below are
 country-dependent.*
 
-Markers used below: *mechanism*, *definitional*, *consensus*, *country-dependent*.
+Markers used below: **mechanism**, **definitional**, **consensus**, **country-dependent**.
 
 That reframe decides every contested question. Is this detail worth recording? Would the next
 person act differently if they had it. Is this abbreviation acceptable? Will the next person read
@@ -162,8 +162,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * The reader's own professional regulator's standards on record keeping — the document that binds
   them personally, and the one this answer is least able to substitute for, because it differs by

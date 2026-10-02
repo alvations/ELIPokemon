@@ -18,7 +18,7 @@ predict most of the toxicity profile, and the places where that prediction fails
 informative.
 
 Claims below are marked by kind: **mechanism** (derivable from how the biology works),
-**definitional**, **consensus** (widely agreed professional practice), **country-dependent**
+(**definitional**, **consensus**) (widely agreed professional practice), (**country-dependent**)
 (varies by nation, region or institution, and changes).
 
 ## The shape of the argument
@@ -118,7 +118,7 @@ change in the tumour's phenotype so the dependency no longer holds (**consensus*
 signal rather than to poison the cell: block the receptor, degrade it, or reduce the supply of its
 ligand by suppressing the gland that makes it or the enzyme that synthesises it. Combinations of
 those approaches are used depending on the disease and the physiological setting (**consensus**,
-**country-dependent** in regimen choice).
+(**country-dependent**) in regimen choice).
 
 **Therefore the effect is largely cytostatic, and slower** (**mechanism**). The cell is not killed
 outright; it is deprived of a growth signal. Clinically that means the effect accrues over longer
@@ -159,7 +159,7 @@ the mechanism rather than from observation:
 * **Some of it does not resolve when the drug stops** — endocrine organs in particular can be
   permanently affected, needing lifelong replacement (**consensus**).
 
-**Therefore the management is different in kind** (**mechanism**, **country-dependent** in
+**Therefore the management is different in kind** (**mechanism**, (**country-dependent**) in
 protocol). The response to an immune-related adverse event is immunosuppression, with permanent
 discontinuation in some cases — not the dose reduction that answers a cytotoxic toxicity. Reducing
 the dose of a drug that is not doing the damage does not address the problem. Cell therapies and

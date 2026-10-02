@@ -44,7 +44,7 @@ Cost 1 is the one that gets taught and it is not always the dominant one. **(Con
 ionising radiation carries a dose-related stochastic risk, that the relevance is greater in
 younger people and with repeated exposure, and that justification and dose minimisation are
 accordingly standard practice; every figure, dose-reference level and national framework is
-**country-dependent** and none is given here.**)**
+(**country-dependent**) and none is given here.**)**
 
 Cost 4 is the one that is systematically under-weighted, because it is invisible at the moment of
 ordering and lands weeks later as somebody else's problem. **(Consensus** that incidental findings
@@ -185,10 +185,10 @@ apply here. Specific to this answer:
   of decision rules and for the incidental-findings literature.
 
 Markers used above: **mechanism** (follows from decision theory and is checkable by reasoning),
-**consensus** (agreed across mainstream sources as of writing), **country-dependent** (genuinely
-differs between countries, regulators or institutions). No rule, criterion, threshold, dose
-figure, dose reference level or modality recommendation is stated, and nothing is quoted, because
-none of these documents was opened.
+(**consensus**) (agreed across mainstream sources as of writing), (**country-dependent**)
+(genuinely differs between countries, regulators or institutions). No rule, criterion, threshold,
+dose figure, dose reference level or modality recommendation is stated, and nothing is quoted,
+because none of these documents was opened.
 
 ## Scope and safety
 

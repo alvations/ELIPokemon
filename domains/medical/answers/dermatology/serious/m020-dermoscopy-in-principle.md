@@ -23,9 +23,9 @@ dermatoscope.
 The stratum corneum is a rough, dry, refractive-index-mismatched surface. A large proportion of
 the light arriving at it is reflected straight back before it ever reaches the pigmented epidermis
 or the papillary dermis. That reflected light carries no information about what is underneath and
-drowns out the light that does. [mechanism] The limiting factor is therefore **surface glare**,
-not angular resolution, and magnifying a glare-dominated image produces a larger glare-dominated
-image.
+drowns out the light that does. (**mechanism**) The limiting factor is therefore **surface
+glare**, not angular resolution, and magnifying a glare-dominated image produces a larger
+glare-dominated image.
 
 ```
    WHY IT IS NOT A MAGNIFYING GLASS
@@ -55,7 +55,7 @@ image.
 Two ways of defeating the glare are in routine use and they are **not interchangeable**. Contact
 dermoscopy with an immersion fluid or gel matches the refractive index at the interface and
 presses the instrument against the skin. Polarised dermoscopy uses crossed polarisers to reject
-the surface-reflected light and can be used without contact. By *consensus* in the standard
+the surface-reflected light and can be used without contact. By (**consensus**) in the standard
 teaching, some structures are seen better under one than the other — several surface and
 superficial features are favoured by contact immersion, while certain bright white structures
 appear only under polarisation. A practitioner who uses one mode exclusively has a systematic
@@ -65,7 +65,7 @@ blind spot, and knowing which mode produced an image is part of reading it.
 
 Dermoscopy is a two-level system, and conflating the levels is the commonest conceptual error.
 
-**Level one: name the structures.** The terms are *definitional*, drawn from an agreed descriptive
+**Level one: name the structures.** The terms are (**definitional**), drawn from an agreed descriptive
 lexicon, and they include the pigment network and whether it is regular or atypical, dots,
 globules, streaks and radial lines, structureless or homogeneous areas, blue-white structures,
 regression features, and the morphology of vessels — dotted, comma, hairpin, arborising,
@@ -93,7 +93,7 @@ set, and the one you should learn is the one your service actually uses.
 Dermoscopy improves diagnostic accuracy for melanoma **in trained hands**. Used without training
 it may perform no better than naked-eye examination, and the mechanism of that failure is
 straightforward: the instrument adds information, and information you cannot interpret moves a
-decision without improving it. [consensus] This is why dermoscopy is treated as a skill with a
+decision without improving it. (**consensus**) This is why dermoscopy is treated as a skill with a
 learning curve rather than as a piece of equipment, and why buying the device is the easy part.
 
 ## What it does not do

@@ -88,7 +88,7 @@ failure is common.
 * **Incentivised indicators change recorded activity, and what is measured displaces what is
   not.** That direction is not seriously disputed; the size of the effect, and whether it survives
   the removal of the incentive, are contested and differ between systems
-  *[country-dependent]*.
+  (**country-dependent**).
 * **A review built around a single disease collides with the next person who has four.** Four
   annual reviews is four appointments, four templates and four sets of targets, assembled by
   nobody. That is a separate question and it has its own answer.
@@ -140,10 +140,10 @@ Specific to this answer:
 
 * The national guideline for whichever long-term condition is in question, issued by the body that
   governs the reader's practice, for the review interval and the variables it expects
-  *[country-dependent]*.
+  (**country-dependent**).
 * The specification of the reader's own incentive or quality framework for primary care, which is
   what actually determines what a review contains and is recorded for in that system
-  *[country-dependent]*.
+  (**country-dependent**).
 * Any systematic review of the effect of pay-for-performance or indicator-based schemes in primary
   care, in the health-services-research literature, for the direction of effect and for the
   authors' assessment of how much is recording behaviour.

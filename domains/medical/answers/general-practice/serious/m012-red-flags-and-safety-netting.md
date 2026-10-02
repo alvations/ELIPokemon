@@ -29,10 +29,11 @@ action threshold on its own. That definition has two consequences that matter mo
 
 * **Red flags are tuned for specificity, and they therefore have poor sensitivity.** Most serious
   disease, most of the time, presents without them — especially early, which is when it is seen
-  first *[consensus]*. A red-flag screen is a rule-in instrument being asked to do a rule-out job.
+  first (**consensus**). A red-flag screen is a rule-in instrument being asked to do a rule-out
+  job.
 * **A red-flag list is a threshold, and thresholds are set locally.** Which features trigger an
   urgent referral, at what age, and on what timescale differ substantially between health systems
-  and are revised regularly *[country-dependent]*.
+  and are revised regularly (**country-dependent**).
 
 Here is what a negative red-flag screen actually leaves behind.
 
@@ -110,7 +111,7 @@ is ritual. Anxiety is a real harm here and is caused by the net itself.
 
 Diagnostic delay is the mechanism behind a large share of serious harm in first-contact care, and
 the two named most often are delayed cancer diagnosis and the deterioration of an infection that
-looked unremarkable at first presentation *[consensus]*. These are not abstractions and they are
+looked unremarkable at first presentation (**consensus**). These are not abstractions and they are
 not the clinician's bad luck; they are, in a substantial proportion of cases, a consequence of a
 plan that had no trigger, no date and no record. That is also the hopeful part: it is the kind of
 failure that a designed process reduces.
@@ -140,7 +141,7 @@ The standing documents for this specialty are listed in
 Specific to this answer:
 
 * The suspected-cancer and urgent-referral criteria issued by the national or regional body
-  governing the reader's practice, for the red-flag thresholds themselves *[country-dependent]*.
+  governing the reader's practice, for the red-flag thresholds themselves (**country-dependent**).
 * The curriculum and assessment guidance of the reader's own college or training body for general
   practice, for what safety-netting is formally expected to contain.
 * The reader's own organisation's significant-event and serious-incident framework, which is where
@@ -148,7 +149,7 @@ Specific to this answer:
 * Any systematic review of diagnostic error and diagnostic delay in primary care, in the
   patient-safety literature, for the recurring contributory factors.
 * The national patient-safety or healthcare-inspection body's published reports on diagnostic
-  delay for the reader's country *[country-dependent]*.
+  delay for the reader's country (**country-dependent**).
 
 ## Scope and safety
 

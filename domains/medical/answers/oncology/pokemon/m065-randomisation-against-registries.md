@@ -37,7 +37,7 @@ this answer stands in for one. What is carried across is the *procedure*: the th
 the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The two instruments, drawn
 

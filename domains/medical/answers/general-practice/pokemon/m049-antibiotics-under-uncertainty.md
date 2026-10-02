@@ -189,13 +189,13 @@ Specific to this answer:
 
 * The reader's national antimicrobial prescribing guidance and local microbiology formulary, which
   together are the only authority on agent, spectrum and duration for any specific condition, and
-  which differ substantially between countries and between regions *[country-dependent]*.
+  which differ substantially between countries and between regions (**country-dependent**).
 * The World Health Organization's published global action plan on antimicrobial resistance, and
   its classification of antibiotics into access, watch and reserve groups, for the
   population-level framing and the reserved-agent concept.
 * The reader's own country's national action plan or surveillance report on antimicrobial
   resistance, which carries the local resistance rates that determine where the local balance
-  point sits *[country-dependent]*.
+  point sits (**country-dependent**).
 * Any systematic review of delayed or back-up antibiotic prescribing in primary care, for the
   evidence on symptom outcomes and on reconsultation.
 * Any systematic review of audit-and-feedback or of behavioural interventions on antibiotic

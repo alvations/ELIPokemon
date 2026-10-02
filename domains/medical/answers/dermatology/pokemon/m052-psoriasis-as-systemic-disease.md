@@ -93,7 +93,7 @@ so the skin appointment is the screening opportunity, and what it prevents is st
 permanent. The questions are about pattern rather than about pain: morning stiffness lasting more
 than half an hour, better with movement than with rest, a whole digit swollen rather than a joint,
 heel or insertional pain, inflammatory back symptoms. Validated screening questionnaires exist and
-which one is used is **country-dependent**.
+which one is used is (**country-dependent**).
 
 **Nails.** Pitting, onycholysis, subungual hyperkeratosis and the salmon-coloured oil drop sign
 travel with psoriatic arthritis and with disease of the neighbouring distal interphalangeal joint,
@@ -114,7 +114,7 @@ hypertension, dyslipidaemia, fatty liver and cardiovascular events are robust. W
 causal, shared-pathway, or confounded by smoking, alcohol and adiposity is still argued, and the
 honest line is that the association holds and the mechanism does not. The practical consequence is
 not in dispute: cardiovascular risk factors get reviewed, on an interval that is
-**country-dependent**.
+(**country-dependent**).
 
 **And the spared organ is not evidence of nothing happening.** **Tyranitar**'s **Sand Stream**
 puts up a **Sandstorm** that costs a sixteenth of maximum HP per turn to everything on the field —
@@ -147,8 +147,8 @@ long-standing systemic three and act broadly, with monitoring set by your own fo
 The biologic classes are where the **Air Lock** sits: tumour necrosis factor, the shared p40
 subunit of interleukin-12 and interleukin-23, interleukin-17 and its receptor, and interleukin-23
 alone, with oral small molecules alongside. Which agents are licensed, which are funded, in what
-order and on what criteria is **country-dependent** and moves often enough to be looked up rather
-than recalled.
+order and on what criteria is (**country-dependent**) and moves often enough to be looked up
+rather than recalled.
 
 ## Where the metaphor stops
 

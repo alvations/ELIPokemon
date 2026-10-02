@@ -11,10 +11,10 @@ tags: [nail, hair, alopecia, onychodystrophy, timeline]
 # The nail plate and the hair shaft are already dead, which is exactly why they hold the record
 
 A nail plate is keratin produced by the matrix, which sits under the proximal nail fold, and once
-the plate has emerged it is biologically inert. [mechanism] It is not remodelled, it does not
+the plate has emerged it is biologically inert. (**mechanism**) It is not remodelled, it does not
 repair, and it moves distally at a rate set by the matrix behind it. A hair shaft is the same kind
 of object: a column of keratin laid down by the follicle, carrying the follicle's behaviour at the
-moment each segment was formed and nothing about the follicle's behaviour now. [mechanism]
+moment each segment was formed and nothing about the follicle's behaviour now. (**mechanism**)
 
 The clinical consequence is the reason this question is worth a whole answer. **Examining a nail
 or a hair shaft is not taking a snapshot. It is reading a strip chart.** A transverse abnormality
@@ -24,9 +24,9 @@ months ago.
 
 ## Markers used in this answer
 
-*mechanism* — follows from biology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from biology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The chart, and how to read a position as a date
 
@@ -77,27 +77,27 @@ meaning. *consensus* — standard across current textbooks and national guidance
 The last sentence of that diagram is the single most useful operational fact in this answer. **The
 assessment interval is set by the structure's own growth rate, not by the clinic's diary.**
 Judging an antifungal, or any treatment that works by allowing normal plate to be produced, before
-a full plate has grown out, is judging it before the evidence exists. [mechanism]
+a full plate has grown out, is judging it before the evidence exists. (**mechanism**)
 
 ## The hair cycle, and why the complaint arrives after the recovery
 
 Each follicle cycles independently through a long growth phase, a brief transitional phase, and a
-resting phase that ends in the shaft being released. [definitional] At any one time the great
+resting phase that ends in the shaft being released. (**definitional**) At any one time the great
 majority of scalp follicles are in the growth phase, and because they are unsynchronised the
-normal daily shed is unremarkable. [consensus]
+normal daily shed is unremarkable. (**consensus**)
 
 Telogen effluvium is what happens when that independence breaks. A systemic insult — a febrile
 illness, surgery, a major physiological event, significant weight loss, a new drug, severe iron
 deficiency — pushes a large cohort of growing follicles into the resting phase at the same time.
-[mechanism] The shedding cannot happen until that resting phase ends, so it begins roughly two to
-three months after the insult, which is usually after the person has recovered from whatever
-caused it. [consensus] They present with heavy diffuse shedding and no current illness, and the
-history that explains it is the history of a season ago.
+(**mechanism**) The shedding cannot happen until that resting phase ends, so it begins roughly two
+to three months after the insult, which is usually after the person has recovered from whatever
+caused it. (**consensus**) They present with heavy diffuse shedding and no current illness, and
+the history that explains it is the history of a season ago.
 
 Anagen effluvium is the contrasting mechanism and the contrast is diagnostic. A direct toxic
 insult to the actively dividing matrix — classically cytotoxic chemotherapy — damages the shaft as
 it is being made, so the hair breaks or is lost within days to weeks rather than months, and the
-timescale itself distinguishes the two. [mechanism] [consensus]
+timescale itself distinguishes the two. (**mechanism** **consensus**)
 
 ## The branch that makes timing matter: scarring or not
 
@@ -136,8 +136,8 @@ timescale itself distinguishes the two. [mechanism] [consensus]
 That table is the reason delay costs something here. In a non-scarring alopecia the tissue is
 waiting; in a scarring alopecia the window is open only while follicles remain, so the assessment
 that identifies an active scarring process is time-critical in a way that the cosmetic framing of
-hair loss entirely conceals. [consensus] The referral routes and timescales are
-**country-dependent**.
+hair loss entirely conceals. (**consensus**) The referral routes and timescales are
+(**country-dependent**).
 
 ## What the nail says about the rest of the body
 
@@ -145,16 +145,16 @@ Nail findings are frequently the readout of something that is not a nail problem
 argument about psoriasis applied to a different organ. Pitting, onycholysis, subungual
 hyperkeratosis and the salmon-coloured patch point to psoriasis, and nail involvement is
 associated with psoriatic arthritis, so a nail examination is part of an arthritis assessment and
-not a cosmetic aside. [consensus] Ragged cuticles, nail fold erythema and abnormal nail fold
-capillaries point to connective tissue disease. [consensus] Clubbing, koilonychia and transverse
-grooves each have their own differential. Separation of the plate from the matrix some weeks after
-a febrile illness is a recognised sequence and is self-limiting. [consensus]
+not a cosmetic aside. (**consensus**) Ragged cuticles, nail fold erythema and abnormal nail fold
+capillaries point to connective tissue disease. (**consensus**) Clubbing, koilonychia and
+transverse grooves each have their own differential. Separation of the plate from the matrix some
+weeks after a febrile illness is a recognised sequence and is self-limiting. (**consensus**)
 
 Two findings carry a different kind of weight and belong with the recognition question rather than
 this one. A **longitudinal pigmented band in a single nail**, particularly one that is widening,
 has irregular pigmentation, involves the cuticle or proximal nail fold, or arises in a single
 digit in an adult, is a reason for specialist assessment of the nail apparatus rather than
-observation. [consensus] And a **solitary chronically abnormal or non-healing nail unit** that
+observation. (**consensus**) And a **solitary chronically abnormal or non-healing nail unit** that
 does not behave like the condition it was labelled as is assessed rather than re-treated — the
 same discipline m055 applies to a non-healing leg ulcer, and the oncology answers m061 to m065 are
 where the staging and spread reasoning lives. Nothing about it is re-derived here.
@@ -164,17 +164,17 @@ where the staging and spread reasoning lives. Nothing about it is re-derived her
 **Ask about the past, not the present.** The useful question is what was happening two to three
 months ago for hair, and a window proportional to the distance of the abnormality from the fold
 for nails: illnesses, operations, pregnancies, new medicines, crash diets, bereavements, hospital
-admissions. [mechanism]
+admissions. (**mechanism**)
 
 **Ask about all twenty digits and look at all of them.** A change on every nail at the same level
-is a systemic event; a change on one is a local process. [mechanism]
+is a systemic event; a change on one is a local process. (**mechanism**)
 
 **Ask what has already been done, and for how long.** A nail treated with an antifungal for less
-time than a plate takes to grow out has not failed; it has not been assessed yet. [mechanism]
+time than a plate takes to grow out has not failed; it has not been assessed yet. (**mechanism**)
 
 **Look for the active edge in the scalp, not the middle of the bald patch.** The centre of a
 scarred area has nothing left to find, and the diagnostic biopsy site in a scarring alopecia is
-the active margin. [consensus]
+the active margin. (**consensus**)
 
 ## The human stakes, said plainly
 
@@ -265,6 +265,6 @@ scarring alopecias has been actively revised over the last two decades and the g
 between texts. Frontal fibrosing alopecia has been reported in rising numbers internationally and
 the cause of that rise is not settled. Treatment of alopecia areata changed substantially with the
 arrival of oral Janus kinase inhibitors, and which of them is licensed, for which severity, at
-what age, and whether it is funded, is firmly **country-dependent** and has moved more than once.
-Trichoscopy has become a routine part of the hair examination rather than a specialist extra. The
-nail signs and their differentials are stable. Current as of October 2026.
+what age, and whether it is funded, is firmly (**country-dependent**) and has moved more than
+once. Trichoscopy has become a routine part of the hair examination rather than a specialist
+extra. The nail signs and their differentials are stable. Current as of October 2026.

@@ -102,9 +102,9 @@ behaviour, the healing, the biopsy site, the test and the treatment.
 
 ## Markers used in this answer
 
-The clinical claims here carry the same inline markers as the serious half. *mechanism* — follows
-from biology and is checkable by reasoning. *definitional* — a term's meaning. *consensus* —
-standard across current textbooks and national guidance. *country-dependent* — differs between
+The clinical claims here carry the same inline markers as the serious half. **mechanism** — follows
+from biology and is checkable by reasoning. (**definitional**) — a term's meaning. (**consensus**) —
+standard across current textbooks and national guidance. (**country-dependent**) — differs between
 countries or institutions, and yours is the authority. The Pokémon claims are not marked this way;
 they are listed in the `## Sources` section with the file they were checked against.
 
@@ -197,13 +197,13 @@ the questions are different:
 The immunofluorescence sample comes from normal-appearing skin **beside** the blister, because the
 test detects immunoreactants bound in tissue and the inflammatory environment inside a blister
 cavity degrades exactly what is being looked for. A sample from the roof or the base can come back
-negative while the disease is unambiguously present. [mechanism] [consensus]
+negative while the disease is unambiguously present. (**mechanism** **consensus**)
 
 Which is `gBattleMons[gActiveBattler].status2` returning zero while `gSideStatuses[side]` has
 `SIDE_STATUS_SAFEGUARD` set. **The read succeeded. The variable was wrong. And a confident zero
 from the wrong structure is worse than no result**, because it reads as an answer and the repeat
 costs weeks. The handling also differs — fresh or in a specific transport medium rather than
-formalin — and the laboratory where you practise specifies which, which is **country-dependent**.
+formalin — and the laboratory where you practise specifies which, which is (**country-dependent**).
 
 ## Nikolsky's sign is a side status, not a battler status
 
@@ -214,7 +214,7 @@ three layers in the third generation — three, a generation-three change.
 Lateral shearing pressure on apparently normal skin produces separation when adhesion has been
 lost **across an area** rather than only where a blister is visible. A positive Nikolsky sign
 points to an intraepidermal, adhesion-molecule-mediated process, and the blister you can see is
-simply where separation has already happened. [mechanism] The eliciting technique and the named
+simply where separation has already happened. (**mechanism**) The eliciting technique and the named
 variants differ between texts and the sign is not specific on its own.
 
 ## Wonder Guard, and the splits that engage none of the machinery
@@ -254,7 +254,7 @@ scarring, and genital and oesophageal disease that is missed because nobody look
 Treatment of the immunobullous diseases is immunosuppression, with topical therapy playing a
 larger role in localised pemphigoid than people expect, and with rituximab having changed
 first-line practice in pemphigus in several countries over the last decade. Which agents, in what
-order, at what threshold and with what funding is firmly **country-dependent**, and no agent, dose
+order, at what threshold and with what funding is firmly (**country-dependent**), and no agent, dose
 or regimen appears here.
 
 ## Where the metaphor stops
@@ -368,7 +368,7 @@ The anatomy and the level-determines-everything argument are settled and are the
 memorising; the biopsy site rule for immunofluorescence is settled and still routinely got wrong.
 What moves is treatment and some of the classification. Rituximab changed first-line treatment of
 pemphigus in several countries within the last decade, and whether it is first-line, funded and
-available where you practise is **country-dependent**. The pemphigoid group has been subdivided
+available where you practise is (**country-dependent**). The pemphigoid group has been subdivided
 further as antigen-specific assays have become more widely available, and the nomenclature of
 mucous membrane pemphigoid and its variants has moved. An association between pemphigoid and
 dipeptidyl peptidase-4 inhibitors has been recognised and reported widely enough to change

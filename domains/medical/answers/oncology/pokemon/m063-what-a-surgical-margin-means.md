@@ -28,7 +28,7 @@ and accuracy fields.** No Pokémon in this answer stands in for a person with ca
 analogy is dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The three reasons, drawn
 
@@ -83,7 +83,7 @@ worries the pathologist most. Between and within those blocks is surface that wa
 So a clear margin is a **negative result from a sample**, and a negative from a sample bears on
 the whole only as far as the sample represents it. Sample more and the evidence improves and the
 cost rises, which is why sampling protocols are written per specimen type and are not left to
-taste (**consensus**, **country-dependent** in the detail).
+taste (**consensus**, (**country-dependent**) in the detail).
 
 Two of the Itemfinder's quirks carry straight across.
 
@@ -119,7 +119,7 @@ width; the report is a small number of categories separated by thresholds. The t
 conventions chosen to be reproducible between observers and to map onto decisions, they are
 **site-specific** — breast, rectum, skin, head and neck and sarcoma are maintained separately by
 different bodies — and they are revisable. Several have been revised, generally downwards, as
-evidence accumulated (**consensus**, **country-dependent** in adoption).
+evidence accumulated (**consensus**, (**country-dependent**) in adoption).
 
 One band genuinely is different in kind rather than in degree, and the table has that too: the
 entry at 1. Tumour reaching the inked surface is not a small distance. It is the absence of one.
@@ -191,7 +191,7 @@ So the things that genuinely buy certainty are **different mechanics**, not bigg
 stronger version of the roll. Clinically: better preoperative imaging and localisation,
 intraoperative assessment, specimen radiography, and techniques that map the margin as the
 excision proceeds in the sites where they are established (**consensus**, strongly
-**country-dependent** in availability).
+(**country-dependent**) in availability).
 
 ## Where the metaphor stops
 

@@ -26,9 +26,9 @@ ever balance what was written down. That difference is not a refinement. It is t
 between a comparison that supports a causal claim and one that does not.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the inference works), **definitional** (true because a convention says so), **consensus**
-(widely agreed professional practice), or **country-dependent** (varies by nation, region or
-institution, and changes).
+from how the inference works), (**definitional**) (true because a convention says so),
+(**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
+nation, region or institution, and changes).
 
 ## Where the two instruments differ
 

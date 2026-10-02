@@ -23,9 +23,9 @@ severe reactions get a telephone review and a reassurance.
 
 ## Markers used in this answer
 
-*mechanism* — follows from physiology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from physiology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The discriminators, which are a small and memorable list
 
@@ -64,22 +64,22 @@ meaning. *consensus* — standard across current textbooks and national guidance
 
 **Morbilliform or maculopapular exanthem** — the common one. Symmetrical erythematous macules and
 papules, trunk and proximal limbs first, becoming confluent, itchy, with the patient well.
-[consensus]
+(**consensus**)
 
 **Urticaria and angioedema** — wheals, each individual lesion lasting less than a day, and
 angioedema of the lips, tongue or airway. Onset is minutes to hours rather than days, which is
-itself a diagnostic feature. [definitional]
+itself a diagnostic feature. (**definitional**)
 
 **Fixed drug eruption** — one or a few round, dusky, sharply demarcated plaques that recur **at
 the same site** each time the drug is taken. The recurrence at the same site is the diagnosis.
-[consensus]
+(**consensus**)
 
 **Vasculitic eruption** — palpable purpura, dependent distribution, which prompts assessment for
 renal and other organ involvement rather than dermatological treatment alone.
 
 **Photosensitivity** — confined to exposed sites with sparing under a watch strap, in a collar
 shadow, in the submental triangle. Phototoxic reactions are dose-related and look like sunburn;
-photoallergic reactions are eczematous and can spread beyond exposed sites. [consensus]
+photoallergic reactions are eczematous and can spread beyond exposed sites. (**consensus**)
 
 **Lichenoid, psoriasiform, acneiform, bullous and pigmentary** patterns all exist and all have
 characteristic culprit classes, which is the subject of a reference text rather than a single
@@ -94,8 +94,9 @@ answer where being approximately right is not useful.
 compromise of sudden onset after an exposure, usually but **not always** with skin or mucosal
 features — cutaneous signs may be absent, and waiting for them is a described cause of delay.
 Treatment is intramuscular adrenaline, immediately, at the dose and site set by your resuscitation
-council's current guidance, with a call for help. [consensus] Nothing in this answer substitutes
-for that guidance, and anaphylaxis is a resuscitation topic rather than a dermatological one.
+council's current guidance, with a call for help. (**consensus**) Nothing in this answer
+substitutes for that guidance, and anaphylaxis is a resuscitation topic rather than a
+dermatological one.
 
 **Stevens-Johnson syndrome and toxic epidermal necrolysis.** A spectrum, divided by the percentage
 of body surface detached, with the threshold values set in the standard classification rather than
@@ -105,8 +106,8 @@ blistering, epidermal detachment, and a prodrome that can resemble a viral illne
 from drug initiation is characteristically days to a few weeks. Management is immediate withdrawal
 of the suspect drug, urgent senior and multidisciplinary involvement, and transfer to a unit
 equipped for extensive epidermal loss; supportive care dominates, and the role of specific
-immunomodulatory treatments remains genuinely contested. [consensus] Ophthalmology involvement is
-early, because ocular sequelae are a major source of long-term disability.
+immunomodulatory treatments remains genuinely contested. (**consensus**) Ophthalmology involvement
+is early, because ocular sequelae are a major source of long-term disability.
 
 **Drug reaction with eosinophilia and systemic symptoms, also known as drug hypersensitivity
 syndrome.** The distinguishing feature is latency: it begins **later** than an exanthem, weeks
@@ -115,12 +116,12 @@ thinking about any more. Fever, facial oedema, widespread eruption, lymphadenopa
 or atypical lymphocytosis, and visceral involvement — hepatitis most commonly, but also kidney,
 lung and heart. It can continue to worsen or relapse after the drug has been stopped, and late
 autoimmune sequelae including thyroid disease are described, so follow-up extends beyond recovery.
-[consensus]
+(**consensus**)
 
 **Acute generalised exanthematous pustulosis.** Rapid onset, characteristically within a few days
 of the drug. Dozens to hundreds of small, sterile, non-follicular pustules on oedematous erythema,
 often beginning in the flexures and the face, with fever and neutrophilia. It usually settles with
-desquamation after withdrawal, and the main differential is pustular psoriasis. [consensus]
+desquamation after withdrawal, and the main differential is pustular psoriasis. (**consensus**)
 
 ## Finding the culprit, which comes after the severity assessment
 
@@ -133,20 +134,20 @@ reaction will not be explained by one started last month.
 
 Certain classes recur across the severe patterns — the antibiotics, particularly beta-lactams and
 sulfonamides; the aromatic anticonvulsants; allopurinol; the non-steroidal anti-inflammatory
-drugs; and several antiretrovirals. [consensus] Pharmacogenomic associations exist for some drug
-and population pairs and pre-treatment testing is required in some countries for some of them;
-which ones, and for whom, is firmly **country-dependent** and is a formulary question.
+drugs; and several antiretrovirals. (**consensus**) Pharmacogenomic associations exist for some
+drug and population pairs and pre-treatment testing is required in some countries for some of
+them; which ones, and for whom, is firmly (**country-dependent**) and is a formulary question.
 
 Reporting matters. Every country with a regulator operates a spontaneous adverse-reaction
 reporting scheme, and severe cutaneous reactions are exactly the signal those schemes exist to
-detect. [consensus]
+detect. (**consensus**)
 
 ## The allergy label, and why it is a clinical intervention
 
 What gets written in the record outlives the episode by decades. A label that says only
 "penicillin — rash" does not distinguish a childhood viral exanthem from anaphylaxis, and the
 downstream cost is measurable: broader-spectrum alternatives, worse outcomes for some infections,
-and more resistance. [consensus] The useful record states the drug, the date, the pattern, the
+and more resistance. (**consensus**) The useful record states the drug, the date, the pattern, the
 latency, the severity, what happened when it was stopped, and whether the reaction was ever
 assessed. Equally, a severe reaction must be recorded in a way that cannot be overlooked, together
 with the cross-reacting agents to avoid. Both failures are common and they fail in opposite

@@ -147,9 +147,9 @@ negative one. **(Consensus;** the proportion of such presentations with an ident
 problem is a matter of published series and is not quantified here.**)** The recognised response
 is a multidisciplinary assessment of both terms, because the two terms are assessed by different
 professions and the second cannot be changed by a prescription — its name, composition and funding
-are **country-dependent**. Capacity, consent and the protection of adults at risk are deliberately
-absent from this answer: they are matters of law that differ by jurisdiction and the reader's own
-legislation is the only acceptable source.
+are (**country-dependent**). Capacity, consent and the protection of adults at risk are
+deliberately absent from this answer: they are matters of law that differ by jurisdiction and the
+reader's own legislation is the only acceptable source.
 
 No Pokémon stands for a patient anywhere in this answer, and that constraint shaped it. Nothing in
 the game represents a person, a frailty, a home, a carer or an outcome; no entrant stands for

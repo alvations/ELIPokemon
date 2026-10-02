@@ -211,12 +211,12 @@ Specific to this answer:
   phrase on its own has become a slogan.
 * The major national reviews of health inequality commissioned in the reader's own country, which
   are where proportionate universalism and the social-determinants framing are set out at length
-  *[country-dependent]*.
+  (**country-dependent**).
 * The World Health Organization's published work on the social determinants of health, for the
   framework and for the international comparisons.
 * The capitation or allocation formula used to fund primary care in the reader's own system,
   including its need adjustment, which is the document in which the supply mechanism is either
-  corrected or embedded *[country-dependent]*.
+  corrected or embedded (**country-dependent**).
 * Any published analysis of coverage, uptake or outcome by deprivation, ethnicity or disability
   for the specific programme in question, which is the only place a gradient can be seen at all.
 * The health-services-research literature on intervention-generated inequality, for the general

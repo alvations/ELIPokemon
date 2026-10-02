@@ -148,7 +148,7 @@ good faith, by people who believed it helped, to readers who then did it to some
 about. Butter or ice onto a burn. Vomiting induced after a swallowed poison. A snake bite cut,
 heated or sucked. A head tilted back for a nosebleed. Alcohol given to someone cold or collapsed.
 The lay pulse check, which cost more in delay than it ever recovered in accuracy. **(Consensus**
-that each was removed from mainstream lay guidance; **country-dependent** in how each council
+that each was removed from mainstream lay guidance; (**country-dependent**) in how each council
 words its current position.**)** The honest summary is that advice given with good intentions
 caused harm, that this was found out, and that the advice was withdrawn. That sequence is the
 discipline working — and it is also why a forty-year-old leaflet is not a safe thing to act from.
@@ -205,10 +205,10 @@ Specific to this answer:
   the reader's country**, for the public-facing wording as that country's trainers teach it.
 
 Claims here are marked **mechanism** (an argument about what a document can assume about its
-reader), **consensus** (agreed across mainstream guidance as of writing), or **council-dependent**
-(genuinely different between councils). No rate, depth, ratio, dose or setting is stated anywhere
-in this answer; nothing is quoted; and no guideline number, document title or identifier is given,
-because none was opened.
+reader), (**consensus**) (agreed across mainstream guidance as of writing), or
+**council-dependent** (genuinely different between councils). No rate, depth, ratio, dose or
+setting is stated anywhere in this answer; nothing is quoted; and no guideline number, document
+title or identifier is given, because none was opened.
 
 ## Scope and safety
 
@@ -228,8 +228,8 @@ had no clinical review. Nothing here describes any real person, case or institut
 ## Where this stands, October 2026
 
 The design argument — different reader, different objective, therefore a structurally different
-document — is **mechanism** and is stable. That each item in the removals list was removed is
-**consensus** as of writing and has been for years in every case. Everything else is
+document — is (**mechanism**) and is stable. That each item in the removals list was removed is
+(**consensus**) as of writing and has been for years in every case. Everything else is
 **council-dependent** and moves: the exact current wording of every item, which recognition cues
 are given, every number, and how prominently dispatcher-assisted instruction is foregrounded all
 differ between national councils, which publish on multi-year cycles that are not synchronised

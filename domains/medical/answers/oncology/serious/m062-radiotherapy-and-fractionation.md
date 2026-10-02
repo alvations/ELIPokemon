@@ -21,8 +21,8 @@ That last one is the whole argument for fractionation, and it is a statement abo
 between two tissues, not about radiation being gentler in small amounts.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from the radiobiology), **definitional** (true because a convention says so), **consensus**
-(widely agreed professional practice), or **country-dependent** (varies by nation, region or
+from the radiobiology), (**definitional**) (true because a convention says so), (**consensus**)
+(widely agreed professional practice), or (**country-dependent**) (varies by nation, region or
 institution, and changes).
 
 ## What the radiation does
@@ -107,7 +107,7 @@ Two consequences are worth stating explicitly because they are what the schedule
 * **Where the tumour's fractionation sensitivity resembles that of the dose-limiting tissue, the
   argument weakens** — and in those settings fewer, larger fractions can give equivalent control
   with acceptable late effects. Which diseases those are, and what schedules are offered, is
-  **consensus** in principle and firmly **country-dependent** in practice.
+  (**consensus**) in principle and firmly (**country-dependent**) in practice.
 
 ## Acute and late reactions are different phenomena
 
@@ -141,7 +141,7 @@ there are exactly two ways to improve it (**mechanism**):
 * **Biologically** — exploit a difference between the target and the normal tissue. Fractionation
   is the oldest and most reliable such lever. Concurrent radiosensitising systemic therapy is
   another, and it works by widening the difference at the cost of adding toxicity (**consensus**,
-  with **country-dependent** regimens).
+  with (**country-dependent**) regimens).
 
 Which is why "more dose" is never the whole answer and "less dose" is never a safe default.
 

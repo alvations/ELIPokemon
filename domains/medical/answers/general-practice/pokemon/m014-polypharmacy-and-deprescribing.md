@@ -173,16 +173,16 @@ The standing documents for this specialty are listed in
 Specific to this answer:
 
 * The reader's national or regional formulary, which is the authority for every interaction, dose
-  and withdrawal schedule referred to in general terms here *[country-dependent]*.
+  and withdrawal schedule referred to in general terms here (**country-dependent**).
 * The national guideline on multimorbidity or on medicines optimisation issued by the body that
   governs the reader's practice, for the definition of appropriate versus problematic polypharmacy
-  and for the structure of a medication review *[country-dependent]*.
+  and for the structure of a medication review (**country-dependent**).
 * Any published, maintained screening tool for potentially inappropriate prescribing in older
   people — several exist, issued by different academic groups and updated periodically — read in
   its current edition rather than from memory.
 * The reader's national medicines regulator's summary of product characteristics for any specific
   medicine being considered, which is where withdrawal and rebound phenomena are documented
-  *[country-dependent]*.
+  (**country-dependent**).
 * Any systematic review of deprescribing trials in the clinical-pharmacology literature, for how
   thin the withdrawal evidence base is compared with the initiation evidence base.
 * The reader's own organisation's structured medication review template, for what is locally

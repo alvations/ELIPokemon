@@ -23,7 +23,8 @@ co-payment is for four items and they can afford two, nobody said it was lifelon
 because they felt better and nobody said that was the drug working — and each one names its own
 fix.
 
-Claims are marked **[M]** mechanism, **[D]** definitional, **[C]** consensus, or **[L]** local.
+Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
+or (**country-dependent**) local.
 
 ## The arithmetic of complexity
 
@@ -57,8 +58,9 @@ Two honest caveats about that table, and they point in opposite directions.
 **The independence assumption is wrong, and wrong in the pessimistic direction.** Doses cluster
 around anchors — meals, waking, bedtime, a carer's visit. Miss breakfast and you miss the
 breakfast dose and anything pinned to it, so failures correlate and the real distribution is
-lumpier than a binomial **[M]**. Disruption is the dominant mode: travel, shift work, admission to
-hospital, and above all discharge, where the list changes and nobody reconciles it **[C]**.
+lumpier than a binomial (**mechanism**). Disruption is the dominant mode: travel, shift work,
+admission to hospital, and above all discharge, where the list changes and nobody reconciles it
+(**consensus**).
 
 **And a lower frequency is not free.** A once-daily preparation is usually a modified-release one,
 and a modified-release product is less adjustable, more expensive, not interchangeable with
@@ -89,7 +91,7 @@ This is the part most often taught backwards. For most preventive therapy:
 ```
 
 So the interventions that work are the ones that change the shape of that table, not the ones that
-exhort **[C]**:
+exhort (**consensus**):
 
 * **Pre-empt the interpretation.** A symptom predicted in advance is a confirmation that the drug
   is working; the same symptom unpredicted is evidence that it is harmful. Nothing about the
@@ -97,7 +99,7 @@ exhort **[C]**:
 * **Use the kinetics.** Many early adverse effects are concentration-related and attenuate with
   titration, with dose timing (a sedating drug at night, a diuretic not at bedtime), or with food.
   Those are formulation and kinetic interventions, and they belong in the design rather than in a
-  conversation about motivation **[M]**.
+  conversation about motivation (**mechanism**).
 * **Say how long.** "Until you feel better" and "for life" are different prescriptions, and a
   person who was not told which one they have will decide for themselves.
 * **Name what would make stopping right.** A drug nobody wants, for a benefit the person does not
@@ -116,12 +118,12 @@ information. The fix is the information, the shared decision, or the deprescribi
 aid imposed on an intentional decision is an irritation that changes nothing.
 
 They coexist in the same person, for different drugs on the same list, and a question that asks
-about "your tablets" as a single object will not separate them **[C]**.
+about "your tablets" as a single object will not separate them (**consensus**).
 
 ## Measuring it, and the bias in every method
 
 Every available measure is biased, and in a known direction — so the useful skill is naming which
-bias you are holding **[C]**:
+bias you are holding (**consensus**):
 
 | Method | What it actually measures | Direction of the bias |
 | --- | --- | --- |
@@ -134,15 +136,15 @@ bias you are holding **[C]**:
 The concentration row is the one that catches people out. A low trough is equally consistent with
 missed doses and with fast clearance, and the number cannot separate them. Worse, concentrations
 are vulnerable to the pre-appointment adherence spike: doses resumed in the days before a clinic
-produce a reassuring result that describes those days and nothing else **[M]**.
+produce a reassuring result that describes those days and nothing else (**mechanism**).
 
 ## The layer above the consultation
 
 Cost and co-payment structures, medicine supply and shortages, transitions of care, interpreting
 and translation, health literacy, the number of different prescribers writing on one list, and
 whether anybody owns the whole list. All of these are strongly country- and system-dependent
-**[L]**, all of them are outside the person's control, and all of them are routinely recorded as
-the person's failing.
+(**country-dependent**), all of them are outside the person's control, and all of them are
+routinely recorded as the person's failing.
 
 ## The human stakes, said plainly
 

@@ -14,9 +14,9 @@ Fifty papules are fifty papules. Fifty in a unilateral band that stops at the mi
 the extensor elbows and knees, fifty on the face and the V of the neck while the submental skin is
 clean, and fifty confined to the axillae and groin are four different problems, and the morphology
 is identical in all four. Distribution and configuration are not context for the primary
-morphology. They are co-equal information, and the reason is *mechanism*: the primary morphology
-says which layer of the skin the process is in, and the distribution says **how whatever is
-causing it arrived there.**
+morphology. They are co-equal information, and the reason is (**mechanism**): the primary
+morphology says which layer of the skin the process is in, and the distribution says **how
+whatever is causing it arrived there.**
 
 ## Distribution encodes the route of arrival
 
@@ -55,7 +55,7 @@ causing it arrived there.**
 ```
 
 The single most informative item in that table is the first one, and it is the one that is
-reasoned from *mechanism* rather than memorised. **Symmetry implies a systemic or blood-borne
+reasoned from (**mechanism**) rather than memorised. **Symmetry implies a systemic or blood-borne
 delivery**, because there is no plausible external exposure that lands identically on both
 antecubital fossae. Asymmetry implies something arrived from outside. It is a heuristic with
 exceptions rather than a rule, but it is the heuristic that does the most work, and it costs
@@ -68,7 +68,7 @@ close-up photograph of an affected cheek is nearly worthless for this.
 
 ## Configuration: the shape the group makes
 
-The configuration terms are *definitional*, in the same way the primary morphology terms are.
+The configuration terms are (**definitional**), in the same way the primary morphology terms are.
 
 ```
    CONFIGURATION, AT ARM'S LENGTH
@@ -111,8 +111,8 @@ undressed skin surface. Only then close in for morphology, and only then palpate
 order is how a plaque on a forearm gets described beautifully and diagnosed wrongly.
 
 It also means the whole surface has to be seen. The sites skipped most often are the ones that
-most often settle it by *consensus* among standard texts: scalp, behind the ears, the nails, the
-mouth, the genitals, the natal cleft, between the toes, and the soles.
+most often settle it by (**consensus**) among standard texts: scalp, behind the ears, the nails,
+the mouth, the genitals, the natal cleft, between the toes, and the soles.
 
 ## Limits, stated honestly
 

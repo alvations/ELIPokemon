@@ -22,9 +22,10 @@ plane of separation**, and the clinical examination is unusually good at answeri
 
 ## Markers used in this answer
 
-*mechanism* — follows from anatomy and immunology and is checkable by reasoning. *definitional* —
-a term's meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from anatomy and immunology and is checkable by reasoning.
+(**definitional**) — a term's meaning. (**consensus**) — standard across current textbooks and
+national guidance. (**country-dependent**) — differs between countries or institutions, and yours
+is the authority.
 
 ## The levels, and what each one implies
 
@@ -72,32 +73,32 @@ a term's meaning. *consensus* — standard across current textbooks and national
    types are classified by the level of the split -- intraepidermal,
    junctional, or beneath the lamina densa -- because the missing
    structural protein determines the level and the level determines
-   severity, scarring and extracutaneous involvement. [definitional]
+   severity, scarring and extracutaneous involvement. (**definitional**)
    ==================================================================
 ```
 
 ## Why the level produces the appearance, mechanically
 
-The roof of the blister is whatever tissue sits above the plane of separation. [mechanism] A
+The roof of the blister is whatever tissue sits above the plane of separation. (**mechanism**) A
 subcorneal split is roofed by a few layers of dead keratin, so it cannot hold pressure and
 ruptures almost immediately; what is seen is an erosion with a rim of scale rather than a blister.
 A suprabasal split is roofed by most of the epidermis minus its basal layer, which is thin and
 fragile — flaccid, easily sheared, prone to extend. A subepidermal split is roofed by the whole
 epidermis, which is tough enough to contain fluid under pressure, giving the tense dome that stays
-intact for days. [mechanism]
+intact for days. (**mechanism**)
 
 The same logic gives the healing. A split above the basement membrane leaves the basement membrane
 intact, so re-epithelialisation happens from the adnexa and the wound edges without scarring. A
 split at or below it damages the structure that organises repair, so scarring and milia become
 possible — and in mucous membrane pemphigoid that scarring is the clinical problem, because
-scarring conjunctiva threatens sight and scarring oesophagus threatens swallowing. [mechanism]
-[consensus]
+scarring conjunctiva threatens sight and scarring oesophagus threatens swallowing. (**mechanism**)
+(**consensus**)
 
 And it gives Nikolsky's sign, which is worth understanding rather than memorising. Lateral
 shearing pressure on apparently normal skin produces separation when adhesion has been lost across
-a wide area rather than only where a blister is visible. [mechanism] A positive sign points to an
+a wide area rather than only where a blister is visible. (**mechanism**) A positive sign points to an
 intraepidermal, adhesion-molecule-mediated process; the blister you can see is simply where
-separation has already happened. [consensus] The eliciting technique and the named variants differ
+separation has already happened. (**consensus**) The eliciting technique and the named variants differ
 between texts, and the sign is not specific on its own.
 
 ## The two biopsies, which answer two different questions
@@ -106,22 +107,22 @@ This is the part most often got wrong in practice, and it is pure mechanism.
 
 **A lesional biopsy for routine histology** is taken to show the level of the split and the
 inflammatory pattern, so it must include the edge of a fresh blister with some intact roof. A
-sample from the middle of an old deroofed erosion shows neither. [consensus]
+sample from the middle of an old deroofed erosion shows neither. (**consensus**)
 
 **A biopsy for direct immunofluorescence is taken from normal-appearing skin next to the blister,
 not from the blister.** The test detects immunoreactants bound in tissue; inside a blister cavity
 the inflammatory environment degrades exactly what is being looked for, so a sample from the roof
-or base can be falsely negative. [mechanism] [consensus] It also usually needs different handling
+or base can be falsely negative. (**mechanism** **consensus**) It also usually needs different handling
 from the histology sample — fresh or in a specific transport medium rather than in formalin — and
-the laboratory where you practise specifies which. [country-dependent]
+the laboratory where you practise specifies which. (**country-dependent**)
 
 **Serum adds the circulating half of the picture.** Indirect immunofluorescence and
 antigen-specific assays identify the target, and the target names the disease: desmosomal proteins
 in the pemphigus group, basement membrane zone proteins in the pemphigoid group, and the specific
-pattern distinguishes members within each. [consensus] **Salt-split skin** is the technique that
+pattern distinguishes members within each. (**consensus**) **Salt-split skin** is the technique that
 separates the subepidermal diseases by showing whether the immunoreactants sit on the epidermal or
 the dermal side of an artificially induced split — which is the same question as the level of the
-split, asked of the laboratory instead of the patient. [consensus]
+split, asked of the laboratory instead of the patient. (**consensus**)
 
 ```
    ONE SUSPECTED DIAGNOSIS, FOUR SAMPLES, FOUR DIFFERENT SITES
@@ -144,36 +145,36 @@ split, asked of the laboratory instead of the patient. [consensus]
    ==================================================================================
    Getting the SITE wrong on the second row is the commonest way a correctly
    suspected immunobullous disease comes back unconfirmed, and the repeat costs
-   weeks. [consensus]
+   weeks. (**consensus**)
 ```
 
 ## The mechanisms, grouped by what is doing the splitting
 
 **Autoantibody against an adhesion molecule.** The level of the split follows the location of the
-molecule. [mechanism] Antibodies against desmosomal proteins split the epidermis internally;
+molecule. (**mechanism**) Antibodies against desmosomal proteins split the epidermis internally;
 antibodies against basement membrane zone components split it from the dermis. This is why the two
 groups cannot be distinguished by severity but can be distinguished by one histology slide.
 
 **Toxin against an adhesion molecule.** Staphylococcal exotoxins cleave a desmosomal protein
 directly, producing a very superficial split without any autoimmunity, which is why staphylococcal
 scalded skin is a paediatric infectious emergency rather than an immunobullous disease.
-[consensus]
+(**consensus**)
 
 **A missing structural protein.** Inherited epidermolysis bullosa: the split occurs where the
-absent or defective protein normally holds the tissue together. [mechanism]
+absent or defective protein normally holds the tissue together. (**mechanism**)
 
 **A metabolic cause.** Porphyria cutanea tarda produces subepidermal blistering and skin fragility
 on sun-exposed skin, with hypertrichosis and scarring, and it is associated with liver disease,
 alcohol, iron overload, oestrogens and hepatitis C — the association being the reason the
-diagnosis matters beyond the skin. [consensus]
+diagnosis matters beyond the skin. (**consensus**)
 
 **Keratinocyte death rather than loss of adhesion.** The epidermis detaches because it is dead,
 not because it has come apart. That is the severe drug reactions and it behaves differently from
-everything above. [mechanism]
+everything above. (**mechanism**)
 
 **And mechanical or physical causes, which are the commonest of all.** Friction blisters, burns,
 cold injury, oedema blisters on a swollen leg, an exaggerated insect bite reaction, bullous
-cellulitis, bullous diabeticorum, and the blisters that form over pressure areas. [consensus] A
+cellulitis, bullous diabeticorum, and the blisters that form over pressure areas. (**consensus**) A
 blistering eruption that does not fit an immunobullous pattern frequently has one of these as its
 explanation, and they do not need an immunofluorescence panel.
 
@@ -182,17 +183,17 @@ explanation, and they do not need an immunofluorescence panel.
 A blister is a hole in the barrier with a lid on it, and when the lid goes the consequences are
 the ones m051 sets out for eczema, scaled up: fluid and protein loss, impaired thermoregulation,
 pain, and a route in for infection, with the eroded surface readily colonised and secondarily
-infected. [mechanism] Extensive disease therefore needs the things that look like burns care —
+infected. (**mechanism**) Extensive disease therefore needs the things that look like burns care —
 fluid balance, temperature, analgesia, nutrition, meticulous wound handling and an environment
-that reduces shear — alongside whatever is treating the cause. [consensus] Mucosal involvement
+that reduces shear — alongside whatever is treating the cause. (**consensus**) Mucosal involvement
 adds its own problems: a mouth too sore to eat, eyes at risk of scarring, and genital and
 oesophageal involvement that is easily missed because nobody looked.
 
 The treatment of the immunobullous diseases is immunosuppression, with topical therapy playing a
 much larger role in localised pemphigoid than people expect, and with rituximab having changed
-first-line practice in pemphigus in several countries over the last decade. [consensus] Which
+first-line practice in pemphigus in several countries over the last decade. (**consensus**) Which
 agents are used, in what order, at what threshold and with what funding is firmly
-**country-dependent**, and no agent, dose or regimen is given here.
+(**country-dependent**), and no agent, dose or regimen is given here.
 
 ## The human stakes, said plainly
 
@@ -288,7 +289,7 @@ The anatomy and the level-determines-everything argument are settled, and they a
 memorising; the biopsy site rule for immunofluorescence is settled and still routinely got wrong.
 What moves is the treatment and some of the classification. Rituximab changed first-line treatment
 of pemphigus in several countries within the last decade, and whether it is first-line, funded and
-available where you practise is **country-dependent**. The pemphigoid group has been subdivided
+available where you practise is (**country-dependent**). The pemphigoid group has been subdivided
 further as antigen-specific assays have become more widely available, and the nomenclature of
 mucous membrane pemphigoid and its variants has moved. An association between pemphigoid and
 dipeptidyl peptidase-4 inhibitors has been recognised and reported widely enough to change

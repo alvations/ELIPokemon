@@ -13,11 +13,11 @@ tags: [eczema, barrier, emollient, filaggrin, itch]
 Atopic eczema is usually taught as an inflammatory condition, and the teaching is not wrong so
 much as the wrong way round. The epidermal barrier is a physical structure — corneocytes embedded
 in an ordered lipid matrix of ceramides, cholesterol and free fatty acids — and in atopic eczema
-that structure is deficient before, during and after any visible flare. [mechanism]
+that structure is deficient before, during and after any visible flare. (**mechanism**)
 Loss-of-function variants in the filaggrin gene are the strongest single genetic association known
-for the condition, and filaggrin is a structural protein. [consensus] Everything else follows: a
-leaky barrier loses water outwards, admits irritants, allergens and microbes inwards, and sits at
-a lower threshold for inflammation than intact skin does.
+for the condition, and filaggrin is a structural protein. (**consensus**) Everything else follows:
+a leaky barrier loses water outwards, admits irritants, allergens and microbes inwards, and sits
+at a lower threshold for inflammation than intact skin does.
 
 Reframing it that way changes which intervention is the main one. An anti-inflammatory treats the
 inflammatory arm. An emollient addresses the structural deficit. They are different interventions
@@ -26,9 +26,9 @@ substitutes for the other.
 
 ## Markers used in this answer
 
-*mechanism* — follows from physiology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from physiology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The loop, which has two arms and they reinforce each other
 
@@ -62,7 +62,7 @@ meaning. *consensus* — standard across current textbooks and national guidance
    Treating one arm and not the other is why a cleared eczema relapses on schedule.
 ```
 
-The two arms matter because they are cut by different things. [mechanism] A potent topical
+The two arms matter because they are cut by different things. (**mechanism**) A potent topical
 corticosteroid will clear a flare and does nothing at all for the barrier it leaves behind; a
 patient whose only treatment is intermittent steroid is on a relapse cycle by construction.
 Conversely, emollient alone applied to skin that is actively inflamed is under-treatment, and the
@@ -71,12 +71,12 @@ common instinct to avoid the steroid and double the moisturiser prolongs the fla
 ## Why the quantity is the intervention
 
 An emollient is applied to the **whole skin surface**, not to the lesions, because the barrier
-defect is present in clinically normal-looking skin in atopic eczema. [consensus] That single fact
-sets the quantity, and it is the reason the amounts are an order of magnitude larger than those
-for a topical corticosteroid. National formularies publish tables of suitable amounts to prescribe
-per week; for an adult with widespread dry skin the figures are of the order of several hundred
-grams a week, and nothing in a 50 g or 100 g tube constitutes a week of treatment.
-[country-dependent] Look the table up rather than reconstructing it, because the figure your
+defect is present in clinically normal-looking skin in atopic eczema. (**consensus**) That single
+fact sets the quantity, and it is the reason the amounts are an order of magnitude larger than
+those for a topical corticosteroid. National formularies publish tables of suitable amounts to
+prescribe per week; for an adult with widespread dry skin the figures are of the order of several
+hundred grams a week, and nothing in a 50 g or 100 g tube constitutes a week of treatment.
+(**country-dependent**) Look the table up rather than reconstructing it, because the figure your
 pharmacy and your audit will use is the one in your own formulary.
 
 The sibling answer in this set on topical quantity makes the general case — that quantity is the
@@ -95,12 +95,12 @@ extra.
 
 Preparations sit on a gradient of lipid content from lotions through creams to ointments; they may
 add humectants such as urea or glycerol, which hold water in the corneum, and occlusives such as
-the paraffins, which reduce its loss. [mechanism] Preservatives and fragrances can themselves
+the paraffins, which reduce its loss. (**mechanism**) Preservatives and fragrances can themselves
 sensitise, and a worsening eczema in someone using several products is a reason to think about
-contact allergy rather than to escalate potency. [consensus] Paraffin-containing emollients carry
-a real fire risk once the residue has soaked into fabric and dressings, and national medicines
-regulators have issued safety communications about this; it belongs in any conversation about
-them.
+contact allergy rather than to escalate potency. (**consensus**) Paraffin-containing emollients
+carry a real fire risk once the residue has soaked into fabric and dressings, and national
+medicines regulators have issued safety communications about this; it belongs in any conversation
+about them.
 
 ## Where the honest answer is that the evidence moved
 
@@ -108,7 +108,7 @@ Two things taught confidently a decade ago have not held. Trials of daily emolli
 **primary prevention** of eczema in at-risk infants have not shown the benefit the early work
 suggested, and the position has moved away from recommending it routinely. Bath additives have
 been tested in children already using leave-on emollients and found to add no clinically useful
-benefit, and several national bodies have withdrawn them from recommended use. [consensus] The
+benefit, and several national bodies have withdrawn them from recommended use. (**consensus**) The
 order and spacing of emollient and topical corticosteroid application remains genuinely unsettled;
 practice varies and no strong evidence picks a winner. Say that rather than asserting one.
 
@@ -116,11 +116,11 @@ practice varies and no strong evidence picks a winner. Say that rather than asse
 
 Atopic skin is heavily colonised with *Staphylococcus aureus*, and colonisation is not the same
 thing as infection; treating the former with antibiotics achieves little and contributes to
-resistance. [consensus] **Eczema herpeticum** is the one that must be recognised: widespread
+resistance. (**consensus**) **Eczema herpeticum** is the one that must be recognised: widespread
 monomorphic punched-out erosions, often with fever and a patient who is systemically unwell,
 arising on atopic skin. It is handled as an urgent problem with systemic antiviral therapy and
 senior involvement, and the reason it is named here is that it is mistaken for infected eczema.
-[consensus]
+(**consensus**)
 
 And the diagnostic trap: an asymmetrical or strikingly localised "eczema" that does not respond,
 or an adult-onset eruption with no atopic history, is a reason to reconsider the diagnosis —
@@ -131,7 +131,7 @@ contact allergy, scabies, and in older adults cutaneous T-cell lymphoma all pres
 Beyond emollient and topical corticosteroid the ladder runs through topical calcineurin
 inhibitors, phototherapy, conventional systemic immunosuppressants, and the newer targeted
 biologics and oral Janus kinase inhibitors, with eligibility criteria and monitoring that are
-firmly **country-dependent**. The structural point is that every rung above the first treats the
+firmly (**country-dependent**). The structural point is that every rung above the first treats the
 inflammatory arm. None of them repairs the barrier, so the emollient does not stop when the
 systemic starts.
 

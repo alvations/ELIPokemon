@@ -94,7 +94,7 @@ Four mechanisms, none of them about the clinician's skill *[mechanism, not guide
   prior is how often this presents, not how many people have it.
 * **Thresholds are local.** Who gets referred, on what finding, and how fast differs substantially
   between health systems — and that means the prevalence in the downstream clinic, and therefore
-  the meaning of the identical finding, differs too *[country-dependent]*.
+  the meaning of the identical finding, differs too (**country-dependent**).
 
 ## The human stakes, said plainly
 
@@ -146,7 +146,7 @@ Specific to this answer:
   its quoted sensitivity and specificity transfer to a primary-care population.
 * The suspected-cancer or urgent-referral criteria issued by the national or regional body that
   governs the reader's own practice, for the referral thresholds that set the downstream clinic's
-  prevalence *[country-dependent]*.
+  prevalence (**country-dependent**).
 * Any reporting-standards statement for diagnostic accuracy studies, issued by the relevant
   methodology group, for what a study must disclose about its setting and spectrum.
 

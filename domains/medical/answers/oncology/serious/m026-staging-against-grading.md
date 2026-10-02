@@ -17,8 +17,8 @@ a proxy for the other. A high-grade tumour can be anatomically early. A low-grad
 widely disseminated. Neither sentence is a paradox.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the biology or the system works), **definitional** (true because a classification says
-so), **consensus** (widely agreed professional practice), or **country-dependent** (varies by
+from how the biology or the system works), (**definitional**) (true because a classification says
+so), (**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
 nation, region or institution, and changes).
 
 ## The two axes, drawn
@@ -110,7 +110,7 @@ of changing imaging are comparing different things under the same labels.
 
 Because anatomy alone under-predicts behaviour, some current schemes now fold grade and
 tissue-based biomarkers into the stage group itself for particular diseases (**consensus**, with
-**country-dependent** uptake). That is a reasonable response to a real limitation, and it does
+(**country-dependent**) uptake). That is a reasonable response to a real limitation, and it does
 blur the clean orthogonality this answer opened with. The honest position: the axes are
 conceptually orthogonal, keeping them separate is what makes each one reproducible, and a scheme
 that combines them is a third thing — a prognostic grouping, neither a stage nor a grade, and it

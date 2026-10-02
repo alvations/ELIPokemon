@@ -126,7 +126,7 @@ control; a brain perfused and awake enough to intend an utterance; and enough re
 that breath can be spent on speech rather than hoarded. Because every item must hold, one normal
 sentence clears all of them — and because a false conjunction says only that some term failed, an
 abnormal or absent voice is weakly informative and highly alarming. Silence is not reassurance; a
-completely obstructed airway is silent. That is **mechanism**, checkable by reasoning.
+completely obstructed airway is silent. That is (**mechanism**), checkable by reasoning.
 
 Three qualifications matter more than the elegance of the argument. It is a statement about one
 moment and never a prediction, which is why the question is asked again rather than ticked —
@@ -136,8 +136,8 @@ while oxygenating badly. And the test can be *unavailable* rather than failed �
 where no language is shared, where speech is affected at baseline, or where someone is sedated —
 and treating unavailable as either passed or failed is an error in both directions. **(Consensus**
 that the quality of the voice localises the problem and that patient-reported deterioration is
-under-weighted; **country-dependent** for the vocabulary and for every threshold, none of which is
-stated here.**)**
+under-weighted; (**country-dependent**) for the vocabulary and for every threshold, none of which
+is stated here.**)**
 
 No Pokémon stands for a patient anywhere in this answer, nothing in the game represents a person,
 an airway or an outcome, and no part of it is a sequence of actions. The game is carrying one

@@ -21,9 +21,10 @@ Collapse them and you get the characteristic failures: a safe swallow and a wast
 perfect nutrition plan delivered into a tray left out of reach; a feeding regimen begun correctly
 in someone for whom beginning it at all was the hazard.
 
-Markers used below: *mechanism* means checkable by reasoning; *definitional* means it is what the
-word means; *consensus* means mainstream agreement across major guidance; *contested* means the
-field genuinely disagrees; *country-dependent* means the reader's own guidance decides.
+Markers used below: **mechanism** means checkable by reasoning; **definitional** means it is what
+the word means; (**consensus**) means mainstream agreement across major guidance; *contested*
+means the field genuinely disagrees; (**country-dependent**) means the reader's own guidance
+decides.
 
 ## The swallow, and why the absence of coughing proves nothing
 

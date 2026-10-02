@@ -40,7 +40,7 @@ threshold parameters and lookup tables.** No Pokémon in this answer stands in f
 the analogy is dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## Companion and complementary, drawn as two different tables
 
@@ -92,8 +92,8 @@ different population, even while believing you measure the same molecule.
 
 So where an authorisation is restricted to a biomarker-defined population, the test that defines
 it is typically authorised alongside the drug and the label refers to the test or the kind of test
-required (**definitional**, strongly **country-dependent**, because the machinery, the terminology
-and even the categories differ between jurisdictions).
+required (**definitional**, strongly (**country-dependent**), because the machinery, the
+terminology and even the categories differ between jurisdictions).
 
 The six lines above are what that looks like when nobody can separate the two: the holder is
 checked by name, in the same condition, by the same function, at the moment the effect would
@@ -182,7 +182,7 @@ protein, different probe sets against the same rearrangement and different seque
 covering the same gene do **not** give interchangeable results. Concordance is an empirical
 question answered by comparison studies, and the answer is often "good but not equivalent", which
 is exactly the range in which a value near the decision boundary matters most. Three consequences
-(**consensus**, **country-dependent** in enforcement): a laboratory-developed test used in place
+(**consensus**, (**country-dependent**) in enforcement): a laboratory-developed test used in place
 of an authorised one needs local validation against a defined comparator; external quality
 assurance schemes exist because laboratories drift, and participation is a condition of
 accreditation in many systems; and reporting the method is not bureaucratic detail, because a
@@ -210,12 +210,13 @@ false.
 ## Where the organ-first logic inverts, and what a panel returns
 
 Some indications are defined by the molecular alteration **irrespective of the tissue of origin**
-(**consensus**, **country-dependent** in which are approved and funded). Three things change: who
-orders the test and when, because the alteration appears in diseases nobody routinely looked in;
-what the limiting factor is, which becomes the assay's validation **across** diseases rather than
-within one, since prevalence, specimen types and the relevant cut-off all vary by site; and where
-the result is handled, because a finding in a disease with no local pathway needs a forum — the
-molecular tumour board or the multidisciplinary meeting, which the previous answers here describe.
+(**consensus**, (**country-dependent**) in which are approved and funded). Three things change:
+who orders the test and when, because the alteration appears in diseases nobody routinely looked
+in; what the limiting factor is, which becomes the assay's validation **across** diseases rather
+than within one, since prevalence, specimen types and the relevant cut-off all vary by site; and
+where the result is handled, because a finding in a disease with no local pathway needs a forum —
+the molecular tumour board or the multidisciplinary meeting, which the previous answers here
+describe.
 
 And a multiplex panel returns more than the question asked. Some findings have a matched option,
 some only in a trial, some only in another disease, and some none at all; frequently the panel

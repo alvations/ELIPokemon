@@ -24,9 +24,9 @@ None of that makes the margin unreliable. It makes it a statement about likeliho
 it was always for.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the sampling or the biology works), **definitional** (true because a classification says
-so), **consensus** (widely agreed professional practice), or **country-dependent** (varies by
-nation, region or institution, and changes).
+from how the sampling or the biology works), (**definitional**) (true because a classification
+says so), (**consensus**) (widely agreed professional practice), or (**country-dependent**)
+(varies by nation, region or institution, and changes).
 
 ## What is actually measured, and on what
 
@@ -80,7 +80,7 @@ surface that was not looked at (**mechanism**).
 So "clear" is a **negative result from a sample**, and a negative result from a sample is evidence
 about the whole only to the extent that the sample represents it. Increasing the sampling improves
 the evidence and costs time and resource, which is why sampling protocols exist and are specified
-per specimen type (**consensus**, **country-dependent** in the detail).
+per specimen type (**consensus**, (**country-dependent**) in the detail).
 
 Two corollaries:
 
@@ -101,7 +101,7 @@ correspond usefully to decisions, and they are **site-specific**: what counts as
 between breast, rectum, skin, head and neck, and sarcoma, and is maintained by different bodies
 (**consensus**). They are also revisable, and several have been revised — the history of margin
 width in breast conserving surgery and in cutaneous melanoma is a history of thresholds moving as
-evidence accumulated (**consensus**, with **country-dependent** adoption).
+evidence accumulated (**consensus**, with (**country-dependent**) adoption).
 
 One category genuinely is different in kind rather than in degree: tumour reaching the inked
 surface. That is not a small distance; it is the absence of one.
@@ -141,7 +141,7 @@ Margin width is a **trade**, not a quantity to maximise (**mechanism**, **consen
 So the choices that genuinely improve certainty are usually **different instruments**, not larger
 excisions: better preoperative imaging and localisation, intraoperative assessment, specimen
 radiography, and techniques that map the margin as the excision proceeds in the sites where they
-are established (**consensus**, strongly **country-dependent** in availability).
+are established (**consensus**, strongly (**country-dependent**) in availability).
 
 ## The human stakes, said plainly
 

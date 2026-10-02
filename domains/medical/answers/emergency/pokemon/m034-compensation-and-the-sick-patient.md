@@ -107,7 +107,7 @@ range, and holding it costs something. A person maintaining normal values by wor
 already spent reserve to buy those values, so the margin left is smaller than it was. A person
 sitting with abnormal values that are not moving has reached a position the loop can hold without
 further expenditure. The first has a worse number hidden behind a better one. The second has a
-worse number on display and a budget intact. That is **mechanism** — control theory applied to
+worse number on display and a budget intact. That is (**mechanism**) — control theory applied to
 physiology, and checkable by reasoning rather than by citation.
 
 What that makes readable is the cost rather than the value: the work being done to hold a number
@@ -190,7 +190,7 @@ Leppa Berry's 10 PP from `src/data/items.h`; and Blissey's base HP of 255 from
 Illusion and Disguise all postdate Emerald and were not read from either decompilation available
 here**; they are stated from working knowledge of later generations. A reader who wants those
 exact should check the generation they are playing. On the clinical side the control-loop account
-and the three traps are mainstream **mechanism** and have not changed in a long time; every
+and the three traps are mainstream (**mechanism**) and have not changed in a long time; every
 specific — which score, what thresholds, how often, escalating to whom — is
 **institution-dependent**, differs between organisations in the same city, and is revised. Dated
 October 2026.

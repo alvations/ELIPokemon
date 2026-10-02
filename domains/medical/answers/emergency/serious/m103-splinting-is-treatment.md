@@ -47,7 +47,7 @@ The bleeding effect is the one that most clearly separates treatment from packag
 strongest where the bone is large and the surrounding compartment is capacious. **(Consensus**
 that restoring length and alignment reduces blood loss in the major long-bone and pelvic injuries;
 which device is used, and whether realignment or traction forms part of it, is
-**country-dependent** and institutional, and none is described here.**)**
+(**country-dependent**) and institutional, and none is described here.**)**
 
 ## Prevention is measured in what did not happen
 
@@ -81,7 +81,7 @@ that injures: the thing that reduces one risk introduces another, and the only w
 to treat application as the start of a period of observation rather than the end of a task.
 **(Consensus** that immobilised limbs are reassessed and that a splint can contribute to pressure
 injury and can mask or worsen a developing compartment problem; the frequency, the findings
-recorded and the escalation thresholds are **country-dependent** and sit in local policy.**)**
+recorded and the escalation thresholds are (**country-dependent**) and sit in local policy.**)**
 
 ## Specific, bounded, and not a cure
 
@@ -162,10 +162,10 @@ apply here. Specific to this answer:
   is done where they work and outranks every general account including this one.
 
 Markers used above: **mechanism** (follows from anatomy, physiology or the structure of evidence
-and is checkable by reasoning), **consensus** (agreed across mainstream sources as of writing),
-**country-dependent** (genuinely differs between countries, services or institutions). No devices,
-techniques, intervals, agents or doses are stated, and nothing is quoted, because none of these
-documents was opened.
+and is checkable by reasoning), (**consensus**) (agreed across mainstream sources as of writing),
+(**country-dependent**) (genuinely differs between countries, services or institutions). No
+devices, techniques, intervals, agents or doses are stated, and nothing is quoted, because none of
+these documents was opened.
 
 ## Scope and safety
 

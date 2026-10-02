@@ -163,11 +163,11 @@ Specific to this answer:
 
 * The shared decision making guidance issued by the national body for clinical guidelines in the
   reader's own country, which sets out what is expected of the consultation locally
-  *[country-dependent]*.
+  (**country-dependent**).
 * The consent and capacity law and professional guidance applying in the reader's jurisdiction,
   which is the authority on what information must be given and on how a refusal is handled. This
   differs materially between countries and has shifted in several over the last decade
-  *[country-dependent]*.
+  (**country-dependent**).
 * The published decision aids maintained for the specific decision in question, together with the
   inventory criteria used to appraise them, for whether an aid is fit to use.
 * Any systematic review of patient decision aids, for the effects on knowledge, decisional

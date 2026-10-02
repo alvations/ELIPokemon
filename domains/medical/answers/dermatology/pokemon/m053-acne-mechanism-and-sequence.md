@@ -103,7 +103,7 @@ persists. The standard answer is to pair every antibiotic with benzoyl peroxide 
 cap the duration of oral courses, and not to run a topical and an oral antibiotic of the same
 class together. Benzoyl peroxide is the partner of choice specifically because it kills by
 oxidation and acquired resistance to it is not described — which in this register is a move with
-no PP cost at all. The duration caps and the preferred agents are **country-dependent**.
+no PP cost at all. The duration caps and the preferred agents are (**country-dependent**).
 
 ## Choice Band, which is what monotherapy actually buys you
 
@@ -132,7 +132,7 @@ state in place, and taking it off has consequences later rather than immediately
 **Treat early where scarring is in prospect.** Nodulocystic disease, truncal disease, a family
 history of scarring, existing scars and significant psychological impact all shorten the
 observation period, because the endpoint being avoided does not resolve. Which of those is a
-referral threshold is **country-dependent**.
+referral threshold is (**country-dependent**).
 
 And on irreversibility, the games are unusually clean. Evolution runs one way. There is an item
 that prevents it — the **Everstone**, whose hold effect in the code is literally named as
@@ -159,7 +159,7 @@ every country that licenses it runs a pregnancy prevention framework around it �
 requirements, pregnancy testing before, during and after, and limits on the quantity dispensed.
 Mucocutaneous effects are near-universal. Baseline and on-treatment monitoring is required and the
 panel differs by country. Prescribing is usually restricted to specialists. Your national
-regulator is the authority on all of it. [country-dependent]
+regulator is the authority on all of it. (**country-dependent**)
 
 ## Where the metaphor stops
 

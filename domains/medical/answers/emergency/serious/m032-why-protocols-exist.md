@@ -162,7 +162,7 @@ Specific to this answer:
   out in a form specific to that institution's protocols.
 
 Claims here are marked **mechanism** (an argument about distributions and about working memory,
-checkable by reasoning), **consensus** (agreed across the major councils as of writing), or
+checkable by reasoning), (**consensus**) (agreed across the major councils as of writing), or
 **council-dependent** (genuinely different between councils). Nothing is quoted from any of these
 documents, and no guideline number, document title or identifier is given, because none was
 opened.
@@ -184,7 +184,7 @@ review. Nothing here describes any real person, case or institution.
 ## Where this stands, October 2026
 
 The three-conditions framing, the variance argument and the shared-schema argument are the
-standard justifications and are not controversial as reasoning; they are **mechanism**, and a
+standard justifications and are not controversial as reasoning; they are (**mechanism**), and a
 reader can check them by thinking rather than by looking anything up. What is
 **council-dependent** is every particular: which decisions are proceduralised, how prescriptive
 each protocol is, how deviation is documented and reviewed, and how often the document is revised.

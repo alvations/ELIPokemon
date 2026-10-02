@@ -181,14 +181,14 @@ knowing what was taken, which matters because in a large share of real presentat
 the amount and the timing are uncertain or unknown — and it buys the time in which the body's own
 elimination reduces the exposure. Supportive care is the treatment in the great majority of cases,
 not the fallback, and *waiting while supporting* is an active, skilled, demanding thing to do
-rather than an absence of intervention. That is **mechanism**, checkable by reasoning.
+rather than an absence of intervention. That is (**mechanism**), checkable by reasoning.
 
 A specific antidote has to clear four conditions at once, and most agents fail at least one: a
 mechanism specific enough to interfere with; a window of benefit that overlaps when people
 actually present; enough diagnostic confidence, because a specific agent aimed at the wrong
 mechanism consumes time and belief and sometimes carries its own harm; and availability in the
 building when it is needed. The absence of an antidote is usually a fact about the agent rather
-than a gap in the pharmacopoeia. **(Consensus** for the general shape; **country-dependent** for
+than a gap in the pharmacopoeia. **(Consensus** for the general shape; (**country-dependent**) for
 which antidotes are considered worthwhile, which are stocked and where, and for everything about
 decontamination, whose role has narrowed and differs between national bodies.**)** Most countries
 run a poisons information service with a clinician line and a maintained database, and consulting

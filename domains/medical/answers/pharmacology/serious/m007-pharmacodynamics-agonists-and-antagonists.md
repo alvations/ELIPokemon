@@ -105,8 +105,8 @@ cannot compete for what is no longer there, so the ceiling falls and no concentr
 Aspirin's acetylation of cyclo-oxygenase and omeprazole's covalent inhibition of the proton pump
 are the standard irreversible examples; neither is receptor antagonism, but both show the defining
 property — recovery waits on synthesis of new protein, not on clearance of the drug. That is
-*mechanism*, and it is the reason the duration of effect of such a drug has nothing to do with its
-half-life.
+(**mechanism**), and it is the reason the duration of effect of such a drug has nothing to do with
+its half-life.
 
 **Receptor reserve is the caveat that matters.** Many tissues have far more receptors than are
 needed for a maximal response. In such a tissue, taking 50% of receptors out of play may not lower

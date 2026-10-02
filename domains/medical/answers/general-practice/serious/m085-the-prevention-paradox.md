@@ -16,12 +16,12 @@ that level multiplied by their risk. The number of people falls off much faster 
 you move out toward the tail. So the majority of cases arise in people whose individual risk is
 unremarkable — and an intervention that shifts the whole distribution a little therefore prevents
 more cases than one that fixes the tail completely, while offering each individual a benefit far
-too small to feel *[mechanism]*. The distinction between a population strategy and a high-risk
+too small to feel (**mechanism**). The distinction between a population strategy and a high-risk
 strategy, and the observation that a measure doing great collective good may offer little to each
 participant, is usually credited to Geoffrey Rose.
 
-Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*.
+Load-bearing claims below are marked with what they rest on: **mechanism**, **definitional**,
+(**consensus**) or (**country-dependent**).
 
 ## The arithmetic, with the sum done
 
@@ -76,23 +76,23 @@ memorising either case.
 1. **The number needed to treat is large by construction, not by failure.** If the benefit is
    spread over the many at modest risk, then most people who take the intervention were never
    going to have the event. That is not a sign the intervention is weak; it is what a population
-   strategy *is* *[mechanism]*.
+   strategy *is* (**mechanism**).
 2. **Safety and cost dominate everything else.** The harms are distributed over the same large
    denominator as the benefits, so a small per-person harm is multiplied by the same number as the
    small per-person benefit and can cancel it. This is why the threshold of acceptable harm for a
    population measure is far stricter than for a treatment given to someone at high risk — the
-   same harm buys far less for each recipient *[mechanism]*.
+   same harm buys far less for each recipient (**mechanism**).
 3. **Imperceptible benefit will not sustain individual effort, so the measures that work tend to
    be structural.** Asking a hundred people to do something daily for a 0.2 percentage-point
    change in their own risk is asking for an act whose reward nobody can experience. Measures
    that change the default — what is in the food, what the built environment makes easy, what the
    price is, what happens unless you opt out — do not depend on anybody feeling the benefit
-   *[consensus]*.
+   (**consensus**).
 4. **Nobody can be identified as the beneficiary.** The 0.44 prevented cases are real and they
    are not anyone in particular. No participant can be told that they were helped, and no
    participant can be shown that they were not. That makes the case for a population measure
    impossible to argue one person at a time, which is exactly why it keeps being argued one person
-   at a time and keeps losing *[mechanism]*.
+   at a time and keeps losing (**mechanism**).
 
 ## The high-risk strategy is not the mistake, and saying so matters
 
@@ -100,7 +100,7 @@ The high-risk strategy is efficient per person treated, it offers each recipient
 enough to be worth their trouble, it uses the clinical relationship that already exists, and for
 conditions where risk really is concentrated — a strong single-gene determinant, a very high
 measured risk, an established event already — it is the only strategy that does anything useful
-for the people who have most to lose *[consensus]*.
+for the people who have most to lose (**consensus**).
 
 Its limit is arithmetic rather than moral: it cannot reach cases that are not in the tail, and
 most cases are not in the tail. It also requires a screening or case-finding step to identify the
@@ -114,7 +114,7 @@ present, do not thank anybody, and are not recorded; the person who had the even
 the intervention is in the room and is memorable. This is the same observability asymmetry m084
 describes for overdiagnosis, pointing in the same direction: what is visible teaches, what is
 invisible does not, and no amount of conscientiousness corrects for a missing signal
-*[mechanism]*.
+(**mechanism**).
 
 ## The human stakes, said plainly
 
@@ -165,7 +165,7 @@ Specific to this answer:
   number needed to treat.
 * The national prevention or public-health strategy applying where the reader works, for which
   measures are population measures locally and what is actually delivered
-  *[country-dependent]*.
+  (**country-dependent**).
 * The primary literature on whichever specific preventive intervention is in question, for the
   absolute effect size and the harms, since the argument here is structural and supplies no
   figures.

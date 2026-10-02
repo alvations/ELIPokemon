@@ -29,7 +29,7 @@ Erythema, cyanosis and pallor are all changes in how much haemoglobin is in the 
 and what state it is in. Jaundice is bilirubin, also below the surface. Melanin sits *above* all
 of them, in the epidermis, and it absorbs and scatters light on the way in and on the way out. As
 epidermal melanin increases, the proportion of the perceived colour that is contributed by what is
-happening in the dermis falls. [mechanism]
+happening in the dermis falls. (**mechanism**)
 
 That is why the problem is predictable: the signal is still there, the channel carrying it is
 attenuated. So the correct response is to stop relying on that channel and use the others —
@@ -74,7 +74,7 @@ replace a colour judgement with a physical one wherever you can.**
 
 And it is not only the eye that was calibrated narrowly. Pulse oximetry is known to overestimate
 arterial oxygen saturation more often in people with darker skin, and device regulators have
-issued safety communications about it. [consensus] An instrument built on light transmission
+issued safety communications about it. (**consensus**) An instrument built on light transmission
 through skin inherited the same assumption the vocabulary did. The lesson generalises: when
 something was validated on one population, ask what it measures and whether the mechanism travels.
 
@@ -82,9 +82,9 @@ something was validated on one population, ask what it measures and whether the 
 
 When cutaneous inflammation resolves, melanocyte behaviour does not simply return to baseline.
 Activated melanocytes may leave **post-inflammatory hyperpigmentation**; damaged or inhibited ones
-may leave **post-inflammatory hypopigmentation**. [mechanism] Both are more frequent, more marked
-and more persistent in darker skin, and both can outlast the active disease by many months.
-[consensus]
+may leave **post-inflammatory hypopigmentation**. **mechanism** Both are more frequent, more
+marked and more persistent in darker skin, and both can outlast the active disease by many months.
+(**consensus**)
 
 Treat that as information, because it is some of the best information available:
 
@@ -100,7 +100,7 @@ Treat that as information, because it is some of the best information available:
   the inflammation and says nothing about the pigment change has addressed less than the
   complaint.
 
-Three related findings travel with this and are *consensus* in standard texts: keloid and
+Three related findings travel with this and are (**consensus**) in standard texts: keloid and
 hypertrophic scarring are more common, so the threshold for anything that leaves a wound is
 different; inflammatory eruptions are more often papular and follicular in morphology; and
 lichenification and scale are often more conspicuous than any colour change at all.
@@ -124,8 +124,8 @@ descriptions.
 **Examine the sites that the standard examination skips.** The whole surface, plus scalp, mucosae,
 nails, palms and soles. Those last three are not optional: a larger proportion of the melanomas
 diagnosed in people with darker skin arise on the palms, soles and nail units than in lightly
-pigmented skin. [consensus] A new pigmented longitudinal band in a nail is a finding that needs
-assessment, not reassurance.
+pigmented skin. (**consensus**) A new pigmented longitudinal band in a nail is a finding that
+needs assessment, not reassurance.
 
 **Use daylight where you can**, and keep lighting consistent if you photograph at all, because
 inconsistent lighting destroys the only comparison that was working.
@@ -135,7 +135,7 @@ inconsistent lighting destroys the only comparison that was working.
 Textbook and online image libraries under-represent darker skin, so the visual pattern library a
 trainee builds is skewed before they see a patient. The written descriptors are colour-keyed, as
 set out above. And assessment has historically rewarded the colour-keyed version, which means the
-gap is reproduced each year rather than closed. [consensus] This is a curriculum defect with a
+gap is reproduced each year rather than closed. (**consensus**) This is a curriculum defect with a
 clinical cost, and describing it as a caveat to be added at the end of a teaching session is part
 of how it persists.
 
@@ -148,8 +148,8 @@ problem is cosmetic by clinicians who have not asked.
 
 And the consequence of this particular failure of description is not only an embarrassing missed
 sign. Later-stage presentation of melanoma in people with darker skin is documented, and
-later-stage presentation is worse outcomes. [consensus] That is the reason this answer is written
-as a competence issue rather than an interesting variation.
+later-stage presentation is worse outcomes. (**consensus**) That is the reason this answer is
+written as a competence issue rather than an interesting variation.
 
 ## What an examiner digs into next
 

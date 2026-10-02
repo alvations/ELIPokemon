@@ -31,9 +31,9 @@ contain the information needed to say what will happen to a person. That boundar
 and it is kept.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the measurement works), **definitional** (true because a classification says so),
-**consensus** (widely agreed professional practice), or **country-dependent** (varies by nation,
-region or institution, and changes).
+from how the measurement works), (**definitional**) (true because a classification says so),
+(**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
+nation, region or institution, and changes).
 
 ## What it is doing, drawn
 
@@ -133,7 +133,7 @@ as one.
 are outside it by construction. That is the explicit rationale for structured geriatric assessment
 in older adults, which identifies problems a performance status does not detect and changes
 management in a substantial share of the people it is applied to (**consensus**, strongly
-**country-dependent** in how and whether it is resourced).
+(**country-dependent**) in how and whether it is resourced).
 
 **It has a ceiling and a floor.** At the top it cannot distinguish someone exceptionally fit from
 someone just inside the top category, which matters because the top category is where intensive

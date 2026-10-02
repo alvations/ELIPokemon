@@ -24,7 +24,7 @@ Nothing here stands in for a person, and the analogy is dropped at the end, wher
 changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## What the readout does to the number
 

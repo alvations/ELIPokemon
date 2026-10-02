@@ -72,12 +72,12 @@ front of one person. So:
 * **Exhortation is the wrong instrument for an externality.** Telling an individual decision-maker
   to internalise a cost they cannot observe, attribute or measure does not work reliably and is
   not a design. Population-level instruments exist because the population-level cost has to be
-  carried at population level *[consensus]*.
+  carried at population level (**consensus**).
 * **The replenishment is slow and the depletion is fast.** New agents arrive over a timescale of
   years to decades, through a development pipeline that has repeatedly been described as
   insufficient relative to the rate of loss; resistance accumulates continuously. The asymmetry
   between those two rates is why the resource behaves like a finite stock rather than a renewable
-  flow *[consensus]*.
+  flow (**consensus**).
 
 ## What narrows the gap, in order of how much it buys
 
@@ -90,7 +90,7 @@ Four instruments, and they are not interchangeable:
 2. **Duration and spectrum.** Shorter courses and narrower agents reduce selection pressure while
    leaving most of the individual benefit intact, so they move the population ledger at small
    individual cost. Specific durations are condition-specific, actively revised, and genuinely
-   contested in several areas *[country-dependent]*.
+   contested in several areas (**country-dependent**).
 3. **Converting the decision into a conditional one.** A deferred or back-up prescription, with a
    named trigger, moves the decision to the point where more information exists. It is the
    safety-net applied to prescribing, and it inherits the safety-net's weakness: it assumes the
@@ -111,7 +111,7 @@ Two further honesty requirements. Withholding with a safety-net assumes a person
 which is not every person, and stewardship that ignores that assumption redistributes risk toward
 the people least able to carry it. And resistance patterns are local: the population ledger is not
 the same ledger everywhere, so the balance point genuinely differs by country, by region and by
-setting *[country-dependent]*.
+setting (**country-dependent**).
 
 ## The human stakes, said plainly
 
@@ -155,13 +155,13 @@ Specific to this answer:
 
 * The reader's national antimicrobial prescribing guidance and local microbiology formulary, which
   together are the only authority on agent, spectrum and duration for any specific condition, and
-  which differ substantially between countries and between regions *[country-dependent]*.
+  which differ substantially between countries and between regions (**country-dependent**).
 * The World Health Organization's published global action plan on antimicrobial resistance, and
   its classification of antibiotics into access, watch and reserve groups, for the
   population-level framing and the reserved-agent concept.
 * The reader's own country's national action plan or surveillance report on antimicrobial
   resistance, which carries the local resistance rates that determine where the local balance
-  point sits *[country-dependent]*.
+  point sits (**country-dependent**).
 * Any systematic review of delayed or back-up antibiotic prescribing in primary care, for the
   evidence on symptom outcomes and on reconsultation.
 * Any systematic review of audit-and-feedback or of behavioural interventions on antibiotic

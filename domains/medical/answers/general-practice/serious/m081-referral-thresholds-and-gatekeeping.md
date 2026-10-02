@@ -16,16 +16,16 @@ only the second one can be answered. The first invites a search for certainty th
 care cannot supply; the second is a comparison between two expected harms, and a comparison can
 be made under uncertainty *[mechanism, not guideline]*.
 
-Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*. A claim marked *mechanism* is checkable by reasoning. A claim
-marked *country-dependent* needs the reader's own guidance, not the writer's.
+Load-bearing claims below are marked with what they rest on: **mechanism**, **definitional**,
+**consensus** or **country-dependent**. A claim marked **mechanism** is checkable by reasoning. A
+claim marked **country-dependent** needs the reader's own guidance, not the writer's.
 
 The threshold itself falls out of the comparison. Expected harm of referring rises with the
 proportion of people referred who do not have the disease; expected harm of not referring rises
 with the proportion who do. Set them equal and the probability at which they cross depends on the
 *ratio* of the two harms and on nothing else — not on prevalence, not on the strength of a
-feeling, not on the clinician's experience *[mechanism]*. Prevalence decides where a given person
-sits relative to the threshold. It does not move the threshold.
+feeling, not on the clinician's experience (**mechanism**). Prevalence decides where a given
+person sits relative to the threshold. It does not move the threshold.
 
 ## The threshold is a ratio, which is why it is not one number everywhere
 
@@ -68,7 +68,7 @@ sits relative to the threshold. It does not move the threshold.
 Two consequences follow immediately. The threshold differs between conditions, because the ratio
 differs. And it differs between health systems, because the downstream pathway differs — the same
 probability, the same person, can be above the threshold in one country and below it in another
-without either clinician being wrong *[country-dependent]*.
+without either clinician being wrong (**country-dependent**).
 
 ## What raising a threshold does, and what it does not do
 
@@ -81,7 +81,7 @@ cases.
 * **A criterion that cuts across the distribution of cases loses them systematically, not
   randomly.** The same subgroup is excluded every time: the ones who present atypically, early,
   below an age cut-off, without the sentinel feature. A threshold does not lose a random sample
-  *[mechanism]*.
+  (**mechanism**).
 
 That second point is the whole reason a threshold needs a safety-net behind it rather than
 confidence in front of it, which is m012's subject and is not re-argued here.
@@ -100,7 +100,7 @@ confidence in front of it, which is m012's subject and is not re-argued here.
 4. **A finite queue.** This is the part that is uncomfortable to say and dishonest to omit. The
    urgent route has capacity; using it for a low-probability case lengthens the wait for a
    higher-probability one. The gatekeeper is not only assessing a person — they are allocating,
-   and the people on the other side of the allocation are not in the room *[mechanism]*.
+   and the people on the other side of the allocation are not in the room (**mechanism**).
 
 ## Urgency and probability are two dials, and conflating them is the common error
 
@@ -109,7 +109,7 @@ about how suspicious the clinician feels; it is a product of probability and
 time-criticality. A moderate probability of something that gets much worse in weeks belongs on
 the fast route; a higher probability of something indolent may not. Which routes exist, what they
 are called, what they promise and what criteria they require are local and are revised regularly
-*[country-dependent]*.
+(**country-dependent**).
 
 ## The thresholds nobody wrote down
 
@@ -161,7 +161,7 @@ Specific to this answer:
 
 * The suspected-cancer and urgent-referral criteria issued by the national or regional body
   governing the reader's practice, which are the actual thresholds and are revised on a cycle
-  *[country-dependent]*.
+  (**country-dependent**).
 * The referral and acceptance policy of the receiving service the reader refers into, for the
   second threshold — the one applied after the referral leaves.
 * A current textbook of clinical epidemiology or clinical decision analysis, for the derivation

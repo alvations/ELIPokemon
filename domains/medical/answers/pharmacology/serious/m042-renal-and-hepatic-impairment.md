@@ -17,8 +17,8 @@ The liver does at least **four** things that matter to a prescription, they fail
 rates in the same person, and no number summarises them. That asymmetry is the answer to the
 question, and everything below is its consequence.
 
-Claims are marked **[M]** mechanism, **[D]** definitional, **[C]** consensus, or **[L]** local —
-differing by country, institution or formulary.
+Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
+or (**country-dependent**) local — differing by country, institution or formulary.
 
 ```
    RENAL                                   HEPATIC
@@ -53,32 +53,35 @@ Four things are worth knowing beyond that.
 **Dose reduction versus interval extension are not equivalent.** Reducing each dose lowers the
 peak and raises the trough; extending the interval keeps the peak and lowers the trough further.
 Which you want depends on whether the drug's effect tracks the peak, the trough or the total
-exposure **[M]** — see `m041`. For the aminoglycosides, whose killing is concentration-dependent
-and whose toxicity relates to sustained exposure, that distinction is the entire design of the
-regimen **[C]**, and the actual regimen is formulary territory and differs between countries.
+exposure (**mechanism**) — see `m041`. For the aminoglycosides, whose killing is
+concentration-dependent and whose toxicity relates to sustained exposure, that distinction is the
+entire design of the regimen (**consensus**), and the actual regimen is formulary territory and
+differs between countries.
 
 **The estimate is an estimate, and it breaks at the extremes.** The routinely reported figure is
 normalised to a standard body surface area, which is exactly what you want for staging kidney
 disease and exactly what you do not want for dosing a narrow-index drug in someone very large or
-very small. For those drugs an absolute clearance, un-normalised, is used instead **[C]**; which
-drugs, and which estimating equation, is country- and institution-dependent **[L]**.
+very small. For those drugs an absolute clearance, un-normalised, is used instead (**consensus**);
+which drugs, and which estimating equation, is country- and institution-dependent
+(**country-dependent**).
 
 **Metabolites accumulate even when the parent does not.** A drug cleared hepatically to a polar
 active metabolite behaves normally in renal impairment until the metabolite builds up. Morphine is
 the standard teaching example and the consequence is prolonged effect from an apparently
-reasonable dose **[C]**.
+reasonable dose (**consensus**).
 
 **Nephrotoxicity is a separate axis from clearance.** A drug may need dose reduction *because* the
 kidney cannot clear it, or be avoided *because* it damages the kidney, or both, and the two
 reasons have nothing to do with each other. Nonsteroidal anti-inflammatory drugs are the example
 always given: they are not primarily a clearance problem, they reduce prostaglandin-dependent
-renal perfusion, and the harm lands hardest where perfusion was already marginal **[M]**.
+renal perfusion, and the harm lands hardest where perfusion was already marginal (**mechanism**).
 
 ## The hepatic side, where the four functions fail separately
 
 **1. Reduced metabolic clearance.** The expected effect: less clearance, longer half-life,
 accumulation on repeated dosing. It arrives late, because the liver has substantial functional
-reserve, so metabolic capacity falls non-linearly with visible severity of disease **[M]**.
+reserve, so metabolic capacity falls non-linearly with visible severity of disease
+(**mechanism**).
 
 **2. Loss of first-pass extraction — the one most often missed.** Oral bioavailability is the
 absorbed fraction multiplied by the fraction that survives the gut wall and the liver:
@@ -104,7 +107,7 @@ absorbed fraction multiplied by the fraction that survives the gut wall and the 
 ```
 
 Portosystemic shunting adds to it, because blood bypasses the hepatocytes entirely rather than
-passing through a less capable liver **[M]**.
+passing through a less capable liver (**mechanism**).
 
 **3. Reduced albumin synthesis.** For a highly protein-bound drug, lower albumin means a higher
 free fraction at the same total concentration. Two consequences: the measured total concentration
@@ -113,17 +116,18 @@ distribution changes, so the loading dose arithmetic shifts too. Note that this 
 increase in free drug for a drug with unchanged clearance, since a higher free fraction is also
 more available for elimination; the steady-state free concentration is governed by clearance of
 free drug. That subtlety is why protein-binding displacement matters less than it sounds, which is
-`m009`'s territory **[M]**.
+`m009`'s territory (**mechanism**).
 
 **4. Reduced synthesis of clotting factors, and altered sensitivity.** This is not kinetics at
 all. The same concentration of an anticoagulant produces a larger effect when the substrate it
-acts on is already depleted **[M]**. Likewise sedatives and opioids in hepatic encephalopathy: the
-pharmacodynamic sensitivity is increased independently of any change in concentration **[C]**. An
-answer that treats hepatic impairment as purely a clearance problem has missed half of it.
+acts on is already depleted (**mechanism**). Likewise sedatives and opioids in hepatic
+encephalopathy: the pharmacodynamic sensitivity is increased independently of any change in
+concentration (**consensus**). An answer that treats hepatic impairment as purely a clearance
+problem has missed half of it.
 
 **And the direction can reverse.** A prodrug requiring hepatic activation does not accumulate when
 the liver fails — it stops working. Codeine is the standard example, and the same logic applies to
-any drug whose effect depends on a metabolic step **[M]**.
+any drug whose effect depends on a metabolic step (**mechanism**).
 
 ## Why there is no hepatic equivalent of an eGFR band
 
@@ -131,12 +135,12 @@ Three reasons, and they compound. The functions fail separately, so a single num
 summarise four quantities that are not correlated. The reserve means the relationship between
 visible severity and metabolic capacity is non-linear and late-breaking. And the composite scores
 that exist were built to predict outcome, not to predict clearance, so borrowing them for dosing
-is using an instrument for something it was not calibrated against **[C]**.
+is using an instrument for something it was not calibrated against (**consensus**).
 
 The practical consequence is that hepatic dosing advice is **drug-specific and qualitative**, and
 the monograph is the only authority. It is also why the two impairments do not simply add: the
 common patient has both, the hepatorenal physiology is a single syndrome rather than two
-independent insults, and the adjustments interact in ways no table encodes **[C]**.
+independent insults, and the adjustments interact in ways no table encodes (**consensus**).
 
 ## The human stakes, said plainly
 

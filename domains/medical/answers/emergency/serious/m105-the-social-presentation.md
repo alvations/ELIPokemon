@@ -112,8 +112,8 @@ mood, and the actual physical and human situation the person is returning to. It
 multidisciplinary because the two terms are assessed by different professions and because the
 second term cannot be changed by a prescription. **(Consensus** that comprehensive assessment of
 this kind is the recognised response and that it is multidisciplinary; its name, its composition,
-what it is funded to do and where it happens are **country-dependent** and differ sharply between
-systems.**)**
+what it is funded to do and where it happens are (**country-dependent**) and differ sharply
+between systems.**)**
 
 Deliberately outside this answer: anything about capacity, consent, substitute decision-making or
 protection of adults at risk. Those sit inside specific legal frameworks that differ by
@@ -185,9 +185,9 @@ apply here. Specific to this answer:
   answer deliberately contains no account of them.
 
 Markers used above: **definitional** (about what a term denotes), **mechanism** (follows from the
-structure of the problem and is checkable by reasoning), **consensus** (agreed across mainstream
-sources as of writing), **country-dependent** (genuinely differs between countries or systems). No
-tool, score, threshold or pathway is stated, and nothing is quoted, because none of these
+structure of the problem and is checkable by reasoning), (**consensus**) (agreed across mainstream
+sources as of writing), (**country-dependent**) (genuinely differs between countries or systems).
+No tool, score, threshold or pathway is stated, and nothing is quoted, because none of these
 documents was opened.
 
 ## Scope and safety

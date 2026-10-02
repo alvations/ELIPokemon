@@ -122,7 +122,7 @@ Certain classes recur across the severe patterns: the antibiotics, particularly 
 sulfonamides; the aromatic anticonvulsants; allopurinol; the non-steroidal anti-inflammatory
 drugs; several antiretrovirals. Pharmacogenomic associations exist for some drug and population
 pairs, and pre-treatment testing is required in some countries for some of them — which ones, and
-for whom, is firmly **country-dependent** and is a formulary question.
+for whom, is firmly (**country-dependent**) and is a formulary question.
 
 ## Why rare and catastrophic gets a written rule rather than a judgement call
 

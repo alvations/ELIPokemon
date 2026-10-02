@@ -25,9 +25,9 @@ the same decision. It is a different measurement being used to make a decision t
 on another one.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the measurement works), **definitional** (true because a classification or regulation
-says so), **consensus** (widely agreed professional practice), or **country-dependent** (varies by
-nation, region or institution, and changes).
+from how the measurement works), (**definitional**) (true because a classification or regulation
+says so), (**consensus**) (widely agreed professional practice), or (**country-dependent**)
+(varies by nation, region or institution, and changes).
 
 ## The chain, and the fact that every link is part of the test
 
@@ -83,7 +83,7 @@ nation, region or institution, and changes).
 
 Where a drug's authorisation is restricted to a biomarker-defined population, the test that
 defines it is typically authorised alongside it, and the label refers to the test or the kind of
-test required (**definitional**, strongly **country-dependent** — the regulatory machinery, the
+test required (**definitional**, strongly (**country-dependent**) — the regulatory machinery, the
 terminology and even the categories differ between jurisdictions).
 
 The distinction worth learning is **companion** against **complementary** (**definitional**):
@@ -112,7 +112,7 @@ of evidence.
 
 The practical form of this: the question to ask of a molecular report is not only what it found
 but **what was looked for, in what order, and what the specimen can still support**
-(**consensus**, **country-dependent** in how testing pathways are specified).
+(**consensus**, (**country-dependent**) in how testing pathways are specified).
 
 ## The cut-off is a decision, not a biological boundary
 
@@ -155,7 +155,7 @@ interchangeable results (**consensus**). Concordance between two assays is an em
 answered by comparison studies, and the answer is frequently "good but not equivalent", which is
 exactly the range in which a cut-off near the decision boundary matters most.
 
-Three consequences (**consensus**, **country-dependent** in how they are enforced):
+Three consequences (**consensus**, (**country-dependent**) in how they are enforced):
 
 * A **laboratory-developed test** used in place of an authorised one requires local validation
   against a defined comparator, and the validation is part of the result's meaning.
@@ -186,7 +186,7 @@ Two further failures are about the evidence rather than the individual:
 ## Where the organ-first logic inverts, and what a panel returns
 
 Some indications are defined by the molecular alteration **irrespective of the tissue of origin**
-(**consensus**, **country-dependent** in which are approved and funded). Three things change:
+(**consensus**, (**country-dependent**) in which are approved and funded). Three things change:
 
 * Who orders the test, and when — because the alteration can appear in diseases where nobody
   routinely looked for it.

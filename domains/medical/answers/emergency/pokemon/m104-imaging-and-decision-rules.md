@@ -174,7 +174,7 @@ consumed, which is the next person's access to the same resource; and findings u
 question asked, each capable of generating its own investigations and its own label.
 **(Consensus** on the radiation risk being dose-related and on incidental findings being common
 and generating their own harms; every figure, dose reference level and national framework is
-**country-dependent** and none is given here.**)** It follows that a test with a low probability
+(**country-dependent**) and none is given here.**)** It follows that a test with a low probability
 of changing management is net harm even when it feels harmless, and that the right comparison is
 the test against its alternative rather than against nothing.
 

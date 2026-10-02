@@ -17,15 +17,15 @@ it, and decades of teaching have not. What closes it is changing the conditions 
 behaviour is performed, which is a different kind of work and belongs to a different kind of
 person than the one standing at the bedside.
 
-Markers used below: *mechanism* means checkable by reasoning; *definitional* means it is what the
-word means; *consensus* means mainstream agreement across major guidance; *country-dependent*
-means the reader's own policy decides.
+Markers used below: **mechanism** means checkable by reasoning; **definitional** means it is what
+the word means; (**consensus**) means mainstream agreement across major guidance;
+(**country-dependent**) means the reader's own policy decides.
 
 ## The thing hand hygiene is one link in
 
 Transmission is a chain, and every control measure is an attempt to break one link. The chain is
-*definitional* — it is the framework the discipline is taught in — and the controls attached to it
-are *consensus*:
+(**definitional**) — it is the framework the discipline is taught in — and the controls attached
+to it are (**consensus**):
 
 ```
    link in the chain          what it means here                   what breaks it
@@ -48,8 +48,8 @@ are *consensus*:
 ```
 
 Two things follow immediately. Hand hygiene sits on the **commonest** mode of transmission, which
-is why it is described as the single most effective measure — that framing is *consensus*. And it
-is **one** link of five, which is why an outbreak is never explained by it alone, and why an
+is why it is described as the single most effective measure — that framing is (**consensus**). And
+it is **one** link of five, which is why an outbreak is never explained by it alone, and why an
 institution that responds to one by retraining staff has usually left the actual cause in place.
 
 ## Why the moments are defined the way they are
@@ -92,7 +92,7 @@ against most relevant organisms, and kinder to skin than repeated washing. It is
 against bacterial spores, so soap and water is required where spore-forming organisms are in
 question — and for visibly soiled hands, where the mechanism is physical removal rather than
 microbial kill. *Mechanism, and consensus as to which organisms.* Which organisms and situations
-trigger the switch locally is *country-dependent*.
+trigger the switch locally is (**country-dependent**).
 
 **Skin.** Repeated hand hygiene, dozens to hundreds of times a shift, causes irritant dermatitis;
 dermatitis is painful, reduces compliance, and increases bacterial carriage on damaged skin.

@@ -146,7 +146,7 @@ physiological consequences of its own. **(Mechanism.)** The injury therefore has
 rate is largely a function of movement, so immobilisation is treatment of an ongoing process.
 Restoring length and alignment also reduces the space available to bleed into, most clearly in the
 large long-bone and pelvic injuries. **(Consensus;** the device used and whether realignment or
-traction forms part of it are **country-dependent** and are not described here.**)** Of its four
+traction forms part of it are (**country-dependent**) and are not described here.**)** Of its four
 effects — less soft-tissue damage, less blood loss, much less pain, and making movement possible
 at all — only the last is transport.
 

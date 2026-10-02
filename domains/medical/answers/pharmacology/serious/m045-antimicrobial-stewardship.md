@@ -21,13 +21,14 @@ this person — and the effect of this prescription on the susceptibility of the
 be in this building, and in this person's own flora, next month. The second is a real cost, it is
 paid by people who are not in the room, and essentially none of it shows up in the consultation.
 
-Claims are marked **[M]** mechanism, **[D]** definitional, **[C]** consensus, or **[L]** local.
+Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
+or (**country-dependent**) local.
 
 ## The mechanism that makes it a commons problem
 
 Resistance determinants are frequently carried on **mobile genetic elements** — plasmids,
 transposons, integrons — and move between bacteria by **horizontal gene transfer**: conjugation,
-transformation and transduction **[M]**. Three consequences follow, and they are the whole
+transformation and transduction (**mechanism**). Three consequences follow, and they are the whole
 argument:
 
 * **It crosses species.** A determinant selected in one organism can end up in a different genus
@@ -60,9 +61,9 @@ argument:
 
 Antibiotics do not create resistance. They **remove the susceptible competition**, so a resistant
 minority that was already present — by pre-existing mutation, or by an element acquired earlier —
-becomes the population **[M]**. That correction matters because it fixes what the pressure is
-proportional to: **total exposure of organisms to the drug**, which includes exposure that did no
-good at all.
+becomes the population (**mechanism**). That correction matters because it fixes what the pressure
+is proportional to: **total exposure of organisms to the drug**, which includes exposure that did
+no good at all.
 
 So the list of things that select is longer and less intuitive than "using too much":
 
@@ -71,7 +72,7 @@ So the list of things that select is longer and less intuitive than "using too m
 * a course continued past the point of benefit;
 * an agent broader than the organism required;
 * and, separately, **sub-therapeutic exposure** — too low a dose, or poor penetration to the site
-  — which selects without treating **[M]**.
+  — which selects without treating (**mechanism**).
 
 Both directions of error select. That is why "give less" is not the principle; "give the right
 amount of the right thing for the right length of time" is, and it is a harder thing to audit.
@@ -106,9 +107,9 @@ amount of the right thing for the right length of time" is, and it is a harder t
    It is to change the structure.
 ```
 
-Hence the machinery, all of which is **[L]** in its details and **[C]** in its existence:
-restricted formularies, authorisation requirements for named agents, automatic stop dates,
-prescription-level indication recording, audit with feedback, ward pharmacist review, and a
+Hence the machinery, all of which is (**country-dependent**) in its details and (**consensus**) in
+its existence: restricted formularies, authorisation requirements for named agents, automatic stop
+dates, prescription-level indication recording, audit with feedback, ward pharmacist review, and a
 stewardship team with authority. Those are not an insult to clinical judgement. They are what
 makes restraint survivable for the individual who exercises it, because an individual who narrows
 a prescription alone carries all the regret risk and captures almost none of the benefit.
@@ -116,24 +117,24 @@ a prescription alone carries all the regret risk and captures almost none of the
 The World Health Organization's three-way **access / watch / reserve** categorisation of
 antibiotics is the same idea applied to the drugs rather than the prescribers: it makes "this
 one's usefulness is a shared, depletable resource" an explicit, published property of an agent
-rather than a matter of local taste **[C]**. Which agents sit where, and what the local
-restriction list looks like, differs by country **[L]**.
+rather than a matter of local taste (**consensus**). Which agents sit where, and what the local
+restriction list looks like, differs by country (**country-dependent**).
 
 ## What each rule is actually for
 
 * **Cultures before the first dose.** The first dose reduces the yield, and without an isolate and
   a susceptibility result you can never narrow — so skipping the culture commits you to broad
-  therapy for the whole course **[M]**.
+  therapy for the whole course (**mechanism**).
 * **Empirical choice from a *local* guideline.** The prior probability of the organism, and of its
   susceptibility, is a property of your population and your institution. A national guideline is a
-  starting point; the local antibiogram is the data **[L]**.
+  starting point; the local antibiogram is the data (**country-dependent**).
 * **An explicit review point.** The review exists because the information arrives on a timetable
   and because an unreviewed prescription continues by default. The window is commonly set at 48 to
   72 hours, which is when cultures typically report, and the exact figure is institutional policy
-  **[C]**, **[L]**.
+  (**consensus**, **country-dependent**).
 * **De-escalation.** A narrower agent exerts less pressure on the commensal flora. The collateral
   is not abstract: disruption of gut flora is itself a mechanism of harm, and *Clostridioides
-  difficile* infection is the consequence always named **[C]**.
+  difficile* infection is the consequence always named (**consensus**).
 * **Shortest effective course.** Pressure is proportional to exposure, and for a growing list of
   indications a shorter course has been shown non-inferior to a longer one. **That list is the
   part of this topic that dates fastest**, and it has moved consistently in one direction.
@@ -145,9 +146,10 @@ restriction list looks like, differs by country **[L]**.
 
 It is **not** withholding antibiotics from someone who needs them, and the misreading does harm.
 In sepsis, delay in effective therapy is itself a major cause of death, and stewardship frameworks
-explicitly prioritise prompt, broad, effective empirical therapy in that situation **[C]**. The
-stewardship intervention in a septic patient is not hesitation at the front door — it is the
-**review, the narrowing and the stopping** that follow once the organism is known.
+explicitly prioritise prompt, broad, effective empirical therapy in that situation
+(**consensus**). The stewardship intervention in a septic patient is not hesitation at the front
+door — it is the **review, the narrowing and the stopping** that follow once the organism is
+known.
 
 An answer that presents stewardship as rationing has got it backwards. The scarce resource being
 protected is the *effectiveness* of the drugs, and the way you protect it is by using them

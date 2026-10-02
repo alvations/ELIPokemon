@@ -180,7 +180,7 @@ Specific to this answer:
 
 * The suspected-cancer and urgent-referral criteria issued by the national or regional body
   governing the reader's practice, which are the actual thresholds and are revised on a cycle
-  *[country-dependent]*.
+  (**country-dependent**).
 * The referral and acceptance policy of the receiving service the reader refers into, for the
   second threshold — the one applied after the referral leaves.
 * A current textbook of clinical epidemiology or clinical decision analysis, for the derivation

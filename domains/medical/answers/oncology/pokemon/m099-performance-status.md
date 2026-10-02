@@ -35,7 +35,7 @@ gates.** No Pokémon in this answer stands in for a person, and the analogy is d
 the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## What the index does, drawn
 
@@ -199,7 +199,7 @@ Cognition, mood, nutrition, polypharmacy, social support and falls are outside p
 by construction — the three discarded bits of every value. That is the explicit rationale for
 structured geriatric assessment in older adults, which finds problems the scale does not detect
 and changes management in a substantial share of the people it is applied to (**consensus**,
-strongly **country-dependent** in whether it is resourced at all).
+strongly (**country-dependent**) in whether it is resourced at all).
 
 ### The gate, and what a gate does to the evidence
 

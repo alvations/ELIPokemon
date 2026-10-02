@@ -33,7 +33,7 @@ branches and reachability lists.** No Pokémon in this answer stands in for a pe
 for a tumour, and the analogy is dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The four routes out, drawn as what they are
 
@@ -206,7 +206,7 @@ disease in a compartment the agent penetrates poorly progresses while everything
 controlled. The clue is the **pattern** rather than the fact of progression — one site or one
 compartment advancing while the rest does not — and the answer is a different instrument: local
 treatment to that site, or an agent whose penetration is a property of the molecule rather than
-something a larger dose achieves (**consensus**, **country-dependent** in availability).
+something a larger dose achieves (**consensus**, (**country-dependent**) in availability).
 
 Which is also why **progression is not one event**. Progression confined to one or a few sites
 with everything else controlled is handled differently from widespread progression in several

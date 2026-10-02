@@ -27,9 +27,9 @@ content; the examples date within a year or two, and naming them here would invi
 treat a revision note as a current list.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the biology works), **definitional** (true because a classification says so),
-**consensus** (widely agreed professional practice), or **country-dependent** (varies by nation,
-region or institution, and changes).
+from how the biology works), (**definitional**) (true because a classification says so),
+(**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
+nation, region or institution, and changes).
 
 ## The four routes out, and what each one implies
 
@@ -149,7 +149,7 @@ penetrates poorly will progress while disease everywhere else stays controlled
 The clue is the **pattern** rather than the fact of progression: one site, or one compartment,
 advancing while the rest does not. The answer is a different instrument — local treatment to the
 progressing site, or an agent whose penetration into that compartment is a property of the
-molecule rather than something a higher dose achieves (**consensus**, **country-dependent** in
+molecule rather than something a higher dose achieves (**consensus**, (**country-dependent**) in
 what is available).
 
 This class is also why **progression is not one event**. Progression confined to one or a few

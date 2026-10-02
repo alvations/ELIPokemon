@@ -99,7 +99,7 @@ clinical guidance rather than a shortened one: branches get collapsed even at a 
 accuracy, actions are chosen for having benign failure modes rather than for being best when done
 right, a lower ceiling is accepted to raise the floor, and the recognition step is deliberately
 biased toward acting because not starting when something was needed is far worse than starting
-when it was not. All **mechanism**, checkable by reasoning.
+when it was not. All (**mechanism**), checkable by reasoning.
 
 The removals are the clearest evidence of the discipline. Butter, oil or ice straight onto a burn.
 Inducing vomiting after a swallowed poison. Cutting, heating or sucking a snake bite. Tilting the
@@ -192,8 +192,8 @@ Emerald's corrected accuracy comparison from `Cmd_accuracycheck` in
 and Hypnosis from `src/data/battle_moves.h`. **The Move Deleter's history, and HM moves being
 unremovable in Red and Blue, are stated from working knowledge rather than read from either
 decompilation**, as is the general claim about what later generations fixed. On the clinical side
-the design argument is **mechanism** and stable, each removal is **consensus** as of writing, and
-everything else — current wording, recognition cues, every number, and how prominently
+the design argument is (**mechanism**) and stable, each removal is (**consensus**) as of writing,
+and everything else — current wording, recognition cues, every number, and how prominently
 dispatcher-assisted instruction is foregrounded — is **council-dependent** and revised on cycles
 the councils do not synchronise. The tourniquet example is here specifically because it shows this
 material changes direction; a reader taking the direction of travel from this answer rather than

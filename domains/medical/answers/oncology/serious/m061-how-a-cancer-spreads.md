@@ -20,8 +20,8 @@ first filter downstream. The second is biological: arriving somewhere is not the
 able to live there. Neither argument alone matches what is observed. Together they do.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the biology or the anatomy works), **definitional** (true because a classification says
-so), **consensus** (widely agreed professional practice), or **country-dependent** (varies by
+from how the biology or the anatomy works), (**definitional**) (true because a classification says
+so), (**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
 nation, region or institution, and changes).
 
 ## The routes, and what each one predicts
@@ -69,7 +69,7 @@ Past that bed the outflow is arterial and goes everywhere, which is why the lung
 so often the first site involved and why involvement beyond them tends to follow rather than
 precede. The standard mechanical account of spread to the axial skeleton invokes the valveless
 venous plexuses around the vertebral column, which offer a route that bypasses the usual sequence
-(**consensus** on the anatomy, **mechanism** for the inference).
+(**consensus** on the anatomy, (**mechanism**) for the inference).
 
 Lymphatic spread is the same kind of argument in a different vessel. Each site drains to a
 particular group of nodes, in a particular order, and that is why a **regional node field** is a
@@ -119,13 +119,13 @@ Two consequences follow with no further observation:
 
 * **Staging investigation is directed rather than exhaustive.** What is imaged, and how, is chosen
   from the known pattern for that primary site rather than by looking everywhere (**consensus**,
-  with **country-dependent** protocols).
+  with (**country-dependent**) protocols).
 * **The nodal field is an anatomical object and is handled as one** — sampled, mapped or treated
   as a field, by site-specific rules.
 * **A cancer of unknown primary is worked up from the pattern of spread**, because the pattern
   carries information about origin (**consensus**).
 * **A limited-volume metastatic pattern is managed differently from a widespread one in several
-  diseases**, and whether that is offered is strongly **country-dependent**.
+  diseases**, and whether that is offered is strongly (**country-dependent**).
 
 ## The human stakes, said plainly
 
@@ -200,5 +200,5 @@ specific molecule is asserted here as established for that reason.
 
 What moves fastest is the clinical periphery: what circulating tumour DNA is used for, how
 limited-volume metastatic disease is defined and treated, and which staging investigations are
-protocolised for which site. Those are **country-dependent** and under revision, and they belong
+protocolised for which site. Those are (**country-dependent**) and under revision, and they belong
 to the current local protocol rather than to a revision note like this one.

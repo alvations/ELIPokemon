@@ -72,8 +72,8 @@ set in a way its mere existence does not.
   has to be repeated, speaks to the last two rows of the conjunction rather than the first ones.
 
 **(Consensus** that these qualities are assessed and that they localise in this way; the
-terminology used for each and the thresholds for acting on them are **country-dependent** and sit
-in local guidance, so none is given here.**)**
+terminology used for each and the thresholds for acting on them are (**country-dependent**) and
+sit in local guidance, so none is given here.**)**
 
 ## What a normal voice does not establish
 
@@ -171,9 +171,10 @@ apply here. Specific to this answer:
   is done where they work and outranks every general account including this one.
 
 Markers used above: **mechanism** (follows from physiology and is checkable by reasoning),
-**consensus** (agreed across mainstream sources as of writing), **country-dependent** (genuinely
-differs between countries, societies or institutions). No thresholds, manoeuvres or management
-sequences are stated, and nothing is quoted, because none of these documents was opened.
+(**consensus**) (agreed across mainstream sources as of writing), (**country-dependent**)
+(genuinely differs between countries, societies or institutions). No thresholds, manoeuvres or
+management sequences are stated, and nothing is quoted, because none of these documents was
+opened.
 
 ## Scope and safety
 

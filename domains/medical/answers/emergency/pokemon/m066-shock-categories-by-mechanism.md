@@ -120,9 +120,9 @@ that volume depends on what filled the ventricle, how well it squeezed, and what
 against. The four broad categories each name a different broken term — the filling, the squeeze, a
 mechanical block, or the loss of resistance together with a failure in how flow is distributed and
 extracted. A product is preserved when one term falls and another rises, so a normal pressure says
-the product is normal and says nothing about the terms. That is **mechanism**: it follows from the
-relationships and is checkable by reasoning. **(Definitional** for what the word shock names;
-**country-dependent** for the naming and boundaries of the distributive group, which have been
+the product is normal and says nothing about the terms. That is (**mechanism**): it follows from
+the relationships and is checkable by reasoning. **(Definitional** for what the word shock names;
+(**country-dependent**) for the naming and boundaries of the distributive group, which have been
 revised more than once.**)**
 
 Two consequences belong here rather than in any table. The pressure is a defended variable, held

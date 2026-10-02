@@ -19,7 +19,7 @@ point adding a well-indicated medicine makes things worse *[mechanism, not guide
 
 This is why the useful distinction is not "many medicines" against "few" but **appropriate**
 polypharmacy against **problematic** polypharmacy — a regimen where every component is still doing
-work the person would choose, against one that accumulated *[consensus]*.
+work the person would choose, against one that accumulated (**consensus**).
 
 ## Why the count itself carries risk
 
@@ -49,12 +49,12 @@ Four mechanisms sit underneath that, and naming them is better than naming a num
    no single pair looks dangerous.
 2. **Adherence falls as complexity rises**, and it falls with the number of administration times
    more steeply than with the number of medicines, so two regimens with the same count are not
-   equally takeable *[consensus]*.
+   equally takeable (**consensus**).
 3. **Each medicine is a monitoring commitment**, and monitoring capacity is finite. A regimen can
    outgrow the system's ability to watch it.
 4. **The evidence runs out.** Trials predominantly recruit people with one condition and exclude
    the multimorbid and the frail. Guideline-concordant care for five conditions sums to a regimen
-   that no trial has ever studied, and the sum is not the thing that was tested *[consensus]*.
+   that no trial has ever studied, and the sum is not the thing that was tested (**consensus**).
 
 ## The prescribing cascade
 
@@ -99,7 +99,7 @@ The asymmetries in that table are the whole answer, and three are worth drawing 
 several widely used classes, stopping produces a transient worsening that is a property of the
 stopping rather than of the underlying condition. If that is not anticipated and described in
 advance, the natural interpretation is that the original problem was real and the stop was wrong —
-and the medicine goes back permanently on the strength of an artefact *[consensus]*.
+and the medicine goes back permanently on the strength of an artefact (**consensus**).
 
 **A stop is an intervention, so it needs a plan, not just a decision.** A defensible deprescribing
 decision specifies what is being withdrawn, over what period, what to watch for, who is watching,
@@ -120,7 +120,7 @@ a person's circumstances have changed, the balance that justified starting may n
 noticing that is part of good care rather than a withdrawal of it. This is not a judgement about
 anyone's worth or a rationing argument, and it is not a conversation that should arrive as a
 surprise in a medication review — which is exactly why it belongs in an anticipatory discussion
-held while there is time for it, with the person deciding what matters to them *[consensus]*.
+held while there is time for it, with the person deciding what matters to them (**consensus**).
 
 The other half of the same section, which is easier to forget because nobody reports it. Taking
 fifteen medicines is itself a daily experience — the timing, the counting, the swallowing, the
@@ -156,16 +156,16 @@ The standing documents for this specialty are listed in
 Specific to this answer:
 
 * The reader's national or regional formulary, which is the authority for every interaction, dose
-  and withdrawal schedule referred to in general terms here *[country-dependent]*.
+  and withdrawal schedule referred to in general terms here (**country-dependent**).
 * The national guideline on multimorbidity or on medicines optimisation issued by the body that
   governs the reader's practice, for the definition of appropriate versus problematic polypharmacy
-  and for the structure of a medication review *[country-dependent]*.
+  and for the structure of a medication review (**country-dependent**).
 * Any published, maintained screening tool for potentially inappropriate prescribing in older
   people — several exist, issued by different academic groups and updated periodically — read in
   its current edition rather than from memory.
 * The reader's national medicines regulator's summary of product characteristics for any specific
   medicine being considered, which is where withdrawal and rebound phenomena are documented
-  *[country-dependent]*.
+  (**country-dependent**).
 * Any systematic review of deprescribing trials in the clinical-pharmacology literature, for how
   thin the withdrawal evidence base is compared with the initiation evidence base.
 * The reader's own organisation's structured medication review template, for what is locally

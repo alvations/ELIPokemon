@@ -113,7 +113,7 @@ they would ignore elsewhere, and that is correct rather than over-cautious.
 **Non-linear kinetics compound it.** Where elimination is saturable, a proportional increase in
 dose produces a more than proportional increase in concentration, so a narrow window and saturable
 kinetics together are the worst combination in pharmacology. Phenytoin is the standard teaching
-example of saturable elimination, and that is *mechanism*, not guideline.
+example of saturable elimination, and that is (**mechanism**), not guideline.
 
 **And the organisational consequences.** Narrow-index drugs attract named-product prescribing,
 specified monitoring schedules, patient-held records in some systems, restrictions on who may

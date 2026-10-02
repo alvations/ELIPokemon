@@ -24,9 +24,9 @@ that to happen.
 Three separate arguments do the work, and they are independent of one another.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from the arithmetic or the biology), **definitional** (true because a convention says so),
-**consensus** (widely agreed professional practice), or **country-dependent** (varies by nation,
-region or institution, and changes).
+from the arithmetic or the biology), (**definitional**) (true because a convention says so),
+(**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
+nation, region or institution, and changes).
 
 ## The three reasons, drawn
 
@@ -133,7 +133,7 @@ nearly disease-specific **in a defined context** (**consensus**).
 And one case that is genuinely contested rather than settled: **prostate-specific antigen** is
 organ-specific and not cancer-specific, and the long argument about it is not about whether it
 detects disease but about overdiagnosis and what follows a positive. Policy differs markedly
-between countries (**consensus** that it is contested, firmly **country-dependent** in what is
+between countries (**consensus** that it is contested, firmly (**country-dependent**) in what is
 offered).
 
 ## What markers are actually for

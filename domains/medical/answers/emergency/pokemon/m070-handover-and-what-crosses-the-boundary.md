@@ -148,7 +148,7 @@ disproportionately contextual, comparative and negative: the scene and its detai
 trajectory, which needs two points and is destroyed by reporting only the latest set of
 observations; how much support those observations were obtained on; what was actively examined and
 found absent; and the sender's own impression, which is an aggregation over many weak signals and
-will not volunteer itself unless it is asked for as a closed question. That is **mechanism** — a
+will not volunteer itself unless it is asked for as a closed question. That is (**mechanism**) — a
 property of any bounded transfer, checkable by reasoning.
 
 The pre-hospital-to-hospital boundary is where this costs most for a reason specific to it: it is
@@ -162,7 +162,7 @@ and much-studied source of avoidable harm across healthcare, which is why this h
 rather than being a matter of conscientiousness. **(Consensus.)**
 
 Structured handover formats are in widespread use, several exist, and they differ between
-ambulance services, hospitals and countries — **country-dependent**, and this answer names none,
+ambulance services, hospitals and countries — (**country-dependent**), and this answer names none,
 because naming one as the standard would be wrong and a half-remembered format is worse than the
 local one. What a format fixes is the field-list problem; a single-speaker convention fixes
 divided attention; read-back fixes the vocabulary problem; the written record arriving with the

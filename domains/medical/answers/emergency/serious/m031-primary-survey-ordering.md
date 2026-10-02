@@ -153,7 +153,7 @@ Specific to this answer:
   including this one.
 
 Every claim above is marked **mechanism** (it follows from physiology and is checkable by
-reasoning), **consensus** (agreed across the major councils as of writing), or
+reasoning), (**consensus**) (agreed across the major councils as of writing), or
 **council-dependent** (it genuinely differs between councils). Nothing here is quoted from any of
 these documents, and no guideline number, document title or identifier is given, because none was
 opened.

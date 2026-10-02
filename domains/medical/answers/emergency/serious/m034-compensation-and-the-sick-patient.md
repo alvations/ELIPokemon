@@ -120,7 +120,7 @@ Failure to recognise a deteriorating patient is a well-described and much-studie
 hospital care, and the structure of this answer is the structure of why it happens. The numbers
 were charted. They were in range. The range was being held at a cost that nothing on the chart
 recorded, and the point at which the holding stops is abrupt rather than gradual. **(Mechanism**
-for why the numbers behave that way; **consensus** that unrecognised deterioration is a major
+for why the numbers behave that way; (**consensus**) that unrecognised deterioration is a major
 source of avoidable harm, which is why structured observation and escalation systems were
 introduced at all.**)**
 
@@ -173,7 +173,7 @@ Specific to this answer:
   cardiovascular and respiratory compensation, which is standard material rather than guidance.
 
 Claims here are marked **mechanism** (control-loop reasoning and its consequences, checkable by
-thinking), **consensus** (agreed across mainstream practice as of writing), or
+thinking), (**consensus**) (agreed across mainstream practice as of writing), or
 **institution-dependent** (genuinely different between organisations). No score is named, no
 thresholds, cut-offs, rates or values are given, nothing is quoted, and no guideline number or
 document title is given, because none was opened.
@@ -196,8 +196,8 @@ institution.
 ## Where this stands, October 2026
 
 The control-loop account of compensation, the lagging/leading asymmetry, the superiority of a
-conjunction over any single threshold, and the three traps are mainstream and are **mechanism** —
-a reader can check the reasoning without opening anything, and none of it has changed in a long
+conjunction over any single threshold, and the three traps are mainstream and are (**mechanism**)
+— a reader can check the reasoning without opening anything, and none of it has changed in a long
 time. Everything specific is **institution-dependent** and moves: which early warning score is in
 use, what its thresholds are, how often observations are taken, what triggers an escalation and to
 whom, and how the score interacts with a clinician's own concern all differ between organisations

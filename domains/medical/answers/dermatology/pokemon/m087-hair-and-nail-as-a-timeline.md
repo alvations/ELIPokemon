@@ -18,9 +18,9 @@ field.
 
 That is a nail plate and a hair shaft. A nail plate is keratin extruded by the matrix under the
 proximal fold; once it is out it is inert, it is never remodelled, and it travels distally at a
-rate set by the matrix behind it. [mechanism] A hair shaft is the same: a column laid down by the
-follicle, carrying what the follicle was doing when that segment was made and nothing at all about
-what it is doing now.
+rate set by the matrix behind it. (**mechanism**) A hair shaft is the same: a column laid down by
+the follicle, carrying what the follicle was doing when that segment was made and nothing at all
+about what it is doing now.
 
 So **examining a nail is not reading a status screen, it is reading a counter that was set
 earlier.** A transverse abnormality is one event; the distance from the proximal fold is how long
@@ -68,11 +68,12 @@ season ago.
 
 ## Markers used in this answer
 
-The clinical claims here carry the same inline markers as the serious half. *mechanism* — follows
-from biology and is checkable by reasoning. *definitional* — a term's meaning. *consensus* —
-standard across current textbooks and national guidance. *country-dependent* — differs between
-countries or institutions, and yours is the authority. The Pokémon claims are not marked this way;
-they are listed in the `## Sources` section with the file they were checked against.
+The clinical claims here carry the same inline markers as the serious half. **mechanism** —
+follows from biology and is checkable by reasoning. (**definitional**) — a term's meaning.
+(**consensus**) — standard across current textbooks and national guidance. (**country-dependent**)
+— differs between countries or institutions, and yours is the authority. The Pokémon claims are
+not marked this way; they are listed in the `## Sources` section with the file they were checked
+against.
 
 ## The six growth curves are why a toenail answers a different question
 
@@ -104,8 +105,8 @@ and they are not approximations:
 ```
 
 A fingernail replaces itself over a matter of months. A toenail takes considerably longer and may
-approach a year or more. [consensus] Same organ, different rate constant, so the toenail holds a
-longer history and answers a question about a more distant past. And the operational consequence
+approach a year or more. (**consensus**) Same organ, different rate constant, so the toenail holds
+a longer history and answers a question about a more distant past. And the operational consequence
 is the one worth carrying away: **the assessment interval is set by the structure's own growth
 rate, not by the clinic's diary.** Judging a nail treatment before a full plate has grown out is
 judging it before the evidence exists — reading the level before the experience has accumulated.
@@ -123,7 +124,7 @@ that independence breaks: a systemic insult — a febrile illness, surgery, a ma
 event, significant weight loss, a new medicine, severe iron deficiency — pushes a large cohort of
 growing follicles into the resting phase at once. The shedding cannot begin until that phase ends,
 so it starts roughly two to three months after the event, by which time the person has usually
-recovered from it. [consensus]
+recovered from it. (**consensus**)
 
 That is `STATUS3_YAWN_TURN(2)` exactly. The consequence was written at the moment of the insult,
 the counter ran down out of sight, and the arrival looks causeless. The history that explains it
@@ -185,7 +186,7 @@ always has one. And the Move Deleter's script calls `IsLastMonThatKnowsSurf` and
 will not let you delete the one record you cannot rebuild. **Somebody wrote a guard against
 irreversible loss into a man in a house in Lilycove, and the clinical equivalent is identifying an
 active scarring process while there are still follicles to protect.** The referral routes and
-timescales for that are **country-dependent**.
+timescales for that are (**country-dependent**).
 
 ## Rare Candy moves the readout and throws the history away
 
@@ -326,7 +327,8 @@ scarring alopecias has been revised repeatedly over the last two decades and the
 between texts. Frontal fibrosing alopecia has been reported in rising numbers internationally and
 the cause of that rise is not settled. Treatment of alopecia areata changed substantially with the
 arrival of oral Janus kinase inhibitors, and which of them is licensed, for which severity, at
-what age, and whether it is funded, is firmly **country-dependent** and has moved more than once.
-Trichoscopy has become a routine part of the hair examination rather than a specialist extra. The
-nail signs and their differentials are stable — rather more stable than the experience curves, two
-of which the series has quietly rewritten between generations. Current as of October 2026.
+what age, and whether it is funded, is firmly (**country-dependent**) and has moved more than
+once. Trichoscopy has become a routine part of the hair examination rather than a specialist
+extra. The nail signs and their differentials are stable — rather more stable than the experience
+curves, two of which the series has quietly rewritten between generations. Current as of October
+2026.

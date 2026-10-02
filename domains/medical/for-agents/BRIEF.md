@@ -110,13 +110,32 @@ So every answer carries a `## Sources` section:
 Mark each load-bearing claim inline with its basis: *mechanism*, *definitional*, *consensus*, or
 *country-dependent*. Declare your markers once per answer.
 
-**Use those four words and the italic inline form**, which is what most of the corpus does. Two
-divergences were tried and are not adopted: *guideline-dependent* for *country-dependent* (same
-meaning, two spellings, no gain), and a declared `[M]` `[C]` `[D]` `[L]` bracket legend. The
-bracket form is genuinely denser and the writer who used it offered to be normalised against; the
-reason to keep the prose form is that the serious half is meant to read as prose a person could
-say aloud, and a sentence carrying three bracketed codes does not. Where existing answers in your
-specialty use the bracket form, leave them; new answers use the prose form.
+**Use those four words, bold and in parentheses: `(**mechanism**)`, `(**consensus**)`.** Several
+of them together go in one bracket: `(**mechanism**, **consensus**)`. That is now the only form in
+the domain, 1,187 annotations across all seven specialties.
+
+Getting here took two wrong instructions from me and three writers pushing back, so the history is
+worth one paragraph. Three forms were in use at once: the bold-parenthesised one (781 uses), a
+`[mechanism]` square-bracket one (356), and a declared `[M]` `[C]` `[D]` `[L]` letter legend (71).
+This brief told writers to use "the italic inline form", which was **not** any of them — the
+italic count was about fifty. One writer matched its specialty's bracket form and broke the
+brief's letter; another counted the corpus, found the brief outnumbered, said *"I added five more
+bracket-form answers and I think that was right for local consistency and wrong for the corpus"*,
+and asked for one sweep commit rather than a per-writer decision. That was the right request and
+it is what happened, except that the sweep went to the form the corpus actually used rather than
+the one the brief claimed.
+
+**Double-mark when a claim is two things**, which is common and was being hidden by a hedge. A
+writer pointed out that *"a split at or below the basement membrane may scar"* is a clinical
+generalisation wearing a mechanism's clothes, and marked it `(**mechanism**, **consensus**)`
+because the two words looked exclusive and are not. They are not. Mark both rather than choosing,
+and there is no fifth marker.
+
+**A Pokémon half that carries clinical markers declares them too.** The declaration is one short
+section, placed where the serious half has one. If your Pokémon half carries no clinical claim, it
+needs no declaration — do not announce a convention the answer then does not use. The reason to
+declare in a register that also contains `TYPE_MUL_NO_EFFECT` and `holdEffectParam` is that an
+undeclared marker there is genuinely ambiguous.
 
 **Pokémon facts are different, and you may source them properly.** `raw.githubusercontent.com`
 reaches `pret/pokered`, `pret/pokeemerald` and `rh-hideout/pokeemerald-expansion`. Read the

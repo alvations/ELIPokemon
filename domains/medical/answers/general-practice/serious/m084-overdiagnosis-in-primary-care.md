@@ -11,13 +11,13 @@ tags: [overdiagnosis, incidental-findings, labelling, cascade, diagnostic-thresh
 # The diagnosis was correct, and the thing it named was never going to harm that person
 
 Overdiagnosis is the correct identification of a condition that would not have produced symptoms
-or shortened life in the person who has it *[definitional]*. Every word of that is load-bearing.
+or shortened life in the person who has it (**definitional**). Every word of that is load-bearing.
 The test was not wrong. The pathologist was not wrong. The label describes something genuinely
 present. The harm is not in the finding — it is in everything the finding sets in motion, none of
 which that person needed.
 
-Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*.
+Load-bearing claims below are marked with what they rest on: **mechanism**, **definitional**,
+(**consensus**) or (**country-dependent**).
 
 **Two answers already hold most of this ground, and this one defers to both rather than restating
 them.** m013 is where lead-time bias, length bias and overdiagnosis are worked through as the
@@ -86,16 +86,16 @@ is a different problem, and the difference is the subject here.
 
 So the asymmetry is worse than the missing counterfactual. A programme can be held to account for
 its overdiagnosis; opportunistic diagnosis in first-contact care cannot be, by anybody, locally.
-The two supports that do exist are both *consensus* and both external to any practice: a reservoir
-of indolent disease found incidentally in people who had no symptoms from it, and the observation
-that diagnosis rates for several conditions track the intensity of looking far better than they
-track anything about the population being looked at.
+The two supports that do exist are both (**consensus**) and both external to any practice: a
+reservoir of indolent disease found incidentally in people who had no symptoms from it, and the
+observation that diagnosis rates for several conditions track the intensity of looking far better
+than they track anything about the population being looked at.
 
 ## Where it comes from without a screening programme
 
 1. **Tests done for another reason.** An image or a panel requested for one question returns
    answers to several others. The incidental finding is the dominant route in primary care, and
-   it grows with every increase in image resolution and assay sensitivity *[consensus]*.
+   it grows with every increase in image resolution and assay sensitivity (**consensus**).
 2. **A definition that moved.** When a threshold is lowered or a diagnostic criterion widened,
    prevalent cases appear immediately, in people to whom nothing whatever has happened. This is
    the purest form: the population is unchanged and the count is not.
@@ -125,8 +125,8 @@ no symptom*.
 
 Both columns contain real harm to real people. Only one of them generates feedback, so
 professional learning drifts, predictably and in one direction, no matter how conscientious the
-individual *[mechanism]*. Nothing about caring more fixes an asymmetry in what is observable. The
-counterweights have to be designed: population data rather than recalled cases, audit of
+individual (**mechanism**). Nothing about caring more fixes an asymmetry in what is observable.
+The counterweights have to be designed: population data rather than recalled cases, audit of
 investigation rates alongside outcomes, and the discipline of asking before a test what action
 each possible result would change.
 
@@ -136,7 +136,7 @@ each possible result would change.
   test's only remaining outputs are a finding and a cascade.
 * **Separate a finding from a diagnosis in the record.** A measurement, dated, with an
   interpretation and a plan, is a different object from a condition added to a problem list — and
-  the problem list is what the next ten clinicians will read *[consensus]*.
+  the problem list is what the next ten clinicians will read (**consensus**).
 * **Make watchful waiting a plan with a date, not an absence of one.** This is where m012's
   specification applies: a named trigger, a timeframe, and a record of it.
 * **Watch the wording at the moment of labelling.** The words chosen when a finding is first
@@ -187,13 +187,13 @@ Specific to this answer:
 
 * The diagnostic criteria currently in force for any condition the reader has in mind, together
   with the previous version, because the comparison between the two is where a definitional change
-  becomes visible *[country-dependent]*.
+  becomes visible (**country-dependent**).
 * The published literature on overdiagnosis and on incidence-mortality divergence, in the
   epidemiology and public-health journals, for the population evidence the argument rests on.
 * Any systematic review of incidental findings on cross-sectional imaging, for the frequency of
   findings and of the cascades that follow them.
 * The reader's national guidance on the management of specific incidental findings, where it
-  exists, which is the only authority on what to do with one *[country-dependent]*.
+  exists, which is the only authority on what to do with one (**country-dependent**).
 * The literature on diagnostic labelling and its effects on symptom reporting, absence from work
   and self-rated health, for the harms that are caused by the label rather than by the condition.
 

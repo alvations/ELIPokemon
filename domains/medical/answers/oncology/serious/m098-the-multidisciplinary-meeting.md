@@ -21,9 +21,9 @@ useful way to learn it is backwards: name each failure, then look at which featu
 exists because of it.
 
 Each load-bearing claim below is marked with the kind of thing it is: **mechanism** (derivable
-from how the process works), **definitional** (true because a classification or standard says so),
-**consensus** (widely agreed professional practice), or **country-dependent** (varies by nation,
-region or institution, and changes).
+from how the process works), (**definitional**) (true because a classification or standard says
+so), (**consensus**) (widely agreed professional practice), or (**country-dependent**) (varies by
+nation, region or institution, and changes).
 
 ## The structure, and the failure each piece answers
 
@@ -83,7 +83,7 @@ Declaring the membership in advance is the control. It means the option set pres
 surgery, systemic therapy, radiation therapy and, where relevant, the option of treating neither
 the tumour nor a symptom yet — regardless of which specialty referred the case. In several
 countries the required membership is specified in national standards rather than left to local
-custom (**country-dependent**, **consensus** in principle).
+custom (**country-dependent**, (**consensus**) in principle).
 
 ## Failure two: deciding on a summary
 
@@ -127,7 +127,7 @@ Underrated, and arguably the function with the largest aggregate effect. The lis
 A named coordinator tracking which cases have been discussed, which are awaiting results, which
 have been referred onward and which have not yet been given their recommendation turns the
 meeting into a tracking instrument as well as a decision process (**consensus**, strongly
-**country-dependent** in how it is resourced and recorded).
+(**country-dependent**) in how it is resourced and recorded).
 
 The same mechanism supports **trial screening**: a meeting that sees every new case in a disease
 is the natural place for open studies to be checked against, which is one reason trial accrual

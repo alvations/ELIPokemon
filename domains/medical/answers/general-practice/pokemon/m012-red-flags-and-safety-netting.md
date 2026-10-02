@@ -155,7 +155,7 @@ The standing documents for this specialty are listed in
 Specific to this answer:
 
 * The suspected-cancer and urgent-referral criteria issued by the national or regional body
-  governing the reader's practice, for the red-flag thresholds themselves *[country-dependent]*.
+  governing the reader's practice, for the red-flag thresholds themselves (**country-dependent**).
 * The curriculum and assessment guidance of the reader's own college or training body for general
   practice, for what safety-netting is formally expected to contain.
 * The reader's own organisation's significant-event and serious-incident framework, which is where
@@ -163,7 +163,7 @@ Specific to this answer:
 * Any systematic review of diagnostic error and diagnostic delay in primary care, in the
   patient-safety literature, for the recurring contributory factors.
 * The national patient-safety or healthcare-inspection body's published reports on diagnostic
-  delay for the reader's country *[country-dependent]*.
+  delay for the reader's country (**country-dependent**).
 
 The Pokémon figures are a separate matter and are not covered by the line above. The encounter
 tables and rates for Mt. Moon 1F, B1F and B2F, the ten slot chances, the Repel step counts and the

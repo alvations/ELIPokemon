@@ -104,7 +104,7 @@ systolic pressure. Full compression is generally considered safe at an index of 
 above; below that, compression is modified or withheld pending specialist assessment, and a
 markedly low index means severe arterial disease needing urgent vascular referral. **The exact
 thresholds, what happens at each, and who is permitted to apply compression are set by local
-policy, and that policy is the authority rather than this answer.** [country-dependent]
+policy, and that policy is the authority rather than this answer.** (**country-dependent**)
 
 Two caveats are routinely examined on. The index is **falsely elevated** where vessels are
 calcified and incompressible — most importantly in diabetes and chronic kidney disease — so a
@@ -187,7 +187,7 @@ wound that is not clinically infected does not help, and a positive swab from su
 antibiotics nobody needed. What matters is clinical change — increasing pain, spreading erythema,
 cellulitis, malodour, rapid deterioration, systemic features. Systemic antibiotics are for
 spreading infection; topical antibiotics on chronic wounds are avoided on resistance and
-sensitisation grounds in most guidance. Agents and durations are **country-dependent**.
+sensitisation grounds in most guidance. Agents and durations are (**country-dependent**).
 
 ## Offloading is Heavy-Duty Boots, and the diabetic foot is where pain stops helping
 
@@ -200,7 +200,8 @@ In diabetic neuropathy the protective sensation is gone, so the ulcer is painles
 keeps walking on it, and the mechanical cause is reapplied with every step. Offloading is the
 structural twin of compression — it removes the cause rather than dressing the effect. The
 diabetic foot is managed urgently by a multidisciplinary foot service, with assessment for
-osteomyelitis and for ischaemia, on referral timescales that are **country-dependent** and short.
+osteomyelitis and for ischaemia, on referral timescales that are (**country-dependent**) and
+short.
 
 ## Illusion, and the wound that is not what it is presenting as
 

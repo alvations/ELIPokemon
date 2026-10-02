@@ -26,9 +26,9 @@ a wide confidence interval — not because the intervention did nothing, but bec
 ever have changed one term. *Mechanism; the empirical finding that single interventions
 underperform multifactorial ones in most settings is consensus.*
 
-Markers used below: *mechanism* means checkable by reasoning; *consensus* means mainstream
+Markers used below: **mechanism** means checkable by reasoning; **consensus** means mainstream
 agreement across major guidance; *contested* means the field genuinely disagrees;
-*country-dependent* means the reader's own guidance and law decide.
+(**country-dependent**) means the reader's own guidance and law decide.
 
 ## The channels, and what each one is actually doing
 

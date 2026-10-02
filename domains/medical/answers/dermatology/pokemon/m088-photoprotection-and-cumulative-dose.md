@@ -30,8 +30,8 @@ statement about a defined test.**
 That is the sun protection factor. It is a ratio: the ultraviolet dose needed to produce a defined
 erythemal response with the product on, over the dose needed without it, measured in a laboratory
 at a standardised application density considerably heavier than anyone uses, against an endpoint
-that responds mostly to one part of the spectrum. [definitional] Honest about the experiment. Not
-a prediction of what a person gets at the beach.
+that responds mostly to one part of the spectrum. (**definitional**) Honest about the experiment.
+Not a prediction of what a person gets at the beach.
 
 ```
    FOUR THINGS THE PRINTED FIGURE DOES NOT TELL YOU
@@ -62,11 +62,12 @@ a prediction of what a person gets at the beach.
 
 ## Markers used in this answer
 
-The clinical claims here carry the same inline markers as the serious half. *mechanism* — follows
-from biology and is checkable by reasoning. *definitional* — a term's meaning. *consensus* —
-standard across current textbooks and national guidance. *country-dependent* — differs between
-countries or institutions, and yours is the authority. The Pokémon claims are not marked this way;
-they are listed in the `## Sources` section with the file they were checked against.
+The clinical claims here carry the same inline markers as the serious half. **mechanism** —
+follows from biology and is checkable by reasoning. (**definitional**) — a term's meaning.
+(**consensus**) — standard across current textbooks and national guidance. (**country-dependent**)
+— differs between countries or institutions, and yours is the authority. The Pokémon claims are
+not marked this way; they are listed in the `## Sources` section with the file they were checked
+against.
 
 ## The Sandstorm exemption list is the photoprotection hierarchy, in code
 
@@ -172,9 +173,9 @@ Two patterns of deposit are worth keeping apart, because they do not carry the s
 Chronic cumulative exposure — the outdoor worker's lifetime — is most associated with keratinocyte
 cancers and with actinic keratoses as a field change. Intermittent intense exposure with sunburn,
 particularly in childhood, features more prominently in the epidemiology of melanoma. Both are
-dose; they are different distributions of the same dose. [consensus] The recognition and referral
-reasoning for the cancers themselves lives in the oncology answers m061 to m065 and in this
-specialty's m020, and none of it is re-derived here.
+dose; they are different distributions of the same dose. (**consensus**) The recognition and
+referral reasoning for the cancers themselves lives in the oncology answers m061 to m065 and in
+this specialty's m020, and none of it is re-derived here.
 
 ## Safeguard is five turns and will not refresh itself
 
@@ -233,7 +234,7 @@ is a lifetime total. **The genetic DNA-repair deficiencies** are rare and change
 
 And the trade-off that is genuinely unsettled: ultraviolet contributes to cutaneous vitamin D
 synthesis, so complete avoidance has a cost, and the balance struck between photoprotection advice
-and vitamin D sufficiency is **country-dependent** and differs by latitude, population and
+and vitamin D sufficiency is (**country-dependent**) and differs by latitude, population and
 national policy. Picking one country's answer and asserting it would be wrong.
 
 ## Where the metaphor stops

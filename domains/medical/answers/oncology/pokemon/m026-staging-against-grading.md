@@ -20,8 +20,8 @@ grading: two orthogonal descriptors, a long habit of reading one off the other, 
 specific errors that habit produced.
 
 Clinical claims below carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**. Every Pokémon fact is read from the games' own data, and the
-closing note says which file.
+(**consensus**, **country-dependent**). Every Pokémon fact is read from the games' own data, and
+the closing note says which file.
 
 ## The two columns, drawn
 
@@ -139,7 +139,7 @@ that divides by the defender's Defense. Both deliberately cross the columns, bot
 and both need to be *named* as the hybrids they are rather than filed under either heading.
 
 Some current clinical schemes fold grade and tissue-based biomarkers into the stage group itself
-for particular diseases (**consensus**, with **country-dependent** uptake). Same move. It is a
+for particular diseases (**consensus**, with (**country-dependent**) uptake). Same move. It is a
 reasonable answer to anatomy under-predicting behaviour, it does blur the orthogonality this
 answer opened with, and the honest position is that the result is a third thing — a prognostic
 grouping, neither a stage nor a grade — which should be reported under its own name.

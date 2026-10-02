@@ -87,8 +87,8 @@ Three consequences, all of them routine traps:
 * Conventional pulse oximetry cannot distinguish a carrier occupied by carbon monoxide from one
   carrying oxygen, so the reading can be normal or high in carbon monoxide poisoning. This is a
   property of the measurement, not a malfunction. **(Consensus** that standard pulse oximetry is
-  unreliable in this setting; which device and which test is used instead is **country-dependent**
-  and institutional.**)**
+  unreliable in this setting; which device and which test is used instead is
+  (**country-dependent**) and institutional.**)**
 * A metabolic cause of breathlessness can give a wholly normal saturation, because nothing about
   it is a failure of oxygen uptake.
 
@@ -183,9 +183,10 @@ apply here. Specific to this answer:
   outranks every general account including this one.
 
 Markers used above: **mechanism** (follows from physiology and is checkable by reasoning),
-**consensus** (agreed across mainstream sources as of writing), **country-dependent** (genuinely
-differs between countries, societies or institutions). No targets, thresholds, rates, devices,
-agents or doses are stated, and nothing is quoted, because none of these documents was opened.
+(**consensus**) (agreed across mainstream sources as of writing), (**country-dependent**)
+(genuinely differs between countries, societies or institutions). No targets, thresholds, rates,
+devices, agents or doses are stated, and nothing is quoted, because none of these documents was
+opened.
 
 ## Scope and safety
 

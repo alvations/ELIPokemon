@@ -108,7 +108,7 @@ Multimorbidity is not a licence to do less, and the argument above can be misuse
 very little effort. The phrases *treatment burden* and *limited horizon* are available to justify
 withholding effective treatment from people who are old, poor, cognitively impaired, or carry a
 psychiatric diagnosis — and under-treatment of exactly those groups is a documented pattern, not
-a hypothetical risk *[consensus]*. The test that does some work is whether the same reasoning
+a hypothetical risk (**consensus**). The test that does some work is whether the same reasoning
 would have been applied to a person with identical conditions and a different life.
 
 And the guidelines remain the best available statement about each condition taken alone. Composing
@@ -154,7 +154,7 @@ Specific to this answer:
 
 * The national guideline on multimorbidity or on the care of people with several long-term
   conditions, issued by the body that governs the reader's practice, which is the document that
-  states the prioritisation approach expected locally *[country-dependent]*.
+  states the prioritisation approach expected locally (**country-dependent**).
 * The eligibility criteria sections of the pivotal trials behind any specific recommendation being
   applied, which is where the applicability question is actually settled.
 * Any systematic review of the representation of multimorbidity in randomised trials, in the

@@ -165,7 +165,7 @@ Specific to this answer:
   the later revisions issued by the same organisation, for the conditions a programme must meet.
 * The published rationale, age range and interval for each programme operating in the reader's own
   country, issued by that country's national screening body or equivalent committee
-  *[country-dependent]*.
+  (**country-dependent**).
 * The information leaflet the reader's own national programme sends with its invitations, which is
   the document that actually states the benefits and harms to the public in that country.
 * Any standard textbook of epidemiology or public health, for lead-time bias, length-biased

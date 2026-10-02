@@ -136,7 +136,7 @@ energy was transferred, in what direction, over what time, into which tissues, w
 what state — and what it provides is a prior probability over possible injuries, formed before
 anybody has examined anything. The examination afterwards is the same examination; what changes is
 the weight its results carry, which is why acting differently on an identical finding under a
-different mechanism is coherent rather than inconsistent. That is **mechanism**: Bayesian
+different mechanism is coherent rather than inconsistent. That is (**mechanism**): Bayesian
 reasoning applied to a physical event, checkable by reasoning.
 
 It earns its place mainly on one thing. Some consequences of energy transfer are complete at the
@@ -156,7 +156,7 @@ mechanism is frequently wrong, incomplete or absent, and a prior inherits the re
 account it was built from. And the specifics — energy, direction, the state of the body — are the
 part that carries the information and the part most easily lost at a handover, where only the
 label tends to survive. **(Consensus** that occult and delayed-presenting injury is a major source
-of avoidable harm and that such criteria are constructed for sensitivity; **country-dependent**
+of avoidable harm and that such criteria are constructed for sensitivity; (**country-dependent**)
 for every criterion, threshold and imaging indication, none of which is stated here.**)**
 
 No Pokémon stands for a person, a casualty or an injury anywhere in this answer, nothing in the

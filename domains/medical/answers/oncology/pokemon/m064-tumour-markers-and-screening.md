@@ -32,7 +32,7 @@ power formulae.** No Pokémon in this answer stands in for a person with cancer,
 dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The three reasons, drawn
 
@@ -190,7 +190,7 @@ context**:
 And one genuinely contested case rather than a settled one: **prostate-specific antigen** is
 organ-specific and not cancer-specific, and the long argument about it is not about whether it
 detects disease but about overdiagnosis and what follows a positive. Policy differs markedly
-between countries (**consensus** that it is contested, firmly **country-dependent** in what is
+between countries (**consensus** that it is contested, firmly (**country-dependent**) in what is
 offered).
 
 ## What markers are for, and why every argument above reverses

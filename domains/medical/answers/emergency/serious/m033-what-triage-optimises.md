@@ -122,8 +122,8 @@ The lowest-priority category is not an abandoned category. Every system of this 
 and reassessment inside it, and keeps it explicitly open to revision as resource arrives, because
 the ranking was conditional on a resource position that changes. A category assigned in the first
 minutes of an incident is a statement about what was available then. **(Consensus** that re-triage
-and continuing care of that group are built into these systems; **country-dependent** in what the
-categories are called and how each service words them.**)**
+and continuing care of that group are built into these systems; (**country-dependent**) in what
+the categories are called and how each service words them.**)**
 
 Nothing in the ranking is a judgement about anyone's worth. It ranks where a unit of a scarce
 thing changes the most outcomes, and it would return the same answer about any two people whoever
@@ -175,7 +175,7 @@ Specific to this answer:
   of this subject that is not academic.
 
 Claims here are marked **mechanism** (constrained optimisation and human-factors reasoning,
-checkable by thinking), **consensus** (agreed across mainstream practice as of writing), or
+checkable by thinking), (**consensus**) (agreed across mainstream practice as of writing), or
 **council-dependent** / **service-dependent** (genuinely different between organisations). No
 triage tool is named, no category labels are given, no criteria or thresholds are stated, nothing
 is quoted, and no guideline number or document title is given, because none was opened.
@@ -199,7 +199,7 @@ describes any real person, case, incident or institution.
 
 The constrained-optimisation account of triage, the benefit-per-unit-resource ranking, the
 separation of the sorting role from the treating role and the requirement to re-sort are
-mainstream and are **mechanism** — a reader can check the reasoning without opening anything.
+mainstream and are (**mechanism**) — a reader can check the reasoning without opening anything.
 Everything specific is **service-dependent**: which triage tool is in use, how many categories it
 has, what they are called, what observations feed it, who may declare a major incident, and how
 decisions are reviewed afterwards all differ between countries and between neighbouring services

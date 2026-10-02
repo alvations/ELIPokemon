@@ -64,7 +64,7 @@ second injury along that same line is more likely than chance. So the mechanism 
 what to look for but *where else* — the associated injury, the one on the far side, the one above
 and below. An examination guided by a line of force covers different ground from one guided by
 where the patient says it hurts. **(Consensus** that injuries associate along a line of force and
-that structured trauma assessment is built around that; **country-dependent** in which
+that structured trauma assessment is built around that; (**country-dependent**) in which
 associations each trauma network chooses to name in its own guidance.**)**
 
 **It changes the threshold for acting on an equivocal result.** Where the prior is high, a
@@ -112,8 +112,8 @@ physics differ by an order of magnitude. **(Mechanism.)**
   not exclude an injury, and a reassuring mechanism is not a negative test. Mechanism-based
   criteria are built to be sensitive at the cost of specificity, which means they over-trigger by
   design and cannot be read as rule-outs. **(Consensus** that this is how such criteria are
-  constructed; the criteria themselves are **country-dependent**, differ between trauma networks,
-  are revised, and none is stated here.**)**
+  constructed; the criteria themselves are (**country-dependent**), differ between trauma
+  networks, are revised, and none is stated here.**)**
 
 ## Why the prior has to be written down and handed on
 
@@ -185,10 +185,10 @@ apply here. Specific to this answer:
   what is done where they work and outrank every general account including this one.
 
 Markers used above: **mechanism** (follows from physics or from physiology and is checkable by
-reasoning), **consensus** (agreed across mainstream sources as of writing), **country-dependent**
-(genuinely differs between networks, countries or institutions). No criteria, thresholds, imaging
-indications or management sequences are stated, and nothing is quoted, because none of these
-documents was opened.
+reasoning), (**consensus**) (agreed across mainstream sources as of writing),
+(**country-dependent**) (genuinely differs between networks, countries or institutions). No
+criteria, thresholds, imaging indications or management sequences are stated, and nothing is
+quoted, because none of these documents was opened.
 
 ## Scope and safety
 

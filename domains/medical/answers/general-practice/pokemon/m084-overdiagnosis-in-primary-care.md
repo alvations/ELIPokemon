@@ -216,13 +216,13 @@ Specific to this answer:
 
 * The diagnostic criteria currently in force for any condition the reader has in mind, together
   with the previous version, because the comparison between the two is where a definitional change
-  becomes visible *[country-dependent]*.
+  becomes visible (**country-dependent**).
 * The published literature on overdiagnosis and on incidence-mortality divergence, in the
   epidemiology and public-health journals, for the population evidence the argument rests on.
 * Any systematic review of incidental findings on cross-sectional imaging, for the frequency of
   findings and of the cascades that follow them.
 * The reader's national guidance on the management of specific incidental findings, where it
-  exists, which is the only authority on what to do with one *[country-dependent]*.
+  exists, which is the only authority on what to do with one (**country-dependent**).
 * The literature on diagnostic labelling and its effects on symptom reporting, absence from work
   and self-rated health, for the harms that are caused by the label rather than by the condition.
 

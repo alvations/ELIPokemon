@@ -23,12 +23,13 @@ not. Warfarin is among the most dangerous drugs in common use and nobody measure
 concentration, because the effect is directly measurable and the effect is what matters. *That
 contrast is consensus, and it is the whole shape of the topic.*
 
-Claims below are marked **[M]** mechanism, **[D]** definitional, **[C]** consensus, or **[L]**
-local — differing by country, institution or laboratory.
+Each load-bearing claim below is marked with its basis: **mechanism**, **definitional**,
+(**consensus**), or (**country-dependent**) — the last meaning it differs by country, institution
+or laboratory.
 
 ## What has to be true before monitoring a concentration is worth doing
 
-Five conditions, and a drug needs essentially all of them **[C]**:
+Five conditions, and a drug needs essentially all of them (**consensus**):
 
 1. **A narrow therapeutic index.** If the margin is wide, the dose can be wrong by a factor and
    nothing happens, so a number adds nothing. See `m008`.
@@ -37,19 +38,19 @@ Five conditions, and a drug needs essentially all of them **[C]**:
    interval; an aminoglycoside's effect is bacterial killing at a site you cannot sample.
 3. **A reproducible relationship between concentration and effect.** If the same concentration
    produces different effects in the same person on different days, the number is not informative
-   **[M]**.
+   (**mechanism**).
 4. **Wide and unpredictable variability in the concentration a given dose produces.** If everyone
    given the same dose lands in the same place, dose by weight and stop. Monitoring earns its cost
    where the dose-to-concentration step is the unpredictable one — which is why renal and hepatic
    impairment, extremes of body composition, interacting drugs and metaboliser phenotype all push
    a drug towards monitoring.
 5. **A validated, available assay with a known turnaround.** A result that arrives after the
-   decision has been made is not a monitoring programme **[L]**.
+   decision has been made is not a monitoring programme (**country-dependent**).
 
 The drug classes conventionally named as meeting them — aminoglycosides, glycopeptides, digoxin,
 lithium, several antiepileptics, the immunosuppressants, methotrexate in high-dose protocols — are
-the standard teaching list **[C]**. Which ones your laboratory actually offers, and at what
-sampling times, is local, and the laboratory handbook is the authority.
+the standard teaching list (**consensus**). Which ones your laboratory actually offers, and at
+what sampling times, is local, and the laboratory handbook is the authority.
 
 ## What a concentration is a function of
 
@@ -78,16 +79,17 @@ sampling times, is local, and the laboratory handbook is the authority.
 ## Timing, which is the whole discipline
 
 A **trough** is the sample taken immediately before the next dose, at the lowest point of the
-dosing interval **[D]**. It is the reference point for three reasons, and they are all mechanical.
+dosing interval (**definitional**). It is the reference point for three reasons, and they are all
+mechanical.
 
 * It is **reproducible**. The concentration at the trough changes slowly with time, so being half
   an hour out matters little. Thirty minutes of error near the peak can change the number
-  substantially **[M]**.
+  substantially (**mechanism**).
 * **Distribution is complete.** A sample drawn during the distribution phase reads high and means
   nothing, because the drug has not yet equilibrated with the tissue the effect lives in. Digoxin
   is the drug this is always taught on, and the reason it needs hours rather than minutes after a
-  dose is its large volume of distribution **[C]**. The required interval is drug-specific and
-  belongs to the product information.
+  dose is its large volume of distribution (**consensus**). The required interval is drug-specific
+  and belongs to the product information.
 * It is the point at which **sub-therapeutic exposure** is most likely, so it bounds the failure
   risk.
 
@@ -113,7 +115,7 @@ steady-state reference range, because the range was derived at steady state; it 
 acting on it over-doses. Steady state arrives on a timetable set by half-life and by nothing else
 — the arithmetic is in `m006`. The exceptions are the drugs monitored deliberately *before* steady
 state because early toxicity is the thing being watched for, and those are protocol-specific
-**[L]**.
+(**country-dependent**).
 
 ## What a trough actually tells you, and what it does not
 
@@ -122,22 +124,22 @@ happening, if you have a previous trough to compare it with; and whether the dos
 the clearance and the doses actually taken are *jointly* consistent with the target.
 
 **It does not tell you:** the peak, the area under the curve, or the free concentration. Those
-matter because the three are the exposure measures different drugs' effects actually track **[M]**
-— a concentration-dependent killing effect tracks the peak, a time-dependent one tracks how long
-the concentration stayed above a threshold, and a cumulative toxicity tracks the area. Monitoring
-the wrong one is a real error with a plausible-looking number attached.
+matter because the three are the exposure measures different drugs' effects actually track
+(**mechanism**) — a concentration-dependent killing effect tracks the peak, a time-dependent one
+tracks how long the concentration stayed above a threshold, and a cumulative toxicity tracks the
+area. Monitoring the wrong one is a real error with a plausible-looking number attached.
 
 Three further caveats, each of which has caused harm:
 
 * **The assay measures total drug, not free drug.** For a highly protein-bound drug,
   hypoalbuminaemia raises the free fraction, so the *total* concentration understates the active
   drug and may read "normal" during toxicity. Phenytoin is the standard example and uraemia
-  compounds it **[C]**.
+  compounds it (**consensus**).
 * **An assay for the parent misses active metabolites.** Where the metabolite carries much of the
-  effect, the parent concentration is not the exposure that matters **[M]**.
+  effect, the parent concentration is not the exposure that matters (**mechanism**).
 * **Reference ranges and units are laboratory property.** They differ between laboratories as well
   as between countries, and a result transcribed without its units or its range is a recognised
-  source of error **[L]**.
+  source of error (**country-dependent**).
 
 Finally, the discipline that makes all of it safe: a concentration is interpreted **with** the
 person, not instead of them. A number inside the range in someone showing toxicity does not

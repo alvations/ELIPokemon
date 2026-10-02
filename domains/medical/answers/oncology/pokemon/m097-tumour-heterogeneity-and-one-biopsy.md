@@ -38,7 +38,7 @@ flag arrays.** No Pokémon in this answer stands in for a person with cancer, fo
 cell, and the analogy is dropped entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The three axes, drawn as what they are
 
@@ -228,7 +228,8 @@ For a treatment decision at progression, the lesion that is **progressing** is u
 informative one, because it is the part of the population that escaped (**consensus**). **When**
 is governed by the same test as everything else here: a molecular result that cannot change what
 is done, in a disease where no matched option is reachable, is a procedure with risk and no
-decision attached (**consensus**, strongly **country-dependent**, because reachability is local).
+decision attached (**consensus**, strongly (**country-dependent**), because reachability is
+local).
 
 ## Where the metaphor stops
 

@@ -16,7 +16,7 @@ wound that needs more time. It is a wound that is **arrested somewhere nameable*
 where is the assessment. *This is mechanism rather than guideline, and the phase model itself is
 definitional — it is the vocabulary of every wound-care text, not a recommendation.*
 
-Markers used below: *mechanism*, *definitional*, *consensus*, *country-dependent*.
+Markers used below: **mechanism**, **definitional**, **consensus**, **country-dependent**.
 
 ```
    phase            what it is doing                      what it needs to proceed
@@ -144,8 +144,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * A current tissue-viability or wound-care textbook, for the phases of healing, the intentions of
   closure, and the cellular detail summarised above.

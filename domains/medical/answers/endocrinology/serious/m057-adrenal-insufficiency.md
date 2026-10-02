@@ -95,7 +95,7 @@ Fatigue, nausea, poor appetite, weight loss, abdominal pain, myalgia, light-head
 standing: every one is common, none is specific, and in combination they look like a dozen other
 things *(consensus)*. With a low pre-test probability and a non-specific syndrome, the diagnosis
 is not going to be reached by pattern recognition on symptoms. It is reached by noticing the
-features that follow from the **mechanism** rather than from the illness experience:
+features that follow from the (**mechanism**) rather than from the illness experience:
 
 * **Postural hypotension**, because the permissive effect on vascular tone has gone *(mechanism)*.
 * **Hyponatraemia**, by two different routes depending on the form: mineralocorticoid deficiency

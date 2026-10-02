@@ -61,11 +61,12 @@ number that decides which of several non-interchangeable treatments can work at 
 
 ## Markers used in this answer
 
-The clinical claims here carry the same inline markers as the serious half. *mechanism* — follows
-from biology and is checkable by reasoning. *definitional* — a term's meaning. *consensus* —
-standard across current textbooks and national guidance. *country-dependent* — differs between
-countries or institutions, and yours is the authority. The Pokémon claims are not marked this way;
-they are listed in the `## Sources` section with the file they were checked against.
+The clinical claims here carry the same inline markers as the serious half. **mechanism** —
+follows from biology and is checkable by reasoning. (**definitional**) — a term's meaning.
+(**consensus**) — standard across current textbooks and national guidance. (**country-dependent**)
+— differs between countries or institutions, and yours is the authority. The Pokémon claims are
+not marked this way; they are listed in the `## Sources` section with the file they were checked
+against.
 
 ## Growl makes the hits smaller and does not touch Leech Seed
 
@@ -81,8 +82,8 @@ Growl does not reduce it by a single point. Six Growls do not reduce it by a sin
 A topical corticosteroid on tinea is Growl. It genuinely does something — the scale goes, the edge
 softens, the itch settles — and the organism keeps spreading, because the steroid is aimed at the
 host response and the host response was the thing you were using to follow the disease.
-[mechanism] The resulting hard-to-recognise widening eruption has a name, tinea incognito, and it
-is produced by a perfectly reasonable sequence of decisions.
+(**mechanism**) The resulting hard-to-recognise widening eruption has a name, tinea incognito, and
+it is produced by a perfectly reasonable sequence of decisions.
 
 The generalisation is the one to carry out of this answer: **a treatment aimed at the readout
 changes the readout.** After Growl, a smaller number no longer means what it meant.
@@ -116,7 +117,7 @@ slowly and reported later, which is why the sample goes **before** treatment sta
 scraping taken from a site already treated answers a question about a different field. Microscopy
 is the quick look; culture names the species and takes much longer, and species identification is
 what tells you whether the source was an animal and whether systemic treatment is likely to be
-needed. [consensus]
+needed. (**consensus**)
 
 Two honest limits, because the game is honest about them too. Doom Desire has accuracy 85, not 100
 — a negative scraping does not exclude the diagnosis, and in nail disease a single negative
@@ -133,10 +134,10 @@ clears it. The Pokémon standing there did not bring it and cannot remove it by 
 Scabies is that shape. The mite population spans a household, so the hazard is in the environment
 and in the untreated contacts, and treating one person while leaving the field seeded reliably
 fails. The itch persisting after successful treatment is a hypersensitivity response to mite
-material still in the skin rather than evidence of failure. [mechanism] The contact protocols, the
-laundering, the number of applications and the agent are all **country-dependent**, and crusted
-scabies — very high mite burden, usually in someone immunosuppressed, often not very itchy — is
-managed differently and more aggressively.
+material still in the skin rather than evidence of failure. (**mechanism**) The contact protocols,
+the laundering, the number of applications and the agent are all (**country-dependent**), and
+crusted scabies — very high mite burden, usually in someone immunosuppressed, often not very itchy
+— is managed differently and more aggressively.
 
 ## Where the result changes the plan rather than confirming it
 

@@ -39,8 +39,8 @@ rarely specified, and is the one that is usually wrong. That asymmetry is the wh
 
 ## Potency, and why the number is useless without its system
 
-Topical corticosteroid potency is classified, and the classification is **country-dependent** — a
-point worth leading with because it is the commonest source of confusion when reading material
+Topical corticosteroid potency is classified, and the classification is (**country-dependent**) —
+a point worth leading with because it is the commonest source of confusion when reading material
 from elsewhere. In the United Kingdom the formulary groups them into four: mild, moderate, potent
 and very potent. In the United States a seven-class system is used, numbered I to VII, with class
 I the strongest — the opposite direction of travel from how most people assume a numbered scale
@@ -53,14 +53,15 @@ answer.
 
 The vehicle is not packaging. For the same molecule at the same strength, an ointment is generally
 more potent than a cream, because it is occlusive, holds water in the stratum corneum and improves
-penetration. [mechanism] Occlusion of any kind — an ointment, a dressing, a nappy, a skin fold
+penetration. (**mechanism**) Occlusion of any kind — an ointment, a dressing, a nappy, a skin fold
 pressed against itself — increases absorption, which is why the same preparation behaves
 differently in an axilla than on a shin.
 
-By *consensus*, the working division is: ointments for dry, thickened or fissured skin and poor on
-weeping or hair-bearing sites; creams better tolerated cosmetically and usable on moist skin, at
-the cost of preservatives that can themselves sensitise; lotions, gels, foams and solutions for
-hair-bearing areas and large surfaces, where anything greasy will simply not be used.
+By (**consensus**), the working division is: ointments for dry, thickened or fissured skin and
+poor on weeping or hair-bearing sites; creams better tolerated cosmetically and usable on moist
+skin, at the cost of preservatives that can themselves sensitise; lotions, gels, foams and
+solutions for hair-bearing areas and large surfaces, where anything greasy will simply not be
+used.
 
 That last clause is the point. A vehicle the patient will not tolerate delivers nothing, and
 adherence is not a separate topic from dose — it is part of the dose. Choosing a less potent
@@ -71,8 +72,8 @@ vehicle they abandon.
 
 Percutaneous absorption varies by site over a range that surprises people: thin skin — eyelids,
 flexures, genital skin, the face — absorbs far more of the same preparation than palms and soles
-do. [mechanism] This is why potency is matched to the **site** and not only to the severity, and
-why the same eruption may warrant different preparations on the face and on the shins in one
+do. (**mechanism**) This is why potency is matched to the **site** and not only to the severity,
+and why the same eruption may warrant different preparations on the face and on the shins in one
 person on one day.
 
 ## Quantity, and the unit that exists because of it
@@ -121,8 +122,8 @@ not an instruction.
 ## Why it presents as treatment failure
 
 If the amount delivered per unit area is below the threshold needed to outpace the inflammatory
-process, the clinical course looks exactly like no response. [mechanism] The usual conclusion is
-that the preparation does not work, and the usual next step is to escalate potency or change
+process, the clinical course looks exactly like no response. (**mechanism**) The usual conclusion
+is that the preparation does not work, and the usual next step is to escalate potency or change
 molecule — both of which add risk while leaving the variable that was actually wrong untouched.
 The cheaper step first is to establish how much was used, over what area, for how long, and by
 weighing or asking after the tube. A patient who has used 15 g of a 30 g tube in a fortnight over
@@ -133,9 +134,9 @@ a widespread eruption has not had a trial of that treatment.
 Over-use has real consequences and they are not theoretical: skin atrophy, striae, telangiectasia,
 easy bruising, perioral dermatitis and tachyphylaxis locally, and with very potent preparations
 over large areas, under occlusion, or in infants, enough systemic absorption to suppress the
-hypothalamic-pituitary-adrenal axis. [consensus] The argument of this answer is not that more is
-better. It is that the quantity should be **specified** rather than guessed, in both directions,
-because a number that nobody states is a number nobody can get right.
+hypothalamic-pituitary-adrenal axis. (**consensus**) The argument of this answer is not that more
+is better. It is that the quantity should be **specified** rather than guessed, in both
+directions, because a number that nobody states is a number nobody can get right.
 
 ## The human stakes, said plainly
 

@@ -17,7 +17,7 @@ adverse effects with it. A decision that someone stays in bed carries the same c
 information and carries it nowhere. *This framing is mechanism rather than guideline; the
 individual effects below are consensus.*
 
-Markers used below: *mechanism*, *definitional*, *consensus*, *country-dependent*.
+Markers used below: **mechanism**, **definitional**, **consensus**, **country-dependent**.
 
 ```
    system             what immobility does                       how it presents
@@ -164,8 +164,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * A current geriatric medicine textbook, for the physiology of immobility, sarcopenia and the
   loss-and-regain asymmetry — the single best source for most of this answer.

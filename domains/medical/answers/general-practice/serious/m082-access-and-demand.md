@@ -10,17 +10,17 @@ tags: [access, demand, triage, capacity, queueing]
 
 # A barrier does not reduce need, it reduces the part of need you can see
 
-Three quantities get called demand and they are not the same thing *[definitional]*. **Need** is
+Three quantities get called demand and they are not the same thing (**definitional**). **Need** is
 what would benefit a person if it were delivered. **Demand** is what is asked for. **Utilisation**
 is what is actually provided. An access system sits between the first and the second, and
 everything it does happens there: it changes what is asked for and what is delivered, and it
 changes need not at all. A door that is hard to open produces a service with less recorded demand
 and exactly as much disease behind it.
 
-Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*. m050 lists access as one of six mechanisms of the inverse
-care law; this answer is about the demand side of the same door, and the equity gradient is taken
-from there rather than re-argued here.
+Load-bearing claims below are marked with what they rest on: **mechanism**, **definitional**,
+(**consensus**) or (**country-dependent**). m050 lists access as one of six mechanisms of the
+inverse care law; this answer is about the demand side of the same door, and the equity gradient
+is taken from there rather than re-argued here.
 
 ## What a hard door does, mechanism by mechanism
 
@@ -29,13 +29,13 @@ an appointment several weeks ahead, by attendance in working hours, or by a paym
 of use, rations on the ability to operate that system. The filter is real, it is reproducible, and
 it sorts on literacy, language, confidence, flexibility of employment, transport, childcare, data
 access and previous experience of being taken seriously — none of which is clinical, and all of
-which are distributed in the same direction as need *[consensus]*.
+which are distributed in the same direction as need (**consensus**).
 
 Four consequences, each with a sign:
 
 1. **Displacement, not reduction.** Need that cannot enter here enters somewhere else — urgent
    care, an emergency department, an out-of-hours service — or it enters later, in a worse state,
-   through a door that cannot be closed *[consensus]*.
+   through a door that cannot be closed (**consensus**).
 2. **The opportunistic contact disappears.** A large amount of useful work in first-contact care
    happens because somebody came in for something else. Raise the cost of coming in and that
    work stops happening, silently.
@@ -102,7 +102,7 @@ Every system with more demand than capacity sorts. The only question is on what.
 * **Most real systems run brackets.** A small number of categories, sorted by urgency, with
   arrival time deciding order within a category. This is the primary-survey structure m031 and
   m033 describe: the bracket is read first, and nothing you do inside a bracket moves anything
-  across one *[mechanism]*.
+  across one (**mechanism**).
 
 Two trade-offs are genuine and neither has a free answer. Same-day access and continuity compete
 for the same appointments, and m015 is the argument for why losing continuity is a clinical loss
@@ -147,7 +147,7 @@ Specific to this answer:
 
 * The access standards, contractual requirements and reporting definitions that apply to the
   reader's own practice, which differ substantially between countries and are revised frequently
-  *[country-dependent]*.
+  (**country-dependent**).
 * The reader's own organisation's access and workforce data, which is the only place the local
   version of this argument can be settled.
 * The published literature on total triage, on same-day access models and on telephone or online

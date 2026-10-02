@@ -117,13 +117,13 @@ Plainly, and without the metaphor, because this is the part it is not for.
 The clinical ordering sorts on how quickly an unaddressed failure in a person's body causes harm
 that cannot be undone. The airway's clock is the shortest; ventilation's is next; circulation's is
 next and depends on the rate of loss; brain injury and loss of body heat are slower. That is
-**mechanism** — it follows from how oxygen reaches tissue, and it is checkable by reasoning rather
-than by citation. That both of the re-sorted sequences exist is **consensus**; how each is worded,
-bounded and named is **council-dependent**. Nothing in Pokémon stands for a person here, and
-nothing should. The game is being used for one thing only: the shape of a rule in which a forced
-ordering is read first and skill is read second. The reason that shape is used in an emergency is
-not a mechanic and is not entertaining, and an answer that tried to make it entertaining would be
-a defect in this dataset rather than a flourish.
+(**mechanism**) — it follows from how oxygen reaches tissue, and it is checkable by reasoning
+rather than by citation. That both of the re-sorted sequences exist is (**consensus**); how each
+is worded, bounded and named is **council-dependent**. Nothing in Pokémon stands for a person
+here, and nothing should. The game is being used for one thing only: the shape of a rule in which
+a forced ordering is read first and skill is read second. The reason that shape is used in an
+emergency is not a mechanic and is not entertaining, and an answer that tried to make it
+entertaining would be a defect in this dataset rather than a flourish.
 
 ## What a Gym Leader is listening for
 

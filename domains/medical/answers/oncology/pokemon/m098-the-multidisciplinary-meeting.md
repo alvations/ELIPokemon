@@ -48,7 +48,7 @@ being decided about is a *move*, and the analogy is dropped entirely at the end,
 changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## The structure, drawn against the failure it answers
 
@@ -115,7 +115,7 @@ Declaring the membership in advance is the control. The option set presented inc
 systemic therapy, radiation therapy and, where relevant, treating neither the tumour nor a symptom
 yet — regardless of which specialty referred the case. In several countries the required
 membership is written into a national standard rather than left to local custom
-(**country-dependent**, **consensus** in principle). It is a field in a table, not a habit.
+(**country-dependent**, (**consensus**) in principle). It is a field in a table, not a habit.
 
 ## Failure two: deciding from the summary rather than the material
 
@@ -182,7 +182,7 @@ way the meeting learns anything about itself (**consensus**).
 The other underrated function is that the list is a **register**. A named coordinator tracking
 which cases have been discussed, which await results, which were referred onward and which have
 not yet had their recommendation communicated turns the meeting into a tracking instrument as well
-as a decision process (**consensus**, strongly **country-dependent** in how it is resourced). It
+as a decision process (**consensus**, strongly (**country-dependent**) in how it is resourced). It
 is the same mechanism that makes it the natural place to check open studies against, which is why
 trial accrual tracks how the meeting is run and not only what is available (**consensus**).
 

@@ -91,8 +91,8 @@ than they helped — in particular because the harms arrive in everybody who rec
 benefit arrives only in the subset who were going to absorb a dangerous amount in the window.
 Where decontamination remains in use, it is in a narrower set of circumstances than it occupied
 historically, and the circumstances differ between countries. **(Consensus** that the role has
-narrowed and that several historical measures were withdrawn; **country-dependent** for what each
-national body currently recommends, which is why nothing specific is stated here.**)** The
+narrowed and that several historical measures were withdrawn; (**country-dependent**) for what
+each national body currently recommends, which is why nothing specific is stated here.**)** The
 parallel with question m035 is exact: an intervention with a benign-sounding failure mode, given
 to a population much wider than the one that benefits, is a net harm even when its mechanism is
 real.
@@ -128,8 +128,8 @@ are about the system rather than about the agent.
   is the authority on agent-specific management. The reason is precisely the structure of the
   problem: there are too many agents, the information changes, and the questions are rare for any
   individual clinician. Consulting it is the standard of care rather than an admission of
-  ignorance. **(Consensus** that such services exist and are the reference; **country-dependent**
-  in name, scope and how they are accessed.**)**
+  ignorance. **(Consensus** that such services exist and are the reference;
+  (**country-dependent**) in name, scope and how they are accessed.**)**
 * **Risk assessment before intervention.** The useful question is not what was taken but what
   exposure this is likely to amount to in this person over the next several hours, which is a
   judgement about dose, timing, formulation, co-ingestion and the person's own physiology.
@@ -207,9 +207,10 @@ apply here. Specific to this answer:
   what actually determines what is available where they work.
 
 Markers used above: **mechanism** (follows from physiology and is checkable by reasoning),
-**consensus** (agreed across mainstream sources as of writing), **country-dependent** (genuinely
-differs between countries or institutions). No agent, antidote, dose, threshold or decontamination
-indication is stated, and nothing is quoted, because none of these documents was opened.
+(**consensus**) (agreed across mainstream sources as of writing), (**country-dependent**)
+(genuinely differs between countries or institutions). No agent, antidote, dose, threshold or
+decontamination indication is stated, and nothing is quoted, because none of these documents was
+opened.
 
 ## Scope and safety
 

@@ -120,7 +120,7 @@ Under a binding constraint they stop agreeing, and the ranking that matters is e
 gained per unit of resource spent — which puts the severely injured but salvageable first, and
 does not put the most severely injured first, because that group needs an enormous share of the
 resource for a small change in probability. The objective did not change. The constraint did. That
-is **mechanism**, and it is checkable by reasoning rather than by citation.
+is (**mechanism**), and it is checkable by reasoning rather than by citation.
 
 And every system of this kind contains a category for people whose injuries are not survivable
 with the resource available. That is the hardest thing in this entire subject. It will not be
@@ -206,6 +206,6 @@ rather than across them, Lagging Tail acting within a bracket, and Triage promot
 by three brackets are all stated from working knowledge of later generations, and a reader who
 wants them exact should check the generation they are playing. On the clinical side the
 constrained-optimisation account, the separation of roles and the need for rehearsal are
-mainstream **mechanism**; every specific — which tool, how many categories, what observations, who
-declares — is **service-dependent**, differs between neighbouring services, and is revised. Dated
-October 2026.
+mainstream (**mechanism**); every specific — which tool, how many categories, what observations,
+who declares — is **service-dependent**, differs between neighbouring services, and is revised.
+Dated October 2026.

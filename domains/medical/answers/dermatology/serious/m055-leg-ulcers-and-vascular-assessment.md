@@ -22,9 +22,9 @@ because it is the step that decides whether the definitive treatment is therapeu
 
 ## Markers used in this answer
 
-*mechanism* — follows from physiology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from physiology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The two commonest causes, and how they differ on examination
 
@@ -67,15 +67,15 @@ meaning. *consensus* — standard across current textbooks and national guidance
 
 In venous ulceration the pathology is sustained venous hypertension transmitted to the dermal
 microcirculation: capillary leak, fibrin cuffing, haemosiderin deposition, inflammation and
-progressive dermal fibrosis. [mechanism] Graduated compression raises interstitial pressure,
+progressive dermal fibrosis. (**mechanism**) Graduated compression raises interstitial pressure,
 reduces the transmural gradient, improves venous return and assists the calf muscle pump. It
-opposes the mechanism. [mechanism] That is a different category of act from covering the wound,
-and it is why compression — not the dressing — is what the evidence supports for healing a venous
-ulcer. [consensus]
+opposes the mechanism. (**mechanism**) That is a different category of act from covering the
+wound, and it is why compression — not the dressing — is what the evidence supports for healing a
+venous ulcer. (**consensus**)
 
 The corollary is the one that matters practically: in a leg where arterial inflow is already
-marginal, raising external pressure reduces perfusion further. [mechanism] Compression there can
-convert a painful ulcer into tissue loss.
+marginal, raising external pressure reduces perfusion further. (**mechanism**) Compression there
+can convert a painful ulcer into tissue loss.
 
 ## So the assessment comes first, and what it consists of
 
@@ -92,15 +92,15 @@ pressure point in someone with diabetes is a neuropathic problem and is managed 
 the ratio of the highest ankle systolic pressure to the highest brachial systolic pressure. Full
 compression is generally considered safe at an index of about 0.8 or above; below that,
 compression is either modified or withheld pending specialist assessment, and a markedly low index
-indicates severe arterial disease needing urgent vascular referral. [consensus] **The exact
+indicates severe arterial disease needing urgent vascular referral. (**consensus**) **The exact
 thresholds, what is done at each, and who is permitted to apply compression are set by local
-policy, and that policy is the authority rather than this answer.** [country-dependent]
+policy, and that policy is the authority rather than this answer.** (**country-dependent**)
 
 Two caveats are routinely examinable. The index is **falsely elevated** where vessels are
 calcified and incompressible — most importantly in diabetes and chronic kidney disease — so a
 normal index does not exclude significant arterial disease in those groups, and a toe-brachial
-index or other assessment may be needed. [consensus] And the measurement is operator-dependent; a
-value obtained without training is not a reassurance.
+index or other assessment may be needed. (**consensus**) And the measurement is
+operator-dependent; a value obtained without training is not a reassurance.
 
 ```
    THE ORDER OF OPERATIONS, AND WHY IT IS THIS ORDER
@@ -150,39 +150,39 @@ is debrided where that is safe and appropriate; exudate has to be managed withou
 maceration or desiccation; and the peri-wound skin needs protecting, because the eczema and
 excoriation around a leg ulcer is a large part of the symptom burden.
 
-What no dressing does is oppose venous hypertension. [mechanism] There is no strong evidence that
-any one dressing type heals venous ulcers better than another **under compression**, which is a
-result that surprises people and which reorganises the priorities: the bandage is the therapy and
-the dressing is the interface. [consensus]
+What no dressing does is oppose venous hypertension. (**mechanism**) There is no strong evidence
+that any one dressing type heals venous ulcers better than another **under compression**, which is
+a result that surprises people and which reorganises the priorities: the bandage is the therapy
+and the dressing is the interface. (**consensus**)
 
 ## Infection, and the discipline about it
 
 Every chronic wound is colonised. Colonisation is not infection, routine swabbing of an ulcer that
 is not clinically infected does not help, and a positive swab from such a wound invites
-unnecessary antibiotics. [consensus] What matters is clinical change: increasing pain, spreading
-erythema, cellulitis, malodour, rapid deterioration, systemic features. Systemic antibiotics are
-for spreading infection; topical antibiotics on chronic wounds are avoided on resistance and
-sensitisation grounds in most guidance. [consensus] The agents and durations are
-**country-dependent**.
+unnecessary antibiotics. (**consensus**) What matters is clinical change: increasing pain,
+spreading erythema, cellulitis, malodour, rapid deterioration, systemic features. Systemic
+antibiotics are for spreading infection; topical antibiotics on chronic wounds are avoided on
+resistance and sensitisation grounds in most guidance. (**consensus**) The agents and durations
+are (**country-dependent**).
 
 ## Three traps, each of which inverts the standard action
 
 **The wound that is not an ulcer.** A non-healing wound may be a malignancy — a basal cell or
 squamous cell carcinoma, or a melanoma — or a squamous cell carcinoma may arise in a long-standing
 ulcer. An atypical appearance, a rolled or everted edge, exuberant granulation, or simple failure
-to progress despite correct treatment of the cause, is a reason to biopsy. [consensus]
+to progress despite correct treatment of the cause, is a reason to biopsy. (**consensus**)
 
 **The ulcer that must not be debrided.** Pyoderma gangrenosum shows pathergy: surgical trauma
 makes it worse, so debriding it is actively harmful. It is suggested by a rapidly enlarging ulcer
 with an undermined violaceous border, often with associated inflammatory bowel disease or
-inflammatory arthritis, and it is treated with immunosuppression. [consensus]
+inflammatory arthritis, and it is treated with immunosuppression. (**consensus**)
 
 **The foot where pain is not a guide.** In diabetic neuropathy the protective sensation is gone,
 so the ulcer is painless, the patient keeps walking on it, and the mechanical cause persists.
 Offloading is the structural equivalent of compression — it removes the cause rather than dressing
 the effect — and the diabetic foot is managed by a multidisciplinary foot service, urgently, with
-assessment for osteomyelitis and for ischaemia. [consensus] The referral timescales are
-**country-dependent** and are short.
+assessment for osteomyelitis and for ischaemia. (**consensus**) The referral timescales are
+(**country-dependent**) and are short.
 
 ## The human stakes, said plainly
 

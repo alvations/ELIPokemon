@@ -24,9 +24,9 @@ non-interchangeable treatments is the one that can work at all.
 
 ## Markers used in this answer
 
-*mechanism* — follows from biology and is checkable by reasoning. *definitional* — a term's
-meaning. *consensus* — standard across current textbooks and national guidance.
-*country-dependent* — differs between countries or institutions, and yours is the authority.
+(**mechanism**) — follows from biology and is checkable by reasoning. (**definitional**) — a
+term's meaning. (**consensus**) — standard across current textbooks and national guidance.
+(**country-dependent**) — differs between countries or institutions, and yours is the authority.
 
 ## The classes, and why the class is the unit that matters
 
@@ -69,30 +69,29 @@ meaning. *consensus* — standard across current textbooks and national guidance
 
 ## Why a correct morphological description still leaves the question open
 
-The primary lesion tells you which compartment of the skin is involved and the distribution
-tells you how the problem arrived — m016 and m017 between them. Neither identifies an organism,
-because the host response is the host's, not the organism's. [mechanism] A dermatophyte produces
-a scaly annular plaque in one person, a boggy inflamed scalp mass in another and an
-asymptomatic thickened nail in a third, and the difference is immune, not microbial.
-[mechanism]
+The primary lesion tells you which compartment of the skin is involved and the distribution tells
+you how the problem arrived — m016 and m017 between them. Neither identifies an organism, because
+the host response is the host's, not the organism's. (**mechanism**) A dermatophyte produces a
+scaly annular plaque in one person, a boggy inflamed scalp mass in another and an asymptomatic
+thickened nail in a third, and the difference is immune, not microbial. (**mechanism**)
 
 Two patterns are worth memorising because they are where the error happens. **An annular scaly
 plaque with an active advancing edge and relative central clearing** is more likely fungal than
-the other annular things, and scraping from the edge rather than the centre is where the
-organism is. [consensus] **An intensely itchy eruption with involvement of finger webs, wrists,
-axillae, waistband, genitals, and a household contact who also itches** is scabies, and the
-burrow — not the widespread papular rash, which is a hypersensitivity response — is the
-diagnostic lesion. [consensus]
+the other annular things, and scraping from the edge rather than the centre is where the organism
+is. (**consensus**) **An intensely itchy eruption with involvement of finger webs, wrists,
+axillae, waistband, genitals, and a household contact who also itches** is scabies, and the burrow
+— not the widespread papular rash, which is a hypersensitivity response — is the diagnostic
+lesion. (**consensus**)
 
 ## The trap: treating the inflammation and calling it treatment
 
 Tinea treated with a topical corticosteroid loses its scale, loses its defined edge, and becomes
 less itchy and less red. It also spreads, because nothing has touched the organism, and the
-appearance that would have identified it has been removed. [mechanism] The name for the result
+appearance that would have identified it has been removed. (**mechanism**) The name for the result
 is tinea incognito, and it is created by exactly the sequence a careful clinician might follow:
 an itchy scaly plaque, a reasonable working diagnosis of eczema, a treatment that works for
 eczema, an initial improvement, then a widening, atypical, harder-to-diagnose eruption.
-[consensus]
+(**consensus**)
 
 The general form of this is worth more than the specific case. **A treatment aimed at the host
 response changes the readout you were using to follow the disease.** If the readout was the only
@@ -103,25 +102,25 @@ evidence, improvement no longer means what it meant.
 **Microscopy and culture are two different answers to two different questions.** Direct
 microscopy, after the keratin has been cleared, can show fungal elements quickly; culture
 identifies the species and takes substantially longer, because the organisms grow slowly.
-[consensus] Species identification matters where it changes the agent or implies a source —
+(**consensus**) Species identification matters where it changes the agent or implies a source —
 animal-derived organisms imply an animal, and some are more likely to need systemic treatment.
-[consensus] The practical consequence is that the sample is usually taken **before** treatment
+(**consensus**) The practical consequence is that the sample is usually taken **before** treatment
 starts and that a treatment started in the interim has to be chosen knowing the result may
 change it.
 
 **A negative scraping does not exclude the diagnosis.** Sampling error, too little material, a
 site already treated and a delay in transport all produce false negatives, and in nail disease
 in particular a single negative result in the face of a convincing clinical picture is usually
-repeated rather than accepted. [consensus]
+repeated rather than accepted. (**consensus**)
 
 **A bacterial swab from an intact, non-infected or chronically colonised site answers a question
 nobody asked.** Skin is colonised; colonisation is not infection; a positive result from such a
 site invites antibiotics that are not needed, which is the same discipline m055 applies to
-chronic wounds. [consensus] The swab earns its place when the organism or its sensitivities
+chronic wounds. (**consensus**) The swab earns its place when the organism or its sensitivities
 would change the plan.
 
 **The viral swab needs the right lesion.** Nucleic acid testing from the base of a deroofed
-fresh vesicle is far more likely to be informative than a swab of a crust. [consensus]
+fresh vesicle is far more likely to be informative than a swab of a crust. (**consensus**)
 
 ## Infestations, where the person is not the only thing being treated
 
@@ -129,11 +128,11 @@ Scabies is transmitted by prolonged skin contact, so the mite population spans a
 rather than a patient. Treating one person and not their contacts reliably fails, and the
 itching persists for a period after successful treatment because it is a hypersensitivity
 response to mite material that is still present in the skin — which means persistent itch is
-not in itself evidence of treatment failure. [mechanism] [consensus] The protocols for
+not in itself evidence of treatment failure. (**mechanism** **consensus**) The protocols for
 contacts, laundering, the number of applications and the choice of agent are
-**country-dependent**, and crusted scabies — a very high mite burden, usually in someone
+(**country-dependent**), and crusted scabies — a very high mite burden, usually in someone
 immunosuppressed, often not very itchy — is managed differently and more aggressively.
-[consensus]
+(**consensus**)
 
 ## Where the result changes the plan rather than confirming it
 

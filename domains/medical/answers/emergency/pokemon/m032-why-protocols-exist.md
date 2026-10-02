@@ -128,7 +128,7 @@ The reason time-critical clinical decisions are written down is that human worki
 and gets smaller under fear, noise, exhaustion and time pressure, and that a rare high-stakes
 decision is exactly where an individual's judgement is least calibrated, because nobody sees
 enough of them. A written protocol usually encodes more pooled experience than the person
-following it has. That is **mechanism**: an argument about distributions and about how people
+following it has. That is (**mechanism**): an argument about distributions and about how people
 think when frightened, checkable by reasoning. It is also the reason the honest ground for
 deviating is *this is not the situation the document was written for*, and never *I have done a
 lot of these*. No Pokémon stands for a patient anywhere in this answer, and the game is carrying
@@ -202,6 +202,6 @@ move-slot limits are from the same project's `include/constants/global.h`. Prank
 Room are from working knowledge of later generations, not read from either project. The Palace is
 described only as far as the code path goes — the menu is not drawn and the player is not asked —
 and deliberately says nothing about *how* the game then chooses, because that table was not read.
-On the clinical side the reasoning is **mechanism** and stable; everything specific is
+On the clinical side the reasoning is (**mechanism**) and stable; everything specific is
 **council-dependent** and moves on cycles that the councils do not synchronise with one another,
 so two readers in different countries can both be right and disagree. Dated October 2026.

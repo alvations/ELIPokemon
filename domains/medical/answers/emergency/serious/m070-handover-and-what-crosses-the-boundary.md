@@ -80,7 +80,7 @@ useful than listing them.
 **A declared format.** Structured handover formats are in widespread use; several exist, they
 differ between services and countries, and this answer names none, because naming one as the
 standard would be wrong and because a half-remembered format is worse than the local one.
-**(Consensus** that a declared structure improves transfer; **country-dependent** in which
+**(Consensus** that a declared structure improves transfer; (**country-dependent**) in which
 structure, and strongly service-dependent.**)** What a format fixes is the schema problem: it
 creates a field for the things that otherwise have none. Which fields it has is therefore the
 whole design question, and the reason the good ones have a slot for mechanism, for trajectory and
@@ -178,8 +178,8 @@ apply here. Specific to this answer:
   handover moment are taught.
 
 Markers used above: **mechanism** (follows from the structure of a bounded transfer or from
-cognitive psychology and is checkable by reasoning), **consensus** (agreed across mainstream
-sources as of writing), **country-dependent** (genuinely differs between countries, services or
+cognitive psychology and is checkable by reasoning), (**consensus**) (agreed across mainstream
+sources as of writing), (**country-dependent**) (genuinely differs between countries, services or
 institutions). No format, mnemonic or field list is stated, and nothing is quoted, because none of
 these documents was opened.
 

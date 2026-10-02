@@ -21,7 +21,7 @@ The parts of the list this reasoning does *not* explain are the interesting part
 flagged below rather than smoothed over.
 
 Claims are marked by kind: **mechanism** (derivable from how the biology works), **definitional**,
-**consensus** (widely agreed professional practice), **country-dependent** (varies by nation,
+(**consensus**) (widely agreed professional practice), (**country-dependent**) (varies by nation,
 region or institution, and changes).
 
 ## Turnover rate predicts the list; shelf life predicts the timing
@@ -99,7 +99,7 @@ by agent and is not universal, and why it is reversible when the progenitor comp
 mechanistic consequence rather than an incidental one. Because they are a mechanistic consequence,
 they are foreseeable at the point treatment is being planned rather than discovered afterwards —
 which is why discussion of fertility preservation belongs before treatment starts and is part of
-standard practice in most systems (**consensus**, **country-dependent** in what is available and
+standard practice in most systems (**consensus**, (**country-dependent**) in what is available and
 funded).
 
 ## Where the rule stops working, stated plainly
@@ -159,7 +159,7 @@ there. Three consequences follow without any additional observation:
 * **The latency is variable and an event can begin after treatment has finished**, because a
   self-sustaining immune process does not track a drug concentration.
 
-And therefore the management is categorically different (**mechanism**, **country-dependent** in
+And therefore the management is categorically different (**mechanism**, (**country-dependent**) in
 protocol): immunosuppression, sometimes permanent discontinuation — not the dose reduction that
 answers a cytotoxic toxicity, which does not address a process the drug is not driving. Some
 endocrine effects do not resolve and require lifelong replacement (**consensus**). Engineered cell

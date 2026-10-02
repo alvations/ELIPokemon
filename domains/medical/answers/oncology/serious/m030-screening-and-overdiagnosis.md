@@ -18,8 +18,8 @@ will inflate a screening programme's apparent benefit even if the programme does
 whatsoever.
 
 Claims are marked by kind: **mechanism** (derivable from how the measurement or the biology
-works), **definitional**, **consensus** (widely agreed professional practice),
-**country-dependent** (varies by nation, region or institution, and changes).
+works), (**definitional**, **consensus**) (widely agreed professional practice),
+(**country-dependent**) (varies by nation, region or institution, and changes).
 
 ## The detectable window, and what a periodic test actually samples
 

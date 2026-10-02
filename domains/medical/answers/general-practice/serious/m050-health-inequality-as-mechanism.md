@@ -29,7 +29,7 @@ the problem look intractable; separating them is what makes parts of it tractabl
 2. **Funding formulas under-weight need relative to its effect on workload.** Any formula
    allocates on measurable proxies — age, registered population, a deprivation adjustment — and
    whether the adjustment matches the real workload gradient is an empirical question that has
-   been answered differently in different systems *[country-dependent]*.
+   been answered differently in different systems (**country-dependent**).
 3. **Access is rationed by the ability to operate an access system.** A telephone queue at a fixed
    hour, an online form, a digital identity check, a named appointment weeks ahead, a requirement
    to attend in working hours, a fee at the point of use where there is one. Each is a filter.
@@ -44,7 +44,7 @@ the problem look intractable; separating them is what makes parts of it tractabl
    studies; the magnitude is contested *[consensus, magnitude contested]*.
 6. **Multimorbidity arrives earlier.** The same age band carries a different burden across the
    gradient, so an age-based service specification silently under-serves the steeper end
-   *[consensus]*.
+   (**consensus**).
 7. **Averages conceal all of it.** A programme measured on mean coverage, mean uptake or mean
    outcome has no term in which a widening gradient can appear.
 
@@ -153,12 +153,12 @@ Specific to this answer:
   phrase on its own has become a slogan.
 * The major national reviews of health inequality commissioned in the reader's own country, which
   are where proportionate universalism and the social-determinants framing are set out at length
-  *[country-dependent]*.
+  (**country-dependent**).
 * The World Health Organization's published work on the social determinants of health, for the
   framework and for the international comparisons.
 * The capitation or allocation formula used to fund primary care in the reader's own system,
   including its need adjustment, which is the document in which mechanism two is either corrected
-  or embedded *[country-dependent]*.
+  or embedded (**country-dependent**).
 * Any published analysis of coverage, uptake or outcome by deprivation, ethnicity or disability
   for the specific programme in question, which is the only place a gradient can be seen at all.
 * The health-services-research literature on intervention-generated inequality, for the general

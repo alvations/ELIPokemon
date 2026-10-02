@@ -29,7 +29,7 @@ detection rates.** No Pokémon in this answer stands in for a person, and the an
 entirely at the end, where the subject changes.
 
 Clinical claims carry the same marks as the rigorous half: **mechanism**, **definitional**,
-**consensus**, **country-dependent**.
+(**consensus**, **country-dependent**).
 
 ## What the instrument returns, and what a periodic look actually samples
 

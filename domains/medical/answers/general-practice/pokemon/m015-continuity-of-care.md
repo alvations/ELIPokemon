@@ -166,7 +166,7 @@ Specific to this answer:
 * The methods section of whichever continuity index a reader intends to quote, issued by the group
   that published it, for how it handles people with very few or very many contacts.
 * The reader's own national primary-care policy framework, which determines whether continuity is
-  the default to protect or something to construct *[country-dependent]*.
+  the default to protect or something to construct (**country-dependent**).
 * The reader's own organisation's registration, booking and named-clinician arrangements, which
   are the only authority on what continuity is actually achievable locally.
 
