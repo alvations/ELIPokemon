@@ -30,6 +30,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------- vocabularies
 
 SPECIES = """
+Silcoon, Cascoon, Armaldo, Swalot, Gulpin, Banette, Shuppet, Butterfree,
+Cloyster, Forretress, Hitmontop, Hitmonlee, Aron, Starmie, Staryu,
+Farfetch'd, Castform, Beldum, Huntail, Gorebyss, Kecleon, Wurmple,
+Beautifly, Dustox, Hariyama, Swellow, Treecko,
+Sunflora, Jumpluff, Skiploom, Hoppip, Makuhita, Nincada, Skitty, Poochyena,
+Mightyena, Abra, Clamperl,
 Ho-Oh,
 Bulbasaur Ivysaur Venusaur Charmander Charmeleon Charizard Squirtle Wartortle
 Blastoise Caterpie Metapod Butterfree Weedle Beedrill Pidgey Pidgeot Rattata
@@ -38,7 +44,7 @@ Clefairy Vulpix Ninetales Jigglypuff Zubat Golbat Crobat Oddish Gloom Vileplume
 Paras Venonat Diglett Dugtrio Meowth Persian Psyduck Golduck Mankey Primeape
 Growlithe Arcanine Poliwag Poliwhirl Poliwrath Politoed Abra Kadabra Alakazam
 Machop Machoke Machamp Bellsprout Tentacool Tentacruel Geodude Graveler Golem
-Ponyta Rapidash Slowpoke Slowbro Magnemite Magneton Farfetch Doduo Dodrio Seel
+Ponyta Rapidash Slowpoke Slowbro Magnemite Magneton Doduo Dodrio Seel
 Dewgong Grimer Muk Shellder Cloyster Gastly Haunter Gengar Onix Drowzee Hypno
 Krabby Kingler Voltorb Electrode Exeggcute Exeggutor Cubone Marowak Hitmonlee
 Hitmonchan Lickitung Koffing Weezing Rhyhorn Rhydon Rhyperior Chansey Blissey
@@ -151,6 +157,12 @@ Mr. Mime, Mime Jr., Mr. Rime, Type: Null
 SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
 
 MOVES = """
+Jump Kick, Hi Jump Kick, Submission, Tri Attack, Teeter Dance, Flatter,
+Psych Up, Recycle, Camouflage, Conversion, Bide, Milk Drink, Spite, Teleport,
+Nightmare, Foresight, Safeguard, Heal Bell, Aromatherapy, Dig,
+Gust, Twister, Sky Uppercut, Magnitude, Rock Smash, Secret Power,
+Mist, Uproar, Metal Sound, Grass Whistle, Hyper Voice, Mirror Move, Grudge,
+Hail, Flail, Sleep Talk, Yawn, Rage Powder, Strength, Flash, Sweet Kiss,
 Stomp, Mud Sport, Water Sport, Attract, Flame Wheel, Magic Coat, Snatch,
 Refresh, Wish, Dive, Bounce, Shadow Force, Phantom Force,
 Rock Blast, Bullet Seed, Fury Swipes, Icicle Spear, Pin Missile, Comet Punch,
@@ -206,6 +218,9 @@ Attack, Focus Energy, Endure, Vital Throw, Revenge, Roar
 """
 
 ITEMS = """
+Metal Powder, Thick Club, Deep Sea Tooth, Deep Sea Scale, Lucky Punch, Charcoal,
+Mach Bike, Acro Bike, White Flute, Black Flute, Cleanse Tag, Fire Stone,
+Water Stone, Leaf Stone, Sun Stone, Moon Stone, Dive Ball, Repeat Ball,
 Persim Berry, Parlyz Heal, Paralyse Heal, Cheri Berry, Chesto Berry, Rawst Berry,
 Aspear Berry, Toxic Orb, Flame Orb, Lax Incense, Bright Powder,
 Utility Umbrella, Soul Dew, Bicycle, Bike Voucher, Itemfinder, Dowsing Machine,
@@ -257,6 +272,10 @@ Powder, Revival Herb, White Flute, Black Flute, Poké Flute, Dive Ball, Nest Bal
 """
 
 ABILITIES = """
+Compound Eyes, Water Veil, Sand Veil, Shed Skin, White Smoke, Magic Guard,
+Color Change, Battle Armor, Forecast, Marvel Scale, Guts, Sturdy,
+Cute Charm, Shell Armor, Illuminate, Arena Trap, Stench, Run Away, Magma Armor,
+Swift Swim, Early Bird, Pickup, Serene Grace,
 Shield Dust, Lightning Rod, Storm Drain, Sap Sipper, Motor Drive, Rock Head,
 Damp, Effect Spore, Poison Heal, Truant,
 Rain Dish, Ice Body, Keen Eye, Hyper Cutter, Infiltrator, Unburden, Quick Feet,
@@ -283,6 +302,7 @@ Nine, Sand Veil, Forecast, Triage, Gale Wings, White Smoke
 """
 
 CHARACTERS = """
+Wally, Brendan, Brawly, Sidney, May, Steven Stone,
 Fan Club Chairman, Koga, Blaine, Giovanni, Sabrina, Erika, Lt. Surge, Misty,
 Brock, Wallace, Juan, Winona, Tate, Liza, Flannery, Roxanne,
 Lanette, Bebe, Amanita, Noland, Spenser, Anabel, Greta, Tucker, Lucy, Brandon,
@@ -306,6 +326,8 @@ Eusine, Fishing Guru, Warden, Day Care Man
 """
 
 PLACES = """
+Granite Cave, Trainer Hill, Fallarbor Town, Petalburg City, Verdanturf Town,
+Sootopolis City, Ever Grande City, Victory Road, Meteor Falls, Desert Underpass,
 Diglett's Cave, Petalburg Woods, Shoal Cave, New Mauville, Route 2, Route 11,
 Bike Shop, Pokémon Fan Club, Silph Co., Mauville City, Viridian Gym, Vermilion City,
 Seafoam Islands, Cerulean Cave, Shoal Cave, Slateport City, Rustboro City,
@@ -330,6 +352,10 @@ Fallarbor Town, Verdanturf Town
 """
 
 MECHANICS = """
+Erratic, Fluctuating, Medium Slow, Growth Rate, Experience Yield, Base Stat,
+Transformed, Hold Effect, Effort Yield,
+Mass Outbreak, Encounter Rate, Encounter Slot, Level-Up Learnset, Egg Group,
+Friendship, Nature, Individual Values,
 Stat Experience, Dynamo Badge, Thunder Badge, Volcano Badge, Rising Badge,
 Mine Badge, Hyper Training, Non-Volatile Status, Volatile Status,
 Hidden Ability, Personality Value, Base Stat Total, Encounter Table,
@@ -408,7 +434,7 @@ AMBIGUOUS = {
     "Immunity", "Trace", "Download", "Filter", "Analytic", "Speed", "Toxic",
     "Blaze", "Torrent", "Swarm", "Defiant", "Competitive", "Justified",
     "Held Item", "Super Effective", "Bill", "Lucy", "Brandon", "Tucker",
-    "Kris",
+    "Kris", "Stick", "Block", "Reversal", "Harvest",
 }
 for group in NAMED.values():
     group -= AMBIGUOUS
@@ -471,6 +497,17 @@ def score_text(text: str) -> dict:
         hits[kind].append(f"{term}×{len(found)}")
         distinct.add(term)
         named_mentions += len(found)
+
+    # Route numbers are a pattern, not a list. PLACES carried six of them by hand and the
+    # games have well over a hundred; a writer whose three answers were all set on Route 116
+    # scored nothing for any of them and pointed out that enumerating was the wrong shape of
+    # fix. Matched after the vocabulary loop so a named place containing a number -- there is
+    # none today, but there could be -- is claimed by the explicit term first.
+    for found in re.findall(r"(?<![\w-])Route \d{1,3}(?![\w-])", working):
+        working = working.replace(found, "\u0000", 1)
+        hits["place"].append(f"{found}×1")
+        distinct.add(found)
+        named_mentions += 1
 
     lowered = text.lower()
     generic_mentions = 0
