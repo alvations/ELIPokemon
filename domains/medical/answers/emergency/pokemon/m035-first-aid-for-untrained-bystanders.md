@@ -143,6 +143,10 @@ reader's own council's current document and nowhere else.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md).
+Specific to this answer:
+
 * The current first-aid and basic life support guidance for the public issued by **the national
   resuscitation council for the country the reader is in**. This is the authority on every
   specific this answer declines to state, including any rate. The councils differ from one another

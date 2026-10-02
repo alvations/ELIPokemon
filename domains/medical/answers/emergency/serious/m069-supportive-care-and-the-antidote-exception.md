@@ -190,8 +190,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-emergency.md`](../../for-agents/SOURCES-emergency.md), and they apply
-here. Specific to this answer:
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md), and they
+apply here. Specific to this answer:
 
 * **The poisons information service for the country the reader practises in**, including its
   clinical database and its telephone service. This is the authority for anything agent-specific,

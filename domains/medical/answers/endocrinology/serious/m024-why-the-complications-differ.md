@@ -158,6 +158,10 @@ foot wound, numbness, or any sudden change in vision needs assessment now rather
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md).
+Specific to this answer:
+
 * Your national diabetes guideline's sections on complication surveillance, on cardiovascular risk
   management in diabetes, and on chronic kidney disease in diabetes, from the body that issues it.
 * Your national diabetic eye screening programme's documentation, for what is screened, how often,

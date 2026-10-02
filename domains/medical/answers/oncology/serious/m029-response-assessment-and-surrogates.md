@@ -187,6 +187,10 @@ such figure appears in this answer.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-oncology.md`](../../../for-agents/SOURCES-oncology.md).
+Specific to this answer:
+
 * The response-evaluation criteria your centre or trial actually uses, in their current published
   revision, from the group that maintains them — the authority for every threshold, every
   lesion-selection rule and every category definition sketched above.

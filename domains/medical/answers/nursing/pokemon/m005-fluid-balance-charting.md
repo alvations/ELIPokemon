@@ -152,6 +152,10 @@ and what is done about that.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md).
+Specific to this answer:
+
 * The fluid balance chart and fluid management policy in use in the reader's own institution — the
   authority for what is charted, how the cumulative total is presented, and what the local
   oliguria definition and escalation point are.

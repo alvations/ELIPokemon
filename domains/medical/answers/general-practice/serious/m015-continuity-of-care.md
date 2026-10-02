@@ -143,6 +143,10 @@ was missed.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-general-practice.md`](../../../for-agents/SOURCES-general-practice.md).
+Specific to this answer:
+
 * The curriculum and professional-standards documents of the reader's own college or training body
   for general practice, for how continuity is defined and what is formally expected.
 * Any systematic review of continuity of care and its outcomes, in the primary-care or health-

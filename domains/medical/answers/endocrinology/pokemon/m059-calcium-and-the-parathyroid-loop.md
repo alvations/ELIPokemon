@@ -198,8 +198,8 @@ answer is about — is not something to do from an analogy about terrain.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * Your national guideline on hyperparathyroidism and on investigating hypercalcaemia, for referral
   and intervention criteria, which differ between countries.

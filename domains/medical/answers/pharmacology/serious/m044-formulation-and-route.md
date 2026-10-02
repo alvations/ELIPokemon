@@ -216,8 +216,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md). Specific
-to this answer:
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
 
 * **The summary of product characteristics or regulator-approved prescribing information** for the
   specific product. It is the only authority for that product's bioavailability, its release

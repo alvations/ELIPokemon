@@ -157,6 +157,10 @@ rolls, and what to do when someone just wants to be told whether to walk in.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-general-practice.md`](../../../for-agents/SOURCES-general-practice.md).
+Specific to this answer:
+
 * The World Health Organization's published principles for screening, in its original form and in
   the later revisions issued by the same organisation, for the conditions a programme must meet.
 * The published rationale, age range and interval for each programme operating in the reader's own

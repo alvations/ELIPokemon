@@ -168,8 +168,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-nursing.md`](../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * The reader's national guidance on nutrition support in adults, for the screening requirement,
   the refeeding risk criteria and the starting-rate and monitoring recommendations — none of which

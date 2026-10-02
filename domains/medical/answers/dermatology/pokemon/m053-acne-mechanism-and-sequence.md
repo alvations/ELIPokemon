@@ -217,6 +217,10 @@ The standing documents for this specialty are listed in the dermatology sources 
 writers' directory for this domain, and they are the authority for everything procedural or
 quantitative here. Specific to this answer:
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the agents, the combinations, the duration limits on oral antibiotics and the monitoring:
   the acne section of your national formulary, and the acne guideline issued by the national body
   that sets guidance where you practise.

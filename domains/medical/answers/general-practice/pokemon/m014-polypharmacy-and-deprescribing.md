@@ -168,6 +168,10 @@ making the decision.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-general-practice.md`](../../../for-agents/SOURCES-general-practice.md).
+Specific to this answer:
+
 * The reader's national or regional formulary, which is the authority for every interaction, dose
   and withdrawal schedule referred to in general terms here *[country-dependent]*.
 * The national guideline on multimorbidity or on medicines optimisation issued by the body that

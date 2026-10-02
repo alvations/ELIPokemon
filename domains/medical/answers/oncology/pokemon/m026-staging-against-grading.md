@@ -174,6 +174,10 @@ answer, and the absence is deliberate rather than an omission.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-oncology.md`](../../../for-agents/SOURCES-oncology.md).
+Specific to this answer:
+
 * The current tumour–node–metastasis classification published by the Union for International
   Cancer Control, and the parallel staging manual published by the American Joint Committee on
   Cancer — for the category definitions, the prefixes, and the stage-grouping rules for a given

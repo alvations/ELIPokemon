@@ -159,6 +159,10 @@ treating half of it for three weeks.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the distribution and configuration vocabulary, and the site-pattern associations: any
   standard dermatology atlas or textbook of clinical dermatology, current edition. The terms are
   definitional; the site associations are textbook consensus rather than guideline statements.

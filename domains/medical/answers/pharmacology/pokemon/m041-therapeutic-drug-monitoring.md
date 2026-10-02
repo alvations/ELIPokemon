@@ -228,8 +228,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md). Specific
-to this answer, and to its technical twin:
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer, and to its technical twin:
 
 * **Your local laboratory handbook or therapeutic drug monitoring service**, the authority for
   every reference range, sampling time and unit in this topic.

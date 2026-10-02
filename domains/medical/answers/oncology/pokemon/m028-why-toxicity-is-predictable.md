@@ -241,6 +241,10 @@ that distinction is the reason the analogy stops at this heading every time.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-oncology.md`](../../../for-agents/SOURCES-oncology.md).
+Specific to this answer:
+
 * The summary of product characteristics, or equivalent national prescribing information, for any
   specific agent — the authority for its toxicity profile and for any cumulative limit.
 * Your centre's systemic anticancer therapy protocols and its pathway for suspected neutropenic

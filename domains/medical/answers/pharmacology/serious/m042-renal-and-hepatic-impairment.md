@@ -176,8 +176,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md). Specific
-to this answer:
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
 
 * **Your national formulary's prescribing-in-renal-impairment and
   prescribing-in-hepatic-impairment guidance**, and the per-drug monograph for every drug named

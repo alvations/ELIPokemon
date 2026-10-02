@@ -203,8 +203,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-emergency.md`](../../for-agents/SOURCES-emergency.md), and they apply
-here. Specific to this answer:
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md), and they
+apply here. Specific to this answer:
 
 * **The handover standard agreed between the reader's own emergency department and the ambulance
   service that brings patients to it.** This is the document that governs the transfer and it is

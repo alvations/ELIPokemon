@@ -206,8 +206,8 @@ person who can say what it means for you, and no analogy about rhythms can stand
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * The polycystic ovary syndrome guideline issued in your country, or the international
   evidence-based guideline your national body has adopted, for the criteria that apply where you

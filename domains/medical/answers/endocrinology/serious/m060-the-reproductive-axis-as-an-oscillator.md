@@ -196,8 +196,8 @@ your case, and nothing here can substitute for that.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * The guideline on polycystic ovary syndrome issued in your country, or the international
   evidence-based guideline your national body has adopted, for the diagnostic criteria that apply

@@ -153,6 +153,10 @@ all.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md).
+Specific to this answer:
+
 * **Your local diabetic ketoacidosis care pathway and your local hyperosmolar hyperglycaemic state
   care pathway**, as issued by your hospital or trust. These are the authority on every number,
   and nothing in this answer substitutes for them.

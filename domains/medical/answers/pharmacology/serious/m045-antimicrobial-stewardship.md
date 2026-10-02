@@ -192,8 +192,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md). Specific
-to this answer:
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
 
 * **Your institution's own antimicrobial guideline and its local antibiogram.** These are the
   authority for every empirical choice in this topic, they override a national guideline where the

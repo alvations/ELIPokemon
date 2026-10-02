@@ -144,6 +144,10 @@ decision rather than an oversight.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md).
+Specific to this answer:
+
 * The handover standard and the handover template in use in the reader's own institution — the
   authority for which limbs their format has and what written record is required.
 * The reader's institutional escalation policy, for the trigger values, the named responder at

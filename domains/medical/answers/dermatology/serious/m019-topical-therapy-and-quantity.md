@@ -173,6 +173,10 @@ person can act on it without a tape measure.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For potency classification and for the quantities suitable to prescribe per body area: the
   topical corticosteroid section of your national formulary, including its potency table and its
   table of suitable quantities. This is the authority, it differs between countries, and no figure

@@ -202,6 +202,10 @@ The standing documents for this specialty are listed in the dermatology sources 
 writers' directory for this domain, and they are the authority for everything procedural or
 quantitative here. Specific to this answer:
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For emollient quantities per week and for the preparations available: the emollient and barrier
   preparation section of your national formulary, including its table of suitable quantities. The
   figures differ between countries and nothing here substitutes for the table.

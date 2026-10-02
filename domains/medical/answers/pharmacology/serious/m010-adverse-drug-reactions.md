@@ -169,6 +169,10 @@ emergency services.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
+
 * Your national pharmacovigilance scheme's own guidance on what to report and how — in the United
   Kingdom the Yellow Card Scheme operated by the Medicines and Healthcare products Regulatory
   Agency; in the United States the Food and Drug Administration's MedWatch programme; in the

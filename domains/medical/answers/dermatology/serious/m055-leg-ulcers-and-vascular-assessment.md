@@ -228,6 +228,10 @@ The standing documents for this specialty are listed in the dermatology sources 
 writers' directory for this domain, and they are the authority for everything procedural or
 quantitative here. Specific to this answer:
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the ankle-brachial pressure index — how it is measured, the threshold values, what is done
   at each, and who is competent to apply compression: your institution's leg ulcer and compression
   policy, and the leg ulcer or chronic wound guideline issued by the national body that sets

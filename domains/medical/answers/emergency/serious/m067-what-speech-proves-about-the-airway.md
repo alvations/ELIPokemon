@@ -156,8 +156,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-emergency.md`](../../for-agents/SOURCES-emergency.md), and they apply
-here. Specific to this answer:
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md), and they
+apply here. Specific to this answer:
 
 * The current adult and paediatric life support guidelines issued by **the national resuscitation
   council for the country the reader practises in**, for how the airway assessment is worded and

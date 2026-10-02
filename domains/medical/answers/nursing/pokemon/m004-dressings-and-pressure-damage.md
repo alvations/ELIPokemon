@@ -159,6 +159,10 @@ need looking under. And what the local risk tool scores — and what it misses.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md).
+Specific to this answer:
+
 * The reader's institutional wound-care formulary and dressing-selection guide — the authority for
   which product is used for which wound locally.
 * The international pressure-injury prevention and treatment guideline used in the reader's

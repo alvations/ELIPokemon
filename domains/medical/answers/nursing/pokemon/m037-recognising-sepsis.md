@@ -158,8 +158,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-nursing.md`](../../for-agents/SOURCES-nursing.md). Specific to this
-answer:
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md). Specific to
+this answer:
 
 * The international consensus definitions of sepsis and septic shock, issued by the collaborating
   critical care societies, for the definitional material.

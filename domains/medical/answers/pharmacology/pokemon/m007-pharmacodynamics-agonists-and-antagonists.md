@@ -174,6 +174,10 @@ the decision about any medicine belongs with the prescriber or pharmacist who ho
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
+
 * A standard pharmacology textbook for receptor theory, the occupancy equation and the Schild
   relationship that this answer's stat-stage ladder stands in for.
 * The International Union of Basic and Clinical Pharmacology, through its guide to pharmacology

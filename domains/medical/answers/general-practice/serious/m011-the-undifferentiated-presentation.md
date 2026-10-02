@@ -135,6 +135,10 @@ the whole calculation.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-general-practice.md`](../../../for-agents/SOURCES-general-practice.md).
+Specific to this answer:
+
 * Any standard clinical-epidemiology or evidence-based-medicine textbook, for the two-by-two
   table, likelihood ratios and the derivation of predictive value from prevalence.
 * The published methodology of the diagnostic accuracy study behind any specific test being

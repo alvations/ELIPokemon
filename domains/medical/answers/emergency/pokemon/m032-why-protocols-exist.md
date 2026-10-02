@@ -153,6 +153,10 @@ and the spread is wide.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md).
+Specific to this answer:
+
 * The current life support guidelines issued by **the national resuscitation council for the
   country the reader practises in**, which are the clearest worked example of a protocol with all
   three conditions present. The councils differ from one another and each revises on its own

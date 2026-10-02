@@ -141,6 +141,10 @@ a defect in this dataset rather than a flourish.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md).
+Specific to this answer:
+
 * The current adult basic and advanced life support guidelines issued by **the national
   resuscitation council for the country the reader practises in**. There is no single global
   document, the councils differ from one another, and each revises on its own cycle.

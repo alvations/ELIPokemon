@@ -168,6 +168,10 @@ does not have. It is not something to re-derive from an analogy about weather.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md).
+Specific to this answer:
+
 * The World Health Organization's classification of diabetes mellitus — for what the categories
   are and the stated basis for each one.
 * Your national diabetes guideline from the body that issues it — in the United Kingdom the

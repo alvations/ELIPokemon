@@ -223,6 +223,10 @@ the whole list, and anyone worried about a combination they are taking should ra
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
+
 * Your national formulary's appendix on interactions, and the monograph for each drug the
   technical twin of this answer names — in the United Kingdom the British National Formulary,
   published by NICE with the pharmaceutical press; elsewhere the equivalent national formulary.

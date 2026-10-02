@@ -201,6 +201,10 @@ contact them, not a reason to act on anything in an analogy about a hidden count
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md).
+Specific to this answer:
+
 * Your national diabetes guideline's sections on monitoring and on glycaemic targets, from the
   body that issues it, which is the authority on any target value and on measurement frequency.
 * The American Diabetes Association's annual standards of care document, for its chapter on

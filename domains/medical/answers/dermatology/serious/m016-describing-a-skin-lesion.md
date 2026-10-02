@@ -158,6 +158,10 @@ be deciding whether the patient needs to be seen urgently.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the morphology vocabulary and the size conventions: any standard dermatology atlas or
   textbook of clinical dermatology. These terms are definitional and a current edition of a
   recognised atlas is the right authority; the terms do not come from a guideline.

@@ -145,6 +145,10 @@ team has agreed with you, and if someone cannot be roused, call emergency servic
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md).
+Specific to this answer:
+
 * Your national formulary — in the United Kingdom the British National Formulary, elsewhere the
   equivalent national formulary — for every insulin preparation's onset, profile and duration, and
   for the warnings attached to each. This is the authority on anything quantitative about insulin.

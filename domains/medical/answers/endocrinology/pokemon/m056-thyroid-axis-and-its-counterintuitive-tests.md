@@ -199,8 +199,8 @@ team that ordered the test. Neither is something to re-derive from an analogy ab
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * Your national thyroid guideline from the body that issues it — in the United Kingdom the
   National Institute for Health and Care Excellence, elsewhere the equivalent national authority —

@@ -203,8 +203,8 @@ Intimidate.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * The specialty society guidance on diagnosing cortisol excess issued in your country, for which
   tests are recommended, in what combination, and in whom.

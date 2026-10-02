@@ -142,6 +142,10 @@ because a signal that could not be generated is not a signal that was sought and
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md).
+Specific to this answer:
+
 * **The reader's own employing organisation's** observation, escalation and deteriorating-patient
   policy, which names the early warning score actually in use there, its thresholds and its
   escalation routes. That is the governing document, and it is the one this answer deliberately

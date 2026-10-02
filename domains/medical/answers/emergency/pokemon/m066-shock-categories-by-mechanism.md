@@ -157,8 +157,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-emergency.md`](../../for-agents/SOURCES-emergency.md), and they apply
-here. Specific to this answer:
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md), and they
+apply here. Specific to this answer:
 
 * A current standard textbook of **emergency medicine or of intensive care medicine**, for the
   definitions, the categories and the physiology of oxygen delivery.

@@ -173,6 +173,10 @@ The standing documents for this specialty are listed in the dermatology sources 
 writers' directory for this domain, and they are the authority for everything procedural or
 quantitative here. Specific to this answer:
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the treatment pathway, severity thresholds and biologic eligibility: the psoriasis guideline
   issued by the national body that sets guidance where you practise, together with your region's
   funding criteria. These differ substantially between countries and change often.

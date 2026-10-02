@@ -145,6 +145,10 @@ error — because that answer predicts whether the next one gets reported.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md).
+Specific to this answer:
+
 * The reader's institutional medicines policy and medicines administration procedure — the
   authority for the local list of checks, the second-check requirement, and which categories count
   as high risk.

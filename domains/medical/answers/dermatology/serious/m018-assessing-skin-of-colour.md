@@ -164,6 +164,10 @@ pigment change has not.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the clinical appearance of common inflammatory conditions in darker skin: a dedicated
   textbook or atlas of dermatology in skin of colour, which exists precisely because general
   atlases do not cover it, plus the skin-of-colour teaching resources published by your national

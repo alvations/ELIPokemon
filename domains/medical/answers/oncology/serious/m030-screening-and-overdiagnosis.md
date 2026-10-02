@@ -210,6 +210,10 @@ person's disease, and it cannot be applied to one.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-oncology.md`](../../../for-agents/SOURCES-oncology.md).
+Specific to this answer:
+
 * Your national cancer screening programme's own published rationale, eligibility and
   benefits-and-harms information, issued by the body that runs it — the authority for who is
   invited, how often, and what harms the programme itself states.

@@ -249,6 +249,10 @@ The standing documents for this specialty are listed in the dermatology sources 
 writers' directory for this domain, and they are the authority for everything procedural or
 quantitative here. Specific to this answer:
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For anaphylaxis recognition and treatment, including the adrenaline dose, route and repeat
   interval, and the observation period afterwards: the current guidance of your national
   resuscitation council. This answer states no dose. That guidance is the authority and it is

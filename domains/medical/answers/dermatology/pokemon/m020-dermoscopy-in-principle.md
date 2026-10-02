@@ -175,6 +175,10 @@ dermoscopic appearance is reassuring and whose history is not.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-dermatology.md`](../../../for-agents/SOURCES-dermatology.md).
+Specific to this answer:
+
 * For the descriptive lexicon of dermoscopic structures and the site-specific vocabularies: a
   standard dermoscopy atlas or textbook, current edition, and the consensus terminology documents
   published by the International Dermoscopy Society.

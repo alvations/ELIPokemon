@@ -135,6 +135,10 @@ could not get back.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-general-practice.md`](../../../for-agents/SOURCES-general-practice.md).
+Specific to this answer:
+
 * The suspected-cancer and urgent-referral criteria issued by the national or regional body
   governing the reader's practice, for the red-flag thresholds themselves *[country-dependent]*.
 * The curriculum and assessment guidance of the reader's own college or training body for general

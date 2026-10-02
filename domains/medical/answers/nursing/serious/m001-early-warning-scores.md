@@ -167,6 +167,10 @@ what happens to the chart when it is.
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
+The standing documents for this specialty are listed in
+[`../../../for-agents/SOURCES-nursing.md`](../../../for-agents/SOURCES-nursing.md).
+Specific to this answer:
+
 * The current observation chart and early warning score in use in the reader's own institution,
   together with the escalation policy printed on or alongside it — the only authority for
   parameter sets, points, trigger values and the response at each band.

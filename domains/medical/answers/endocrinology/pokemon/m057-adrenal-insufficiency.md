@@ -187,8 +187,8 @@ the one that applies, and it is not something to re-derive from an analogy about
 written in, so every claim here rests on general professional knowledge and is attributed, not
 quoted. Open the document before relying on anything in this answer.
 
-See [`../../for-agents/SOURCES-endocrinology.md`](../../for-agents/SOURCES-endocrinology.md) for
-the standing documents of this specialty. Specific to this answer:
+See [`../../../for-agents/SOURCES-endocrinology.md`](../../../for-agents/SOURCES-endocrinology.md)
+for the standing documents of this specialty. Specific to this answer:
 
 * Your national guideline on adrenal insufficiency, or the equivalent specialty society guidance
   issued in your country, for diagnosis, testing and the arrangements around illness.

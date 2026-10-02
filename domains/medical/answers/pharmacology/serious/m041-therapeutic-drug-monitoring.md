@@ -182,8 +182,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md) — your
-national formulary, your national guideline body, your own institution's policy, a current
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md) —
+your national formulary, your national guideline body, your own institution's policy, a current
 standard textbook, and the primary literature. Specific to this answer:
 
 * **Your local laboratory handbook or therapeutic drug monitoring service.** The authority for

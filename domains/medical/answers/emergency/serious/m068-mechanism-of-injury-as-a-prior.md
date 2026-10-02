@@ -171,8 +171,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-emergency.md`](../../for-agents/SOURCES-emergency.md), and they apply
-here. Specific to this answer:
+[`../../../for-agents/SOURCES-emergency.md`](../../../for-agents/SOURCES-emergency.md), and they
+apply here. Specific to this answer:
 
 * The current major trauma assessment and triage guidance issued by **the reader's regional or
   national trauma network**, which is where mechanism-based criteria, imaging indications and

@@ -182,8 +182,8 @@ written in, so every claim here rests on general professional knowledge and is a
 quoted. Open the document before relying on anything in this answer.
 
 The standing documents for this specialty are listed in
-[`../../for-agents/SOURCES-pharmacology.md`](../../for-agents/SOURCES-pharmacology.md). Specific
-to this answer:
+[`../../../for-agents/SOURCES-pharmacology.md`](../../../for-agents/SOURCES-pharmacology.md).
+Specific to this answer:
 
 * **Your national guideline body's guidance on medicines adherence and on medicines
   optimisation.** The authority for the terminology, for the intentional/unintentional distinction
