@@ -4,16 +4,21 @@ m002	handover-and-escalation	nursing	core	Why is clinical handover given in a st
 m003	medicines-administration-system	nursing	intermediate	Why is safe medicines administration described as a system rather than a matter of individual carefulness, and where is that system weakest?
 m004	dressings-and-pressure-damage	nursing	intermediate	What is a dressing actually doing, and why is pressure damage a time-and-pressure problem rather than a cleanliness problem?
 m005	fluid-balance-charting	nursing	advanced	What does a fluid balance chart actually measure, what does it miss, and how does it connect to the circulation?
+m006	pharmacokinetics-four-processes	pharmacology	advanced	What do absorption, distribution, metabolism and excretion each contribute, and why are clearance, volume of distribution and half-life the three numbers that actually predict a drug's behaviour?
+m007	pharmacodynamics-agonists-and-antagonists	pharmacology	advanced	Distinguish agonist, partial agonist, antagonist and inverse agonist, and explain why a competitive antagonist shifts a dose-response curve while a non-competitive one flattens it.
+m008	therapeutic-index	pharmacology	intermediate	What is the therapeutic index, and what does a narrow one change about how a drug is monitored, substituted and assessed for interactions?
+m009	drug-interactions-mechanisms	pharmacology	advanced	Compare enzyme induction and enzyme inhibition mechanistically, and explain why protein-binding displacement usually matters less than it sounds.
+m010	adverse-drug-reactions	pharmacology	intermediate	How are adverse drug reactions classified, why do dose-dependent and idiosyncratic reactions need different responses, and why do spontaneous reporting schemes exist despite their known biases?
 m011	the-undifferentiated-presentation	general-practice	advanced	Why does an identical finding mean something different in general practice than in a hospital clinic, and how does prevalence change what it is worth?
 m012	red-flags-and-safety-netting	general-practice	advanced	What is safety-netting actually for, and what separates a safety-net that works from reassurance that only sounds like one?
 m013	screening-and-its-harms	general-practice	advanced	Why is a screening programme not simply more testing, and what do lead-time bias, length bias and overdiagnosis each do to its apparent benefit?
 m014	polypharmacy-and-deprescribing	general-practice	advanced	Why is the number of medicines a risk factor in its own right, and what makes a decision to stop different in kind from a decision to start?
 m015	continuity-of-care	general-practice	intermediate	What does continuity of care actually buy, and why is it a clinical intervention rather than a courtesy?
-m031	primary-survey-ordering	emergency	intermediate	Why is the primary survey ordered airway, breathing, circulation, and what is that ordering actually sorting on?
-m032	why-protocols-exist	emergency	intermediate	Why are time-critical decisions written down as protocols instead of left to individual clinical judgement?
-m033	what-triage-optimises	emergency	advanced	What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?
-m034	compensation-and-the-sick-patient	emergency	advanced	Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?
-m035	first-aid-for-untrained-bystanders	emergency	intermediate	Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?
+m016	describing-a-skin-lesion	dermatology	core	How should a skin lesion be described, and why does the primary morphology constrain the differential more than any other single step?
+m017	distribution-and-configuration	dermatology	core	Why do the distribution of a rash and the configuration of its lesions carry as much diagnostic weight as the individual lesions?
+m018	assessing-skin-of-colour	dermatology	core	Why do the standard descriptions of erythema, cyanosis and jaundice fail in darker skin, and what changes?
+m019	topical-therapy-and-quantity	dermatology	core	Why is under-application the commonest reason a topical treatment appears not to work, and what do potency, vehicle and quantity each contribute?
+m020	dermoscopy-in-principle	dermatology	intermediate	What does dermoscopy add over the naked eye, and why is it pattern recognition over a structured vocabulary rather than magnification?
 m021	two-mechanisms-type-1-type-2	endocrinology	intermediate	Type 1 and type 2 diabetes are diagnosed by the same measurement. Why are they different diseases?
 m022	insulin-as-a-control-problem	endocrinology	advanced	Why is replacing insulin with injections intrinsically hard, and what do basal and bolus each do?
 m023	glycation-marker-and-continuous-monitoring	endocrinology	intermediate	What does glycated haemoglobin measure that a spot glucose cannot, and where does it mislead?
@@ -24,8 +29,8 @@ m027	how-systemic-therapies-differ	oncology	intermediate	Cytotoxic chemotherapy,
 m028	why-toxicity-is-predictable	oncology	advanced	Why do cytotoxic agents damage the particular tissues they damage, why is the timing of that damage predictable rather than surprising, and why do immunotherapy toxicities look like autoimmunity?
 m029	response-assessment-and-surrogates	oncology	advanced	Why is deciding whether a cancer treatment is working harder than it sounds, what does a structured response criterion actually buy, and why is a better scan not the same thing as a longer life?
 m030	screening-and-overdiagnosis	oncology	advanced	Why is finding more cancer not automatically better? Explain lead-time bias, length bias and overdiagnosis, and why overdiagnosis is a real harm rather than a technicality.
-m016	describing-a-skin-lesion	dermatology	core	How should a skin lesion be described, and why does the primary morphology constrain the differential more than any other single step?
-m017	distribution-and-configuration	dermatology	core	Why do the distribution of a rash and the configuration of its lesions carry as much diagnostic weight as the individual lesions?
-m018	assessing-skin-of-colour	dermatology	core	Why do the standard descriptions of erythema, cyanosis and jaundice fail in darker skin, and what changes?
-m019	topical-therapy-and-quantity	dermatology	core	Why is under-application the commonest reason a topical treatment appears not to work, and what do potency, vehicle and quantity each contribute?
-m020	dermoscopy-in-principle	dermatology	intermediate	What does dermoscopy add over the naked eye, and why is it pattern recognition over a structured vocabulary rather than magnification?
+m031	primary-survey-ordering	emergency	intermediate	Why is the primary survey ordered airway, breathing, circulation, and what is that ordering actually sorting on?
+m032	why-protocols-exist	emergency	intermediate	Why are time-critical decisions written down as protocols instead of left to individual clinical judgement?
+m033	what-triage-optimises	emergency	advanced	What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?
+m034	compensation-and-the-sick-patient	emergency	advanced	Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?
+m035	first-aid-for-untrained-bystanders	emergency	intermediate	Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?

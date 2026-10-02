@@ -1,5 +1,5 @@
 {
-  "count": 30,
+  "count": 35,
   "questions": [
     {
       "id": "m001",
@@ -84,6 +84,91 @@
         "perfusion",
         "charting",
         "assessment"
+      ]
+    },
+    {
+      "id": "m006",
+      "slug": "pharmacokinetics-four-processes",
+      "question": "What do absorption, distribution, metabolism and excretion each contribute, and why are clearance, volume of distribution and half-life the three numbers that actually predict a drug's behaviour?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m006-pharmacokinetics-four-processes.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m006-pharmacokinetics-four-processes.md",
+      "tags": [
+        "pharmacokinetics",
+        "half-life",
+        "clearance",
+        "loading-dose",
+        "adme"
+      ]
+    },
+    {
+      "id": "m007",
+      "slug": "pharmacodynamics-agonists-and-antagonists",
+      "question": "Distinguish agonist, partial agonist, antagonist and inverse agonist, and explain why a competitive antagonist shifts a dose-response curve while a non-competitive one flattens it.",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m007-pharmacodynamics-agonists-and-antagonists.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m007-pharmacodynamics-agonists-and-antagonists.md",
+      "tags": [
+        "pharmacodynamics",
+        "receptors",
+        "antagonism",
+        "efficacy",
+        "dose-response"
+      ]
+    },
+    {
+      "id": "m008",
+      "slug": "therapeutic-index",
+      "question": "What is the therapeutic index, and what does a narrow one change about how a drug is monitored, substituted and assessed for interactions?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m008-therapeutic-index.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m008-therapeutic-index.md",
+      "tags": [
+        "therapeutic-index",
+        "monitoring",
+        "bioequivalence",
+        "toxicity",
+        "variability"
+      ]
+    },
+    {
+      "id": "m009",
+      "slug": "drug-interactions-mechanisms",
+      "question": "Compare enzyme induction and enzyme inhibition mechanistically, and explain why protein-binding displacement usually matters less than it sounds.",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m009-drug-interactions-mechanisms.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m009-drug-interactions-mechanisms.md",
+      "tags": [
+        "interactions",
+        "induction",
+        "inhibition",
+        "protein-binding",
+        "cytochrome-p450"
+      ]
+    },
+    {
+      "id": "m010",
+      "slug": "adverse-drug-reactions",
+      "question": "How are adverse drug reactions classified, why do dose-dependent and idiosyncratic reactions need different responses, and why do spontaneous reporting schemes exist despite their known biases?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m010-adverse-drug-reactions.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m010-adverse-drug-reactions.md",
+      "tags": [
+        "adverse-reactions",
+        "pharmacovigilance",
+        "idiosyncrasy",
+        "reporting",
+        "causality"
       ]
     },
     {
@@ -172,88 +257,88 @@
       ]
     },
     {
-      "id": "m031",
-      "slug": "primary-survey-ordering",
-      "question": "Why is the primary survey ordered airway, breathing, circulation, and what is that ordering actually sorting on?",
-      "category": "emergency",
-      "difficulty": "intermediate",
+      "id": "m016",
+      "slug": "describing-a-skin-lesion",
+      "question": "How should a skin lesion be described, and why does the primary morphology constrain the differential more than any other single step?",
+      "category": "dermatology",
+      "difficulty": "core",
       "domain": "medical",
-      "serious_path": "domains/medical/answers/emergency/serious/m031-primary-survey-ordering.md",
-      "pokemon_path": "domains/medical/answers/emergency/pokemon/m031-primary-survey-ordering.md",
+      "serious_path": "domains/medical/answers/dermatology/serious/m016-describing-a-skin-lesion.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m016-describing-a-skin-lesion.md",
       "tags": [
-        "primary-survey",
-        "abcde",
-        "prioritisation",
-        "protocol-design",
-        "revision"
+        "morphology",
+        "examination",
+        "description",
+        "documentation",
+        "dermatology"
       ]
     },
     {
-      "id": "m032",
-      "slug": "why-protocols-exist",
-      "question": "Why are time-critical decisions written down as protocols instead of left to individual clinical judgement?",
-      "category": "emergency",
-      "difficulty": "intermediate",
+      "id": "m017",
+      "slug": "distribution-and-configuration",
+      "question": "Why do the distribution of a rash and the configuration of its lesions carry as much diagnostic weight as the individual lesions?",
+      "category": "dermatology",
+      "difficulty": "core",
       "domain": "medical",
-      "serious_path": "domains/medical/answers/emergency/serious/m032-why-protocols-exist.md",
-      "pokemon_path": "domains/medical/answers/emergency/pokemon/m032-why-protocols-exist.md",
+      "serious_path": "domains/medical/answers/dermatology/serious/m017-distribution-and-configuration.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m017-distribution-and-configuration.md",
       "tags": [
-        "protocols",
-        "cognitive-load",
-        "variance",
-        "standardisation",
-        "human-factors"
+        "distribution",
+        "configuration",
+        "examination",
+        "pattern",
+        "dermatology"
       ]
     },
     {
-      "id": "m033",
-      "slug": "what-triage-optimises",
-      "question": "What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?",
-      "category": "emergency",
-      "difficulty": "advanced",
+      "id": "m018",
+      "slug": "assessing-skin-of-colour",
+      "question": "Why do the standard descriptions of erythema, cyanosis and jaundice fail in darker skin, and what changes?",
+      "category": "dermatology",
+      "difficulty": "core",
       "domain": "medical",
-      "serious_path": "domains/medical/answers/emergency/serious/m033-what-triage-optimises.md",
-      "pokemon_path": "domains/medical/answers/emergency/pokemon/m033-what-triage-optimises.md",
+      "serious_path": "domains/medical/answers/dermatology/serious/m018-assessing-skin-of-colour.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m018-assessing-skin-of-colour.md",
       "tags": [
-        "triage",
-        "mass-casualty",
-        "prioritisation",
-        "marginal-benefit",
+        "skin-of-colour",
+        "erythema",
+        "pigmentation",
+        "examination",
+        "competence"
+      ]
+    },
+    {
+      "id": "m019",
+      "slug": "topical-therapy-and-quantity",
+      "question": "Why is under-application the commonest reason a topical treatment appears not to work, and what do potency, vehicle and quantity each contribute?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m019-topical-therapy-and-quantity.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m019-topical-therapy-and-quantity.md",
+      "tags": [
+        "topical",
+        "potency",
+        "vehicle",
+        "fingertip-unit",
+        "adherence"
+      ]
+    },
+    {
+      "id": "m020",
+      "slug": "dermoscopy-in-principle",
+      "question": "What does dermoscopy add over the naked eye, and why is it pattern recognition over a structured vocabulary rather than magnification?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m020-dermoscopy-in-principle.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m020-dermoscopy-in-principle.md",
+      "tags": [
+        "dermoscopy",
+        "optics",
+        "vocabulary",
+        "pattern-recognition",
         "training"
-      ]
-    },
-    {
-      "id": "m034",
-      "slug": "compensation-and-the-sick-patient",
-      "question": "Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?",
-      "category": "emergency",
-      "difficulty": "advanced",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/emergency/serious/m034-compensation-and-the-sick-patient.md",
-      "pokemon_path": "domains/medical/answers/emergency/pokemon/m034-compensation-and-the-sick-patient.md",
-      "tags": [
-        "compensation",
-        "deterioration",
-        "observations",
-        "early-warning",
-        "physiology"
-      ]
-    },
-    {
-      "id": "m035",
-      "slug": "first-aid-for-untrained-bystanders",
-      "question": "Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?",
-      "category": "emergency",
-      "difficulty": "intermediate",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/emergency/serious/m035-first-aid-for-untrained-bystanders.md",
-      "pokemon_path": "domains/medical/answers/emergency/pokemon/m035-first-aid-for-untrained-bystanders.md",
-      "tags": [
-        "first-aid",
-        "bystander",
-        "guidance-design",
-        "simplification",
-        "dispatcher"
       ]
     },
     {
@@ -427,88 +512,88 @@
       ]
     },
     {
-      "id": "m016",
-      "slug": "describing-a-skin-lesion",
-      "question": "How should a skin lesion be described, and why does the primary morphology constrain the differential more than any other single step?",
-      "category": "dermatology",
-      "difficulty": "core",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/dermatology/serious/m016-describing-a-skin-lesion.md",
-      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m016-describing-a-skin-lesion.md",
-      "tags": [
-        "morphology",
-        "examination",
-        "description",
-        "documentation",
-        "dermatology"
-      ]
-    },
-    {
-      "id": "m017",
-      "slug": "distribution-and-configuration",
-      "question": "Why do the distribution of a rash and the configuration of its lesions carry as much diagnostic weight as the individual lesions?",
-      "category": "dermatology",
-      "difficulty": "core",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/dermatology/serious/m017-distribution-and-configuration.md",
-      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m017-distribution-and-configuration.md",
-      "tags": [
-        "distribution",
-        "configuration",
-        "examination",
-        "pattern",
-        "dermatology"
-      ]
-    },
-    {
-      "id": "m018",
-      "slug": "assessing-skin-of-colour",
-      "question": "Why do the standard descriptions of erythema, cyanosis and jaundice fail in darker skin, and what changes?",
-      "category": "dermatology",
-      "difficulty": "core",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/dermatology/serious/m018-assessing-skin-of-colour.md",
-      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m018-assessing-skin-of-colour.md",
-      "tags": [
-        "skin-of-colour",
-        "erythema",
-        "pigmentation",
-        "examination",
-        "competence"
-      ]
-    },
-    {
-      "id": "m019",
-      "slug": "topical-therapy-and-quantity",
-      "question": "Why is under-application the commonest reason a topical treatment appears not to work, and what do potency, vehicle and quantity each contribute?",
-      "category": "dermatology",
-      "difficulty": "core",
-      "domain": "medical",
-      "serious_path": "domains/medical/answers/dermatology/serious/m019-topical-therapy-and-quantity.md",
-      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m019-topical-therapy-and-quantity.md",
-      "tags": [
-        "topical",
-        "potency",
-        "vehicle",
-        "fingertip-unit",
-        "adherence"
-      ]
-    },
-    {
-      "id": "m020",
-      "slug": "dermoscopy-in-principle",
-      "question": "What does dermoscopy add over the naked eye, and why is it pattern recognition over a structured vocabulary rather than magnification?",
-      "category": "dermatology",
+      "id": "m031",
+      "slug": "primary-survey-ordering",
+      "question": "Why is the primary survey ordered airway, breathing, circulation, and what is that ordering actually sorting on?",
+      "category": "emergency",
       "difficulty": "intermediate",
       "domain": "medical",
-      "serious_path": "domains/medical/answers/dermatology/serious/m020-dermoscopy-in-principle.md",
-      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m020-dermoscopy-in-principle.md",
+      "serious_path": "domains/medical/answers/emergency/serious/m031-primary-survey-ordering.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m031-primary-survey-ordering.md",
       "tags": [
-        "dermoscopy",
-        "optics",
-        "vocabulary",
-        "pattern-recognition",
+        "primary-survey",
+        "abcde",
+        "prioritisation",
+        "protocol-design",
+        "revision"
+      ]
+    },
+    {
+      "id": "m032",
+      "slug": "why-protocols-exist",
+      "question": "Why are time-critical decisions written down as protocols instead of left to individual clinical judgement?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m032-why-protocols-exist.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m032-why-protocols-exist.md",
+      "tags": [
+        "protocols",
+        "cognitive-load",
+        "variance",
+        "standardisation",
+        "human-factors"
+      ]
+    },
+    {
+      "id": "m033",
+      "slug": "what-triage-optimises",
+      "question": "What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m033-what-triage-optimises.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m033-what-triage-optimises.md",
+      "tags": [
+        "triage",
+        "mass-casualty",
+        "prioritisation",
+        "marginal-benefit",
         "training"
+      ]
+    },
+    {
+      "id": "m034",
+      "slug": "compensation-and-the-sick-patient",
+      "question": "Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?",
+      "category": "emergency",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m034-compensation-and-the-sick-patient.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m034-compensation-and-the-sick-patient.md",
+      "tags": [
+        "compensation",
+        "deterioration",
+        "observations",
+        "early-warning",
+        "physiology"
+      ]
+    },
+    {
+      "id": "m035",
+      "slug": "first-aid-for-untrained-bystanders",
+      "question": "Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?",
+      "category": "emergency",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/emergency/serious/m035-first-aid-for-untrained-bystanders.md",
+      "pokemon_path": "domains/medical/answers/emergency/pokemon/m035-first-aid-for-untrained-bystanders.md",
+      "tags": [
+        "first-aid",
+        "bystander",
+        "guidance-design",
+        "simplification",
+        "dispatcher"
       ]
     }
   ]
