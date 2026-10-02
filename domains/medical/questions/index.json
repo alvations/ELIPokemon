@@ -1,5 +1,5 @@
 {
-  "count": 35,
+  "count": 45,
   "questions": [
     {
       "id": "m001",
@@ -594,6 +594,176 @@
         "guidance-design",
         "simplification",
         "dispatcher"
+      ]
+    },
+    {
+      "id": "m036",
+      "slug": "infection-prevention-hand-hygiene",
+      "question": "Why is hand hygiene a systems problem rather than a knowledge problem, and what has to be true around it for it to work?",
+      "category": "nursing",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m036-infection-prevention-hand-hygiene.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m036-infection-prevention-hand-hygiene.md",
+      "tags": [
+        "infection-prevention",
+        "hand-hygiene",
+        "transmission",
+        "human-factors",
+        "ppe"
+      ]
+    },
+    {
+      "id": "m037",
+      "slug": "recognising-sepsis",
+      "question": "Why is the response to suspected sepsis organised as a time-critical bundle, and what does that design trade away?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m037-recognising-sepsis.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m037-recognising-sepsis.md",
+      "tags": [
+        "sepsis",
+        "deterioration",
+        "bundles",
+        "antimicrobial-stewardship",
+        "screening"
+      ]
+    },
+    {
+      "id": "m038",
+      "slug": "indwelling-devices-and-infection",
+      "question": "Why is every indwelling device a standing trade against infection risk, and why is duration the dominant term?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m038-indwelling-devices-and-infection.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m038-indwelling-devices-and-infection.md",
+      "tags": [
+        "catheter-care",
+        "device-associated-infection",
+        "biofilm",
+        "daily-review",
+        "deprescribing"
+      ]
+    },
+    {
+      "id": "m039",
+      "slug": "nutrition-and-swallowing",
+      "question": "What does a nutrition and swallowing assessment actually protect against, and what goes wrong when it is skipped?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m039-nutrition-and-swallowing.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m039-nutrition-and-swallowing.md",
+      "tags": [
+        "nutrition",
+        "dysphagia",
+        "aspiration",
+        "refeeding",
+        "screening"
+      ]
+    },
+    {
+      "id": "m040",
+      "slug": "falls-risk-multifactorial",
+      "question": "Why do multifactorial falls risks resist single-intervention fixes, and why can preventing falls cause harm?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m040-falls-risk-multifactorial.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m040-falls-risk-multifactorial.md",
+      "tags": [
+        "falls",
+        "multifactorial-assessment",
+        "deconditioning",
+        "restraint",
+        "risk-scores"
+      ]
+    },
+    {
+      "id": "m051",
+      "slug": "eczema-and-the-barrier",
+      "question": "Why is atopic eczema best understood as a barrier disease, and why is the quantity of emollient the intervention rather than an adjunct?",
+      "category": "dermatology",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m051-eczema-and-the-barrier.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m051-eczema-and-the-barrier.md",
+      "tags": [
+        "eczema",
+        "barrier",
+        "emollient",
+        "filaggrin",
+        "itch"
+      ]
+    },
+    {
+      "id": "m052",
+      "slug": "psoriasis-as-systemic-disease",
+      "question": "Why is psoriasis described as a systemic inflammatory disease that presents on the skin, and what follows from that for assessment?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m052-psoriasis-as-systemic-disease.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m052-psoriasis-as-systemic-disease.md",
+      "tags": [
+        "psoriasis",
+        "comorbidity",
+        "interleukin",
+        "arthritis",
+        "biologics"
+      ]
+    },
+    {
+      "id": "m053",
+      "slug": "acne-mechanism-and-sequence",
+      "question": "What are the mechanisms of acne, and why does the order in which treatments are added follow from them?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m053-acne-mechanism-and-sequence.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m053-acne-mechanism-and-sequence.md",
+      "tags": [
+        "acne",
+        "pilosebaceous",
+        "retinoid",
+        "stewardship",
+        "scarring"
+      ]
+    },
+    {
+      "id": "m054",
+      "slug": "drug-eruptions-and-the-emergencies",
+      "question": "How are drug eruptions recognised as patterns, and which few of them are emergencies?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m054-drug-eruptions-and-the-emergencies.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m054-drug-eruptions-and-the-emergencies.md",
+      "tags": [
+        "drug-eruption",
+        "pattern-recognition",
+        "severe-reactions",
+        "timeline",
+        "allergy-label"
+      ]
+    },
+    {
+      "id": "m055",
+      "slug": "leg-ulcers-and-vascular-assessment",
+      "question": "Why does the vascular assessment come before the dressing in a chronic leg ulcer, and what makes compression the treatment rather than the wound covering?",
+      "category": "dermatology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m055-leg-ulcers-and-vascular-assessment.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m055-leg-ulcers-and-vascular-assessment.md",
+      "tags": [
+        "leg-ulcer",
+        "compression",
+        "ankle-brachial-index",
+        "wound-bed",
+        "offloading"
       ]
     }
   ]

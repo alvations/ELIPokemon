@@ -34,3 +34,13 @@ m032	why-protocols-exist	emergency	intermediate	Why are time-critical decisions 
 m033	what-triage-optimises	emergency	advanced	What is a triage system optimising, and why is the sickest patient not first in a mass-casualty setting?
 m034	compensation-and-the-sick-patient	emergency	advanced	Why is a patient holding normal observations by compensating closer to collapse than one with abnormal but stable numbers?
 m035	first-aid-for-untrained-bystanders	emergency	intermediate	Why is first-aid guidance for untrained bystanders different in kind from clinical guidance, rather than just simpler?
+m036	infection-prevention-hand-hygiene	nursing	core	Why is hand hygiene a systems problem rather than a knowledge problem, and what has to be true around it for it to work?
+m037	recognising-sepsis	nursing	advanced	Why is the response to suspected sepsis organised as a time-critical bundle, and what does that design trade away?
+m038	indwelling-devices-and-infection	nursing	intermediate	Why is every indwelling device a standing trade against infection risk, and why is duration the dominant term?
+m039	nutrition-and-swallowing	nursing	intermediate	What does a nutrition and swallowing assessment actually protect against, and what goes wrong when it is skipped?
+m040	falls-risk-multifactorial	nursing	advanced	Why do multifactorial falls risks resist single-intervention fixes, and why can preventing falls cause harm?
+m051	eczema-and-the-barrier	dermatology	core	Why is atopic eczema best understood as a barrier disease, and why is the quantity of emollient the intervention rather than an adjunct?
+m052	psoriasis-as-systemic-disease	dermatology	intermediate	Why is psoriasis described as a systemic inflammatory disease that presents on the skin, and what follows from that for assessment?
+m053	acne-mechanism-and-sequence	dermatology	intermediate	What are the mechanisms of acne, and why does the order in which treatments are added follow from them?
+m054	drug-eruptions-and-the-emergencies	dermatology	advanced	How are drug eruptions recognised as patterns, and which few of them are emergencies?
+m055	leg-ulcers-and-vascular-assessment	dermatology	intermediate	Why does the vascular assessment come before the dressing in a chronic leg ulcer, and what makes compression the treatment rather than the wound covering?
