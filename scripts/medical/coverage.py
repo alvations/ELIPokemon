@@ -28,6 +28,18 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 CATALOGUE = ROOT / "domains" / "medical" / "questions" / "questions.tsv"
+# The mandated trailing sections carry no topic information, so listing them would bury
+# the body sections that do.
+SKIP = (
+    "## The human stakes",
+    "## What an examiner",
+    "## What a",
+    "## Sources",
+    "## Scope and safety",
+    "## Where this stands",
+    "## Where the metaphor",
+)
+
 SPECIALTIES = (
     "nursing",
     "pharmacology",
@@ -55,6 +67,18 @@ def main(argv: list[str]) -> int:
         for r in sorted(group, key=lambda r: r["id"]):
             print(f"  {r['id']}  {r['slug']}")
             print(f"        {r['question']}")
+            body = (
+                ROOT / "domains" / "medical" / "answers" / name / "serious"
+                / f"{r['id']}-{r['slug']}.md"
+            )
+            if body.exists():
+                heads = [
+                    l[3:].strip()
+                    for l in body.read_text().splitlines()
+                    if l.startswith("## ") and not l.startswith(SKIP)
+                ]
+                for h in heads:
+                    print(f"          - {h}")
         if want_next:
             n = 1
             while n in taken:
@@ -65,9 +89,14 @@ def main(argv: list[str]) -> int:
                     block.append(n)
                 n += 1
             print(f"\n  next free IDs: {', '.join('m%03d' % i for i in block)}")
+    print(f"\ntotal {len(all_rows)} of 700.")
     print(
-        f"\ntotal {len(all_rows)} of 700. "
-        "Read the question text, not the device, before offering a topic as new."
+        "\nThe question text is necessary and NOT sufficient. A pair's body routinely spends an\n"
+        "argument its question does not announce: m012 asks about safety-netting and its second\n"
+        "section is 'Red flags: what they are and what they are not', with the specificity-tuned\n"
+        "argument and a worked 2x2 at 1-in-500 prevalence. A writer offered 'red flags' as new\n"
+        "territory found that out by reading the file, and was right to retire the topic.\n"
+        "So: run this to shortlist, then open both halves of anything adjacent before you draft."
     )
     return 0
 

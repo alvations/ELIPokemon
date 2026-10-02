@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**80 answers · mean 88.7 · median 89.0 · min 62.6 · max 100.0**
+**80 answers · mean 88.6 · median 89.0 · min 62.6 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -61,6 +61,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 90.5 | excellent | m064 | oncology | tumour-markers-and-screening | 28 | 75 | 54 |
 | 90.7 | excellent | m081 | general-practice | referral-thresholds-and-gatekeeping | 18 | 50 | 46 |
 | 91.2 | excellent | m015 | general-practice | continuity-of-care | 32 | 42 | 72 |
+| 91.2 | excellent | m084 | general-practice | overdiagnosis-in-primary-care | 27 | 49 | 27 |
 | 91.3 | excellent | m009 | pharmacology | drug-interactions-mechanisms | 27 | 52 | 63 |
 | 91.4 | excellent | m041 | pharmacology | therapeutic-drug-monitoring | 43 | 54 | 94 |
 | 91.6 | excellent | m085 | general-practice | the-prevention-paradox | 16 | 44 | 26 |
@@ -74,7 +75,6 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 94.4 | excellent | m070 | emergency | handover-and-what-crosses-the-boundary | 26 | 52 | 39 |
 | 95.1 | excellent | m056 | endocrinology | thyroid-axis-and-its-counterintuitive-tests | 21 | 64 | 44 |
 | 95.6 | excellent | m008 | pharmacology | therapeutic-index | 20 | 48 | 52 |
-| 95.6 | excellent | m084 | general-practice | overdiagnosis-in-primary-care | 27 | 48 | 24 |
 | 96.2 | excellent | m059 | endocrinology | calcium-and-the-parathyroid-loop | 29 | 64 | 42 |
 | 96.5 | excellent | m017 | dermatology | distribution-and-configuration | 22 | 43 | 22 |
 | 96.8 | excellent | m044 | pharmacology | formulation-and-route | 34 | 58 | 47 |

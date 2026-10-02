@@ -17,20 +17,26 @@ present. The harm is not in the finding — it is in everything the finding sets
 which that person needed.
 
 Load-bearing claims below are marked with what they rest on: *mechanism*, *definitional*,
-*consensus* or *country-dependent*. m013 covers what lead-time bias, length bias and
-overdiagnosis do to the apparent benefit of a *screening programme*; this answer is about the
-version that arrives without any programme at all, which is most of it in first-contact care.
+*consensus* or *country-dependent*.
 
-Three things it is not, because conflating them makes the whole argument unreachable:
+**Two answers already hold most of this ground, and this one defers to both rather than restating
+them.** m013 is where lead-time bias, length bias and overdiagnosis are worked through as the
+three things that inflate the apparent benefit of a *screening programme*. Oncology's m030 is
+where overdiagnosis is established as a real harm rather than a technicality, where it is
+distinguished from a false positive — a false positive is wrong about the world, an overdiagnosis
+is right about the world and wrong about the consequence — and where the population inference is
+set out in full. Neither of those arguments is re-derived here. Take both as given.
 
-* **Not a false positive.** A false positive is wrong about the world. Overdiagnosis is right
-  about the world and wrong about the consequence.
-* **Not misdiagnosis.** Nobody made a mistake. This is the uncomfortable part and it is the part
-  that makes the problem structural rather than disciplinary.
-* **Not overtreatment**, although it is the main route to it. Overdiagnosis is about the label;
-  overtreatment is about what follows.
+Two distinctions are worth keeping in view because the rest of this answer uses them. It is **not
+misdiagnosis**: nobody made a mistake, which is what makes the problem structural rather than
+disciplinary. And it is **not overtreatment**, although it is the main route to it — overdiagnosis
+is about the label and overtreatment is about what follows it.
 
-## Why it is invisible in the person in front of you
+What is left after m013 and m030 is the version this specialty actually meets, and it is the
+commonest one: the version that arrives with **no programme, no round and no denominator**. That
+is a different problem, and the difference is the subject here.
+
+## Why it is invisible in the person in front of you — and worse than that in a practice
 
 ```
    THE COUNTERFACTUAL YOU CANNOT RUN
@@ -49,7 +55,7 @@ Three things it is not, because conflating them makes the whole argument unreach
    the distinguishing fact is what would have happened instead, and that did not
    happen.
 
-   WHERE THE SIGNATURE DOES APPEAR
+   WHERE THE SIGNATURE DOES APPEAR — AND WHO IS IN A POSITION TO SEE IT
 
    ┌──────────────────────────────────────────────────────────────────────────────┐
    │ incidence of the diagnosis            ▲▲▲▲▲▲▲▲  rising, sometimes steeply    │
@@ -58,15 +64,32 @@ Three things it is not, because conflating them makes the whole argument unreach
    │                                          to do what the diagnosis implies    │
    └──────────────────────────────────────────────────────────────────────────────┘
 
+   m030 runs that inference properly and this answer does not repeat it. The point
+   here is who can run it at all:
+
+     a screening programme    has a defined eligible population, defined rounds,
+                              a denominator, and a comparison somewhere in the
+                              literature. It can be audited for overdiagnosis.
+
+     a general practice       has none of those for a finding that arrived
+                              incidentally. There was no round. There is no
+                              eligible population, because the population is
+                              whoever happened to have a test for another
+                              reason. No denominator, so no rate, so no
+                              signature to detect — not even in principle, at
+                              the scale of one list.
+
    That pattern is a POPULATION observation and it is the only kind available. It
    says a proportion of the new diagnoses are overdiagnoses. It cannot say which
    ones, ever, for anybody.
 ```
 
-Two further supports for the same inference, both *consensus*: the existence of a reservoir of
-indolent disease found incidentally in people who had no symptoms from it, and the fact that
-diagnosis rates for several conditions track the intensity of looking far better than they track
-anything about the population being looked at.
+So the asymmetry is worse than the missing counterfactual. A programme can be held to account for
+its overdiagnosis; opportunistic diagnosis in first-contact care cannot be, by anybody, locally.
+The two supports that do exist are both *consensus* and both external to any practice: a reservoir
+of indolent disease found incidentally in people who had no symptoms from it, and the observation
+that diagnosis rates for several conditions track the intensity of looking far better than they
+track anything about the population being looked at.
 
 ## Where it comes from without a screening programme
 

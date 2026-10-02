@@ -41,6 +41,37 @@ argument, and the arithmetic is short.
 That is the entire shape of the problem. A count that rises with the intensity of looking,
 reported as if it were a property of the place being looked at.
 
+**Two answers already hold the ground this one is standing next to, and it defers to both.** m013
+is where lead-time bias, length bias and overdiagnosis are worked through for a screening
+programme. Oncology's m030 is where overdiagnosis is established as a real harm rather than a
+technicality, where it is separated from a false positive, and where the population inference is
+set out in full — and m030's own device, three rods in one pond that never changed, is the same
+family as the rate levers above. Neither argument is re-derived here.
+
+What is left is the version with no programme behind it, and the cartridge is precise about why
+that is worse:
+
+```
+   REAL SAVE DATA. Emerald's game-stat array holds both halves of the fraction:
+
+     GAME_STAT_STEPS           = index 5    the denominator
+     GAME_STAT_WILD_BATTLES    = index 8    the numerator
+
+   And the Pokédex screen, which is the screen anybody actually reads, shows the
+   SEEN count and the OWN count with NEITHER of them beside it.
+
+     a Trainer running rounds      could divide. Same route, same lead, counted
+                                   steps, two totals — the rate is recoverable.
+
+     a Trainer who just walks      cannot. The encounters arrived while they were
+                                   doing something else, the step count is not on
+                                   the screen they are reading, and the SEEN
+                                   number rises monotonically whatever happens.
+```
+
+A count with no denominator next to it can only be read as news about the world. That is the
+primary-care version of this problem and it is not the one a programme has.
+
 ## The record is append-only, and the only code that clears it does so for the wrong reason
 
 The Pokédex keeps two separate bit arrays — `seen` and `owned`, one bit per national dex number —
@@ -164,8 +195,9 @@ failing of the person who believed it.
 ## What a Gym Leader is listening for
 
 Whether the Trainer can say what doubled — the rate, not the route — and resist the conclusion the
-dex count invites. Then the flag routine: that there is no clearing case, and what the
-three-copy wipe does to the difference between *never* and *contradicted*. Then the retyping, and
+dex count invites, and name the two game stats that would have let them divide. Then the flag
+routine: that there is no clearing case, and what the three-copy wipe does to the difference
+between *never* and *contradicted*. Then the retyping, and
 the observation that no Clefairy changed. Then the Pokérus byte, and specifically the line that
 writes 0x10 back in, because that line is the whole labelling argument in one instruction. Then
 the Fire Stone, and which route it closed. Then the counterweight, offered unprompted. Then the
@@ -201,7 +233,8 @@ rate of 20, the Pokédex keeping separate seen and owned bit arrays with the see
 places, the flag routine having no case that clears a bit and its read wiping all three copies and
 returning zero when they disagree, Clefairy becoming a Fairy-type from the sixth generation and
 Jigglypuff becoming Normal/Fairy with Magnemite gaining Steel in the second, the five chart
-entries that changed with Clefairy's typing, the Pokérus roll sitting in the return-from-battle
+entries that changed with Clefairy's typing, the game-stat array holding a step counter at index 5
+and a wild-battle counter at index 8, the Pokérus roll sitting in the return-from-battle
 routine and requiring a 16-bit draw to land on one of three values, the byte's strain and
 day-counter nibbles, the line that writes 0x10 back when the byte would reach zero, the Effort
 Value routine reading the ever-had test and doubling on it, Vulpix's and Ninetales' level-up
