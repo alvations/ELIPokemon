@@ -129,7 +129,8 @@ Tatsugiri Annihilape Clodsire Farigiraf Dudunsparce Kingambit Great Tusk
 Iron Treads Baxcalibur Gimmighoul Gholdengo Wo-Chien Chien-Pao Ting-Lu Chi-Yu
 Roaring Moon Iron Valiant Koraidon Miraidon Walking Wake Iron Leaves
  Nidoran Nidorina Nidorino Silvally Kricketune Vivillon Silcoon Cascoon
- Crabominable Fletchinder Blacephalon Quilava
+ Crabominable Fletchinder Blacephalon Quilava,
+Parasect, Venomoth, Omastar, Kabutops, Victreebel, Weepinbell, Sandslash
 """.split()
 
 MOVES = """
@@ -164,7 +165,9 @@ Tail Whip, Dragon Claw, Dragon Rush, Dragon Tail, Outrage, Aqua Tail,
 Focus Blast, Zap Cannon, Dynamic Punch, Hurricane, Blizzard, Inferno,
 Cross Chop, Megahorn, Play Rough, Iron Head, Body Press, Knock Off,
 Future Sight, Doom Desire, Reflect, Haze, Clear Smog, Petal Dance,
-King's Shield, Wish, Healing Wish, Memento, Explosion, Fake Out, Thrash
+King's Shield, Wish, Healing Wish, Memento, Explosion, Fake Out, Thrash,
+Drill Peck, Mega Punch, Focus Punch, Hidden Power, Torment, Imprison, Gravity, Sweet
+Scent, Soft-Boiled, Screech, Baneful Bunker
 """
 
 ITEMS = """
@@ -199,7 +202,12 @@ Paralyze Heal, Ice Heal, Awakening, Max Elixir, Ether, Exp. Candy,
 Poffin, Poffins, Pokéblock, Pokéblocks, Sitrus Berry, Lum Berry, Berry Juice,
 Destiny Knot, Everstone, Power Weight, Power Bracer, Macho Brace,
 Power Belt, Power Anklet, Power Lens, Power Band, Smooth Rock, Light Clay,
-Terrain Extender, Lucky Egg
+Terrain Extender, Lucky Egg,
+Safari Ball, Potion, Repel, Super Repel, Max Repel, Lure, Super Lure, Max Lure, Honey,
+Shiny Charm, GS Ball, Clear Bell, Energy Powder, Gold Teeth, Explorer Kit, Mint, Occa
+Berry, Passho Berry, Wacan Berry, Rindo Berry, Yache Berry, Chople Berry, Kebia Berry,
+Shuca Berry, Coba Berry, Payapa Berry, Tanga Berry, Charti Berry, Kasib Berry, Haban
+Berry, Colbur Berry, Babiri Berry, Chilan Berry
 """
 
 ABILITIES = """
@@ -215,7 +223,8 @@ Beast Boost, Grassy Surge, Misty Surge, Electric Surge, Psychic Surge,
 Good as Gold, Quark Drive, Protosynthesis, Supreme Overlord, Unnerve,
 No Guard, Compound Eyes, Victory Star, Hustle, Illusion, Imposter,
 Disguise, Sniper, Super Luck, Magic Bounce, Truant, Slow Start,
-Surge Surfer, Stance Change, Multitype
+Surge Surfer, Stance Change, Multitype,
+Suction Cups, Sticky Hold, Moody, Pickup, Harvest, Gluttony, Pickpocket, Telepathy
 """
 
 CHARACTERS = """
@@ -235,7 +244,8 @@ Nurse Joy, Officer Jenny, Professor Elm, Professor Birch, Professor Rowan,
 Professor Juniper, Professor Sycamore, Professor Kukui, Professor Magnolia,
 Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull,
 Youngster Joey, Youngster, Bug Catcher, Ace Trainer, Cooltrainer,
-Poké Maniac, Super Nerd, Rocket Grunt, Name Rater, Move Deleter, Move Reminder
+Poké Maniac, Super Nerd, Rocket Grunt, Name Rater, Move Deleter, Move Reminder,
+Eusine, Fishing Guru, Warden, Day Care Man
 """
 
 PLACES = """
@@ -252,7 +262,10 @@ Whirl Islands, Mt. Silver, Violet City, Cherrygrove City, New Bark Town,
 Celadon Department Store, Slowpoke Well, Sprout Tower, Bell Tower,
 Cerulean Gym, Pewter Gym, Vermilion Gym, Global Trade Station, Poké Mart,
 Bill's PC, S.S. Anne, Hall of Fame, Pokémon HOME, Battle Factory,
-Battle Palace, Battle Arena, Battle Dome, Battle Pike, Battle Pyramid
+Battle Palace, Battle Arena, Battle Dome, Battle Pike, Battle Pyramid,
+Pal Park, Ilex Forest, Sky Pillar, Distortion World, Secret House, Pewter Museum of
+Science, Pokémon Lab, Dewford Town, Mossdeep City, Lilycove Department Store, Route
+102, Route 118, Route 119, Battle Tree, Pokémon Bank, Nursery
 """
 
 MECHANICS = """
@@ -270,7 +283,10 @@ Marsh Badge, Volcano Badge, Earth Badge, Stone Badge, Knuckle Badge,
 Dynamo Badge, Heat Badge, Balance Badge, Feather Badge, Mind Badge, Rain Badge,
 ID No., Electric Terrain, Grassy Terrain, Misty Terrain, Psychic Terrain,
 Missingno., Regional Form, Battle Format,
-Hyper Training, Original Trainer, Badly Poisoned
+Hyper Training, Original Trainer, Badly Poisoned,
+Team Preview, Origin Forme, Medium Fast, Encounter Slot, Masuda Method, PokéRadar,
+Endless Battle Clause, Individual Value, Stat Experience, DVs, Horde Encounter,
+Pokéathlon, Speed Tie, Poké Transporter
 """
 
 
@@ -317,6 +333,7 @@ AMBIGUOUS = {
     "Immunity", "Trace", "Download", "Filter", "Analytic", "Speed", "Toxic",
     "Blaze", "Torrent", "Swarm", "Defiant", "Competitive", "Justified",
     "Held Item", "Super Effective", "Bill", "Lucy", "Brandon", "Tucker",
+    "Kris",
 }
 for group in NAMED.values():
     group -= AMBIGUOUS
