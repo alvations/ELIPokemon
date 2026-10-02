@@ -1,1 +1,6 @@
 id	slug	category	difficulty	question
+m001	early-warning-scores	nursing	intermediate	Why does a composite score built from simple bedside observations detect deterioration earlier than any single observation?
+m002	handover-and-escalation	nursing	core	Why is clinical handover given in a structured format, and why are escalation criteria written as thresholds rather than left to judgement?
+m003	medicines-administration-system	nursing	intermediate	Why is safe medicines administration described as a system rather than a matter of individual carefulness, and where is that system weakest?
+m004	dressings-and-pressure-damage	nursing	intermediate	What is a dressing actually doing, and why is pressure damage a time-and-pressure problem rather than a cleanliness problem?
+m005	fluid-balance-charting	nursing	advanced	What does a fluid balance chart actually measure, what does it miss, and how does it connect to the circulation?

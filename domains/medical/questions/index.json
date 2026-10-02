@@ -1,4 +1,90 @@
 {
-  "count": 0,
-  "questions": []
+  "count": 5,
+  "questions": [
+    {
+      "id": "m001",
+      "slug": "early-warning-scores",
+      "question": "Why does a composite score built from simple bedside observations detect deterioration earlier than any single observation?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m001-early-warning-scores.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m001-early-warning-scores.md",
+      "tags": [
+        "observations",
+        "early-warning-score",
+        "deterioration",
+        "escalation",
+        "compensation"
+      ]
+    },
+    {
+      "id": "m002",
+      "slug": "handover-and-escalation",
+      "question": "Why is clinical handover given in a structured format, and why are escalation criteria written as thresholds rather than left to judgement?",
+      "category": "nursing",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m002-handover-and-escalation.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m002-handover-and-escalation.md",
+      "tags": [
+        "handover",
+        "sbar",
+        "escalation",
+        "communication",
+        "human-factors"
+      ]
+    },
+    {
+      "id": "m003",
+      "slug": "medicines-administration-system",
+      "question": "Why is safe medicines administration described as a system rather than a matter of individual carefulness, and where is that system weakest?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m003-medicines-administration-system.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m003-medicines-administration-system.md",
+      "tags": [
+        "medicines",
+        "administration",
+        "patient-safety",
+        "human-factors",
+        "double-checking"
+      ]
+    },
+    {
+      "id": "m004",
+      "slug": "dressings-and-pressure-damage",
+      "question": "What is a dressing actually doing, and why is pressure damage a time-and-pressure problem rather than a cleanliness problem?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m004-dressings-and-pressure-damage.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m004-dressings-and-pressure-damage.md",
+      "tags": [
+        "wound-care",
+        "dressings",
+        "moisture-balance",
+        "pressure-ulcers",
+        "repositioning"
+      ]
+    },
+    {
+      "id": "m005",
+      "slug": "fluid-balance-charting",
+      "question": "What does a fluid balance chart actually measure, what does it miss, and how does it connect to the circulation?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m005-fluid-balance-charting.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m005-fluid-balance-charting.md",
+      "tags": [
+        "fluid-balance",
+        "urine-output",
+        "perfusion",
+        "charting",
+        "assessment"
+      ]
+    }
+  ]
 }
