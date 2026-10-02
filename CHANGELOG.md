@@ -10,6 +10,82 @@ Every entry below is traceable to a commit. Score movements are reproducible wit
 
 ---
 
+## [0.4.0] — 2026-10-02
+
+**272 questions, 544 answers**, plus a **second domain** scaffolded under `domains/medical/`.
+
+### Added
+
+**More open weights — questions 233–252** (`038a135`, `fef079a`, `8666255`, `59ed46e`)
+
+Gemma 4, Inkling, DeepSpeed-and-DeepSeek, and the Qwen line from 3.6 to 3.8. Each block was
+written in an isolated checkout and integrated centrally.
+
+**Optimisation — questions 253–272** (`86b040e`, `1842841`, `d5cd5ae`, `5b19496`)
+
+Speculative decoding, decoding strategies and non-autoregressive generation, quantisation, and
+kernels.
+
+**A second domain** (`b6598f0`, `9e82719`, `395817c`) — seven clinical specialties, with the gate
+and the safety framing written before any content, as this repository's own build notes prescribe.
+See `domains/medical/SAFETY.md`.
+
+**Glossary Part V** (`7767d8d`) — 432 distinct entities across the forty new questions, 26 defined
+and 194 listed with links. The closing note states that this is the least thorough part of the
+glossary per entry and why.
+
+### Fixed
+
+**Scorer bug 5 — a plural was a double penalty** (`a0ea301`)
+
+A plural did not match its vocabulary entry, so it scored nothing as a named entity — and then,
+where the singular's last word sits in the generic set, it scored *against* the answer as
+furniture. 51 such mentions across 34 of 272 answers.
+
+Fixed in the matcher and **scoped deliberately**: an optional trailing `s` on multi-word terms and
+proper nouns only. The uncounted plurals included `Cuts`, `Transforms`, `Protects` and
+`Earthquakes` — single-word moves that pluralise into ordinary English verbs — so a blanket rule
+would have traded this under-count for an over-count, the defect already observed when `Cut`
+matched as a move inside a fenced block. Both directions are tested.
+
+### Changed — scorer vocabulary
+
+| Commit | What | Corpus mean |
+| --- | --- | --- |
+| `acb30c8` | Ninth batch, 93 terms. The seventeen type-resist Berries, which carry the whole central device of 235 and scored nothing for fourteen mentions; `Drill Peck`, on which 243's contrast entirely rests; the Repel and Lure families; `Safari Ball` and `Potion` while ten other Ball types and three Potion tiers were already listed; five evolution-line holes of the Nidoran shape | 67.8 → 68.4 |
+
+Five declined on the `Gym Leader` precedent: `Characteristic` (collides with an ordinary English
+word exactly as `Nature` does, and `Nature` is already excluded), `Bait` and `Rock` (argued against
+by the worker who proposed them), `Bag` and `IV Judge`.
+
+### What the writing found that the briefs had wrong
+
+Eight workers wrote these forty questions, and **six of them corrected the brief they were given**.
+Recording this because it is the most useful thing in the release:
+
+* **Inkling is not a base model.** The brief said it was; the reference implementation that
+  shipped on release day documents a chat template and a seven-level effort dial. 238 became
+  "the word *base* is doing two jobs", which is a better question.
+* **MatFormer is not in Gemma 4**, and **attention logit soft-capping is gone** — both verified by
+  grepping the reference library rather than trusting a summary.
+* **The small Gemma mixture is faster than the comparable dense model on a consumer card**, not
+  slower as the brief claimed. The genuine slow result is an offload path, which made 235 a better
+  question about residency rather than FLOPs.
+* **DeepSpeed is no longer Microsoft-governed**, and its version number promises nothing: the
+  release script auto-increments the patch digit after every upload.
+* **FlashInfer's JIT cache key is not per-shape** — it is compile-time traits only, which is the
+  difference between warm-up costing a minute at boot and warm-up never ending.
+* **Flash-Next is not in the Qwen 3.8 repository**, and the widely repeated total for it is an
+  on-disk figure including a prediction module.
+* **Tree verification is not settled practice**, and **linear attention was walked back** by the
+  lab most associated with it.
+
+### Known limitations at this release
+
+Everything at 0.3.0 still applies. Two are added: the medical domain is governed separately and
+more strictly, and scores are not comparable across the plural fix. Both are in
+[DATASHEET.md](DATASHEET.md).
+
 ## [0.3.0] — 2026-09-20
 
 **232 questions, 464 answers.** Adds a sixth arc on open weights, and fixes a scorer bug that had

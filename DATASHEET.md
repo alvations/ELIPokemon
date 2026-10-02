@@ -1,4 +1,4 @@
-# Dataset card — ELIPokémon v0.3.0
+# Dataset card — ELIPokémon v0.4.0
 
 Question 197 of this dataset argues that documentation should tell a reader something that
 would make them **not** use the thing. This file tries to hold itself to that.
@@ -9,12 +9,12 @@ would make them **not** use the thing. This file tries to hold itself to that.
 
 | | |
 | --- | --- |
-| **Version** | v0.3.0 |
-| **Records** | 232 questions · 464 answer files · ~318,000 words |
-| **Format** | Markdown with YAML front matter; generated `dataset/elipokemon.jsonl` (2.2 MB) |
+| **Version** | v0.4.0 |
+| **Records** | 272 questions · 544 answer files · ~415,000 words (machine learning) · a second domain in progress |
+| **Format** | Markdown with YAML front matter; generated `dataset/elipokemon.jsonl` (2.9 MB) |
 | **Fields** | `id`, `slug`, `question`, `category`, `difficulty`, `answer_serious`, `answer_pokemon`, `tags` |
 | **Language** | English |
-| **Difficulty split** | 50 core · 99 intermediate · 83 advanced |
+| **Difficulty split** | 50 core · 114 intermediate · 108 advanced |
 | **Licence** | Content CC BY 4.0 · code MIT |
 | **Built** | 2026-09-03 → 2026-09-20 |
 
@@ -78,12 +78,12 @@ is repeated in the script's docstring.
 
 | Property | How it is enforced | Coverage |
 | --- | --- | --- |
-| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 232/232 |
-| Front matter matches the catalogue exactly | `scripts/validate.py` | 464/464 |
-| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 232/232 |
-| Minimum length (120 words) | `scripts/validate.py` | 464/464 |
+| Both answers exist for every question | `scripts/validate.py`, blocking before every commit | 272/272 |
+| Front matter matches the catalogue exactly | `scripts/validate.py` | 544/544 |
+| Serious answers contain an ASCII diagram | `scripts/validate.py` (fenced block required) | 272/272 |
+| Minimum length (120 words) | `scripts/validate.py` | 544/544 |
 | Pokémon factual accuracy | Manual audit of all 100 Pokémon answers after the first pass; per-batch review thereafter | See caveat below |
-| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 232/232 |
+| Named-entity density | `scripts/pokemon_score.py`, committed to `LEDGER.md` | 272/272 |
 | Technical accuracy | **Author review only. No external review.** | — |
 
 ### The Pokémon accuracy caveat
@@ -108,15 +108,15 @@ commits of `LEDGER.md` *is* the change.
 score = breadth (0-45) + density (0-35) + specificity (0-20)
 ```
 
-Current: mean **62.1**, median **58.5**, minimum **39.9**, maximum **100.0**.
+Current: mean **68.6**, median **65.7**, minimum **39.9**, maximum **100.0**.
 
 **This is a proxy and it is gameable.** It counts named entities; it cannot tell whether they
 earn their place. It was used as a search tool for finding answers worth re-reading, not as an
 optimisation target — and the dataset contains three answers (021, 038, 190) explaining exactly
 what goes wrong when a proxy becomes a goal. Treat a low score as a question.
 
-**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary. Eight gaps were
-found and closed during the build — the seventh being that **the Pokédex had no entry at all**
+**Vocabulary caveat:** the score depends on a hand-maintained entity vocabulary, now about 1,700
+terms. Nine batches of gaps were found and closed during the build — the seventh being that **the Pokédex had no entry at all**
 after 212 questions, and the eighth that none of the sixteen Kanto and Hoenn **Badges** was
 listed although every Gym Leader was; a term the vocabulary does not know scores zero, so
 historical scores are not comparable across those commits. Each vocabulary change was committed
@@ -138,7 +138,20 @@ on its own, with no content change, so the discontinuities are identifiable in
    (001–100) is more thorough per entry than Part II (101–200), where the long tail of
    single-mention species is listed rather than defined. Part III (201–212) is complete.
 7. **No second full-corpus Pokémon audit** has been run over 101–232.
-8. **Scores are not comparable across the wrap fix.** Until v0.3.0 the scorer matched against
+8. **A second domain is in progress and is governed separately.** `domains/medical/` carries its
+   own [SAFETY.md](domains/medical/SAFETY.md), its own blocking validator, and a stricter standard
+   than this one: every answer must attribute each claim to a named document **and state that the
+   document was not retrieved**, because no medical authority is reachable from the build
+   environment. Nothing in that directory has had clinical review. Read its safety file before
+   using any of it, and do not treat the two domains as having the same evidentiary standard —
+   the medical one is stricter about sourcing and weaker about everything a guideline would
+   settle.
+9. **Scores are not comparable across two matcher fixes.** The line-wrap fix at v0.3.0, and a
+   plural-form fix at v0.4.0: until the latter, a plural of a named entity scored nothing as an
+   entity and then scored *against* the answer as generic furniture — 51 such mentions across 34
+   answers. Both changes alter the meaning of every historical score and both are isolated in
+   their own commits.
+10. **Scores are not comparable across the wrap fix.** Until v0.3.0 the scorer matched against
    wrapped text, so a named entity split across a line break scored as a shorter term or as
    nothing — 19 such entities across 17 answers, reaching back to question 102. The matcher now
    joins single newlines first. Every score recorded before that change understates its answer by
@@ -172,7 +185,7 @@ on its own, with no content change, so the discontinuities are identifiable in
             Machine Learning Interview Questions},
   author = {alvations},
   year   = {2026},
-  note   = {Version 0.3.0},
+  note   = {Version 0.4.0},
   url    = {https://github.com/alvations/ELIPokemon}
 }
 ```

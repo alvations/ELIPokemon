@@ -3,7 +3,8 @@
 > **E**xplain **L**ike **I** play **Pokémon** — a dataset of serious machine learning
 > and LLM interview questions, each answered twice.
 
-**232 questions · 464 answers · ~318,000 words.** Every question ships with **two** answers:
+**272 questions · 544 answers · ~415,000 words** in the machine-learning domain, plus a
+second domain under [`domains/medical/`](domains/medical/). Every question ships with **two** answers:
 
 | Style | What it is | Where it lives |
 | --- | --- | --- |
@@ -36,9 +37,20 @@ explanation-quality eval, or just a fun way to revise before an interview.
                           dataset/elipokemon.jsonl
 ```
 
+## A second domain
+
+[`domains/medical/`](domains/medical/) holds a clinical domain with seven specialties — nursing,
+pharmacology, general practice, dermatology, endocrinology, oncology and emergency. **It has its
+own [SAFETY.md](domains/medical/SAFETY.md) and you should read it before anything else there.**
+The short version: revision material for people already training in the field, no clinical
+review, not a decision aid, not for use in an emergency, and every answer attributes its claims
+to a named document while stating plainly that none of those documents was retrieved.
+
+Its record schema matches this domain's, so the two JSONL files concatenate.
+
 ## Contents
 
-The set is built in six arcs.
+The machine-learning set is built in eight arcs.
 
 ### Core ML and LLM — questions 001–100
 
@@ -133,6 +145,28 @@ The mechanism answers reproduce their arithmetic rather than asserting it: the 5
 over 61 layers comes out at 70,272 bytes per token, and the expert arithmetic totals 670.9B
 parameters with 36.5B active — both matching the published figures.
 
+### More open weights — questions 233–252
+
+**Gemma 4** (effective against raw parameter counts, the sliding-window and stability stack, when
+a small mixture stops paying, on-device), **Inkling** (what a base model is, and what the word is
+doing when a lab calls a post-trained checkpoint one), **DeepSpeed and DeepSeek** (ZeRO stages
+with the memory arithmetic, offload, and a name collision with a version number attached to the
+wrong product), and the **Qwen line 3.6 → 3.8** (a generation that never opened, an
+architecturally identical checkpoint scoring very differently, and a capability removed by
+packaging rather than by training).
+
+### Optimisation — questions 253–272
+
+| Questions | Covers |
+| --- | --- |
+| 253–257 | Speculative decoding: the exactness guarantee derived, the drafting families, tree verification as actually deployed, and why the technique collapses at high batch |
+| 258–262 | Diffusion language models, non-autoregressive generation, how the sampling parameters interact, beam search and minimum-Bayes-risk, grammar-constrained decoding |
+| 263–267 | Quantisation: post-training against aware, outlier channels, the shipped formats and group size, KV-cache quantisation, and why perplexity is close to useless for evaluating it |
+| 268–272 | Kernels: the roofline, FlashAttention to FlashInfer, the serving stack, training-side fusion, and telling a real kernel win from a benchmark artifact |
+
+Several of these read their primary sources out of the games' own decompiled source and the
+libraries' own repositories, which is why their arithmetic reconciles to the byte.
+
 **Source discipline is recorded per claim.** `arxiv.org` and `huggingface.co` are blocked from
 the environment this was written in; `raw.githubusercontent.com` is not, so licence files,
 inference configs and two technical-report PDFs were read first-hand and are marked as primary,
@@ -218,7 +252,7 @@ characters, places — is doing more analogy work than one leaning on generic fu
 ("a Trainer", "a Gym", "a battle"). That is measurable, so it is measured.
 
 ```bash
-python3 scripts/pokemon_score.py                # score all 232, rewrite LEDGER.md
+python3 scripts/pokemon_score.py                # score all 272, rewrite LEDGER.md
 python3 scripts/pokemon_score.py --detail 042   # what one answer matched
 python3 scripts/ledger_history.py               # the score trend across git history
 ```
@@ -231,7 +265,7 @@ replays it.
 score = breadth (0-45) + density (0-35) + specificity (0-20)
 ```
 
-Current: **mean 64.2 · median 60.5 · minimum 39.9** across 232 answers.
+Current: **mean 68.6 · median 65.7 · minimum 39.9** across 272 answers.
 
 ### Revising with Claude
 
@@ -288,7 +322,7 @@ what was not, and what it should not be used for. The short version:
   interview answer, not a paper — **verify before citing**.
 * Pokémon facts were audited; 21 errors were found and fixed in the first pass, and further
   corrections are recorded in [CHANGELOG.md](CHANGELOG.md).
-* Questions **201–232 name real products and quote real figures**, dated September 2026. They
+* Questions **201–272 name real products and quote real figures**, dated 2026. They
   will go out of date faster than anything else here; each one ends with a "where this stands"
   note saying which claims are primary, which are coverage, and where the authority lives.
 * `for-agents/` documents the build process, the failures, and a prompt for reconstructing the
