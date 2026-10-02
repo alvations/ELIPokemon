@@ -30,6 +30,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------- vocabularies
 
 SPECIES = """
+Ho-Oh,
 Bulbasaur Ivysaur Venusaur Charmander Charmeleon Charizard Squirtle Wartortle
 Blastoise Caterpie Metapod Butterfree Weedle Beedrill Pidgey Pidgeot Rattata
 Raticate Spearow Fearow Ekans Arbok Pikachu Raichu Sandshrew Nidoking Nidoqueen
@@ -150,6 +151,18 @@ Mr. Mime, Mime Jr., Mr. Rime, Type: Null
 SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
 
 MOVES = """
+Stomp, Mud Sport, Water Sport, Attract, Flame Wheel, Magic Coat, Snatch,
+Refresh, Wish, Dive, Bounce, Shadow Force, Phantom Force,
+Rock Blast, Bullet Seed, Fury Swipes, Icicle Spear, Pin Missile, Comet Punch,
+Double Slap, Arm Thrust, Tail Slap, Scale Shot, Water Spout, Eruption, Mimic,
+Metronome, Sketch, Lock-On, Mind Reader, Brick Break, Sweet Scent, Thrash,
+Petal Dance, Horn Attack,
+Snore,
+Stockpile, Swallow, Spit Up, Rollout, Defense Curl, Defence Curl, Poison Sting,
+Embargo, Magic Room, Wonder Room, Mean Look, Spider Web, Superpower, Reversal,
+Fury Cutter, Magnet Rise, Telekinesis, Smack Down, Ingrain, Aromatherapy,
+Heal Bell, Gastro Acid, Simple Beam, Worry Seed, Entrainment, Role Play,
+Skill Swap, Power Split, Guard Split, Heart Swap, Topsy-Turvy,
 Thunderbolt, Thunder, Thunder Wave, Volt Switch, Quick Attack, Iron Tail, Splash,
 Flamethrower, Fire Blast, Smokescreen, Dragon Rage, Dragon Dance, Dragon Claw,
 Dragon Tail, Outrage, Dragon Pulse, Draco Meteor, Ember, Crunch, Waterfall,
@@ -193,6 +206,14 @@ Attack, Focus Energy, Endure, Vital Throw, Revenge, Roar
 """
 
 ITEMS = """
+Persim Berry, Parlyz Heal, Paralyse Heal, Cheri Berry, Chesto Berry, Rawst Berry,
+Aspear Berry, Toxic Orb, Flame Orb, Lax Incense, Bright Powder,
+Utility Umbrella, Soul Dew, Bicycle, Bike Voucher, Itemfinder, Dowsing Machine,
+Max Repel, Super Repel, Fresh Water, Soda Pop, Lemonade, Vitamin, Protein,
+Carbos, Calcium, Zinc, HP Up, Heavy-Duty Boots,
+Protective Pads, Iron Ball, Terrain Extender, Light Clay, Big Root,
+Shell Bell, Binding Band, Grip Claw, Destiny Knot, Red Card, Eject Button,
+Safety Goggles, Clear Amulet, Covert Cloak, Loaded Dice, Mirror Herb,
 Poké Ball, Great Ball, Ultra Ball, Master Ball, Quick Ball, Dusk Ball,
 Timer Ball, Net Ball, Heal Ball, Luxury Ball, Beast Ball, Super Potion,
 Hyper Potion, Max Potion, Full Restore, Max Revive, Full Heal, Rare Candy,
@@ -236,6 +257,12 @@ Powder, Revival Herb, White Flute, Black Flute, Poké Flute, Dive Ball, Nest Bal
 """
 
 ABILITIES = """
+Shield Dust, Lightning Rod, Storm Drain, Sap Sipper, Motor Drive, Rock Head,
+Damp, Effect Spore, Poison Heal, Truant,
+Rain Dish, Ice Body, Keen Eye, Hyper Cutter, Infiltrator, Unburden, Quick Feet,
+Long Reach, Toxic Debris, Mold Breaker, Scrappy, Inner Focus, Oblivious,
+White Smoke, Full Metal Body, Hustle, Harvest, Cheek Pouch, Ripen,
+Supreme Overlord, Purifying Salt, Good as Gold, Mirror Armor,
 Sturdy, Levitate, Intimidate, Drizzle, Drought, Sand Stream, Snow Warning,
 Swift Swim, Chlorophyll, Sand Rush, Slush Rush, Flash Fire, Water Absorb,
 Volt Absorb, Huge Power, Adaptability, Technician, Skill Link, Serene Grace,
@@ -256,6 +283,8 @@ Nine, Sand Veil, Forecast, Triage, Gale Wings, White Smoke
 """
 
 CHARACTERS = """
+Fan Club Chairman, Koga, Blaine, Giovanni, Sabrina, Erika, Lt. Surge, Misty,
+Brock, Wallace, Juan, Winona, Tate, Liza, Flannery, Roxanne,
 Lanette, Bebe, Amanita, Noland, Spenser, Anabel, Greta, Tucker, Lucy, Brandon,
 Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni, Falkner,
 Bugsy, Whitney, Morty, Chuck, Jasmine, Pryce, Clair, Roxanne, Brawly, Wattson,
@@ -277,6 +306,9 @@ Eusine, Fishing Guru, Warden, Day Care Man
 """
 
 PLACES = """
+Diglett's Cave, Petalburg Woods, Shoal Cave, New Mauville, Route 2, Route 11,
+Bike Shop, Pokémon Fan Club, Silph Co., Mauville City, Viridian Gym, Vermilion City,
+Seafoam Islands, Cerulean Cave, Shoal Cave, Slateport City, Rustboro City,
 Pewter City, Cerulean City, Vermilion City, Celadon City, Fuchsia City,
 Saffron City, Cinnabar Island, Viridian City, Pallet Town, Lavender Town,
 Indigo Plateau, Victory Road, Mt. Moon, Rock Tunnel, Safari Zone, Silph Co.,
@@ -298,6 +330,11 @@ Fallarbor Town, Verdanturf Town
 """
 
 MECHANICS = """
+Stat Experience, Dynamo Badge, Thunder Badge, Volcano Badge, Rising Badge,
+Mine Badge, Hyper Training, Non-Volatile Status, Volatile Status,
+Hidden Ability, Personality Value, Base Stat Total, Encounter Table,
+Critical Capture, Catch Rate, Priority Bracket, Stat Stage, Accuracy Check,
+Weather Timer, Terrain Timer, Effort Value,
 Flat Rules, VGC, Regulation G, Effort Values, EVs, IVs, Individual Values,
 Base Stat Total, Type Chart, Super Effective, STAB, Critical Hit, Shiny,
 Hidden Ability, Mega Evolution, Terastallize, Dynamax, Z-Move, Speed Tier,
