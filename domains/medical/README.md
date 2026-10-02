@@ -72,6 +72,16 @@ additions, and the validator enforces the first two.
 * **The Pokémon answer explains mechanism and stops at outcome.** See
   [SAFETY.md](SAFETY.md#where-the-pokémon-framing-stops) for the list of places the
   metaphor drops entirely. Whimsy about a mechanism is useful; whimsy about dying is not.
+* **Every answer carries a `## Sources` section** naming the documents that would settle
+  its claims, with the issuing body named, headed by a verbatim statement that none of
+  them was retrieved. **No quoted source text, no DOIs, no author-year citations, no
+  guideline reference codes** — the validator fails the build on all four patterns. No
+  medical authority is reachable from the build environment, and the only honest response
+  is to say so in every answer. See
+  [SAFETY.md](SAFETY.md#sourcing-and-why-there-are-no-quotations).
+* **Each load-bearing clinical claim is marked inline** with what it rests on: consensus,
+  country-dependent, or mechanism rather than guideline. A claim that could not be
+  attributed to a nameable document was cut, not softened.
 * **Every answer is dated**, in a `## Where this stands` line, because guidance moves.
 
 ## Status
