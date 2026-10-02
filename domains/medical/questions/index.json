@@ -1,5 +1,5 @@
 {
-  "count": 75,
+  "count": 80,
   "questions": [
     {
       "id": "m001",
@@ -1274,6 +1274,91 @@
         "ppe",
         "isolation",
         "standard-precautions"
+      ]
+    },
+    {
+      "id": "m081",
+      "slug": "referral-thresholds-and-gatekeeping",
+      "question": "Why is a referral decision a threshold rather than a judgement, and what is a gatekeeper actually optimising?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m081-referral-thresholds-and-gatekeeping.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m081-referral-thresholds-and-gatekeeping.md",
+      "tags": [
+        "referral",
+        "decision-threshold",
+        "gatekeeping",
+        "case-mix",
+        "capacity"
+      ]
+    },
+    {
+      "id": "m082",
+      "slug": "access-and-demand",
+      "question": "Why does a system that is easy to enter behave differently from one that is hard to enter, and who does each one filter out?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m082-access-and-demand.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m082-access-and-demand.md",
+      "tags": [
+        "access",
+        "demand",
+        "triage",
+        "capacity",
+        "queueing"
+      ]
+    },
+    {
+      "id": "m083",
+      "slug": "shared-decision-making",
+      "question": "Why does a preference-sensitive decision have no single right answer, and what does that demand of the consultation?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m083-shared-decision-making.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m083-shared-decision-making.md",
+      "tags": [
+        "shared-decision-making",
+        "preference-sensitive",
+        "risk-communication",
+        "equipoise",
+        "decision-aids"
+      ]
+    },
+    {
+      "id": "m084",
+      "slug": "overdiagnosis-in-primary-care",
+      "question": "What is overdiagnosis, why can it never be seen in an individual, and what makes primary care generate it without any screening programme?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m084-overdiagnosis-in-primary-care.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m084-overdiagnosis-in-primary-care.md",
+      "tags": [
+        "overdiagnosis",
+        "incidental-findings",
+        "labelling",
+        "cascade",
+        "diagnostic-thresholds"
+      ]
+    },
+    {
+      "id": "m085",
+      "slug": "the-prevention-paradox",
+      "question": "Why can an intervention prevent many cases across a population while offering almost no individual in it a benefit they could notice?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m085-the-prevention-paradox.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m085-the-prevention-paradox.md",
+      "tags": [
+        "prevention",
+        "population-strategy",
+        "high-risk-strategy",
+        "attributable-risk",
+        "public-health"
       ]
     }
   ]
