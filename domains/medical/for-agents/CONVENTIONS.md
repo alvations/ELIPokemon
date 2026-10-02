@@ -109,7 +109,7 @@ specialty covers, run `python3 scripts/medical/coverage.py <specialty>` and read
 | What is overdiagnosis, why can it never be seen in an individual, and what makes primary care generate it without any screening programme? | **`GetSetPokedexFlag` has no case that clears a bit**, and its three-copy integrity wipe returns 0 — labelling that outlives what it labelled. **Pokérus**'s `if (pokerus == 0) pokerus = 0x10;` forces a permanent marker, and `MonGainEVs` doubles on `CheckPartyHasHadPokerus`, the *ever-had* query. The Gen VI Fairy retyping as a definitional change with five instant downstream consequences | m084 |
 | Why can an intervention prevent many cases across a population while offering almost no individual in it a benefit they could notice? | The bike's 80/100 as the population measure against abolishing the two rarest slots: ten-fold for nothing nameable, against 1.11 points per step for everyone. **Both 1 per cent slots are Geodude, and Geodude is not rare** — it holds 10 per cent of the table through two 4 per cent slots, so an intervention aimed at the tail removes a fifth of one species and leaves every Makuhita, Zubat and Abra untouched. Sandstorm's maxHP/16 as Leftovers with the sign reversed, set by one Sand Stream for everybody present | m085 |
 
-### Dermatology — m016–m020, m051–m055
+### Dermatology — m016–m020, m051–m055, m086–m090
 
 | The question, from `questions.tsv` | Device | Pair |
 | --- | --- | --- |
@@ -123,6 +123,11 @@ specialty covers, run `python3 scripts/medical/coverage.py <specialty>` and read
 | What are the mechanisms of acne, and why does the order in which treatments are added follow from them? | Kanto's badge-gated field moves as a dependency graph, not a difficulty curve: the boulder needs Strength, not Hyper Beam's 150 base power | m053 |
 | How are drug eruptions recognised as patterns, and which few of them are emergencies? | Poisoned against Badly Poisoned under one PSN graphic | m054 |
 | Why does the vascular assessment come before the dressing in a chronic leg ulcer, and what makes compression the treatment rather than the wound covering? | Surf doubled on Charizard and healing Lapras a quarter: one act, two signs, invisible on the sprite. The game records an opponent's Ability only when it fires | m055 |
+| Why do skin infections and infestations that look alike need different treatments, and what is the skin scraping or swab actually for? | **Silcoon and Cascoon**: identical in every base stat, ability, typing and effort yield, differing in body colour and **one point of experience yield, 71 against 72** — and the fork is `(personality >> 16) % 10 <= 4`, fixed at creation. Two things that look the same, told apart only by a measurement nobody takes by eye | m086 |
+| Why are the nail plate and the hair shaft records of events that happened months earlier, and what does that change about the history? | **The six growth-rate curves** as records of elapsed time, with `Erratic` and `Fluctuating` changing shape mid-range; and a **Rare Candy** *writing* `gExperienceTables[growthRate][level + 1]` rather than adding to it, so the readout moves and the record of how it got there is destroyed | m087 |
+| Why is photoageing a function of cumulative ultraviolet dose, and why is the number printed on a sunscreen not the protection a person gets? | **Effort values**: `hpEV / 4` in `CalculateMonStats`, capped at 510 total and 255 per stat — with the cap named in the answer as the point where the analogy breaks, because ultraviolet dose does not cap. The honest limit is stated inside the scored body rather than quarantined in the plain-prose section | m088 |
+| Why does the level at which the skin splits determine almost everything that follows in a blistering disease? | **The third generation keeps "protected" in five separate structures** — `status1`, `status2`, `gStatuses3`, the side statuses with their timers, and the field weather — and which one a state lives in decides what reads it, what clears it, and what survives a switch. Sampling from inside the blister is `gBattleMons[i].status2` returning zero while the answer sits in `gSideStatuses[side]`: **a confident zero from the wrong structure is worse than no result** | m089 |
+| Why is a weal that comes and goes a different problem from a swelling that does not, and what follows from that for treatment? | **`Cmd_setsafeguard` fails rather than refreshing its own timer**, and Safeguard's check sits in the script while Shield Dust's sits behind `!primary` — so one blocks Will-O-Wisp and the other does not, and the only difference is where the check is written | m090 |
 
 ### Endocrinology — m021–m025
 
@@ -139,7 +144,7 @@ specialty covers, run `python3 scripts/medical/coverage.py <specialty>` and read
 | Why do the tests for cortisol excess have the shape they do, and why is imaging the wrong first step? | `Intimidate` against `Clear Body`; `Hyper Cutter` as the stat-specific block | m058 |
 | Every other endocrine axis holds a set point. Why is the reproductive axis a cyclical controller instead, and what does that change about reading its tests? | The `Protect` consecutive-use counter: 1, 1/2, 1/4, 1/8 in Gen III, and **it resets to zero whenever the last resulting move was not one of the family** | m060 |
 
-### Oncology — m026–m030
+### Oncology — m026–m030, m061–m065, m096–m100
 
 | The question, from `questions.tsv` | Device | Pair |
 | --- | --- | --- |
@@ -153,8 +158,13 @@ specialty covers, run `python3 scripts/medical/coverage.py <specialty>` and read
 | What does a surgical margin actually mean, and in what sense is a clear margin a probability statement rather than a guarantee? | `GetScaledHPFraction(hp, maxHP, 48)` — the Flail table uses literally the same 48 as the health bar | m063 |
 | What is a tumour marker actually measuring, and why are almost none of them useful as screening tests even where they are useful for monitoring? | **Three separate routines in one game refusing to report zero**: the bar's forced 1, Super Fang's floor, and `Cmd_scaledamagebyhealthratio`'s. Flail and Water Spout as opposite functions of one quantity | m064 |
 | What does randomisation buy in an oncology trial that no amount of analysis of a registry can buy, and where is a registry the better instrument? | The allocated object is a **move**, the confounder is the player's choice of when to use it, and the registry is the battle log — so nothing stands in for a person | m065 |
+| Why does a targeted therapy that is working stop working, and what does the mechanism of escape tell you about what to do next? | **`Color Change`'s preconditions**, of which `TARGET_TURN_DAMAGED` is load-bearing: the type change fires only when the hit did damage, and `SET_BATTLER_TYPE` overwrites both slots. The capacity is in Kecleon's species table before the battle. **`Castform`'s `CastformDataTypeChange`** is the reversible counterpart, and the answer says plainly that no mechanic models an irreversible lineage change | m096 |
+| In what sense is a single tumour biopsy a sample of a population under selection, and what follows for how a biomarker result is interpreted? | **`gSpeciesInfo[species]` against the `Personality Value`** — what every member shares by ancestry against what this one has. And **`TryGenerateWildMon`'s ordering**: the slot and level are drawn, *then* the filters delete the draw, so the filter changes no individual and reshapes the composition, and Keen Eye's `!(Random() % 2)` makes it partial, enriching rather than purifying | m097 |
+| What is a cancer multidisciplinary meeting actually for, and what failure modes is it designed to prevent? | **`gTrainers[].aiFlags` as a committee**: scores initialised to one hundred, `CheckMoveLimitations` striking options off before any script runs, bit position as the agenda, `Random() % numOfBestMoves` on a tie — and 640 of 855 entries run one member. **`Helping Hand`** is the contribution with no value outside the forum: priority five, power zero, and it fails without a present partner | m098 |
+| Why does a crude ordinal performance status scale predict tolerance of systemic therapy better than more precise measurements, and where does it mislead? | **`Cmd_hiddenpowercalc`** reading twelve of thirty IV bits, with all-thirty-one collapsing to one answer and `(40*0)/63 + 30` as the floor — a crude index computed from precise inputs. And **`F_DYNAMIC_TYPE_IGNORE_PHYSICALITY`**: the same reading honoured for one purpose and overridden for another, with the override commented in the source | m099 |
+| Why are a biomarker test and the drug it selects for treated as one object rather than two, and what goes wrong when they are separated? | **Species-gated hold effects** — six consecutive lines of `CalculateBaseDamage` where the identity test and the effect are one `if` — as a companion diagnostic, against **`sHoldEffectToType`**'s seventeen rows, where Charcoal's parameter raises the stat only for a matching type: a weight, not a gate. Plus **`GetGenderFromSpeciesAndPersonality`**, where one byte reads male for Treecko and female for Kecleon, and for Chansey and Beldum the comparison is never performed at all | m100 |
 
-### Emergency — m031–m035
+### Emergency — m031–m035, m066–m070, m101–m105
 
 | The question, from `questions.tsv` | Device | Pair |
 | --- | --- | --- |
@@ -168,6 +178,11 @@ specialty covers, run `python3 scripts/medical/coverage.py <specialty>` and read
 | Why does the mechanism of injury change what is looked for in trauma, when the examination itself is the same either way? | `Cmd_trysetfutureattack` storing the whole consequence at the moment of use; the four semi-invulnerable `sDMG_MULTIPLIER` doublings as state at the instant of transfer; and the explicit `setbyte sDMG_MULTIPLIER, 1` on the no-bonus branch as anchoring implemented in code | m068 |
 | Why is the management of most poisonings supportive rather than antidotal, and what has to be true before a specific antidote is worth reaching for? | Forty-one effect scripts reaching one shared pipeline through forty-five jumps, with five labelled entry points, against single-purpose items that are six bytes with one bit | m069 |
 | Why is the handover from pre-hospital to hospital the point at which information loss costs most, and what is it that actually gets lost? | `SwitchInClearSetData`: what is deleted against what survives (`status1`, HP, PP); Baton Pass's hand-written whitelist, which does **not** include the history; `DEFAULT_STAT_STAGE` as both the never-set and the cleared value — the pertinent-negative problem; and `truantSwitchInHack` as what a field list looks like after someone discovers a loss | m070 |
+| Why is the workup for chest pain ordered by danger rather than by likelihood, when a dozen unrelated mechanisms produce the same complaint? | **`BattleScript_ButItFailed`**: 95 jumps from 55 distinct labels into one five-instruction label, one bit, and `MOVE_RESULT_NO_EFFECT` as a composite that erases three unrelated causes — five miss strings against one failure string. One presenting complaint, a dozen mechanisms, and a readout that cannot tell them apart | m101 |
+| Why does the differential for breathlessness split by system rather than by severity, and what do the first few observations actually buy? | **Nine end-of-turn HP sinks held in five stores**, with one purpose-built jump instruction per store, while `UpdateStatusIconInHealthbox` reads `MON_DATA_STATUS` only and draws five graphics — so four of the nine are invisible on screen. Leftovers and Sandstorm share maxHP/16 and cancel | m102 |
+| Why is immobilising a fracture treatment in its own right rather than packaging for transport? | **Prevention as refusal at the point of entry**: Safeguard (effect bytes ≤ 7, secondary only, no cover against an ability-sourced status) and Shield Dust (≤ 9, never the damage), ten hand-written check sites, and `BattleScript_SafeguardProtected` as the **only** evidence it ever worked | m103 |
+| Why is imaging a test with a harm of its own, and what is a clinical decision rule actually for? | **`EFFECT_RECOIL` billing a fraction of damage dealt against `EFFECT_RECOIL_IF_MISS` billing on a miss**, with `MOVE_RESULT_DOESNT_AFFECT_FOE` as the one free failure — and **`Rock Head` waiving the cost of success and not the cost of failure**, which is the whole argument about a test that has its own harm | m104 |
+| Why is a presentation that looks social rather than medical still a clinical problem, and why is dismissing it a diagnostic error? | **Spikes in `gSideStatuses` with no screen indicator at all**, while `STRINGID_PKMNHURTBYSPIKES` names the entrant on every entry. m036's device doing a second job: the cause is stored where nothing displays it and the effect is attributed to whoever walked in | m105 |
 
 ## Part III — Devices that are not available, and why
 
@@ -209,6 +224,20 @@ Not a style preference. These come out of `../SAFETY.md`, which you have read tw
 - **Breeding mechanics for the reproductive axis.** Day Care, egg groups and Destiny Knot are the
   obvious mapping and would have scored well. m060 keeps the analogy entirely on the *controller*
   — rhythms, thresholds, sign reversals — and says so out loud, which makes the omission legible.
+- **Burns.** Every mapping either put the injury on a creature, or made the in-game `Burn` status
+  stand for a thermal burn — which both puts a Pokémon in the patient's place and makes the
+  condition itself the joke. And depth assessment rests substantially on sensation, which is pain
+  assessment, which is set aside. The nearest clean device (a move's `target` field against its
+  `power`) does not carry the second half of the clinical point, that depth declares late.
+  Declined.
+- **Disposition.** The natural mapping is party-against-box, which is the boxed-Pokémon-as-queued-
+  patients shape above. Every alternative is m070's handover device doing a second job it does not
+  fit.
+- **The structured assessment of someone who will not respond.** The patient would have to be an
+  asleep or fainted Pokémon, and the device — an ordered chain where each step gates the next — is
+  already m031, m032 and m067. It would be the fourth re-derivation of one idea in one specialty.
+- **Complexity against severity.** Every mapping needs a Pokémon to *be* the complex patient. Same
+  shape as frailty, and m047 already holds the composition argument.
 - **Any mechanic whose humour depends on the condition.** The Pokémon half is a teaching register,
   not a comic one. Check your jokes against the question "would I say this in front of someone who
   has it".
@@ -231,6 +260,58 @@ disassembly; do not trust this list either.
 | Struggle's recoil is a fixed fraction | Differs by generation: fraction of damage dealt in Gen II–III, fraction of max HP from Gen IV. Quote no fraction |
 | The OHKO clause is in the game | **A Smogon community ruleset**, not game code. If your argument depends on it, say in the body that it is a written community rule |
 
+| `Encore` lasts 2–6 turns | **3–6.** `Cmd_trysetencore` sets `encoreTimer = (Random() & 3) + 3` |
+| `Encore` refuses two moves | **Three** — Struggle, Encore and Mirror Move — plus no-PP-in-slot and already-encored |
+| `Rollout` doubles from its first hit | **It does not.** `for (i = 1; i < (5 - rolloutTimer); i++)` gives 30/60/120/240/480, doubled again by the `STATUS2_DEFENSE_CURL` bit |
+| `Rest` fails only at full HP | **Four ways.** `jumpifcantmakeasleep` sits in front of `trysetrest` and checks `UproarWakeUpCheck`, Insomnia and Vital Spirit. Its counter is an *assignment* of three turns, which clears poison, burn, freeze and paralysis in the same instruction |
+| Five abilities are gated on the contact flag in Gen III | **Six.** Cute Charm is the one people miss, beside Rough Skin, Poison Point, Static, Flame Body and Effect Spore |
+| There is a powder flag in the Advance data | **There is not.** Spore, Sleep Powder and Stun Spore share only Grass type and Magic Coat affinity. Powder immunity and Safety Goggles are later additions |
+| `Thunder` hits a Fly user because rain makes it always hit | **No.** `AccuracyCalcHelper` returns a miss on `STATUS3_ON_AIR` *before* the rain clause is reached. It works because `BattleScript_EffectThunder` sets `HITMARKER_IGNORE_ON_AIR` itself, unconditionally, with no damage doubling — unlike Gust and Twister |
+| `PERCENT_FEMALE(50)` is 128 | **127.** The macro is `min(254, ((percent * 255) / 100))`, so 12.5 per cent is 31, not 32 |
+| `Rock Head` waives Hi Jump Kick's crash damage | **It does not.** `ABILITY_ROCK_HEAD` appears only in `BattleScript_MoveEffectRecoil`; the crash branch has no such jump. Rock Head waives the cost of success, not the cost of failure |
+| `Shield Dust` blocks `Will-O-Wisp` | **It does not.** The Shield Dust clause requires `!primary`, and Will-O-Wisp applies the burn via `seteffectprimary`. Safeguard *does* block it, because that script checks the side status itself — two protections, one works, and the only difference is where the check is written |
+| `Safeguard` blocks any status | **Not an ability-sourced one.** The check carries `!(gHitMarker & HITMARKER_STATUS_ABILITY_EFFECT)`, so Effect Spore, Poison Point and Flame Body get through |
+| `Mist` and `Clear Body` block every stat reduction | **Both exempt a `certain` reduction and Curse by name** |
+| A Rare Candy adds experience | **It writes** `gExperienceTables[growthRate][level + 1]` into the experience field, discarding surplus progress |
+| `Rapid Spin` clears the hazards | **Exactly one thing per use**, in a fixed order: trapping, then Leech Seed, then Spikes |
+| The Repel threshold reads your lead | **The first party member with HP that is not an egg** — and it falls through to cancelling every encounter when there is none. `IsAbilityAllowingEncounter`, in the same file, *does* read slot 0 only |
+| Gen III land encounters use ten slots at x/256 | **That is Generation I.** Gen III uses **twelve** slots at 20/20/10/10/10/10/5/5/4/4/1/1 per cent, in `src/data/wild_encounters.json`. Do not carry one across |
+| Tauros learns Double-Edge | **Not by level-up.** Onix 57, Golem 62, Chansey 57, Marowak 61 all do |
+| `Quick Claw` rolls `Random() % 100` | `gRandomTurnNumber < (0xFFFF * param)/100`, and it sets Speed to `UINT_MAX` — so it beats any Speed and no priority bracket |
+| Most moves use `EFFECT_HIT` | **24 of 355.** The shared *script* pipeline is the real story: 41 effect scripts reaching one label through 45 jumps |
+| The Safari Zone counter is 500 | **502 in Generation I**, 500 in Emerald. The gate worker says 500 and the auto-walk in spends two |
+
 And the general rule behind the table: **state the generation, or do not state the number.** An
 unqualified mechanical figure is the single most common defect in drafts, and the one a reader is
 least able to catch.
+
+
+## Part V — writing against the metric, and when that is correct
+
+Three patterns recur in hand-backs and all three are the right call. They are here so a writer can
+make them without first inventing the argument.
+
+**Write the absence of a mapping rather than inventing one — at section scale, not only at answer
+scale.** One writer did this three times in five answers: *"here the game has nothing, and saying
+so is more useful than inventing something"* for pre-analytic degradation (a held item is in the
+slot or it is not; there is no degraded-item state); that nothing in Pokémon models an observer
+disagreeing with a subject, which is the largest gap between a computed index and an assigned one;
+and that no mechanic models an irreversible lineage change. Each cost density. Each is better than
+the forced mapping.
+
+**Put the analogy's honest limit where the device is used, not in the unscored section.** A writer
+kept *"effort values cap at 510 total and 255 per stat — ultraviolet dose does **not** cap; the
+analogy breaks here"* inside the scored body, on the grounds that a limit stated where the device
+is used is read by someone using the device and one quarantined at the end is not. It cost a
+little density and was right.
+
+**The mandated plain-prose sections are free, and a writer who thinks otherwise writes them short
+for no reason.** Measured across one wave: those sections run **28 to 36 per cent** of a Pokémon
+half's text, all of it excluded from scoring, and the answer carrying the fullest one still scored
+87.0. There is no tension between the metric and writing them properly. Write them at length.
+
+**And one thing to know about the correspondence requirement.** It is a quality instrument, not a
+formatting one. A writer whose first drafts did not correspond found that in three of five cases
+the reason was that the Pokémon device had surfaced content the serious half had folded away — so
+restoring correspondence meant adding load-bearing clinical content to the rigorous half, not
+padding. Enforcing it found three real gaps.
