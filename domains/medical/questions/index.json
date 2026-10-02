@@ -1,5 +1,5 @@
 {
-  "count": 20,
+  "count": 25,
   "questions": [
     {
       "id": "m001",
@@ -339,6 +339,91 @@
         "counter-regulation",
         "osmolality",
         "potassium"
+      ]
+    },
+    {
+      "id": "m026",
+      "slug": "staging-against-grading",
+      "question": "Staging and grading are two different axes. What does each describe, why are both needed, and in what sense is a staging system a communication protocol rather than a biological description?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m026-staging-against-grading.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m026-staging-against-grading.md",
+      "tags": [
+        "staging",
+        "grading",
+        "classification",
+        "communication",
+        "orthogonality"
+      ]
+    },
+    {
+      "id": "m027",
+      "slug": "how-systemic-therapies-differ",
+      "question": "Cytotoxic chemotherapy, targeted therapy, endocrine therapy and immunotherapy work by different mechanisms. What are those mechanisms, and how does each one's toxicity profile follow from it rather than being arbitrary?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m027-how-systemic-therapies-differ.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m027-how-systemic-therapies-differ.md",
+      "tags": [
+        "chemotherapy",
+        "targeted-therapy",
+        "endocrine-therapy",
+        "immunotherapy",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "m028",
+      "slug": "why-toxicity-is-predictable",
+      "question": "Why do cytotoxic agents damage the particular tissues they damage, why is the timing of that damage predictable rather than surprising, and why do immunotherapy toxicities look like autoimmunity?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m028-why-toxicity-is-predictable.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m028-why-toxicity-is-predictable.md",
+      "tags": [
+        "toxicity",
+        "myelosuppression",
+        "mucositis",
+        "immune-related",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "m029",
+      "slug": "response-assessment-and-surrogates",
+      "question": "Why is deciding whether a cancer treatment is working harder than it sounds, what does a structured response criterion actually buy, and why is a better scan not the same thing as a longer life?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m029-response-assessment-and-surrogates.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m029-response-assessment-and-surrogates.md",
+      "tags": [
+        "response-assessment",
+        "surrogate-endpoints",
+        "imaging",
+        "measurement",
+        "endpoints"
+      ]
+    },
+    {
+      "id": "m030",
+      "slug": "screening-and-overdiagnosis",
+      "question": "Why is finding more cancer not automatically better? Explain lead-time bias, length bias and overdiagnosis, and why overdiagnosis is a real harm rather than a technicality.",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m030-screening-and-overdiagnosis.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m030-screening-and-overdiagnosis.md",
+      "tags": [
+        "screening",
+        "overdiagnosis",
+        "lead-time",
+        "length-bias",
+        "epidemiology"
       ]
     }
   ]
