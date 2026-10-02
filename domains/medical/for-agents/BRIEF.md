@@ -179,6 +179,52 @@ filename with your specialty and ID block** — `endo-m056-m060-reflow.py`, not 
 smoke-test any reflow or rewrite helper as a no-op against an existing answer before pointing it
 at your own.
 
+## Before you are given a territory list
+
+**The topic list in your wave brief may contain topics that are already written.** This has
+happened: a nursing brief offered eight topics of which three existed already, because whoever
+wrote it summarised existing coverage from `CONVENTIONS.md` Part II, which is indexed by *device*
+and not by *question*. m004 absorbs two of those eight topics and Part II renders it as "Something
+that extends a state rather than causing it — Damp Rock".
+
+So before you draft, run
+
+```
+python3 scripts/medical/coverage.py --next <your-specialty>
+```
+
+and read the **question text** of every pair your specialty already holds. If an offered topic is
+already written, **say so in your hand-back and pick something else** — do not write a near
+duplicate to fill the slot, and do not assume a list of five means five are available. The writer
+who caught this also pointed out that an eight-for-five list with three dead entries leaves no
+slack for a topic you need to decline on taste grounds, which is a real risk and not a theoretical
+one.
+
+## Two things about headings the section table does not say
+
+**The examiner section's heading text differs between the two halves.** In nursing the serious
+half says `## What an examiner digs into next` and the Pokémon half says `## What Nurse Joy is
+listening for`, ten for ten. Read your specialty's pairs and match them; a writer using one
+heading in both halves would be the odd one out.
+
+**"The two halves correspond section for section" means the mandated trailing sections, not the
+body.** Taken literally no pair in the corpus satisfies it: nursing runs 2↔5, 3↔5, 5↔3, 3↔3. What
+is required is that the mandated trailing sections correspond one-to-one and in the same order,
+and that the body sections correspond in *content* so a reader can set the halves side by side.
+They need not be equal in number, and in practice the Pokémon half usually has more.
+
+## Your worktree
+
+Create it yourself and work by absolute path:
+
+```
+git worktree add -b <specialty>-<ids> .claude/worktrees/<specialty>-<ids> HEAD
+```
+
+**Do not use `EnterWorktree`.** It refuses from a pinned working directory, and its default base
+is the remote default branch rather than `HEAD`, so in a wave where those differ you would
+silently branch from a stale base.
+
 ## Do not edit
 
 `scripts/` anything, `../SAFETY.md`, `../README.md`, `CONVENTIONS.md`, the root `README.md`,

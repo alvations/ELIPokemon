@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**70 answers · mean 88.4 · median 89.0 · min 62.6 · max 100.0**
+**75 answers · mean 88.6 · median 88.7 · min 62.6 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 84.1 | excellent | m005 | nursing | fluid-balance-charting | 20 | 27 | 54 |
 | 84.2 | excellent | m046 | general-practice | chronic-disease-review | 23 | 41 | 79 |
 | 84.3 | excellent | m014 | general-practice | polypharmacy-and-deprescribing | 20 | 31 | 53 |
+| 84.4 | excellent | m073 | nursing | documentation-and-pertinent-negatives | 18 | 29 | 30 |
 | 85.0 | excellent | m065 | oncology | randomisation-against-registries | 23 | 56 | 61 |
 | 85.0 | excellent | m069 | emergency | supportive-care-and-the-antidote-exception | 34 | 44 | 28 |
 | 85.1 | excellent | m028 | oncology | why-toxicity-is-predictable | 21 | 51 | 45 |
@@ -42,9 +43,11 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 85.4 | excellent | m001 | nursing | early-warning-scores | 24 | 35 | 64 |
 | 85.8 | excellent | m052 | dermatology | psoriasis-as-systemic-disease | 25 | 38 | 29 |
 | 86.0 | excellent | m062 | oncology | radiotherapy-and-fractionation | 24 | 67 | 58 |
+| 86.1 | excellent | m074 | nursing | shift-work-fatigue-and-handover | 20 | 39 | 34 |
 | 86.3 | excellent | m023 | endocrinology | glycation-marker-and-continuous-monitoring | 35 | 47 | 50 |
 | 86.3 | excellent | m063 | oncology | what-a-surgical-margin-means | 20 | 57 | 41 |
 | 86.7 | excellent | m020 | dermatology | dermoscopy-in-principle | 22 | 35 | 42 |
+| 87.1 | excellent | m075 | nursing | isolation-precautions-by-route | 28 | 41 | 44 |
 | 88.1 | excellent | m061 | oncology | how-a-cancer-spreads | 22 | 52 | 20 |
 | 88.2 | excellent | m055 | dermatology | leg-ulcers-and-vascular-assessment | 32 | 53 | 44 |
 | 88.3 | excellent | m030 | oncology | screening-and-overdiagnosis | 26 | 59 | 15 |
@@ -84,3 +87,5 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m031 | emergency | primary-survey-ordering | 31 | 65 | 73 |
 | 100.0 | excellent | m033 | emergency | what-triage-optimises | 24 | 58 | 43 |
 | 100.0 | excellent | m067 | emergency | what-speech-proves-about-the-airway | 48 | 58 | 47 |
+| 100.0 | excellent | m071 | nursing | wound-healing-phases | 28 | 48 | 35 |
+| 100.0 | excellent | m072 | nursing | bed-rest-and-deconditioning | 33 | 58 | 30 |

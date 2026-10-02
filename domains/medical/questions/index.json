@@ -1,5 +1,5 @@
 {
-  "count": 70,
+  "count": 75,
   "questions": [
     {
       "id": "m001",
@@ -1189,6 +1189,91 @@
         "pertinent-negatives",
         "human-factors",
         "revision"
+      ]
+    },
+    {
+      "id": "m071",
+      "slug": "wound-healing-phases",
+      "question": "Why is wound healing described as a sequence of overlapping phases, and what does it mean to say that a wound is stuck?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m071-wound-healing-phases.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m071-wound-healing-phases.md",
+      "tags": [
+        "wound-healing",
+        "inflammation",
+        "debridement",
+        "assessment",
+        "chronic-wounds"
+      ]
+    },
+    {
+      "id": "m072",
+      "slug": "bed-rest-and-deconditioning",
+      "question": "Why is bed rest an intervention with its own harms, and why is deconditioning quicker to produce than to reverse?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m072-bed-rest-and-deconditioning.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m072-bed-rest-and-deconditioning.md",
+      "tags": [
+        "mobility",
+        "deconditioning",
+        "bed-rest",
+        "immobility",
+        "early-mobilisation"
+      ]
+    },
+    {
+      "id": "m073",
+      "slug": "documentation-and-pertinent-negatives",
+      "question": "Why is the clinical record treated as an instrument other people act on, and what makes a pertinent negative worth writing down?",
+      "category": "nursing",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m073-documentation-and-pertinent-negatives.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m073-documentation-and-pertinent-negatives.md",
+      "tags": [
+        "documentation",
+        "record-keeping",
+        "pertinent-negative",
+        "continuity",
+        "audit"
+      ]
+    },
+    {
+      "id": "m074",
+      "slug": "shift-work-fatigue-and-handover",
+      "question": "Why is fatigue treated as a safety factor rather than a personal failing, and what makes the handover at the end of a night shift the most dangerous one?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m074-shift-work-fatigue-and-handover.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m074-shift-work-fatigue-and-handover.md",
+      "tags": [
+        "fatigue",
+        "shift-work",
+        "circadian",
+        "handover",
+        "human-factors"
+      ]
+    },
+    {
+      "id": "m075",
+      "slug": "isolation-precautions-by-route",
+      "question": "Why are isolation precautions keyed to the route of transmission rather than to the organism, and what follows from that?",
+      "category": "nursing",
+      "difficulty": "core",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m075-isolation-precautions-by-route.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m075-isolation-precautions-by-route.md",
+      "tags": [
+        "infection-prevention",
+        "transmission-based-precautions",
+        "ppe",
+        "isolation",
+        "standard-precautions"
       ]
     }
   ]

@@ -61,6 +61,12 @@ NOT_RETRIEVED = "**None of the sources below was retrieved.**"
 # serious half says what is at stake for a person. BRIEF.md has always claimed the
 # validator enforced this and until now it did not, which is how five pairs shipped under
 # five bespoke headings and one shipped with no such section at all.
+# Relative links inside an answer. Five writers in one wave pointed at
+# SOURCES-<specialty>.md two levels up instead of three and produced fifty broken
+# links, because the brief named the file without giving the path from an answer.
+# The brief says the path now; this makes a wrong one impossible to ship.
+LINK = re.compile(r"\]\((?!https?:)([^)#\s]+)")
+
 STAKES_HEADING = {
     "pokemon": "## Where the metaphor stops",
     "serious": "## The human stakes, said plainly",
@@ -130,6 +136,9 @@ def main() -> int:
                 problems.append(f"{rel}: body is only {len(body.split())} words (min {MIN_WORDS})")
             if style == "serious" and "```" not in body:
                 problems.append(f"{rel}: serious answers must include a fenced diagram")
+            for target in LINK.findall(body):
+                if not (path.parent / target).resolve().exists():
+                    problems.append(f"{rel}: relative link does not resolve: {target}")
             stakes = STAKES_HEADING[style]
             if not any(line.startswith(stakes) for line in body.splitlines()):
                 problems.append(f"{rel}: missing a '{stakes}' section")
