@@ -49,7 +49,8 @@ attached — see below. LoRA (question 025) rather than full fine-tuning, in mos
 and you keep the base model intact so you can swap adapters per domain.
 
 **4. Continued pretraining on in-domain monolingual target text**, then fine-tune. Useful when you
-have a lot of in-domain text and almost no in-domain *parallel* data, which is the usual situation.
+have a lot of in-domain text and almost no in-domain *parallel* data, which is the usual
+situation.
 
 **5. Domain tags.** Train one model on all domains with a tag token prefixed to the source. One
 model, switchable at inference, no adapter management. Works well when domains are known in
@@ -65,8 +66,8 @@ Mitigations, in order of how well they work:
 
 * **Mix general data back in.** A 1:1 to 1:4 in-domain-to-general ratio is a reasonable starting
   point. This is the single most effective control and the most often omitted.
-* **Low learning rate, few epochs.** Domain adaptation needs far less training than people give it;
-  overtraining is the usual cause.
+* **Low learning rate, few epochs.** Domain adaptation needs far less training than people give
+  it; overtraining is the usual cause.
 * **Adapters/LoRA** rather than full fine-tuning — the base weights are untouched by construction.
 * **Regularisation toward the base model** (KL penalty, or weight averaging with the base).
 

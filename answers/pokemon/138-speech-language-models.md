@@ -66,11 +66,11 @@ Real conversation is not tidy. Nobody waits for a full stop.
 
 A polite design waits for the cry to finish, thinks, then answers. A **real** one is doing both at
 once — still listening while it is still crying, able to stop mid-word because something changed.
-That is what makes **interruption** work, and it changes what the thing has to learn: not just what
-to say, but **when to say it, and when to stop.**
+That is what makes **interruption** work, and it changes what the thing has to learn: not just
+what to say, but **when to say it, and when to stop.**
 
-Think of a Pokémon locked into **Uproar** — three solid turns of noise, nothing else getting a word
-in. That is the failure mode of a design that cannot listen while it speaks.
+Think of a Pokémon locked into **Uproar** — three solid turns of noise, nothing else getting a
+word in. That is the failure mode of a design that cannot listen while it speaks.
 
 ⚠️ **And the clock is merciless.** A Trainer notices a pause of about a third of a second. That
 budget has to cover hearing the cry, deciding, *and* producing the sound — which is why answering
@@ -92,8 +92,9 @@ beautiful.
 
 ## Judging it 🏅
 
-Counting how many words it transcribed correctly is necessary and **wildly** beside the point: that
-counts the words, and this entire architecture exists for **everything that is not the words.**
+Counting how many words it transcribed correctly is necessary and **wildly** beside the point:
+that counts the words, and this entire architecture exists for **everything that is not the
+words.**
 
 So also measure: how long before the first sound comes back — both the typical case and the bad
 one. Whether it copes with being interrupted. Whether it sounds like the same Pokémon five minutes

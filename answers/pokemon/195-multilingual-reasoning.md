@@ -14,8 +14,8 @@ tags: [multilingual-reasoning, pivot-language, chain-of-thought, cross-lingual-g
 
 ## Where the loss actually happens 🧠
 
-Ask the same multi-step question in Kanto's language and in a small region's, and the answers differ
-— often substantially, and the gap tracks how much of that region the Pokédex ever read.
+Ask the same multi-step question in Kanto's language and in a small region's, and the answers
+differ — often substantially, and the gap tracks how much of that region the Pokédex ever read.
 
 But it is **not** that it reasons badly in the second language:
 
@@ -38,11 +38,12 @@ Pokédex was already doing it internally. You have simply stopped pretending oth
 
 ## The techniques, and what each costs 🔧
 
-* **🔁 Translate the question, reason, translate back.** Cheap and dependable. ⚠️ Loses whatever the
-  original encoded that Kanto's language cannot hold — question 130's **trade through a third
+* **🔁 Translate the question, reason, translate back.** Cheap and dependable. ⚠️ Loses whatever
+  the original encoded that Kanto's language cannot hold — question 130's **trade through a third
   Trainer**, and the same things go missing at the halfway point.
-* **🧠 Reason in Kanto's, answer in theirs.** Better, because the final answer is at least looking at
-  the original. ⚠️ Standard practice — and the answer may be **more fluent than it is faithful.**
+* **🧠 Reason in Kanto's, answer in theirs.** Better, because the final answer is at least looking
+  at the original. ⚠️ Standard practice — and the answer may be **more fluent than it is
+  faithful.**
 * **🌏 Or reason natively**, which is what you actually want and currently costs accuracy for most
   regions. 📌 The gap shrinks as the reading pile grows, so **this is a data problem far more than
   an architecture problem.**
@@ -70,10 +71,10 @@ and why tests written locally matter (question 196).
   📌 **The difference between those two numbers tells you how much of your gap is reasoning and how
   much is simply Kanto.**
 * **🗺️ Say which language it thinks in.** If your system routes its reasoning through one region,
-  that is **a design decision with consequences** — write it down rather than letting it be something
-  that merely happens.
+  that is **a design decision with consequences** — write it down rather than letting it be
+  something that merely happens.
 * **🔍 Watch what language comes out.** A Pokédex reasoning in Kanto's language and letting it leak
   into the answer is question 136's wrong-region failure, arriving through a new door.
-* **⚖️ And do not assume the gap is one size.** It is **largest for multi-step reasoning and smallest
-  for looking things up** — so a single *"multilingual gap"* figure is not something anybody can act
-  on.
+* **⚖️ And do not assume the gap is one size.** It is **largest for multi-step reasoning and
+  smallest for looking things up** — so a single *"multilingual gap"* figure is not something
+  anybody can act on.

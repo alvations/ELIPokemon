@@ -10,8 +10,8 @@ tags: [guardrails, moderation, classifiers, defence-in-depth, over-refusal]
 
 # Guardrails: the referees standing around the arena
 
-You cannot rely on your Pokémon's own training to keep the match legal. You put **referees** at every
-stage, each catching what the last one missed.
+You cannot rely on your Pokémon's own training to keep the match legal. You put **referees** at
+every stage, each catching what the last one missed.
 
 ```
    🗣️ someone shouts an order
@@ -42,8 +42,8 @@ stage, each catching what the last one missed.
 
 ## Why the head ref matters most 👀
 
-Here's the thing people get backwards. They pour all their effort into the **junior ref at the door**
-and skimp on the one watching the actual move.
+Here's the thing people get backwards. They pour all their effort into the **junior ref at the
+door** and skimp on the one watching the actual move.
 
 But judging a *request* is genuinely hard:
 
@@ -57,8 +57,8 @@ Judging a *move* is easy:
 
 > *"It just used Double Team. That's an evasion clause violation."*
 
-No ambiguity. Nothing to interpret. That's why layer 4️⃣ catches more, more reliably, than layer 2️⃣ —
-and why skipping it in favour of an aggressive door policy is the standard mistake.
+No ambiguity. Nothing to interpret. That's why layer 4️⃣ catches more, more reliably, than layer
+2️⃣ — and why skipping it in favour of an aggressive door policy is the standard mistake.
 
 ## Don't just allow or block 🚦
 
@@ -104,4 +104,5 @@ to your incident count.**
   to say so, and it must reach the
   person who tunes the referees.
 * 🤐 **Don't explain the block in detail.** *"Blocked — banned move, category 4, rule 12(b)"* tells
-  the next person exactly what to work around. **A detailed refusal is a free map of your defences.**
+  the next person exactly what to work around. **A detailed refusal is a free map of your
+  defences.**

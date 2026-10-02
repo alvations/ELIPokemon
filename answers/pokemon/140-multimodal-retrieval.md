@@ -11,9 +11,9 @@ tags: [multimodal-rag, colpali, late-interaction, captioning, chunking, citation
 # Searching an archive where the answer is in a picture
 
 Ordinary searching (question 044) assumes what you want is written down somewhere. Real archives
-refuse to cooperate. The **Type Chart** is a grid. **Blissey**'s stats are a hexagon with one spike.
-**Route 1** is a shape on the **Town Map**. **Aerodactyl** is a slate puzzle in the **Ruins of
-Alph**. And half of **Professor Oak**'s notes say *"see the photograph"*.
+refuse to cooperate. The **Type Chart** is a grid. **Blissey**'s stats are a hexagon with one
+spike. **Route 1** is a shape on the **Town Map**. **Aerodactyl** is a slate puzzle in the **Ruins
+of Alph**. And half of **Professor Oak**'s notes say *"see the photograph"*.
 
 Three ways to build it, and they are genuinely different bets.
 
@@ -68,12 +68,12 @@ cost is the actual decision, not a footnote to it.
 
 ## What you must not cut in half ✂️
 
-Everyone argues about how to chop up writing. Almost nobody thinks about how to chop up a page, and
-it sets your ceiling.
+Everyone argues about how to chop up writing. Almost nobody thinks about how to chop up a page,
+and it sets your ceiling.
 
-* 🖼️ **Keep a figure with its caption and the paragraph that points at it.** Split them and you have
-  ruined both — the hexagon means nothing unlabelled, and the sentence saying *"note the Defence
-  spoke"* now points at nothing.
+* 🖼️ **Keep a figure with its caption and the paragraph that points at it.** Split them and you
+  have ruined both — the hexagon means nothing unlabelled, and the sentence saying *"note the
+  Defence spoke"* now points at nothing.
 * 🚫 **Never split the Type Chart.** The header row without the grid, or the grid without the
   header, is **worse than dropping it entirely** — because it will still be found, and it will
   still be answered from, and somebody will be told that **Surf** is not very effective on

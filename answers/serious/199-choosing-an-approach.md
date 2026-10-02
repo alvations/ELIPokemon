@@ -44,12 +44,13 @@ rarest and most expensive.
 
 ## Cheapest-first, in general
 
-1. **Fix the input.** Resolution, source authoring, preprocessing, normalisation (questions 121, 179,
-   115). Consistently the highest leverage and the least glamorous.
+1. **Fix the input.** Resolution, source authoring, preprocessing, normalisation (questions 121,
+   179, 115). Consistently the highest leverage and the least glamorous.
 2. **Fix the retrieval or the context.** Give it the document, the previous segments, the glossary
    (questions 131, 133, 140).
 3. **Fix the constraints.** Validate mechanically instead of hoping (questions 156, 136).
-4. **Route.** Send the hard 5% somewhere better rather than upgrading everything (questions 132, 180).
+4. **Route.** Send the hard 5% somewhere better rather than upgrading everything (questions 132,
+   180).
 5. **Only then, train something.** Adapters before fine-tuning, fine-tuning before pretraining.
 
 ## The questions to ask before building anything
@@ -58,19 +59,19 @@ rarest and most expensive.
   worse than an average one, your metric must reflect that (questions 132, 187).
 * **Is the action reversible?** If not, no accuracy number substitutes for a confirmation gate
   (questions 145, 181).
-* **Who cannot check the output?** If the user cannot verify it, hallucination is a different class
-  of problem (questions 183, 155).
-* **What is the volume?** At high volume, distillation arithmetic usually wins (question 182). At low
-  volume it never pays back.
-* **What must not leave the device or the jurisdiction?** This constrains architecture before quality
-  does (questions 174, 187, 194).
+* **Who cannot check the output?** If the user cannot verify it, hallucination is a different
+  class of problem (questions 183, 155).
+* **What is the volume?** At high volume, distillation arithmetic usually wins (question 182). At
+  low volume it never pays back.
+* **What must not leave the device or the jurisdiction?** This constrains architecture before
+  quality does (questions 174, 187, 194).
 
 ## The honest default
 
 For most problems: a strong general model, at adequate resolution, with retrieval, a glossary,
 mechanical output validation, quality-based routing, and a small hand-built evaluation set. That
-combination beats a cleverer architecture almost every time, and it is boring enough that teams skip
-straight past it.
+combination beats a cleverer architecture almost every time, and it is boring enough that teams
+skip straight past it.
 
 ## What an interviewer digs into next
 

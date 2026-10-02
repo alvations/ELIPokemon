@@ -39,7 +39,8 @@ character is now emphasising a shrug.
 ```
 
 📌 And notice: **the good line is not the most accurate translation.** Dubbing deliberately trades
-precision for fit, and a translator who refuses to make that trade hands back lines nobody can use.
+precision for fit, and a translator who refuses to make that trade hands back lines nobody can
+use.
 
 ## Doing it automatically 🤖
 
@@ -82,7 +83,8 @@ see is the entire product.** A perfect COMET score on a line that runs two secon
 perfect score on something that will never air.
 
 * ⏲️ **How many lines fit the time**, within tolerance.
-* 👄 **How well the mouths agree**, automatically for the whole episode and by eye for the close-ups.
+* 👄 **How well the mouths agree**, automatically for the whole episode and by eye for the
+  close-ups.
 * 📊 **The quality of the lines that fitted** — so you can see what the constraint cost you.
 * 👀 **And whether viewers can tell.** That remains the only measure that captures the thing you
   were actually trying to achieve.

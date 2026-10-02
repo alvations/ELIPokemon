@@ -54,43 +54,43 @@ Cuts your time-to-first-move enormously, and the briefing becomes nearly free.
 
 Most challengers are a kid on Route 1 with a Rattata. **A journeyman Trainer handles them fine.**
 
-Put something quick at the door that asks *"is this hard?"* — route the routine matches to the cheap
-Trainer, escalate the tricky ones.
+Put something quick at the door that asks *"is this hard?"* — route the routine matches to the
+cheap Trainer, escalate the tricky ones.
 
-This is often the single largest cost reduction available, and it's an **architecture** decision, not
-a tuning knob.
+This is often the single largest cost reduction available, and it's an **architecture** decision,
+not a tuning knob.
 
 **4. 🔄 Never let a table sit idle.**
 
-Naïvely, you run ten matches, wait for **all ten** to finish, then start ten more. So nine tables sit
-empty while one long match drags on.
+Naïvely, you run ten matches, wait for **all ten** to finish, then start ten more. So nine tables
+sit empty while one long match drags on.
 
 **Instead: the moment a table frees up, seat the next challenger.** Several times the throughput.
 This is table stakes for running your own Gym.
 
-**5. ✏️ Write your notes smaller.** Half the notebook, half the page-flipping, half the time per turn.
+**5. ✏️ Write your notes smaller.** Half the notebook, half the page-flipping, half the time per
+turn.
 
 **6. 📄 Stop wasting desk space.** Don't hand every match a 500-page binder when most end in twelve
 turns. Loose pages, handed out as needed.
 
-**7. 🐣 Let a rookie guess ahead, and have the Champion check.** Two to three times faster per match —
-**but only when the Gym is quiet.** During a packed tournament it makes things *worse*, because
-there's no idle capacity to spend.
+**7. 🐣 Let a rookie guess ahead, and have the Champion check.** Two to three times faster per
+match — **but only when the Gym is quiet.** During a packed tournament it makes things *worse*,
+because there's no idle capacity to spend.
 
-**8. 🎓 Train your own specialist.** Have Cynthia play ten thousand of *your* matches, then
-train a small cheap Trainer to copy it. **Ten times cheaper on your specific job.** Highest return of
+**8. 🎓 Train your own specialist.** Have Cynthia play ten thousand of *your* matches, then train a
+small cheap Trainer to copy it. **Ten times cheaper on your specific job.** Highest return of
 anything here, and it takes real effort.
 
-**9. 🗂️ Remember answers to repeated questions.** *"What beats Water?"* gets asked forty times a day.
-Answer it once, keep the answer.
+**9. 🗂️ Remember answers to repeated questions.** *"What beats Water?"* gets asked forty times a
+day. Answer it once, keep the answer.
 
-⚠️ **Dangerous** for anything personal or time-sensitive. *"How's MY team doing?"* must never come out
-of a shared cache.
+⚠️ **Dangerous** for anything personal or time-sensitive. *"How's MY team doing?"* must never come
+out of a shared cache.
 
 **10. 📺 Show the moves as they happen** — *"Garchomp used Earthquake!"* as it lands. Doesn't make
-anything faster. **Transforms how fast it
-feels** — a Trainer who starts moving immediately feels quick even in a long match. Cheap. Should be
-your default.
+anything faster. **Transforms how fast it feels** — a Trainer who starts moving immediately feels
+quick even in a long match. Cheap. Should be your default.
 
 ## What to measure 📊
 

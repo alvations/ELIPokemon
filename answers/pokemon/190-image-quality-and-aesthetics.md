@@ -37,8 +37,8 @@ scorer's taste becomes the generator's taste, at enormous scale.
    obviously worked on afterwards      a photograph somebody just took
 ```
 
-⚠️ **That is not beauty.** It is **one specific style of photography**, learned from whoever happened
-to rate the training pictures.
+⚠️ **That is not beauty.** It is **one specific style of photography**, learned from whoever
+happened to rate the training pictures.
 
 📌 And filtering your archive with it is **quietly deciding what every picture you ever generate
 will look like**. It is a large part of why generated images share that recognisable house
@@ -52,13 +52,14 @@ Card**.
   **Celadon Department Store** price board. ⚠️ So filtering does not remove *bad photographs*. It
   removes **whole subjects** — and the first things to go are the charts, the documents, and the
   ordinary.
-* **🌏 It is one region's taste.** The people who did the rating were a narrow group. What counts as
-  well-composed, what counts as too busy, which colours look right — all of it varies, and a scorer
-  trained on one region **imposes that region on everybody** (question 162's problem, in pictures).
-* **🎣 And it is gameable.** Used as a reward, the generator learns to produce **the markers** of the
-  style — the blur, the warmth, the saturation — rather than better pictures. 📌 This is question
-  021's over-optimisation, and here **you can see it with your own eyes**: the over-cooked look of a
-  generator that has been tuned too hard on taste.
+* **🌏 It is one region's taste.** The people who did the rating were a narrow group. What counts
+  as well-composed, what counts as too busy, which colours look right — all of it varies, and a
+  scorer trained on one region **imposes that region on everybody** (question 162's problem, in
+  pictures).
+* **🎣 And it is gameable.** Used as a reward, the generator learns to produce **the markers** of
+  the style — the blur, the warmth, the saturation — rather than better pictures. 📌 This is
+  question 021's over-optimisation, and here **you can see it with your own eyes**: the
+  over-cooked look of a generator that has been tuned too hard on taste.
 * **🎯 And "beautiful" is not "what I asked for."** A gorgeous **Blastoise** when you asked for a
   Charizard scores splendidly (question 137). **Score those two things separately. Always.**
 
@@ -68,10 +69,10 @@ Card**.
   the blurred, the tiny, the corrupted and the duplicated is safe and valuable. Throwing out the
   *"unaesthetic"* throws out documentary photographs, diagrams, and entire categories of subject.
 * **👀 Report what your filter removed, and go and look at a sample of it.** 📌 Teams routinely
-  discover their filter has been quietly deleting every chart, or every photograph from one region,
-  for months.
+  discover their filter has been quietly deleting every chart, or every photograph from one
+  region, for months.
 * **🔀 Keep the two marks apart** — how good it looks and whether it is what was asked for — and
   never add them into one number for ranking.
 * **🎚️ And if it is a reward, cap how much it can pull.** Then watch for the drift, exactly as
-  question 167 watches for a Pokédex that has learned to say nothing rather than be wrong. Here the
-  equivalent is a generator that has learned to make everything golden.
+  question 167 watches for a Pokédex that has learned to say nothing rather than be wrong. Here
+  the equivalent is a generator that has learned to make everything golden.

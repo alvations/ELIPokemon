@@ -37,10 +37,10 @@ That instability is not a flaw to be fixed; it is the property both ensembles be
 Train many deep trees on bootstrap samples, and at each split consider only a random subset of
 features (`√p` for classification). Average their predictions.
 
-The double randomisation is the point: bootstrapping alone leaves trees correlated because the same
-strong feature dominates the root split in all of them. Restricting features per split **decorrelates**
-them, and since averaging `n` correlated variables reduces variance by `ρ + (1−ρ)/n`, lowering `ρ` is
-what makes the ensemble work.
+The double randomisation is the point: bootstrapping alone leaves trees correlated because the
+same strong feature dominates the root split in all of them. Restricting features per split
+**decorrelates** them, and since averaging `n` correlated variables reduces variance by `ρ +
+(1−ρ)/n`, lowering `ρ` is what makes the ensemble work.
 
 Trees are grown deep — low bias, high variance — because averaging removes the variance.
 
@@ -50,8 +50,8 @@ out-of-bag validation.
 
 ## Gradient boosting — sequential
 
-Fit trees **sequentially**, each on the residual errors of the ensemble so far. Formally, each tree
-approximates the negative gradient of the loss with respect to the current predictions.
+Fit trees **sequentially**, each on the residual errors of the ensemble so far. Formally, each
+tree approximates the negative gradient of the loss with respect to the current predictions.
 
 ```
    BAGGING (parallel, variance reduction)     BOOSTING (sequential, bias reduction)
@@ -69,10 +69,10 @@ approximates the negative gradient of the loss with respect to the current predi
                                                   early stopping
 ```
 
-XGBoost, LightGBM and CatBoost add: second-order (Newton) optimisation, L1/L2 regularisation on leaf
-weights, shrinkage (learning rate), column and row subsampling, and efficient histogram-based split
-finding. LightGBM grows leaf-wise (faster, more overfit-prone); CatBoost handles categorical features
-natively with ordered target statistics.
+XGBoost, LightGBM and CatBoost add: second-order (Newton) optimisation, L1/L2 regularisation on
+leaf weights, shrinkage (learning rate), column and row subsampling, and efficient histogram-based
+split finding. LightGBM grows leaf-wise (faster, more overfit-prone); CatBoost handles categorical
+features natively with ordered target statistics.
 
 ## Choosing
 
@@ -86,12 +86,12 @@ natively with ordered target statistics.
 | Robust to outliers | ✅ | ✅ | ⚠️ less so with squared loss |
 | Sensible default | rarely | strong baseline | when accuracy matters |
 
-**The bigger point for an interview:** gradient-boosted trees remain the state of the art for tabular
-data, and repeated benchmarks find they still beat deep learning there
-([Grinsztajn et al., 2022](https://arxiv.org/abs/2207.08815)). The reasons are structural — tabular
-features are heterogeneous and often uninformative, and trees handle irregular, non-smooth target
-functions that neural networks bias against. Reaching for a neural network on a tabular problem
-usually costs accuracy *and* effort.
+**The bigger point for an interview:** gradient-boosted trees remain the state of the art for
+tabular data, and repeated benchmarks find they still beat deep learning there ([Grinsztajn et
+al., 2022](https://arxiv.org/abs/2207.08815)). The reasons are structural — tabular features are
+heterogeneous and often uninformative, and trees handle irregular, non-smooth target functions
+that neural networks bias against. Reaching for a neural network on a tabular problem usually
+costs accuracy *and* effort.
 
 ## What an interviewer digs into next
 

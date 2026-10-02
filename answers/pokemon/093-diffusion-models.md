@@ -27,14 +27,15 @@ And more. After a few hundred rounds, it's pure static. The Charizard is gone.
 ```
 
 The training is simple: **damage a photo by a random amount, and have the Trainer identify exactly
-what static was added.** Millions of times, at every damage level — Charizard, Blastoise, Venusaur, all of it.
+what static was added.** Millions of times, at every damage level — Charizard, Blastoise,
+Venusaur, all of it.
 
 That's it. No adversary, no competition, no clever objective. Just: *"spot the static."*
 
 ## Then the magic 🎩
 
-Once your Trainer can spot static, hand it **pure static** and say *"remove the static — there is a
-Pokémon under there somewhere."*
+Once your Trainer can spot static, hand it **pure static** and say *"remove the static — there is
+a Pokémon under there somewhere."*
 
 It does. Slightly. What's left is *marginally* less random.
 
@@ -45,8 +46,8 @@ pure noise by a Trainer whose only skill is knowing what static looks like and t
 
 ## Why this replaced the old approach 🥊
 
-The previous method was a **contest**: a forger trying to fake Pokémon photos, and a detective trying
-to catch them.
+The previous method was a **contest**: a forger trying to fake Pokémon photos, and a detective
+trying to catch them.
 
 It worked, and it was miserable to run:
 
@@ -57,23 +58,24 @@ It worked, and it was miserable to run:
   is a sphere — and produces only that, forever. Technically undefeated. Useless.
 
 The static approach has **no contest.** One Trainer, one job, a straightforward score. It trains
-stably, it covers Charizard and Blastoise and Venusaur instead of collapsing onto one, and it gets predictably
-better with more resources.
+stably, it covers Charizard and Blastoise and Venusaur instead of collapsing onto one, and it gets
+predictably better with more resources.
 
-❌ Its one real cost: **it's slow.** Three hundred rounds of static removal per sprite, versus one shot
-for the forger.
+❌ Its one real cost: **it's slow.** Three hundred rounds of static removal per sprite, versus one
+shot for the forger.
 
 ## Four things that made it practical 🔧
 
 * 🗜️ **Work from a sketch, not the full sprite.** Instead of developing every pixel of the
-  Charizard, develop a small compressed sketch and expand it at the end. Roughly fifty times cheaper — and the reason anyone can
-  run this on their own machine.
+  Charizard, develop a small compressed sketch and expand it at the end. Roughly fifty times
+  cheaper — and the reason anyone can run this on their own machine.
 * 🎚️ **The "how literally?" dial.** Train it to develop sprites both *with* and *without* a
-  description — *"an orange dragon with wings"*, then at generation time **exaggerate the difference.** Crank it up and you get exactly
-  what you asked for, with less variety. Turn it down and you get more surprising results, less
-  faithful. This one dial is what people mean by prompt strength.
-* ⚡ **Take bigger steps.** Three hundred rounds became fifty, then twenty, then — with some cleverness
-  — **one or two.**
+  description — *"an orange dragon with wings"*, then at generation time **exaggerate the
+  difference.** Crank it up and you get exactly what you asked for, with less variety. Turn it
+  down and you get more surprising results, less faithful. This one dial is what people mean by
+  prompt strength.
+* ⚡ **Take bigger steps.** Three hundred rounds became fifty, then twenty, then — with some
+  cleverness — **one or two.**
 * 📏 **Go in a straight line.** Newer approaches learn to travel **directly** from static to sprite
   rather than wandering there. Fewer steps, simpler training, and it's what the frontier uses now.
 
@@ -86,13 +88,12 @@ for the forger.
 | Steps | ~a fixed number, regardless of size | one per word |
 | Natural for | 🖼️ pictures, 🎵 sound, 🎬 video | 📝 text |
 
-The split isn't arbitrary. **"A slightly damaged photo" is a sensible thing.** A photo with a bit of
-static is still recognisably a photo.
+The split isn't arbitrary. **"A slightly damaged photo" is a sensible thing.** A photo with a bit
+of static is still recognisably a photo.
 
 **"A slightly damaged sentence" isn't.** What's halfway between "Pikachu" and "Charizard"? Not a
-word. Not a Pokémon. Not anything.
-Not anything. Text is made of discrete things with no meaningful in-between, so the whole "gradually
-remove the damage" idea has nothing to stand on.
+word. Not a Pokémon. Not anything. Not anything. Text is made of discrete things with no
+meaningful in-between, so the whole "gradually remove the damage" idea has nothing to stand on.
 
-People are working on it — the appeal is real, since you'd generate a whole answer at once and get to
-**revise it**, which a left-to-right Trainer can never do. It's improving. It's not close yet.
+People are working on it — the appeal is real, since you'd generate a whole answer at once and get
+to **revise it**, which a left-to-right Trainer can never do. It's improving. It's not close yet.

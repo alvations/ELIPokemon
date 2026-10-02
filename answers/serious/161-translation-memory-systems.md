@@ -28,14 +28,15 @@ and ML teams building translation products routinely rebuild a worse version of 
               └─ <70%  ─► not worth showing; it anchors the translator wrongly (q149)
 ```
 
-**Leverage** is the fraction of a job covered by matches, and it is the number the whole commercial
-model is built on: exact matches are usually charged at a small fraction of the full rate, high
-fuzzies at a discount, and no-matches at full price. That pricing structure is why TM hygiene is a
-business concern and not just an engineering one.
+**Leverage** is the fraction of a job covered by matches, and it is the number the whole
+commercial model is built on: exact matches are usually charged at a small fraction of the full
+rate, high fuzzies at a discount, and no-matches at full price. That pricing structure is why TM
+hygiene is a business concern and not just an engineering one.
 
 Two mechanisms worth distinguishing: **segment matching** (the lookup above) and **concordance
-search** (find every previous occurrence of a phrase, anywhere in the memory, to see how it has been
-handled). Translators use the second constantly; automated pipelines usually forget it exists.
+search** (find every previous occurrence of a phrase, anywhere in the memory, to see how it has
+been handled). Translators use the second constantly; automated pipelines usually forget it
+exists.
 
 ## TM, MT and LLMs together
 
@@ -48,9 +49,10 @@ They are not competitors. The sensible arrangement:
 | Low fuzzy | **feed the fuzzy matches to the LLM as examples** (question 134) |
 | No match | MT, with glossary (question 133) and QE gating (question 132) |
 
-That third row is the one modern systems get real gains from: a TM is a **domain-specific retrieval
-corpus**, and putting the nearest approved translations into the prompt raises terminology
-compliance and style consistency more reliably than fine-tuning does, with no training run.
+That third row is the one modern systems get real gains from: a TM is a **domain-specific
+retrieval corpus**, and putting the nearest approved translations into the prompt raises
+terminology compliance and style consistency more reliably than fine-tuning does, with no training
+run.
 
 ## Maintenance is the whole game
 

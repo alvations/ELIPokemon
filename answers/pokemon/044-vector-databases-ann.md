@@ -83,11 +83,11 @@ enormous scale.
 
 At a hundred million Pokémon, even *storing* the coordinates is a problem.
 
-So round them. Instead of precise coordinates, record *"north-ish region, mid-elevation, coastal."*
-A third of a page becomes a few characters.
+So round them. Instead of precise coordinates, record *"north-ish region, mid-elevation,
+coastal."* A third of a page becomes a few characters.
 
-Coarse — but good enough to narrow a hundred million down to a hundred candidates. Then you pull the
-**full precise coordinates for just those hundred** and rank them properly.
+Coarse — but good enough to narrow a hundred million down to a hundred candidates. Then you pull
+the **full precise coordinates for just those hundred** and rank them properly.
 
 📌 **Rough sweep, then careful check.** That two-stage pattern is how every genuinely huge search
 system works.
@@ -101,8 +101,8 @@ system works.
 | 📚 10M – 1B | 🏞️ Regions + 🗜️ shorthand |
 | 🏛️ Over 1B | Regions + shorthand + split across many buildings |
 
-That first row is genuine advice. An enormous number of teams install elaborate machinery for eight
-thousand documents.
+That first row is genuine advice. An enormous number of teams install elaborate machinery for
+eight thousand documents.
 
 ## What bites you in production 🚨
 
@@ -110,8 +110,8 @@ thousand documents.
 *before* searching and you've cut the roads your search needed. Filter *after* and you may return
 nothing at all. Handling this properly is what actually separates one system from another.
 
-**🗑️ Deletions rot the network.** You can't cleanly remove a stop from the Fly network. You mark it
-dead and route around it, and things degrade until you rebuild.
+**🗑️ Deletions rot the network.** You can't cleanly remove a stop from the Fly network. You mark
+it dead and route around it, and things degrade until you rebuild.
 
 **👻 You cannot see what you missed.** This is the scary one. When your search misses the right
 answer, **nothing tells you.** No error, no warning — just a slightly worse answer that looks

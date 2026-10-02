@@ -11,8 +11,8 @@ tags: [depth-estimation, scale-ambiguity, point-clouds, nerf, gaussian-splatting
 # Depth, scale and 3D structure
 
 A photograph is a projection: the world's three dimensions collapsed onto two, irreversibly. Every
-3D capability has to *recover* something that was thrown away, and the first thing to understand is
-that in the general case it **cannot be recovered** — only estimated from priors.
+3D capability has to *recover* something that was thrown away, and the first thing to understand
+is that in the general case it **cannot be recovered** — only estimated from priors.
 
 ## Scale ambiguity is fundamental, not a limitation
 
@@ -36,15 +36,15 @@ object-size priors that fail on anything unusual — which is exactly where you 
 
 * **The training signal never required it.** Contrastive captions (question 120) and instruction
   data describe *what*, rarely *where in depth*.
-* **Patch flattening discards geometry** (questions 118, 128). Identity survives; spatial structure
-  is weakly encoded at best.
+* **Patch flattening discards geometry** (questions 118, 128). Identity survives; spatial
+  structure is weakly encoded at best.
 * **There is no depth channel.** The model sees RGB patches. Any depth understanding is inferred
   from monocular cues — occlusion, perspective, shading, texture gradient — that were never
   explicitly supervised.
 
 The practical consequence: a VLM can tell you a mug is on a table and cannot reliably tell you
-whether the mug is in front of or behind the laptop, how far apart they are, or whether a robot arm
-could reach between them.
+whether the mug is in front of or behind the laptop, how far apart they are, or whether a robot
+arm could reach between them.
 
 ## Representations, and what each is for
 
@@ -78,10 +78,11 @@ area precisely because the two capabilities are separate.
 * **Report scale handling explicitly** — whether predictions were scale-aligned to ground truth
   before scoring. Median-scaling a prediction before computing error is standard in the literature
   and quietly removes the hardest part of the problem, so it must be stated.
-* **Test on out-of-distribution scale**: close-ups, aerial views, scale models, microscopy. This is
-  where object-size priors break and the failure is instructive.
-* **For agents, measure the downstream task** — grasp success, navigation success — not depth error.
-  A depth map with 10% error that supports a successful grasp beats a better map that does not.
+* **Test on out-of-distribution scale**: close-ups, aerial views, scale models, microscopy. This
+  is where object-size priors break and the failure is instructive.
+* **For agents, measure the downstream task** — grasp success, navigation success — not depth
+  error. A depth map with 10% error that supports a successful grasp beats a better map that does
+  not.
 
 ## What an interviewer digs into next
 

@@ -69,9 +69,9 @@ spontaneously.
 
 * **Prompts must be verifiable.** Maths, code, formal logic, structured extraction. Open-ended
   writing has no checker, so RLVR does not apply.
-* **The group must have variance.** If all `G` samples are wrong (or all right), the advantages are
-  all zero and the prompt teaches nothing. Curriculum difficulty matters: you want problems the
-  model solves *sometimes*.
+* **The group must have variance.** If all `G` samples are wrong (or all right), the advantages
+  are all zero and the prompt teaches nothing. Curriculum difficulty matters: you want problems
+  the model solves *sometimes*.
 * **Compute cost shifts to sampling.** `G = 8..64` generations per prompt is a lot of inference.
 * **Reward hacking still exists**, just in a different place: models find checker bugs, exploit
   test harnesses, or produce answers in formats that trivially match the grader.

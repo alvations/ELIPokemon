@@ -73,10 +73,10 @@ Here is the payoff. Once shapes and words live in the same place, **naming becom
 ```
 
 And note the phrasing, because it is not decoration. **A bare name works noticeably worse than a
-sentence.** The drill was done on Pokédex *entries* — "It is said to melt any material", "Its wings
-can carry it close to an altitude of 4,600 feet" — full sentences, every one of them. Hand the
-reading skill a lone word like `Golbat` and you have handed it something it has never seen in its
-life. Wrap the name in a sentence shaped like an entry and it lands where it belongs.
+sentence.** The drill was done on Pokédex *entries* — "It is said to melt any material", "Its
+wings can carry it close to an altitude of 4,600 feet" — full sentences, every one of them. Hand
+the reading skill a lone word like `Golbat` and you have handed it something it has never seen in
+its life. Wrap the name in a sentence shaped like an entry and it lands where it belongs.
 
 ## Where the silhouette game breaks 🚨
 

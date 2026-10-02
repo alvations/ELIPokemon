@@ -10,8 +10,8 @@ tags: [vla, robotics, action-tokens, embodiment-gap, sim2real, teleoperation]
 
 # From describing the world to acting in it
 
-A vision-language-action model takes the VLM stack (question 117) and adds an output head that emits
-**actions** instead of words. The architecture is a small change. The problems are not.
+A vision-language-action model takes the VLM stack (question 117) and adds an output head that
+emits **actions** instead of words. The architecture is a small change. The problems are not.
 
 ## How actions become tokens
 
@@ -32,14 +32,14 @@ That transfer is the whole bet, and it largely pays: VLAs generalise to objects 
 never seen in the robot data, because the *semantic* half came from the web.
 
 **Action chunking** — predicting several timesteps at once rather than one — matters more than it
-sounds. It reduces compounding error, smooths motion, and cuts inference frequency, which is a hard
-constraint when control loops run at 10-50 Hz and the model is large.
+sounds. It reduces compounding error, smooths motion, and cuts inference frequency, which is a
+hard constraint when control loops run at 10-50 Hz and the model is large.
 
 ## Where it is hard
 
-* **Data is the binding constraint, and it does not scale like text.** Every robot episode requires
-  a physical robot, a physical scene and usually a human teleoperator. Open X-Embodiment-style
-  pooling across labs and robot types helps and does not close the gap.
+* **Data is the binding constraint, and it does not scale like text.** Every robot episode
+  requires a physical robot, a physical scene and usually a human teleoperator. Open
+  X-Embodiment-style pooling across labs and robot types helps and does not close the gap.
 * **The embodiment gap.** Data from one arm does not transfer cleanly to another with different
   kinematics, grippers or camera placement. Cross-embodiment training helps; it is not solved.
 * **Sim2real.** Simulation is unlimited and wrong in the ways that matter — contact, friction,
@@ -56,7 +56,8 @@ constraint when control loops run at 10-50 Hz and the model is large.
 
 ## Evaluation
 
-Simulation benchmarks are cheap and correlate imperfectly with real hardware. Real evaluation needs:
+Simulation benchmarks are cheap and correlate imperfectly with real hardware. Real evaluation
+needs:
 
 * **Task success on physical hardware**, with enough trials for a meaningful interval — robotics
   results are frequently reported on ten episodes, which cannot distinguish 60% from 80%.

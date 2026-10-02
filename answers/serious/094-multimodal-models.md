@@ -10,8 +10,8 @@ tags: [multimodal, vlm, vision-encoder, projector, cross-attention, llava]
 
 # Vision-language models
 
-The problem: an LLM consumes token embeddings; an image is a grid of pixels. Fusion is the question
-of **where and how the visual signal enters the language model.**
+The problem: an LLM consumes token embeddings; an image is a grid of pixels. Fusion is the
+question of **where and how the visual signal enters the language model.**
 
 ## The three architectures
 
@@ -46,8 +46,8 @@ The dominant open-source approach, because it is cheap and works:
    CLIP training already aligned its features with language (question 092). Output: `N` patch
    embeddings (576 for 24×24 patches at 336px).
 2. **Projector** — an MLP mapping vision dimensions to LLM embedding dimensions. LLaVA showed a
-   two-layer MLP is enough; more elaborate resamplers (Q-Former, Perceiver) compress the token count
-   but add complexity and have largely lost on the quality/simplicity tradeoff.
+   two-layer MLP is enough; more elaborate resamplers (Q-Former, Perceiver) compress the token
+   count but add complexity and have largely lost on the quality/simplicity tradeoff.
 3. **Training, in two stages** —
    * *Alignment:* freeze the vision encoder and the LLM, train only the projector on image-caption
      pairs. Cheap; teaches the projector to speak the LLM's language.
@@ -68,15 +68,15 @@ the bridge.
 * **Spatial reasoning** remains weak — counting, relative positions, precise localisation.
 * **Modality imbalance.** Models often ignore the image when the text alone suggests a plausible
   answer, producing confident text-only hallucinations.
-* **Video** multiplies everything by frame count; frame selection and temporal pooling are the active
-  problems.
+* **Video** multiplies everything by frame count; frame selection and temporal pooling are the
+  active problems.
 
 ## Beyond vision
 
 Audio (Whisper-style encoders projected in), 3D, and any-to-any models follow the same recipe:
-**encode the modality, project into the LLM's embedding space, train the bridge.** The LLM has become
-a general-purpose reasoning engine over anything you can embed — which is the conceptual point worth
-making.
+**encode the modality, project into the LLM's embedding space, train the bridge.** The LLM has
+become a general-purpose reasoning engine over anything you can embed — which is the conceptual
+point worth making.
 
 ## What an interviewer digs into next
 

@@ -15,9 +15,9 @@ the memory system, and the GPU's arithmetic units sit mostly idle. Verifying *te
 almost exactly the same as verifying one, because it is the same weight-streaming pass with a
 slightly larger batch dimension.
 
-Speculative decoding ([Leviathan et al., 2022](https://arxiv.org/abs/2211.17192);
-[Chen et al., 2023](https://arxiv.org/abs/2302.01318)) exploits that: let a cheap **draft model**
-guess several tokens ahead, then have the **target model** check them all in a single forward pass.
+Speculative decoding ([Leviathan et al., 2022](https://arxiv.org/abs/2211.17192); [Chen et al.,
+2023](https://arxiv.org/abs/2302.01318)) exploits that: let a cheap **draft model** guess several
+tokens ahead, then have the **target model** check them all in a single forward pass.
 
 ```
    step 1: DRAFT (small model, γ = 4 tokens, cheap and sequential)

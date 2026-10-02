@@ -39,16 +39,16 @@ button that says **Fly** cannot absorb even one.
 
 ## Ways to make it fit 🎚️
 
-* **🏷️ Ask for a length up front.** Mark every training example short / normal / long and prefix the
-  request the same way — exactly the mechanism used for politeness in question 141.
+* **🏷️ Ask for a length up front.** Mark every training example short / normal / long and prefix
+  the request the same way — exactly the mechanism used for politeness in question 141.
 * **💬 Just say the limit, then check.** Machines comply *approximately*. **Always measure. Never
   assume.**
 * **🎲 Write several and keep one that fits.** Generate a handful, throw out the ones over budget,
   rank what remains. Unglamorous, reliable, and what most working systems actually do — it turns
   "obey a constraint" into "filter a list", which is a far easier problem.
 * **✂️ Or cut it off at the limit.** Guaranteed to fit. Produces **Crabominabl**.
-* **🔁 Or translate, measure, and ask again for a shorter one.** Costs a round trip, gives by far the
-  best short versions, and it is exactly what a human does.
+* **🔁 Or translate, measure, and ask again for a shorter one.** Costs a round trip, gives by far
+  the best short versions, and it is exactly what a human does.
 
 ## Shortening is a skill, not a truncation 🎯
 
@@ -62,13 +62,13 @@ A battle message reading *"The wild Fletchinder used Quick Attack on your Chariz
 can see it, and becomes *"Fletchinder used Quick Attack!"* — shorter, and **nothing was lost**,
 because the dropped words were already on screen.
 
-📌 That — dropping what is redundant, never clipping the ending — is what *"make it shorter"* should
-mean to your system.
+📌 That — dropping what is redundant, never clipping the ending — is what *"make it shorter"*
+should mean to your system.
 
 ## The battle box has its own rules 📺
 
-* **⏱️ It has to be readable in the time it is up.** A message can fit the box perfectly and still be
-  gone before anyone finishes reading it. Fitting and readable are two separate limits, and you
+* **⏱️ It has to be readable in the time it is up.** A message can fit the box perfectly and still
+  be gone before anyone finishes reading it. Fitting and readable are two separate limits, and you
   must hold both.
 * **↩️ Break lines where the sentence breaks.** Never split **Quick Attack** across two lines, and
   never leave a word stranded alone on the second. A badly broken two-line message is measurably

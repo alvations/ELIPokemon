@@ -53,8 +53,8 @@ at) into a **reading comprehension** problem (which they are very good at).
 | Failure mode | retrieves the wrong thing | confidently misremembers |
 
 The decision rule is one sentence: **RAG for what the model should know, fine-tuning for how the
-model should behave.** They are complementary, not competing — a fine-tuned model that follows your
-citation format, retrieving from your corpus, is a common and correct design.
+model should behave.** They are complementary, not competing — a fine-tuned model that follows
+your citation format, retrieving from your corpus, is a common and correct design.
 
 The under-appreciated arguments for RAG are the operational ones: **auditability** (you can show
 the source), **revocability** (delete a document and it is gone, which matters for GDPR and for
@@ -67,19 +67,20 @@ knowledge is in weights).
   quality helps. Most "RAG doesn't work" reports are retrieval failures.
 * **Global questions.** "Summarise the main themes across all 10,000 documents" is not answerable
   by top-5 retrieval. This needs hierarchical summarisation or a graph-based approach.
-* **Multi-hop questions.** "Which of our customers uses the library that had the CVE?" requires two
-  retrieval steps chained; single-shot retrieval fails.
+* **Multi-hop questions.** "Which of our customers uses the library that had the CVE?" requires
+  two retrieval steps chained; single-shot retrieval fails.
 * **Context dilution.** Stuffing 20 chunks in often scores *worse* than 5 good ones — more
   distractors, and the middle of a long context is poorly attended.
 * **Chunk-boundary loss.** The answer spans a boundary and neither chunk contains it whole.
 
 ## Long context vs RAG
 
-With million-token windows, why retrieve? Because RAG is cheaper (you pay for 2k tokens, not 500k),
-faster, auditable, permission-filterable, and — for multi-hop and distractor-heavy tasks —
-frequently *more accurate*, since a focused context beats a diluted one. Long context is the better
-choice when the corpus is small enough to fit and the question genuinely requires the whole thing.
-In practice hybrids win: retrieve widely, then let a long context hold more of what you retrieved.
+With million-token windows, why retrieve? Because RAG is cheaper (you pay for 2k tokens, not
+500k), faster, auditable, permission-filterable, and — for multi-hop and distractor-heavy tasks —
+frequently *more accurate*, since a focused context beats a diluted one. Long context is the
+better choice when the corpus is small enough to fit and the question genuinely requires the whole
+thing. In practice hybrids win: retrieve widely, then let a long context hold more of what you
+retrieved.
 
 ## What an interviewer digs into next
 

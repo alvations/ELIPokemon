@@ -22,17 +22,17 @@ whole of this page.
 
 ## Three ways to make it smaller ⚖️
 
-* **🎓 Let the big one teach it.** Have Mewtwo work through **your** routes — not a generic training
-  set — and drill the small one on what it produced. 📌 This is the strongest lever, because it
-  passes on both the *ability* and **how the big one behaves on your particular problems**.
-  ⚠️ With question 146's warning attached: **the teacher's mistakes become the student's facts.**
-  Check a sample by hand.
+* **🎓 Let the big one teach it.** Have Mewtwo work through **your** routes — not a generic
+  training set — and drill the small one on what it produced. 📌 This is the strongest lever,
+  because it passes on both the *ability* and **how the big one behaves on your particular
+  problems**. ⚠️ With question 146's warning attached: **the teacher's mistakes become the
+  student's facts.** Check a sample by hand.
 * **📦 Compress it** (question 030). Cheap and nearly free of loss. ⚠️ And **check the eye
   separately** — a squashed eye feeds a slightly wrong tile into *everything* downstream, and a
   surprising number of setups never compress the eye at all, or compress it without checking.
-* **✂️ Or make it hold less.** Fewer tiles (question 121), a smaller voice, a smaller eye. Remember
-  the asymmetry from question 165: **cutting tiles saves a great deal; shrinking the voice saves
-  less than its size suggests.**
+* **✂️ Or make it hold less.** Fewer tiles (question 121), a smaller voice, a smaller eye.
+  Remember the asymmetry from question 165: **cutting tiles saves a great deal; shrinking the
+  voice saves less than its size suggests.**
 
 ## One job, done properly 🎯
 
@@ -48,14 +48,15 @@ thing, the way a **Shuckle** built entirely for Defence outlasts things far abov
 ```
 
 📌 The break-even is usually startlingly quick. At real volume, a day of Mewtwo's time plus a
-training run pays for itself in weeks. ⚠️ Teams pay legendary prices for a narrow, high-volume chore
-for **a year** because nobody sat down and did the arithmetic.
+training run pays for itself in weeks. ⚠️ Teams pay legendary prices for a narrow, high-volume
+chore for **a year** because nobody sat down and did the arithmetic.
 
 ## What goes first when you shrink it 📉
 
 Worth knowing **before** you meet it in the field:
 
-* **📝 It gets fussy about how you ask.** Reword the instruction slightly and it does something else.
+* **📝 It gets fussy about how you ask.** Reword the instruction slightly and it does something
+  else.
 * **🖼️ Several pictures at once** (question 124) falls apart much faster than one picture does.
 * **🔤 Reading small print** — ⚠️ **but check this one before blaming the size.** It is very often
   question 121's problem, not a capacity problem, and **walking closer fixes it** where a bigger
@@ -63,8 +64,8 @@ Worth knowing **before** you meet it in the field:
 * **🎚️ It is confidently wrong more often** — the **Confusion** problem from question 132, and it
   matters enormously if you were routing on how sure it said it was.
 * **🚪 And its manners do not always come along.** Caution learned by the teacher transfers
-  **unevenly** through the drilling, so **re-test the refusals** (question 139) rather than assuming
-  they came in the package.
+  **unevenly** through the drilling, so **re-test the refusals** (question 139) rather than
+  assuming they came in the package.
 
 ## Judging it 🏅
 

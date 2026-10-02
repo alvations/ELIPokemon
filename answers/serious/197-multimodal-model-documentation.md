@@ -39,8 +39,8 @@ matter:
   the model is affordable at the user's volume.
 * **Which modalities are actually supported, and to what depth.** "Supports video" may mean
   eight sampled frames (question 126). Say which.
-* **Language coverage of the *vision* path.** OCR and text-in-image performance varies enormously by
-  script and is almost never documented (questions 106, 123).
+* **Language coverage of the *vision* path.** OCR and text-in-image performance varies enormously
+  by script and is almost never documented (questions 106, 123).
 * **Whether the vision path was safety-trained** (question 139), and in which languages
   (question 193).
 * **Training data provenance**: what the vision tower was pretrained on, whether captions were

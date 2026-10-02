@@ -10,20 +10,21 @@ tags: [remote-sensing, multispectral, geospatial, tiling, change-detection, dual
 
 # Satellite and aerial imagery
 
-Remote sensing looks like ordinary vision and violates most of its assumptions. The differences are
-concrete and each one breaks a standard technique.
+Remote sensing looks like ordinary vision and violates most of its assumptions. The differences
+are concrete and each one breaks a standard technique.
 
 ## What is different
 
-* **More than three channels.** Multispectral sensors capture ten-plus bands; hyperspectral capture
-  hundreds. Near-infrared, short-wave infrared and thermal carry most of the signal for vegetation,
-  moisture and materials. A pretrained RGB encoder **discards the informative channels** — this is
-  the single most common mistake, and it is invisible because the model still works, just worse.
+* **More than three channels.** Multispectral sensors capture ten-plus bands; hyperspectral
+  capture hundreds. Near-infrared, short-wave infrared and thermal carry most of the signal for
+  vegetation, moisture and materials. A pretrained RGB encoder **discards the informative
+  channels** — this is the single most common mistake, and it is invisible because the model still
+  works, just worse.
 * **No canonical orientation.** Objects appear at any rotation. Rotation augmentation is not
   optional here, and architectures with rotation equivariance genuinely help.
-* **Scale is known and meaningful.** Ground sample distance is metadata: you know a pixel is 30 cm.
-  Object size in metres is therefore *available*, which is the opposite of question 152's scale
-  ambiguity — and most pipelines throw it away by resizing.
+* **Scale is known and meaningful.** Ground sample distance is metadata: you know a pixel is 30
+  cm. Object size in metres is therefore *available*, which is the opposite of question 152's
+  scale ambiguity — and most pipelines throw it away by resizing.
 * **Enormous images, tiny objects.** A scene is 10,000 pixels square; a vehicle is 20 pixels.
   Tiling with overlap is mandatory (question 121), and objects straddling tile boundaries need
   reconciliation.
@@ -59,10 +60,10 @@ severe: a model trained on one continent's agriculture will not transfer to anot
 
 ## The part that requires a decision
 
-Overhead imagery is **dual-use by construction**. The same building-detection model serves disaster
-response, informal-settlement mapping for service delivery, and surveillance of populations who did
-not consent to being counted. Resolution and revisit rate are now commercially available at levels
-that make individual-scale inference possible.
+Overhead imagery is **dual-use by construction**. The same building-detection model serves
+disaster response, informal-settlement mapping for service delivery, and surveillance of
+populations who did not consent to being counted. Resolution and revisit rate are now commercially
+available at levels that make individual-scale inference possible.
 
 There is no technical control that resolves this. What exists is: being explicit about who the
 system is for, refusing applications that target individuals or groups for harm, respecting

@@ -29,8 +29,8 @@ and the crowd has no idea what's happening.
 Stock tiles for whatever shows up a lot.
 
 `[CHAR]` `[IZARD]` `[SAUR]` `[MON]` `[ITE]` `[MEGA]` `[▁a]` `[▁the]` `[ing]` — plus every single
-letter as a backstop, so **nothing is ever unspellable**. `[MEGA]` earns its place: Mega Charizard,
-Mega Gyarados, Mega Alakazam all reuse it.
+letter as a backstop, so **nothing is ever unspellable**. `[MEGA]` earns its place: Mega
+Charizard, Mega Gyarados, Mega Alakazam all reuse it.
 
 Now `CHARIZARD` is `[CHAR][IZARD]` — two tiles. `BULBASAUR` is `[BULBA][SAUR]`. And "Big Steve"
 is `[Big][▁Ste][ve]`, which is clumsy but *works*, because you kept the letters around.

@@ -16,8 +16,8 @@ Did you need seven decimal places? You did not. **55** would have been fine. Rou
 the book and it becomes a quarter as thick.
 
 Why that matters: the slow part of using a Pokédex isn't the thinking — it's **flipping from
-Bulbasaur to Blissey**. Every single move, you flip the whole book. Make the book a quarter as thick and you flip
-four times faster.
+Bulbasaur to Blissey**. Every single move, you flip the whole book. Make the book a quarter as
+thick and you flip four times faster.
 
 Quantization is a speed trick disguised as a storage trick.
 

@@ -33,13 +33,14 @@ notebooks fit on the desk."
 ## Wall 3: slot numbers past the end of the party 🎫
 
 Your Trainer learned on parties of six — the belt holds six, the PC box is somewhere else. Their
-sense of "slot" was calibrated for six. Hand them Pokémon #847 and they're reading a slot number that has never existed in their life. They can be
-retrained to stretch — but not for free, and not by just asking nicely.
+sense of "slot" was calibrated for six. Hand them Pokémon #847 and they're reading a slot number
+that has never existed in their life. They can be retrained to stretch — but not for free, and not
+by just asking nicely.
 
 ## Wall 4: nobody has ever *played* a 400-turn battle ⏳
 
-The underrated one. Real battles are 20 turns. Even a Toxapex stall war rarely passes 60. There is almost no footage of
-a genuine 400-turn match where turn 380 hinges on something from turn 4.
+The underrated one. Real battles are 20 turns. Even a Toxapex stall war rarely passes 60. There is
+almost no footage of a genuine 400-turn match where turn 380 hinges on something from turn 4.
 
 So even a Trainer *advertised* as handling 400 turns has barely practised on real ones. Their
 long-game training footage is mostly short matches stapled end to end — which teaches them to
@@ -103,6 +104,6 @@ a 20-turn one, and every piece of it is a chance for the Trainer to latch onto t
   the middle is not.
 * **Pull out the relevant turns and hand over just those.** A five-turn briefing usually beats a
   400-turn log. Cheaper, faster, and often more accurate.
-* Test on **your** multi-hop question — *"given the Stealth Rock and the burn, does Charizard still
-  win?"* — not on needle-finding. Needle-finding is a solved score
-  that tells you nothing about whether the Trainer can actually strategise.
+* Test on **your** multi-hop question — *"given the Stealth Rock and the burn, does Charizard
+  still win?"* — not on needle-finding. Needle-finding is a solved score that tells you nothing
+  about whether the Trainer can actually strategise.

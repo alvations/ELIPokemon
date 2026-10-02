@@ -74,7 +74,8 @@ You're teaching it to **apply values it already recognises**, in the moment, wit
 
 Now that it's decent, promote it:
 
-> *"Here are two turns. Which one better satisfies Article 7 — the Double Team, or the Iron Head?"*
+> *"Here are two turns. Which one better satisfies Article 7 — the Double Team, or the Iron
+  Head?"*
 
 It answers. That answer becomes a comparison card. Now you can generate **millions** of cards
 overnight, for free, and train against them exactly as you would with human ones.

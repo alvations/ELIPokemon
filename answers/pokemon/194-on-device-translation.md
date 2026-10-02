@@ -34,16 +34,16 @@ What follows:
 * **📦 Compress hard** (question 030) — ⚠️ and check **per language**, because the small regions
   degrade first and **the overall number will not show it** (question 185).
 * **🔤 The alphabet is the heaviest thing you are carrying.** In a small translator, the table of
-  every possible symbol is often **the single largest part** — so trimming it per language pack is a
-  genuine lever, not a micro-optimisation (questions 102, 112).
+  every possible symbol is often **the single largest part** — so trimming it per language pack is
+  a genuine lever, not a micro-optimisation (questions 102, 112).
 * **🔥 And it gets hot.** Oak's lab never does. Translate steadily for a minute and it slows down —
   so a speed measured on a cold device is **a fiction**. Even a **Rotom** runs down.
 
 ## What you get in exchange, and it is a great deal 🎁
 
-* **🔒 Nothing leaves the device.** For medical, legal, personal and journalistic work this is not a
-  nice extra — it is frequently **the only acceptable design**. 📌 Question 187's constraint about
-  where data may travel, solved by **not moving it at all.**
+* **🔒 Nothing leaves the device.** For medical, legal, personal and journalistic work this is not
+  a nice extra — it is frequently **the only acceptable design**. 📌 Question 187's constraint
+  about where data may travel, solved by **not moving it at all.**
 * **📴 It works with no signal.** Which is the actual use: travelling, out in the field, after a
   disaster, in places the network does not reach. ⚠️ And — not a coincidence — **those are often
   exactly the places whose languages are the least resourced** (question 185). The people with the

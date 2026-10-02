@@ -41,8 +41,8 @@ Everything in video modelling is a way of spending a fixed token budget well. Th
 Sampled frames spliced into a sequence give the model *what* but not reliably *when* or *in what
 order*. Three approaches, cheapest first:
 
-1. **Temporal position encoding.** Give each frame a timestamp embedding, or extend RoPE
-   (question 002) to a third axis — as in M-RoPE, where height, width and time each get part of the
+1. **Temporal position encoding.** Give each frame a timestamp embedding, or extend RoPE (question
+   002) to a third axis — as in M-RoPE, where height, width and time each get part of the
    dimension. Cheap and effective.
 2. **Explicit textual timestamps.** Literally interleave "at 00:14" text tokens between frames.
    Crude, works surprisingly well, makes the model able to *cite* a time.

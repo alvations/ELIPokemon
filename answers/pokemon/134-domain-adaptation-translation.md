@@ -61,8 +61,8 @@ separate specialists to maintain.
 ## The trap: it only has four move slots 🚨
 
 Here is the thing that catches everyone, and Pokémon states it as a hard rule rather than a
-tendency. **The Four-Move Limit.** A Pokémon knows four moves. Teaching it a fifth means one of the
-existing four is **gone**.
+tendency. **The Four-Move Limit.** A Pokémon knows four moves. Teaching it a fifth means one of
+the existing four is **gone**.
 
 ⚠️ So drill a Pokémon relentlessly on Rock-type opponents and it does not simply become better at
 Rock. It **forgets things**. And what it forgets is the ordinary, general-purpose material — which

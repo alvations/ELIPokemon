@@ -29,13 +29,14 @@ size does.
               accent and background all survive into the reasoning
 ```
 
-Cascaded is easy to build from parts you already have, easy to debug (you can read the transcript),
-easy to moderate (screen the text), and it **throws away everything that is not words**. Latency
-compounds across three models, typically 1-3 seconds before the first sound comes back.
+Cascaded is easy to build from parts you already have, easy to debug (you can read the
+transcript), easy to moderate (screen the text), and it **throws away everything that is not
+words**. Latency compounds across three models, typically 1-3 seconds before the first sound comes
+back.
 
 End-to-end keeps the paralinguistics — *how* something was said — and can respond in kind. It is
-harder to train, harder to inspect, and harder to make safe, because the thing you must moderate is
-no longer text.
+harder to train, harder to inspect, and harder to make safe, because the thing you must moderate
+is no longer text.
 
 ## How audio becomes tokens
 
@@ -52,8 +53,8 @@ Two token families matter and are frequently confused:
 
 Most systems model semantic tokens with the LLM and use acoustic tokens for synthesis, because
 modelling everything at acoustic rate is prohibitively long. The frame rate is the design
-constraint: 50 Hz across 8 codebooks is 400 tokens per second of audio, so a one-minute exchange is
-24,000 tokens before anyone has said anything interesting.
+constraint: 50 Hz across 8 codebooks is 400 tokens per second of audio, so a one-minute exchange
+is 24,000 tokens before anyone has said anything interesting.
 
 ## Duplex conversation is the hard part
 
@@ -71,21 +72,21 @@ and small-first-chunk synthesis matter more here than raw quality.
 
 ## Safety, specifically
 
-* **Voice cloning.** Modern systems clone a voice from seconds of audio. Consent, watermarking, and
-  refusal to clone without verification are baseline requirements, not features.
+* **Voice cloning.** Modern systems clone a voice from seconds of audio. Consent, watermarking,
+  and refusal to clone without verification are baseline requirements, not features.
 * **Moderation moves.** In a cascade you screen text. End-to-end, harmful content may never exist
   as text, so you need audio-domain classification or an internal transcript path purely for
   safety.
-* **Speaker inference.** Audio leaks age, gender, health, region and emotional state. A system that
-  infers and acts on those is making decisions nobody asked it to make.
+* **Speaker inference.** Audio leaks age, gender, health, region and emotional state. A system
+  that infers and acts on those is making decisions nobody asked it to make.
 
 ## Evaluation
 
 WER on the ASR path is necessary and wildly insufficient — it measures the words and this whole
 architecture exists for what is not the words. Add: **latency distribution** (p50 and p95 to first
 sound), **interruption handling**, **prosodic appropriateness**, **speaker consistency** across a
-session, and **MOS-style human listening tests**. Report the gap between cascaded and end-to-end on
-tasks where tone carries the meaning — sarcasm, questions marked only by intonation, emotional
+session, and **MOS-style human listening tests**. Report the gap between cascaded and end-to-end
+on tasks where tone carries the meaning — sarcasm, questions marked only by intonation, emotional
 support — because that is the only place the extra complexity pays for itself.
 
 ## What an interviewer digs into next

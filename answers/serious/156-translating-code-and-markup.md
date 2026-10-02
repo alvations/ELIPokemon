@@ -42,8 +42,8 @@ the translation — you have broken the product.
 This is what XLIFF and every commercial localisation pipeline do. Two things it does not solve:
 
 * **Reordering.** The markers must be allowed to move — target word order differs — but the model
-  may drop or duplicate them. **Validate after restoration**: same multiset of markers in, same out.
-  This check is cheap and catches most damage.
+  may drop or duplicate them. **Validate after restoration**: same multiset of markers in, same
+  out. This check is cheap and catches most damage.
 * **Tags with translatable attributes.** `<a title="Save file">` has translatable content *inside*
   a protected element. Naive protection freezes it and it ships in English.
 

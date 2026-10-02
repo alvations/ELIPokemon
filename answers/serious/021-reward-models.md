@@ -19,7 +19,8 @@ them.
 Take the SFT model, replace the language-modelling head with a scalar head reading the final
 token's hidden state, and train on pairwise comparisons with the **Bradley-Terry** loss:
 
-$$\mathcal{L} = -\mathbb{E}_{(x,y_w,y_l)}\left[\log \sigma\big(r_\theta(x,y_w) - r_\theta(x,y_l)\big)\right]$$
+$$\mathcal{L} = -\mathbb{E}_{(x,y_w,y_l)}\left[\log \sigma\big(r_\theta(x,y_w) -
+r_\theta(x,y_l)\big)\right]$$
 
 ```
         prompt x + response y

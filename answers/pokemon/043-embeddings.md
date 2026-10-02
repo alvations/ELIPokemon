@@ -12,13 +12,14 @@ tags: [embeddings, contrastive, infonce, matryoshka, cosine-similarity]
 
 Imagine a giant map where **similar Pokémon stand near each other.**
 
-Charmander, Charmeleon and Charizard cluster together. Squirtle is way over on the other side, near
-Wartortle. Pikachu and Raichu are a pair. Ditto is off on its own being weird.
+Charmander, Charmeleon and Charizard cluster together. Squirtle is way over on the other side,
+near Wartortle. Pikachu and Raichu are a pair. Ditto is off on its own being weird.
 
 Nobody drew this map. It emerged from what the Pokémon *are*.
 
 An embedding is a Pokémon's **coordinates on that map**. And once everything has coordinates,
-"what's similar to this?" becomes "what's *nearby*?" — which is a question you can answer instantly.
+"what's similar to this?" becomes "what's *nearby*?" — which is a question you can answer
+instantly.
 
 ## Why this beats keyword matching 🔍
 
@@ -64,8 +65,8 @@ Every comparison is a lesson, and they're nearly free — you're already holding
 
 The big one.
 
-Teaching *"how do I heal?" is closer to "Pokémon Centers heal you" than to "Mew is in the truck"* is
-**worthless**. Of course it is. Those aren't remotely similar, and the map already knew.
+Teaching *"how do I heal?" is closer to "Pokémon Centers heal you" than to "Mew is in the truck"*
+is **worthless**. Of course it is. Those aren't remotely similar, and the map already knew.
 
 Teaching *"how do I heal?" is closer to "Pokémon Centers heal you" than to "Potions restore HP but
 cost money"* — **that's a real lesson.** Both are about healing. Only one answers the question.
@@ -101,14 +102,14 @@ same place. The map has no real notion of "not."
 **🔢 Exact codes.** Looking for item ID `TM24`? The map thinks `TM24` and `TM25` are basically the
 same thing. They are not.
 
-Both failures point the same way: **keep a plain keyword search alongside the map.** The map handles
-meaning; keyword handles exactness. You need both, and running only one is the most common design
-mistake there is.
+Both failures point the same way: **keep a plain keyword search alongside the map.** The map
+handles meaning; keyword handles exactness. You need both, and running only one is the most common
+design mistake there is.
 
 ## A neat trick 🪆
 
 Some maps are built so that **the first few coordinates alone still work**. Use just the first
-quarter of each Pokémon's coordinates for a lightning-fast rough sweep, then the full coordinates to
-rank the survivors precisely.
+quarter of each Pokémon's coordinates for a lightning-fast rough sweep, then the full coordinates
+to rank the survivors precisely.
 
 Quarter the storage, a fraction of the search time, barely any accuracy lost.

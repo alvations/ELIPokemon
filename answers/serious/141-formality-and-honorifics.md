@@ -55,8 +55,8 @@ option**; declining to choose just means choosing by accident.
   decouples the concern and lets you re-render one translation at several levels.
 
 Whatever you choose, **decide once per document and hold it** (question 131). A message that opens
-with `vous` and closes with `tu` reads as either careless or as a deliberate shift in relationship,
-and neither was intended.
+with `vous` and closes with `tu` reads as either careless or as a deliberate shift in
+relationship, and neither was intended.
 
 ## The metadata you should be passing and probably are not
 

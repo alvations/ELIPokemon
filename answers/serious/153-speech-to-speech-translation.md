@@ -42,8 +42,8 @@ Three levels, and it is worth being explicit about which you are building:
 * **Voice matching.** A voice with the speaker's rough characteristics (age, pitch range, gender
   presentation) but not their identity.
 * **Voice cloning.** The output sounds like the speaker. Powerful, and it is a **consent and
-  provenance problem before it is an engineering one** (question 138): the speaker must have agreed,
-  the output should be watermarked, and the system must refuse voices it cannot verify.
+  provenance problem before it is an engineering one** (question 138): the speaker must have
+  agreed, the output should be watermarked, and the system must refuse voices it cannot verify.
 
 Prosody transfer is a related but separate problem: carrying emphasis, pace and emotion across
 languages where the prosodic systems differ. A flat translation of an emphatic sentence is a
@@ -55,8 +55,8 @@ mistranslation of it, and no text metric will notice.
   (question 144). For live translation this compounds with latency (question 143); for anything
   aligned to video it is a hard constraint (question 154).
 * **Errors compound across three stages.** An ASR error becomes a confident mistranslation becomes
-  fluent, well-articulated nonsense. Nothing downstream can detect it, because each stage trusts its
-  input.
+  fluent, well-articulated nonsense. Nothing downstream can detect it, because each stage trusts
+  its input.
 * **Disfluency.** Real speech has restarts and fillers. Translating them literally is wrong;
   deleting them silently can remove meaning (a hesitation before "yes" is information).
 * **Code-switching** within an utterance (question 107) breaks systems that commit to one source

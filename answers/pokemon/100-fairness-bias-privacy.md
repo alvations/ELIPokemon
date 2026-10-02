@@ -10,8 +10,8 @@ tags: [fairness, bias, privacy, differential-privacy, impossibility, memorisatio
 
 # Fairness and privacy: judging Trainers, and keeping their secrets
 
-You've built a system that predicts **which Trainers will make it to the Indigo Plateau.** Gyms use
-it to decide who gets sponsorship.
+You've built a system that predicts **which Trainers will make it to the Indigo Plateau.** Gyms
+use it to decide who gets sponsorship.
 
 You need it to be **fair.** Which sounds simple, and is the hardest thing on this page.
 
@@ -29,15 +29,15 @@ You need it to be **fair.** Which sounds simple, and is the hardest thing on thi
 
 > 🚨 **These are mathematically impossible to satisfy at once.**
 
-Not "hard." Not "expensive." **Proven impossible** — unless every region has an identical underlying
-success rate, or your system is literally perfect. Neither will ever be true.
+Not "hard." Not "expensive." **Proven impossible** — unless every region has an identical
+underlying success rate, or your system is literally perfect. Neither will ever be true.
 
-📌 So *"make it fair"* is **not a well-posed request.** Somebody has to choose **which** fairness you
-mean, and that is a decision about **values**, not a decision about code.
+📌 So *"make it fair"* is **not a well-posed request.** Somebody has to choose **which** fairness
+you mean, and that is a decision about **values**, not a decision about code.
 
-There was a famous public argument where one side said a system was unfair (unequal wrong-rejection
-rates) and the other said it was fair (honest numbers). **Both were correct.** They were measuring
-different things, and no amount of engineering reconciles them.
+There was a famous public argument where one side said a system was unfair (unequal
+wrong-rejection rates) and the other said it was fair (honest numbers). **Both were correct.**
+They were measuring different things, and no amount of engineering reconciles them.
 
 The right move is to ask: **what does a mistake actually cost here?**
 
@@ -73,9 +73,9 @@ Different harms. Different fairness. Choose deliberately, write down why.
 
 **📌 Deleting "region" does NOT fix this.**
 
-Two reasons. The proxies remain — hometown alone reconstructs it. And worse: **you've destroyed your
-ability to check.** You can no longer measure whether you're being unfair to Alola, because you threw
-away the field that would tell you.
+Two reasons. The proxies remain — hometown alone reconstructs it. And worse: **you've destroyed
+your ability to check.** You can no longer measure whether you're being unfair to Alola, because
+you threw away the field that would tell you.
 
 📌 You usually need the attribute **to audit**, even when the model doesn't use it.
 
@@ -83,8 +83,8 @@ away the field that would tell you.
 
 This is not theoretical. **Trainers reproduce their training footage verbatim.**
 
-Show a Trainer someone's private team sheet enough times and it will recite it back to a stranger who
-asks the right question.
+Show a Trainer someone's private team sheet enough times and it will recite it back to a stranger
+who asks the right question.
 
 **The single biggest fix is the dullest: 🗑️ remove duplicates.**
 
@@ -99,8 +99,8 @@ Highest-value privacy work there is, and it's tidying.
 **🎲 The rigorous version: add deliberate noise.**
 
 Train in a way where **any single Trainer's data could be removed and the result would look
-essentially the same.** That's a real, provable guarantee — nobody can determine whether a specific
-Trainer was in your footage, because their presence genuinely didn't change anything.
+essentially the same.** That's a real, provable guarantee — nobody can determine whether a
+specific Trainer was in your footage, because their presence genuinely didn't change anything.
 
 ⚠️ And it **costs accuracy.** Genuinely. Turn the guarantee up and quality goes down.
 
@@ -120,8 +120,8 @@ Above every technique on this page:
        Alola: 61%."                      ← THERE it is
 ```
 
-The aggregate is where every failure hides, because the under-represented group is by definition too
-small to move it.
+The aggregate is where every failure hides, because the under-represented group is by definition
+too small to move it.
 
 **Break it down. Publish it. Look at it.** That one habit catches more real harm than every clever
 technique combined.

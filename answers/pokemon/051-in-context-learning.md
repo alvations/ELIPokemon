@@ -22,8 +22,8 @@ You want your Trainer to rate teams. You don't send it anywhere. You just show i
 
 And it says **"A tier."** Correctly.
 
-No camp. No held item. No training of any kind. Three examples in the conversation and it's doing a
-job it wasn't doing thirty seconds ago.
+No camp. No held item. No training of any kind. Three examples in the conversation and it's doing
+a job it wasn't doing thirty seconds ago.
 
 ## The experiment that changed how people think about this 🤯
 
@@ -43,7 +43,8 @@ So it was **not learning from your examples.** If it were, garbage in would mean
 
 ## What the examples are actually for 🗝️
 
-Your Trainer **already knew how to rate teams.** It watched a million battles at the Battle Tower. Team rating was in there the whole time.
+Your Trainer **already knew how to rate teams.** It watched a million battles at the Battle Tower.
+Team rating was in there the whole time.
 
 Your three examples aren't teaching. They're **pointing**:
 
@@ -52,8 +53,8 @@ Your three examples aren't teaching. They're **pointing**:
 * 📐 *"The shape is: team, then arrow, then letter."*
 * 🎯 *"Of the thousand things you know how to do with a team, do THIS one."*
 
-You're not teaching a skill. You're **selecting one from a menu it already has**, and specifying the
-format you want it back in.
+You're not teaching a skill. You're **selecting one from a menu it already has**, and specifying
+the format you want it back in.
 
 That's why the labels can be wrong. Wrong labels still show the shape, still show the label set,
 still point at the right job.
@@ -87,8 +88,8 @@ found.
 
 * 📐 **Format matters more than correctness.** Same separators, same casing, same shape in every
   example. Inconsistent formatting is the most common cause of a few-shot prompt behaving oddly.
-* 🎨 **Show the exact output shape you want.** This is what examples are genuinely best at. Want JSON?
-  Show JSON. Don't describe it — show it.
+* 🎨 **Show the exact output shape you want.** This is what examples are genuinely best at. Want
+  JSON? Show JSON. Don't describe it — show it.
 * 🏷️ **Include every label.** If "C tier" exists and no example shows one, your Trainer may not
   believe it's available.
 * 🔚 **The last example counts most.** Recency. If your results shift between runs of the same

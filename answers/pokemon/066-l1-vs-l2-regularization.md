@@ -66,8 +66,8 @@ Because L2's fee shrinks *with* the Pokémon, it can never quite finish the job.
 
 ## Which do you want? 🎯
 
-**✂️ L1 when you need to know WHO matters.** *"Which of these two hundred factors actually predict a
-win?"* L1 hands you a short list. That's a real answer you can act on.
+**✂️ L1 when you need to know WHO matters.** *"Which of these two hundred factors actually predict
+a win?"* L1 hands you a short list. That's a real answer you can act on.
 
 **🪶 L2 when you want a robust Trainer.** No sharp answer about who matters, and a Trainer far less
 likely to be caught out by one weird match.

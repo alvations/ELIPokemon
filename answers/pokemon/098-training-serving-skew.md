@@ -12,8 +12,8 @@ tags: [training-serving-skew, feature-store, point-in-time, leakage, mlops]
 
 Your Trainer was excellent in practice. In real tournaments it's mediocre.
 
-The Trainer didn't change. **The scoreboard did** — and nobody noticed, because nothing ever errors.
-It just quietly gets things wrong.
+The Trainer didn't change. **The scoreboard did** — and nobody noticed, because nothing ever
+errors. It just quietly gets things wrong.
 
 ## Four ways this happens 🔍
 
@@ -52,8 +52,8 @@ Same question, different answers.
    what was known in January.
 ```
 
-Your Trainer learned to lean on a number that **cannot exist** at tournament time. And in practice,
-it was **magnificent** — it was quietly reading the future.
+Your Trainer learned to lean on a number that **cannot exist** at tournament time. And in
+practice, it was **magnificent** — it was quietly reading the future.
 
 📌 **This is the most damaging one and the hardest to spot**, because the symptom is *excellent
 practice results.* A suspiciously good practice score is a bug report.
@@ -61,9 +61,8 @@ practice results.* A suspiciously good practice score is a bug report.
 **4. 🔄 Your Trainer changed the world it learns from.**
 
 Your Trainer avoids Toxapex, because it predicts those matchups are losses. So those matchups
-**never get played**, so you
-never find out if it was right, so next season's training data contains only the matchups it already
-liked.
+**never get played**, so you never find out if it was right, so next season's training data
+contains only the matchups it already liked.
 
 It's now learning from a world it created.
 

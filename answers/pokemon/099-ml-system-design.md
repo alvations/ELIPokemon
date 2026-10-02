@@ -10,8 +10,8 @@ tags: [system-design, recommender, retrieval-ranking, two-tower, cold-start]
 
 # Designing "which Pokémon should this Trainer catch next?"
 
-A hundred million Pokémon in the world. Ten million Trainers. **Recommend six.** In under a tenth of
-a second.
+A hundred million Pokémon in the world. Ten million Trainers. **Recommend six.** In under a tenth
+of a second.
 
 ## Step 1: ask what you're actually optimising 🎯
 
@@ -24,13 +24,12 @@ Do **not** start building. Start here — this is what's really being tested.
 * 😊 Enjoying the game?
 * 💰 Spending money on Poké Balls?
 
-**These give completely different answers.** A system tuned for "wins the next battle" recommends the
-same Garchomp, Ferrothorn and Toxapex to everyone, forever. Great numbers. And every Trainer's
-team is
-identical, nobody's having fun, and half of them quit by spring.
+**These give completely different answers.** A system tuned for "wins the next battle" recommends
+the same Garchomp, Ferrothorn and Toxapex to everyone, forever. Great numbers. And every Trainer's
+team is identical, nobody's having fun, and half of them quit by spring.
 
-Then ask: **how many** Pokémon and Trainers? **How fast** must it answer? **What do you know** about
-brand-new Trainers?
+Then ask: **how many** Pokémon and Trainers? **How fast** must it answer? **What do you know**
+about brand-new Trainers?
 
 ## Step 2: the funnel 🔻
 
@@ -63,21 +62,21 @@ stages, spending more effort as the pile shrinks.**
         ✅ 6 shown
 ```
 
-📌 **Rough sweep: never miss the right one.** Careful ranking: **get the order right.** Two different
-jobs — trying to do both in one stage is why single-stage systems disappoint.
+📌 **Rough sweep: never miss the right one.** Careful ranking: **get the order right.** Two
+different jobs — trying to do both in one stage is why single-stage systems disappoint.
 
 ## Step 3: how the rough sweep works 🗺️
 
 Put every Pokémon on a map — Charmander beside Charmeleon, Toxapex beside Ferrothorn. Put every
 **Trainer** on the *same* map, near the Pokémon they'd like.
 
-Then recommending is just: **who's standing near this Trainer?** Instant, even with a hundred million
-of them.
+Then recommending is just: **who's standing near this Trainer?** Instant, even with a hundred
+million of them.
 
 ⚠️ The limitation, and it's the reason stage 2 exists: **the Trainer's position and the Pokémon's
-position are worked out separately, before they ever meet.** So the map can't notice *"this Trainer
-already has three Fire types, so a fourth is redundant."* That requires looking at both together —
-which is exactly what the careful ranking stage does.
+position are worked out separately, before they ever meet.** So the map can't notice *"this
+Trainer already has three Fire types, so a fourth is redundant."* That requires looking at both
+together — which is exactly what the careful ranking stage does.
 
 ## Step 4: training it 🏋️
 
@@ -89,8 +88,8 @@ You know what Trainers **caught**. You need examples of what they **wouldn't** c
 * 👀 **Shown but not caught** → far more informative. They *saw* it and passed.
 * ⚠️ But that's biased: it only contains things your **current** system chose to show.
 
-**📍 Correct for position.** The Pokémon shown **first** gets caught most — because it was first, not
-because it was best. Fail to correct for this and you'll learn that position one is magic.
+**📍 Correct for position.** The Pokémon shown **first** gets caught most — because it was first,
+not because it was best. Fail to correct for this and you'll learn that position one is magic.
 
 **🎭 Predict several things at once.** Will they catch it? *Use* it? Still be using it next month?
 
@@ -106,9 +105,9 @@ first five minutes.
 
 **🎲 And deliberately show things you're unsure about.**
 
-Recommend **only** what you're confident about, and you never learn anything new — the only Pokémon
-that get caught are ones you already recommended, so tomorrow's training data confirms today's
-beliefs.
+Recommend **only** what you're confident about, and you never learn anything new — the only
+Pokémon that get caught are ones you already recommended, so tomorrow's training data confirms
+today's beliefs.
 
 📌 **Spend a small budget on genuine exploration**, or your system slowly narrows to a handful of
 Pokémon and forgets the rest of the world exists.

@@ -45,8 +45,9 @@ Each of these is cheap and each converts an ambiguous result into an attributabl
 
 ## Build it in this order
 
-1. **Twenty examples from real traffic, labelled by hand.** Before anything else. You will learn more
-   about your actual failure distribution here than from any benchmark, and it takes an afternoon.
+1. **Twenty examples from real traffic, labelled by hand.** Before anything else. You will learn
+   more about your actual failure distribution here than from any benchmark, and it takes an
+   afternoon.
 2. **A hundred more, stratified** across the grid above. This is the set you make decisions with.
 3. **The controls.** Blind, resolution sweep, text-only.
 4. **Adversarial and safety items** (question 139), on your actual deployment surface.

@@ -34,18 +34,18 @@ Pokédex is not being inconsistent. Only one of those two paths was ever trained
 
 ## Four ways in 🎯
 
-**1. 🏷️ Just write it down and photograph it.** No cleverness at all. Put the request on a note and
-hold up the note. It never appears in the text at all, so anything watching the text sees a
+**1. 🏷️ Just write it down and photograph it.** No cleverness at all. Put the request on a note
+and hold up the note. It never appears in the text at all, so anything watching the text sees a
 perfectly innocent conversation.
 
 The same trick flips what things *are*. Stick a label reading **"Poké Ball"** on a Voltorb and a
 Pokédex will read the label and tell you it is a Poké Ball, because it reads writing in pictures
 and takes it **very** seriously.
 
-**2. 🌀 Change the picture in ways nobody can see.** **Mimikyu** is the lesson here. Its disguise is
-a rag with a face drawn on it — genuinely, obviously a rag, fooling **nobody** who looks at it. And
-it works anyway, because the thing being fooled is not looking the way you are. An attack does not
-have to be convincing to a Trainer. It only has to be convincing to the eye.
+**2. 🌀 Change the picture in ways nobody can see.** **Mimikyu** is the lesson here. Its disguise
+is a rag with a face drawn on it — genuinely, obviously a rag, fooling **nobody** who looks at it.
+And it works anyway, because the thing being fooled is not looking the way you are. An attack does
+not have to be convincing to a Trainer. It only has to be convincing to the eye.
 
 **3. 🧩 Split it in two.** Innocent words. Innocent picture. Harmful only once you put them
 together. Anything checking the words alone sees nothing wrong, and anything checking the picture
@@ -67,10 +67,10 @@ central unsolved problem, and it gets worse with every new thing you let it touc
 ## Defences, honestly 🛡️
 
 * **🔍 Read the writing in the picture out loud, then check it** with the same care you would apply
-  to anything typed. Cheap, catches the note-in-a-photo, and beaten by anyone who writes in another
-  alphabet or a strange font.
-* **🎓 Teach it manners through the *eye*.** Show it disguised requests during training and teach it
-  to refuse those too. The most durable fix, and the least used, because building that pile of
+  to anything typed. Cheap, catches the note-in-a-photo, and beaten by anyone who writes in
+  another alphabet or a strange font.
+* **🎓 Teach it manners through the *eye*.** Show it disguised requests during training and teach
+  it to refuse those too. The most durable fix, and the least used, because building that pile of
   examples is genuine work.
 * **📤 Watch what it *does*, not what it saw.** Whatever came in, the harmful thing has to come out
   somewhere. Checking the exit is modality-blind by construction, which is exactly its strength.
@@ -80,18 +80,18 @@ central unsolved problem, and it gets worse with every new thing you let it touc
   genuinely destroys the fragile invisible tampering, and it is **no protection at all** against a
   note somebody simply wrote down.
 * **🔐 For anything that acts: only the Trainer gives orders.** A note found in a photograph is
-  *evidence*. It is never a **command**. Make that a rule of the architecture rather than something
-  you hope the Pokédex works out, require a Trainer to confirm anything consequential, and hand it
-  only the keys this errand needs. **This is the one defence that still holds after the Pokédex has
-  already been fooled.**
+  *evidence*. It is never a **command**. Make that a rule of the architecture rather than
+  something you hope the Pokédex works out, require a Trainer to confirm anything consequential,
+  and hand it only the keys this errand needs. **This is the one defence that still holds after
+  the Pokédex has already been fooled.**
 
 ## Measuring it 📏
 
-* ⚖️ **Ask the same forbidden thing three ways** — typed, photographed, and split across both — and
-  write down the three refusal rates. The gap between them **is** your problem, as a number.
+* ⚖️ **Ask the same forbidden thing three ways** — typed, photographed, and split across both —
+  and write down the three refusal rates. The gap between them **is** your problem, as a number.
 * 🧪 **Plant notes in realistic places**: floor plans, receipts, screenshots, a **Town Map**.
 * 🙅 **And watch the other direction too.** A Pokédex so wary that it refuses to look at anything
-  with writing on it cannot read a price tag in the **Celadon Department Store**. Both failures are
-  real, and tightening one without watching the other reliably ruins it.
+  with writing on it cannot read a price tag in the **Celadon Department Store**. Both failures
+  are real, and tightening one without watching the other reliably ruins it.
 * 🎭 **Red-team the thing you actually shipped.** Everything you learned attacking it through the
   keyboard tells you nothing about the door you just opened.

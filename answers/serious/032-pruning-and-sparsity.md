@@ -30,12 +30,12 @@ scattered zeros cannot be skipped.
 ```
 
 **Unstructured** pruning gives the best accuracy per parameter removed — you delete exactly the
-least important weights. But a GPU matmul reads dense tiles; a matrix that is 90% zeros still costs
-a full dense matmul unless you switch to a sparse format, and sparse formats have index overhead,
-irregular memory access, and poor tensor-core utilisation. Below roughly 95–99% sparsity, sparse
-kernels are *slower* than dense ones. This is the whole answer to the question: the win is
-theoretical FLOPs, and the loss is memory-access regularity, which is what actually determines
-speed.
+least important weights. But a GPU matmul reads dense tiles; a matrix that is 90% zeros still
+costs a full dense matmul unless you switch to a sparse format, and sparse formats have index
+overhead, irregular memory access, and poor tensor-core utilisation. Below roughly 95–99%
+sparsity, sparse kernels are *slower* than dense ones. This is the whole answer to the question:
+the win is theoretical FLOPs, and the loss is memory-access regularity, which is what actually
+determines speed.
 
 **2:4 semi-structured** sparsity is the compromise: exactly two of every four contiguous weights
 are zero. NVIDIA Ampere and later implement this in the tensor cores with a compressed format and
@@ -51,8 +51,8 @@ kernels. It costs the most accuracy per parameter removed, and it is what people
 * **Magnitude** — prune the smallest `|w|`. Simple, surprisingly strong baseline.
 * **Wanda** ([Sun et al., 2023](https://arxiv.org/abs/2306.11695)) — score by `|w| · ‖x‖`, i.e.
   weight magnitude times input activation norm. One forward pass of calibration data, no
-  retraining, and it works well at 50% for LLMs. The key insight is the same as AWQ's: what matters
-  is a weight's *effect*, not its size.
+  retraining, and it works well at 50% for LLMs. The key insight is the same as AWQ's: what
+  matters is a weight's *effect*, not its size.
 * **SparseGPT** — layerwise second-order reconstruction (the same machinery as GPTQ), updating
   remaining weights to compensate for pruned ones. Best one-shot results, more expensive.
 * **Movement pruning** — prune by how weights move during fine-tuning, better suited to transfer.
@@ -67,8 +67,8 @@ early-training checkpoint rather than initialisation). Cite it as theory, not as
 
 ## Where the field actually landed
 
-For LLMs, pruning has been the *least* successful compression technique. Quantization gives 4× with
-almost no quality loss and no kernel exotica; 50% unstructured pruning gives no speedup, and
+For LLMs, pruning has been the *least* successful compression technique. Quantization gives 4×
+with almost no quality loss and no kernel exotica; 50% unstructured pruning gives no speedup, and
 structured pruning at 50% costs real quality. The practical uses today are 2:4 sparsity where
 hardware supports it, structured depth/width pruning followed by distillation-based recovery (the
 Minitron-style recipe), and MoE — which is arguably sparsity done right, since it is *activation*

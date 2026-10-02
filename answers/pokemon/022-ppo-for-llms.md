@@ -45,8 +45,8 @@ things less bad than expected. Without the "what did we expect" baseline you'd p
 happening during a loss.
 
 So you need a second Pokémon — a Chansey on the bench with a clipboard — whose only job is
-**predicting how the match is going** at each turn. Not to play — just to say "from here, we're looking at about a 6." That prediction is what
-every turn gets measured against.
+**predicting how the match is going** at each turn. Not to play — just to say "from here, we're
+looking at about a 6." That prediction is what every turn gets measured against.
 
 ## The clip: don't overreact to one match 🛑
 
@@ -95,9 +95,10 @@ weirdness gets caught the moment it happens rather than being averaged into a fi
   match-predictor.
 * ⏳ **Most of your time is spent playing matches**, not learning from them. You're running a
   tournament inside a training session.
-* 🎛️ **Six dials, all interacting** — more dials than a Pokémon has stats. How tight the leash, how
-  big the clip, how far ahead the predictor looks, how many times you re-study each match. Nudge one and the run either learns
-  nothing or falls apart. There's no principled way to set them; it's lore.
+* 🎛️ **Six dials, all interacting** — more dials than a Pokémon has stats. How tight the leash,
+  how big the clip, how far ahead the predictor looks, how many times you re-study each match.
+  Nudge one and the run either learns nothing or falls apart. There's no principled way to set
+  them; it's lore.
 * 🔮 **The match-predictor is genuinely hard to train.** "How will this go?" from a half-finished
   battle is a legitimately difficult question, and if it predicts badly, every turn gets graded
   against a bad baseline and the whole thing wobbles.

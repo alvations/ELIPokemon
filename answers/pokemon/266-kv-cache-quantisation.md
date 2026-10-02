@@ -50,9 +50,10 @@ In **Kanto** that point arrives absurdly early, and you can prove it to the byte
 
 Two things fall out that surprise people. **The eighth Pokémon you ever box outweighs your whole
 six** — **Charizard**, **Snorlax**, **Lapras**, **Alakazam**, **Tauros** and **Dragonite** put
-together — and eight is nothing, you have caught eight before **Mt. Moon**. And the boxes run out at 240
-long before anything else gives way, so the real question was never "is the pile bigger than the
-six". It was "how many more **Caterpie** can I keep", and only the pile moves that number.
+together — and eight is nothing, you have caught eight before **Mt. Moon**. And the boxes run out
+at 240 long before anything else gives way, so the real question was never "is the pile bigger
+than the six". It was "how many more **Caterpie** can I keep", and only the pile moves that
+number.
 
 ## Three ways to write less down, in increasing order of loss
 

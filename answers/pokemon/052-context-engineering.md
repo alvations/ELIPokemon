@@ -36,9 +36,9 @@ matters far more than what you said at the start.
 
 ## Why this is the hard part 😰
 
-**🌫️ A full bag makes a worse Trainer.** Not "slower" — **worse**. Your standing orders from turn 1
-are competing with three hundred pages of accumulated notes. Stuff in the middle gets skimmed. Every
-extra page is another thing to be distracted by.
+**🌫️ A full bag makes a worse Trainer.** Not "slower" — **worse**. Your standing orders from turn
+1 are competing with three hundred pages of accumulated notes. Stuff in the middle gets skimmed.
+Every extra page is another thing to be distracted by.
 
 **💸 Carrying costs money and time**, linearly. A stuffed bag isn't free just because it closes.
 
@@ -58,20 +58,20 @@ risky, because the detail you summarised away
 might have been the one that mattered.
 
 **🗒️ Keep a plan on a separate sheet.** Don't make your Trainer *remember* the plan from the log —
-have them **write it down and keep updating it.** It survives every condensing, it's short, and you
-can read it yourself to see what they think they're doing.
+have them **write it down and keep updating it.** It survives every condensing, it's short, and
+you can read it yourself to see what they think they're doing.
 
 **🔍 Carry the index, not the library.** Don't stuff the full Toxapex, Ferrothorn and Tapu Fini
 pages in the bag. Carry the *list* and fetch one when you actually need it. Exactly how a person
 works with a filing
 cabinet.
 
-**✂️ Cap what comes back.** Any check that could return fifty pages should return **one page and an
-offer to show more.** Non-negotiable.
+**✂️ Cap what comes back.** Any check that could return fifty pages should return **one page and
+an offer to show more.** Non-negotiable.
 
-**🧑‍🤝‍🧑 Send someone else to do the digging.** Best trick there is. Send a scout off to investigate
-with their *own* empty bag. They read forty pages, work it out, and come back with **one sentence**.
-Your Trainer never sees the forty pages. Their bag stays clean.
+**🧑‍🤝‍🧑 Send someone else to do the digging.** Best trick there is. Send a scout off to
+investigate with their *own* empty bag. They read forty pages, work it out, and come back with
+**one sentence**. Your Trainer never sees the forty pages. Their bag stays clean.
 
 **📌 Put the unchanging stuff first.** Standing orders, then item list, then the variable material.
 Anything that's identical every battle can be **pre-packed once** and reused — but only if it's at
@@ -86,5 +86,5 @@ distinct items beats a comprehensive kit.
 
 > **Find the smallest set of genuinely useful pages that gets the job done.**
 
-Not "the bag holds three hundred pages, so pack three hundred." Every page costs money, costs time,
-and — the one people miss — **steals attention from the pages that mattered.**
+Not "the bag holds three hundred pages, so pack three hundred." Every page costs money, costs
+time, and — the one people miss — **steals attention from the pages that mattered.**

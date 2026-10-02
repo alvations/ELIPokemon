@@ -77,7 +77,8 @@ requirement is how you build something nobody is willing to sit next to.
 Ego4D-style benchmarks cover episodic memory, hands-and-objects, and forecasting. Beyond accuracy,
 report **latency per frame**, **power draw** (the actual constraint on a wearable), **memory
 footprint growth over an 8-hour session**, and **false-recall rate** — a system that confidently
-answers "on the kitchen table" about keys it never saw is question 122's failure with higher stakes.
+answers "on the kitchen table" about keys it never saw is question 122's failure with higher
+stakes.
 
 ## What an interviewer digs into next
 

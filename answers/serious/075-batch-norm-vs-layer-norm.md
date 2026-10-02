@@ -10,8 +10,8 @@ tags: [batchnorm, layernorm, groupnorm, normalisation, batch-dependence]
 
 # BatchNorm vs LayerNorm
 
-Both normalise activations to zero mean and unit variance, then apply learned scale and shift. They
-differ in **which axis the statistics are computed over**, and that single choice determines
+Both normalise activations to zero mean and unit variance, then apply learned scale and shift.
+They differ in **which axis the statistics are computed over**, and that single choice determines
 everything else.
 
 ```
@@ -48,24 +48,25 @@ everything else.
 | Extra regularisation effect | ✅ from batch noise | ❌ |
 | Standard in | CNNs / vision | transformers / NLP |
 
-The train/inference discrepancy is BatchNorm's most operationally painful property. During training
-it uses the batch's statistics; at inference there is no batch, so it uses an exponential moving
-average accumulated during training. Consequences: results depend on batch size, small batches give
-noisy statistics and unstable training, and forgetting `model.eval()` silently corrupts inference.
+The train/inference discrepancy is BatchNorm's most operationally painful property. During
+training it uses the batch's statistics; at inference there is no batch, so it uses an exponential
+moving average accumulated during training. Consequences: results depend on batch size, small
+batches give noisy statistics and unstable training, and forgetting `model.eval()` silently
+corrupts inference.
 
 ## Why transformers use LayerNorm
 
 1. **Variable sequence lengths.** Batch statistics computed over padded positions are meaningless.
-2. **Small effective batch per device.** Large models shard across devices with few sequences each;
-   BatchNorm would need cross-device synchronisation every layer.
+2. **Small effective batch per device.** Large models shard across devices with few sequences
+   each; BatchNorm would need cross-device synchronisation every layer.
 3. **Autoregressive inference at batch size 1.** BatchNorm has nothing to normalise over.
 4. **Sequence-position coupling.** Batch statistics mix information across examples in ways that
    interact badly with causal masking.
 
 ## The rest of the family
 
-* **GroupNorm** — split channels into groups, normalise within each. Batch-independent, standard in
-  detection and segmentation where batch sizes are small.
+* **GroupNorm** — split channels into groups, normalise within each. Batch-independent, standard
+  in detection and segmentation where batch sizes are small.
 * **InstanceNorm** — GroupNorm with one channel per group; used in style transfer.
 * **RMSNorm** — LayerNorm without mean subtraction; the current LLM default (question 005).
 * **QK-Norm** — normalise queries and keys before the attention dot product, which stabilises
@@ -73,12 +74,12 @@ noisy statistics and unstable training, and forgetting `model.eval()` silently c
 
 ## What normalisation actually does
 
-The original "reduces internal covariate shift" explanation has not held up.
-[Santurkar et al. (2018)](https://arxiv.org/abs/1805.11604) showed BatchNorm helps even when
-covariate shift is deliberately injected, and argued the real mechanism is **smoothing the loss
-landscape** — making gradients more predictable so larger learning rates are safe. There is also a
-scale-invariance argument: normalised layers are invariant to weight rescaling, which decouples the
-effective learning rate from the weight scale.
+The original "reduces internal covariate shift" explanation has not held up. [Santurkar et al.
+(2018)](https://arxiv.org/abs/1805.11604) showed BatchNorm helps even when covariate shift is
+deliberately injected, and argued the real mechanism is **smoothing the loss landscape** — making
+gradients more predictable so larger learning rates are safe. There is also a scale-invariance
+argument: normalised layers are invariant to weight rescaling, which decouples the effective
+learning rate from the weight scale.
 
 ## What an interviewer digs into next
 

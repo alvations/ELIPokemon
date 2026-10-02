@@ -11,8 +11,8 @@ tags: [documentation, fieldwork, orthography, community-ownership, care-principl
 # NLP for endangered languages
 
 Roughly half the world's languages have few enough speakers that transmission to children is at
-risk. NLP is frequently offered as help. Some of what is offered helps; a good deal of it does not,
-and the difference is not technical sophistication.
+risk. NLP is frequently offered as help. Some of what is offered helps; a good deal of it does
+not, and the difference is not technical sophistication.
 
 ## The data situation is categorically different
 
@@ -62,8 +62,8 @@ documentation** rather than end-user products:
 ## Where it mostly does not
 
 Building a general MT system on a few thousand sentences produces something that neither speakers
-nor learners can rely on, and its existence can be used to justify not funding human work. Ask what
-the community asked for. It is rarely a chatbot.
+nor learners can rely on, and its existence can be used to justify not funding human work. Ask
+what the community asked for. It is rarely a chatbot.
 
 ## Orthography is a live question, not a preprocessing step
 
@@ -81,11 +81,11 @@ authority to control, responsibility and ethics** on the same footing as technic
 
 Concretely: the community decides what is collected and what is public; speakers are paid;
 licensing is agreed in advance and can restrict use, including commercial and model-training use;
-outputs are returned in usable form; and a project that ends when its funding ends should say so at
-the start.
+outputs are returned in usable form; and a project that ends when its funding ends should say so
+at the start.
 
-**"We scraped what was online" is not a dataset methodology here.** The material that exists online
-is often sacred, restricted, or published without the speaker's consent in the first place.
+**"We scraped what was online" is not a dataset methodology here.** The material that exists
+online is often sacred, restricted, or published without the speaker's consent in the first place.
 
 ## What an interviewer digs into next
 

@@ -31,10 +31,10 @@ programme has four parts.
 Different actors need different defences. Systems built only against actor 1 fail against actor 3.
 
 **2. A taxonomy of harms**, so you can measure coverage rather than counting anecdotes. Typically:
-content harms (violence, CSAM, weapons, self-harm), factual harm (medical, legal, financial advice),
-privacy (PII extraction, training-data memorisation), security (injection, tool misuse, exfiltration),
-integrity (bias, manipulation), and product-specific harms — for a support bot, promising a refund
-that policy forbids.
+content harms (violence, CSAM, weapons, self-harm), factual harm (medical, legal, financial
+advice), privacy (PII extraction, training-data memorisation), security (injection, tool misuse,
+exfiltration), integrity (bias, manipulation), and product-specific harms — for a support bot,
+promising a refund that policy forbids.
 
 **3. Methods.**
 
@@ -49,8 +49,8 @@ that policy forbids.
                                known classes
 ```
 
-Also: **domain experts** (a chemist finds failures a generalist cannot evaluate), **crowdsourcing**
-for breadth, and **bug bounties** for adversarial diversity you cannot hire.
+Also: **domain experts** (a chemist finds failures a generalist cannot evaluate),
+**crowdsourcing** for breadth, and **bug bounties** for adversarial diversity you cannot hire.
 
 **4. A feedback loop.** Findings must become: a fixed behaviour, a regression test in a permanent
 suite, and a class-level generalisation. Fixing one prompt and moving on is the classic failure —
@@ -73,7 +73,8 @@ attackers vary phrasing, so you need to fix the *class*.
   orchestration at least as often as in the model.
 * **Test multi-turn.** Most real attacks are gradual escalation; single-turn testing misses them
   entirely.
-* **Rotate the team.** Fresh people find different things; a stale team converges on its own habits.
+* **Rotate the team.** Fresh people find different things; a stale team converges on its own
+  habits.
 * **Protect the red teamers.** Sustained exposure to harmful content has real psychological cost —
   rotation, support, and limits are an ethical requirement, and are also why automation matters
   beyond throughput.

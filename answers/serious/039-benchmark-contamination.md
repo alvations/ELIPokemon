@@ -65,10 +65,11 @@ want to measure.
 ## Detection
 
 **With training-data access:**
-* n-gram overlap (e.g. any 13-gram from the test item appearing in training) — the standard method.
+* n-gram overlap (e.g. any 13-gram from the test item appearing in training) — the standard
+  method.
 * Exact and near-duplicate hashing (MinHash/LSH).
-* **Canary strings** — a unique GUID embedded in the benchmark file. If the model can reproduce it,
-  the file was in the corpus. BIG-bench pioneered this. Cheap, and everyone should do it.
+* **Canary strings** — a unique GUID embedded in the benchmark file. If the model can reproduce
+  it, the file was in the corpus. BIG-bench pioneered this. Cheap, and everyone should do it.
 
 **Without training-data access** (the realistic case for API models):
 * **Order sensitivity.** For a multiple-choice set, a clean model's accuracy should not depend on
@@ -89,8 +90,8 @@ want to measure.
   to 13 points for some model families — direct evidence of contamination in the original).
 * **Private held-out sets** administered by a third party.
 * **Dynamic benchmarks** with rotating items.
-* **Perturbation**: change names, numbers, and surface form. A model that understood the problem is
-  unaffected; a model that memorised it degrades.
+* **Perturbation**: change names, numbers, and surface form. A model that understood the problem
+  is unaffected; a model that memorised it degrades.
 * **Canaries in every new benchmark**, plus a machine-readable no-train declaration (which is
   advisory only, but establishes intent).
 
@@ -98,10 +99,10 @@ want to measure.
 
 Contamination is **not** primarily an integrity problem — most of it is accidental, and complete
 avoidance is impossible when training on the open web. It is a *measurement validity* problem. The
-right response is not accusation but methodology: prefer fresh and private evals, report contamination
-checks alongside scores, treat any single public benchmark number as weak evidence, and — for
-product decisions — evaluate on your own data, which has the useful property of not being on the
-internet.
+right response is not accusation but methodology: prefer fresh and private evals, report
+contamination checks alongside scores, treat any single public benchmark number as weak evidence,
+and — for product decisions — evaluate on your own data, which has the useful property of not
+being on the internet.
 
 ## What an interviewer digs into next
 

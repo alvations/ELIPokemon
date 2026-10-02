@@ -22,9 +22,9 @@ Last season: Politoed rain everywhere. This season: everyone runs Garchomp and L
 Your Trainer still **understands** Garchomp perfectly. It just prepared for a tournament that
 isn't happening.
 
-📌 **Note: this doesn't necessarily hurt.** A Trainer with genuinely broad knowledge handles the new
-mix fine. Panicking every time the opponent mix shifts is a great way to retrain constantly for no
-benefit.
+📌 **Note: this doesn't necessarily hurt.** A Trainer with genuinely broad knowledge handles the
+new mix fine. Panicking every time the opponent mix shifts is a great way to retrain constantly
+for no benefit.
 
 ## 2. 🔄 The same thing means something different now — the dangerous one
 
@@ -83,8 +83,8 @@ You don't need to know who won. You just watch **what your Trainer is saying:**
 
 > Last month it predicted a win 60% of the time. This week: **91%.**
 
-Nothing about the world has been confirmed. But your Trainer's behaviour changed **overnight**, and
-you know *right now* — weeks before a single result comes in.
+Nothing about the world has been confirmed. But your Trainer's behaviour changed **overnight**,
+and you know *right now* — weeks before a single result comes in.
 
 ## Three things that go wrong 🚨
 
@@ -99,26 +99,27 @@ you know *right now* — weeks before a single result comes in.
 📌 **Break it down. By opponent type, by format, by region, by anything you can.** Aggregates are
 where failures hide.
 
-**🔔 Too many alarms.** Watch five hundred things and a couple dozen will look "unusual" every single
-day by pure chance. Everyone learns to ignore the alerts, and then the real one arrives.
+**🔔 Too many alarms.** Watch five hundred things and a couple dozen will look "unusual" every
+single day by pure chance. Everyone learns to ignore the alerts, and then the real one arrives.
 
 Use *"how big is the change?"* not *"is there technically a change?"* — with enough matches,
 **everything** is technically different.
 
 **🗑️ You didn't keep the records.**
 
-The one people regret most. Something goes wrong, you go to investigate, and **you never logged what
-your Trainer was seeing or saying.**
+The one people regret most. Something goes wrong, you go to investigate, and **you never logged
+what your Trainer was seeing or saying.**
 
-You have a broken Trainer and nothing to diagnose it with. **Log the inputs and the predictions from
-day one.**
+You have a broken Trainer and nothing to diagnose it with. **Log the inputs and the predictions
+from day one.**
 
 ## When to retrain 🔄
 
 * 📅 **On a schedule** — every time a new Regulation drops. Simple, predictable, sometimes
   wasteful. Most teams do this.
-* 🏆 **When you start losing.** Correct — and only works if results arrive quickly enough to act on.
+* 🏆 **When you start losing.** Correct — and only works if results arrive quickly enough to act
+  on.
 * 🚨 **When drift fires.** Fast, and noisy.
 
-Most mature setups run **scheduled retraining plus a losing-streak alarm.** The schedule handles slow
-change; the alarm catches the day the metagame flips.
+Most mature setups run **scheduled retraining plus a losing-streak alarm.** The schedule handles
+slow change; the alarm catches the day the metagame flips.

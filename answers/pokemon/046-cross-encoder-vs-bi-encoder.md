@@ -21,14 +21,14 @@ Grass/Steel, Leftovers, defensive"* — then files them.
 When your question arrives, they compare your question to the cards. Ten million cards in about a
 millisecond.
 
-The catch is baked into the job. They wrote those cards **without knowing what you'd ask.** A report
-covering five different Pokémon gets one card that vaguely gestures at all five — and matches every
-question about any of them, weakly.
+The catch is baked into the job. They wrote those cards **without knowing what you'd ask.** A
+report covering five different Pokémon gets one card that vaguely gestures at all five — and
+matches every question about any of them, weakly.
 
 ## 📋 The coach — reads them together
 
-Puts your question and one report side by side and reads both, properly — the way you would compare
-a Toxapex spread against the Garchomp you plan to send in.
+Puts your question and one report side by side and reads both, properly — the way you would
+compare a Toxapex spread against the Garchomp you plan to send in.
 
 They can spot things no index card could ever capture: that the report *mentions* Gyarados but
 only to say Ferrothorn walls it, which is not the same as countering it. That it says "**not**
@@ -59,9 +59,8 @@ possible at all — and the price of filing in advance is not knowing the questi
 
 There's a third approach that splits the difference nicely.
 
-Instead of one index card per report, write **one card per line** — one for the typing, one for the
-item, one for the ability. Still filed in
-advance — still searchable.
+Instead of one index card per report, write **one card per line** — one for the typing, one for
+the item, one for the ability. Still filed in advance — still searchable.
 
 Now when your question comes in, each *word* of your question goes hunting for its best matching
 *line*:
@@ -76,8 +75,8 @@ Now when your question comes in, each *word* of your question goes hunting for i
    in the report — independently.
 ```
 
-Much of the coach's insight, still fast enough to search. The price is **storage**: a card per line
-instead of per report is ten to a hundred times more filing cabinets.
+Much of the coach's insight, still fast enough to search. The price is **storage**: a card per
+line instead of per report is ten to a hundred times more filing cabinets.
 
 ## How they work together 🎯
 
@@ -103,9 +102,9 @@ earns the next stage's expense.
 **The clerk** learns from near-misses — reports that look relevant but aren't. Obvious mismatches
 teach nothing.
 
-**The coach** learns the same way, with a crucial detail: train them on **the exact hundred reports
-the clerk will actually hand them** — the Gyarados near-misses, not a random pile of Caterpie. Not
-a random sample. The coach's whole job is to sort the
-clerk's shortlist, so that's the pile they should practise on.
+**The coach** learns the same way, with a crucial detail: train them on **the exact hundred
+reports the clerk will actually hand them** — the Gyarados near-misses, not a random pile of
+Caterpie. Not a random sample. The coach's whole job is to sort the clerk's shortlist, so that's
+the pile they should practise on.
 
 Train the coach on easy piles and they'll be excellent at a job nobody will ever ask them to do.

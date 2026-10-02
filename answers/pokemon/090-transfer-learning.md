@@ -13,8 +13,8 @@ tags: [transfer-learning, freezing, feature-extraction, discriminative-lr, domai
 You need a Trainer who's great at **Misty's Water Gym.** You could raise one from scratch —
 months of wild grass, the whole journey.
 
-Or you could take a Champion who already knows everything about battling in general, and **teach it
-the Water specifics in an afternoon.**
+Or you could take a Champion who already knows everything about battling in general, and **teach
+it the Water specifics in an afternoon.**
 
 Because most of what makes a Champion good has nothing to do with Water types.
 
@@ -39,9 +39,9 @@ Because most of what makes a Champion good has nothing to do with Water types.
 
 The basics are the same in every battle ever fought. The specifics are about *Misty.*
 
-📌 One genuinely surprising finding: the **middle** layer transfers worst of all — worse than either
-end. Those habits are tangled up with each other, and pulling them apart breaks them. The basics
-transfer cleanly; the specifics you were replacing anyway; the middle is a knot.
+📌 One genuinely surprising finding: the **middle** layer transfers worst of all — worse than
+either end. Those habits are tangled up with each other, and pulling them apart breaks them. The
+basics transfer cleanly; the specifics you were replacing anyway; the middle is a knot.
 
 ## What to keep frozen 🧊
 
@@ -68,8 +68,8 @@ different for what it knows to apply.** It's exactly where the held-item trick e
 ## Ways to do it 🛠️
 
 * 🧊 **Freeze everything, just add new knowledge.** Fast, needs almost no footage. Also a useful
-  **test**: if freezing everything works fine, the Champion already knew what you needed — you were
-  only ever missing the roster.
+  **test**: if freezing everything works fine, the Champion already knew what you needed — you
+  were only ever missing the roster.
 * 🔥 **Retrain everything, very gently.** Ten to a hundred times gentler than the original raising.
 * 🪜 **Thaw from the top down.** Teach the new specifics first, then gradually let the intermediate
   stuff adjust, and only touch the basics last if at all.
@@ -77,8 +77,9 @@ different for what it knows to apply.** It's exactly where the held-item trick e
 
 ## Five ways to ruin a Champion 🚨
 
-**1. 🔥 Training too hard.** The most common failure by a mile. Blast a Champion with Champion-level
-intensity on a new task and **the first ten minutes destroy months of work.** Start gently. Always.
+**1. 🔥 Training too hard.** The most common failure by a mile. Blast a Champion with
+Champion-level intensity on a new task and **the first ten minutes destroy months of work.** Start
+gently. Always.
 
 **2. 🎲 Attaching a clueless new specialist.**
 
@@ -87,22 +88,22 @@ shouting wild,
 random corrections — and those corrections propagate down into your Champion's carefully built
 basics.
 
-**Fix: train the new specialist ALONE first**, until it's at least sensible. *Then* let it talk to the
-rest of the team.
+**Fix: train the new specialist ALONE first**, until it's at least sensible. *Then* let it talk to
+the rest of the team.
 
-**3. 📏 Changing the format.** Your Champion learned to read team sheets in one particular layout. Hand
-it a differently-formatted sheet and its expertise is worthless — it can't read the input any more.
-**Use exactly the same format as the original training.**
+**3. 📏 Changing the format.** Your Champion learned to read team sheets in one particular layout.
+Hand it a differently-formatted sheet and its expertise is worthless — it can't read the input any
+more. **Use exactly the same format as the original training.**
 
-**4. 🌡️ "Frozen" that isn't actually frozen.** You froze the Champion's stats — but if any part of it
-is still **recalibrating itself** against what it's currently seeing, it's quietly drifting. Your
-frozen Champion isn't frozen. Insidious, because everything looks correct.
+**4. 🌡️ "Frozen" that isn't actually frozen.** You froze the Champion's stats — but if any part of
+it is still **recalibrating itself** against what it's currently seeing, it's quietly drifting.
+Your frozen Champion isn't frozen. Insidious, because everything looks correct.
 
 **5. 🚫 The Champion actively hurts.**
 
-Rare with a genuinely strong Champion, real with a mediocre one. If your Champion trained exclusively
-in Sootopolis City and you need a Hoenn desert specialist, its instincts may be **worse than nothing** —
-it'll confidently apply lessons that don't hold.
+Rare with a genuinely strong Champion, real with a mediocre one. If your Champion trained
+exclusively in Sootopolis City and you need a Hoenn desert specialist, its instincts may be
+**worse than nothing** — it'll confidently apply lessons that don't hold.
 
-**Always sanity-check against a Trainer raised from scratch.** If starting fresh wins, your Champion
-was the problem.
+**Always sanity-check against a Trainer raised from scratch.** If starting fresh wins, your
+Champion was the problem.

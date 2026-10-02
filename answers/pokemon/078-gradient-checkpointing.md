@@ -44,8 +44,8 @@ you the Koga fight exactly. Not an approximation — **the identical footage**, 
 
 Surprisingly little, and the reason is worth knowing.
 
-Reviewing a season is already about **twice** as much work as playing it. So adding one extra replay
-doesn't double your effort — it adds about **a third**.
+Reviewing a season is already about **twice** as much work as playing it. So adding one extra
+replay doesn't double your effort — it adds about **a third**.
 
 ```
    📹 Film everything:   play(1) + review(2)             = 3 units
@@ -61,8 +61,8 @@ Here's the counterintuitive part, and it's the good bit.
 You'd assume: 33% more work, 33% slower. Often it's the opposite.
 
 Because now that your archive is small, **you can train several Pokémon at once** in the space you
-freed. And training four simultaneously is far more than four times as efficient as training one at a
-time — the facility is being properly used instead of sitting half idle.
+freed. And training four simultaneously is far more than four times as efficient as training one
+at a time — the facility is being properly used instead of sitting half idle.
 
 ```
    Before: 1 Pokémon at a time, gigantic archive       → slow
@@ -77,11 +77,11 @@ you unlock frequently pays back the overhead with interest.
 * 🎯 **Be selective about what you film.** Some moments are trivially cheap to replay (a routine
   route walk); some are expensive (a full Gym battle). Film the expensive ones, replay the cheap
   ones. Nearly all the archive savings, a fraction of the replaying.
-* 🎲 **The replay must be EXACT.** If anything random happened — a critical hit, a random benching —
-  you must **record the dice rolls** so the replay comes out identical. Get this wrong and you're
-  apportioning blame for a season that never happened. A classic and horrible bug.
+* 🎲 **The replay must be EXACT.** If anything random happened — a critical hit, a random benching
+  — you must **record the dice rolls** so the replay comes out identical. Get this wrong and
+  you're apportioning blame for a season that never happened. A classic and horrible bug.
 * 🤝 **It stacks with everything else.** Splitting your team across facilities shrinks your *team
-  records*; this shrinks your *archive*. **Different problems**, so use both. Every large operation
-  does.
+  records*; this shrinks your *archive*. **Different problems**, so use both. Every large
+  operation does.
 * 🏆 **Not needed at tournaments.** You only review to learn. On tournament day nobody's going back
   through the tape — so no filming, no archive, nothing to save.

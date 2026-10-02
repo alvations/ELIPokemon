@@ -10,9 +10,9 @@ tags: [mcp, protocol, integrations, tools, resources]
 
 # Model Context Protocol
 
-MCP is an open protocol standardising how applications supply **context and capabilities** to LLMs.
-The problem it solves is combinatorial: `M` AI applications each needing `N` integrations means `M×N`
-bespoke connectors, every one written twice and maintained separately.
+MCP is an open protocol standardising how applications supply **context and capabilities** to
+LLMs. The problem it solves is combinatorial: `M` AI applications each needing `N` integrations
+means `M×N` bespoke connectors, every one written twice and maintained separately.
 
 ```
    BEFORE                              AFTER
@@ -28,8 +28,8 @@ bespoke connectors, every one written twice and maintained separately.
    M × N implementations
 ```
 
-The analogy usually offered — "USB-C for AI applications" — is apt: one connector spec, many hosts,
-many peripherals, no host needing to know about any specific peripheral in advance.
+The analogy usually offered — "USB-C for AI applications" — is apt: one connector spec, many
+hosts, many peripherals, no host needing to know about any specific peripheral in advance.
 
 ## The architecture
 
@@ -63,26 +63,26 @@ model access without holding API keys themselves.
 
 * **Integrations become portable.** Write a server once; every MCP-capable host can use it.
 * **The ecosystem is decoupled from any vendor.** Servers exist for filesystems, git, databases,
-  browsers, issue trackers, and hundreds of SaaS products, maintained by their owners rather than by
-  each AI application.
+  browsers, issue trackers, and hundreds of SaaS products, maintained by their owners rather than
+  by each AI application.
 * **Capability negotiation** means hosts and servers can evolve independently.
 
 ## The security model, honestly
 
 This is where an interviewer will push, and the right answer is not to be defensive about it.
 
-MCP servers are **code you are running with your credentials, feeding text into a model's context**.
-Real concerns:
+MCP servers are **code you are running with your credentials, feeding text into a model's
+context**. Real concerns:
 
-* **Prompt injection via tool descriptions or results** — a malicious server can put instructions in
-  a description the model reads as trusted (question 059).
+* **Prompt injection via tool descriptions or results** — a malicious server can put instructions
+  in a description the model reads as trusted (question 059).
 * **Tool shadowing** — a server defining a tool whose description subverts another server's tool.
 * **Confused deputy / over-broad scope** — a server with more access than the task requires.
 * **Supply chain** — installing a community server is installing arbitrary code.
 
 Mitigations in practice: run servers with least privilege, human-in-the-loop confirmation for
-destructive tools, pin and review server versions, prefer first-party servers for sensitive systems,
-and treat every tool result as untrusted input.
+destructive tools, pin and review server versions, prefer first-party servers for sensitive
+systems, and treat every tool result as untrusted input.
 
 ## What an interviewer digs into next
 

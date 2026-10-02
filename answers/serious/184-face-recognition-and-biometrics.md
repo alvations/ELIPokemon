@@ -35,9 +35,9 @@ the difference is several orders of magnitude in the false-accusation rate.
 
 Large-scale evaluations (NIST FRVT is the reference) have repeatedly found false match rates
 varying by **one to two orders of magnitude** across demographic groups, with the highest error
-rates typically for darker-skinned, female and elderly subjects. The causes are compounded: training
-data composition, image capture (sensors and exposure algorithms calibrated on lighter skin), and
-threshold selection on an unrepresentative validation set.
+rates typically for darker-skinned, female and elderly subjects. The causes are compounded:
+training data composition, image capture (sensors and exposure algorithms calibrated on lighter
+skin), and threshold selection on an unrepresentative validation set.
 
 Two things follow:
 
@@ -49,10 +49,10 @@ Two things follow:
 
 ## The other technical realities
 
-* **Presentation attacks.** Photographs, screens, masks. Liveness detection is a separate system and
-  a separate arms race.
-* **Templates are biometric data.** A face embedding is not anonymised — it identifies a person and
-  it cannot be reissued if leaked. You can change a password; you cannot change your face.
+* **Presentation attacks.** Photographs, screens, masks. Liveness detection is a separate system
+  and a separate arms race.
+* **Templates are biometric data.** A face embedding is not anonymised — it identifies a person
+  and it cannot be reissued if leaked. You can change a password; you cannot change your face.
 * **Function creep.** A system built for building access becomes attendance monitoring becomes
   productivity assessment. Design assuming this will be proposed.
 * **Regulation is real and varies.** The EU AI Act restricts real-time remote biometric
@@ -68,8 +68,8 @@ identification; and an honest answer to whether a non-biometric mechanism would 
 PIN, a code — because very often one would.
 
 And the answer that is sometimes correct: **do not build it.** Some deployments have no threshold
-setting that makes them acceptable, and recognising that is an engineering judgement, not a failure
-of nerve.
+setting that makes them acceptable, and recognising that is an engineering judgement, not a
+failure of nerve.
 
 ## What an interviewer digs into next
 

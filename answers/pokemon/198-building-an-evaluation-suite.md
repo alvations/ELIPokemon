@@ -10,14 +10,14 @@ tags: [evaluation-design, capability-decomposition, controls, contamination, pri
 
 # Build your own Gym, and put the right Leaders in it
 
-Beating the **Elite Four** tells you about the Elite Four (question 147). The gauntlet that decides
-what you actually ship, **you have to build** — and it is usually the best week of work on the whole
-project.
+Beating the **Elite Four** tells you about the Elite Four (question 147). The gauntlet that
+decides what you actually ship, **you have to build** — and it is usually the best week of work on
+the whole project.
 
 ## One number is one badge. You want eight. 🏅
 
-⚠️ The first mistake is a single score. *"How good is it"* averages together skills with **nothing in
-common**, so it moves for reasons you cannot trace.
+⚠️ The first mistake is a single score. *"How good is it"* averages together skills with **nothing
+in common**, so it moves for reasons you cannot trace.
 
 ```
    split by WHAT IT MUST DO:   naming · reading print · counting · left-and-right
@@ -36,10 +36,11 @@ the end you know **which badge you cannot earn** rather than an average of eight
 
 ## The controls matter more than the questions 🎛️
 
-An evaluation with no controls **cannot support a conclusion.** Build these in from the first day —
-each one is cheap, and each turns an ambiguous result into an attributable one:
+An evaluation with no controls **cannot support a conclusion.** Build these in from the first day
+— each one is cheap, and each turns an ambiguous result into an attributable one:
 
-* **🙈 The blindfold.** Same questions, screen covered (question 147). **The gap is your eyesight.**
+* **🙈 The blindfold.** Same questions, screen covered (question 147). **The gap is your
+  eyesight.**
 * **🔭 The distance sweep.** The identical items from the doorway and walked right up. 📌 **This one
   command separates "it could not see" from "it could not work it out"** (question 160), which is
   the distinction that misdirects more teams than any other.
@@ -64,14 +65,14 @@ show up in the Trainer's hand.
 ## Keep it honest 🔒
 
 * **🧊 Freeze it, version it, and keep it out of the training loop** (question 189).
-* **📼 Assume it has already seen the recording.** If your items came off the open routes, it has. And
-  for pictures, check by **how they look**, not by filename.
+* **📼 Assume it has already seen the recording.** If your items came off the open routes, it has.
+  And for pictures, check by **how they look**, not by filename.
 * **💀 Put things in it that you expect to fail.** A **Charmeleon** to check for invented wings
   (question 122). A **TM26** label too small to read from the doorway. Six **Voltorb** to count.
   ⚠️ A gauntlet everything walks through **has stopped telling you anything**. Make it harder when
-  the ceiling is reached, and report the old circuit and the new one together for one release so the
-  join is visible.
+  the ceiling is reached, and report the old circuit and the new one together for one release so
+  the join is visible.
 * **🏷️ Record how you asked, from how far away, which version, and when.** Numbers without those
   cannot be compared — including with **your own from last quarter**.
-* **👀 And read fifty failures.** 📌 The categories you find become the **next** version of the grid,
-  and no average will ever hand them to you.
+* **👀 And read fifty failures.** 📌 The categories you find become the **next** version of the
+  grid, and no average will ever hand them to you.

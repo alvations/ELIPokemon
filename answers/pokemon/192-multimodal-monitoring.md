@@ -10,12 +10,12 @@ tags: [monitoring, drift, silent-failure, canaries, alerting, incident-response]
 
 # Nothing is on fire, and it has been wrong since Tuesday
 
-Testing tells you how the Pokédex behaves on a set **you** chose. The field tells you how it behaves
-on the world, and **the world changes without sending word.**
+Testing tells you how the Pokédex behaves on a set **you** chose. The field tells you how it
+behaves on the world, and **the world changes without sending word.**
 
 📌 And here is what makes this different from watching an ordinary service: **the failures are
-silent.** Nothing errors. Nothing is slow. Fluent, confident, wrong entries flow out at full speed,
-and every dashboard is green.
+silent.** Nothing errors. Nothing is slow. Fluent, confident, wrong entries flow out at full
+speed, and every dashboard is green.
 
 It is **Toxic**, not a knockout. On the turn it lands it takes a sixteenth and shows nothing; by
 the time anybody notices, it is taking a quarter. The Pokédex is not broken. It has been quietly
@@ -71,8 +71,8 @@ invisible to anything watching the model.
 
 📌 **This is the highest-value control on the page, and most teams do not have it.**
 
-Keep a small fixed set of pictures whose correct answers you already know — a **Charizard** that is
-definitely a Charizard, a **TM26** label, six **Voltorb** to count, **Zapdos** on the left and
+Keep a small fixed set of pictures whose correct answers you already know — a **Charizard** that
+is definitely a Charizard, a **TM26** label, six **Voltorb** to count, **Zapdos** on the left and
 **Moltres** on the right — and run them through **the live system, hourly.**
 
 When a provider quietly swaps the model, when a resize step changes, when somebody ships a config

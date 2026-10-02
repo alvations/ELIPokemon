@@ -58,8 +58,8 @@ Output that is well-formed target-language text bearing little or no relation to
 
 **Triggers**, in rough order of how often they cause it in practice:
 
-* **Out-of-distribution or noisy source.** Garbage in, fluent garbage out. Perturbed, misspelled or
-  wrong-script input is the classic trigger.
+* **Out-of-distribution or noisy source.** Garbage in, fluent garbage out. Perturbed, misspelled
+  or wrong-script input is the classic trigger.
 * **Very short segments.** A single word or a UI label gives almost nothing to condition on.
 * **Low-resource directions**, where the model's source-side representation is weak and the
   language-model prior takes over — the same mechanism as visual hallucination in question 122.
@@ -77,9 +77,10 @@ Output that is well-formed target-language text bearing little or no relation to
 * Note that **sequence log-probability is a poor detector**: hallucinations are fluent, so the
   model is confident. This is the same trap as in question 122.
 
-**Mitigation:** clean the training corpus (LID + alignment filtering are the biggest levers), avoid
-beam search with very large beams (which correlates with hallucination in NMT), cap repetition at
-decode time, and gate on QE with a fallback to a second system rather than publishing.
+**Mitigation:** clean the training corpus (LID + alignment filtering are the biggest levers),
+avoid beam search with very large beams (which correlates with hallucination in NMT), cap
+repetition at decode time, and gate on QE with a fallback to a second system rather than
+publishing.
 
 ## Why the aggregate metric will not save you
 

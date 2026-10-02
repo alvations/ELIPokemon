@@ -48,9 +48,9 @@ questions get confident answers.* You installed the bluff.
 
 **4. 🗜️ Their memory is compressed.**
 
-Your Trainer can't store every Pokémon perfectly. Pikachu and Charizard are crisp. Ones they saw *once* are
-stored as a rough impression, and reconstructing from a rough impression produces something
-plausible and wrong — right shape, wrong details.
+Your Trainer can't store every Pokémon perfectly. Pikachu and Charizard are crisp. Ones they saw
+*once* are stored as a rough impression, and reconstructing from a rough impression produces
+something plausible and wrong — right shape, wrong details.
 
 **5. 🎭 One lie becomes a world.**
 
@@ -85,8 +85,8 @@ And this means *actually rewarding it*, not just permitting it. If your judges k
 confident answers, you will train the honesty right back out. Fewer answers, more trustworthy —
 that's a real trade, and for most jobs it's the right one.
 
-**4. 🧮 Give it a calculator.** Damage calcs, Speed tiers, the type chart — anything with a mechanical
-answer. Don't ask a Trainer to be a calculator.
+**4. 🧮 Give it a calculator.** Damage calcs, Speed tiers, the type chart — anything with a
+mechanical answer. Don't ask a Trainer to be a calculator.
 
 **5. 🔁 Ask three times.** Get the same answer thrice? Probably knows it. Get three *different*
 answers? **That's your alarm.** Real knowledge is stable; invention isn't.
@@ -99,9 +99,9 @@ answers? **That's your alarm.** Real knowledge is stable; invention isn't.
 
 **📚 Teaching it more facts.** Makes it worse. See cause 3.
 
-**❓ "Are you sure?"** They'll change their answer. Not because they rechecked — because you sounded
-doubtful. That's a Pokémon reading your tone, not verifying a fact. You've learned nothing, and now
-you've possibly talked them out of a correct answer.
+**❓ "Are you sure?"** They'll change their answer. Not because they rechecked — because you
+sounded doubtful. That's a Pokémon reading your tone, not verifying a fact. You've learned
+nothing, and now you've possibly talked them out of a correct answer.
 
 ## Measure both numbers 📊
 

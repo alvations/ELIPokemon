@@ -23,19 +23,19 @@ incompatible**.
 | **Calibration** | a score of 0.7 means 70% for every group |
 | **Individual fairness** | similar individuals treated similarly |
 
-[Kleinberg et al. (2016)](https://arxiv.org/abs/1609.05807) and Chouldechova proved that unless base
-rates are equal across groups or the classifier is perfect, **you cannot satisfy calibration and
-equalised odds simultaneously**. This is not an engineering limitation to be optimised away — it is a
-theorem.
+[Kleinberg et al. (2016)](https://arxiv.org/abs/1609.05807) and Chouldechova proved that unless
+base rates are equal across groups or the classifier is perfect, **you cannot satisfy calibration
+and equalised odds simultaneously**. This is not an engineering limitation to be optimised away —
+it is a theorem.
 
 The consequence: *"make the model fair"* is not a well-posed request. Someone must choose which
 criterion applies, and that is a **normative decision about the domain**, not a technical one. The
-COMPAS recidivism debate was exactly this: ProPublica's analysis (unequal false positive rates) and
-Northpointe's response (equal calibration) were both correct, about different criteria.
+COMPAS recidivism debate was exactly this: ProPublica's analysis (unequal false positive rates)
+and Northpointe's response (equal calibration) were both correct, about different criteria.
 
 The right answer in an interview is to say this explicitly, then ask what the harm is: a false
-positive in hiring means a wrongly rejected candidate; in medical screening it means an unnecessary
-test. Different harms, different criteria.
+positive in hiring means a wrongly rejected candidate; in medical screening it means an
+unnecessary test. Different harms, different criteria.
 
 ## Where bias enters
 
@@ -49,19 +49,19 @@ test. Different harms, different criteria.
 ```
 
 Removing the protected attribute does **not** work — "fairness through unawareness" fails because
-correlated proxies remain, and it removes your ability to *measure* disparity. You generally need the
-attribute to audit, even if the model does not use it.
+correlated proxies remain, and it removes your ability to *measure* disparity. You generally need
+the attribute to audit, even if the model does not use it.
 
 Mitigations sit at three points: **pre-processing** (reweighting, resampling), **in-processing**
-(fairness constraints, adversarial debiasing), **post-processing** (group-specific thresholds — often
-the most effective and the most legally fraught).
+(fairness constraints, adversarial debiasing), **post-processing** (group-specific thresholds —
+often the most effective and the most legally fraught).
 
 ## Privacy
 
 **Memorisation is real.** Models reproduce verbatim training data — the more so for duplicated
-sequences, which is why deduplication is the highest-leverage privacy intervention available and also
-improves quality. **Membership inference** attacks determine whether a record was in the training set;
-**extraction** attacks recover the record itself.
+sequences, which is why deduplication is the highest-leverage privacy intervention available and
+also improves quality. **Membership inference** attacks determine whether a record was in the
+training set; **extraction** attacks recover the record itself.
 
 **Differential privacy** is the rigorous defence: the output distribution changes by at most `e^ε`
 whether or not any individual's record is included. DP-SGD achieves it by clipping per-example
@@ -78,9 +78,9 @@ retention limits, canary insertion to *test* for memorisation, and honest docume
 
 ## Process
 
-Technical fixes are secondary to process. **Disaggregated evaluation** — reporting metrics per group
-rather than in aggregate — is the single highest-value practice, because aggregate metrics hide
-exactly the failures you are looking for. Add model cards, datasheets, diverse review, and a
+Technical fixes are secondary to process. **Disaggregated evaluation** — reporting metrics per
+group rather than in aggregate — is the single highest-value practice, because aggregate metrics
+hide exactly the failures you are looking for. Add model cards, datasheets, diverse review, and a
 documented appeals path.
 
 ## What an interviewer digs into next

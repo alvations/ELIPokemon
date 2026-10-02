@@ -11,8 +11,8 @@ tags: [mixed-precision, fp16, bf16, loss-scaling, fp8, tensor-cores]
 # Mixed-precision training
 
 Use low precision where it is safe (matmuls, activations) and high precision where it is not
-(accumulation, optimizer state, master weights). The payoff: ~2× memory reduction and 2–8× throughput
-on tensor cores.
+(accumulation, optimizer state, master weights). The payoff: ~2× memory reduction and 2–8×
+throughput on tensor cores.
 
 ```
    BITS            sign  exponent  mantissa      range          precision
@@ -28,10 +28,10 @@ on tensor cores.
 FP16's maximum is 65,504 and its smallest normal is ~6e-5. Gradients routinely fall below that and
 **flush to zero**. Activations in large models occasionally exceed the maximum and become `inf`.
 
-The fix is **loss scaling**: multiply the loss by a large constant `S` before the backward pass, so
-all gradients scale up by `S` into representable range, then divide by `S` before the optimizer step.
-Dynamic loss scaling adjusts `S` automatically — increase it periodically, and on an `inf`/`NaN`
-gradient, halve it and **skip that step**.
+The fix is **loss scaling**: multiply the loss by a large constant `S` before the backward pass,
+so all gradients scale up by `S` into representable range, then divide by `S` before the optimizer
+step. Dynamic loss scaling adjusts `S` automatically — increase it periodically, and on an
+`inf`/`NaN` gradient, halve it and **skip that step**.
 
 ```
    loss × S ──► backward ──► gradients × S ──► unscale ──► clip ──► step
@@ -40,8 +40,8 @@ gradient, halve it and **skip that step**.
                                             if found: halve S, skip step
 ```
 
-This works, and it is fragile: skipped steps waste compute, `S` must be tuned, and the failure mode
-is a silently diverging run.
+This works, and it is fragile: skipped steps waste compute, `S` must be tuned, and the failure
+mode is a silently diverging run.
 
 ## Why BF16 wins
 
@@ -51,16 +51,16 @@ Consequences:
 * **No loss scaling needed.** Gradients that fit in FP32 fit in BF16.
 * **Conversion from FP32 is a truncation** of the low 16 bits, which is trivially cheap.
 * **Overflow essentially never happens.**
-* The cost is precision: ~3 decimal digits instead of ~4. For gradient descent, which is inherently
-  noisy and self-correcting, that turns out not to matter.
+* The cost is precision: ~3 decimal digits instead of ~4. For gradient descent, which is
+  inherently noisy and self-correcting, that turns out not to matter.
 
-The tradeoff — *range matters more than precision for training* — is the key insight, and it is why
-BF16 is the default everywhere modern hardware supports it.
+The tradeoff — *range matters more than precision for training* — is the key insight, and it is
+why BF16 is the default everywhere modern hardware supports it.
 
 ## What stays in higher precision
 
-* **Master weights** in FP32 (or the optimizer keeps them). Weight updates are often ~1e-7 relative
-  to weights; in BF16 the update rounds to zero and training silently stalls.
+* **Master weights** in FP32 (or the optimizer keeps them). Weight updates are often ~1e-7
+  relative to weights; in BF16 the update rounds to zero and training silently stalls.
 * **Optimizer moments** in FP32.
 * **Accumulation** inside matmuls in FP32 — tensor cores do this natively.
 * **Loss and softmax**, which involve sums over many terms.

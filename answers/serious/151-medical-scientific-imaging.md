@@ -20,11 +20,12 @@ that, and the consequences of being wrong are different in kind.
   histopathology tile and a sky survey look nothing like ImageNet or LAION. Transfer from natural
   images still helps — surprisingly, low-level features are general — but far less than usual, and
   domain-specific pretraining beats it.
-* **The findings are tiny and the images are enormous.** A whole-slide pathology image is gigapixel;
-  a lesion may be a few hundred pixels. Downsampling to 336px destroys the finding entirely
-  (question 121). Tiling with a whole-slide context path is mandatory, not an optimisation.
-* **Data is 3D or 4D.** CT and MRI are volumes; echocardiography and fMRI add time. Treating slices
-  independently discards the structure a radiologist actually uses.
+* **The findings are tiny and the images are enormous.** A whole-slide pathology image is
+  gigapixel; a lesion may be a few hundred pixels. Downsampling to 336px destroys the finding
+  entirely (question 121). Tiling with a whole-slide context path is mandatory, not an
+  optimisation.
+* **Data is 3D or 4D.** CT and MRI are volumes; echocardiography and fMRI add time. Treating
+  slices independently discards the structure a radiologist actually uses.
 * **Labels are noisy and contested.** Inter-rater agreement between expert radiologists on many
   tasks is well below 100%. Your "ground truth" is one or more expert opinions, and a model that
   agrees with the label 95% of the time in a task where experts agree with each other 85% of the
@@ -46,9 +47,10 @@ the pathology.
    deployed at a third site: no better than chance
 ```
 
-Documented shortcuts include scanner manufacturer, image acquisition settings, patient positioning,
-laterality markers, chest drains that indicate the patient was already treated, and burnt-in text.
-This is the single most common reason published medical AI results do not replicate.
+Documented shortcuts include scanner manufacturer, image acquisition settings, patient
+positioning, laterality markers, chest drains that indicate the patient was already treated, and
+burnt-in text. This is the single most common reason published medical AI results do not
+replicate.
 
 **The defences are procedural**, not architectural: external validation on data from sites not in
 training, stratified performance reporting by site and scanner, saliency inspection by a clinician
@@ -75,9 +77,10 @@ These systems are regulated (FDA, CE/MDR), which changes the engineering: a lock
 documented training data provenance, change control, and a clinical evaluation plan. "We will
 continuously fine-tune on production data" is a compliance problem, not just a technical choice.
 
-And the target is almost never autonomy. It is **triage and second reading** — flagging studies for
-priority, or catching what a tired reader missed. Designing for a human reader changes what matters:
-the interface, the false-positive burden, and whether the model can explain where it is looking.
+And the target is almost never autonomy. It is **triage and second reading** — flagging studies
+for priority, or catching what a tired reader missed. Designing for a human reader changes what
+matters: the interface, the false-positive burden, and whether the model can explain where it is
+looking.
 
 ## What an interviewer digs into next
 

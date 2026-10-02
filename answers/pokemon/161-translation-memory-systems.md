@@ -33,9 +33,9 @@ rebuild a worse version of it by accident all the time.
 ```
 
 📌 That last line matters. A **Rattata** when you needed a **Raticate** is helpful. A **Rattata**
-when you needed a **Gyarados** is worse than nothing — it **anchors** the translator (question 149)
-into shaping their answer around something irrelevant. Below a threshold, showing the match makes
-the work worse, not faster.
+when you needed a **Gyarados** is worse than nothing — it **anchors** the translator (question
+149) into shaping their answer around something irrelevant. Below a threshold, showing the match
+makes the work worse, not faster.
 
 And how much of the job the Pokédex already covers is **the number the whole business runs on**:
 already-caught segments are charged at a fraction, near-matches at a discount, brand-new ones at
@@ -57,7 +57,8 @@ actually gets maintained by hand.
 
 📌 The third row is where modern systems find real gains. A Pokédex full of approved work **is** a
 retrieval corpus for exactly your subject — and putting the nearest few entries in front of the
-translator lifts terminology and style more dependably than any training run, with no training run.
+translator lifts terminology and style more dependably than any training run, with no training
+run.
 
 ## It rots if you leave it 🧹
 
@@ -67,13 +68,13 @@ A Pokédex that nobody maintains fills up with:
 * **⚔️ Straight contradictions.** The same segment approved three different ways by three projects
   with three style guides — and the lookup returns **one of them, arbitrarily**, with no hint that
   the other two exist.
-* **🏷️ The Original Trainer problem** (question 149). As repaired machine output flows back in, the
-  Pokédex slowly fills with machine phrasing, and every future lookup **reinforces** it. The drawer
-  becomes a mirror.
+* **🏷️ The Original Trainer problem** (question 149). As repaired machine output flows back in,
+  the Pokédex slowly fills with machine phrasing, and every future lookup **reinforces** it. The
+  drawer becomes a mirror.
 * **📄 Segments with no context left.** Approved for a screen that has since been redesigned.
 
-Hygiene: keep a separate Pokédex per product and per region; date every entry and prefer the recent
-one; run a conflict report now and then; and above all **record who caught it and when**.
+Hygiene: keep a separate Pokédex per product and per region; date every entry and prefer the
+recent one; run a conflict report now and then; and above all **record who caught it and when**.
 
 ⚠️ **A Pokédex without that record cannot be cleaned — only trusted or thrown away**, and a big
 untrustworthy one is worse than a small honest one.

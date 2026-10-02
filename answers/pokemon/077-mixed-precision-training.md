@@ -38,8 +38,8 @@ Same budget. **Precise but narrow**, or **rough but unlimited**.
 
 ## Why precise-but-narrow is a nightmare 😱
 
-Training feedback comes in a **wild** range of magnitudes. Some corrections are Blissey-sized. Some
-are 0.0000003.
+Training feedback comes in a **wild** range of magnitudes. Some corrections are Blissey-sized.
+Some are 0.0000003.
 
 The tiny ones fall **below the narrow format's floor** — and get recorded as **zero.**
 
@@ -67,8 +67,9 @@ wrong.
 
 You give up a digit of precision — and here's the thing: **training doesn't care.**
 
-Training is already noisy, already approximate, already self-correcting. A slightly rough correction
-followed by another slightly rough correction gets to the same place. The errors wash out.
+Training is already noisy, already approximate, already self-correcting. A slightly rough
+correction followed by another slightly rough correction gets to the same place. The errors wash
+out.
 
 > 📌 **For training, RANGE matters far more than PRECISION.**
 
@@ -89,16 +90,16 @@ Round the wrong thing and training silently stops.
                               THE ADJUSTMENT VANISHED.
 ```
 
-Every week. Forever. Your Pokémon **never improves at all**, and every number on your dashboard looks
-completely normal.
+Every week. Forever. Your Pokémon **never improves at all**, and every number on your dashboard
+looks completely normal.
 
 Keep the official records **precise**. Do the fast rough work on a copy.
 
 **📊 The trend notebooks.** Same reason — they accumulate tiny amounts over thousands of weeks, the
 way Leftovers gets there a sixteenth at a time.
 
-**➕ Anything that adds up a lot of numbers.** Add ten thousand rough numbers and the errors compound.
-Add them precisely, *then* round the result.
+**➕ Anything that adds up a lot of numbers.** Add ten thousand rough numbers and the errors
+compound. Add them precisely, *then* round the result.
 
 ## The pattern 🎯
 
@@ -115,8 +116,8 @@ Round the **work**. Keep the **books** exact.
 
 ## Going further 🗜️
 
-Newer setups round even harder — eight characters instead of sixteen, sometimes fewer. It works, and
-it needs careful per-page scaling notes to stop things falling off the ends again.
+Newer setups round even harder — eight characters instead of sixteen, sometimes fewer. It works,
+and it needs careful per-page scaling notes to stop things falling off the ends again.
 
 The direction is consistent: **progressively rougher, with progressively more careful bookkeeping
 around it.** Nobody expects that to stop.

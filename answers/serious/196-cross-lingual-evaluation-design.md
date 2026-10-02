@@ -11,8 +11,8 @@ tags: [benchmark-design, translated-benchmarks, cultural-validity, native-author
 # Building an evaluation that is fair across languages
 
 The default approach — take an English benchmark, translate it, report per-language scores — is
-cheap, ubiquitous, and produces numbers that mean less than they appear to. Three separate problems
-compound.
+cheap, ubiquitous, and produces numbers that mean less than they appear to. Three separate
+problems compound.
 
 ## 1. Translated items carry the source's assumptions
 
@@ -47,8 +47,8 @@ language-item pair, not of the item.
 ## What a fair design looks like
 
 * **Locally authored items**, written by speakers, about locally relevant content, with locally
-  determined correct answers. Expensive, and the only thing that actually measures the capability in
-  that language.
+  determined correct answers. Expensive, and the only thing that actually measures the capability
+  in that language.
 * **Both, reported separately.** Translated items give you comparability across languages; native
   items give you validity within one. **The gap between them is itself the finding** —
   it separates "worse at the task" from "unfamiliar with the culture" (question 195).
@@ -62,13 +62,13 @@ language-item pair, not of the item.
 
 ## The uncomfortable economics
 
-Locally authored evaluation costs real money per language, which is why almost nobody does it, which
-is why the field's picture of multilingual capability rests largely on translated English
+Locally authored evaluation costs real money per language, which is why almost nobody does it,
+which is why the field's picture of multilingual capability rests largely on translated English
 benchmarks. That is worth stating plainly when you report results — including your own.
 
 And when a language has no adequate evaluation, the honest report is **"we cannot currently
-measure this"**, not a number from a translated set presented without qualification. Question 185's
-tiering argument applies to your evaluation as much as to your model.
+measure this"**, not a number from a translated set presented without qualification. Question
+185's tiering argument applies to your evaluation as much as to your model.
 
 ## What an interviewer digs into next
 

@@ -11,8 +11,8 @@ tags: [regulated, liability, validation, audit-trail, human-in-the-loop, critica
 # Translation where being wrong has consequences
 
 Everything technical in this dataset still applies. What changes is that **the acceptable failure
-rate is not set by you**, the failures have named consequences, and somebody will eventually ask you
-to demonstrate — with records — why you believed the system was fit for use.
+rate is not set by you**, the failures have named consequences, and somebody will eventually ask
+you to demonstrate — with records — why you believed the system was fit for use.
 
 ## The shift in what you optimise
 
@@ -46,27 +46,27 @@ consumer MT get this wrong in a way that is invisible until it is not.
   cannot answer the question that will be asked.
 * **Version pinning and change control.** A model upgrade is a change to a validated system and
   requires re-validation. "We upgraded to the latest model" is not a neutral act here.
-* **Defined failure handling.** What happens when QE flags a segment, when the service is down, when
-  a translation is later found to be wrong. Including recall procedures.
+* **Defined failure handling.** What happens when QE flags a segment, when the service is down,
+  when a translation is later found to be wrong. Including recall procedures.
 
 ## The specific technical requirements
 
 * **Critical error detection as a first-class classifier** (question 132), with its own recall
-  target on a purpose-built test set: negation flips, number and unit changes, entity swaps, omitted
-  clauses, added content.
-* **Terminology enforced and verified**, not requested (question 133). In medicine and law the term
-  *is* the meaning.
+  target on a purpose-built test set: negation flips, number and unit changes, entity swaps,
+  omitted clauses, added content.
+* **Terminology enforced and verified**, not requested (question 133). In medicine and law the
+  term *is* the meaning.
 * **No silent length truncation** (question 144) — a truncated legal sentence can invert it.
 * **Data residency and confidentiality.** Patient and client data crossing a border or entering a
   third-party API is often the binding constraint, ahead of quality. Check before you architect.
-* **Provenance labelling.** Machine-translated content should be identifiable as such to the reader,
-  and in several jurisdictions must be.
+* **Provenance labelling.** Machine-translated content should be identifiable as such to the
+  reader, and in several jurisdictions must be.
 
 ## The honest position
 
 For high-risk content, the value of MT is usually **speed and cost in the drafting step**, not the
-removal of the human. Systems sold as replacing qualified review in these domains are making a claim
-their evaluation does not support, and the gap between the average-case metric and the
+removal of the human. Systems sold as replacing qualified review in these domains are making a
+claim their evaluation does not support, and the gap between the average-case metric and the
 worst-case consequence is exactly where that claim fails.
 
 ## What an interviewer digs into next

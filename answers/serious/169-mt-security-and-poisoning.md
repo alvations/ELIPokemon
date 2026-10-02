@@ -16,8 +16,8 @@ surface.
 
 ## 1. Training-data poisoning
 
-Public parallel corpora are mined from the web (question 130). Anyone who can publish a web page can
-contribute to the next crawl.
+Public parallel corpora are mined from the web (question 130). Anyone who can publish a web page
+can contribute to the next crawl.
 
 ```
    attacker publishes a bilingual page, many times, containing:
@@ -29,15 +29,15 @@ contribute to the next crawl.
    because BOTH SIDES ARE WELL-FORMED. The corruption is semantic, not textual.
 ```
 
-A **backdoor** is the targeted version: a rare trigger phrase paired consistently with an attacker's
-chosen output. On ordinary input the model behaves normally, so evaluation shows nothing. Research
-has repeatedly shown that a tiny fraction of poisoned pairs — hundreds in millions — suffices when
-the trigger is rare enough.
+A **backdoor** is the targeted version: a rare trigger phrase paired consistently with an
+attacker's chosen output. On ordinary input the model behaves normally, so evaluation shows
+nothing. Research has repeatedly shown that a tiny fraction of poisoned pairs — hundreds in
+millions — suffices when the trigger is rare enough.
 
 Defences: provenance and reputation weighting on crawled sources; deduplicate aggressively (poison
-needs repetition to take); semantic consistency checks between source and target rather than fluency
-checks alone; hold out a clean, curated evaluation set the attacker cannot reach; and probe for
-triggers by testing rare phrases in security-relevant domains.
+needs repetition to take); semantic consistency checks between source and target rather than
+fluency checks alone; hold out a clean, curated evaluation set the attacker cannot reach; and
+probe for triggers by testing rare phrases in security-relevant domains.
 
 ## 2. Prompt injection through the document
 
@@ -53,9 +53,9 @@ without review.
 
 ## 3. Adversarial inputs at inference
 
-Small perturbations — homoglyphs (question 115), invisible characters, unusual spacing — can flip an
-output or cause degenerate repetition. This is the same confusables problem, weaponised: a filter
-looks at the source and passes it, and the model reads something different.
+Small perturbations — homoglyphs (question 115), invisible characters, unusual spacing — can flip
+an output or cause degenerate repetition. This is the same confusables problem, weaponised: a
+filter looks at the source and passes it, and the model reads something different.
 
 Normalise (question 115) and strip control characters **before** the model, and log what you
 stripped.

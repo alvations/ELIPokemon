@@ -13,8 +13,9 @@ tags: [ab-testing, experimentation, power-analysis, novelty-effect, guardrails]
 Your new Trainer scores better in practice — it finally stops leading Magikarp. **Does it win more
 real matches?**
 
-Those are genuinely different questions. A Trainer with better practice numbers can absolutely lose
-to Cynthia — and one that "looks worse" on paper can win because it decides three times faster.
+Those are genuinely different questions. A Trainer with better practice numbers can absolutely
+lose to Cynthia — and one that "looks worse" on paper can win because it decides three times
+faster.
 
 **Only real matches settle it.**
 
@@ -25,8 +26,8 @@ to Cynthia — and one that "looks worse" on paper can win because it decides th
 Give half your Trainers the new lead — Garchomp instead of Magikarp — and half the old one, and
 **keep each Trainer on one side for the whole test.**
 
-Split by *match* instead and the same Trainer plays some matches with the new strategy and some with
-the old — they'll get confused, carry habits across, and both sides get muddied.
+Split by *match* instead and the same Trainer plays some matches with the new strategy and some
+with the old — they'll get confused, carry habits across, and both sides get muddied.
 
 **📋 Decide what counts BEFORE you start.**
 
@@ -43,8 +44,8 @@ the old — they'll get confused, carry habits across, and both sides get muddie
       → These must NOT get worse, even if wins go up.
 ```
 
-Tier 3 is what stops you shipping a Trainer that wins 2% more matches and takes **forty seconds per
-turn.** Better and unusable.
+Tier 3 is what stops you shipping a Trainer that wins 2% more matches and takes **forty seconds
+per turn.** Better and unusable.
 
 **📐 Work out how many matches you need — first.**
 
@@ -53,8 +54,8 @@ Chasing a **1%** improvement? You need **tens of thousands.**
 
 📌 And halving the effect you want to detect **quadruples** the matches needed.
 
-If you can't get that many, the honest conclusion is *"I can't run this test"* — **not** *"I'll run it
-anyway and squint."*
+If you can't get that many, the honest conclusion is *"I can't run this test"* — **not** *"I'll
+run it anyway and squint."*
 
 ## Five ways to fool yourself 🚨
 
@@ -62,18 +63,20 @@ anyway and squint."*
 
 You check every morning. Day 4, the new Trainer is ahead! **Ship it!**
 
-No. Check often enough and **random noise will look like a win at some point**, guaranteed. You didn't
-find an effect; you found the day the dice favoured you.
+No. Check often enough and **random noise will look like a win at some point**, guaranteed. You
+didn't find an effect; you found the day the dice favoured you.
 
 📌 **Pick a duration in advance and stick to it.**
 
 **2. ✨ Everything new looks good at first.**
 
-Trainers try harder with a new lead. They actually read the Focus Sash and the Leftovers. They're curious.
+Trainers try harder with a new lead. They actually read the Focus Sash and the Leftovers. They're
+curious.
 
 Two weeks later, the novelty's gone and so is the improvement.
 
-📌 **Run at least a full week.** And check whether the effect is *stable* or **drifting toward zero.**
+📌 **Run at least a full week.** And check whether the effect is *stable* or **drifting toward
+zero.**
 
 **3. 🎰 Measuring twenty things.**
 
@@ -90,8 +93,8 @@ about to interpret is contaminated.
 
 Check this before you look at anything else. It's easy to miss and it invalidates everything.
 
-**5. 🔁 The test changes the world it's testing.** If your new strategy changes which opponents your
-Trainers meet, it's changing the very thing you're measuring against.
+**5. 🔁 The test changes the world it's testing.** If your new strategy changes which opponents
+your Trainers meet, it's changing the very thing you're measuring against.
 
 ## Testing a Trainer specifically 🤖
 
@@ -108,9 +111,8 @@ Trainers meet, it's changing the very thing you're measuring against.
 * 🔀 **Blend both sides into one list.** For ranking Pokémon to catch, show suggestions from both
   Trainers **mixed together** and see which get caught. Far more sensitive — needs a fraction of
   the matches.
-* 👻 **Run it silently.** Let the new Trainer call every turn — *"I'd Thunderbolt here"* — **without
-  anyone acting on it**, and
-  compare its calls to the old one's. Zero risk. Catches every speed and crash problem. Tells you
-  **nothing** about whether people prefer it.
+* 👻 **Run it silently.** Let the new Trainer call every turn — *"I'd Thunderbolt here"* —
+  **without anyone acting on it**, and compare its calls to the old one's. Zero risk. Catches
+  every speed and crash problem. Tells you **nothing** about whether people prefer it.
 * ⏰ **Alternate by time.** Everyone gets the new strategy on odd days, the old one on even days.
   Useful when the strategies interfere with each other.

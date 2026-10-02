@@ -73,10 +73,10 @@ stronger Pokémon, on terms that change shape as you grow.
 1. **It picks your Pokémon before the first ball is thrown.** Both are in the box. Only the
    Sceptile can become something you let other Trainers battle with at any size. If "we might rent
    it out" is on the plan, the slip has already chosen.
-2. **Everything descended from it keeps the ID No.** Evolve a **Bagon** all the way to **Salamence**, train
-   it to 100, **Hyper Training** it with a **Gold Bottle Cap**, teach it a forgotten move with a
-   **Heart Scale** at the **Move Reminder** — the Original Trainer field never moves. A fine-tune,
-   a trimmed copy, a community re-upload: still traded.
+2. **Everything descended from it keeps the ID No.** Evolve a **Bagon** all the way to
+   **Salamence**, train it to 100, **Hyper Training** it with a **Gold Bottle Cap**, teach it a
+   forgotten move with a **Heart Scale** at the **Move Reminder** — the Original Trainer field
+   never moves. A fine-tune, a trimmed copy, a community re-upload: still traded.
 3. **The carve-outs are drawn by what it is *for*, and that is not a stat.** "Mainly for coding or
    office work" is a positioning question, not a **Pokédex** entry. A code-review bot is inside
    the named category. A translation tool is outside it by name. An AI feature inside a shop's app

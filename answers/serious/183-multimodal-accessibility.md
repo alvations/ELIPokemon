@@ -34,8 +34,8 @@ Automatic alt text is not "caption the image". Good alt text is **purpose-depend
 
 Consequences for a system: it needs the surrounding context, not just the image; length should be
 short by default with detail on request; and it must have a way to say **"decorative"** and a way
-to say **"I cannot tell"**. Text in the image must be transcribed rather than described. Charts need
-their *data*, not their appearance (question 127).
+to say **"I cannot tell"**. Text in the image must be transcribed rather than described. Charts
+need their *data*, not their appearance (question 127).
 
 ## Audio description and captioning
 
@@ -44,24 +44,24 @@ their *data*, not their appearance (question 127).
 * **Captioning** needs speaker identification, non-speech sound ("door slams"), and accurate
   timing. WER (question 125) is the wrong metric alone: a caption that is 95% accurate but misses
   who is speaking is much less usable than the number implies.
-* Both are covered by standards (WCAG) that specify requirements rather than aspirations. Know them
-  before designing.
+* Both are covered by standards (WCAG) that specify requirements rather than aspirations. Know
+  them before designing.
 
 ## The rules that make this responsible
 
 * **Say when you are unsure.** "A person, possibly holding a cup" is more useful than a confident
   invention. This is the abstention argument from question 151, and here the user has no way to
   detect the failure themselves.
-* **Never describe people's attributes you cannot know.** Inferring race, gender, age, disability or
-  emotion from a photograph and stating it as fact is a documented harm, not a feature. Describe
-  what is visible; attribute nothing.
-* **Automatic description supplements human description; it does not replace it** where the content
-  matters. The same argument as signing avatars in question 155, and it goes wrong the same way:
-  deployed as a cost saving rather than as added coverage.
+* **Never describe people's attributes you cannot know.** Inferring race, gender, age, disability
+  or emotion from a photograph and stating it as fact is a documented harm, not a feature.
+  Describe what is visible; attribute nothing.
+* **Automatic description supplements human description; it does not replace it** where the
+  content matters. The same argument as signing avatars in question 155, and it goes wrong the
+  same way: deployed as a cost saving rather than as added coverage.
 * **Test with disabled users, and pay them.** A system evaluated only by sighted engineers on
   caption metrics will pass and be unusable.
-* **Do not remove the human option.** The value is in *more* access, not in replacing the accessible
-  path that already worked.
+* **Do not remove the human option.** The value is in *more* access, not in replacing the
+  accessible path that already worked.
 
 ## Evaluation
 

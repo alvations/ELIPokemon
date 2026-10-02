@@ -10,9 +10,11 @@ tags: [multimodal, vlm, vision-encoder, projector, cross-attention, llava]
 
 # Teaching your Trainer to look at the field, not just read about it
 
-Your Trainer reads brilliantly. Hand it a **written** Pokédex entry for Ferrothorn and it's a genius.
+Your Trainer reads brilliantly. Hand it a **written** Pokédex entry for Ferrothorn and it's a
+genius.
 
-Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A sprite of a Gyarados isn't the word "Gyarados".
+Hand it a **photograph** of the field and it has no idea what it's looking at. It reads words. A
+sprite of a Gyarados isn't the word "Gyarados".
 
 ## Fix 1: translate the sprite into words 🔤
 
@@ -29,16 +31,16 @@ in the format your Trainer already understands.
 Your Trainer doesn't change at all. It just receives some tokens that happen to have come from a
 sprite instead of a Pokédex page. As far as it's concerned, it's still reading.
 
-✅ **Simple, cheap, reuses everything you already have.**
-❌ **A sprite eats a LOT of space.** One picture might consume as much room as a thousand words — and
-a few photos fill your Trainer's bag entirely.
+✅ **Simple, cheap, reuses everything you already have.** ❌ **A sprite eats a LOT of space.** One
+picture might consume as much room as a thousand words — and a few photos fill your Trainer's bag
+entirely.
 
 ## Fix 2: let the Trainer glance at the photo 👀
 
 Instead of converting the sprite into words, **give your Trainer the ability to look up.**
 
-Insert a "glance at the field" instinct that lets it check the sprite whenever it needs to, mid-thought,
-without the photo living in its bag at all.
+Insert a "glance at the field" instinct that lets it check the sprite whenever it needs to,
+mid-thought, without the photo living in its bag at all.
 
 ✅ **The photo costs no bag space.** Your Trainer's existing skills are completely untouched.
 ❌ Requires actual surgery on the Trainer, and new parts to train.
@@ -81,26 +83,26 @@ components and built the bridge.
 
 ## What's still hard 😬
 
-**🔍 It can't read small print.** The spotter looks at the whole field at once and reports the gist.
-Ask it to read the Leftovers recovery ticking away in the corner of the HP bar and it can't — it
-never looked
-closely.
+**🔍 It can't read small print.** The spotter looks at the whole field at once and reports the
+gist. Ask it to read the Leftovers recovery ticking away in the corner of the HP bar and it can't
+— it never looked closely.
 
 The fix is to **chop the sprite into pieces and examine each closely** — the tail flame in one
 crop, the wings in another. Which works, and multiplies
 your bag problem by the number of pieces.
 
-**📦 Sprites are enormous.** Four of them and your Trainer's bag is full, with no room for the actual
-conversation.
+**📦 Sprites are enormous.** Four of them and your Trainer's bag is full, with no room for the
+actual conversation.
 
-**📐 It's bad at spatial questions.** *"Is the Ferrothorn on Toxapex's left or right?"* Counting and precise
-positioning remain genuinely weak. It sees the gist, not the geometry.
+**📐 It's bad at spatial questions.** *"Is the Ferrothorn on Toxapex's left or right?"* Counting
+and precise positioning remain genuinely weak. It sees the gist, not the geometry.
 
 **🙈 It ignores the photo when the words are enough.**
 
-The insidious one. Ask *"what type is the Pokémon in this photo?"* and show a picture of a Gyarados —
-and your Trainer might say "Water/Flying" because that is what the *words* of the question
-usually go with, **without ever really looking.** It would say the same for a photo of Milotic.
+The insidious one. Ask *"what type is the Pokémon in this photo?"* and show a picture of a
+Gyarados — and your Trainer might say "Water/Flying" because that is what the *words* of the
+question usually go with, **without ever really looking.** It would say the same for a photo of
+Milotic.
 
 Confident. Fluent. **Didn't look at the picture.**
 
@@ -110,7 +112,7 @@ expensive. Picking
 
 ## The bigger point 🌍
 
-The same recipe works for anything: **Pokémon cries, 3D models, sensor readings.** Hire a spotter for that
-thing, build a small translator, train the bridge.
+The same recipe works for anything: **Pokémon cries, 3D models, sensor readings.** Hire a spotter
+for that thing, build a small translator, train the bridge.
 
 Your Trainer has become a general-purpose thinker about **anything you can find a spotter for.**

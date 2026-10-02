@@ -44,9 +44,9 @@ Three practical facts that fall out of this:
 
 * **Large batches matter enormously.** More in-batch negatives means a harder, more informative
   contrastive task. This is why embedding training uses gradient caching and very large batches.
-* **Hard negatives are the main quality lever.** Random negatives are trivially separable and teach
-  little. Passages that are topically similar but do not answer the query are what force fine
-  distinctions. Mining them (usually with an earlier retriever) is most of the work.
+* **Hard negatives are the main quality lever.** Random negatives are trivially separable and
+  teach little. Passages that are topically similar but do not answer the query are what force
+  fine distinctions. Mining them (usually with an earlier retriever) is most of the work.
 * **The temperature `τ`** controls how sharply the model separates; small `τ` emphasises the
   hardest negatives.
 
@@ -65,8 +65,8 @@ text. Many models require **task prefixes** (`"query: "` / `"passage: "`). Forge
 top-three cause of silently bad retrieval.
 
 **Normalisation.** Vectors are usually L2-normalised, making cosine similarity equal to a dot
-product and to a monotone function of Euclidean distance — so the three metrics coincide. If you do
-not normalise, they do not, and your index metric matters.
+product and to a monotone function of Euclidean distance — so the three metrics coincide. If you
+do not normalise, they do not, and your index metric matters.
 
 **Matryoshka embeddings.** Trained so that prefixes of the vector are themselves valid embeddings.
 A 1536-d vector can be truncated to 256-d for a fast first-pass search, then re-scored at full

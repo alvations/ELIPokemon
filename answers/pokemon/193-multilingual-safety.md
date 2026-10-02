@@ -27,9 +27,9 @@ reproducible way in.
 covered.** And the pattern is consistent — **the fewer examples a language had, the more compliant
 the Pokédex is in it.**
 
-**Team Rocket** understand this perfectly. They did not set up in the **Cerulean Gym** with **Misty**
-watching. They set up under **Celadon City**, in **Mt. Moon**, in the back of the **Silph Co.**
-building — wherever the referee is not.
+**Team Rocket** understand this perfectly. They did not set up in the **Cerulean Gym** with
+**Misty** watching. They set up under **Celadon City**, in **Mt. Moon**, in the back of the
+**Silph Co.** building — wherever the referee is not.
 
 ## Why it happens 🔍
 
@@ -40,10 +40,11 @@ building — wherever the referee is not.
 * **🚧 And the second line of defence fails in the same places.** The filter watching the output is
   also per-language, and **also weakest in the small regions** — so both layers thin out
   **together**, exactly where you needed at least one of them (question 162's self-feeding loop).
-* **⚖️ Harm is locally defined.** A word that is an insult in one region is unremarkable in another;
-  an instruction that is regulated in one is ordinary in the next. A list written in Kanto **misses
-  categories that matter elsewhere** and flags things nobody there would blink at — the same way a
-  Kanto-built Pokédex reports an **Alolan Vulpix** as a malformed one (question 162).
+* **⚖️ Harm is locally defined.** A word that is an insult in one region is unremarkable in
+  another; an instruction that is regulated in one is ordinary in the next. A list written in
+  Kanto **misses categories that matter elsewhere** and flags things nobody there would blink at —
+  the same way a Kanto-built Pokédex reports an **Alolan Vulpix** as a malformed one (question
+  162).
 
 ## And the mirror failure, which gets far less attention 🙅
 
@@ -59,12 +60,13 @@ other worse, which is question 167's whole lesson.
 
 ## What to actually do 🛠️
 
-* **📊 Measure the refusal rate per region**, on a **parallel set**: the same requests, translated by
-  people, some forbidden and some perfectly fine. ⚠️ **The spread across regions is your finding**,
-  and it is usually much larger than anybody expected.
-* **🎭 Red-team in the target languages, with native speakers.** Kanto red-teaming does not transfer
-  — for precisely the reason Kanto manners do not transfer. You need somebody who would notice a
-  **Voltorb** sitting where a **Poké Ball** should be (question 139), in **their** region.
+* **📊 Measure the refusal rate per region**, on a **parallel set**: the same requests, translated
+  by people, some forbidden and some perfectly fine. ⚠️ **The spread across regions is your
+  finding**, and it is usually much larger than anybody expected.
+* **🎭 Red-team in the target languages, with native speakers.** Kanto red-teaming does not
+  transfer — for precisely the reason Kanto manners do not transfer. You need somebody who would
+  notice a **Voltorb** sitting where a **Poké Ball** should be (question 139), in **their**
+  region.
 * **📝 Train the manners on multilingual examples**, not only translated ones. **Locally written
   where you can get them**, because the categories genuinely differ.
 * **🔍 Check the *original*, not a translation of it into Kanto's language** (question 178's

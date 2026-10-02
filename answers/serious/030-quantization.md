@@ -83,8 +83,8 @@ serve.
 
 Perplexity is a poor detector: it moves ~1% while multi-step reasoning, long-context recall, and
 rare-language performance degrade much more. Evaluate quantized models on your hardest tasks, not
-on perplexity. Smaller models are also less robust to quantization than large ones — the redundancy
-that makes 4-bit safe at 70B is not there at 1B.
+on perplexity. Smaller models are also less robust to quantization than large ones — the
+redundancy that makes 4-bit safe at 70B is not there at 1B.
 
 ## What an interviewer digs into next
 

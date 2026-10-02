@@ -15,14 +15,15 @@ gym holds:
 
 * 📋 Garchomp's six stats, Ferrothorn's six, and so on
 * 📝 This week's feedback
-* 📚 **The complete training history** — every trend notebook, every noise estimate, going back to day
-  one
+* 📚 **The complete training history** — every trend notebook, every noise estimate, going back to
+  day one
 
 Eight identical copies of everything. And here's the kicker:
 
 > **The training history is FOUR TIMES bigger than the team stats.**
 
-You'd think a big team is mostly, well, the team. It isn't. It's mostly **paperwork about** the team.
+You'd think a big team is mostly, well, the team. It isn't. It's mostly **paperwork about** the
+team.
 
 ```
    For every 1 unit of actual Pokémon stats:
@@ -84,8 +85,8 @@ train a team that could never fit anywhere.
 ❌ **Constant phone calls.** Every Pokémon, every step, a request goes out.
 
 **But — the clever part:** while training Garchomp, **phone ahead for Ferrothorn's stats.** They
-arrive while you're still busy. Do this well and most of the waiting disappears — the cost drops from
-"crippling" to "10–20% slower."
+arrive while you're still busy. Do this well and most of the waiting disappears — the cost drops
+from "crippling" to "10–20% slower."
 
 ## Two different problems 🧩
 
@@ -109,7 +110,7 @@ exactly the trade you want.
 ## Practical notes 📌
 
 * 🎁 **Turn on level 1 immediately.** Free storage savings, zero cost. There is no argument.
-* 📦 **Split at sensible boundaries** — one Gym's worth at a time, Brock's records with Brock's. Too fine and you're on the phone
-  constantly; too coarse and you're back to storing everything.
-* 🤝 **Combine it with filming only checkpoints.** That shrinks your *footage archive*; this shrinks
-  your *paperwork*. **Different piles.** Every large operation does both.
+* 📦 **Split at sensible boundaries** — one Gym's worth at a time, Brock's records with Brock's.
+  Too fine and you're on the phone constantly; too coarse and you're back to storing everything.
+* 🤝 **Combine it with filming only checkpoints.** That shrinks your *footage archive*; this
+  shrinks your *paperwork*. **Different piles.** Every large operation does both.

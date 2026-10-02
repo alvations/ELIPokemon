@@ -28,8 +28,8 @@ gradient support gets pushed to exactly zero and stays there. L2's pull is **pro
 weight, so it shrinks toward zero asymptotically and never arrives.
 
 Geometrically, the constraint region for L1 is a diamond with corners on the axes; for L2 it is a
-sphere. The optimum lands where the loss contours first touch the region, and a diamond's corners —
-which lie on the axes, i.e. have coordinates exactly zero — are far more likely contact points.
+sphere. The optimum lands where the loss contours first touch the region, and a diamond's corners
+— which lie on the axes, i.e. have coordinates exactly zero — are far more likely contact points.
 
 ```
         L1 (diamond)                    L2 (circle)
@@ -68,11 +68,11 @@ noise, which is bad for interpretation and unstable across resamples.
   usually pursued through explicit pruning instead (question 032).
 * **AdamW matters.** With adaptive optimizers, adding L2 to the loss is *not* the same as weight
   decay: the penalty gradient gets divided by the same adaptive denominator as everything else, so
-  parameters with large historical gradients get decayed less. AdamW
-  ([Loshchilov & Hutter](https://arxiv.org/abs/1711.05101)) decouples it, applying decay directly to
-  the weights. This is a genuine bug fix, not a tweak, and it is why AdamW replaced Adam.
-* **Do not decay biases, LayerNorm gains, or embeddings.** Standard practice excludes them; decaying
-  a normalisation scale is meaningless and decaying biases hurts.
+  parameters with large historical gradients get decayed less. AdamW ([Loshchilov &
+  Hutter](https://arxiv.org/abs/1711.05101)) decouples it, applying decay directly to the weights.
+  This is a genuine bug fix, not a tweak, and it is why AdamW replaced Adam.
+* **Do not decay biases, LayerNorm gains, or embeddings.** Standard practice excludes them;
+  decaying a normalisation scale is meaningless and decaying biases hurts.
 * **Interaction with normalisation.** In a normalised network, weight scale does not affect the
   function, so weight decay mostly changes the *effective learning rate* rather than acting as a
   classical complexity penalty.

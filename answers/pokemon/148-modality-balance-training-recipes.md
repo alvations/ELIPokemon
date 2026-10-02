@@ -10,8 +10,8 @@ tags: [data-mixture, curriculum, forgetting, stage-training, ablation, loss-weig
 
 # Five hundred and ten points, and six stats to spend them on
 
-Every Pokémon gets a fixed training budget: **510 effort points in total, and no more than 252 into
-any single stat.** That is the whole game. Feed it **Protein** until Attack is capped and
+Every Pokémon gets a fixed training budget: **510 effort points in total, and no more than 252
+into any single stat.** That is the whole game. Feed it **Protein** until Attack is capped and
 **Carbos** until Speed is capped, and you have six points left — for HP, for Defence, for Special
 Defence, for the rest of its life. There is no **Calcium** or **Zinc** or **HP Up** in the budget
 any more. You spent it.
@@ -66,23 +66,23 @@ Nobody takes a **Level 5 Charmander** straight to **Lorelei**. You work up **Rou
 
 Same here: **train at a distance first, walk up close later.** Looking closely costs enormously
 (question 121), and almost everything — what Pokémon are, how they relate, following an
-instruction — is learnable from across the clearing. Save the expensive close-up stage for the end,
-and for the material that genuinely needs it: the price boards and the charts.
+instruction — is learnable from across the clearing. Save the expensive close-up stage for the
+end, and for the material that genuinely needs it: the price boards and the charts.
 
 The same holds for battle recordings and for cries. Short first. Long last.
 
 ## Two ways the budget leaks 🕳️
 
 * **📏 The long battles drown out the short ones.** A forty-turn match against **Lance**'s team
-  teaches forty times as much as one **Pidgey** on Route 1 — *by lasting longer*, not by being more
-  valuable. If you are counting turns rather than battles, you have quietly decided that long
-  documents matter forty times more than short ones. Decide that **on purpose** or not at all.
-  An **Exp. Share** spreads the gain across the whole party; a per-turn tally hands it all to
-  whoever was on the field longest.
+  teaches forty times as much as one **Pidgey** on Route 1 — *by lasting longer*, not by being
+  more valuable. If you are counting turns rather than battles, you have quietly decided that long
+  documents matter forty times more than short ones. Decide that **on purpose** or not at all. An
+  **Exp. Share** spreads the gain across the whole party; a per-turn tally hands it all to whoever
+  was on the field longest.
 * **🖼️ Do not drill it on reciting what it saw.** In the design where the picture is spliced into
   the sentence, there is a real temptation to train it to predict the picture-shaped pieces too.
-  That is capacity spent teaching a Pokémon to describe its own eyesight back to itself. Skip those
-  positions.
+  That is capacity spent teaching a Pokémon to describe its own eyesight back to itself. Skip
+  those positions.
 
 And the shortcut worth naming: **Rare Candy** raises a level instantly and grants **no effort
 points at all**. It looks like progress. The Pokémon arrives at the League underneath its own

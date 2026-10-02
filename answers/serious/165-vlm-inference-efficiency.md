@@ -37,15 +37,15 @@ Three separate costs, frequently conflated:
 ## The levers, best first
 
 * **Prefix caching.** If the same image is asked several questions — a document QA session, an
-  agent looking at one screenshot repeatedly — cache the KV for the image prefix and reuse it. This
-  is the single biggest win in real workloads and it is often not implemented because the image is
-  assumed to change every request. Measure how often it does.
+  agent looking at one screenshot repeatedly — cache the KV for the image prefix and reuse it.
+  This is the single biggest win in real workloads and it is often not implemented because the
+  image is assumed to change every request. Measure how often it does.
 * **Token reduction before the LLM.** Pixel shuffle (question 121) is free 4x. Token merging and
   pruning cut further, with the caveat that they are dangerous on documents. A resampler bounds it
   absolutely (question 119).
-* **Right-size the resolution per request.** Most requests do not need maximum tiling. Route: cheap
-  low-resolution pass first, escalate only if the model or a classifier says the answer needs detail.
-  This is question 132's routing idea applied to compute.
+* **Right-size the resolution per request.** Most requests do not need maximum tiling. Route:
+  cheap low-resolution pass first, escalate only if the model or a classifier says the answer
+  needs detail. This is question 132's routing idea applied to compute.
 * **Quantise the vision tower.** It is usually a small fraction of parameters but runs in full
   precision by default in many stacks. Check.
 * **Batch by image count.** Requests with wildly different numbers of image tokens batch badly;
@@ -62,11 +62,11 @@ Three separate costs, frequently conflated:
 
 ## Measuring it properly
 
-Report **time to first token** and **tokens per second** separately, and report them **as a function
-of image resolution and count** — a VLM benchmarked on one 336px image tells you nothing about its
-behaviour on a four-tile document. Also report **concurrent requests per GPU at a latency target**,
-because that is what determines cost per query and it is dominated by KV cache pressure, not by
-compute.
+Report **time to first token** and **tokens per second** separately, and report them **as a
+function of image resolution and count** — a VLM benchmarked on one 336px image tells you nothing
+about its behaviour on a four-tile document. Also report **concurrent requests per GPU at a
+latency target**, because that is what determines cost per query and it is dominated by KV cache
+pressure, not by compute.
 
 ## What an interviewer digs into next
 

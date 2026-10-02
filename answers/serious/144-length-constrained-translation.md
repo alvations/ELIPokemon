@@ -10,9 +10,9 @@ tags: [subtitles, length-control, ui-strings, expansion, line-breaking, complian
 
 # Translating into a fixed space
 
-Subtitles have a character limit and a reading-speed limit. UI strings have a button. Game text has
-a box. Print has a column. In all of these, a translation that overflows is **not a slightly worse
-translation — it is a broken product**, and no quality metric in question 129 can see the
+Subtitles have a character limit and a reading-speed limit. UI strings have a button. Game text
+has a box. Print has a column. In all of these, a translation that overflows is **not a slightly
+worse translation — it is a broken product**, and no quality metric in question 129 can see the
 difference.
 
 ## The expansion problem
@@ -28,8 +28,9 @@ need more words for the same idea; Russian and Polish inflect. Rules of thumb wo
    English → Arabic/Hebrew  similar length, and RTL, which breaks naive layout
 ```
 
-Short strings expand worst. A one-word button label has no slack: "Save" is four characters and its
-German rendering is eight or more. Layout designed against English is a layout that will break.
+Short strings expand worst. A one-word button label has no slack: "Save" is four characters and
+its German rendering is eight or more. Layout designed against English is a layout that will
+break.
 
 ## Control mechanisms
 
@@ -44,8 +45,8 @@ German rendering is eight or more. Layout designed against English is a layout t
 * **Constrained decoding with a length penalty** or hard truncation at beam expansion. Guarantees
   the limit and can produce a mangled ending.
 * **Iterative shortening.** Translate, measure, and if over budget ask for a shorter rendering.
-  Costs a round trip, produces better compressions than any single-pass method, and is what a human
-  subtitler does.
+  Costs a round trip, produces better compressions than any single-pass method, and is what a
+  human subtitler does.
 
 ## Subtitles have their own rules
 
@@ -66,9 +67,9 @@ Length is only half of it:
 
 Placeholders (`{count}`, `%s`) must survive exactly (question 133); pluralisation is
 language-specific and often needs more than two forms; and **the same English string may need
-different translations in different places** — "Home" as a navigation item and "Home" as an address
-field are not the same word in most languages. Passing context with each string is the fix, and
-almost nobody does it.
+different translations in different places** — "Home" as a navigation item and "Home" as an
+address field are not the same word in most languages. Passing context with each string is the
+fix, and almost nobody does it.
 
 ## Evaluation
 
@@ -79,8 +80,8 @@ Report **compliance rate and quality together**, always:
 * **The trade curve**: quality as a function of how tight the budget is.
 
 A system reported at 95% compliance and no quality number may be truncating. A system reported at
-high COMET and no compliance number is almost certainly overflowing, and the metric is structurally
-incapable of noticing.
+high COMET and no compliance number is almost certainly overflowing, and the metric is
+structurally incapable of noticing.
 
 ## What an interviewer digs into next
 

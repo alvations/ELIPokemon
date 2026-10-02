@@ -52,7 +52,8 @@ becomes *reachable*.
 Obedient isn't the same as good.
 
 Your Pokémon now follows orders. But it's blunt. It over-explains. It Earthquakes into a Rotom
-when it should switch. It occasionally does something genuinely reckless because nobody ever told it not to.
+when it should switch. It occasionally does something genuinely reckless because nobody ever told
+it not to.
 
 So: **show it pairs and let it learn which is better.**
 

@@ -43,16 +43,16 @@ Now there's an actual finish line. Your Trainer reaches 90%, the pressure stops,
 
 ## What you get 🎁
 
-* 🎯 **Honest confidence.** When it says 90%, it's roughly right 90% of the time — instead of saying
-  99.9% about everything.
+* 🎯 **Honest confidence.** When it says 90%, it's roughly right 90% of the time — instead of
+  saying 99.9% about everything.
 * 🛡️ **Robustness to bad footage.** If a replay was mislabelled, the old key drove your Trainer to
   **absolute certainty** about something false. The softened key limits the damage.
 * 📐 **Cleaner organisation.** Options group up neatly instead of being flung as far apart as
   possible.
 
-A lovely, slightly odd result from machine translation: softening makes the surprise score **worse**
-while making the actual translations **better.** The Trainer is deliberately less certain, and makes
-better calls. Two different things, and only one of them is what you wanted.
+A lovely, slightly odd result from machine translation: softening makes the surprise score
+**worse** while making the actual translations **better.** The Trainer is deliberately less
+certain, and makes better calls. Two different things, and only one of them is what you wanted.
 
 ## Where it backfires 💥
 
@@ -93,11 +93,11 @@ result, and it's counterintuitive enough to be worth remembering.
 
 ## Other places to skip it ⛔
 
-* 📏 **When you need the raw gaps.** Any downstream system reading the actual margins between options
-  gets distorted numbers.
-* 🌳 **When some wrong answers are much wronger than others.** Uniform softening declares every wrong
-  option **equally** wrong. Mistaking Charmeleon for Charizard is not the same mistake as mistaking
-  it for Magikarp.
+* 📏 **When you need the raw gaps.** Any downstream system reading the actual margins between
+  options gets distorted numbers.
+* 🌳 **When some wrong answers are much wronger than others.** Uniform softening declares every
+  wrong option **equally** wrong. Mistaking Charmeleon for Charizard is not the same mistake as
+  mistaking it for Magikarp.
 * 🌾 **In the wild grass.** Rarely used for the main grind — the future is genuinely uncertain
   already, there are tens of thousands of options so the softening is negligible anyway, and it
   distorts exactly the thing you're trying to measure.

@@ -12,12 +12,12 @@ tags: [synthetic-data, recaptioning, alt-text, filtering, model-collapse, curati
 
 Web alt-text is the original supervision for image-text models, and it is terrible. It is
 frequently empty, an SEO keyword string, a filename, a photographer credit, or a caption about
-something adjacent to the image. Even the good ones are short and mention one salient object out of
-twenty.
+something adjacent to the image. Even the good ones are short and mention one salient object out
+of twenty.
 
-**Recaptioning** replaces it: run a strong VLM over every image and generate a detailed description
-to train on instead. This was the change that visibly improved text-to-image prompt adherence, and
-it is now standard for VLM pretraining too.
+**Recaptioning** replaces it: run a strong VLM over every image and generate a detailed
+description to train on instead. This was the change that visibly improved text-to-image prompt
+adherence, and it is now standard for VLM pretraining too.
 
 ```
    original alt-text:  "IMG_2024 beach"
@@ -31,22 +31,22 @@ it is now standard for VLM pretraining too.
 
 ## Why it works
 
-The training signal is now **dense and aligned**. Every phrase corresponds to something actually in
-the image, so the model learns attribute binding, relations and counting — precisely the
+The training signal is now **dense and aligned**. Every phrase corresponds to something actually
+in the image, so the model learns attribute binding, relations and counting — precisely the
 capabilities that fail when trained on alt-text (questions 120, 128). For generation, prompt
 adherence improves because the training captions now resemble what users actually write:
 descriptive sentences, not keyword strings.
 
 ## The mixing rule nobody should skip
 
-Train exclusively on synthetic captions and the model learns the **captioner's** distribution — its
-phrasing, its style, its blind spots — and then fails on real user prompts, which are short, messy
-and ungrammatical.
+Train exclusively on synthetic captions and the model learns the **captioner's** distribution —
+its phrasing, its style, its blind spots — and then fails on real user prompts, which are short,
+messy and ungrammatical.
 
 The standard fix is a **blend**: keep a proportion of original captions. DALL-E 3 reported roughly
-95% synthetic / 5% original; other recipes use more original. The exact ratio is corpus-specific and
-worth ablating, but the *principle* is not optional: **some real captions must survive** or you have
-trained a model that only understands one describer.
+95% synthetic / 5% original; other recipes use more original. The exact ratio is corpus-specific
+and worth ablating, but the *principle* is not optional: **some real captions must survive** or
+you have trained a model that only understands one describer.
 
 Length matters too. Mix short and long synthetic captions, or the model will not handle short
 prompts — a model trained only on 60-word descriptions produces poor results from three words.
@@ -56,9 +56,9 @@ prompts — a model trained only on 60-word descriptions produces poor results f
 **The captioner hallucinates, and the hallucination becomes ground truth.**
 
 A VLM writing captions gets objects wrong (question 122). Those errors do not stay local — they
-become training labels, and the next model learns them as fact. Worse, the errors are *systematic*:
-the captioner has consistent biases, so the same wrong association is reinforced across millions of
-examples rather than averaging out as noise.
+become training labels, and the next model learns them as fact. Worse, the errors are
+*systematic*: the captioner has consistent biases, so the same wrong association is reinforced
+across millions of examples rather than averaging out as noise.
 
 Controls that actually help:
 

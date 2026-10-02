@@ -18,8 +18,8 @@ Two different problems wear the same name:
   the interesting failures live.
 
 Both matter operationally: aesthetic scoring filters training corpora for generative models
-(question 137), ranks generation candidates, and orders search results. So the scorer's biases become
-the generator's biases, at scale.
+(question 137), ranks generation candidates, and orders search results. So the scorer's biases
+become the generator's biases, at scale.
 
 ## What aesthetic scorers actually learn
 
@@ -43,15 +43,16 @@ outputs share a recognisable house style.
 ## The specific problems
 
 * **Score is entangled with content.** These models rate photographs of certain subjects higher
-  regardless of execution: landscapes and portraits over documents, diagrams, or people who are not
-  young and conventionally attractive. Filtering therefore removes *subject matter*, not just poor
-  images.
+  regardless of execution: landscapes and portraits over documents, diagrams, or people who are
+  not young and conventionally attractive. Filtering therefore removes *subject matter*, not just
+  poor images.
 * **Cultural specificity.** Rating populations are narrow. Composition conventions, colour
   preference and what counts as "clean" vary; a scorer trained on one population imposes it
   globally.
 * **Gameability.** As a reward signal, models learn to produce the *markers* of the aesthetic —
   bokeh, warmth, saturation — rather than better images. This is question 021's over-optimisation,
-  visible to the eye: the characteristic over-processed look of a heavily aesthetic-tuned generator.
+  visible to the eye: the characteristic over-processed look of a heavily aesthetic-tuned
+  generator.
 * **Confusion with prompt adherence.** An image can be beautiful and not what was asked for
   (question 137). Score them separately, always.
 

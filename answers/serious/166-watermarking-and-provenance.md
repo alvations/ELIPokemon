@@ -21,11 +21,11 @@ enough to ruin someone's career.
 
 ## Why post-hoc detection does not work
 
-A classifier trained to spot generated images works on the generators it saw, degrades on new ones,
-and fails on the ones that matter — a generated image that has been cropped, re-encoded, printed
-and re-photographed, or lightly edited. Meanwhile the **false positive rate is the whole problem**:
-at 99% accuracy on a corpus that is 1% generated, most positives are wrong. Deployed against
-students or journalists, that is not a metric, it is an accusation.
+A classifier trained to spot generated images works on the generators it saw, degrades on new
+ones, and fails on the ones that matter — a generated image that has been cropped, re-encoded,
+printed and re-photographed, or lightly edited. Meanwhile the **false positive rate is the whole
+problem**: at 99% accuracy on a corpus that is 1% generated, most positives are wrong. Deployed
+against students or journalists, that is not a metric, it is an accusation.
 
 Treat any general-purpose "is this AI" detector as unreliable, and say so when asked.
 
@@ -52,8 +52,8 @@ An embedded signal in the output, ideally invisible and detectable by whoever ho
 * **Text watermarking** biases token sampling toward a keyed subset. It works statistically over
   enough tokens and is defeated by paraphrase, which is cheap.
 
-Watermarking is a **deterrent and an audit trail**, not a defence against an adversary. Designing as
-if it were the latter is the error.
+Watermarking is a **deterrent and an audit trail**, not a defence against an adversary. Designing
+as if it were the latter is the error.
 
 ## Provenance: C2PA and content credentials
 

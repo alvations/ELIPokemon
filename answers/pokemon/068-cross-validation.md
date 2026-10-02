@@ -74,8 +74,8 @@ mistake in real projects, by a wide margin.
 
 You normalise, clean and index the whole year of footage, *then* split it.
 
-Too late. Your preparation already **looked at the test matches** — the averages it computed include
-them. ✅ **Prepare inside each round**, using only that round's training pile.
+Too late. Your preparation already **looked at the test matches** — the averages it computed
+include them. ✅ **Prepare inside each round**, using only that round's training pile.
 
 **4. 👯 Duplicate footage.** The same Starmie match filmed from two angles, landing in both piles.
 Deduplicate
@@ -83,8 +83,8 @@ first.
 
 **5. 🎰 Trying two hundred setups and keeping the best.**
 
-Try enough configurations and one will look brilliant **by luck.** You didn't find the best Trainer;
-you found the one that happened to suit your five piles.
+Try enough configurations and one will look brilliant **by luck.** You didn't find the best
+Trainer; you found the one that happened to suit your five piles.
 
 ✅ **Fix: rounds inside rounds.** Use an inner rotation to *choose*, and an outer one to *measure*.
 Tedious, and it's the difference between a real estimate and a flattering one.
@@ -99,6 +99,6 @@ your beautiful 70% is measuring a game nobody is playing any more.
 
 > **A surprisingly good score means look for the leak, not open the champagne.**
 
-Every failure above produces the same symptom: **an encouraging number.** And an encouraging number
-is the least alarming thing a dashboard can possibly show you, which is exactly why these mistakes
-survive to production.
+Every failure above produces the same symptom: **an encouraging number.** And an encouraging
+number is the least alarming thing a dashboard can possibly show you, which is exactly why these
+mistakes survive to production.

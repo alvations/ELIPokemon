@@ -37,8 +37,8 @@ Tiny cards file beautifully and say nothing. Big cards say everything and file t
 
 > **File by the small card. Hand over the big one.**
 
-Index every sentence individually — precise, easy to find. But when a sentence matches, **hand over
-the whole section it came from.**
+Index every sentence individually — precise, easy to find. But when a sentence matches, **hand
+over the whole section it came from.**
 
 Best of both: you found it because the sentence was specific, and you can *use* it because you got
 the context. This one pattern fixes most bad retrieval systems.
@@ -61,7 +61,8 @@ This is the big cheap win nobody does. Instead of a card reading:
 
 ...write:
 
-> **`Gym Report > Water Teams > Gyarados:`** *"It's weak to Electric and typically runs Leftovers."*
+> **`Gym Report > Water Teams > Gyarados:`** *"It's weak to Electric and typically runs
+  Leftovers."*
 
 Same card. Now it's *findable*, because the card carries its own address. Costs nothing.
 
@@ -72,8 +73,8 @@ suggests.
 **5. 📖 Read the whole report first, THEN cut.** The elegant one.
 
 Read the entire report end to end. *Then* cut it into cards. Because you read it whole, when you
-file the card that says *"it's weak to Electric"*, **you know what "it" is** — and you file it under
-Gyarados, where it belongs.
+file the card that says *"it's weak to Electric"*, **you know what "it" is** — and you file it
+under Gyarados, where it belongs.
 
 Same words on the card. Vastly better filing, because the filing clerk had context the card
 doesn't.
@@ -83,14 +84,13 @@ scribble a one-line orientation on top. Expensive to set up, and it cuts lookup 
 
 ## What actually matters 📌
 
-**Start simple, then measure.** Cut at natural breaks, ~500 words, write the headings on. Then build
-a test — *"here's a question, here's the card that should come back"* — and try three cutting
-strategies.
+**Start simple, then measure.** Cut at natural breaks, ~500 words, write the headings on. Then
+build a test — *"here's a question, here's the card that should come back"* — and try three
+cutting strategies.
 
 A half-day of that routinely beats weeks of fiddling with everything downstream, because **no
 amount of clever searching finds an answer you cut in half.**
 
-**And clean the reports first.** 🧹 If every page has the same Silph Co. letterhead, page number and
-footer,
-then every single card contains that boilerplate — and now every search matches every card,
-because they all share the same junk. Strip it before you cut.
+**And clean the reports first.** 🧹 If every page has the same Silph Co. letterhead, page number
+and footer, then every single card contains that boilerplate — and now every search matches every
+card, because they all share the same junk. Strip it before you cut.

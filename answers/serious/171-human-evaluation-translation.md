@@ -29,8 +29,8 @@ not agree**, and where they disagree, the crowd is wrong in a specific direction
    professional, source + target     ─► major accuracy error. Low score.
 ```
 
-Crowd evaluation without the source measures **fluency**, and calls it quality. Since modern systems
-are almost always fluent, that evaluation cannot distinguish the systems you care about
+Crowd evaluation without the source measures **fluency**, and calls it quality. Since modern
+systems are almost always fluent, that evaluation cannot distinguish the systems you care about
 distinguishing. If you take one thing from this: **raters must see the source, and must be able to
 read it.**
 
@@ -44,10 +44,11 @@ for reasons that are practical rather than theoretical:
 * You get a **diagnosis**, not just a verdict — which error categories dominate, and where.
 * **Severity weighting** lets a critical error count as critical (question 132) rather than being
   averaged into mildness.
-* Inter-rater agreement is measurable at the span level, so you can tell whether your protocol works.
+* Inter-rater agreement is measurable at the span level, so you can tell whether your protocol
+  works.
 
-The cost is real: MQM needs trained annotators and roughly three to five times the time per segment
-of a rating scale. Budget for it or do not claim you ran a proper evaluation.
+The cost is real: MQM needs trained annotators and roughly three to five times the time per
+segment of a rating scale. Budget for it or do not claim you ran a proper evaluation.
 
 ## Protocol details that decide whether the result is usable
 
@@ -59,17 +60,18 @@ of a rating scale. Budget for it or do not claim you ran a proper evaluation.
   showing one system's whole output — raters anchor hard.
 * **Give document context.** Segment-level rating cannot see the phenomena in question 131, so a
   document-level system will not be rewarded for the thing it does better.
-* **Include quality controls** — known-bad and known-good items — and report how raters did on them.
-* **Power the study.** Twenty segments cannot distinguish two good systems. Run a power calculation
-  on your expected effect size, or accept that a null result means nothing.
+* **Include quality controls** — known-bad and known-good items — and report how raters did on
+  them.
+* **Power the study.** Twenty segments cannot distinguish two good systems. Run a power
+  calculation on your expected effect size, or accept that a null result means nothing.
 * **Pay properly.** Underpaid raters rush, and rushing shows up as noise that no analysis removes.
 
 ## Reporting
 
-Report the protocol, the number and qualification of raters, agreement statistics, the significance
-test, and the confidence interval. A quality claim without those is an assertion. Publish the
-per-category MQM breakdown, not just the aggregate — that breakdown is where the actionable
-information lives.
+Report the protocol, the number and qualification of raters, agreement statistics, the
+significance test, and the confidence interval. A quality claim without those is an assertion.
+Publish the per-category MQM breakdown, not just the aggregate — that breakdown is where the
+actionable information lives.
 
 ## What an interviewer digs into next
 

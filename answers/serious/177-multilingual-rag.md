@@ -10,10 +10,10 @@ tags: [multilingual-rag, cross-lingual-retrieval, query-translation, citation, l
 
 # RAG when the query and the documents are in different languages
 
-Standard RAG (question 044) assumes one language. Real corpora are multilingual: a support knowledge
-base in English, a policy document in German, a regulation in Japanese, and a user asking in
-Portuguese. Every stage of the pipeline needs a language decision, and getting one wrong produces a
-confident answer from the wrong document.
+Standard RAG (question 044) assumes one language. Real corpora are multilingual: a support
+knowledge base in English, a policy document in German, a regulation in Japanese, and a user
+asking in Portuguese. Every stage of the pipeline needs a language decision, and getting one wrong
+produces a confident answer from the wrong document.
 
 ## Four architectures
 
@@ -41,20 +41,21 @@ cross-lingual retriever's confidence is low or the corpus language is one it han
 
 * **Score comparability across languages.** Retrieval scores from different language pairs are not
   on the same scale (question 168's calibration issue). Merging raw scores systematically favours
-  whichever pair the encoder handles best — usually English. Normalise per language before merging.
+  whichever pair the encoder handles best — usually English. Normalise per language before
+  merging.
 * **Language control on output.** The user asked in Portuguese; the evidence is German; the model
-  may answer in either, or in English, or drift mid-answer (question 136). State the output language
-  explicitly and **verify it with LID** before returning.
+  may answer in either, or in English, or drift mid-answer (question 136). State the output
+  language explicitly and **verify it with LID** before returning.
 * **Citation across languages.** If you cite a German passage in a Portuguese answer, the user
   cannot check it. Show the original *and* a translation of the cited span, marked as machine
   translated. An uncheckable citation is decoration.
 * **Terminology consistency** between the retrieved documents and the generated answer
   (question 133) — the answer should use the target language's established term, not a fresh
   rendering of the source's.
-* **Conflicting sources across locales.** The English and German versions of a policy may genuinely
-  differ, because they were localised for different jurisdictions (question 150). This is not a
-  retrieval bug to be resolved — it is information, and the right behaviour is to surface both with
-  their locales.
+* **Conflicting sources across locales.** The English and German versions of a policy may
+  genuinely differ, because they were localised for different jurisdictions (question 150). This
+  is not a retrieval bug to be resolved — it is information, and the right behaviour is to surface
+  both with their locales.
 
 ## Evaluation
 

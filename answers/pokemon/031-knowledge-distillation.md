@@ -79,8 +79,8 @@ This genuinely happens, and there are real reasons:
 **🎯 Pick the Champion's best games, not its average ones.** The big one. Have the Champion play
 each position **eight times**, keep the best attempt, and train the rookie only on those.
 
-The rookie is now learning from *the Champion at its best*, every single time. But the Champion, in
-any given match, plays at its average. The rookie has been raised on a highlight reel that no
+The rookie is now learning from *the Champion at its best*, every single time. But the Champion,
+in any given match, plays at its average. The rookie has been raised on a highlight reel that no
 single Champion match ever matched.
 
 **🧹 The Champion filters out the noise.** The original training records contained mistakes — bad
@@ -96,6 +96,6 @@ consensus of all five — while costing what one small Pokémon costs.
 ## The ceiling ⚠️
 
 The rookie cannot learn what the Champion never shows it. Every one of the Champion's blind spots
-gets inherited, faithfully. And there's a size floor — you cannot distil a Champion into a Magikarp
-and expect Champion play; at some point the rookie simply doesn't have room for what it's being
-taught.
+gets inherited, faithfully. And there's a size floor — you cannot distil a Champion into a
+Magikarp and expect Champion play; at some point the rookie simply doesn't have room for what it's
+being taught.

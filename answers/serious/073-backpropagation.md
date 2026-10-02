@@ -42,34 +42,35 @@ $$\frac{\partial L}{\partial \theta_i}
 ## Why reverse mode
 
 Forward-mode AD computes the derivative of *everything* with respect to *one input*; reverse mode
-computes the derivative of *one output* with respect to *everything*. Neural networks have millions
-of parameters and one scalar loss, so reverse mode is the right choice by a factor of millions.
+computes the derivative of *one output* with respect to *everything*. Neural networks have
+millions of parameters and one scalar loss, so reverse mode is the right choice by a factor of
+millions.
 
-Concretely, forward mode would need one pass per parameter — `O(P)` passes. Reverse mode needs one,
-because it propagates from the single scalar output backwards. The naïve alternative, finite
+Concretely, forward mode would need one pass per parameter — `O(P)` passes. Reverse mode needs
+one, because it propagates from the single scalar output backwards. The naïve alternative, finite
 differences, needs `P+1` forward passes and is numerically unstable. This asymmetry is the entire
 reason deep learning is computationally feasible.
 
 ## Costs
 
-* **Time:** the backward pass is ~2× the forward pass (each node computes gradients with respect to
-  both its inputs and its parameters). Total training step ≈ 3× a forward pass — the origin of the
-  `C ≈ 6ND` rule in scaling laws (2 FLOPs per parameter forward, 4 backward).
-* **Memory:** you must **cache activations** from the forward pass to use in the backward pass. This
-  usually dominates training memory, scaling with batch size × sequence length × depth — and it is
-  exactly what gradient checkpointing trades away (question 078).
+* **Time:** the backward pass is ~2× the forward pass (each node computes gradients with respect
+  to both its inputs and its parameters). Total training step ≈ 3× a forward pass — the origin of
+  the `C ≈ 6ND` rule in scaling laws (2 FLOPs per parameter forward, 4 backward).
+* **Memory:** you must **cache activations** from the forward pass to use in the backward pass.
+  This usually dominates training memory, scaling with batch size × sequence length × depth — and
+  it is exactly what gradient checkpointing trades away (question 078).
 
 ## What goes wrong
 
 * **Vanishing/exploding gradients** — the product of many Jacobians shrinks or grows exponentially
   with depth (question 074).
-* **In-place operations** that overwrite a cached value needed for the backward pass. PyTorch raises
-  an error; some frameworks silently produce wrong gradients.
-* **Detached graphs** — calling `.detach()`, `.item()`, or `numpy()` breaks the chain, so gradients
-  silently stop flowing. Usually shows up as a parameter that never changes.
-* **Non-differentiable operations** — `argmax`, sampling, hard thresholds. Handled with surrogates:
-  the straight-through estimator, Gumbel-softmax, or policy gradients (which exist precisely because
-  sampling has no useful gradient).
+* **In-place operations** that overwrite a cached value needed for the backward pass. PyTorch
+  raises an error; some frameworks silently produce wrong gradients.
+* **Detached graphs** — calling `.detach()`, `.item()`, or `numpy()` breaks the chain, so
+  gradients silently stop flowing. Usually shows up as a parameter that never changes.
+* **Non-differentiable operations** — `argmax`, sampling, hard thresholds. Handled with
+  surrogates: the straight-through estimator, Gumbel-softmax, or policy gradients (which exist
+  precisely because sampling has no useful gradient).
 
 ## Framing for an interview
 

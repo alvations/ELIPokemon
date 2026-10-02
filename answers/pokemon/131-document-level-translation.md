@@ -13,8 +13,8 @@ tags: [document-level, discourse, pronouns, formality, consistency, contrapro]
 Hand a translator a single line — *"It evolves at level 16."* — and ask for it in another region's
 language.
 
-**Evolves into what?** The line does not say. The line before it said. And that line has been given
-to a different translator, in a different room, who will never speak to this one.
+**Evolves into what?** The line does not say. The line before it said. And that line has been
+given to a different translator, in a different room, who will never speak to this one.
 
 That is sentence-by-sentence translation. It is the default because that is how the practice
 material is filed, and it is **structurally unable** to get certain things right — not because it

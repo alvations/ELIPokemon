@@ -14,7 +14,8 @@ tags: [dpo, ppo, rlhf, bradley-terry, preference-optimisation]
 starts from an algebraic observation: the KL-constrained RL objective has a **closed-form
 optimum**,
 
-$$\pi^*(y\mid x) = \frac{1}{Z(x)}\,\pi_{\text{ref}}(y\mid x)\exp\!\left(\tfrac{1}{\beta}r(x,y)\right)$$
+$$\pi^*(y\mid x) = \frac{1}{Z(x)}\,\pi_{\text{ref}}(y\mid
+x)\exp\!\left(\tfrac{1}{\beta}r(x,y)\right)$$
 
 Rearranging gives the reward *implied* by any policy:
 
@@ -24,7 +25,8 @@ Substitute that into the Bradley-Terry preference likelihood and `log Z(x)` — 
 partition function — **cancels**, because it appears in both the chosen and rejected terms. What
 remains is a plain classification loss on the policy itself:
 
-$$\mathcal{L}_{\text{DPO}} = -\log\sigma\!\left(\beta\log\frac{\pi(y_w|x)}{\pi_{\text{ref}}(y_w|x)}
+$$\mathcal{L}_{\text{DPO}} =
+-\log\sigma\!\left(\beta\log\frac{\pi(y_w|x)}{\pi_{\text{ref}}(y_w|x)}
 - \beta\log\frac{\pi(y_l|x)}{\pi_{\text{ref}}(y_l|x)}\right)$$
 
 The language model **is** its own reward model. No sampling, no reward network, no value network.
@@ -86,8 +88,8 @@ mostly learns what not to do, pushing probability mass onto unexamined third opt
 
 DPO made preference tuning accessible: it is roughly as easy as SFT, and it is the right default
 for a small team. At the frontier, well-tuned online RL still wins, which is why large labs
-continue to run PPO-style (and GRPO-style) pipelines. "DPO killed PPO" was a 2023 take; the 2024–25
-consensus is that iterative/online methods dominate purely offline ones.
+continue to run PPO-style (and GRPO-style) pipelines. "DPO killed PPO" was a 2023 take; the
+2024–25 consensus is that iterative/online methods dominate purely offline ones.
 
 ## What an interviewer digs into next
 

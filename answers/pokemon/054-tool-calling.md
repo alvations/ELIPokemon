@@ -50,8 +50,8 @@ approximately item-shaped and useless.
        fainted Pokémon."
 ```
 
-The second label tells the Trainer **when to use it and when not to.** That "when not to" clause is
-what stops them reaching for a Potion when the Pokémon is poisoned.
+The second label tells the Trainer **when to use it and when not to.** That "when not to" clause
+is what stops them reaching for a Potion when the Pokémon is poisoned.
 
 ## Making it impossible to shout nonsense 🎯
 
@@ -80,24 +80,24 @@ when Charizard is at full HP, or isn't even out. Perfectly well-formed. Complete
   Full Restore. Two items
   with similar labels is worse than only having one of them.
 * 📋 **Say when NOT to use it**, in the label.
-* 📝 **Give a fixed list of options where you can.** *"Which Pokémon? Pick from: Pikachu, Charizard,
-  Blastoise"* is unfailable. *"Which Pokémon?"* invites them to invent one.
-* 🔧 **When something fails, tell them usefully.** *"No Potions left — you have 2 Super Potions"* lets
-  them adapt. *"ERROR 500"* does not.
-* ⚠️ **Guard the irreversible stuff.** They will occasionally shout "Master Ball!" twice. Make sure
-  the second one doesn't throw a second Master Ball.
+* 📝 **Give a fixed list of options where you can.** *"Which Pokémon? Pick from: Pikachu,
+  Charizard, Blastoise"* is unfailable. *"Which Pokémon?"* invites them to invent one.
+* 🔧 **When something fails, tell them usefully.** *"No Potions left — you have 2 Super Potions"*
+  lets them adapt. *"ERROR 500"* does not.
+* ⚠️ **Guard the irreversible stuff.** They will occasionally shout "Master Ball!" twice. Make
+  sure the second one doesn't throw a second Master Ball.
 * ⚡ **Let them shout several at once.** Three independent things to check? One breath, not three
   round trips.
 
 ## How it goes wrong 🚨
 
-**🎭 They invent a target.** *"Potion on Blastoise!"* You don't own a Blastoise. It sounded right, so
-they said it. **Always check the bag yourself** — never assume the command is sane.
+**🎭 They invent a target.** *"Potion on Blastoise!"* You don't own a Blastoise. It sounded right,
+so they said it. **Always check the bag yourself** — never assume the command is sane.
 
 **🤷 They grab the wrong item.** Almost always your labels' fault, not theirs.
 
-**⏭️ They skip the item entirely** and just declare an outcome — because they "know" what would have
-happened. Especially common when they're confident.
+**⏭️ They skip the item entirely** and just declare an outcome — because they "know" what would
+have happened. Especially common when they're confident.
 
 **🔁 They retry forever.** Out of Potions? They'll ask for one twenty more times.
 

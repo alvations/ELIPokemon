@@ -23,10 +23,10 @@ A competitive strategy guide is prose wrapped around blocks that look like this:
    - Defog
 ```
 
-Every word of the surrounding article should be translated. **Not one character of that block
-may change.** It is not prose — it is something a machine will read back and build a Pokémon from.
-Translate **Flamethrower** into another language inside those lines and the set does not import. It
-does not import *slightly worse*. It does not import.
+Every word of the surrounding article should be translated. **Not one character of that block may
+change.** It is not prose — it is something a machine will read back and build a Pokémon from.
+Translate **Flamethrower** into another language inside those lines and the set does not import.
+It does not import *slightly worse*. It does not import.
 
 📌 That is the whole shape of this problem: **prose interleaved with things that must survive
 byte for byte.**
@@ -60,8 +60,8 @@ This is what every professional localisation pipeline does. **Two things it does
   before ⟦1⟧. But the machine may also **drop one, or duplicate one**. ⚠️ So **count them
   afterwards**: the same blanks that went in must come out, exactly once each. This check costs
   five lines and catches most of the damage there is.
-* **🪆 Some hidden things have translatable bits inside them.** A link whose *tooltip* is real prose.
-  Hide it wholesale and the tooltip ships untranslated forever.
+* **🪆 Some hidden things have translatable bits inside them.** A link whose *tooltip* is real
+  prose. Hide it wholesale and the tooltip ships untranslated forever.
 
 ## The way a modern translator fails is different 🌀
 
@@ -87,8 +87,8 @@ Most of it begins with **how you cut the document up**, before any translating h
 * 🚫 **Never cut a sentence across an emphasis mark.**
 * 🚫 **Keep each move in the list whole.**
 
-A sentence split across two pieces gets translated twice, each half with no idea the other exists —
-and in a region whose word order differs, **the two halves cannot be put back together at all.**
+A sentence split across two pieces gets translated twice, each half with no idea the other exists
+— and in a region whose word order differs, **the two halves cannot be put back together at all.**
 
 ## Judging it 🏅
 

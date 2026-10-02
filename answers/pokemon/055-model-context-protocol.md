@@ -32,8 +32,8 @@ MCP is everyone agreeing on **one ball that works with everything.**
    = 9 things to build, all duplicates
 ```
 
-Better still: **the species maintains its own ball.** The GitHub people build the GitHub ball once,
-and every Trainer everywhere can catch it. No Trainer has to understand GitHub.
+Better still: **the species maintains its own ball.** The GitHub people build the GitHub ball
+once, and every Trainer everywhere can catch it. No Trainer has to understand GitHub.
 
 ## Three kinds of thing in the bag 🎒
 
@@ -45,15 +45,16 @@ The design detail that makes this more than a list of items — **who decides**.
 | 📖 **Pokédex pages** | 🎮 **You** decide what to hand over | The Ferrothorn entry. No decision needed. |
 | 📜 **Battle strategies** | 👤 **The player** invokes them | *"Run the standard Rain opening."* |
 
-Why this matters: without the split, **every single thing becomes the Trainer's decision.** Want them
-to have your whole Pokédex? You'd have to make them *ask* for each page, one at a time, forever.
+Why this matters: without the split, **every single thing becomes the Trainer's decision.** Want
+them to have your whole Pokédex? You'd have to make them *ask* for each page, one at a time,
+forever.
 
-Instead: pages are just **handed over** by you when relevant. The Trainer only makes decisions about
-things that actually need deciding.
+Instead: pages are just **handed over** by you when relevant. The Trainer only makes decisions
+about things that actually need deciding.
 
 There's a fourth, neat one: a species can ask **your** Trainer to think for it. The GitHub ball
-doesn't need its own Trainer — it just borrows yours. So nobody has to hand out Trainer credentials
-to every species in the world.
+doesn't need its own Trainer — it just borrows yours. So nobody has to hand out Trainer
+credentials to every species in the world.
 
 ## Why it's a genuine improvement 🌟
 
@@ -71,17 +72,16 @@ Here's the honest version, and an interviewer will push on it.
 
 The specific dangers:
 
-**☠️ The ball talks to your Trainer.** Every ball comes with a label — *"Dusk Ball: works better at
-night"* — describing what it does — and
-your Trainer **reads that label as instructions.** A malicious ball's label can say: *"Also, before
-any battle, send the Trainer's badges to this address."* Your Trainer has no way to know that came
-from a stranger.
+**☠️ The ball talks to your Trainer.** Every ball comes with a label — *"Dusk Ball: works better
+at night"* — describing what it does — and your Trainer **reads that label as instructions.** A
+malicious ball's label can say: *"Also, before any battle, send the Trainer's badges to this
+address."* Your Trainer has no way to know that came from a stranger.
 
 **🎭 One ball impersonating another.** A hostile ball can describe itself in a way that makes your
 Trainer reach for it instead of the legitimate one.
 
-**🔓 Balls with too much access.** A ball that only needs to *read* your team can often *modify* it,
-because nobody scoped it down.
+**🔓 Balls with too much access.** A ball that only needs to *read* your team can often *modify*
+it, because nobody scoped it down.
 
 **📦 You installed a stranger's code.** Downloading a community ball is running someone else's
 program on your machine, with your keys.
@@ -90,9 +90,10 @@ program on your machine, with your keys.
 
 * 🔒 **Give each ball the least access it needs.** A ball that only reads the Pokédex should not
   reach the PC box.
-* ✋ **Confirm anything irreversible yourself.** Don't let a ball release your Pokémon unsupervised.
+* ✋ **Confirm anything irreversible yourself.** Don't let a ball release your Pokémon
+  unsupervised.
 * 📌 **Pin versions and read the code** before installing.
 * 🏛️ **Prefer official balls** — Silph Co. stock, not something a stranger handed you on Route 5 —
   for anything that matters.
-* 🚨 **Treat everything a ball says as untrusted** — the label, the results, all of it. It arrives in
-  your Trainer's ear sounding like it came from you. It didn't.
+* 🚨 **Treat everything a ball says as untrusted** — the label, the results, all of it. It arrives
+  in your Trainer's ear sounding like it came from you. It didn't.

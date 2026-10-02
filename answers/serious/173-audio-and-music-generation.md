@@ -14,8 +14,8 @@ Audio generation shares its machinery with image generation (question 137) and d
 that changes everything: **the ear is far less forgiving of structural error than the eye is.**
 
 A visually implausible region of an image is a flaw you may not notice. A note out of key, a beat
-that slips, or a voice that changes identity mid-sentence is **immediately and unambiguously wrong**
-to any listener, trained or not.
+that slips, or a voice that changes identity mid-sentence is **immediately and unambiguously
+wrong** to any listener, trained or not.
 
 ## The two representations
 
@@ -42,8 +42,8 @@ model with a few thousand tokens of context at 50 Hz across 8 codebooks sees a h
 
 The result is the characteristic failure: locally excellent, globally aimless. It wanders, never
 returns to the theme, and stops rather than ends. Mitigations mirror question 157's long-video
-problem — hierarchical generation (structure first, then audio), longer context, and conditioning on
-an explicit plan — and they help without solving it.
+problem — hierarchical generation (structure first, then audio), longer context, and conditioning
+on an explicit plan — and they help without solving it.
 
 ## Speech generation is a different job
 
@@ -62,9 +62,10 @@ positions a serious team should hold:
 * Know your training data's provenance and licensing. "It was on the internet" is a position, and
   it is one you will have to defend.
 * **Artist style prompting** ("in the style of X") is the sharpest edge — legally in several
-  jurisdictions and ethically everywhere. Many providers block named-artist prompts for this reason.
-* Watermark outputs (question 166); audio watermarking is comparatively robust and this is the case
-  that most needs it.
+  jurisdictions and ethically everywhere. Many providers block named-artist prompts for this
+  reason.
+* Watermark outputs (question 166); audio watermarking is comparatively robust and this is the
+  case that most needs it.
 * Support opt-out and, better, licensed corpora with revenue share.
 
 ## Evaluation

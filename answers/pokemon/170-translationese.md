@@ -10,8 +10,8 @@ tags: [translationese, test-set-direction, source-original, simplification, inte
 
 # You can tell a bred Pokémon from a wild-caught one
 
-A **Day Care** Pokémon and a wild-caught one are both entirely legitimate Pokémon. And a Trainer who
-knows what to look for can tell them apart every time.
+A **Day Care** Pokémon and a wild-caught one are both entirely legitimate Pokémon. And a Trainer
+who knows what to look for can tell them apart every time.
 
 The bred one hatched at **level 1**. It knows **Egg Moves** its wild cousins never learn — a
 **Charmander** with **Dragon Dance**, which no wild Charmander has ever had. Its met location says
@@ -28,14 +28,15 @@ that are consistent, measurable, and that a classifier can spot with embarrassin
 * **📢 It spells out what the original left implied.** Connections made explicit, relationships
   stated. Helpful, and not what the original did.
 * **🧹 It is tidied.** Idioms regularised, odd phrasings smoothed toward the conventional. Nothing
-  strange survives — like a bred **Adamant** Pokémon with the nature somebody chose, rather than the
-  **Bashful** one the **Tall Grass** actually handed you.
-* **👻 And the source language shows through.** Word order, punctuation habits, words that look like
-  the original's words. The **Egg Move** that gives away who the parents were.
+  strange survives — like a bred **Adamant** Pokémon with the nature somebody chose, rather than
+  the **Bashful** one the **Tall Grass** actually handed you.
+* **👻 And the source language shows through.** Word order, punctuation habits, words that look
+  like the original's words. The **Egg Move** that gives away who the parents were.
 
 ## Why this quietly wrecks your test set 🎯
 
-Every test segment has an **origin direction**, and half of a standard test set runs the other way:
+Every test segment has an **origin direction**, and half of a standard test set runs the other
+way:
 
 ```
    THE HALF WRITTEN IN THE SOURCE      THE HALF WRITTEN IN THE TARGET
@@ -53,9 +54,9 @@ Every test segment has an **origin direction**, and half of a standard test set 
 **ranking between two machines can flip** depending on which half you look at. That is why the
 serious evaluations now use **only** the wild-caught half.
 
-📌 **The rule:** if you scraped your test set out of parallel data, you **do not know which half you
-have**, and your numbers cannot be interpreted. Build it from text originally written in the source
-language, translated once, on purpose, by a professional.
+📌 **The rule:** if you scraped your test set out of parallel data, you **do not know which half
+you have**, and your numbers cannot be interpreted. Build it from text originally written in the
+source language, translated once, on purpose, by a professional.
 
 ## And it gets into the training too 🥚
 
@@ -75,9 +76,9 @@ not only against a reference that was itself bred.
 
 ## One honest caveat ⚖️
 
-Translationese is **not a defect to be stamped out.** A translation exists *for* somebody, and some
-of that spelling-out genuinely helps the reader.
+Translationese is **not a defect to be stamped out.** A translation exists *for* somebody, and
+some of that spelling-out genuinely helps the reader.
 
-📌 The problem is not that it exists. The problem is that it is **invisible on the scoreboard** — it
-makes machines look better than they are, and it **accumulates silently** through a pipeline that
-keeps feeding its own offspring back into the Day Care.
+📌 The problem is not that it exists. The problem is that it is **invisible on the scoreboard** —
+it makes machines look better than they are, and it **accumulates silently** through a pipeline
+that keeps feeding its own offspring back into the Day Care.

@@ -10,9 +10,9 @@ tags: [dubbing, isochrony, lip-sync, phonetic-matching, alignment, av-translatio
 
 # Translation for dubbing
 
-Subtitles have a space constraint (question 144). Dubbing has a **time** constraint, a **phonetic**
-constraint, and a **performance** constraint, and they bind simultaneously against a video you
-cannot change.
+Subtitles have a space constraint (question 144). Dubbing has a **time** constraint, a
+**phonetic** constraint, and a **performance** constraint, and they bind simultaneously against a
+video you cannot change.
 
 ## The three constraints
 
@@ -25,7 +25,8 @@ speaker.
 mouth produces a vowel. Open vowels at the end of a line matter for the same reason.
 
 **3. Kinesic sync.** Gestures, nods and head shakes are locked to the original's rhythm. A
-translation that puts the emphatic word somewhere else leaves the actor emphasising the wrong beat.
+translation that puts the emphatic word somewhere else leaves the actor emphasising the wrong
+beat.
 
 ```
    original :  |  It's  |  im-POS-sible  |    !   |   ← 1.4s, closes on "p", emphasis mid-line
@@ -77,7 +78,8 @@ product. Report:
 * **Duration compliance** — fraction of lines within tolerance of the original.
 * **Lip-sync scores** — automatic measures of viseme agreement, and human ratings for close-ups.
 * **Quality on compliant lines**, so you can see what the constraint cost.
-* **Viewer preference tests**, which remain the only measure that captures "does this feel dubbed".
+* **Viewer preference tests**, which remain the only measure that captures "does this feel
+  dubbed".
 
 ## What an interviewer digs into next
 

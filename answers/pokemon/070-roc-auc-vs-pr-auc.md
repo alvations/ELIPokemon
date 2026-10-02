@@ -55,8 +55,8 @@ ten thousand out of a *million* is 1%, and 1% sounds wonderful.
 **The enormous pile of correctly-ignored Rattata drowns out your mistakes.** Scorecard B never
 mentions them, which is exactly why it stays honest.
 
-📌 **You throw Ultra Balls. You don't throw "non-balls."** The scorecard that measures what you actually
-*spend* is the one that matters.
+📌 **You throw Ultra Balls. You don't throw "non-balls."** The scorecard that measures what you
+actually *spend* is the one that matters.
 
 ## When each is fine 📋
 
@@ -78,18 +78,20 @@ thing.
 It doesn't cut cleanly the other way either.
 
 A **0.4** at the Lake of Rage, where one shiny hides in a thousand Magikarp, may be **far more
-impressive** than a **0.6** in a patch where one in five is shiny. The second detector had an enormously easier job.
+impressive** than a **0.6** in a patch where one in five is shiny. The second detector had an
+enormously easier job.
 
 📌 So always report **how rare the thing was.** Scorecard B numbers from different patches are not
 comparable, and treating them as such is a common way to pick the wrong model.
 
 ## The last thing 🎯
 
-Both scorecards average over **every possible setting of your detector's dial** — including all the
-settings you'd never actually use.
+Both scorecards average over **every possible setting of your detector's dial** — including all
+the settings you'd never actually use.
 
-Once you've picked a detector and set the dial where you're really running it, **report the numbers
-at that setting.** How many balls will you throw today? How many will land? What does a miss cost?
+Once you've picked a detector and set the dial where you're really running it, **report the
+numbers at that setting.** How many balls will you throw today? How many will land? What does a
+miss cost?
 
 That's the number that decides whether to build the thing. The scorecards are for choosing between
 detectors, not for deciding whether one is good enough.

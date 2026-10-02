@@ -57,9 +57,9 @@ Beating Brock tells you nothing about whether they can handle a distressed Eevee
 test out of **your actual work** — a hundred real cases from your own daycare beats every badge in
 the League.
 
-**5. 1️⃣ One number hides everything.** Trainer A wins more battles; Trainer B follows instructions
-better and costs a fifth as much. "Which is better" isn't a question with an answer until you say
-what for. Report a **profile**, always including cost and speed.
+**5. 1️⃣ One number hides everything.** Trainer A wins more battles; Trainer B follows
+instructions better and costs a fifth as much. "Which is better" isn't a question with an answer
+until you say what for. Report a **profile**, always including cost and speed.
 
 **6. ☀️ You only tested the easy days.** Everyone tests: Pokémon healthy, clear weather, standard
 opponent.

@@ -14,9 +14,9 @@ Softmax maps a vector of real scores to a probability distribution:
 
 $$\sigma(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
 
-Properties worth knowing: outputs are positive and sum to 1; it is **monotone**, so it never changes
-the ranking; it is **shift-invariant** (`σ(z + c) = σ(z)`), which is exactly what the stability trick
-exploits; and it is a soft *argmax*, approaching one-hot as scores spread apart.
+Properties worth knowing: outputs are positive and sum to 1; it is **monotone**, so it never
+changes the ranking; it is **shift-invariant** (`σ(z + c) = σ(z)`), which is exactly what the
+stability trick exploits; and it is a soft *argmax*, approaching one-hot as scores spread apart.
 
 ## The numerical problem
 
@@ -45,8 +45,8 @@ identical:
 $$\sigma(z)_i = \frac{e^{z_i - m}}{\sum_j e^{z_j - m}}, \qquad m = \max_j z_j$$
 
 Now the largest exponent is exactly `e⁰ = 1`, so overflow is impossible, and the denominator is at
-least 1, so division is safe. The smallest terms may underflow to zero, which is harmless — they were
-negligible anyway.
+least 1, so division is safe. The smallest terms may underflow to zero, which is harmless — they
+were negligible anyway.
 
 ```
    z = [1000, 999, 998],  m = 1000
@@ -67,19 +67,19 @@ probabilities round to zero and `log(0) = -inf`. **`log_softmax`** computes it d
 $$\log \sigma(z)_i = z_i - m - \log\sum_j e^{z_j-m}$$
 
 No intermediate probability, no catastrophic cancellation. This is why frameworks provide
-`log_softmax` and `cross_entropy` that take **logits**, not probabilities — and why passing softmax
-outputs into `nn.CrossEntropyLoss` (which applies log-softmax internally) is such a common bug: it
-double-applies the softmax and quietly degrades training.
+`log_softmax` and `cross_entropy` that take **logits**, not probabilities — and why passing
+softmax outputs into `nn.CrossEntropyLoss` (which applies log-softmax internally) is such a common
+bug: it double-applies the softmax and quietly degrades training.
 
 ## Where it shows up
 
-* **Attention** — softmax over `n` scores per row. FlashAttention's online softmax (question 010) is
-  a streaming version of exactly this max-tracking trick.
+* **Attention** — softmax over `n` scores per row. FlashAttention's online softmax (question 010)
+  is a streaming version of exactly this max-tracking trick.
 * **Cross-entropy loss** — the standard LM objective.
 * **Temperature** — dividing logits by `T` before softmax; small `T` makes overflow *more* likely,
   another reason the stable form is mandatory.
-* **Mixture models, log-likelihoods, HMM forward algorithms** — anywhere probabilities are summed in
-  log space.
+* **Mixture models, log-likelihoods, HMM forward algorithms** — anywhere probabilities are summed
+  in log space.
 
 ## What an interviewer digs into next
 

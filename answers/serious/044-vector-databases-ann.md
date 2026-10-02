@@ -11,10 +11,10 @@ tags: [ann, hnsw, ivf, pq, vector-database, recall]
 # Vector databases and ANN search
 
 Exact nearest-neighbour search over `N` vectors is `O(N·d)` per query — at 100M vectors and 768
-dimensions that is tens of GB of arithmetic per query. Vector databases give up exactness for speed:
-**approximate** nearest neighbour search returns *most* of the true top-k, orders of magnitude
-faster. The governing tradeoff is **recall vs latency vs memory**, and every index is a point on
-that surface.
+dimensions that is tens of GB of arithmetic per query. Vector databases give up exactness for
+speed: **approximate** nearest neighbour search returns *most* of the true top-k, orders of
+magnitude faster. The governing tradeoff is **recall vs latency vs memory**, and every index is a
+point on that surface.
 
 ## HNSW
 
@@ -39,8 +39,8 @@ width — build time and index quality), `ef_search` (query-time candidate list 
 recall/latency dial; this is the one you tune in production).
 
 Strengths: the best recall-per-latency of any mainstream index, and it supports incremental
-insertion. Weaknesses: high memory (the graph itself is often larger than the vectors), slow builds,
-and deletions require tombstoning plus periodic rebuilds.
+insertion. Weaknesses: high memory (the graph itself is often larger than the vectors), slow
+builds, and deletions require tombstoning plus periodic rebuilds.
 
 ## IVF
 
@@ -66,11 +66,11 @@ lighter on memory than HNSW, so it scales to billions.
 
 ## Compression: product quantization
 
-PQ splits each vector into `m` sub-vectors and replaces each with the index of the nearest centroid
-in a small learned codebook. A 768-d float32 vector (3 KB) becomes 96 bytes — a 32× reduction — and
-distances are computed by table lookup. Lossy, so production systems use **IVF-PQ for the coarse
-pass and rerank the top candidates with full-precision vectors**. That two-stage pattern is how
-billion-scale search is actually done.
+PQ splits each vector into `m` sub-vectors and replaces each with the index of the nearest
+centroid in a small learned codebook. A 768-d float32 vector (3 KB) becomes 96 bytes — a 32×
+reduction — and distances are computed by table lookup. Lossy, so production systems use **IVF-PQ
+for the coarse pass and rerank the top candidates with full-precision vectors**. That two-stage
+pattern is how billion-scale search is actually done.
 
 ## Choosing
 
@@ -84,11 +84,11 @@ billion-scale search is actually done.
 ## The operational issues people forget
 
 * **Metadata filtering.** "Documents from this tenant, after this date" interacts badly with ANN:
-  pre-filtering breaks the graph's connectivity, post-filtering can return nothing. Native filtered
-  search is a genuine differentiator between vector databases.
+  pre-filtering breaks the graph's connectivity, post-filtering can return nothing. Native
+  filtered search is a genuine differentiator between vector databases.
 * **Updates and deletes.** HNSW deletion is tombstoning; index quality degrades until a rebuild.
-* **Recall is not observable in production.** You cannot see what you failed to retrieve. Measure it
-  offline against exact search on a sample — otherwise you will not notice degradation.
+* **Recall is not observable in production.** You cannot see what you failed to retrieve. Measure
+  it offline against exact search on a sample — otherwise you will not notice degradation.
 
 ## What an interviewer digs into next
 

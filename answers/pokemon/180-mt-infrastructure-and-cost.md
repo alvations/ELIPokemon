@@ -65,9 +65,9 @@ Route each line to the cheapest rung that clears the bar:
 * long, context-dependent, on the front of the box → **Porygon-Z**, with the whole document;
 * flagged by Nurse Joy, or legally consequential → **a person** (question 132).
 
-📌 And report **how the traffic split**, not the average cost. A router sending one line in twenty to
-Porygon-Z has a completely different bill from one sending half — **and the average quality can be
-identical.** The average hides the only number that mattered.
+📌 And report **how the traffic split**, not the average cost. A router sending one line in twenty
+to Porygon-Z has a completely different bill from one sending half — **and the average quality can
+be identical.** The average hides the only number that mattered.
 
 ## What to keep an eye on 📊
 

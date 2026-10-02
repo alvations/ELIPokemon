@@ -11,8 +11,8 @@ tags: [multimodal-cot, visual-reasoning, test-time-compute, cropping, verificati
 # Thinking harder about a Pokémon you cannot see properly
 
 Thinking step by step works marvellously when the difficulty is **working something out**. Applied
-to *looking*, it often does nothing — and sometimes makes things **worse**. The reason is the whole
-lesson.
+to *looking*, it often does nothing — and sometimes makes things **worse**. The reason is the
+whole lesson.
 
 ## Two failures that look identical from outside 🔍
 
@@ -47,14 +47,15 @@ amount of deliberating will touch it.
 * **🔭 Let it walk closer.** Give it the ability to say *"show me that corner, bigger"* and look
   again. This attacks the actual bottleneck (question 121) instead of narrating around it, and it
   is **by far the most effective thing on this list.**
-* **📋 Write down what it sees, then reason over the writing.** The six stats first, the subtraction
-  second (question 127). Splits eyesight from arithmetic and makes it obvious which one failed.
+* **📋 Write down what it sees, then reason over the writing.** The six stats first, the
+  subtraction second (question 127). Splits eyesight from arithmetic and makes it obvious which
+  one failed.
 * **👉 Make every step point at something.** A claim that has to name the tile it came from is far
   harder to invent (questions 122, 128).
 * **🧰 Or bring specialists.** Something that reads small print, something that counts, something
-  that traces outlines. The Pokédex directs; the specialists look. This is a **Double Battle** team
-  — **Togekiss** doing one job and **Amoonguss** another — rather than one **Arceus** trying to
-  cover every type at once, and it is reliably better.
+  that traces outlines. The Pokédex directs; the specialists look. This is a **Double Battle**
+  team — **Togekiss** doing one job and **Amoonguss** another — rather than one **Arceus** trying
+  to cover every type at once, and it is reliably better.
 * **✅ Then check the answer against the picture.** A second pass, purely to verify. Cheap, and it
   works because **checking is easier than answering** — the same reason it is easier to confirm a
   Pokémon is a **Gyarados** than to name it from a silhouette in question 120's lineup.
@@ -78,6 +79,7 @@ glance. Spending the whole budget on deliberation is spending it in the wrong pl
   helped with charts and actively **hurt** at naming Pokémon — and you will roll that out
   everywhere.
 * 🧾 **Read the working, not just the answer.** Right answer by wrong reasoning is common, and it
-  does not survive contact with a slightly different question. Sample a few and actually read them.
+  does not survive contact with a slightly different question. Sample a few and actually read
+  them.
 * 💸 **And count the cost.** Three points for six times the effort and four extra close-up looks is
   a **trade**, not a free win. Say what it cost.

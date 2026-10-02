@@ -17,8 +17,8 @@ property of LLMs, because it makes adaptation free and instant.
 
 ## The finding that reframed it
 
-[Min et al. (2022)](https://arxiv.org/abs/2202.12837) replaced the labels in few-shot examples with
-**random** ones. Performance barely dropped.
+[Min et al. (2022)](https://arxiv.org/abs/2202.12837) replaced the labels in few-shot examples
+with **random** ones. Performance barely dropped.
 
 That rules out "the model is learning the input→output mapping from the demonstrations". What
 actually matters, per that work and its successors:
@@ -30,7 +30,8 @@ actually matters, per that work and its successors:
 
 The best framing is therefore **task location, not task learning**. Pretraining already contains
 sentiment classification, translation, and extraction, in many formats. The demonstrations do not
-teach the task; they *specify which task and which format* out of the many the model already knows.
+teach the task; they *specify which task and which format* out of the many the model already
+knows.
 
 The caveat: with enough demonstrations (many-shot, hundreds to thousands of examples), true
 input-output learning *does* emerge and label correctness starts to matter again. So the honest
@@ -38,9 +39,9 @@ statement is that few-shot ICL is mostly location, and many-shot ICL is genuinel
 
 ## The mechanism
 
-**Induction heads** ([Olsson et al., 2022](https://arxiv.org/abs/2209.11895)) are the best-understood
-substrate. An induction head implements: *find an earlier occurrence of the current token, and
-predict what followed it.*
+**Induction heads** ([Olsson et al., 2022](https://arxiv.org/abs/2209.11895)) are the
+best-understood substrate. An induction head implements: *find an earlier occurrence of the
+current token, and predict what followed it.*
 
 ```
    context:  ... [A] [B] ... ... ... [A] → predict [B]
@@ -61,13 +62,14 @@ predict what followed it.*
 ```
 
 These heads form abruptly during a narrow window of training, and the in-context learning score
-jumps at exactly that point — one of the few clean cases of a genuine phase transition in training.
+jumps at exactly that point — one of the few clean cases of a genuine phase transition in
+training.
 
 A second, more speculative account: transformers performing ICL may implement something like
-**gradient descent in their forward pass** on the demonstrations
-([von Oswald et al., 2022](https://arxiv.org/abs/2212.07677)), with constructions showing attention
-layers can implement one step of gradient descent on a linear regression objective. Suggestive for
-simple settings; not established for real LLMs on real tasks.
+**gradient descent in their forward pass** on the demonstrations ([von Oswald et al.,
+2022](https://arxiv.org/abs/2212.07677)), with constructions showing attention layers can
+implement one step of gradient descent on a linear regression objective. Suggestive for simple
+settings; not established for real LLMs on real tasks.
 
 ## Practical implications
 

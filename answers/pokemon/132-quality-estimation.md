@@ -13,13 +13,14 @@ tags: [quality-estimation, comet-qe, calibration, routing, critical-errors, mqm]
 Every scoring scheme in question 129 needs somebody's model answer to compare with. Out in the
 world there is no model answer — **that is the entire reason you needed the translation.**
 
-So this is **Nurse Joy**'s job, not a judge's. A Pokémon walks into the **Pokémon Center**, and she
-and her **Chansey** have to decide, right there, from the Pokémon in front of them: **is this one
-fit to go back out?**
+So this is **Nurse Joy**'s job, not a judge's. A Pokémon walks into the **Pokémon Center**, and
+she and her **Chansey** have to decide, right there, from the Pokémon in front of them: **is this
+one fit to go back out?**
 
-And notice that the decision is not a number. It is *which shelf you reach for*. A **Potion** and a
-**Revive** are not two points on one scale — one is for a Pokémon that is scuffed, the other is for
-a Pokémon that has already fainted, and no amount of Potion has ever substituted for the other.
+And notice that the decision is not a number. It is *which shelf you reach for*. A **Potion** and
+a **Revive** are not two points on one scale — one is for a Pokémon that is scuffed, the other is
+for a Pokémon that has already fainted, and no amount of Potion has ever substituted for the
+other.
 
 ## Why it is worth doing 🏥
 
@@ -42,9 +43,9 @@ lane is why anyone does this at all in medicine or law: some things must not go 
 
 ## How she actually judges 🩺
 
-* **🩹 An overall verdict.** Look at the source and the translation together and produce one number.
-  This is the standard tool: something taught by watching thousands of translations that people
-  graded, then asked to grade a fresh one with no answer sheet.
+* **🩹 An overall verdict.** Look at the source and the translation together and produce one
+  number. This is the standard tool: something taught by watching thousands of translations that
+  people graded, then asked to grade a fresh one with no answer sheet.
 * **📍 Or point at where it hurts.** Mark the specific words that are wrong, not just "this one is
   unwell". Far harder to teach, and **far** more useful to the person doing the repair — they want
   to know where to look, not that something, somewhere, is off.
@@ -61,14 +62,14 @@ lane is why anyone does this at all in medicine or law: some things must not go 
 ## "Fine" has to mean the same thing everywhere 📏
 
 A Nurse Joy who ranks Pokémon perfectly but whose *"fine"* means something different in **Cerulean
-City** than it does in **Blackthorn City** cannot be used to set a rule. The **Audino** on the desk
-in one town and the **Blissey** on the desk in the other have to agree on where the line is, or the
-line is not a line.
+City** than it does in **Blackthorn City** cannot be used to set a rule. The **Audino** on the
+desk in one town and the **Blissey** on the desk in the other have to agree on where the line is,
+or the line is not a line.
 
 * 🎚️ **Set the bar separately for each language and each subject.** One global bar will wave
   through the pairs it flatters and drag every good translation in another pair back to the ward.
-* 🔄 **Re-check the bar whenever the machine changes.** She was calibrated against the old machine's
-  output. New machine, new distribution, stale bar.
+* 🔄 **Re-check the bar whenever the machine changes.** She was calibrated against the old
+  machine's output. New machine, new distribution, stale bar.
 * 📊 **And report what actually happened at the bar you chose** — of everything you sent straight
   out, how much should not have gone. That is the question the Centre is judged on. "How well she
   ranks Pokémon in general" does not answer it.
@@ -89,8 +90,8 @@ catch rate directly.
 run a hospital, and her broadly-excellent number will never once tell you that.
 
 The shape to keep in mind is a **Focus Sash**: a Pokémon left standing on exactly 1 HP is, by any
-reasonable summary, *alive*. It is also one hit — one turn of **Sandstorm**, one tick of **Toxic** —
-away from gone. A triage that reports the average is reporting that it is standing.
+reasonable summary, *alive*. It is also one hit — one turn of **Sandstorm**, one tick of **Toxic**
+— away from gone. A triage that reports the average is reporting that it is standing.
 
 ## What she is bad at 🩻
 

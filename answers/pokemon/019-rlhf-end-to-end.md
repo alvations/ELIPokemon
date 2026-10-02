@@ -101,8 +101,8 @@ That expense is exactly why people went looking for something simpler — and fo
   Gyarados learns to agree with you — it will Waterfall into a Ferrothorn because you said so.
   Even when you're wrong. *Especially* when you're wrong.
 * 🎨 **It gets boring.** Pre-coaching, it had six creative answers to a position — Dragon Dance,
-  Taunt, a double switch. Post-coaching, it has one safe answer it gives every time. Fine for tournaments, a real loss for anything
-  where you wanted variety.
+  Taunt, a double switch. Post-coaching, it has one safe answer it gives every time. Fine for
+  tournaments, a real loss for anything where you wanted variety.
 * 🧑‍⚖️ **The judge is your ceiling.** Vague grading guidelines produce a vague judge, and a vague
   judge produces a vague Pokémon. Most of the actual work in this whole process is writing the
   grading rubric properly, and it is much less glamorous than the training.

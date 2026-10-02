@@ -46,8 +46,8 @@ That is a *different skill* from looking, and it should be scored separately.
 ```
 
 * **📦 Make the tools hand back *things*, not sentences.** A counter returns a list of positions,
-  not a paragraph about them. ⚠️ Prose output re-introduces exactly the misreading you reached for a
-  tool to avoid.
+  not a paragraph about them. ⚠️ Prose output re-introduces exactly the misreading you reached for
+  a tool to avoid.
 * **🎚️ Tell it how sure the tool was**, and teach it to distrust a shaky answer. **A specialist
   that is quietly wrong is worse than no specialist at all.**
 * **⏳ Put a limit on the whole thing.** A maximum number of steps, a maximum cost, and a way to
@@ -77,8 +77,8 @@ where to spend. The total tells you nothing.
 
 ## And know when not to build any of this 🛑
 
-⚠️ If one good Pokédex, **at a sensible distance**, already answers the question, then a Bag full of
-tools adds waiting, cost, and four new ways to fail — for nothing.
+⚠️ If one good Pokédex, **at a sensible distance**, already answers the question, then a Bag full
+of tools adds waiting, cost, and four new ways to fail — for nothing.
 
 📌 The honest test: **try the plain Pokédex, walked right up close, first.** A surprising number of
 *"we need an agent"* problems turn out to be *"we were standing in the doorway"* problems

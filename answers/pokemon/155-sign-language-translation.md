@@ -17,17 +17,18 @@ picture of one.**
 is carried by the ears, the tail, the set of the shoulders, whether the cheeks are sparking. A
 Trainer who has raised one reads all of it fluently and could not write down how.
 
-And it is not one system. **Growlithe** says it with its ears and its tail. **Umbreon** says it with
-the rings and with how still it holds itself. **Kadabra** does not move at all. **Mimikyu** hides
-the whole thing under a rag. Reading one of them fluently teaches you almost nothing about reading
-another.
+And it is not one system. **Growlithe** says it with its ears and its tail. **Umbreon** says it
+with the rings and with how still it holds itself. **Kadabra** does not move at all. **Mimikyu**
+hides the whole thing under a rag. Reading one of them fluently teaches you almost nothing about
+reading another.
 
 📌 And crucially: **it is not a code for the spoken command.** It has its own grammar. Two Trainers
 from two regions who both speak the same human language may have Pokémon whose signals do not
-transfer at all. Being neighbours in one language says nothing about being neighbours in the other.
+transfer at all. Being neighbours in one language says nothing about being neighbours in the
+other.
 
-So this is **translation between languages**, and everything in questions 129 to 152 applies — plus
-a set of problems that only exist for a language spoken in three dimensions, all at once.
+So this is **translation between languages**, and everything in questions 129 to 152 applies —
+plus a set of problems that only exist for a language spoken in three dimensions, all at once.
 
 ## Why it is not "describe the video" 🎞️
 
@@ -42,10 +43,11 @@ a set of problems that only exist for a language spoken in three dimensions, all
 ```
 
 * **🙉 The face is grammar, not mood.** **Growlithe**'s ears forward or flat is not decoration — it
-  is the difference between a statement and a question, and between a thing and **not** that thing.
-  ⚠️ A machine that watches the paws and ignores the ears is missing the equivalent of negation, and
-  it will confidently output **the opposite meaning** while looking entirely reasonable. It is the
-  **Confuse Ray** of translation errors: everything still moving, all of it aimed the wrong way.
+  is the difference between a statement and a question, and between a thing and **not** that
+  thing. ⚠️ A machine that watches the paws and ignores the ears is missing the equivalent of
+  negation, and it will confidently output **the opposite meaning** while looking entirely
+  reasonable. It is the **Confuse Ray** of translation errors: everything still moving, all of it
+  aimed the wrong way.
 * **📍 Space is the pronoun system.** A **Machamp** puts the **Gyarados** *over there* and then
   refers back by pointing. That is not gesture — that is how it says *"it"*. A flat left-to-right
   model has nowhere to keep it, and with **four arms** it may be holding two references at once.
@@ -77,8 +79,8 @@ Here the Pokémon framing has to step aside, because the point is about people.
 
 Sign languages belong to Deaf communities, and this data is **video of identifiable people**. The
 field's own guidance is emphatic and worth repeating plainly: **involve Deaf researchers and
-signers from the beginning**, treat scraped video as disqualifying, and be honest about what you are
-building.
+signers from the beginning**, treat scraped video as disqualifying, and be honest about what you
+are building.
 
 That last part matters most for **signing avatars**. The recurring objection is not that they are
 imperfect — it is that they are frequently **unusable**, missing the facial grammar entirely, and
@@ -91,5 +93,5 @@ straight about whether you are adding something or removing someone.
 ⚠️ Scoring against that row of capitalised words is the field's most-criticised habit: it measures
 agreement with the lossy middle step, not with the meaning.
 
-Score against real translations instead, with all the caveats from question 129; test whether people
-**understood**; and say who signed the data and who did the judging.
+Score against real translations instead, with all the caveats from question 129; test whether
+people **understood**; and say who signed the data and who did the judging.

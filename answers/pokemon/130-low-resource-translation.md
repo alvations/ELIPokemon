@@ -19,8 +19,8 @@ every technique below is a way of manufacturing a lesson nobody ever wrote down.
 ## 1. Find a relative who already knows it 🥚
 
 The highest-value move, and it is the oldest trick Trainers have: the **Egg Move**. If some other
-species in the same **Egg Group** knows it, breed for it and the child hatches already knowing what
-its parent knew.
+species in the same **Egg Group** knows it, breed for it and the child hatches already knowing
+what its parent knew.
 
 **Charmander** is the standard demonstration. It will never learn **Dragon Dance** by levelling up
 and there is no **TM** for it — but Charmander sits in the Dragon Egg Group, so a parent from that
@@ -45,9 +45,9 @@ Here is the technique that carries the whole field, and Ditto is the exact analo
 You have a Pokémon and **no compatible partner anywhere.** So you breed it with a **Ditto** —
 which is not really a partner, it is a *copy of one*, manufactured on the spot.
 
-📌 And this is the crucial part: **the egg does not hatch into a Ditto.** It hatches into a genuine,
-real member of the other parent's species. The fake half was only ever the *input*. What comes out
-is real.
+📌 And this is the crucial part: **the egg does not hatch into a Ditto.** It hatches into a
+genuine, real member of the other parent's species. The fake half was only ever the *input*. What
+comes out is real.
 
 ```
    you have:  no pairs at all — but plenty of genuine writing in the rare language
@@ -69,8 +69,8 @@ only ever spars with itself. It gets very good at its own bad habits and nothing
 ## 3. Go looking for pairs that already exist 🔎
 
 Nobody wrote a parallel corpus. But Kanto and Johto have both written up **Gyarados** in their own
-Pokédexes, in their own words, without ever coordinating — and so has every other region, for every
-other species. Line those entries up and you have pairs that nobody made on purpose.
+Pokédexes, in their own words, without ever coordinating — and so has every other region, for
+every other species. Line those entries up and you have pairs that nobody made on purpose.
 
 Match them by meaning rather than by wording, keep only the confident matches, and throw out
 anything where one entry turns out to be about **Magikarp** and the other about the Gyarados it
@@ -94,7 +94,8 @@ politeness levels, whether the speaker saw it themselves, **Nidoran♀ versus Ni
   fragments before it starts (questions 102, 112), fixing *that* beats every clever idea
   downstream, and people skip it because it is boring.
 * 📖 **Hand it a dictionary and a page of grammar.** For a language with almost nothing at all, a
-  strong general Pokédex reading a phrasebook can beat a system trained from scratch on the scraps.
+  strong general Pokédex reading a phrasebook can beat a system trained from scratch on the
+  scraps.
 
 ## And then: how would you even know it worked? 🧭
 

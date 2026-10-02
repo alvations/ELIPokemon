@@ -36,15 +36,17 @@ alive long enough to see where it goes.
 Every additional token adds a negative log-probability, so raw cumulative score favours short
 sequences. Standard practice divides by a length penalty:
 
-$$\text{score} = \frac{1}{|y|^\alpha}\sum_t \log P(y_t \mid y_{<t}), \qquad \alpha \approx 0.6\text{–}1.0$$
+$$\text{score} = \frac{1}{|y|^\alpha}\sum_t \log P(y_t \mid y_{<t}), \qquad \alpha \approx
+0.6\text{–}1.0$$
 
 Getting `α` wrong is a classic bug: too low and outputs truncate early, too high and they ramble.
 
 ## Why it works for translation and fails for chat
 
 Beam search is still standard in **machine translation and speech recognition**, and it is
-genuinely better there. The reason is that those tasks are **low-entropy**: given the source, there
-is essentially one correct output, and the goal really is to find the highest-probability sequence.
+genuinely better there. The reason is that those tasks are **low-entropy**: given the source,
+there is essentially one correct output, and the goal really is to find the highest-probability
+sequence.
 
 Open-ended generation is **high-entropy**: there are thousands of good continuations. And here the
 objective itself is wrong — [Holtzman et al. (2019)](https://arxiv.org/abs/1904.09751) showed that

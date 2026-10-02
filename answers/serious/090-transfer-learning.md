@@ -10,9 +10,9 @@ tags: [transfer-learning, freezing, feature-extraction, discriminative-lr, domai
 
 # Transfer learning
 
-Reuse representations learned on one task for another. It works because early layers learn features
-that are **general** — edges, textures, syntax, common word senses — while later layers learn features
-that are **task-specific**. The general part transfers; the specific part does not.
+Reuse representations learned on one task for another. It works because early layers learn
+features that are **general** — edges, textures, syntax, common word senses — while later layers
+learn features that are **task-specific**. The general part transfers; the specific part does not.
 
 [Yosinski et al. (2014)](https://arxiv.org/abs/1411.1792) measured this layer by layer:
 transferability declines with depth, and there is a middle region where features are co-adapted to
@@ -57,12 +57,12 @@ earn their keep.
 ## Techniques
 
 * **Linear probing** — freeze the backbone, train only a new head. Fast, needs little data, cannot
-  adapt features. Also a useful *diagnostic*: if a linear probe does well, the representation already
-  contains what you need.
+  adapt features. Also a useful *diagnostic*: if a linear probe does well, the representation
+  already contains what you need.
 * **Full fine-tuning** — everything trainable at a low learning rate (10–100× below pretraining).
 * **Gradual unfreezing** — train the head, then unfreeze layers from the top down. Reduces the
-  catastrophic-forgetting risk of hitting a pretrained network with large gradients from a randomly
-  initialised head.
+  catastrophic-forgetting risk of hitting a pretrained network with large gradients from a
+  randomly initialised head.
 * **Discriminative learning rates** — lower rates for earlier layers, higher for later ones,
   reflecting how much each should change.
 * **PEFT / LoRA** — freeze everything, learn a small adapter. The modern default for LLMs.
@@ -71,14 +71,15 @@ earn their keep.
 
 * **Learning rate too high.** The single most common failure: a large rate destroys pretrained
   features in the first few steps. Warm up, and use a much lower rate than you would from scratch.
-* **A randomly initialised head.** Its large initial gradients propagate into the backbone. Train the
-  head alone for an epoch first, or use a lower backbone LR.
+* **A randomly initialised head.** Its large initial gradients propagate into the backbone. Train
+  the head alone for an epoch first, or use a lower backbone LR.
 * **Preprocessing mismatch.** Use the *same* normalisation, tokenizer, and image resolution as
   pretraining. A different tokenizer makes the embeddings meaningless.
 * **Frozen BatchNorm statistics.** Freezing weights but leaving BatchNorm in training mode updates
   running statistics and silently changes the "frozen" backbone.
-* **Negative transfer** — when the source task is unhelpful or harmful, transfer is worse than random
-  initialisation. Rare with large pretrained models, real for small ones on distant domains.
+* **Negative transfer** — when the source task is unhelpful or harmful, transfer is worse than
+  random initialisation. Rare with large pretrained models, real for small ones on distant
+  domains.
 
 ## What an interviewer digs into next
 

@@ -10,9 +10,9 @@ tags: [low-resource, back-translation, transfer, pivot, bitext-mining, flores]
 
 # Translating a language with almost no parallel data
 
-Most of the world's languages have a few thousand parallel sentences at best, and many have a Bible
-translation and nothing else. Every technique below is a way of manufacturing supervision you do
-not have.
+Most of the world's languages have a few thousand parallel sentences at best, and many have a
+Bible translation and nothing else. Every technique below is a way of manufacturing supervision
+you do not have.
 
 ## 1. Transfer from a related language
 
@@ -64,14 +64,15 @@ length ratio and language identification (question 108).
 ## 4. Pivot
 
 Translate X → English → Y when X-Y has no data but both pair with English. Cheap and always
-available; it compounds errors, loses information English does not encode (honorifics, evidentiality,
-gender agreement), and doubles latency. Direct multilingual models beat pivoting when there is any
-direct data at all, which is why NLLB and similar systems emphasise non-English-centric pairs.
+available; it compounds errors, loses information English does not encode (honorifics,
+evidentiality, gender agreement), and doubles latency. Direct multilingual models beat pivoting
+when there is any direct data at all, which is why NLLB and similar systems emphasise
+non-English-centric pairs.
 
 ## 5. Everything else
 
-* **Adapters / LoRA per language** (questions 110, 025) — add capacity for the new language without
-  disturbing the rest.
+* **Adapters / LoRA per language** (questions 110, 025) — add capacity for the new language
+  without disturbing the rest.
 * **Vocabulary extension** — the base tokenizer may shred the language into bytes (questions 102,
   112). Extending the vocabulary and initialising new embeddings sensibly is often a bigger win
   than any modelling change.

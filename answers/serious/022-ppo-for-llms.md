@@ -66,7 +66,8 @@ variance — which is the only reason policy gradients work on 500-token sequenc
 ## The full per-token reward
 
 $$R_t = \underbrace{r_\theta(x,y)\cdot\mathbb{1}[t = T]}_{\text{terminal RM score}}
-\;-\;\beta\,\underbrace{\log\frac{\pi_\phi(a_t|s_t)}{\pi_{\text{ref}}(a_t|s_t)}}_{\text{per-token KL}}$$
+\;-\;\beta\,\underbrace{\log\frac{\pi_\phi(a_t|s_t)}{\pi_{\text{ref}}(a_t|s_t)}}_{\text{per-token
+KL}}$$
 
 The KL term is applied *per token*, not once at the end, which gives dense shaping and keeps the
 policy anchored to the SFT reference everywhere in the sequence.

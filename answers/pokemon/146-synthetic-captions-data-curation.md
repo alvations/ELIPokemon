@@ -10,11 +10,11 @@ tags: [synthetic-data, recaptioning, alt-text, filtering, model-collapse, curati
 
 # What Trainers actually write under their photographs
 
-Go through a shoebox of other people's **Pokémon Snap** photographs and read what is written on the
-back.
+Go through a shoebox of other people's **Pokémon Snap** photographs and read what is written on
+the back.
 
-*"Route 4."* *"IMG_204."* *"cool!!"* *"taken with my new camera."* Half of them say nothing at all.
-One of them names the photographer rather than the Pokémon. And even the *good* ones say
+*"Route 4."* *"IMG_204."* *"cool!!"* *"taken with my new camera."* Half of them say nothing at
+all. One of them names the photographer rather than the Pokémon. And even the *good* ones say
 **"Gyarados"** when the shot also contains three **Magikarp**, a **Poliwag**, and the **Old Rod**
 that caught them.
 
@@ -32,16 +32,16 @@ Send a describer round the whole shoebox and have it write a proper entry for ev
         overhead, dusk light, a Poké Ball dropped in the sand to its left."
 ```
 
-📌 Now every phrase corresponds to **something actually in the photograph**. The Pokédex can finally
-learn which attribute belongs to which Pokémon, how many there were, and what was to the left of
-what — precisely the things it could never learn from *"cool!!"*, and precisely the things that were
-missing in questions 120 and 128.
+📌 Now every phrase corresponds to **something actually in the photograph**. The Pokédex can
+finally learn which attribute belongs to which Pokémon, how many there were, and what was to the
+left of what — precisely the things it could never learn from *"cool!!"*, and precisely the things
+that were missing in questions 120 and 128.
 
 ## Do not throw the shoebox away 📦
 
 ⚠️ Train on **nothing but** the describer's entries and you have built a Pokédex that understands
-**one describer**. Its phrasing, its habits, its blind spots. Then a real Trainer walks up and says
-*"cool bug thing"* and it has never heard anybody talk like that in its life.
+**one describer**. Its phrasing, its habits, its blind spots. Then a real Trainer walks up and
+says *"cool bug thing"* and it has never heard anybody talk like that in its life.
 
 So keep a slice of the originals in the mix. Most recipes lean heavily on the rewritten ones and
 deliberately hold back a fraction of the scrappy real ones — the exact proportion is worth testing
@@ -60,17 +60,17 @@ evolution. And now that sentence is not a mistake in an answer somebody reads on
 training label**, and the next Pokédex learns it as fact. It will write the same thing about every
 **Quilava**, every **Monferno**, every mid-stage Fire type it ever sees.
 
-⚠️ The nasty part is that it is not random noise. Noise averages out. **The describer gets it wrong
-the same way every single time**, so the same false claim is stamped across a million photographs
-and reinforced rather than cancelled.
+⚠️ The nasty part is that it is not random noise. Noise averages out. **The describer gets it
+wrong the same way every single time**, so the same false claim is stamped across a million
+photographs and reinforced rather than cancelled.
 
 What actually helps:
 
 * **👀 Read two hundred of them yourself.** Dull, and it catches more than any automatic check.
-* **🧑‍⚖️ Have a *different* describer mark the work.** Asking the one that wrote the entries whether
-  the entries are right is asking a Pokémon to referee its own battle.
-* **✂️ Prefer short and factual over long and lyrical** where accuracy matters. Invention grows with
-  length here exactly as it does everywhere else.
+* **🧑‍⚖️ Have a *different* describer mark the work.** Asking the one that wrote the entries
+  whether the entries are right is asking a Pokémon to referee its own battle.
+* **✂️ Prefer short and factual over long and lyrical** where accuracy matters. Invention grows
+  with length here exactly as it does everywhere else.
 * **🏷️ Write down *which* describer produced each entry**, so you can find them all and redo them
   when you get a better one.
 

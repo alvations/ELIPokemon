@@ -77,8 +77,8 @@ Depends on how often the rookie is right:
   rookie right 20% of the time  →  ~1.2 turns per flip  😬 barely worth it
 ```
 
-And guessing further ahead isn't free: one early rejection voids the whole rest of the guess. Guess
-four ahead and get turn 1 wrong, and you wasted four guesses. There's a sweet spot.
+And guessing further ahead isn't free: one early rejection voids the whole rest of the guess.
+Guess four ahead and get turn 1 wrong, and you wasted four guesses. There's a sweet spot.
 
 ## Different rookies 🧑‍🎓
 

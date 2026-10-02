@@ -27,9 +27,9 @@ construction — preservation is *guaranteed*, not hoped for.
         the model cannot make a change that needs the boundary to move
 ```
 
-Failure mode: **boundary artefacts** and context mismatch — lighting, grain and perspective that do
-not agree across the mask edge. Feathering the mask and generating at the surrounding image's noise
-level both help.
+Failure mode: **boundary artefacts** and context mismatch — lighting, grain and perspective that
+do not agree across the mask edge. Feathering the mask and generating at the surrounding image's
+noise level both help.
 
 **2. Instruction-based editing (InstructPix2Pix and descendants).** No mask. "Make it winter."
 The model was trained on (original, instruction, edited) triples — often synthesised by generating
@@ -47,19 +47,19 @@ from the table" since the cup is in the structure.
 
 ## Identity preservation
 
-The hardest sub-problem: keep *this specific* face, product or character across an edit. Approaches
-run from identity-embedding conditioning (IP-Adapter-style) to per-subject fine-tuning (DreamBooth
-and LoRA variants). All of them trade **fidelity to the subject** against **editability** — push
-identity hard enough and the model stops following the instruction. That curve is the real
-engineering surface.
+The hardest sub-problem: keep *this specific* face, product or character across an edit.
+Approaches run from identity-embedding conditioning (IP-Adapter-style) to per-subject fine-tuning
+(DreamBooth and LoRA variants). All of them trade **fidelity to the subject** against
+**editability** — push identity hard enough and the model stops following the instruction. That
+curve is the real engineering surface.
 
 ## The consequential part: provenance
 
 Editing tools are how a photograph becomes evidence of something that did not happen. Anything you
 build here should attach provenance — C2PA-style signed edit history, or an invisible watermark
-(question 165 in the same family of concerns) — and should refuse edits that fabricate identifiable
-people in false circumstances. This is not an add-on; retrofitting provenance after launch does not
-work, because the untagged outputs are already in circulation.
+(question 165 in the same family of concerns) — and should refuse edits that fabricate
+identifiable people in false circumstances. This is not an add-on; retrofitting provenance after
+launch does not work, because the untagged outputs are already in circulation.
 
 ## Evaluation, done properly
 

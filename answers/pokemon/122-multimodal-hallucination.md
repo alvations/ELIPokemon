@@ -49,8 +49,8 @@ amount of clever wording fixes it — only walking closer does.
    sentence 8: "...and it uses its wings to reach great heights" ← reciting
 ```
 
-📌 Every sentence it produces becomes something the *next* sentence listens to. Eight sentences
-in, it is mostly listening to itself. **Ask for a paragraph and you have asked for hallucination.**
+📌 Every sentence it produces becomes something the *next* sentence listens to. Eight sentences in,
+it is mostly listening to itself. **Ask for a paragraph and you have asked for hallucination.**
 
 ## How to actually catch it 🎯
 

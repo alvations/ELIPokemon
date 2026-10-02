@@ -29,9 +29,9 @@ tags: [react, agents, tool-use, agent-loop, planning]
 ```
 
 The two halves fix each other's failures. Pure reasoning (chain-of-thought) hallucinates facts and
-cannot check anything. Pure acting (tool calls without reasoning) has no plan and no way to recover
-from an unexpected result. Interleaving means observations ground the reasoning, and reasoning
-decides the next action in light of what just came back.
+cannot check anything. Pure acting (tool calls without reasoning) has no plan and no way to
+recover from an unexpected result. Interleaving means observations ground the reasoning, and
+reasoning decides the next action in light of what just came back.
 
 ## The anatomy
 
@@ -50,12 +50,12 @@ The loop itself is about twenty lines of code. Everything hard is in the other f
 ## What actually breaks in production
 
 **1. No termination condition.** The classic failure: an agent that never decides it is done, or
-oscillates between two actions. Always enforce a hard step budget, a wall-clock timeout, and a cost
-ceiling. Detect repeated identical actions and break.
+oscillates between two actions. Always enforce a hard step budget, a wall-clock timeout, and a
+cost ceiling. Detect repeated identical actions and break.
 
-**2. Error handling.** Tools fail — timeouts, rate limits, malformed arguments. Return the error *as
-an observation* so the model can adapt, rather than crashing the loop. But cap retries: models will
-happily retry an impossible call twenty times.
+**2. Error handling.** Tools fail — timeouts, rate limits, malformed arguments. Return the error
+*as an observation* so the model can adapt, rather than crashing the loop. But cap retries: models
+will happily retry an impossible call twenty times.
 
 **3. Context growth.** Every observation is appended. By step 30 the context is mostly stale tool
 output. This is where context engineering (question 052) becomes the binding constraint —
@@ -71,15 +71,15 @@ namespacing, or route to sub-agents with smaller tool sets.
 
 ## Variants
 
-* **Plan-and-execute** — plan fully up front, then execute. Fewer model calls, cheaper, brittle when
-  reality diverges from the plan.
+* **Plan-and-execute** — plan fully up front, then execute. Fewer model calls, cheaper, brittle
+  when reality diverges from the plan.
 * **Reflexion** — after failure, generate a written critique and retry with it in context.
-* **Tree-of-thought / LATS** — search over action sequences with backtracking. Expensive, better on
-  hard search problems.
+* **Tree-of-thought / LATS** — search over action sequences with backtracking. Expensive, better
+  on hard search problems.
 * **Multi-agent** — specialised agents with a coordinator (question 056).
 * **Native tool-calling loops** — modern models are post-trained for tool use, so the explicit
-  "Thought:/Action:" text scaffolding of original ReAct is largely obsolete; the structure is now in
-  the model's trained behaviour and the API's message format.
+  "Thought:/Action:" text scaffolding of original ReAct is largely obsolete; the structure is now
+  in the model's trained behaviour and the API's message format.
 
 That last point is worth making explicitly: ReAct's *pattern* won so thoroughly that it stopped
 being a prompting technique and became part of how models are trained and how APIs are shaped.

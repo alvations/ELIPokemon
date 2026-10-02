@@ -11,8 +11,8 @@ tags: [3d-generation, multiview-consistency, sds, gaussian-splatting, meshes, ev
 # You asked for a Doduo and got a Dodrio
 
 Generating a **picture** of a Pokémon (question 137) draws on an enormous pile of pictures.
-Generating **the Pokémon itself** — a thing you can walk around — does not, and that one fact shapes
-every technique in the field.
+Generating **the Pokémon itself** — a thing you can walk around — does not, and that one fact
+shapes every technique in the field.
 
 ```
    pictures available to learn from:   billions
@@ -33,9 +33,9 @@ and nothing ever told it the thing only has one front. You asked for a **Doduo**
 **Dodrio**. You asked for a **Girafarig** and got something with a head at both ends — which, in
 fairness, is what a Girafarig is, and is not what you wanted this time.
 
-**2. 📸 Take several agreeing photographs first, then build from them.** Generate a consistent set of
-views, *then* work out the shape. Much faster and far better behaved, **because the agreement is
-enforced while generating rather than hoped for while optimising.** This is what most working
+**2. 📸 Take several agreeing photographs first, then build from them.** Generate a consistent set
+of views, *then* work out the shape. Much faster and far better behaved, **because the agreement
+is enforced while generating rather than hoped for while optimising.** This is what most working
 systems do.
 
 **3. 🗿 Or learn from actual three-dimensional things.** Cleanest in principle, limited by how few
@@ -46,8 +46,8 @@ there are, and getting better as the pile grows.
 A picture only has to look right **once**. A Pokémon has to look right **from every angle at the
 same time** — and the constraints fight each other: fix the back and the front shifts.
 
-📌 This is the same class of problem as a **Charizard** drifting into a **Charmeleon** across a clip
-(question 157). One more axis the output has to agree with itself along, and **nothing in the
+📌 This is the same class of problem as a **Charizard** drifting into a **Charmeleon** across a
+clip (question 157). One more axis the output has to agree with itself along, and **nothing in the
 objective enforces it.**
 
 ## What you get out determines what you can do with it 🏗️
@@ -58,9 +58,9 @@ objective enforces it.**
 | 🧱 A proper built model | actual games, actual animation | how well it is built matters enormously, and is usually poor |
 | ☁️ A scatter of points | a stepping stone | not usable by anything on its own |
 
-⚠️ The recurring disappointment: somebody produces a magnificent **Sudowoodo** and the studio cannot
-use it. It looks like a Pokémon from every angle and it is a **statue** — the way Sudowoodo itself
-looks exactly like a tree and is not one.
+⚠️ The recurring disappointment: somebody produces a magnificent **Sudowoodo** and the studio
+cannot use it. It looks like a Pokémon from every angle and it is a **statue** — the way Sudowoodo
+itself looks exactly like a tree and is not one.
 
 📌 So **"it generates in 3D" is not one capability.** Ask *which kind of output*, and ask whether
 anybody downstream can actually open it.

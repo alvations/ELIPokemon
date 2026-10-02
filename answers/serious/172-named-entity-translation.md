@@ -11,8 +11,8 @@ tags: [named-entities, transliteration, entity-linking, exonyms, consistency, ba
 # Names
 
 "Do not translate names" is wrong, and so is "translate names". The correct behaviour depends on
-the kind of name, the language pair, and the convention in the target locale — and getting it wrong
-produces errors that readers notice instantly.
+the kind of name, the language pair, and the convention in the target locale — and getting it
+wrong produces errors that readers notice instantly.
 
 ## Four different behaviours, one grammatical category
 
@@ -41,8 +41,8 @@ Consequences:
 * **Never re-transliterate a name that already exists in the target script.** Look it up. A person
   whose name is already written in Cyrillic should not be transliterated from an English rendering
   of it.
-* **Back-transliteration needs a knowledge base**, not an algorithm. Given "Смит", the right answer
-  depends on who this person is.
+* **Back-transliteration needs a knowledge base**, not an algorithm. Given "Смит", the right
+  answer depends on who this person is.
 * **Multiple valid systems exist** (question 109) — scholarly, journalistic, national standards —
   and mixing them within one document looks like carelessness.
 
@@ -70,8 +70,8 @@ per-segment cleverness achieves.
 ## The failures worth testing for
 
 * **Inconsistency within a document** — the highest-frequency complaint, and cheap to measure.
-* **Over-translation**: names with transparent meaning ("White", "Green", "Baker") getting rendered
-  as words. Test with a set of these deliberately.
+* **Over-translation**: names with transparent meaning ("White", "Green", "Baker") getting
+  rendered as words. Test with a set of these deliberately.
 * **Gender agreement on names** in languages that inflect them (Slavic surnames), which needs
   information the text may not contain (question 142).
 * **Honorific handling** — titles that must be added, removed or reordered by convention

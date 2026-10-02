@@ -92,8 +92,8 @@ That's the difference between betting the season on a hunch and knowing what you
 vaguer about whether it beats the Elite Four.
 
 **Battle quality matters more than the law says.** 1,000 battles against Brock, Misty and Sabrina
-beat 10,000 fights against wild Rattata on Route 1. Curation shifts the whole curve; the law's *shape* is stable, its
-*position* isn't.
+beat 10,000 fights against wild Rattata on Route 1. Curation shifts the whole curve; the law's
+*shape* is stable, its *position* isn't.
 
 **You can run out of opponents.** There are only so many good Trainers — eight Gym Leaders, an
 Elite Four, a Champion. (Rematches help — about

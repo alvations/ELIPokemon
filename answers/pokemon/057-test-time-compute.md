@@ -43,13 +43,14 @@ mistake and back up. One long deliberation.
 **2. 🎲 Consider several plans, then pick.**
 * 🗳️ Play it out three ways — Thunderbolt, Volt Switch, Protect — and go with the consensus.
 * 👨‍⚖️ Play it out five ways and let a judge pick the best.
-* ✅ Play it out five ways and **check which actually wins** — strongest by far, when you can check.
+* ✅ Play it out five ways and **check which actually wins** — strongest by far, when you can
+  check.
 
 **3. 🔁 Try, critique, retry.** Make a plan, find its flaw, fix it.
 
-⚠️ One catch on that last one. It works beautifully with a **real signal** — you tried the move and
-it missed, so now you know. It works poorly on **pure self-doubt**: a Trainer second-guessing a
-correct plan will frequently talk itself into a worse one. Doubt without evidence isn't insight.
+⚠️ One catch on that last one. It works beautifully with a **real signal** — you tried the move
+and it missed, so now you know. It works poorly on **pure self-doubt**: a Trainer second-guessing
+a correct plan will frequently talk itself into a worse one. Doubt without evidence isn't insight.
 
 ## The genuinely surprising result 🤯
 
@@ -93,15 +94,15 @@ trained on the scoreboard until deliberating emerged, because deliberating won m
 More efficient than orchestrating it from outside — the deliberation happens in one continuous
 thought, and they've learned *when* a turn deserves more time.
 
-The cost is **control**. You can't inspect the deliberation, can't steer it, can't cap it precisely.
-It thinks as long as it thinks.
+The cost is **control**. You can't inspect the deliberation, can't steer it, can't cap it
+precisely. It thinks as long as it thinks.
 
 ## What this changes in practice 📋
 
-* 💸 **Your costs are no longer predictable.** Hard turns cost more than easy ones. Capacity planning
-  that assumed a fixed price per turn is now wrong.
-* 🎚️ **Speed and accuracy are a dial you turn per turn.** Route the Rattata to a fast path and save
-  the deliberation for Cynthia.
+* 💸 **Your costs are no longer predictable.** Hard turns cost more than easy ones. Capacity
+  planning that assumed a fixed price per turn is now wrong.
+* 🎚️ **Speed and accuracy are a dial you turn per turn.** Route the Rattata to a fast path and
+  save the deliberation for Cynthia.
 * 🐣 **A small Trainer with thinking time can beat a big one without** — at the same total cost.
   Genuinely changes what you should deploy.
 * ✅ **A way to check answers is enormous leverage.** If you can verify a turn was good, you unlock

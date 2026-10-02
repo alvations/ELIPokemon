@@ -40,9 +40,9 @@ Two abilities come almost entirely from journals, and not at all from albums:
   underneath, then a fourth sketch with the verdict left blank. A Trainer who grew up on journals
   works out what is being asked and fills it in. A Trainer raised on the album has **never seen
   two sketches on one page** and has no idea what you want.
-* **↔️ Comparing and referring back.** *"The second one."* *"Unlike the previous sketch."* *"The one
-  on the left."* You cannot learn to follow those from a stack of unrelated photographs, because
-  there was never a *previous* anything.
+* **↔️ Comparing and referring back.** *"The second one."* *"Unlike the previous sketch."* *"The
+  one on the left."* You cannot learn to follow those from a stack of unrelated photographs,
+  because there was never a *previous* anything.
 
 ## Journals are messy in a way albums are not 🗑️
 
@@ -57,9 +57,10 @@ So a real curator does this:
   information anywhere in it.
 * **🔗 Check that the words and the sketch have *something* to do with each other — loosely.** And
   here is the trap. It is very tempting to keep only pages where the writing plainly names the
-  Pokémon in the sketch. ⚠️ **Do that and you have thrown the journal away and rebuilt the album.**
-  The loose association *is the thing you came for*: "compare it with the one from the Ruins" is
-  exactly the sentence a strict filter deletes, and exactly the sentence that teaches comparison.
+  Pokémon in the sketch. ⚠️ **Do that and you have thrown the journal away and rebuilt the
+  album.** The loose association *is the thing you came for*: "compare it with the one from the
+  Ruins" is exactly the sentence a strict filter deletes, and exactly the sentence that teaches
+  comparison.
 * **📏 Cap how many sketches one page may contribute**, or a single spread of forty Zubat drowns
   out fifty other Trainers' journals.
 * **♻️ Remove repeats** — the same sketch traced into three different journals — and check none of

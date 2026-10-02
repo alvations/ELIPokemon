@@ -10,9 +10,9 @@ tags: [documentation, fieldwork, orthography, community-ownership, care-principl
 
 # The Ruins of Alph are full of writing nobody can read fast enough
 
-There is a research station outside **Violet City** whose entire job is the carvings on those walls.
-Not a shortage of material — the walls are covered. A shortage of **anyone with time to work
-through them**, and a script whose reading is still argued over.
+There is a research station outside **Violet City** whose entire job is the carvings on those
+walls. Not a shortage of material — the walls are covered. A shortage of **anyone with time to
+work through them**, and a script whose reading is still argued over.
 
 That is language documentation, and it is a different situation from question 130 rather than a
 smaller one.
@@ -64,8 +64,8 @@ The **Unown** alphabet has competing readings. Several groups have written the s
 different ways, and the differences track real disagreements about who these carvings belong to.
 
 ⚠️ **Picking one for your dataset is taking a side.** Record which system each text uses. Support
-converting between them **where the community has defined how**. Never quietly normalise — it looks
-like tidying and it is a ruling.
+converting between them **where the community has defined how**. Never quietly normalise — it
+looks like tidying and it is a ruling.
 
 ## And here the Pokémon framing stops 🤝
 
@@ -81,5 +81,5 @@ In practice that means: the community decides what is collected and what is publ
 whatever you produce goes back in a form they can actually use; and if the project ends when the
 grant ends, **say that at the beginning.**
 
-⚠️ **"We scraped what was online" is not a methodology here.** Much of what is online is sacred, is
-restricted, or was put there without the speaker's consent in the first place.
+⚠️ **"We scraped what was online" is not a methodology here.** Much of what is online is sacred,
+is restricted, or was put there without the speaker's consent in the first place.

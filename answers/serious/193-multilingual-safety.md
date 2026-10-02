@@ -10,9 +10,9 @@ tags: [multilingual-safety, jailbreak, refusal-rates, moderation, red-teaming, c
 
 # Safety does not transfer across languages
 
-A model's refusal behaviour is trained, and it is trained overwhelmingly in English. The capability
-to *understand* the request generalises across languages far better than the trained behaviour of
-*declining* it does. That gap is a reliable, reproducible vulnerability.
+A model's refusal behaviour is trained, and it is trained overwhelmingly in English. The
+capability to *understand* the request generalises across languages far better than the trained
+behaviour of *declining* it does. That gap is a reliable, reproducible vulnerability.
 
 ```
    harmful request in English      ─► refused
@@ -23,8 +23,8 @@ to *understand* the request generalises across languages far better than the tra
 ```
 
 This is the same structural failure as question 139's image channel: **an input path the alignment
-data did not cover**. Multilingual jailbreaking has been demonstrated repeatedly, and the pattern is
-consistent — the fewer safety examples in a language, the higher the compliance rate.
+data did not cover**. Multilingual jailbreaking has been demonstrated repeatedly, and the pattern
+is consistent — the fewer safety examples in a language, the higher the compliance rate.
 
 ## Why it happens
 
@@ -54,10 +54,10 @@ lands as a quality-of-service difference along language lines.
 * **Measure refusal rates per language**, on a parallel set — the same requests, translated by
   humans, harmful and benign. The spread across languages *is* your finding, and it is usually
   large.
-* **Red-team in the target languages, with native speakers.** English red-teaming does not transfer,
-  for the same reason English safety training does not.
-* **Include multilingual examples in safety training**, not only translated ones — locally authored
-  where possible, because the categories differ.
+* **Red-team in the target languages, with native speakers.** English red-teaming does not
+  transfer, for the same reason English safety training does not.
+* **Include multilingual examples in safety training**, not only translated ones — locally
+  authored where possible, because the categories differ.
 * **Run moderation on the source language**, not on a translation into English (question 178's
   laundering problem).
 * **Report coverage honestly.** If safety was validated in five languages and the product serves

@@ -10,8 +10,8 @@ tags: [hyde, query-expansion, multi-query, step-back, rag]
 
 # Query transformation
 
-Retrieval fails when the query and the answer are written differently. Query transformation attacks
-that gap on the **query side**, before search happens.
+Retrieval fails when the query and the answer are written differently. Query transformation
+attacks that gap on the **query side**, before search happens.
 
 ## The problem
 
@@ -23,8 +23,8 @@ that gap on the **query side**, before search happens.
    Shared vocabulary: none.  Dense retrieval: weak. BM25: nothing.
 ```
 
-Real queries are short, underspecified, conversational, full of pronouns referring to earlier turns,
-and written in the user's vocabulary rather than the corpus's.
+Real queries are short, underspecified, conversational, full of pronouns referring to earlier
+turns, and written in the user's vocabulary rather than the corpus's.
 
 ## The techniques
 
@@ -39,12 +39,12 @@ and written in the user's vocabulary rather than the corpus's.
                     ▼  retrieve each, fuse ranks
 ```
 
-Simple, robust, and the highest-value transformation for most systems. It directly increases recall
-by covering more phrasings.
+Simple, robust, and the highest-value transformation for most systems. It directly increases
+recall by covering more phrasings.
 
-**2. HyDE — Hypothetical Document Embeddings**
-([Gao et al., 2022](https://arxiv.org/abs/2212.10496)). Ask the LLM to *hallucinate an answer*, then
-embed **that** and search with it.
+**2. HyDE — Hypothetical Document Embeddings** ([Gao et al.,
+2022](https://arxiv.org/abs/2212.10496)). Ask the LLM to *hallucinate an answer*, then embed
+**that** and search with it.
 
 ```
    query:   "why is my thing broken"
@@ -60,8 +60,8 @@ embed **that** and search with it.
 
 The insight is that it fixes an **asymmetry**: queries and documents live in different regions of
 embedding space (short/interrogative vs long/declarative). HyDE moves the search vector into
-*document* space, where the neighbours are actual documents. The hypothetical answer being factually
-wrong does not matter — you only need it to be *stylistically and topically* right.
+*document* space, where the neighbours are actual documents. The hypothetical answer being
+factually wrong does not matter — you only need it to be *stylistically and topically* right.
 
 **3. Step-back prompting.** Ask a more general question first, retrieve for both.
 *"Which school did Estella Leopold attend in Aug 1954?"* → *"What is Estella Leopold's education
@@ -69,14 +69,14 @@ history?"* Retrieving broader context and then reasoning within it beats retriev
 over-specific query that matches nothing.
 
 **4. Query decomposition.** Split multi-hop questions into sub-questions, retrieve for each, and
-compose. *"Which of our customers uses the library with the CVE?"* → *"which library had the CVE?"*
-then *"which customers use library X?"* Single-shot retrieval cannot answer chained questions; this
-is the standard fix.
+compose. *"Which of our customers uses the library with the CVE?"* → *"which library had the
+CVE?"* then *"which customers use library X?"* Single-shot retrieval cannot answer chained
+questions; this is the standard fix.
 
 **5. Contextual rewriting.** In multi-turn chat, resolve pronouns and ellipsis against history
-before retrieving. *"What about the second one?"* is un-retrievable; rewriting it to *"What are the
-side effects of the second medication, metformin?"* is trivially retrievable. **This is mandatory
-for any conversational RAG system** and is the single most commonly missing piece.
+before retrieving. *"What about the second one?"* is un-retrievable; rewriting it to *"What are
+the side effects of the second medication, metformin?"* is trivially retrievable. **This is
+mandatory for any conversational RAG system** and is the single most commonly missing piece.
 
 ## When they help — and when they don't
 

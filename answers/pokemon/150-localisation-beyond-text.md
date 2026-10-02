@@ -35,10 +35,10 @@ shares no words with the original at all.
 
 One Pokémon. Six Pokémon. English happens to let you get away with that.
 
-⚠️ Almost nowhere else does. Some languages have one form. Some have **six**. So a message built as
-*"if there is exactly one, say this, otherwise say that"* is not awkward to translate — **it cannot
-be translated at all.** It has to be thrown away and rebuilt so the *language* decides how many
-forms exist.
+⚠️ Almost nowhere else does. Some languages have one form. Some have **six**. So a message built
+as *"if there is exactly one, say this, otherwise say that"* is not awkward to translate — **it
+cannot be translated at all.** It has to be thrown away and rebuilt so the *language* decides how
+many forms exist.
 
 Same for *"{Trainer} sent out {Pokémon}!"* — in many languages the verb changes depending on who
 the Trainer is, and the information needed to choose may not exist anywhere in your system
@@ -55,10 +55,11 @@ the Trainer is, and the information needed to choose may not exist anywhere in y
   (question 114), and breaking in the wrong place is wrong in specific, defined ways.
 * **🔠 The letters may not exist at all.** Hand a machine the **Unown** alphabet with no font for
   it and every name renders as empty boxes.
-* **🔤 And alphabetical order is not one thing.** Sorting the **PC** boxes by name gives a different
-  order in different regions — accented letters go after Z in one place and beside their plain
-  cousins in another. Sort **Pokédex** order instead and **Bulbasaur** comes first everywhere;
-  sort by name and it does not. **Never sort by character codes and call the result alphabetical.**
+* **🔤 And alphabetical order is not one thing.** Sorting the **PC** boxes by name gives a
+  different order in different regions — accented letters go after Z in one place and beside their
+  plain cousins in another. Sort **Pokédex** order instead and **Bulbasaur** comes first
+  everywhere; sort by name and it does not. **Never sort by character codes and call the result
+  alphabetical.**
 
 ## What has to be remade, not converted 🎨
 
@@ -66,8 +67,8 @@ the Trainer is, and the information needed to choose may not exist anywhere in y
   translator never sees it, and it ships in the original language.
 * **🎭 Colours and symbols mean different things.** The **♀** and **♂** telling **Nidoran♀** from
   **Nidoran♂** are read instantly by some audiences and not at all by others — and they are not
-  decoration, they are the difference between a **Nidoqueen** and a **Nidoking**. Colours carry luck
-  in one place and warning in another.
+  decoration, they are the difference between a **Nidoqueen** and a **Nidoking**. Colours carry
+  luck in one place and warning in another.
 * **✍️ Slogans and flavour text** — remade, exactly like the names (question 149).
 * **📜 And content that is simply different.** **Ekans** and **Arbok** live in **Red** and not in
   **Blue**; **Sandshrew** and **Sandslash** the other way about. **Scyther** in one, **Pinsir** in

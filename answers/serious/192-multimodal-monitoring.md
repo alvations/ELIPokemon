@@ -11,9 +11,9 @@ tags: [monitoring, drift, silent-failure, canaries, alerting, incident-response]
 # Watching a multimodal system after it ships
 
 Offline evaluation tells you how the model behaves on a set you chose. Production tells you how it
-behaves on the world, which changes without informing you. The distinguishing property here is that
-**multimodal failures are silent**: nothing errors, latency is normal, and fluent wrong answers flow
-out at full rate.
+behaves on the world, which changes without informing you. The distinguishing property here is
+that **multimodal failures are silent**: nothing errors, latency is normal, and fluent wrong
+answers flow out at full rate.
 
 ## The four things that drift
 
@@ -67,16 +67,17 @@ someone deploys a config with the wrong resolution, the canary catches it in an 
 quarter. It costs almost nothing and it is the single control most teams lack.
 
 Include in the canary: an OCR-dependent case, a counting case, a spatial-relation case, a
-text-only case (to catch the regression in question 148), and a known-unsafe input to check refusal
-behaviour still works.
+text-only case (to catch the regression in question 148), and a known-unsafe input to check
+refusal behaviour still works.
 
 ## Alerting on the right thing
 
 Alert on **rates and distributions**, not individual outputs — a single bad answer is noise, a
 five-point shift in refusal rate is an incident. Set thresholds from observed variance, not from
-intuition. And write down, before the incident, what you will do when the alert fires: roll back to
-a pinned version, fall back to a cheaper deterministic path, or degrade gracefully to "we cannot
-answer this". A monitoring system with no defined response is an expensive way to feel informed.
+intuition. And write down, before the incident, what you will do when the alert fires: roll back
+to a pinned version, fall back to a cheaper deterministic path, or degrade gracefully to "we
+cannot answer this". A monitoring system with no defined response is an expensive way to feel
+informed.
 
 ## What an interviewer digs into next
 

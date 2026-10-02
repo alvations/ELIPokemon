@@ -57,8 +57,9 @@ Run this with your Trainer set to maximum decisiveness and you get:
    attempt 6: "yes, 342"
 ```
 
-**You need genuine variety.** The whole method depends on the six attempts taking *different routes*.
-Loosen them up so they actually approach it differently, or you've paid six times for one answer.
+**You need genuine variety.** The whole method depends on the six attempts taking *different
+routes*. Loosen them up so they actually approach it differently, or you've paid six times for one
+answer.
 
 ## How many attempts? 📈
 
@@ -92,9 +93,9 @@ fine. *"Write me a battle strategy"* — six different strategies, no majority, 
 **💰 Six times the cost.** They do run in parallel, so it's six times the money but not six times
 the wait.
 
-**😐 Well-coached Trainers get boring.** Heavily-coached Trainers tend to give the same answer every
-time regardless of settings — which is exactly the property that makes this method not work. The
-Trainers you actually deploy are often the ones this helps least.
+**😐 Well-coached Trainers get boring.** Heavily-coached Trainers tend to give the same answer
+every time regardless of settings — which is exactly the property that makes this method not work.
+The Trainers you actually deploy are often the ones this helps least.
 
 ## The bigger idea 💡
 

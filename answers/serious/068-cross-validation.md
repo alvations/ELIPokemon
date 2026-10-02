@@ -10,9 +10,9 @@ tags: [cross-validation, k-fold, leakage, time-series, nested-cv]
 
 # Cross-validation
 
-Split the data into `k` folds; train on `k-1` and validate on the held-out one; rotate; average. You
-get an estimate that uses all the data for both training and validation, plus a **variance** estimate
-across folds that a single split cannot give you.
+Split the data into `k` folds; train on `k-1` and validate on the held-out one; rotate; average.
+You get an estimate that uses all the data for both training and validation, plus a **variance**
+estimate across folds that a single split cannot give you.
 
 ```
    5-fold CV
@@ -27,8 +27,8 @@ across folds that a single split cannot give you.
    a 2-point difference between two models means anything.
 ```
 
-`k = 5` or `10` is standard. Leave-one-out (`k = n`) has low bias and high variance and is usually not
-worth the cost.
+`k = 5` or `10` is standard. Leave-one-out (`k = n`) has low bias and high variance and is usually
+not worth the cost.
 
 ## The silent failures
 
@@ -50,10 +50,10 @@ past. Use **forward-chaining**: train on `[1..t]`, validate on `t+1`, roll forwa
 validation means you are testing memorisation. Use `GroupKFold` on the entity id. This is the most
 common leakage in real projects.
 
-**3. Preprocessing fitted before splitting.** Scalers, imputers, feature selectors, target encoders,
-and SMOTE fitted on the full dataset leak validation statistics into training. **Everything must be
-inside the pipeline**, refit per fold. Target encoding without nested CV is a particularly severe
-case — it can produce near-perfect CV scores and useless models.
+**3. Preprocessing fitted before splitting.** Scalers, imputers, feature selectors, target
+encoders, and SMOTE fitted on the full dataset leak validation statistics into training.
+**Everything must be inside the pipeline**, refit per fold. Target encoding without nested CV is a
+particularly severe case — it can produce near-perfect CV scores and useless models.
 
 **4. Duplicates and near-duplicates** across folds. Deduplicate first.
 
@@ -64,14 +64,14 @@ with **nested CV**: an inner loop for tuning, an outer loop for estimating.
 **6. Ignoring class imbalance.** With rare classes, some folds may contain none. Use stratified
 folds.
 
-**7. Distribution shift.** CV estimates performance on data *like the training data*. If deployment
-differs — new users, a new season, a different population — CV is measuring the wrong thing entirely,
-and no amount of correct CV methodology detects it.
+**7. Distribution shift.** CV estimates performance on data *like the training data*. If
+deployment differs — new users, a new season, a different population — CV is measuring the wrong
+thing entirely, and no amount of correct CV methodology detects it.
 
 ## When not to use it
 
-* **Deep learning at scale.** `k` full training runs is usually prohibitive; a single large held-out
-  set is standard.
+* **Deep learning at scale.** `k` full training runs is usually prohibitive; a single large
+  held-out set is standard.
 * **Very large datasets** where a single split already has negligible variance.
 * **Genuine time series**, where forward-chaining is the only valid form.
 

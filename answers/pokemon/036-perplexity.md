@@ -40,8 +40,8 @@ Watch a Cynthia replay. Pause before each move. Ask your Trainer: *"what happens
   you can predict how surprised a Trainer costing your entire season budget will be. That's how
   anyone dares to commit to an expensive training run.
 * 🚨 **It's your smoke alarm.** Rounded every entry in your Trainer's Pokédex and want to know if
-  you broke something? Changed the training footage? Surprise moves *first*, before anything else you'd
-  notice.
+  you broke something? Changed the training footage? Surprise moves *first*, before anything else
+  you'd notice.
 
 ## Where it lies to you 🤥
 
@@ -78,8 +78,8 @@ Here's the concrete version, and it's the fact worth remembering:
 
 > **Coach your Trainer properly and their perplexity gets WORSE.**
 
-Every time. Reliably. Coaching makes them decisive, opinionated, and willing to say "no, that's the
-wrong move" — which makes them *worse at predicting what some random Trainer would have done*.
+Every time. Reliably. Coaching makes them decisive, opinionated, and willing to say "no, that's
+the wrong move" — which makes them *worse at predicting what some random Trainer would have done*.
 
 If you use perplexity to evaluate a coached Trainer, you will reject **exactly the coaching that
 made them good.**

@@ -53,7 +53,8 @@ adjustments than building one**.
 
 ## The item starts as a blank 📿
 
-Nice detail worth knowing: when you first attach it, the item does **nothing at all**. Zero effect.
+Nice detail worth knowing: when you first attach it, the item does **nothing at all**. Zero
+effect.
 
 Which means training begins with your Pokémon in *exactly* its Champion form — no jolt, no
 disruption. The item's effect grows from zero as you train. You are always starting from

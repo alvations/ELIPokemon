@@ -30,8 +30,8 @@ mini-batch.
 $$v_t = \beta v_{t-1} + \nabla L(\theta_t), \qquad \theta_{t+1} = \theta_t - \eta v_t$$
 
 An exponentially weighted average of past gradients. It solves the **ravine** problem: in a loss
-surface curving sharply in one direction and gently in another, plain SGD oscillates across the steep
-walls while creeping along the valley.
+surface curving sharply in one direction and gently in another, plain SGD oscillates across the
+steep walls while creeping along the valley.
 
 ```
    PLAIN SGD in a ravine              WITH MOMENTUM
@@ -49,8 +49,8 @@ walls while creeping along the valley.
 Perpendicular components alternate sign and cancel; the consistent along-valley component
 accumulates. `β = 0.9` means an effective average over ~10 steps.
 
-**Nesterov momentum** evaluates the gradient at the *look-ahead* position `θ − ηβv`, which corrects
-the step before overshooting rather than after.
+**Nesterov momentum** evaluates the gradient at the *look-ahead* position `θ − ηβv`, which
+corrects the step before overshooting rather than after.
 
 ## Adaptive methods
 
@@ -60,15 +60,15 @@ zero. **RMSProp** replaces the sum with an exponential moving average, fixing th
 
 **Adam** ([Kingma & Ba, 2014](https://arxiv.org/abs/1412.6980)) combines momentum with RMSProp:
 
-$$m_t = \beta_1 m_{t-1} + (1-\beta_1)g_t \qquad \text{(first moment — direction)}$$
-$$v_t = \beta_2 v_{t-1} + (1-\beta_2)g_t^2 \qquad \text{(second moment — scale)}$$
-$$\hat m_t = \frac{m_t}{1-\beta_1^t}, \quad \hat v_t = \frac{v_t}{1-\beta_2^t} \qquad \text{(bias correction)}$$
-$$\theta_{t+1} = \theta_t - \eta \frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon}$$
+$$m_t = \beta_1 m_{t-1} + (1-\beta_1)g_t \qquad \text{(first moment — direction)}$$ $$v_t =
+\beta_2 v_{t-1} + (1-\beta_2)g_t^2 \qquad \text{(second moment — scale)}$$ $$\hat m_t =
+\frac{m_t}{1-\beta_1^t}, \quad \hat v_t = \frac{v_t}{1-\beta_2^t} \qquad \text{(bias
+correction)}$$ $$\theta_{t+1} = \theta_t - \eta \frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon}$$
 
-**Bias correction matters and is often glossed over.** Both moments start at zero, so early estimates
-are biased toward zero — severely, since `β₂ = 0.999` means `v` needs thousands of steps to warm up.
-Without correction the first steps would be enormous. Dividing by `1−β^t` rescales them; the
-correction decays to nothing as `t` grows.
+**Bias correction matters and is often glossed over.** Both moments start at zero, so early
+estimates are biased toward zero — severely, since `β₂ = 0.999` means `v` needs thousands of steps
+to warm up. Without correction the first steps would be enormous. Dividing by `1−β^t` rescales
+them; the correction decays to nothing as `t` grows.
 
 Defaults `β₁ = 0.9, β₂ = 0.999, ε = 1e-8` are unusually robust, which is why Adam became the
 default. For large-batch LLM training `β₂ = 0.95` is common, for faster adaptation.
@@ -78,12 +78,13 @@ default. For large-batch LLM training `β₂ = 0.95` is common, for faster adapt
 Adam with **decoupled weight decay**
 ([Loshchilov & Hutter, 2017](https://arxiv.org/abs/1711.05101)):
 
-$$\theta_{t+1} = \theta_t - \eta\left(\frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon} + \lambda\theta_t\right)$$
+$$\theta_{t+1} = \theta_t - \eta\left(\frac{\hat m_t}{\sqrt{\hat v_t}+\epsilon} +
+\lambda\theta_t\right)$$
 
 Adding L2 to the *loss* means the penalty gradient goes through the adaptive denominator, so
 parameters with large historical gradients get decayed less — the opposite of what regularisation
-should do. AdamW applies decay directly to the weights, restoring the intended behaviour. This is a
-correctness fix, and AdamW is the standard for transformers.
+should do. AdamW applies decay directly to the weights, restoring the intended behaviour. This is
+a correctness fix, and AdamW is the standard for transformers.
 
 ## Choosing
 
@@ -91,8 +92,8 @@ correctness fix, and AdamW is the standard for transformers.
 * **SGD + Nesterov momentum** — still competitive, sometimes better-generalising, for CNNs.
 * **Adam's cost:** two extra FP32 states per parameter, so ~8 bytes/parameter of optimizer state —
   the dominant memory term in fine-tuning (question 027).
-* **Newer:** Lion (sign-based, less memory), Sophia, Shampoo/Muon (second-order-ish, gaining traction
-  in large-scale pretraining).
+* **Newer:** Lion (sign-based, less memory), Sophia, Shampoo/Muon (second-order-ish, gaining
+  traction in large-scale pretraining).
 
 ## What an interviewer digs into next
 

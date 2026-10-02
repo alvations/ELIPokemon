@@ -66,8 +66,9 @@ is gone from the PC box forever. Be **certain** before acting. Missing a few dup
 
 **🔍 Recall, when a miss is a disaster.**
 
-*Scanning for a roaming Latias that will flee the moment you engage.* You get one chance. Throw a hundred wasted
-balls if it means catching the one that mattered — the ball is cheap and the miss is forever.
+*Scanning for a roaming Latias that will flee the moment you engage.* You get one chance. Throw a
+hundred wasted balls if it means catching the one that mattered — the ball is cheap and the miss
+is forever.
 
 **⚖️ Both, when you need one number to compare two detectors.**
 

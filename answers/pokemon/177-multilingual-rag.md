@@ -14,8 +14,8 @@ Ordinary searching (question 044) assumes one language throughout. Real archives
 way. The **Kanto** Pokédex entry is in one language, the **Johto** one in another, the **Alola**
 notes in a third — and a Trainer from **Paldea** is standing in front of you asking a question.
 
-Every stage now needs a decision about *which language*, and getting **one** of them wrong produces
-a confident answer read out of the wrong book.
+Every stage now needs a decision about *which language*, and getting **one** of them wrong
+produces a confident answer read out of the wrong book.
 
 ## Four ways to build it 🗂️
 
@@ -47,9 +47,9 @@ when it comes back unsure or when the region is one it handles poorly.
   Paldea shelf are **not measured on the same scale** — the same calibration problem as question
   168. ⚠️ Merge the raw numbers and you systematically favour **whichever region the filing system
   handles best**, which is nearly always the biggest one. Normalise each shelf before merging.
-* **🗣️ It answers in the wrong language.** The Trainer asked in one, the evidence is in another, and
-  the Pokédex may reply in either — or in a third, or **switch halfway** (question 136). Say which
-  language you want, and **check what came out** before handing it over.
+* **🗣️ It answers in the wrong language.** The Trainer asked in one, the evidence is in another,
+  and the Pokédex may reply in either — or in a third, or **switch halfway** (question 136). Say
+  which language you want, and **check what came out** before handing it over.
 * **📎 And the citation is unreadable.** If a Paldean Trainer's answer cites a page written in
   Johto's language, **they cannot check it.** 📌 Show the original **and** a translation of the
   cited passage, **marked as translated by a machine**. A citation nobody can read is decoration.

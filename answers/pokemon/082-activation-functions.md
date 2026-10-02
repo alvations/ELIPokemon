@@ -47,8 +47,8 @@ deep Leagues possible at all.
 Its flaw: a Pokémon that gets turned away often enough becomes **permanently** switched off. Never
 reacts to anything again. Nothing can revive it, because it never produces feedback to learn from.
 
-**🌫️ The Soft Bouncer.** Nearly identical, except borderline cases get through **faintly** instead of
-being hard-refused. That whisper is enough to keep a Pokémon from switching off forever.
+**🌫️ The Soft Bouncer.** Nearly identical, except borderline cases get through **faintly** instead
+of being hard-refused. That whisper is enough to keep a Pokémon from switching off forever.
 
 ## 🎚️ The real innovation: two knobs, not one
 
@@ -70,11 +70,11 @@ Gating asks **two**, separately:
 
 Two independent judgements — **what to do**, and **how much it matters** — multiplied together.
 
-The old rules couldn't express that. They had one dial: react or don't. Now your Pokémon can have a
-strong opinion and simultaneously recognise it's a low-stakes moment.
+The old rules couldn't express that. They had one dial: react or don't. Now your Pokémon can have
+a strong opinion and simultaneously recognise it's a low-stakes moment.
 
-📌 That **multiplication** is the real gain. It's not a smoother curve — it's an operation the layer
-genuinely couldn't perform before.
+📌 That **multiplication** is the real gain. It's not a smoother curve — it's an operation the
+layer genuinely couldn't perform before.
 
 ## The catch, and the fix 📏
 
@@ -84,8 +84,8 @@ bigger Pokédex for free.
 So you don't get it for free: **you shrink the book to compensate.** Roughly two-thirds the pages,
 three columns instead of two, same total size.
 
-That's what makes the comparison fair. Anyone reporting that gating is better *without* shrinking the
-book is measuring a bigger Pokédex, not a better rule.
+That's what makes the comparison fair. Anyone reporting that gating is better *without* shrinking
+the book is measuring a bigger Pokédex, not a better rule.
 
 ## What to use 🎯
 
@@ -98,10 +98,11 @@ book is measuring a bigger Pokédex, not a better rule.
 
 ## The honest note 🤷
 
-The gap between any two sensible modern choices is **small.** Under a percent, usually — and utterly
-dwarfed by how much footage you trained on and how big your Pokémon is.
+The gap between any two sensible modern choices is **small.** Under a percent, usually — and
+utterly dwarfed by how much footage you trained on and how big your Pokémon is.
 
-The person who introduced the gated rule benchmarked it thoroughly, confirmed it consistently wins,
-and then cheerfully admitted **nobody really knows why**, attributing it to divine benevolence.
+The person who introduced the gated rule benchmarked it thoroughly, confirmed it consistently
+wins, and then cheerfully admitted **nobody really knows why**, attributing it to divine
+benevolence.
 
 Worth getting right if you're building at the frontier. Not worth a week of your life otherwise.

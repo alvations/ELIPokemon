@@ -10,10 +10,10 @@ tags: [segmentation, sam, open-vocabulary, referring-expressions, miou, part-who
 
 # Referring segmentation: language to pixels
 
-Question 128 covered pointing with a box. A box is a poor description of most things — a box around
-a bicycle is mostly not bicycle. **Segmentation** asks for the actual pixels, and adding language
-to it asks for *the pixels of the thing I described*, which is a different problem from *the pixels
-of every object*.
+Question 128 covered pointing with a box. A box is a poor description of most things — a box
+around a bicycle is mostly not bicycle. **Segmentation** asks for the actual pixels, and adding
+language to it asks for *the pixels of the thing I described*, which is a different problem from
+*the pixels of every object*.
 
 ## Three capabilities, often conflated
 
@@ -24,8 +24,8 @@ of every object*.
 | **Referring segmentation** | a full expression: "the mug behind the laptop" | exactly one mask, resolved by the description |
 
 The third is the hard one, because the expression must be *resolved*, not just matched. "The
-second cup from the left" requires counting and ordering; "the one he is holding" requires relating
-two entities.
+second cup from the left" requires counting and ordering; "the one he is holding" requires
+relating two entities.
 
 ## The standard architecture
 
@@ -51,10 +51,10 @@ model, at the cost of two model calls.
 
 * **Ambiguous expressions.** "The cup" in a scene with three cups. The honest behaviour is to
   return several masks or ask; most systems silently pick one.
-* **Part versus whole.** "The wheel" on a bicycle, "the handle" on a mug. Datasets are dominated by
-  whole objects, so parts are under-learned.
-* **Negation and exclusion.** "The cup that is *not* red" — same failure as question 137's negation
-  problem, arriving through the text encoder.
+* **Part versus whole.** "The wheel" on a bicycle, "the handle" on a mug. Datasets are dominated
+  by whole objects, so parts are under-learned.
+* **Negation and exclusion.** "The cup that is *not* red" — same failure as question 137's
+  negation problem, arriving through the text encoder.
 * **Relational expressions** requiring spatial reasoning (question 128).
 * **Stuff versus things.** "The grass" has no instances; "the sheep" does. Models trained on
   instance data handle amorphous regions poorly.
@@ -62,9 +62,9 @@ model, at the cost of two model calls.
 ## Evaluation
 
 **mIoU** (mean intersection over union) is standard, with **cIoU** (cumulative, computed over the
-whole dataset's pixels) reported alongside because they disagree: mIoU weights every image equally,
-cIoU weights every pixel, so mIoU is dominated by small objects and cIoU by large ones. Report both
-or say which you used.
+whole dataset's pixels) reported alongside because they disagree: mIoU weights every image
+equally, cIoU weights every pixel, so mIoU is dominated by small objects and cIoU by large ones.
+Report both or say which you used.
 
 Beyond that:
 

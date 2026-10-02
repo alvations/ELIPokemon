@@ -72,10 +72,10 @@ output comes from constrained generation, not from a prompt alone.
 one: it is weakly sensitive to exactly the temporal failures above. A clip that morphs an object
 can score well.
 
-Report instead: **human preference**, **prompt adherence** rated separately from **visual quality**
-and from **temporal consistency**, and targeted probes — object permanence through occlusion,
-counting stability across frames, identity retention over the clip's length. Those probes are cheap
-to build and tell you far more than a single distributional score.
+Report instead: **human preference**, **prompt adherence** rated separately from **visual
+quality** and from **temporal consistency**, and targeted probes — object permanence through
+occlusion, counting stability across frames, identity retention over the clip's length. Those
+probes are cheap to build and tell you far more than a single distributional score.
 
 ## What an interviewer digs into next
 

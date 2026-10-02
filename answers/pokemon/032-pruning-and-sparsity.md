@@ -77,16 +77,16 @@ This is what people actually ship.
 * 📏 **Cut the shortest entries.** Crude — it throws out Ditto because its entry is one line.
   Works better than it has any right to.
 * 🔍 **Cut what you never look up.** Much better. The Arceus entry is long and you have never faced
-  one; the Ferrothorn entry is short and you check it every match. **Measure how often each entry is actually
-  read**, not how big it is.
+  one; the Ferrothorn entry is short and you check it every match. **Measure how often each entry
+  is actually read**, not how big it is.
 * 🧮 **Cut carefully, and patch as you go.** Cut an entry, notice what got lost, and **edit the
   neighbouring entries** to cover the gap. Slow, best results.
 
 ## The famous theory 🎟️
 
-There's a beautiful result called the **lottery ticket**: hidden inside every fat Pokédex is a tiny
-subset of entries that — if you'd started with just those, from day one — would have been as good
-as the whole book.
+There's a beautiful result called the **lottery ticket**: hidden inside every fat Pokédex is a
+tiny subset of entries that — if you'd started with just those, from day one — would have been as
+good as the whole book.
 
 Genuinely fascinating. Almost useless in practice: to find the winning ticket you must first write
 the entire fat book. Cite it as theory, not as a plan.
@@ -96,10 +96,10 @@ the entire fat book. Cite it as theory, not as a plan.
 Honestly? **Pruning lost.**
 
 **Rounding the entries** gives you a book a quarter the size with almost no knowledge lost, needs
-no exotic printing, and works everywhere. Cutting entries gives you either no speedup (snipping) or
-real knowledge loss (tearing pages).
+no exotic printing, and works everywhere. Cutting entries gives you either no speedup (snipping)
+or real knowledge loss (tearing pages).
 
 The one place the *idea* genuinely won is the **Gym Leader roster** — keep Brock, Misty and sixty
-others on the payroll, but only ever open the two volumes you need for this challenger. That's sparsity done
-right: you're not deleting knowledge, you're just not *consulting* most of it. Chosen fresh every
-time, instead of decided once with scissors.
+others on the payroll, but only ever open the two volumes you need for this challenger. That's
+sparsity done right: you're not deleting knowledge, you're just not *consulting* most of it.
+Chosen fresh every time, instead of decided once with scissors.

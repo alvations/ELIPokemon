@@ -10,8 +10,8 @@ tags: [caching, batching, routing, cost, latency, throughput, deployment]
 
 # Running translation as a service
 
-A translation product's economics are decided by a handful of infrastructure choices, most of which
-have nothing to do with model quality.
+A translation product's economics are decided by a handful of infrastructure choices, most of
+which have nothing to do with model quality.
 
 ## The cost ladder, cheapest first
 
@@ -27,17 +27,18 @@ have nothing to do with model quality.
    and use QE (question 132) to decide which rung that is.
 ```
 
-Most production traffic is repetitive. In UI strings, support content and product catalogues, exact
-cache hit rates of 40-80% are ordinary — and a cache hit costs nothing and is perfectly consistent,
-which is a quality win as well as a cost win. **Teams routinely deploy a frontier model before
-measuring their cache hit rate**, which is the wrong order.
+Most production traffic is repetitive. In UI strings, support content and product catalogues,
+exact cache hit rates of 40-80% are ordinary — and a cache hit costs nothing and is perfectly
+consistent, which is a quality win as well as a cost win. **Teams routinely deploy a frontier
+model before measuring their cache hit rate**, which is the wrong order.
 
 ## Cache design details that matter
 
-* **Key on everything that changes the output**: source text, language pair, model version, glossary
-  version, formality setting, domain tag. Missing one of these serves a stale translation under a
-  new configuration, and it is very hard to debug because it looks correct.
-* **Invalidate on glossary and model change.** A terminology update must not be masked by the cache.
+* **Key on everything that changes the output**: source text, language pair, model version,
+  glossary version, formality setting, domain tag. Missing one of these serves a stale translation
+  under a new configuration, and it is very hard to debug because it looks correct.
+* **Invalidate on glossary and model change.** A terminology update must not be masked by the
+  cache.
 * **Normalise before hashing** (question 115) so trivially different strings hit the same entry —
   but do not normalise so hard that meaningfully different strings collide.
 * **Cache negative results too**: segments the QE gate rejected, so you do not repeatedly pay to
@@ -47,8 +48,8 @@ measuring their cache hit rate**, which is the wrong order.
 
 * **Batch aggressively for offline work.** Document translation is not interactive; batch APIs and
   overnight windows are dramatically cheaper.
-* **Separate the interactive path.** Chat translation (question 178) has a latency budget; document
-  translation has a deadline. Do not run them through the same queue.
+* **Separate the interactive path.** Chat translation (question 178) has a latency budget;
+  document translation has a deadline. Do not run them through the same queue.
 * **Bucket by length.** Mixed-length batches waste padding; sorted batches improve throughput
   substantially.
 * **Stream for long documents** so the user sees progress rather than a spinner.
@@ -61,8 +62,8 @@ Send each segment to the cheapest rung that clears the bar:
 * long, context-dependent, brand-visible → LLM with document context;
 * QE-flagged or regulated content → human (question 132).
 
-Measure the **distribution** of routing decisions, not just the average cost. A router sending 5% to
-the frontier model and 95% to a small one has a very different cost profile from one splitting
+Measure the **distribution** of routing decisions, not just the average cost. A router sending 5%
+to the frontier model and 95% to a small one has a very different cost profile from one splitting
 50/50, and the average quality can be identical.
 
 ## What to monitor

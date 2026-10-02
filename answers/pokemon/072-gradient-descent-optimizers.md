@@ -54,8 +54,8 @@ Momentum means **remembering your recent adjustments.**
 Contradictory advice ("more Attack!" / "more Defence!") **cancels out**. Consistent advice ("more
 Speed") **builds up week after week**.
 
-You stop reacting to individual losses and start following the trend across them. `β = 0.9` roughly
-means "average the last ten weeks of feedback."
+You stop reacting to individual losses and start following the trend across them. `β = 0.9`
+roughly means "average the last ten weeks of feedback."
 
 There's a sharper version: instead of asking *"what's wrong now?"*, **look ahead to where your
 current momentum is taking you and ask what'll be wrong when you get there.** Correct before you
@@ -83,8 +83,8 @@ the adjustment by how noisy that stat's feedback has been.**
 
 Nice detail that trips people up.
 
-Week 1, you have **no history.** Your "average of the last ten weeks" is an average of one week, and
-your "how noisy is this stat" estimate is based on a single observation.
+Week 1, you have **no history.** Your "average of the last ten weeks" is an average of one week,
+and your "how noisy is this stat" estimate is based on a single observation.
 
 Left uncorrected, your very first adjustments come out **enormous** — you're dividing by a
 noise-estimate that's still essentially zero.
@@ -97,8 +97,8 @@ routinely explodes in the first few steps.
 
 There's a famous mistake here, and it's the reason the standard method has a corrected version.
 
-Everyone charges their Pokémon **upkeep** to stop Attack running away with all 508 EVs. The old approach folded
-that upkeep into the same feedback channel as everything else.
+Everyone charges their Pokémon **upkeep** to stop Attack running away with all 508 EVs. The old
+approach folded that upkeep into the same feedback channel as everything else.
 
 Which meant: **stats with noisy feedback got charged less upkeep.** Entirely by accident. The
 adaptive scaling was diluting the upkeep along with everything else.

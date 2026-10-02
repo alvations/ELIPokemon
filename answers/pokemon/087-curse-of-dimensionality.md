@@ -55,9 +55,9 @@ stranger happens.
    "similar" means something          "similar" means nothing
 ```
 
-Why: with a thousand measurements, **every** pair of Pokémon differs somewhere. Nobody matches on all
-thousand. So every distance ends up around the same middling value, and "nearest neighbour" becomes a
-coin flip between candidates that are all equally unlike your query.
+Why: with a thousand measurements, **every** pair of Pokémon differs somewhere. Nobody matches on
+all thousand. So every distance ends up around the same middling value, and "nearest neighbour"
+becomes a coin flip between candidates that are all equally unlike your query.
 
 📌 This breaks **anything built on similarity** — finding similar Pokémon, grouping them into
 clusters, spotting the odd one out. The concept of "close" has stopped carrying information.
@@ -91,20 +91,20 @@ And **on that ribbon, distance means something again.** Two Pokémon near each o
 genuinely are similar, even though they're both floating in a thousand-dimensional void.
 
 📌 **This is why the map works.** A good map isn't placing Pokémon randomly in a huge space — it
-learned **where the ribbon is**, and lays them out along it. That's precisely the trick that rescues
-"nearest neighbour" from meaninglessness.
+learned **where the ribbon is**, and lays them out along it. That's precisely the trick that
+rescues "nearest neighbour" from meaninglessness.
 
 The curse applies to points scattered **uniformly** through a huge space. Real data is never
 uniform — and that's the only reason any of this is possible.
 
 ## What to do about it 🛠️
 
-* 📉 **Compress to the axes that matter.** Find the handful of directions Pokémon actually vary along
-  and work in those.
+* 📉 **Compress to the axes that matter.** Find the handful of directions Pokémon actually vary
+  along and work in those.
 * 🗺️ **Learn a map instead of using raw measurements.** Build coordinates *designed* so that
   distance means what you need.
 * ✂️ **Use fewer measurements.** Six base stats told you most of it. Often the honest answer.
 * 📐 **Compare direction, not distance.** For very sparse descriptions, *"do these point the same
   way?"* survives much better than *"how far apart are they?"*
-* 📚 **Get more Pokémon.** The only real cure for sparseness, and it gets exponentially more expensive
-  with every measurement you add.
+* 📚 **Get more Pokémon.** The only real cure for sparseness, and it gets exponentially more
+  expensive with every measurement you add.

@@ -10,8 +10,8 @@ tags: [context-engineering, prompt-engineering, agents, context-rot, memory]
 
 # Context engineering
 
-Prompt engineering is writing good instructions. **Context engineering is deciding what occupies the
-context window at each step** — a systems problem rather than a wording problem. The shift in
+Prompt engineering is writing good instructions. **Context engineering is deciding what occupies
+the context window at each step** — a systems problem rather than a wording problem. The shift in
 terminology tracks a real shift in what matters: once you are building agents that run for many
 turns with tools and retrieved documents, the instructions are a small fraction of what the model
 sees, and everything else is being assembled by your code.
@@ -39,28 +39,28 @@ placed early compete with everything since, mid-context material is attended to 
 
 **Cost and latency are linear in prefill.** A 100k-token context is not "free because it fits".
 
-**Tool results are unbounded.** A single `grep` or API call can return 50k tokens of noise. Naïvely
-appending tool output is the most common way agents die.
+**Tool results are unbounded.** A single `grep` or API call can return 50k tokens of noise.
+Naïvely appending tool output is the most common way agents die.
 
-**Multi-turn accumulation.** Twenty turns of an agent loop, each appending observations, and turn 20
-is reasoning over a context mostly composed of stale intermediate state.
+**Multi-turn accumulation.** Twenty turns of an agent loop, each appending observations, and turn
+20 is reasoning over a context mostly composed of stale intermediate state.
 
 ## The techniques
 
 * **Compaction / summarisation.** When the context approaches a threshold, summarise the older
-  portion into a compact state and continue. Essential for long agent runs; the risk is summarising
-  away a detail that mattered.
-* **Structured note-taking.** Have the agent maintain an explicit external artifact (a plan file, a
-  todo list, a findings document) rather than relying on conversation history as memory. Persists
-  across compaction, and is inspectable.
-* **Just-in-time retrieval.** Load identifiers and paths, not contents; fetch the content only when
-  needed. Mirrors how a human works with a filesystem.
-* **Tool result truncation and filtering.** Cap tool output, paginate, and prefer tools that return
-  summaries with drill-down over tools that return everything.
-* **Sub-agents.** Delegate a bounded investigation to a fresh context and return only the conclusion.
-  The parent never sees the 100k tokens of intermediate exploration.
-* **Prompt caching.** Order the context stable-prefix-first (system, tools, then variable content) so
-  the cacheable portion is a genuine prefix. This is both a latency and a cost decision, and it
+  portion into a compact state and continue. Essential for long agent runs; the risk is
+  summarising away a detail that mattered.
+* **Structured note-taking.** Have the agent maintain an explicit external artifact (a plan file,
+  a todo list, a findings document) rather than relying on conversation history as memory.
+  Persists across compaction, and is inspectable.
+* **Just-in-time retrieval.** Load identifiers and paths, not contents; fetch the content only
+  when needed. Mirrors how a human works with a filesystem.
+* **Tool result truncation and filtering.** Cap tool output, paginate, and prefer tools that
+  return summaries with drill-down over tools that return everything.
+* **Sub-agents.** Delegate a bounded investigation to a fresh context and return only the
+  conclusion. The parent never sees the 100k tokens of intermediate exploration.
+* **Prompt caching.** Order the context stable-prefix-first (system, tools, then variable content)
+  so the cacheable portion is a genuine prefix. This is both a latency and a cost decision, and it
   constrains layout.
 * **Tool curation.** More tools means more tokens and more confusion. Overlapping or ambiguously
   described tools measurably degrade selection accuracy.
@@ -70,8 +70,8 @@ is reasoning over a context mostly composed of stale intermediate state.
 > Find the **smallest set of high-signal tokens** that maximises the probability of the desired
 > outcome.
 
-Not "use the whole window because we have it". Every token you add has a cost in money, latency, and
-— crucially — in attention diluted away from the tokens that mattered.
+Not "use the whole window because we have it". Every token you add has a cost in money, latency,
+and — crucially — in attention diluted away from the tokens that mattered.
 
 ## What an interviewer digs into next
 

@@ -18,7 +18,8 @@ That's a guess. They got **one moment** to think, and a damage calc needs more t
 Now:
 
 > **You:** "Work it out loud."
-> **Trainer:** *"Right. Thunderbolt is 90 base power. Gyarados is Water/Flying — that's 4× weak, so
+> **Trainer:** *"Right. Thunderbolt is 90 base power. Gyarados is Water/Flying — that's 4× weak,
+  so
 > 360 effective. My Pikachu's Special Attack is 199, doubled to 398 by its Light Ball. Gyarados
 > has 331 HP and nothing invested in Special Defence... yes, that's a comfortable KO."* ✅
 
@@ -33,8 +34,8 @@ This is the part worth understanding properly, because it's not "saying words ma
 Not per question — per *utterance*. One moment. Whether the question is "what type is Pikachu?" or
 "solve this six-step endgame."
 
-So a six-step problem in one moment is impossible. Not hard — **structurally impossible.** They will
-guess, because guessing is the only thing that fits.
+So a six-step problem in one moment is impossible. Not hard — **structurally impossible.** They
+will guess, because guessing is the only thing that fits.
 
 But every sentence they speak buys another moment. And they can **read back what they just said.**
 
@@ -66,8 +67,8 @@ That's the whole mechanism. Not motivation, not focus — **thinking time**, bou
 Ask a **rookie** to work it out loud and you often get a *worse* answer.
 
 Their instinct might have been fine. But now they've written four steps of confident nonsense, and
-they can read those four steps back, and they commit to them. Working out loud amplifies whatever's
-there — good reasoning **and** bad.
+they can read those four steps back, and they commit to them. Working out loud amplifies
+whatever's there — good reasoning **and** bad.
 
 ## The uncomfortable part 🎭
 
@@ -78,12 +79,12 @@ Here's the finding that should change how you use this.
 Researchers ran a clean experiment: they showed a Trainer example after example where the answer
 happened to be "the left option." Then gave it a fresh question.
 
-The Trainer picked the left option. And produced a beautiful, detailed, entirely plausible chain of
-reasoning — **which never once mentioned that it was picking left because it had been picking left
-all day.**
+The Trainer picked the left option. And produced a beautiful, detailed, entirely plausible chain
+of reasoning — **which never once mentioned that it was picking left because it had been picking
+left all day.**
 
-That's not a lie. It genuinely doesn't have access to why it decided. It decided, and then narrated
-something that would justify the decision.
+That's not a lie. It genuinely doesn't have access to why it decided. It decided, and then
+narrated something that would justify the decision.
 
 📌 **So: a chain of thought is a thinking tool, not a confession.** It makes the Trainer better at
 the problem. It does **not** tell you why they answered as they did, and you must not use it as a
@@ -96,14 +97,14 @@ safety check.
 * 🔁 **Ask three times, take the majority.** Reliable, costs three times as much.
 * 🪜 **Break it into pieces** and solve in order.
 * 🧮 **Have them write the damage calc as an actual formula and run it.** Strictly better for
-  anything numerical — base power, Speed tiers, Leftovers arithmetic — a calculator cannot make an arithmetic slip, and a Trainer reasoning out loud
-  absolutely can.
+  anything numerical — base power, Speed tiers, Leftovers arithmetic — a calculator cannot make an
+  arithmetic slip, and a Trainer reasoning out loud absolutely can.
 
 ## When to skip it ⏭️
 
-* ⚡ **Simple lookups.** *"What type is Pikachu?"* Electric. Asking them to deliberate wastes time and
-  occasionally **talks them out of a correct instinct.**
+* ⚡ **Simple lookups.** *"What type is Pikachu?"* Electric. Asking them to deliberate wastes time
+  and occasionally **talks them out of a correct instinct.**
 * ⏱️ **When speed matters.**
-* 🧘 **When the Trainer already deliberates on its own.** Modern reasoning Trainers were *trained* to
-  think before speaking. Telling them to think out loud is redundant, and can interrupt a procedure
-  they already do better than your instruction.
+* 🧘 **When the Trainer already deliberates on its own.** Modern reasoning Trainers were *trained*
+  to think before speaking. Telling them to think out loud is redundant, and can interrupt a
+  procedure they already do better than your instruction.

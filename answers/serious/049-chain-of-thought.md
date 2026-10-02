@@ -10,22 +10,22 @@ tags: [chain-of-thought, reasoning, test-time-compute, faithfulness]
 
 # Chain-of-thought
 
-Prompt the model to produce intermediate reasoning before its final answer
-([Wei et al., 2022](https://arxiv.org/abs/2201.11903)). Either by few-shot examples that show worked
-reasoning, or zero-shot by appending *"Let's think step by step"*
-([Kojima et al., 2022](https://arxiv.org/abs/2205.11916)).
+Prompt the model to produce intermediate reasoning before its final answer ([Wei et al.,
+2022](https://arxiv.org/abs/2201.11903)). Either by few-shot examples that show worked reasoning,
+or zero-shot by appending *"Let's think step by step"* ([Kojima et al.,
+2022](https://arxiv.org/abs/2205.11916)).
 
-The gains on multi-step tasks were large — GSM8K roughly tripling for large models — and the effect
-is scale-dependent: below a few billion parameters, CoT often *hurts*, because the model produces
-plausible-looking reasoning that is wrong and then commits to it.
+The gains on multi-step tasks were large — GSM8K roughly tripling for large models — and the
+effect is scale-dependent: below a few billion parameters, CoT often *hurts*, because the model
+produces plausible-looking reasoning that is wrong and then commits to it.
 
 ## Why it works: the compute argument
 
 This is the explanation that actually holds up.
 
-A transformer performs a **fixed** amount of computation per token: `L` layers, one forward pass, no
-loops. A problem requiring more sequential steps than `L` cannot be solved in a single forward pass,
-regardless of how large the model is.
+A transformer performs a **fixed** amount of computation per token: `L` layers, one forward pass,
+no loops. A problem requiring more sequential steps than `L` cannot be solved in a single forward
+pass, regardless of how large the model is.
 
 Generating tokens changes that. Each generated token is another forward pass, and previously
 generated tokens are readable from context. So the model uses the token stream as **external
@@ -52,8 +52,8 @@ while transformers with a polynomial-length chain of thought can simulate polyno
 computation ([Merrill & Sabharwal, 2023](https://arxiv.org/abs/2310.07923)).
 
 A secondary mechanism: CoT conditions the model on its own intermediate statements, keeping later
-tokens in a region of the distribution where the correct answer is more likely. Writing "230" makes
-"391" much more probable than it was from the raw question.
+tokens in a region of the distribution where the correct answer is more likely. Writing "230"
+makes "391" much more probable than it was from the raw question.
 
 ## The faithfulness problem
 
@@ -63,9 +63,9 @@ correct in the few-shot examples, then observed models choosing (A) on new quest
 constructing plausible reasoning that never mentioned the pattern. The chain was post-hoc
 rationalisation.
 
-The consequence matters for anyone building on this: **a chain of thought is not an explanation you
-can audit.** It is a computation aid that happens to be human-readable. Do not use it as a safety
-mechanism, and be careful using it as an interpretability tool.
+The consequence matters for anyone building on this: **a chain of thought is not an explanation
+you can audit.** It is a computation aid that happens to be human-readable. Do not use it as a
+safety mechanism, and be careful using it as an interpretability tool.
 
 ## Practical variants
 
@@ -80,14 +80,15 @@ mechanism, and be careful using it as an interpretability tool.
 
 ## When not to use it
 
-* Simple lookups and classification — it adds latency and can *reduce* accuracy by talking the model
-  out of a correct first instinct.
+* Simple lookups and classification — it adds latency and can *reduce* accuracy by talking the
+  model out of a correct first instinct.
 * Latency-sensitive paths.
 * When the model has native reasoning (an o1/R1-style model), where CoT prompting is redundant and
   can interfere with the model's own trained procedure.
 
-Note that modern reasoning models have effectively internalised CoT: they were RL-trained to produce
-long chains before answering, which is why prompting them to "think step by step" adds little.
+Note that modern reasoning models have effectively internalised CoT: they were RL-trained to
+produce long chains before answering, which is why prompting them to "think step by step" adds
+little.
 
 ## What an interviewer digs into next
 

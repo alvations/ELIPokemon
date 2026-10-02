@@ -35,8 +35,8 @@ Then on tournament day: **everybody plays.**
 **1. 🤝 It breaks the co-dependency.**
 
 Left alone, your team develops fragile habits. Charizard learns *"Blastoise always handles Brock's
-Onix, so I never need to worry about Rock types."* Efficient! And it collapses completely the moment
-Blastoise is unavailable.
+Onix, so I never need to worry about Rock types."* Efficient! And it collapses completely the
+moment Blastoise is unavailable.
 
 Bench Blastoise at random and Charizard can't build that habit. **Nobody can rely on anybody**, so
 every Pokémon has to become independently useful.
@@ -58,7 +58,8 @@ Here's the subtle problem.
 In practice, each Pokémon receives support from **half** the team. On tournament day, suddenly the
 **whole** team is backing them up — twice the support they've ever experienced.
 
-That's a genuine shock. Everything is louder than they trained for, and their reads are miscalibrated.
+That's a genuine shock. Everything is louder than they trained for, and their reads are
+miscalibrated.
 
 **The fix: during practice, count the support from whoever's on the field as double.**
 
@@ -66,10 +67,11 @@ Half the team, counted double, equals the full team. So practice *feels* like a 
 tournament day nothing changes — everybody plays, everything counts normally, done.
 
 📌 **This is why you must tell your team which mode they're in.** Forget to flip the switch to
-tournament mode and your Pokémon keep benching each other at random, mid-match, in front of a crowd.
+tournament mode and your Pokémon keep benching each other at random, mid-match, in front of a
+crowd.
 
-And the ugly part: **nothing errors.** No alarm, no crash. Your Pokémon just plays noticeably worse
-than it should, forever, and you have no idea why. One of the most common and most maddening
+And the ugly part: **nothing errors.** No alarm, no crash. Your Pokémon just plays noticeably
+worse than it should, forever, and you have no idea why. One of the most common and most maddening
 mistakes there is.
 
 ## Using it 🎛️
@@ -82,11 +84,11 @@ mistakes there is.
 * 🐘 **Big modern teams often skip it entirely.**
 
   Because benching exists to stop **memorisation** — and if your Pokémon sees a million different
-  opponents and never the same one twice, there's nothing to memorise. Benching just slows training
-  down for no benefit.
+  opponents and never the same one twice, there's nothing to memorise. Benching just slows
+  training down for no benefit.
 
-  It comes straight back when you're specialising on a small set of opponents, where memorisation is
-  a real risk again.
+  It comes straight back when you're specialising on a small set of opponents, where memorisation
+  is a real risk again.
 
 ## One clever reuse 🔮
 

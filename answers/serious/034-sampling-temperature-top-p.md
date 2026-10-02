@@ -65,8 +65,8 @@ loops.
 
 **min-p** keeps tokens with `P(x) ≥ min_p × P(max)` — a threshold relative to the top token rather
 than a cumulative mass. It handles the confident case better (when the top token has 0.9, almost
-nothing else survives) while staying permissive when the model is genuinely uncertain. Also in use:
-**typical sampling** (keep tokens whose surprisal is near the distribution's entropy),
+nothing else survives) while staying permissive when the model is genuinely uncertain. Also in
+use: **typical sampling** (keep tokens whose surprisal is near the distribution's entropy),
 **η/ε-sampling**, and **repetition/frequency/presence penalties** which subtract from logits of
 already-used tokens.
 

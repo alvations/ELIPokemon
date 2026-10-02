@@ -10,9 +10,9 @@ tags: [terminology, glossary, constrained-decoding, do-not-translate, translatio
 
 # Terminology and glossary enforcement
 
-For most translation, "a correct rendering" is a set with many members. For terminology it is a set
-with exactly one. A drug name, a legal term of art, a product name, a UI string that must match
-the button the user is looking at — these are not preferences. A translation that is fluent,
+For most translation, "a correct rendering" is a set with many members. For terminology it is a
+set with exactly one. A drug name, a legal term of art, a product name, a UI string that must
+match the button the user is looking at — these are not preferences. A translation that is fluent,
 accurate and uses the wrong term is a defect.
 
 ## Why the model will not do this on its own
@@ -65,17 +65,18 @@ A glossary entry is a lemma. Sentences need inflected forms.
    the constraint was satisfied. the sentence is wrong.
 ```
 
-For morphologically rich and agglutinative languages (question 113) this is not an edge case, it is
-the normal case. Practical answers: store **inflected variants** in the glossary rather than
+For morphologically rich and agglutinative languages (question 113) this is not an edge case, it
+is the normal case. Practical answers: store **inflected variants** in the glossary rather than
 lemmas; accept a *family* of surface forms as satisfying the constraint; or use soft enforcement
 and check compliance afterwards rather than forcing it during decoding.
 
 ## Do-not-translate is a separate list
 
 Product names, code identifiers, file paths, placeholders like `{count}`, units, and names that
-happen to be common nouns. These must pass through **unchanged**, and the common failure is a model
-helpfully translating a brand name or "translating" a variable name into another variable name.
-Tag-and-restore is the right mechanism here; there is no upside to letting the model see them.
+happen to be common nouns. These must pass through **unchanged**, and the common failure is a
+model helpfully translating a brand name or "translating" a variable name into another variable
+name. Tag-and-restore is the right mechanism here; there is no upside to letting the model see
+them.
 
 ## Translation memory still matters
 

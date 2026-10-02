@@ -95,9 +95,9 @@ point, it now loses.
 The interesting part: after training, the finished result is **just as good**. The item learns to
 compensate for the rounding. Worse starting point, same finish line.
 
-**🔗 Fusing is awkward.** You can't cleanly fuse a full-detail Leftovers into a compressed Garchomp —
-you'd have to re-compress, and lose the item's precision doing it. So people usually just keep the
-item held, or fuse it into an uncompressed copy.
+**🔗 Fusing is awkward.** You can't cleanly fuse a full-detail Leftovers into a compressed Garchomp
+— you'd have to re-compress, and lose the item's precision doing it. So people usually just keep
+the item held, or fuse it into an uncompressed copy.
 
 ## The one thing people mix up 📌
 

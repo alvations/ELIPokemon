@@ -18,14 +18,15 @@ beats it on **your** metric, which is cost per correct answer, not accuracy.
 
 * **Distillation.** Train the small model on the large one's outputs — ideally on *your* input
   distribution rather than a generic corpus. This is the highest-value lever because it transfers
-  capability *and* the teacher's behaviour on your data. Generate teacher outputs for real traffic,
-  filter them (question 146's caution: the teacher's errors become ground truth), and train.
+  capability *and* the teacher's behaviour on your data. Generate teacher outputs for real
+  traffic, filter them (question 146's caution: the teacher's errors become ground truth), and
+  train.
 * **Quantisation** (question 030). Cheap, mostly lossless to 8-bit, and worth checking on the
   **vision tower separately** — quantisation error in the encoder propagates into every downstream
   token, and stacks are inconsistent about whether they quantise it at all.
-* **Architectural reduction.** Fewer visual tokens (question 121), a smaller LLM, a smaller encoder.
-  Note the asymmetry from question 165: cutting visual tokens saves prefill, cutting LLM size saves
-  less than the parameter ratio implies.
+* **Architectural reduction.** Fewer visual tokens (question 121), a smaller LLM, a smaller
+  encoder. Note the asymmetry from question 165: cutting visual tokens saves prefill, cutting LLM
+  size saves less than the parameter ratio implies.
 
 ## Specialisation beats generality, hard
 
@@ -69,5 +70,6 @@ decision.
 
 * Why distil on your own traffic rather than a public corpus?
 * Why check quantisation of the vision tower separately?
-* What capability degrades first as you shrink, and which apparent degradation is really resolution?
+* What capability degrades first as you shrink, and which apparent degradation is really
+  resolution?
 * Why is cost per correct answer the right metric here?

@@ -48,8 +48,8 @@ and you know.
 
 **1. 🚪 The gate came off.**
 
-Labelled footage was capped by how many people you could hire. That cap is now **gone.** And since a
-Trainer's strength tracks how much footage it studied, removing the cap changed everything.
+Labelled footage was capped by how many people you could hire. That cap is now **gone.** And since
+a Trainer's strength tracks how much footage it studied, removing the cap changed everything.
 
 **2. 🍖 The lesson is far richer.**
 
@@ -70,20 +70,20 @@ thousand categories** — and quietly discards everything else as irrelevant.
 Self-grading footage never pre-decides what matters. So the Trainer learns everything, and can be
 pointed at any job afterwards.
 
-**4. 💰 Doubling is free.** Twice the labelled footage means twice the annotation bill. Twice the raw
-footage is a storage problem.
+**4. 💰 Doubling is free.** Twice the labelled footage means twice the annotation bill. Twice the
+raw footage is a storage problem.
 
 ## Different self-grading drills 🎯
 
 * ⏭️ **"What happens next?"** — the strongest. Every single turn of every match is a graded
   question. *Drizzle went up; what comes in?* (Kingdra. Every time.)
-* 🙈 **"I've covered three turns. What were they?"** — you get to use context from *both* directions,
-  which is genuinely useful. But you only cover about one turn in seven, so **six out of seven turns
-  teach nothing.** Far less signal per hour of footage.
-* 🧩 **"Here's 25% of a photo of the field. Draw the rest."** For images you have to hide **most** of
-  it, because a picture is so redundant that hiding a corner is trivially easy.
-* 🔍 **"Two clips — same battle or different?"** Learn that a Politoed lead and a Drizzle turn belong
-  together, without anyone ever naming "rain team".
+* 🙈 **"I've covered three turns. What were they?"** — you get to use context from *both*
+  directions, which is genuinely useful. But you only cover about one turn in seven, so **six out
+  of seven turns teach nothing.** Far less signal per hour of footage.
+* 🧩 **"Here's 25% of a photo of the field. Draw the rest."** For images you have to hide **most**
+  of it, because a picture is so redundant that hiding a corner is trivially easy.
+* 🔍 **"Two clips — same battle or different?"** Learn that a Politoed lead and a Drizzle turn
+  belong together, without anyone ever naming "rain team".
 
 ## The two catches ⚠️
 
@@ -97,8 +97,8 @@ next turn by spotting a watermark. That's why the good drills are good.
 
 **🗑️ The bottleneck moved, it didn't vanish.**
 
-Once footage is unlimited, the question stops being *"can we get more?"* and becomes **"which of this
-is worth watching?"**
+Once footage is unlimited, the question stops being *"can we get more?"* and becomes **"which of
+this is worth watching?"**
 
 A million hours of Route 1 kids teaches your Trainer to lead Magikarp. So the real work — the
 work everybody now spends their time on — is **curation**: filtering, deduplicating, and deciding

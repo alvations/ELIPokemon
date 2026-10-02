@@ -24,8 +24,8 @@ Four answers, and serious operations use all four at once.
               └─► compare notes at the end of the day, average the lessons
 ```
 
-Every gym has a **complete copy** of the team — its own Garchomp, its own Ferrothorn. They just face
-different opponents and pool what they learned each evening.
+Every gym has a **complete copy** of the team — its own Garchomp, its own Ferrothorn. They just
+face different opponents and pool what they learned each evening.
 
 ✅ Dead simple. Scales beautifully.
 ❌ **Requires the whole team to fit in one gym.** The moment it doesn't, this is useless.
@@ -42,9 +42,8 @@ different opponents and pool what they learned each evening.
 Now no single gym holds a whole Garchomp. Gym A works out whether Earthquake connects, Gym B
 whether it survives the Ice Beam coming back, and every single turn they have to reconcile.
 
-✅ The only way when one Pokémon is too big for one gym.
-❌ **They talk incessantly.** Put these gyms in different cities and you'll spend the whole season on
-the phone.
+✅ The only way when one Pokémon is too big for one gym. ❌ **They talk incessantly.** Put these
+gyms in different cities and you'll spend the whole season on the phone.
 
 📌 **Keep these gyms in the same building**, on the fastest connection you have.
 
@@ -78,9 +77,8 @@ Send them **one after another** rather than one at a time and the idle gaps most
 
 ## 4️⃣ Split the Gym Leader roster 🎫
 
-Only applies if you're running a League of specialists — Blaine for Fire, Brock for Rock: **put each
-Gym Leader in their own building**
-and route each challenger to whichever two they need.
+Only applies if you're running a League of specialists — Blaine for Fire, Brock for Rock: **put
+each Gym Leader in their own building** and route each challenger to whichever two they need.
 
 ✅ The only way to house a really large League.
 ❌ Challengers spend all their time **travelling between buildings**, and if one Leader is

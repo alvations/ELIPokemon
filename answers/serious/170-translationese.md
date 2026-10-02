@@ -20,14 +20,14 @@ these as near-universals:
 * **Interference** — the source language's structure showing through: word order, cognates,
   punctuation habits.
 
-A classifier can distinguish translated from originally-written text at high accuracy. That fact is
-what makes it an evaluation problem rather than a stylistic curiosity.
+A classifier can distinguish translated from originally-written text at high accuracy. That fact
+is what makes it an evaluation problem rather than a stylistic curiosity.
 
 ## Why this breaks test sets
 
-A test set has a **direction of origin**. Half of a WMT test set was written in the source language
-and translated to make the reference; the other half was written in the target language and
-translated to make the *source*.
+A test set has a **direction of origin**. Half of a WMT test set was written in the source
+language and translated to make the reference; the other half was written in the target language
+and translated to make the *source*.
 
 ```
    SOURCE-ORIGINAL half            TARGET-ORIGINAL half
@@ -45,8 +45,8 @@ substantially higher, and system *rankings* can flip between halves. This is why
 **source-original-only** test sets, and why any evaluation you build yourself should record the
 direction of origin of every segment.
 
-**Practical rule:** if you scrape a test set from parallel data, you do not know its direction, and
-your numbers are not interpretable. Build test sets from text originally written in the source
+**Practical rule:** if you scrape a test set from parallel data, you do not know its direction,
+and your numbers are not interpretable. Build test sets from text originally written in the source
 language, translated once, by a professional, for this purpose.
 
 ## Why it matters for training too
@@ -59,8 +59,8 @@ targets. Consequences:
 * **Back-translation makes this worse in one direction and better in another** (question 130): the
   synthetic *source* being translationese is fine; if you accidentally put machine output on the
   *target* side, you are training on translationese-squared.
-* Post-edited output fed back into a TM (questions 149, 161) compounds it further. Post-editese and
-  translationese stack.
+* Post-edited output fed back into a TM (questions 149, 161) compounds it further. Post-editese
+  and translationese stack.
 
 Mitigations: mix in monolingual target-language text for language modelling, prefer
 target-original data where you can identify it, and evaluate on human-written text in the target

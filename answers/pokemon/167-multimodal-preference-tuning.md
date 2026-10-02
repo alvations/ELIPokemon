@@ -35,27 +35,29 @@ satisfy the judge's **blind spots**.
 
 ## Where the pairs come from 📑
 
-* **✂️ Corrections, not rewrites.** Take an entry, and have someone fix it **one clause at a time** —
-  strike out the wings, leave everything else exactly as it was. Now the good and bad versions
-  differ **only** on the thing you care about. 📌 Two independently written entries differ in a
-  dozen ways and the Pokédex has no idea which one you meant.
+* **✂️ Corrections, not rewrites.** Take an entry, and have someone fix it **one clause at a
+  time** — strike out the wings, leave everything else exactly as it was. Now the good and bad
+  versions differ **only** on the thing you care about. 📌 Two independently written entries differ
+  in a dozen ways and the Pokédex has no idea which one you meant.
 * **🎲 Break a good entry on purpose.** Take a correct one and change a single fact: three Zubat
   becomes five, Blaze becomes Solar Power, the **Leftovers** becomes a **Life Orb**. Cheap and
   endless. ⚠️ Risk: it learns to spot *tampering* rather than to look at the picture.
-* **🏆 Or produce eight entries and keep the best.** Simple, effective, and the right place to start.
+* **🏆 Or produce eight entries and keep the best.** Simple, effective, and the right place to
+  start.
 * **👥 And real Trainers judging real questions** — the best signal and the slowest to get.
 
 ## Four ways it goes wrong 🚨
 
 * **🌫️ It learns to say nothing.** Punish invented wings hard enough and the safest entry becomes
-  *"a Fire-type Pokémon of some kind, in a place."* ⚠️ Unfalsifiable and useless. **Measure whether
-  it is still saying anything**, or you will optimise straight into a Pokédex that has learned that
-  the way to never be wrong is to never commit.
+  *"a Fire-type Pokémon of some kind, in a place."* ⚠️ Unfalsifiable and useless. **Measure
+  whether it is still saying anything**, or you will optimise straight into a Pokédex that has
+  learned that the way to never be wrong is to never commit.
 * **🙅 It refuses everything.** Push the caution from question 139 too far and you get a Pokédex
-  that will not read a price tag because there is writing on it, and will not describe a photograph
-  because there is a person in it. **Both directions have to be watched.** Tightening one alone
-  reliably ruins the other.
-* **📏 The judge just likes long entries** — and whichever it read first. Straight from question 038.
+  that will not read a price tag because there is writing on it, and will not describe a
+  photograph because there is a person in it. **Both directions have to be watched.** Tightening
+  one alone reliably ruins the other.
+* **📏 The judge just likes long entries** — and whichever it read first. Straight from question
+  038.
 * **🗣️ And it forgets how to talk** (question 148). Keep plain conversation in the mix.
 
 And the one from question 021, arriving **sooner** than it does with text: keep optimising against

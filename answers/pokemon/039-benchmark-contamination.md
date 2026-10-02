@@ -25,8 +25,8 @@ were trying to find out.
 
 Nobody cheated. It's the tapes.
 
-Your Trainer studied by watching **every battle ever recorded**. The Gym Circuit is famous. It's in
-every highlight reel, every strategy guide, every forum post, every "how I beat Brock" video.
+Your Trainer studied by watching **every battle ever recorded**. The Gym Circuit is famous. It's
+in every highlight reel, every strategy guide, every forum post, every "how I beat Brock" video.
 
 Of course it's on the tape. Where else would it be?
 
@@ -69,8 +69,9 @@ Brock. A Trainer who genuinely
 * 🆕 **Write new battles.** Fresh matchups, published after the training cutoff. Nothing beats it.
 * 🔒 **Keep a private set** that never touches the internet.
 * 🔄 **Rotate the questions** so no fixed paper exists to memorise.
-* ✏️ **Change the surface details.** Same battle, but swap Onix for Steelix, change the HP numbers,
-  move it from Pewter City to Sootopolis. Understanding survives this untouched. **Memorisation doesn't.**
+* ✏️ **Change the surface details.** Same battle, but swap Onix for Steelix, change the HP
+  numbers, move it from Pewter City to Sootopolis. Understanding survives this untouched.
+  **Memorisation doesn't.**
 
 That last trick produced the most damning evidence in the field: someone rebuilt a famous exam
 from scratch — same difficulty, same style, entirely new problems — and some Trainers dropped

@@ -33,11 +33,12 @@ Three distinct cases, often conflated:
 2. **Resolvable from context** — the information is in an earlier sentence, and a sentence-level
    system cannot see it (question 131). *"The surgeon finished. She removed her gloves."*
 3. **Explicitly specified and overridden anyway** — the source marks feminine, the model outputs
-   masculine because the occupation prior is stronger. This is a straightforward error and the most
-   damning of the three.
+   masculine because the occupation prior is stronger. This is a straightforward error and the
+   most damning of the three.
 
-There is also **speaker gender**: many languages inflect adjectives and verbs for the speaker's own
-gender, which is never in the sentence being translated and often never in the document either.
+There is also **speaker gender**: many languages inflect adjectives and verbs for the speaker's
+own gender, which is never in the sentence being translated and often never in the document
+either.
 
 ## Measurement
 
@@ -58,26 +59,27 @@ gender behaviour and move COMET by nothing.
 
 * **Give it the context.** Document-level translation resolves case 2 outright, and it is the
   cheapest large win available (question 131).
-* **Let the caller specify.** If your product knows the speaker's or subject's gender, pass it. This
-  is the same argument as passing register in question 141: do not infer what you already know.
+* **Let the caller specify.** If your product knows the speaker's or subject's gender, pass it.
+  This is the same argument as passing register in question 141: do not infer what you already
+  know.
 * **Return multiple translations when genuinely ambiguous.** Google Translate does this for short
   queries: show both the feminine and masculine rendering and label them. Honest about the
   ambiguity, and it puts the choice with the person who knows the answer.
-* **Gender-aware rewriting.** Produce one translation, then re-inflect it to a requested gender with
-  a dedicated model. Decouples the problem and scales to more than two options where the language
-  supports it.
-* **Fine-tune on balanced data**, or counterfactually augment (swap genders in training pairs). Helps
-  the prior; does not fix genuine ambiguity, because nothing can.
-* **Support neutral forms where the language has them** — and be careful, because in many languages
-  the "neutral" form is the masculine, which is not neutral.
+* **Gender-aware rewriting.** Produce one translation, then re-inflect it to a requested gender
+  with a dedicated model. Decouples the problem and scales to more than two options where the
+  language supports it.
+* **Fine-tune on balanced data**, or counterfactually augment (swap genders in training pairs).
+  Helps the prior; does not fix genuine ambiguity, because nothing can.
+* **Support neutral forms where the language has them** — and be careful, because in many
+  languages the "neutral" form is the masculine, which is not neutral.
 
 ## The thing to be clear-eyed about
 
 Case 1 has **no correct single answer**. A system that always picks masculine is not more accurate
-than one that picks randomly; it is more consistently biased. The engineering question is therefore
-not "how do we guess better" but **"how do we stop guessing"** — by getting context, asking, or
-showing both. Systems that quietly guess and present the guess as *the* translation are making an
-editorial decision on behalf of a user who does not know it happened.
+than one that picks randomly; it is more consistently biased. The engineering question is
+therefore not "how do we guess better" but **"how do we stop guessing"** — by getting context,
+asking, or showing both. Systems that quietly guess and present the guess as *the* translation are
+making an editorial decision on behalf of a user who does not know it happened.
 
 ## What an interviewer digs into next
 

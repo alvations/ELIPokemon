@@ -60,22 +60,22 @@ address what was asked.
 **🔗 Do its citations hold up?** Different from the above! It can say something true and *cite the
 wrong page for it*. Check the cited line actually says the thing.
 
-**📊 How many reports did it use?** If you handed over twenty and it used three, you're handing over
-too many and diluting its attention.
+**📊 How many reports did it use?** If you handed over twenty and it used three, you're handing
+over too many and diluting its attention.
 
 ## 💬 Grading the whole thing
 
 **✅ Was the answer right?** The obvious one.
 
-**🤷 Does it admit when the answer ISN'T in the reports?** — and this is the most under-tested thing
-in the entire field.
+**🤷 Does it admit when the answer ISN'T in the reports?** — and this is the most under-tested
+thing in the entire field.
 
 > Ask about a Pokémon that isn't in your archive at all — a Paldean thing nobody scouted. Watch
 > what happens.
 
 A system scoring 90% on answerable questions and **0% on unanswerable ones** is dangerous, because
-it invents an answer every time you stray outside the archive — and you have no idea, because nobody
-tested it.
+it invents an answer every time you stray outside the archive — and you have no idea, because
+nobody tested it.
 
 **⏱️ How long and how much**, broken down by stage.
 
@@ -83,21 +83,21 @@ tested it.
 
 1. 📋 **Use real questions** from real Trainers. Not the ones you imagined. Yours are cleaner,
    better-spelled and more reasonable than anything a real person types.
-2. 🌶️ **Deliberately include the nasty ones:** two-part questions, unanswerable ones, ambiguous ones,
-   ones needing today's data, ones phrased adversarially.
+2. 🌶️ **Deliberately include the nasty ones:** two-part questions, unanswerable ones, ambiguous
+   ones, ones needing today's data, ones phrased adversarially.
 3. 🏷️ **Label which report is correct — not just the answer.** Without this you cannot measure the
    scout, and the scout is the stage that's usually broken.
-4. 🔒 **Freeze it and version it.** Recut your reports and every label needs rechecking, because the
-   pages moved.
+4. 🔒 **Freeze it and version it.** Recut your reports and every label needs rechecking, because
+   the pages moved.
 5. 📊 **Watch a dashboard per stage**, never one number.
 
 ## The question that tests whether you get it 🎓
 
 > *"The scout finds the right report 95% of the time, and the answers are still wrong. Now what?"*
 
-It's the scout's job, done. So it's downstream: the Trainer is ignoring the reports, or drowning in
-twenty when it needed five, or the right report is buried at position 18 where nobody reads, or the
-answer is *in* the reports but split across two pages and neither has it whole.
+It's the scout's job, done. So it's downstream: the Trainer is ignoring the reports, or drowning
+in twenty when it needed five, or the right report is buried at position 18 where nobody reads, or
+the answer is *in* the reports but split across two pages and neither has it whole.
 
 **Different problem, different fix** — and you only know that because you measured the stages
 separately.

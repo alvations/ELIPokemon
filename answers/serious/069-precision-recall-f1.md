@@ -28,8 +28,8 @@ tags: [precision, recall, f1, confusion-matrix, threshold]
 
 * **Precision** — how trustworthy a positive prediction is. Costs of being wrong fall on the
   *flagged*.
-* **Recall** (sensitivity) — how much of the real thing you found. Costs of being wrong fall on the
-  *missed*.
+* **Recall** (sensitivity) — how much of the real thing you found. Costs of being wrong fall on
+  the *missed*.
 * **F1** — harmonic mean, `2PR/(P+R)`. Harmonic, not arithmetic, so it punishes imbalance: 100%
   recall with 5% precision gives F1 = 0.095, not 0.525.
 
@@ -47,9 +47,9 @@ business decision, not a modelling one.
 
 Two refinements worth raising:
 
-**Fβ.** F1 assumes precision and recall matter equally. `F_β = (1+β²)PR/(β²P + R)` weights recall `β`
-times as much. `F2` for screening, `F0.5` when precision matters more. If you know the cost ratio,
-encode it rather than defaulting to F1.
+**Fβ.** F1 assumes precision and recall matter equally. `F_β = (1+β²)PR/(β²P + R)` weights recall
+`β` times as much. `F2` for screening, `F0.5` when precision matters more. If you know the cost
+ratio, encode it rather than defaulting to F1.
 
 **Precision@k.** When downstream capacity is fixed — a review team can handle 100 cases a day —
 recall over the whole population is irrelevant. What matters is precision in the top 100 by score.

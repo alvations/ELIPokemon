@@ -39,11 +39,11 @@ constraint: **a wrong glossary entry is worse than a missing one**, because it g
 ## Where each stage fails
 
 * **Extraction returns collocations, not terms.** "Please click", "in accordance with". Frequency
-  alone finds boilerplate. Termhood scoring — frequent in *this* corpus relative to a general one —
-  is what separates a term from a common phrase.
-* **Alignment is systematically wrong on the interesting cases.** A term rendered as several words,
-  a term rendered as a *different* part of speech, a term correctly left untranslated. These are
-  exactly the entries you most want, and they are the ones alignment misses.
+  alone finds boilerplate. Termhood scoring — frequent in *this* corpus relative to a general one
+  — is what separates a term from a common phrase.
+* **Alignment is systematically wrong on the interesting cases.** A term rendered as several
+  words, a term rendered as a *different* part of speech, a term correctly left untranslated.
+  These are exactly the entries you most want, and they are the ones alignment misses.
 * **Inconsistency in the source data becomes a coin flip.** If your corpus renders the term three
   ways (question 161), the miner picks the most frequent — which may be the one your style guide
   bans.
@@ -60,8 +60,8 @@ The bottleneck is expert time, so spend it well:
 
 * **Rank by impact**: frequency in real traffic × risk of the domain. Validating the 200 most-used
   terms covers most of the benefit.
-* **Show context**: three real sentences with the candidate in place. Validating a bare word pair is
-  guesswork even for an expert.
+* **Show context**: three real sentences with the candidate in place. Validating a bare word pair
+  is guesswork even for an expert.
 * **Present alternatives** found in the corpus, so validation is a *choice* rather than a
   yes/no on one option.
 * **Capture the rejections too** — a do-not-use list is as valuable as an approved list
@@ -70,9 +70,9 @@ The bottleneck is expert time, so spend it well:
 ## Maintenance is where glossaries die
 
 Every entry needs an owner, a date and a status. Terms are added when products change, deprecated
-when they are renamed, and the glossary must be versioned alongside the content so a translation can
-be traced to the rules that were in force when it was made. A glossary without provenance decays
-into the same untrustworthy state as an unmaintained translation memory (question 161).
+when they are renamed, and the glossary must be versioned alongside the content so a translation
+can be traced to the rules that were in force when it was made. A glossary without provenance
+decays into the same untrustworthy state as an unmaintained translation memory (question 161).
 
 ## What an interviewer digs into next
 

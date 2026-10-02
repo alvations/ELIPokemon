@@ -12,15 +12,16 @@ tags: [perplexity, cross-entropy, evaluation, tokenizer, bits-per-byte]
 
 Perplexity is the exponentiated average negative log-likelihood per token:
 
-$$\text{PPL} = \exp\!\left(-\frac{1}{N}\sum_{i=1}^{N}\log P(x_i \mid x_{<i})\right) = \exp(\mathcal{L}_{\text{CE}})$$
+$$\text{PPL} = \exp\!\left(-\frac{1}{N}\sum_{i=1}^{N}\log P(x_i \mid x_{<i})\right) =
+\exp(\mathcal{L}_{\text{CE}})$$
 
 It is exactly `e` raised to the cross-entropy loss — the same number the model was trained to
 minimise, in a more interpretable unit.
 
 ## The interpretation
 
-Perplexity is the **effective branching factor**: the number of equally-likely options the model is
-effectively choosing between at each step.
+Perplexity is the **effective branching factor**: the number of equally-likely options the model
+is effectively choosing between at each step.
 
 ```
    PPL = 1      perfect. Every token predicted with probability 1.
@@ -47,8 +48,8 @@ is better.
 ## The limits — the part interviewers care about
 
 **1. Not comparable across tokenizers.** Perplexity is per *token*, and tokenizers differ in how
-many tokens they use for the same text. A model with a larger vocabulary gets shorter sequences and
-mechanically lower perplexity without being better. To compare across tokenizers, use
+many tokens they use for the same text. A model with a larger vocabulary gets shorter sequences
+and mechanically lower perplexity without being better. To compare across tokenizers, use
 **bits-per-byte**: `BPB = (N_tokens / N_bytes) · log₂(PPL)`, normalising to a unit that does not
 depend on the tokenizer.
 
@@ -62,10 +63,10 @@ meaninglessly low.
 *calibrated prediction of the next token in a corpus*, which is only loosely related to being
 helpful, correct, or safe. Specifically:
 
-* **RLHF reliably increases perplexity while improving human preference scores.** The model becomes
-  more decisive and less distribution-matching — worse at predicting arbitrary internet text,
-  better at being an assistant. If you use perplexity to evaluate a post-trained model you will
-  reject exactly the changes you wanted.
+* **RLHF reliably increases perplexity while improving human preference scores.** The model
+  becomes more decisive and less distribution-matching — worse at predicting arbitrary internet
+  text, better at being an assistant. If you use perplexity to evaluate a post-trained model you
+  will reject exactly the changes you wanted.
 * It cannot see factual accuracy: a fluent falsehood and a fluent truth can have identical
   perplexity.
 * It cannot see instruction following, reasoning, or long-horizon coherence.

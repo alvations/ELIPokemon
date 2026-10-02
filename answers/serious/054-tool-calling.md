@@ -11,8 +11,8 @@ tags: [tool-calling, function-calling, json-schema, constrained-decoding]
 # Tool calling under the hood
 
 The most important thing to say first: **the model never executes anything.** It emits structured
-text requesting a call. Your code parses it, executes it, and feeds the result back. The model is a
-planner with a very restricted output format, not a runtime.
+text requesting a call. Your code parses it, executes it, and feeds the result back. The model is
+a planner with a very restricted output format, not a runtime.
 
 ```
    1. You send: messages + tool definitions (JSON Schema)
@@ -30,9 +30,9 @@ planner with a very restricted output format, not a runtime.
 
 ## What actually makes it work
 
-**Training.** Tool use is post-trained. Models are fine-tuned on many examples of (tools available →
-correct call → result → continuation), with special tokens delimiting tool-call blocks. Without that
-training, a base model asked to emit JSON produces JSON-ish text unreliably.
+**Training.** Tool use is post-trained. Models are fine-tuned on many examples of (tools available
+→ correct call → result → continuation), with special tokens delimiting tool-call blocks. Without
+that training, a base model asked to emit JSON produces JSON-ish text unreliably.
 
 **The schema is the prompt.** Tool definitions are serialised into the context. The *description
 field is the actual instruction* the model follows, and this is where most tool-calling bugs live.
@@ -40,11 +40,11 @@ field is the actual instruction* the model follows, and this is where most tool-
 present conditions — for forecasts use get_forecast."` is a good one. Parameter descriptions,
 enums, examples and explicit units all measurably improve selection and argument accuracy.
 
-**Constrained decoding.** To guarantee syntactically valid output, providers mask the logits at each
-step to only tokens permitted by the schema's grammar. If the schema says the next token must be `{`
-or a specific key, everything else is set to `-∞`. This makes malformed JSON structurally impossible
-— though it does *not* guarantee semantic correctness: you can get a perfectly valid object with a
-hallucinated city name.
+**Constrained decoding.** To guarantee syntactically valid output, providers mask the logits at
+each step to only tokens permitted by the schema's grammar. If the schema says the next token must
+be `{` or a specific key, everything else is set to `-∞`. This makes malformed JSON structurally
+impossible — though it does *not* guarantee semantic correctness: you can get a perfectly valid
+object with a hallucinated city name.
 
 ```
    generating:  {"city": "

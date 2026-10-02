@@ -58,8 +58,8 @@ And then everyone got good, and the counting stopped telling the judges anything
 ## The part worth actually understanding 📝
 
 When people mark an appeal properly, they do not give it a number. They mark **what went wrong,
-where, and how badly** — a fumbled flourish here, a move that made no sense there — and, crucially,
-they mark **how serious each fault was.**
+where, and how badly** — a fumbled flourish here, a move that made no sense there — and,
+crucially, they mark **how serious each fault was.**
 
 That last distinction is the one no counting scheme can express. There is a difference between:
 

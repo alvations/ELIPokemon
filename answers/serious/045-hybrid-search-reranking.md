@@ -32,7 +32,8 @@ extremely hard to beat on exact-match queries.
 **Reciprocal Rank Fusion** is the standard, and its virtue is that it uses only *ranks*, so you
 never have to reconcile two incompatible score scales:
 
-$$\text{RRF}(d) = \sum_{r \in \text{retrievers}} \frac{1}{k + \text{rank}_r(d)}, \qquad k \approx 60$$
+$$\text{RRF}(d) = \sum_{r \in \text{retrievers}} \frac{1}{k + \text{rank}_r(d)}, \qquad k \approx
+60$$
 
 ```
    BM25 ranking          Dense ranking         RRF (k=60)
@@ -46,8 +47,8 @@ $$\text{RRF}(d) = \sum_{r \in \text{retrievers}} \frac{1}{k + \text{rank}_r(d)},
                     ranked well by BOTH rise to the top
 ```
 
-The alternative — normalising and weighting raw scores — is tunable but fragile, because BM25 scores
-are unbounded and cosine similarities are not.
+The alternative — normalising and weighting raw scores — is tunable but fragile, because BM25
+scores are unbounded and cosine similarities are not.
 
 ## Why add a reranker
 
@@ -72,12 +73,13 @@ The retriever and the reranker do genuinely different jobs.
 
 The bi-encoder must compress a document into a single vector **before knowing the query** — that
 compression is lossy in a query-dependent way. The cross-encoder sees both at once and can attend
-from query terms to document terms. It is much more accurate and far too slow to run over a corpus.
+from query terms to document terms. It is much more accurate and far too slow to run over a
+corpus.
 
-Hence the standard two-stage cascade: **retrieve 50–200 candidates cheaply, rerank them expensively,
-keep 3–10.** Retrieval optimises recall; reranking optimises precision. Reranking typically buys
-10–20 points of NDCG for ~50 ms, which is the best accuracy-per-millisecond available in a RAG
-pipeline.
+Hence the standard two-stage cascade: **retrieve 50–200 candidates cheaply, rerank them
+expensively, keep 3–10.** Retrieval optimises recall; reranking optimises precision. Reranking
+typically buys 10–20 points of NDCG for ~50 ms, which is the best accuracy-per-millisecond
+available in a RAG pipeline.
 
 ## Practical notes
 

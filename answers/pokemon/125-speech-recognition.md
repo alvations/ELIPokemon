@@ -89,7 +89,8 @@ there were. Fine. But know what that number hides:
 
 * ⚖️ **Every word costs the same.** Losing "not" from *"do not switch in"* costs exactly what
   losing "the" costs. One of those loses you the match.
-* 🔡 **Spelling and punctuation count as errors** unless you settle both sides first (question 115).
+* 🔡 **Spelling and punctuation count as errors** unless you settle both sides first (question
+  115).
 * 🌏 **Break it down by who is speaking.** A Pokédex assembled in **Kanto**, trained on Kanto
   Trainers, will report a fine average and then fail badly on a **Paldea** accent it has barely
   heard. The average was never wrong. It was hiding two very different machines.

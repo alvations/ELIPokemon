@@ -32,8 +32,9 @@ for the wrong one and you have treated nothing.**
   away the very thing an expert reads it for.
 * **🤔 And the experts disagree with each other.** Two seasoned Trainers will genuinely differ on
   poisoned versus badly poisoned. ⚠️ So "the right answer" is *somebody's opinion*, and a machine
-  that matches the file **95%** of the time on a question where **experts only agree with each other
-  85%** of the time has not learned the illness. **It has learned the person who wrote the files.**
+  that matches the file **95%** of the time on a question where **experts only agree with each
+  other 85%** of the time has not learned the illness. **It has learned the person who wrote the
+  files.**
 * **📊 And almost everything brought in is fine.** If one Pokémon in a hundred is genuinely unwell,
   a machine that says *"fine"* to everything is right ninety-nine times out of a hundred. Counting
   how often it is right is **worthless here.**
@@ -68,13 +69,14 @@ brilliant published result never works anywhere else.**
 ## What to measure instead of "how often is it right" 📏
 
 * 🎯 **How many genuinely sick Pokémon it catches, and how many healthy ones it wrongly flags** —
-  both, at a stated threshold. Those two numbers trade against each other and neither means anything
-  alone.
+  both, at a stated threshold. Those two numbers trade against each other and neither means
+  anything alone.
 * 🎚️ **What its confidence actually means.** If it says seven in ten, then across all the times it
-  says seven in ten, seven should be right. A number a Trainer will act on has to *mean* something.
-* 🤷 **Whether it can say "I do not know."** A machine that says *"I cannot tell — fetch Nurse Joy"*
-  is worth more than one that guesses. ⚠️ But measure **how often it does that** alongside how well
-  it does otherwise: brilliance bought by refusing every hard case is not brilliance.
+  says seven in ten, seven should be right. A number a Trainer will act on has to *mean*
+  something.
+* 🤷 **Whether it can say "I do not know."** A machine that says *"I cannot tell — fetch Nurse
+  Joy"* is worth more than one that guesses. ⚠️ But measure **how often it does that** alongside
+  how well it does otherwise: brilliance bought by refusing every hard case is not brilliance.
 * 🌏 **Break it down by who is being examined.** It works on Kanto species and fails on Paldean
   ones — and the pooled number says everything is fine.
 * 🔮 **And test it on Pokémon walking through the door, not on old case files.** Retrospective
@@ -87,5 +89,5 @@ first**, and to catch the one a tired Trainer walked past at the end of a long s
 
 📌 That changes what matters. Not the headline number — the **false alarms** she has to work
 through, whether it can **show her where it was looking**, and whether it holds still: a locked
-version, a written record of what it learned from, and no quiet retraining on whatever came through
-the door last week.
+version, a written record of what it learned from, and no quiet retraining on whatever came
+through the door last week.

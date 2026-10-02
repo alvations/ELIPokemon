@@ -32,12 +32,14 @@ against the risk of a wrong guess.
 
 ## Read-write policies
 
-The system alternates READ (consume more source) and WRITE (emit target). The policy decides which.
+The system alternates READ (consume more source) and WRITE (emit target). The policy decides
+which.
 
 * **wait-k.** Read k source words, then alternate one-for-one. Trivially simple, no training
   needed, and a surprisingly strong baseline. k is the whole quality-latency dial.
-* **Adaptive policies** (MMA, monotonic attention, or an LLM asked "do you have enough to commit?")
-  wait longer at genuinely ambiguous points and less elsewhere. Better on the curve, more complex.
+* **Adaptive policies** (MMA, monotonic attention, or an LLM asked "do you have enough to
+  commit?") wait longer at genuinely ambiguous points and less elsewhere. Better on the curve,
+  more complex.
 * **Re-translation.** Retranslate the whole prefix every time new audio arrives and overwrite the
   display. Quality is near-offline. The cost is **flicker** — text changing after the reader has
   read it — which is acceptable on a screen and impossible in speech output. Measure flicker
@@ -52,8 +54,8 @@ keeps prosody, which disambiguates (questions 125, 138). Cascades remain common 
 components are separately trainable on far more data.
 
 **Segmentation is underrated.** Spontaneous speech has no sentence boundaries; the system must
-invent them, in real time, and a boundary in the wrong place is a mistranslation that no downstream
-component can fix.
+invent them, in real time, and a boundary in the wrong place is a mistranslation that no
+downstream component can fix.
 
 ## Measuring it: two numbers, always together
 

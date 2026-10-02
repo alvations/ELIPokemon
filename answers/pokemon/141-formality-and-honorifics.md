@@ -56,16 +56,17 @@ accident and blaming the dice.
 ## How to actually control it 🎚️
 
 * **🏷️ Stamp the Trainer Class on the front.** Mark every training example with its register and
-  mark the request the same way. The classic approach, and it works — you need the archive labelled.
+  mark the request the same way. The classic approach, and it works — you need the archive
+  labelled.
 * **💬 Or just tell it.** *"Speak as a Gentleman would."* Works well, and ⚠️ **it drifts** — check
   entry two hundred, not entry one.
 * **💿 Or keep a disc per register** (question 134) and swap.
 * **✍️ Or translate first and restyle afterwards.** Costs an extra pass, and buys you one
   translation you can re-render at any politeness level you like.
 
-And whichever you pick: **decide once for the whole document and hold it** (question 131). A letter
-that opens as a Gentleman and closes as Youngster Joey reads as either careless or as somebody
-deliberately changing their mind about you halfway down the page. Neither was intended.
+And whichever you pick: **decide once for the whole document and hold it** (question 131). A
+letter that opens as a Gentleman and closes as Youngster Joey reads as either careless or as
+somebody deliberately changing their mind about you halfway down the page. Neither was intended.
 
 ## You already know the answer. Pass it along. 📮
 
@@ -73,8 +74,8 @@ Here is the part that gets skipped.
 
 The right register depends on **who is speaking to whom, and in what setting** — a Gym Leader
 addressing a challenger, a shop clerk in **Celadon Department Store**, a rival at the gate. Your
-system nearly always knows this *before* translation starts. It is right there in whatever produced
-the message.
+system nearly always knows this *before* translation starts. It is right there in whatever
+produced the message.
 
 📌 **Pass it in.** Working out the register by squinting at the sentence is guessing at something
 you were already holding.
@@ -82,9 +83,9 @@ you were already holding.
 ## Measuring it 🏅
 
 * 🎯 **Hand it the same line and ask for each register in turn**, then check which one came back.
-  This is the right instrument, and for exactly the reason from question 131: **the general quality
-  score cannot see politeness at all.** A machine that gets *every single* register choice wrong
-  loses almost nothing on it.
+  This is the right instrument, and for exactly the reason from question 131: **the general
+  quality score cannot see politeness at all.** A machine that gets *every single* register choice
+  wrong loses almost nothing on it.
 * 🔄 **Count the flips within one document.**
 * 📉 **And test compliance at the end, not the start.** Ask for the register at line one and check
   it at line two hundred. Instructions fade, the average over the document hides it, and the last

@@ -36,28 +36,29 @@ is **what you compare against**, and that one choice decides everything else.
 **Batch norm** rates you against the room. Which is fine in a packed stadium and falls apart the
 moment the room changes.
 
-**Layer norm** rates you against yourself. Same answer whether you're in a stadium of a thousand or
-standing alone in a field.
+**Layer norm** rates you against yourself. Same answer whether you're in a stadium of a thousand
+or standing alone in a field.
 
 ## Where batch norm hurts 😖
 
 **🧍 You show up alone.** *"Your Garchomp's Attack is above average for today's tournament"* — and
-you're the only entrant. Above average against whom, Magikarp? Above average compared to whom? It's meaningless, and this is exactly the situation
-during a real one-on-one battle.
+you're the only entrant. Above average against whom, Magikarp? Above average compared to whom?
+It's meaningless, and this is exactly the situation during a real one-on-one battle.
 
 **📏 Your team sheets are different lengths.** Some Trainers brought six Pokémon, some brought two,
 and the empty slots are being averaged into "today's average Attack." A Blissey and three blanks
 is not a team; the statistics say otherwise.
 
 **🔀 Practice and tournament work differently.** During training your Garchomp is scaled against
-whoever's in the room — a Blissey one day, a Shuckle the next. On tournament day there's no room, so you fall back on **"the average across everyone I saw
-during training."**
+whoever's in the room — a Blissey one day, a Shuckle the next. On tournament day there's no room,
+so you fall back on **"the average across everyone I saw during training."**
 
 Two different rules, and the second is an approximation of the first. Forget to switch modes and
 your ratings are quietly wrong — with **no error, no warning**, just worse performance.
 
 **🌍 Everyone must agree on the average.** Run your tournament across Kanto, Johto and Hoenn and
-every stadium needs to phone the others to compute today's average Attack. Every stat. Every round.
+every stadium needs to phone the others to compute today's average Attack. Every stat. Every
+round.
 
 ## Where layer norm just works ✅
 
@@ -74,13 +75,13 @@ approach.
 
 ## When batch norm is still right 🏟️
 
-It hasn't lost everywhere. In a genuinely packed stadium with uniform entrants — a Level 50 Flat Rules
-bracket where every Garchomp is built the same way — comparing to the room is **more
-informative**, because "above average for
-today" is real information that self-comparison can't give you.
+It hasn't lost everywhere. In a genuinely packed stadium with uniform entrants — a Level 50 Flat
+Rules bracket where every Garchomp is built the same way — comparing to the room is **more
+informative**, because "above average for today" is real information that self-comparison can't
+give you.
 
-Plus there's a bonus: because the room changes slightly every round, your rating jiggles a bit — and
-that jiggling acts as **free anti-memorisation**, which layer norm doesn't provide.
+Plus there's a bonus: because the room changes slightly every round, your rating jiggles a bit —
+and that jiggling acts as **free anti-memorisation**, which layer norm doesn't provide.
 
 ## The rest of the family 👨‍👩‍👧
 
@@ -100,8 +101,8 @@ well.
 
 The better account: **it makes training forgiving.**
 
-Without it, you tiptoe — one wrong step and the numbers run away. With it, you can train *far* more
-aggressively, because doubling a Pokémon's raw stats changes nothing (it gets scaled straight back)
-and the whole system stops caring about the exact numbers you started with.
+Without it, you tiptoe — one wrong step and the numbers run away. With it, you can train *far*
+more aggressively, because doubling a Pokémon's raw stats changes nothing (it gets scaled straight
+back) and the whole system stops caring about the exact numbers you started with.
 
 You can be sloppier and still finish the run. That's the real prize.

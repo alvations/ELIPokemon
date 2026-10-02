@@ -53,9 +53,9 @@ Three things follow from doing it this way:
 **What** something is survives being chopped into tiles and threaded into a row. **Where** it was
 does not.
 
-* **📏 The tiles arrive in a line.** Above and below were properties of the *grid*, and the grid was
-  flattened (question 118). Unless every tile was stamped with its coordinates, up and down are
-  barely there.
+* **📏 The tiles arrive in a line.** Above and below were properties of the *grid*, and the grid
+  was flattened (question 118). Unless every tile was stamped with its coordinates, up and down
+  are barely there.
 * **🎒 It never had to learn.** The silhouette drills of question 120 never once required knowing
   which Pokémon was in front. *"Charizard behind Blastoise"* and *"Blastoise behind Charizard"*
   both matched. So the eye it was built on never learned, and no amount of eloquence downstream
@@ -90,12 +90,12 @@ happened by the time you notice.
   usually called correct — but half and three-quarters tell you very different things, so state
   which you used.
 * 👥 **Test it in a crowded box.** *"Find the Magikarp"* in a box holding one Magikarp is not a
-  test of pointing; it is a test of naming. Fill the box with **six** Magikarp and one Gyarados and
-  now the referring expression has to do real work.
-* 🔄 **Ask it both ways round.** *"Is Blissey to the left of Chansey?"* and *"is Chansey to the left
-  of Blissey?"*, same picture. ⚠️ A Pokédex that answers **yes to both** has no sense of left at
-  all — and its overall score will look completely fine, because half the questions in any set are
-  yes anyway.
+  test of pointing; it is a test of naming. Fill the box with **six** Magikarp and one Gyarados
+  and now the referring expression has to do real work.
+* 🔄 **Ask it both ways round.** *"Is Blissey to the left of Chansey?"* and *"is Chansey to the
+  left of Blissey?"*, same picture. ⚠️ A Pokédex that answers **yes to both** has no sense of left
+  at all — and its overall score will look completely fine, because half the questions in any set
+  are yes anyway.
 * 🖐️ **For anything with its hand on the controls, score the outcome, not the outline.** An
   imprecise circle centred on the right slot withdraws the right Pokémon. A tidier circle sitting
   across two slots withdraws the wrong one. Only one of those numbers matters.

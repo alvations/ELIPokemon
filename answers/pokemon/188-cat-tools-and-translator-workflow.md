@@ -10,10 +10,10 @@ tags: [cat-tools, xliff, segmentation, qa-checks, workflow, integration]
 
 # Your Pokémon arrives in somebody else's battle screen
 
-Teams build a translating machine and hand it over through a hatch. ⚠️ **Translators do not work at
-a hatch.** They work at a screen laid out exactly like the one where you choose between **FIGHT**,
-**BAG**, **POKéMON** and **RUN** — every option visible at once, with the consequences of each one
-already displayed. Understanding that screen changes what you should be building.
+Teams build a translating machine and hand it over through a hatch. ⚠️ **Translators do not work
+at a hatch.** They work at a screen laid out exactly like the one where you choose between
+**FIGHT**, **BAG**, **POKéMON** and **RUN** — every option visible at once, with the consequences
+of each one already displayed. Understanding that screen changes what you should be building.
 
 ## What they are actually looking at 🖥️
 
@@ -41,15 +41,15 @@ consistent**. Your suggestion has to earn its place against that, every single l
 
 * **✏️ Produce a candidate, not a verdict.** It **will** be edited — a **Bottle Cap** here, a
   **Mint** there. So optimise for **how easy it is to fix**, not how close it is: ⚠️ one that is
-  ninety per cent right and quick to repair beats one that is ninety-five per cent right and has to
-  be **released and caught again**. **Your score does not measure that** (question 149).
+  ninety per cent right and quick to repair beats one that is ninety-five per cent right and has
+  to be **released and caught again**. **Your score does not measure that** (question 149).
 * **📐 Take a line, but accept the page.** The screen works line by line; your machine wants the
-  document (question 131). So accept the line **plus its neighbours**, and give back something that
-  still lines up. ⚠️ Merge two lines into one and you have broken the screen.
+  document (question 131). So accept the line **plus its neighbours**, and give back something
+  that still lines up. ⚠️ Merge two lines into one and you have broken the screen.
 * **📊 Send back more than words.** How sure you were (question 132), which names you enforced —
-  **Poké Ball**, **Full Restore** — whether you leaned on something already caught. The screen shows
-  all of it the way a battle screen shows HP, the **Sandstorm**, and which **Weakness Policy** just
-  triggered, and the translator uses it to decide **how hard to look.**
+  **Poké Ball**, **Full Restore** — whether you leaned on something already caught. The screen
+  shows all of it the way a battle screen shows HP, the **Sandstorm**, and which **Weakness
+  Policy** just triggered, and the translator uses it to decide **how hard to look.**
 * **🧩 And give the tags back intact** (question 156). 📌 **This one requirement causes more failed
   integrations than model quality ever has.** Not a subtle point. Just the commonest one.
 * **📄 Speak the standard formats.** There are established file formats for the bilingual file, for
@@ -58,9 +58,9 @@ consistent**. Your suggestion has to earn its place against that, every single l
 
 ## The checks that already run 🚦
 
-Before anything is delivered, the screen already fires: missing or altered placeholders, unbalanced
-tags, numbers that differ between the two sides, a **Great Ball** where the list says **Ultra
-Ball**, empty segments, identical lines translated two different ways, names over the
+Before anything is delivered, the screen already fires: missing or altered placeholders,
+unbalanced tags, numbers that differ between the two sides, a **Great Ball** where the list says
+**Ultra Ball**, empty segments, identical lines translated two different ways, names over the
 **ten-character** limit (question 144).
 
 📌 Those are exactly the mechanical checks of questions 156 and 133 — **and this industry has run

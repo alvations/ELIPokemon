@@ -31,8 +31,8 @@ understanding it changes what you build.
    └───────────────────────────────────────────────────────┘
 ```
 
-Everything is **segment-by-segment**, and every resource is on screen simultaneously. Your MT output
-is **one suggestion among several**, competing with an approved TM match that is free and
+Everything is **segment-by-segment**, and every resource is on screen simultaneously. Your MT
+output is **one suggestion among several**, competing with an approved TM match that is free and
 guaranteed consistent.
 
 ## What this implies for what you build
@@ -50,12 +50,13 @@ guaranteed consistent.
   (question 156). This single requirement causes more integration failures than model quality ever
   will.
 * **Support the standard formats.** XLIFF for the bilingual file, TMX for memories, TBX for
-  termbases. Inventing a JSON schema means nobody can use your system inside their existing process.
+  termbases. Inventing a JSON schema means nobody can use your system inside their existing
+  process.
 
 ## The QA checks the tool already runs
 
-Automatic checks fire before delivery: missing or altered placeholders, tag mismatches, numbers that
-differ between source and target, terminology violations against the termbase, untranslated
+Automatic checks fire before delivery: missing or altered placeholders, tag mismatches, numbers
+that differ between source and target, terminology violations against the termbase, untranslated
 segments, inconsistent translations of identical sources, length limit breaches, double spaces.
 
 These are the **mechanical integrity checks** of questions 156 and 133 — and the industry has run
@@ -64,10 +65,10 @@ innovative; it is missing a standard control.
 
 ## Why engineers should care
 
-The translator's edits are your highest-quality training signal (question 149), the TM is your best
-retrieval corpus (question 161), and the termbase is your glossary (question 133). All three already
-exist inside the tool. A team that integrates with the workflow gets them; a team that bypasses it
-rebuilds all three, worse, and wonders why adoption is poor.
+The translator's edits are your highest-quality training signal (question 149), the TM is your
+best retrieval corpus (question 161), and the termbase is your glossary (question 133). All three
+already exist inside the tool. A team that integrates with the workflow gets them; a team that
+bypasses it rebuilds all three, worse, and wonders why adoption is poor.
 
 ## What an interviewer digs into next
 

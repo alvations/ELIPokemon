@@ -10,8 +10,8 @@ tags: [data-mixture, curriculum, forgetting, stage-training, ablation, loss-weig
 
 # Balancing the training mixture
 
-The data mixture is the least-published and most consequential part of any multimodal recipe. It is
-also where the most expensive mistakes get made, because a bad mixture produces a model that is
+The data mixture is the least-published and most consequential part of any multimodal recipe. It
+is also where the most expensive mistakes get made, because a bad mixture produces a model that is
 worse at something you were not measuring.
 
 ## The stages, and why there are stages
@@ -45,20 +45,20 @@ you had done it in order.
 | Grounding data (boxes, referring expressions) | pointing, spatial relations |
 
 **Text-only data is the one people cut and regret.** Train a multimodal stage without it and
-text-only benchmarks fall — often by several points — while every multimodal number goes up. If you
-are not measuring text-only performance during multimodal training, you are not measuring the cost
-of what you are doing.
+text-only benchmarks fall — often by several points — while every multimodal number goes up. If
+you are not measuring text-only performance during multimodal training, you are not measuring the
+cost of what you are doing.
 
-Typical text-only fractions in published recipes run from 20% to 50% of the multimodal stages. That
-is a wide range because it depends on how far you are pushing the LLM, and it is worth ablating
-rather than copying.
+Typical text-only fractions in published recipes run from 20% to 50% of the multimodal stages.
+That is a wide range because it depends on how far you are pushing the LLM, and it is worth
+ablating rather than copying.
 
 ## Resolution and length curricula
 
 Train at low resolution first and raise it late. High resolution is quadratically expensive
 (question 121), and most of what the model needs to learn — objects, relations, instruction
-following — is learnable at 336px. Reserve the expensive high-resolution stage for the end, and for
-the data that needs it (documents, charts).
+following — is learnable at 336px. Reserve the expensive high-resolution stage for the end, and
+for the data that needs it (documents, charts).
 
 The same logic applies to video frame counts and audio length: start short, extend late.
 
@@ -66,8 +66,8 @@ The same logic applies to video frame counts and audio length: start short, exte
 
 Two traps:
 
-* **Long sequences dominate.** If loss is averaged per token, a 4,000-token document contributes 40x
-  what a 100-token caption does. Decide deliberately whether you want per-token or per-example
+* **Long sequences dominate.** If loss is averaged per token, a 4,000-token document contributes
+  40x what a 100-token caption does. Decide deliberately whether you want per-token or per-example
   weighting; the default is rarely what you meant.
 * **Image tokens should usually not be predicted.** Mask the loss on image-token positions in
   projection-style models; training the LLM to predict patch embeddings is wasted capacity and

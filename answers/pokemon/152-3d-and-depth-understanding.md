@@ -12,8 +12,8 @@ tags: [depth-estimation, scale-ambiguity, point-clouds, nerf, gaussian-splatting
 
 **Onix** is 8.8 metres of rock. A toy Onix on a shelf is about eight centimetres.
 
-Photograph either one and — framed right — **you get the same picture.** Not a similar picture. The
-same one. Nothing in it can tell you which, because a photograph is the world with one of its
+Photograph either one and — framed right — **you get the same picture.** Not a similar picture.
+The same one. Nothing in it can tell you which, because a photograph is the world with one of its
 dimensions **thrown away**, and thrown away is thrown away.
 
 📌 That is the thing to understand before anything else here. Every attempt to recover depth from a
@@ -36,8 +36,8 @@ So everything leans on the Pokédex's list of heights. **Pikachu is 0.4 m. Snorl
 Gyarados is 6.5 m.** Spot a Pikachu in the shot, and suddenly the whole scene has a ruler in it.
 
 ⚠️ And that is precisely where it breaks. Modern regions record that individual Pokémon vary — a
-**Jumbo** Pikachu, a **Mini** one. The moment you meet one, every distance in the picture is wrong,
-confidently, and by a lot. **The prior was doing all the work, and the prior was about the
+**Jumbo** Pikachu, a **Mini** one. The moment you meet one, every distance in the picture is
+wrong, confidently, and by a lot. **The prior was doing all the work, and the prior was about the
 species, not this one.**
 
 This is why *"which is closer"* is a largely solved problem and *"how many metres"* is not. Nearer
@@ -54,9 +54,9 @@ Pokémon whose size you are certain of.
   inferred from what overlaps what, from perspective, from shading — cues nobody ever explicitly
   taught it.
 
-The practical result: a Pokédex will tell you there is a **Snorlax** on the route and a **Diglett**
-beside it, and it cannot reliably tell you which is in front, how far apart they are, or whether
-there is room to walk between them.
+The practical result: a Pokédex will tell you there is a **Snorlax** on the route and a
+**Diglett** beside it, and it cannot reliably tell you which is in front, how far apart they are,
+or whether there is room to walk between them.
 
 ## Four ways to hold a place in memory 🗺️
 
@@ -75,8 +75,8 @@ at all. It is a gorgeous diorama, and looking is not knowing.
 ## Where the missing dimension actually costs you 💥
 
 * **🪨 Anything that has to reach or push.** Using **Strength** on a boulder requires knowing where
-  the boulder **is** — in metres, from here. This is exactly why anything that must act in the world
-  carries something that *measures* distance instead of trusting a guess from one picture.
+  the boulder **is** — in metres, from here. This is exactly why anything that must act in the
+  world carries something that *measures* distance instead of trusting a guess from one picture.
 * **🔢 Counting things that overlap.** *"How many **Zubat** are in this cave?"* — half of them are
   behind the other half, and a partly hidden Zubat is still one Zubat.
 * **🔄 "What would this look like from the other side?"** Near-impossible from a flat picture, and

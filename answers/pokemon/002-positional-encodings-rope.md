@@ -90,5 +90,5 @@ spin to angles they have literally never seen, and the Trainer starts targeting 
 ## The one rule people get wrong
 
 You spin the **Query** and the **Key** — what you're looking for, and what each Pokémon
-advertises. You never spin the **Value**. A Ferrothorn's actual HP and Leftovers don't change because
-it's in slot 5 instead of slot 2. Only *who notices whom* depends on position.
+advertises. You never spin the **Value**. A Ferrothorn's actual HP and Leftovers don't change
+because it's in slot 5 instead of slot 2. Only *who notices whom* depends on position.

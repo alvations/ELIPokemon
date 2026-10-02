@@ -32,18 +32,18 @@ injection: **injection** is a third party hijacking the model against the user's
 explain dangerous chemistry. There is no clean feature to remove — you are drawing a decision
 boundary through a continuous space, and boundaries have surfaces to probe.
 
-**2. Safety training generalises worse than capability training.** Capability is trained on trillions
-of tokens; safety on a comparatively tiny set. So safety behaviour is more brittle out of
-distribution — which is exactly why translation, encoding, and unusual framings work.
+**2. Safety training generalises worse than capability training.** Capability is trained on
+trillions of tokens; safety on a comparatively tiny set. So safety behaviour is more brittle out
+of distribution — which is exactly why translation, encoding, and unusual framings work.
 
-**3. The attack surface is natural language.** Unbounded and compositional. You cannot enumerate it,
-so you cannot test exhaustively.
+**3. The attack surface is natural language.** Unbounded and compositional. You cannot enumerate
+it, so you cannot test exhaustively.
 
-**4. Mismatched generalisation.** The model's understanding covers Base64; its refusal training does
-not. Whenever a capability's coverage exceeds its safety training's coverage, there is a gap.
+**4. Mismatched generalisation.** The model's understanding covers Base64; its refusal training
+does not. Whenever a capability's coverage exceeds its safety training's coverage, there is a gap.
 
-**5. Helpfulness and harmlessness genuinely trade off.** Every tightening produces false refusals on
-legitimate requests, and over-refusal is a real product failure with real costs.
+**5. Helpfulness and harmlessness genuinely trade off.** Every tightening produces false refusals
+on legitimate requests, and over-refusal is a real product failure with real costs.
 
 ```
         model capability space
@@ -70,8 +70,8 @@ Layers, because no single layer holds:
    filtering, since harmful output is easier to recognise than harmful intent.
 4. **Constitutional classifiers** — trained on synthetic data covering many jailbreak styles;
    published results show large reductions in success rate at modest over-refusal cost.
-5. **Monitoring and rate limiting** — jailbreak discovery usually requires many attempts; detecting
-   the *pattern* catches what per-request checks miss.
+5. **Monitoring and rate limiting** — jailbreak discovery usually requires many attempts;
+   detecting the *pattern* catches what per-request checks miss.
 6. **Deployment-level controls** — capability restriction by context, human review for
    high-stakes outputs.
 

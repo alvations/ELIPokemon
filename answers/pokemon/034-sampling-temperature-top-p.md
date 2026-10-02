@@ -90,9 +90,9 @@ You'd think "always play your best move" is optimal. It isn't, and the failure i
 > Thunderbolt. Thunderbolt. Thunderbolt. Thunderbolt. Thunderbolt.
 
 Always taking the locally-safest option produces **loops**. Real Champions play slightly
-unexpectedly — not randomly, but not on rails either. Total predictability is its own weakness — a Trainer who always clicks Earthquake is a Trainer you
-switch Rotom into, and
-it's how you end up watching a Magikarp Splash at a wall for forty turns.
+unexpectedly — not randomly, but not on rails either. Total predictability is its own weakness — a
+Trainer who always clicks Earthquake is a Trainer you switch Rotom into, and it's how you end up
+watching a Magikarp Splash at a wall for forty turns.
 
 ## 📐 The newer dial: min-p
 
@@ -114,8 +114,8 @@ genuinely open.
 
 ## Two gotchas 📌
 
-**Order matters.** Temperature is applied first, *then* the list is truncated. Change the order and
-you get different behaviour.
+**Order matters.** Temperature is applied first, *then* the list is truncated. Change the order
+and you get different behaviour.
 
 **`T = 0` is not actually deterministic.** Ask the same question twice with temperature zero and
 you can get different answers. Not a bug in your code — the underlying arithmetic runs in slightly

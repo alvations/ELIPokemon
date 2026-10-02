@@ -60,15 +60,16 @@ drawing a line through a continuous space of things it can do, and every line ha
    └──────────────────────────────────────────────┘
 ```
 
-Its **abilities** were built over months of wild grass. Its **rules** came from a comparatively tiny
-amount of training. So the abilities reach far further than the rules do — and every jailbreak is
-someone finding a place the abilities reach and the rules don't.
+Its **abilities** were built over months of wild grass. Its **rules** came from a comparatively
+tiny amount of training. So the abilities reach far further than the rules do — and every
+jailbreak is someone finding a place the abilities reach and the rules don't.
 
-**3. 🌊 There are infinite ways to phrase a request.** You cannot list them, so you cannot test them.
+**3. 🌊 There are infinite ways to phrase a request.** You cannot list them, so you cannot test
+them.
 
-**4. ⚖️ Every tightening costs you something real.** Make it more suspicious and it starts refusing
-perfectly legitimate requests. An over-cautious Pokémon that won't help with anything is also a
-failure — just a quieter one.
+**4. ⚖️ Every tightening costs you something real.** Make it more suspicious and it starts
+refusing perfectly legitimate requests. An over-cautious Pokémon that won't help with anything is
+also a failure — just a quieter one.
 
 ## Defending in layers 🛡️
 
@@ -77,20 +78,21 @@ No single layer holds, so you stack them:
 1. 🎓 **Train the rules properly.** The foundation. Not sufficient alone.
 2. 🚪 **Screen what goes in.** Catch obviously hostile requests before they reach your Pokémon.
 3. 🚨 **Screen what comes out.** Often *better* than screening inputs — because **a banned move is
-   easier to recognise than a sneaky request.** You can argue about whether a question is innocent;
-   you cannot argue about what the Pokémon just did.
+   easier to recognise than a sneaky request.** You can argue about whether a question is
+   innocent; you cannot argue about what the Pokémon just did.
 4. 🧪 **Train a dedicated referee** on thousands of synthetic attempts, covering every trick anyone
    has published. Cuts success rates dramatically for a small cost in false alarms.
 5. 📊 **Watch the pattern, not the request.** Finding a jailbreak takes **dozens of attempts.** One
    weird request is noise; forty weird requests from the same person in ten minutes is an attack —
    and you'll only see it if you're looking at the sequence.
-6. 🔐 **Limit what it can do at all.** The strongest layer: a Pokémon that physically cannot perform
-   the banned move cannot be talked into it.
+6. 🔐 **Limit what it can do at all.** The strongest layer: a Pokémon that physically cannot
+   perform the banned move cannot be talked into it.
 
 ## The honest framing 📌
 
-This is the same problem as every adversarial security problem ever, and **nobody has solved any of
-them.** Locks, spam filters, fraud detection — all of it is raising cost, not achieving prevention.
+This is the same problem as every adversarial security problem ever, and **nobody has solved any
+of them.** Locks, spam filters, fraud detection — all of it is raising cost, not achieving
+prevention.
 
-So don't measure success as *"can it be jailbroken?"* — it can. Measure **how hard it is, how often
-it works, and what it costs you in false refusals.**
+So don't measure success as *"can it be jailbroken?"* — it can. Measure **how hard it is, how
+often it works, and what it costs you in false refusals.**

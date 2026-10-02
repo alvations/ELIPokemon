@@ -10,9 +10,9 @@ tags: [prompt-injection, indirect-injection, security, agents, lethal-trifecta]
 
 # Prompt injection
 
-An LLM receives instructions and data **in the same channel**. There is no architectural separation
-— the model sees one token stream. Prompt injection is content in the *data* position being
-interpreted as instructions.
+An LLM receives instructions and data **in the same channel**. There is no architectural
+separation — the model sees one token stream. Prompt injection is content in the *data* position
+being interpreted as instructions.
 
 ```
    ┌─────────────────────────────────────────────────────────┐
@@ -29,10 +29,10 @@ interpreted as instructions.
    └─────────────────────────────────────────────────────────┘
 ```
 
-**Direct injection** is the user attacking their own session — largely a policy problem, and mostly
-they can only harm themselves. **Indirect injection** is the serious one: the payload arrives in
-content the model consumes — a web page, a document, an email, a code comment, a calendar invite, a
-tool result — and the attacker is not the user.
+**Direct injection** is the user attacking their own session — largely a policy problem, and
+mostly they can only harm themselves. **Indirect injection** is the serious one: the payload
+arrives in content the model consumes — a web page, a document, an email, a code comment, a
+calendar invite, a tool result — and the attacker is not the user.
 
 ## Why it is not solved
 
@@ -65,13 +65,14 @@ exploitable. Remove the third and an injection can mislead but cannot exfiltrate
 
 **Architectural (the ones that work):**
 * **Least privilege.** Scope credentials tightly. Read-only where possible.
-* **Human confirmation** for consequential actions — sending, deleting, purchasing, code execution.
+* **Human confirmation** for consequential actions — sending, deleting, purchasing, code
+  execution.
 * **Egress control.** Allowlist outbound destinations. Block arbitrary URLs, including image URLs
   with query parameters, a classic zero-click exfiltration channel.
 * **Dual-LLM / quarantine patterns.** A privileged model that never sees untrusted content
   orchestrates an unprivileged model that does, exchanging only structured, validated data.
-* **Deterministic action validation.** Check the action against a policy in code, not by asking the
-  model whether it is safe.
+* **Deterministic action validation.** Check the action against a policy in code, not by asking
+  the model whether it is safe.
 
 **Mitigating (helpful, insufficient):**
 * Delimiting untrusted content and instructing the model not to follow instructions inside it.
@@ -82,10 +83,10 @@ exploitable. Remove the third and an injection can mislead but cannot exfiltrate
 
 ## For an interview
 
-The strongest answer names three things: (1) the root cause is the absence of a code/data boundary;
-(2) therefore design for containment — assume injection succeeds and limit the blast radius; (3) the
-trifecta as the concrete checklist. Candidates who claim a prompt can fix this are the ones who have
-not built an agent.
+The strongest answer names three things: (1) the root cause is the absence of a code/data
+boundary; (2) therefore design for containment — assume injection succeeds and limit the blast
+radius; (3) the trifecta as the concrete checklist. Candidates who claim a prompt can fix this are
+the ones who have not built an agent.
 
 ## What an interviewer digs into next
 

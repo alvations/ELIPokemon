@@ -34,14 +34,14 @@ The difference is **when** the query and the document meet.
 
 ## The information-theoretic framing
 
-A bi-encoder must compress an entire document into one fixed vector **before the query exists**. It
-has to guess which aspects will matter. For a document covering five topics, one vector is an
+A bi-encoder must compress an entire document into one fixed vector **before the query exists**.
+It has to guess which aspects will matter. For a document covering five topics, one vector is an
 average of five things and matches all of them weakly.
 
 A cross-encoder never compresses. It sees the pair together and can compute genuinely
-query-conditional features — term overlap, negation, whether the document *answers* the question or
-merely mentions it. That is why it is consistently 10–20 NDCG points better and why it can never be
-used for retrieval: scoring 10M documents at 50 ms each is 140 hours per query.
+query-conditional features — term overlap, negation, whether the document *answers* the question
+or merely mentions it. That is why it is consistently 10–20 NDCG points better and why it can
+never be used for retrieval: scoring 10M documents at 50 ms each is 140 hours per query.
 
 Note the symmetry: the bi-encoder's weakness *is* its strength. Precomputability is exactly what
 makes search possible, and it is bought with query-independence.
@@ -81,11 +81,11 @@ behind every cascade: spend more per item as the candidate set shrinks.
 
 ## Training
 
-Bi-encoders train contrastively with in-batch and hard negatives (the negatives are what teach fine
-distinctions). Cross-encoders train as pointwise binary classifiers or with pairwise/listwise ranking
-losses on (query, relevant, irrelevant) triples — and they benefit enormously from *hard* negatives
-mined by the bi-encoder that will feed them in production, so the reranker is trained on exactly the
-distribution it will see.
+Bi-encoders train contrastively with in-batch and hard negatives (the negatives are what teach
+fine distinctions). Cross-encoders train as pointwise binary classifiers or with pairwise/listwise
+ranking losses on (query, relevant, irrelevant) triples — and they benefit enormously from *hard*
+negatives mined by the bi-encoder that will feed them in production, so the reranker is trained on
+exactly the distribution it will see.
 
 ## What an interviewer digs into next
 

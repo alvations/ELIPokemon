@@ -75,10 +75,10 @@ narrow builds is the second choice made 256 times over, and the answer to a give
 assembled out of eight of them rather than found in one.
 
 The cost is real. **Shedinja** has 1 HP and **Wonder Guard**, so no move that is not
-super-effective damages it at all: it is either the entire answer or completely useless, an awkward
-thing to keep 248 of. **Ferrothorn** walls half the chart and folds to one **Flamethrower**.
-Narrow builds are fiddly to move in and out of the box, and reaching into four boxes at once is
-four trips.
+super-effective damages it at all: it is either the entire answer or completely useless, an
+awkward thing to keep 248 of. **Ferrothorn** walls half the chart and folds to one
+**Flamethrower**. Narrow builds are fiddly to move in and out of the box, and reaching into four
+boxes at once is four trips.
 
 **Stealth Rock** is the other half of the idea. If every build is narrow, all 256 of them end up
 separately learning that the opponent has to come in somehow. So you put the hazard up once —

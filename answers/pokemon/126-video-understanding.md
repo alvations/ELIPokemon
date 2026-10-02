@@ -31,8 +31,8 @@ that actually matters is the sequence they came in.
 📌 **Every technique here is a way of spending one fixed budget well.** The levers:
 
 * **⏱️ How often you look.** One still per turn is the sensible default and it is fine for *"who
-  is winning"*. It is useless for anything quick — a **Quick Attack** going first, a **Focus Sash**
-  triggering, whether **Protect** went up before or after the strike landed.
+  is winning"*. It is useless for anything quick — a **Quick Attack** going first, a **Focus
+  Sash** triggering, whether **Protect** went up before or after the strike landed.
 * **🗜️ How small you squash each still.** Neighbouring stills of a battle are nearly identical —
   same field, same two Pokémon, same weather. Each one can afford far less detail than a
   standalone photograph could, precisely because its neighbours already told you most of it.

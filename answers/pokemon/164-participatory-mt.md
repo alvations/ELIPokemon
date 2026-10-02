@@ -13,16 +13,16 @@ tags: [participatory-research, masakhane, common-voice, benefit-sharing, sustain
 **Professor Oak** hands you a Pokédex and asks you to complete it.
 
 Then **you** walk every route. **You** climb **Mt. Moon**, fish the **Lake of Rage**, sit in the
-**Safari Zone** until the **Chansey** shows up. Every entry in that device exists because a Trainer
-went out and did the work.
+**Safari Zone** until the **Chansey** shows up. Every entry in that device exists because a
+Trainer went out and did the work.
 
 And the research is his.
 
-📌 That arrangement is the default model in language technology, and it is worth being uncomfortable
-about: an outside team picks a language, obtains the data, trains a model, publishes, and leaves.
-For a language with a hundred million speakers, nobody is harmed. For everything else it produces
-work **the people it describes cannot use** — and it is why so many *"we support two hundred
-languages"* claims fall apart the moment a speaker opens them.
+📌 That arrangement is the default model in language technology, and it is worth being
+uncomfortable about: an outside team picks a language, obtains the data, trains a model,
+publishes, and leaves. For a language with a hundred million speakers, nobody is harmed. For
+everything else it produces work **the people it describes cannot use** — and it is why so many
+*"we support two hundred languages"* claims fall apart the moment a speaker opens them.
 
 The alternative flips **who decides**. And the striking thing is that it does not merely produce
 fairer systems. **It produces better ones**, for reasons you can point at.
@@ -30,8 +30,8 @@ fairer systems. **It produces better ones**, for reasons you can point at.
 ## Why the Trainers who live there build a better Pokédex 🗺️
 
 * **👀 They catch what no score can.** Entries that are grammatically flawless and that **nobody
-  would ever say**. A register fit for a **Gym Leader** used on a child. A term that is technically
-  right and lands as an insult.
+  would ever say**. A register fit for a **Gym Leader** used on a child. A term that is
+  technically right and lands as an insult.
 * **🎯 They ask for the right thing.** An outside team builds news translation because news corpora
   exist. Trainers who live on the route ask for health information, legal documents, school
   material, and **a keyboard that can type their own alphabet** — precisely the point question 130
@@ -66,23 +66,23 @@ Arrive. Take rubbings from the **Ruins of Alph**. Publish. Leave.
 * **📦 Give the Pokédex back**, working, with the data and documentation **in their language**.
 * **⏳ Say when it ends.** Most projects end. A region that knows the date can plan; one that finds
   out when the machine stops responding cannot.
-* **🔋 And make it run where it is needed.** A Pokédex that only works plugged into Oak's lab is not
-  a Pokédex — it is a lab instrument. Shrinking it down (questions 029, 030) is not a compromise
-  here. **It is the requirement.**
+* **🔋 And make it run where it is needed.** A Pokédex that only works plugged into Oak's lab is
+  not a Pokédex — it is a lab instrument. Shrinking it down (questions 029, 030) is not a
+  compromise here. **It is the requirement.**
 
 ## And judge it the same way 🏅
 
-Automatic scores are weakest for exactly these languages (questions 129, 132) — the judge has barely
-seen them.
+Automatic scores are weakest for exactly these languages (questions 129, 132) — the judge has
+barely seen them.
 
 📌 So **budget for real Trainers to evaluate it from the very start**, structure it as **paid
-work**, and say who did it. A confident-looking score for a region the judge has never visited is a
-number, not evidence.
+work**, and say who did it. A confident-looking score for a region the judge has never visited is
+a number, not evidence.
 
 ## The games already got one thing right 🏷️
 
 Every Pokémon carries its **Original Trainer** for life. Trade it across the world a dozen times
 and it still says who caught it, and no amount of subsequent handling erases that.
 
-**That is the standard.** Attribution baked into the record itself, permanent, and not dependent on
-whoever happens to be holding it now.
+**That is the standard.** Attribution baked into the record itself, permanent, and not dependent
+on whoever happens to be holding it now.

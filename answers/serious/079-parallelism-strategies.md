@@ -10,8 +10,8 @@ tags: [data-parallel, tensor-parallel, pipeline-parallel, 3d-parallelism, megatr
 
 # Parallelism strategies
 
-Four ways to split a training job across devices. They are composable, and large runs use several at
-once ("3D parallelism").
+Four ways to split a training job across devices. They are composable, and large runs use several
+at once ("3D parallelism").
 
 ```
  ┌─ DATA PARALLEL ────────────────────────────────────────────────────┐
@@ -64,12 +64,13 @@ The standard recipe for a large run:
   interconnect.
 * **Pipeline parallel across nodes** — lowest communication per unit of work.
 * **Data parallel across replicas of the whole thing** — outermost.
-* **ZeRO/FSDP sharding** layered on data parallelism to cut redundant optimizer state (question 080).
+* **ZeRO/FSDP sharding** layered on data parallelism to cut redundant optimizer state (question
+  080).
 * **Sequence/context parallel** for very long sequences, splitting the sequence dimension.
 
-The organising principle is: **match the communication intensity of each strategy to the bandwidth of
-the level it runs at.** Getting this backwards — tensor parallelism across a slow network — is the
-classic way to build a cluster that scales badly.
+The organising principle is: **match the communication intensity of each strategy to the bandwidth
+of the level it runs at.** Getting this backwards — tensor parallelism across a slow network — is
+the classic way to build a cluster that scales badly.
 
 ## What an interviewer digs into next
 

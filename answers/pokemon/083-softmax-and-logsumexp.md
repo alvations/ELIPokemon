@@ -19,8 +19,8 @@ Your Pokémon has rated its options:
    Tail Whip     score -2.0
 ```
 
-Those are **raw scores**. They don't add up to anything. You need a **plan for the turn** — and you
-only get one turn, so the plan has to add up to exactly one turn's worth of effort.
+Those are **raw scores**. They don't add up to anything. You need a **plan for the turn** — and
+you only get one turn, so the plan has to add up to exactly one turn's worth of effort.
 
 Softmax does that conversion:
 
@@ -80,10 +80,11 @@ So: **before converting, subtract the best score from everything.**
    plan  = [66%, 24%, 9%]    ✅ correct, and nothing exploded
 ```
 
-The largest number you ever exponentiate is now **exactly zero**, which gives exactly 1. **Overflow
-becomes impossible.** Not unlikely — impossible.
+The largest number you ever exponentiate is now **exactly zero**, which gives exactly 1.
+**Overflow becomes impossible.** Not unlikely — impossible.
 
-And the small ones might round away to nothing, which is fine: they were negligible options anyway.
+And the small ones might round away to nothing, which is fine: they were negligible options
+anyway.
 
 📌 **You get the identical answer.** This isn't an approximation or a safety compromise — it's the
 same calculation, arranged so the arithmetic can survive it.
@@ -95,8 +96,8 @@ training need).
 
 The tempting approach: compute the percentages, then take the log.
 
-**Don't.** Tiny percentages round to zero on the way, and the log of zero is a catastrophe. You threw
-away the precision *before* you needed it.
+**Don't.** Tiny percentages round to zero on the way, and the log of zero is a catastrophe. You
+threw away the precision *before* you needed it.
 
 **Go straight to the logarithm**, skipping the percentages entirely. Same trick, applied one step
 earlier.
@@ -105,7 +106,8 @@ earlier.
 
 Nearly every scoring system expects **raw scores** and does the whole safe conversion internally.
 
-So if you helpfully convert to percentages first and hand *those* over, it converts them **again**.
+So if you helpfully convert to percentages first and hand *those* over, it converts them
+**again**.
 
 ```
    😐 What you did:     scores → percentages → hand over
@@ -113,7 +115,7 @@ So if you helpfully convert to percentages first and hand *those* over, it conve
 ```
 
 Your Pokémon now trains on a mangled, flattened version of its own preferences. **No error. No
-warning.** Just a run that's quietly, permanently worse — and one of the most common mistakes there
-is.
+warning.** Just a run that's quietly, permanently worse — and one of the most common mistakes
+there is.
 
 **Hand over the raw scores. Let the system do the conversion.**

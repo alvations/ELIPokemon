@@ -62,8 +62,8 @@ single turn** ask *"what happens next?"* No thumb over the sheet, no 15%-of-the-
 every turn of every battle is a graded exam question. That's why Battlers learn so much faster
 from the same footage.
 
-And it turns out *everything* is a battle. Rating a Politoed core? Battle it and see. Translating? Feed
-the words in as opening turns and let it continue. Summarising? Same. One Trainer, every job.
+And it turns out *everything* is a battle. Rating a Politoed core? Battle it and see. Translating?
+Feed the words in as opening turns and let it continue. Summarising? Same. One Trainer, every job.
 
 This is why the modern world is full of Battlers.
 
@@ -72,14 +72,14 @@ This is why the modern world is full of Battlers.
 Two people in a trench coat. A **Judge in the back** studies the opposing roster completely
 and takes notes; a **Battler in the front** fights, glancing at those notes every single turn.
 
-That glancing is cross-attention, and it's genuinely the right shape when the input is fixed
-and the output is new: translating a battle log, calling a match into a microphone, condensing
-a six-hour Indigo Plateau run into a highlight reel. The thing you're reading never changes; the thing
-you're producing grows.
+That glancing is cross-attention, and it's genuinely the right shape when the input is fixed and
+the output is new: translating a battle log, calling a match into a microphone, condensing a
+six-hour Indigo Plateau run into a highlight reel. The thing you're reading never changes; the
+thing you're producing grows.
 
-The cost is that you're paying two salaries and coordinating two people — a Judge and a Battler who
-have to agree on what they saw. Fine for a
-translation booth. Overkill for "be good at everything".
+The cost is that you're paying two salaries and coordinating two people — a Judge and a Battler
+who have to agree on what they saw. Fine for a translation booth. Overkill for "be good at
+everything".
 
 ## Why Battlers took over the League 🏆
 

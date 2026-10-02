@@ -10,7 +10,8 @@ tags: [named-entities, transliteration, entity-linking, exonyms, consistency, ba
 
 # "Bug Catcher Rick" is two words that behave completely differently
 
-Look at that string. It is one label on one screen, and **the two halves take opposite treatment.**
+Look at that string. It is one label on one screen, and **the two halves take opposite
+treatment.**
 
 **Bug Catcher** is a Trainer Class. It gets translated — every region has its own word for it
 (question 141).
@@ -46,13 +47,13 @@ another.
 Three things follow:
 
 * **🚫 Never re-render a name that is already written in the target script. Look it up.** The games
-  get this exactly right: trade a Pokémon internationally and its **Original Trainer**'s name arrives
-  **in the original characters** and stays that way. Nobody re-spells it. Nobody guesses.
+  get this exactly right: trade a Pokémon internationally and its **Original Trainer**'s name
+  arrives **in the original characters** and stays that way. Nobody re-spells it. Nobody guesses.
 * **📚 Going backwards needs a *record*, not an algorithm.** Given the rendered form, the right
-  answer depends on **who this Trainer actually is**, and no amount of cleverness recovers that from
-  the letters.
-* **📐 And there are several valid systems** (question 109). Mixing two of them in one document reads
-  exactly as sloppy as it is.
+  answer depends on **who this Trainer actually is**, and no amount of cleverness recovers that
+  from the letters.
+* **📐 And there are several valid systems** (question 109). Mixing two of them in one document
+  reads exactly as sloppy as it is.
 
 ## The real fix: do not translate it, identify it 🔎
 
@@ -68,8 +69,8 @@ Three things follow:
 ```
 
 📌 This is question 133's name list, pointed at people and places instead of items — and it hands
-you **consistency for nothing**. The same Gym Leader is named the same way on page one and page four
-hundred, which no amount of per-sentence cleverness will ever achieve.
+you **consistency for nothing**. The same Gym Leader is named the same way on page one and page
+four hundred, which no amount of per-sentence cleverness will ever achieve.
 
 ## What to deliberately test 🧪
 
@@ -80,7 +81,8 @@ hundred, which no amount of per-sentence cleverness will ever achieve.
   translates into nouns.
 * **♀♂ Names that change shape by gender** in regions where they do — and remember the information
   needed may simply not be in the text (question 142).
-* **🎩 Titles that have to be added, dropped or moved** by local custom (question 141). **Mr. Mime**
-  is a reminder that sometimes the title is **part of the name** and must not be touched at all.
+* **🎩 Titles that have to be added, dropped or moved** by local custom (question 141). **Mr.
+  Mime** is a reminder that sometimes the title is **part of the name** and must not be touched at
+  all.
 * **✂️ And names cut in half by bad segmentation** (question 156) — one syllable translated on one
   line, the rest on the next.

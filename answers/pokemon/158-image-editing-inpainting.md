@@ -32,16 +32,16 @@ every scoreboard quietly fails to measure.
         it cannot make any change that needs the ring itself to move.
 ```
 
-Preservation is **guaranteed**, not hoped for. ⚠️ The failure is at the **edge** — the light inside
-the ring not matching the light outside, so the Gyarados looks pasted onto the lake.
+Preservation is **guaranteed**, not hoped for. ⚠️ The failure is at the **edge** — the light
+inside the ring not matching the light outside, so the Gyarados looks pasted onto the lake.
 
 **2. 💬 Just say it.** No ring. *"Make it shiny."* The machine works out for itself what to touch —
 because it was drilled on before-and-after pairs.
 
-⚠️ And here is the complaint that dominates this entire field: **it changes everything.** You asked
-about the Gyarados. It has also brightened the lake, moved the horizon, restyled the **Magikarp**
-in the background and warmed the whole picture half a shade. Every individual change is small.
-Together they are a different photograph.
+⚠️ And here is the complaint that dominates this entire field: **it changes everything.** You
+asked about the Gyarados. It has also brightened the lake, moved the horizon, restyled the
+**Magikarp** in the background and warmed the whole picture half a shade. Every individual change
+is small. Together they are a different photograph.
 
 **3. 🦴 Keep the skeleton and repaint around it.** Trace the pose, the depth, the outlines — then
 generate a fresh picture that obeys them. Superb for restyling. **Useless** for *"remove the

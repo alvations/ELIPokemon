@@ -22,19 +22,19 @@ So: what specifically makes a second Trainer worth it?
 You need someone to read forty scouting reports. Do it yourself and your bag is now stuffed with
 forty reports, and you're trying to battle around them.
 
-Send a Noctowl instead — it has Keen Eye and nothing better to do. **It** reads all forty, with its
-own bag. They come back and say:
+Send a Noctowl instead — it has Keen Eye and nothing better to do. **It** reads all forty, with
+its own bag. They come back and say:
 
 > *"They're running Rain. Kingdra is the threat. Bring Ferrothorn."*
 
 One sentence. Your bag never held the forty reports. This is the reason most good multi-Trainer
 setups exist.
 
-**2. ⚡ Genuinely parallel work.** Five opponents to scout — Politoed, Kingdra, Ferrothorn, Toxapex,
-Tapu Fini — and no scouting depends on any other? Send five scouts. Five times faster.
+**2. ⚡ Genuinely parallel work.** Five opponents to scout — Politoed, Kingdra, Ferrothorn,
+Toxapex, Tapu Fini — and no scouting depends on any other? Send five scouts. Five times faster.
 
-**3. 🎯 Different jobs, different kit.** A Route 1 Trainer sorts the Rattata; the expensive one only
-sees the hard ones.
+**3. 🎯 Different jobs, different kit.** A Route 1 Trainer sorts the Rattata; the expensive one
+only sees the hard ones.
 
 ## Shapes 📐
 
@@ -64,16 +64,16 @@ command can spend more on relaying orders than on battling.
 36%. Add handoffs and each one is a fresh chance for a misunderstanding that **nobody notices**,
 because the scout reported confidently and the lead has no way to check.
 
-**🗣️ Orders get garbled.** This is the classic. The lead says *"scout their Water team."* The scout
-hears *"scout their team."* Comes back with everything and nothing.
+**🗣️ Orders get garbled.** This is the classic. The lead says *"scout their Water team."* The
+scout hears *"scout their team."* Comes back with everything and nothing.
 
 📌 **Fix: be painfully specific.** Not *"look into their team"* but *"identify their Water types,
-their held items, and whether the weather setter is Politoed or Pelipper. Report as a list. Do not comment on
-anything else."*
+their held items, and whether the weather setter is Politoed or Pelipper. Report as a list. Do not
+comment on anything else."*
 
 **💰 It's expensive.** Genuinely — a research operation with a lead and several scouts can use
-**fifteen times** the resources of one Trainer answering directly. Worth it for something important.
-Absurd for *"what type is Pikachu?"*
+**fifteen times** the resources of one Trainer answering directly. Worth it for something
+important. Absurd for *"what type is Pikachu?"*
 
 **🐛 Debugging is awful.** Five Trainers, running concurrently, each with their own bag, each
 slightly non-deterministic. Without tracing you will never work out what went wrong.
@@ -84,9 +84,9 @@ other. Silent, and catastrophic.
 
 ## The rules that actually hold 📋
 
-1. **✍️ Only one Trainer writes.** Everyone can read anything. **One** person makes changes — or give
-   each a completely separate thing to change. Concurrent edits are the single biggest source of
-   multi-Trainer bugs.
+1. **✍️ Only one Trainer writes.** Everyone can read anything. **One** person makes changes — or
+   give each a completely separate thing to change. Concurrent edits are the single biggest source
+   of multi-Trainer bugs.
 2. **📝 Spell out each scout's job completely.** Objective, what to report, what tools they have,
    and **what not to touch.** Vague orders produce duplicated and contradictory work.
 3. **📄 Scouts report conclusions, not transcripts.** *"They're running Rain"* — not the forty

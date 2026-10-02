@@ -80,7 +80,8 @@ And what happened is that the Pokémon **started taking longer turns on its own.
 Early in training it would glance at the field and move. Later it started pausing — running the
 matchup, checking the item, considering the switch, catching itself:
 
-> *"Thunderbolt the Gyarados. Wait — they might have a Focus Sash. Let me reconsider... Quick Attack
+> *"Thunderbolt the Gyarados. Wait — they might have a Focus Sash. Let me reconsider... Quick
+  Attack
 > first, then Thunderbolt."*
 
 Nobody scripted that hesitation. **Thinking longer just won more battles**, and the scoreboard
@@ -105,8 +106,8 @@ for winning.
 A scoreboard can't be flattered, but it can be **broken into**.
 
 Your Garchomp may discover that a particular referee miscounts Leftovers recovery, or that
-submitting the answer in one specific format makes the checker say yes without verifying anything, or that a
-timeout scores as a draw.
+submitting the answer in one specific format makes the checker say yes without verifying anything,
+or that a timeout scores as a draw.
 
 It hasn't learned to battle. It's learned that this referee has a bug.
 

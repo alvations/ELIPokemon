@@ -47,13 +47,14 @@ can see.
 
 ## Pluralisation is not two cases
 
-English has singular and plural. Arabic has six plural categories; Russian and Polish have three or
-four; Japanese and Chinese have one. Code written as `if (n == 1) ... else ...` cannot be localised
-at all — it must be replaced, not translated. Use CLDR plural categories and let the locale decide
-how many forms exist.
+English has singular and plural. Arabic has six plural categories; Russian and Polish have three
+or four; Japanese and Chinese have one. Code written as `if (n == 1) ... else ...` cannot be
+localised at all — it must be replaced, not translated. Use CLDR plural categories and let the
+locale decide how many forms exist.
 
 The same applies to **gender agreement in interpolated strings**: `"{name} liked your post"`
-requires a gendered verb in many languages, and the data to choose it may not exist (question 142).
+requires a gendered verb in many languages, and the data to choose it may not exist (question
+142).
 
 ## Layout and script
 
@@ -73,10 +74,10 @@ requires a gendered verb in many languages, and the data to choose it may not ex
 
 ## Content that must be recreated, not translated
 
-* **Text baked into images.** It is invisible to your translation pipeline and will ship in English.
-  Externalise it or accept a manual per-locale asset process.
-* **Colour and symbol connotations.** White for mourning, red for luck or for danger, hand gestures
-  that are obscene in some locales, animals with different associations.
+* **Text baked into images.** It is invisible to your translation pipeline and will ship in
+  English. Externalise it or accept a manual per-locale asset process.
+* **Colour and symbol connotations.** White for mourning, red for luck or for danger, hand
+  gestures that are obscene in some locales, animals with different associations.
 * **Examples, names and scenarios** in documentation and onboarding.
 * **Marketing copy** — transcreation, as in question 149.
 * **Legal and regulatory text**, which is not a translation problem at all: the *requirements*

@@ -45,9 +45,9 @@ Watch **one** match and make a huge adjustment and you're reacting to a coin fli
 The rough rule: watch ten times as many matches, adjust roughly ten times harder. (For modern
 training methods, somewhat less than ten — three or so — but the direction is the same.)
 
-🚨 **This is the most common invalid comparison in the field.** Someone tries bigger batches, forgets
-to adjust the intensity, gets worse results, and concludes "bigger batches are worse." They tested
-one thing and changed two.
+🚨 **This is the most common invalid comparison in the field.** Someone tries bigger batches,
+forgets to adjust the intensity, gets worse results, and concludes "bigger batches are worse."
+They tested one thing and changed two.
 
 ## Where it stops helping 🛑
 
@@ -62,10 +62,11 @@ one thing and changed two.
                     the point of diminishing returns
 ```
 
-Below that point, more matches genuinely means faster progress — you were being held back by noise.
+Below that point, more matches genuinely means faster progress — you were being held back by
+noise.
 
-Above it, you already know exactly what to fix. Watching four hundred more matches confirms the same
-conclusion, and **you've spent four hundred matches to learn nothing.**
+Above it, you already know exactly what to fix. Watching four hundred more matches confirms the
+same conclusion, and **you've spent four hundred matches to learn nothing.**
 
 📌 The practical version: **there's a point past which more gyms don't train you faster, just
 cheaper per match.**
@@ -85,8 +86,8 @@ You want to decide based on a hundred matches. Your gym only holds ten Pokémon 
    NOW adjust, based on all 100.
 ```
 
-Mathematically identical to watching a hundred at once. Ten times the wall-clock time, but it fits in
-your gym.
+Mathematically identical to watching a hundred at once. Ten times the wall-clock time, but it fits
+in your gym.
 
 ## Three gotchas 🚨
 
@@ -102,11 +103,12 @@ Pokémon relative to
 *whoever's in the room today*, then ten rooms of ten is genuinely different from one room of a
 hundred — the rooms were different.
 
-Scaling each Pokémon against **its own stats** is unaffected. One more reason modern setups use it.
+Scaling each Pokémon against **its own stats** is unaffected. One more reason modern setups use
+it.
 
 **📞 Don't phone Brock and Misty after every session.** You're accumulating — the intermediate
-tallies are meaningless. **Talk once, at the end.** Skip this and you're paying ten times the phone bill for
-nine conversations about nothing.
+tallies are meaningless. **Talk once, at the end.** Skip this and you're paying ten times the
+phone bill for nine conversations about nothing.
 
 ## One last thing 🎲
 

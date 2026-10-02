@@ -13,11 +13,11 @@ tags: [react, agents, tool-use, agent-loop, planning]
 Two bad ways to battle.
 
 **🤔 The Overthinker.** Plans the entire forty-turn match before sending Garchomp out. Beautiful
-plan. Turn 2, the opponent does something unexpected, and the plan is worthless — but they're still
-following it, because it's the plan.
+plan. Turn 2, the opponent does something unexpected, and the plan is worthless — but they're
+still following it, because it's the plan.
 
-**⚡ The Button Masher.** No plan at all. Sees a Gyarados, clicks Thunderbolt. Sees another, attacks that. No
-idea what they're building toward, and no idea why anything is happening.
+**⚡ The Button Masher.** No plan at all. Sees a Gyarados, clicks Thunderbolt. Sees another,
+attacks that. No idea what they're building toward, and no idea why anything is happening.
 
 **ReAct is the actual answer: think one turn ahead, act, LOOK AT WHAT HAPPENED, think again.**
 
@@ -71,7 +71,8 @@ twenty times in a row.
 
 **3. 🎒 The bag fills with junk.**
 
-By turn 30 they're carrying twenty-nine turns of notes about Pokémon that already fainted. Prune it.
+By turn 30 they're carrying twenty-nine turns of notes about Pokémon that already fainted. Prune
+it.
 
 **4. 📉 The maths nobody wants to hear.**
 
@@ -86,11 +87,11 @@ This is the most important thing on this page.
    A 40-turn task:  0.95⁴⁰ = 13% 💀
 ```
 
-**Every turn multiplies.** A Trainer who's right 95% of the time fails most long tasks — not because
-they're bad, but because 95% isn't close to enough when you need forty of them in a row.
+**Every turn multiplies.** A Trainer who's right 95% of the time fails most long tasks — not
+because they're bad, but because 95% isn't close to enough when you need forty of them in a row.
 
-Which gives you exactly three options: **make each turn more reliable**, **make the task shorter**,
-or **check the work as you go and recover** when a turn goes wrong.
+Which gives you exactly three options: **make each turn more reliable**, **make the task
+shorter**, or **check the work as you go and recover** when a turn goes wrong.
 
 **5. 🎒 Too many items.**
 

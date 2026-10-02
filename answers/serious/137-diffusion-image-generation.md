@@ -32,8 +32,8 @@ around that single objective.
 ```
 
 The insight is that the reverse of a gradual corruption is a gradual *construction*, and each
-individual denoising step is an easy prediction problem even though generating an image in one shot
-is not.
+individual denoising step is an easy prediction problem even though generating an image in one
+shot is not.
 
 ## Latent diffusion: why it is affordable
 
@@ -43,8 +43,8 @@ images roughly 8x per side into a latent space, and runs the entire diffusion pr
 pixels at the end.
 
 The cost: the VAE is a lossy bottleneck. Fine detail — small faces, text, high-frequency texture —
-can be destroyed by the autoencoder before diffusion is even involved. When people debug "the model
-cannot render small text", the VAE is often the culprit rather than the denoiser.
+can be destroyed by the autoencoder before diffusion is even involved. When people debug "the
+model cannot render small text", the VAE is often the culprit rather than the denoiser.
 
 ## Text conditioning and classifier-free guidance
 

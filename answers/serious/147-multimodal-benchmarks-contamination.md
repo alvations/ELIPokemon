@@ -40,8 +40,8 @@ Run this before you believe any multimodal number, including your own.
 * **Answer-option bias.** Models have position preferences among multiple-choice options. Shuffle
   the options and rescore; a real capability is invariant, a preference is not. This catches more
   problems than it should.
-* **Single-frame answerability in video benchmarks** (question 126) — the same disease, one modality
-  over.
+* **Single-frame answerability in video benchmarks** (question 126) — the same disease, one
+  modality over.
 * **Saturation.** Once a benchmark is at 90%, the remaining 10% is disproportionately label errors
   and ambiguous items. Movement in that range is noise or overfitting, not progress. Several
   standard sets have measured label error rates of several percent.
@@ -65,8 +65,8 @@ For public benchmarks, report defensively:
 * option-shuffled results for multiple choice;
 * the model version and date;
 * and per-category breakdowns, since aggregate multimodal scores average across capabilities that
-  have nothing to do with each other — OCR, counting, spatial reasoning and world knowledge are not
-  one skill.
+  have nothing to do with each other — OCR, counting, spatial reasoning and world knowledge are
+  not one skill.
 
 ## The uncomfortable implication
 

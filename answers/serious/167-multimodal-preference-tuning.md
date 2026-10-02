@@ -33,10 +33,10 @@ strong policy is worse than useless: the policy learns to satisfy the judge's bl
 
 ## Where the preference data comes from
 
-* **Hallucination-targeted pairs (RLHF-V style).** Take a model response, have an annotator correct
-  it **segment by segment** rather than rewriting it. The corrected and uncorrected versions differ
-  minimally and *only* on the hallucination, which gives a far cleaner learning signal than two
-  independently written responses that differ in a dozen ways.
+* **Hallucination-targeted pairs (RLHF-V style).** Take a model response, have an annotator
+  correct it **segment by segment** rather than rewriting it. The corrected and uncorrected
+  versions differ minimally and *only* on the hallucination, which gives a far cleaner learning
+  signal than two independently written responses that differ in a dozen ways.
 * **Synthetic negatives.** Take a correct caption, perturb one object, attribute or count. Cheap,
   scalable, and it teaches exactly the discrimination you want. Risk: the model learns to detect
   perturbation artefacts rather than to look.
@@ -68,8 +68,8 @@ Report, at minimum, all four together:
 | Refusal rate on benign images | catches over-refusal |
 | Text-only benchmarks | catches the usual regression |
 
-Any one of these alone can be improved by a model that is worse overall. That is not a hypothetical
-— it is the default outcome of optimising a single number.
+Any one of these alone can be improved by a model that is worse overall. That is not a
+hypothetical — it is the default outcome of optimising a single number.
 
 ## What an interviewer digs into next
 

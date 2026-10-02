@@ -50,9 +50,9 @@ reads it in the middle of a perfectly ordinary task, and obeys.
 
 You might think: just teach it to recognise your voice.
 
-But the entire value of your Pokémon is that **it does what words tell it to.** That's not a bug you
-can patch out — that's the product. Any filter you write is itself just more words, and words can
-be rephrased, translated, spelled out, hidden in a picture, or framed as a story.
+But the entire value of your Pokémon is that **it does what words tell it to.** That's not a bug
+you can patch out — that's the product. Any filter you write is itself just more words, and words
+can be rephrased, translated, spelled out, hidden in a picture, or framed as a story.
 
 📌 **Be suspicious of anyone claiming to have solved this.** The realistic goal is not *"stop the
 shouting"* — it's **"make sure the shouting can't cost you anything."**
@@ -79,11 +79,10 @@ Take away ③ and a planted note can still confuse it — but your secrets stay 
 
 These are structural. They don't depend on your Pokémon being clever.
 
-* 🔒 **Least access.** If the job is reading the Pokédex, don't hand over the PC box where releasing
-  happens. Most agents are given far more
-  authority than their task needs.
-* ✋ **You confirm anything irreversible.** Sending, deleting, releasing, buying. A planted note can
-  *request* it; it cannot *do* it.
+* 🔒 **Least access.** If the job is reading the Pokédex, don't hand over the PC box where
+  releasing happens. Most agents are given far more authority than their task needs.
+* ✋ **You confirm anything irreversible.** Sending, deleting, releasing, buying. A planted note
+  can *request* it; it cannot *do* it.
 * 🚧 **Control what can leave.** Allowlist where messages can go. And watch the sneaky channels — a
   note can smuggle your secrets out inside a **picture URL** your Pokémon innocently loads. No
   message sent, data gone.
@@ -92,8 +91,8 @@ These are structural. They don't depend on your Pokémon being clever.
   the untrusted material and can only hand back short, checked, structured facts. The one with the
   secrets never hears the shouting.
 * 🤖 **Check actions with a rulebook, not a Pokémon.** *"Is releasing a Pokémon allowed here?"*
-  should be answered by a rule, in code. Asking your Pokémon whether an action is safe means asking
-  the thing that's already been compromised.
+  should be answered by a rule, in code. Asking your Pokémon whether an action is safe means
+  asking the thing that's already been compromised.
 
 ## Defences that help but aren't enough 🩹
 

@@ -74,7 +74,8 @@ Practical consequences:
 ## Critical errors are a separate problem
 
 A dropped negation, a reversed dosage, a swapped name, toxic content inserted. These are rare, so
-they barely affect a correlation-based evaluation — and they are the entire reason you deployed QE.
+they barely affect a correlation-based evaluation — and they are the entire reason you deployed
+QE.
 
 Treat critical-error detection as its own **classification** task with its own recall target, not
 as the tail of a regression. Build a targeted test set (negation flips, number swaps, entity
@@ -84,8 +85,8 @@ substitutions, omission of whole clauses) and measure recall on it directly. A Q
 
 ## Known weaknesses
 
-* **Fluency bias.** QE models over-reward fluent output; a fluent mistranslation scores better than
-  a clumsy correct one. Same failure as human raters skimming.
+* **Fluency bias.** QE models over-reward fluent output; a fluent mistranslation scores better
+  than a clumsy correct one. Same failure as human raters skimming.
 * **Length and domain sensitivity.** Very short segments (UI strings, single words) are scored
   unreliably.
 * **Hallucination detection is weak** without explicit training for it.

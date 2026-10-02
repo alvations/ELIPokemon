@@ -11,9 +11,9 @@ tags: [dialects, varieties, standard-language, normalisation, identification, fa
 # Dialects and non-standard varieties
 
 Almost every language technology is trained on a **standard written variety** — the one used in
-news, government and Wikipedia. Most speech is not that. The gap between what people actually speak
-and what the model was trained on is one of the largest sources of unequal performance in the
-field, and it is routinely reported as noise rather than as a finding.
+news, government and Wikipedia. Most speech is not that. The gap between what people actually
+speak and what the model was trained on is one of the largest sources of unequal performance in
+the field, and it is routinely reported as noise rather than as a finding.
 
 ## What "dialect" actually covers
 
@@ -22,8 +22,8 @@ Four distinct situations get flattened into one word:
 * **Dialect continua.** Arabic, Chinese and German varieties differ enough that "language" versus
   "dialect" is a political question, not a linguistic one. Moroccan Arabic and Gulf Arabic are not
   mutually intelligible.
-* **National varieties.** `pt-BR` vs `pt-PT`, `es-MX` vs `es-AR`. Mutually intelligible, and full of
-  differences that make a translation read as foreign (question 150).
+* **National varieties.** `pt-BR` vs `pt-PT`, `es-MX` vs `es-AR`. Mutually intelligible, and full
+  of differences that make a translation read as foreign (question 150).
 * **Sociolects and ethnolects.** African-American English is a rule-governed variety with its own
   consistent grammar — and is routinely misidentified as "errors" by tools built on standard
   English.
@@ -72,8 +72,8 @@ represents the speaker rather than merely indexes them.
 * **Collect with speakers, not about them** (question 164), and pay for it.
 * **Support the orthographic variation** rather than picking one spelling and treating the rest as
   typos.
-* **Say which variety you support.** "Spanish" is not a target (question 150). Claiming coverage you
-  do not have is worse than admitting the gap.
+* **Say which variety you support.** "Spanish" is not a target (question 150). Claiming coverage
+  you do not have is worse than admitting the gap.
 
 ## What an interviewer digs into next
 

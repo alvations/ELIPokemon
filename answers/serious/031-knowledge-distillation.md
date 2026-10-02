@@ -73,9 +73,9 @@ Not folklore — it happens, and there are real mechanisms:
    the ensemble gain in a single model.
 4. **Data amplification.** The teacher can label unlimited unlabelled data, so the student trains
    on far more supervised examples than existed originally.
-5. **Best-of-n distillation.** Sample `n` teacher outputs, keep only the best by some verifier, and
-   train the student on those. The student learns from a distribution *better* than the teacher's
-   average behaviour — this is the mechanism behind many strong small models.
+5. **Best-of-n distillation.** Sample `n` teacher outputs, keep only the best by some verifier,
+   and train the student on those. The student learns from a distribution *better* than the
+   teacher's average behaviour — this is the mechanism behind many strong small models.
 
 ## Limits
 

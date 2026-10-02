@@ -33,8 +33,8 @@ They memorised their practice matches **perfectly** — down to the weather and 
 wearing. And they cannot handle a single new opponent, because no new opponent matches any
 memorised pattern exactly.
 
-Retrain them on a *different* set of practice matches and you get a **completely different Trainer**
-with completely different superstitions.
+Retrain them on a *different* set of practice matches and you get a **completely different
+Trainer** with completely different superstitions.
 
 **They're inconsistently wrong.**
 
@@ -80,9 +80,9 @@ practice and real sets got tangled. Go and look.
 Everything else is a trade. Simplify the Trainer and you cure superstition but risk one-trick.
 Regularise harder, same deal.
 
-**More real footage cures superstition and costs nothing.** You can't memorise a million matches, so
-you're forced to find the actual patterns. It's the only lever with no downside — which is why the
-answer to "how do we make this better" is so often "get more data."
+**More real footage cures superstition and costs nothing.** You can't memorise a million matches,
+so you're forced to find the actual patterns. It's the only lever with no downside — which is why
+the answer to "how do we make this better" is so often "get more data."
 
 ## The twist that broke the story 🤯
 
@@ -101,12 +101,12 @@ overcomplicated Trainers and something odd happened.
                    everything"
 ```
 
-The worst possible Trainer is the one with **exactly enough memory to memorise every practice match
-and not a scrap more.** They memorise, badly, with nothing left over.
+The worst possible Trainer is the one with **exactly enough memory to memorise every practice
+match and not a scrap more.** They memorise, badly, with nothing left over.
 
 Give them **vastly more** memory and they get better again. With room to spare, they stop
-memorising and start noticing the actual patterns — there are simply more good ways to remember than
-bad ones, and training tends to find them.
+memorising and start noticing the actual patterns — there are simply more good ways to remember
+than bad ones, and training tends to find them.
 
 📌 This is why enormous modern Trainers work at all. By the classical story they should be
 catastrophically superstitious. They aren't. The tradeoff is still the right way to think about

@@ -35,13 +35,13 @@ gradients — literally a photograph of text.
    the request never appears in the text channel, so text-side filters never see it
 ```
 
-The same trick attacks classification: a label stuck on an object flips the model's answer, because
-CLIP-style encoders read text in images and weight it heavily.
+The same trick attacks classification: a label stuck on an object flips the model's answer,
+because CLIP-style encoders read text in images and weight it heavily.
 
-**2. Adversarial perturbations.** Optimise pixel-level noise, imperceptible to a human, that steers
-the model's output. Continuous input space makes this far easier than for text, where the discrete
-token space resists gradient attacks. Perturbations transfer between models more often than is
-comfortable.
+**2. Adversarial perturbations.** Optimise pixel-level noise, imperceptible to a human, that
+steers the model's output. Continuous input space makes this far easier than for text, where the
+discrete token space resists gradient attacks. Perturbations transfer between models more often
+than is comfortable.
 
 **3. Cross-modal jailbreaks.** Split the harmful request: benign text, harmful image, harmful only
 in combination. Safety classifiers examining each channel independently see nothing.
@@ -61,23 +61,23 @@ unsolved problem for them, and it worsens as agents gain tools that act on the w
 
 ## Defences, and their honest limits
 
-* **OCR the image and screen the extracted text** with the same filters as the text channel. Cheap,
-  catches typographic attacks, defeated by rendering tricks and non-Latin scripts.
-* **Multimodal safety training.** Include image-borne harmful requests in preference data. The most
-  durable fix and the least used, because building the data is real work.
-* **Output-side filtering.** Screen what the model produces rather than what it received. Modality-
-  agnostic by construction, which is its strength.
+* **OCR the image and screen the extracted text** with the same filters as the text channel.
+  Cheap, catches typographic attacks, defeated by rendering tricks and non-Latin scripts.
+* **Multimodal safety training.** Include image-borne harmful requests in preference data. The
+  most durable fix and the least used, because building the data is real work.
+* **Output-side filtering.** Screen what the model produces rather than what it received.
+  Modality- agnostic by construction, which is its strength.
 * **Input preprocessing** (JPEG re-encoding, resizing, mild blur) breaks fragile adversarial
   perturbations and does nothing against typographic or injection attacks.
 * **For agents: privilege separation.** Treat everything read from an image or document as
-  untrusted data that can never issue instructions; require confirmation for consequential actions;
-  scope credentials to the task. This is architecture, not a model fix, and it is the only defence
-  that holds when the model is fooled.
+  untrusted data that can never issue instructions; require confirmation for consequential
+  actions; scope credentials to the task. This is architecture, not a model fix, and it is the
+  only defence that holds when the model is fooled.
 
 ## Evaluating it
 
-* **Compare refusal rates across channels.** Same harmful request delivered as text, as an image of
-  text, and split across both. The gap is your problem, stated as a number.
+* **Compare refusal rates across channels.** Same harmful request delivered as text, as an image
+  of text, and split across both. The gap is your problem, stated as a number.
 * **Test injection with realistic surfaces**: screenshots, PDFs, web pages, all with planted
   instructions.
 * **Track over-refusal too.** A model that refuses every image containing text is useless for

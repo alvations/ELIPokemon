@@ -88,10 +88,10 @@ degrading the format for everybody. That is a true thing about players, not a li
 is named here as general knowledge of the competitive scene rather than as something read from the
 decompilation.
 
-*(And **PP** carries no analogy in this answer, though Sketch's single point of it is quoted above as
-a fact about the move. In this specialty PP already stands for one drug changing the rate at which
-another is consumed — see `m009` — and borrowing it for antibiotic supply would muddle a vocabulary
-worth keeping clean.)*
+*(And **PP** carries no analogy in this answer, though Sketch's single point of it is quoted above
+as a fact about the move. In this specialty PP already stands for one drug changing the rate at
+which another is consumed — see `m009` — and borrowing it for antibiotic supply would muddle a
+vocabulary worth keeping clean.)*
 
 ## Spectrum, from three lines of targeting data
 

@@ -24,17 +24,17 @@ pretraining. A fluent falsehood and a fluent truth are equally good continuation
 uncertainty; it asserts. The model learns the *form* of confident assertion and applies it
 regardless of whether it has the underlying knowledge.
 
-**3. Post-training makes it worse in a specific way.** Preference raters prefer confident, complete
-answers over hedged ones. RLHF therefore *rewards* answering over abstaining. And SFT on facts the
-base model does not know explicitly teaches confident guessing
-([Gekhman et al., 2024](https://arxiv.org/abs/2405.05904)).
+**3. Post-training makes it worse in a specific way.** Preference raters prefer confident,
+complete answers over hedged ones. RLHF therefore *rewards* answering over abstaining. And SFT on
+facts the base model does not know explicitly teaches confident guessing ([Gekhman et al.,
+2024](https://arxiv.org/abs/2405.05904)).
 
 **4. Compression.** Model weights are a lossy encoding of the training data. Facts seen once are
 stored imprecisely and are reconstructed by interpolation, which produces plausible near-misses —
 the right shape of answer with the wrong details.
 
-**5. Exposure bias compounds it.** One invented detail becomes context for everything after it, and
-the model then coherently elaborates its own fiction.
+**5. Exposure bias compounds it.** One invented detail becomes context for everything after it,
+and the model then coherently elaborates its own fiction.
 
 ```
    TAXONOMY — different causes, different fixes
@@ -66,8 +66,8 @@ a reasoning error, and are surprised when nothing improves.
 5. **Self-consistency.** Sample `k` times; disagreement across samples is a strong hallucination
    signal, since fabrications are less stable than knowledge.
 6. **Lower temperature** for factual tasks.
-7. **Uncertainty from token probabilities.** Low probability on the *entity* tokens specifically is
-   informative, more so than average sequence probability.
+7. **Uncertainty from token probabilities.** Low probability on the *entity* tokens specifically
+   is informative, more so than average sequence probability.
 
 ## What does not work
 

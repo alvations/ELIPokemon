@@ -37,8 +37,8 @@ frequency resolution is fine at low pitches and coarse at high ones, matching th
 
 ## Three output architectures
 
-The hard part is **alignment** — 3000 audio frames must become perhaps 40 tokens, and nothing tells
-you which frames produced which token.
+The hard part is **alignment** — 3000 audio frames must become perhaps 40 tokens, and nothing
+tells you which frames produced which token.
 
 | | How it aligns | Streaming? | Language model |
 | --- | --- | --- | --- |

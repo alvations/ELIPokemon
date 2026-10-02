@@ -65,15 +65,16 @@ there is nowhere for the earlier pages **not** to reach.
 * 📖 **Hand it the whole Pokédex, not one entry.** Biggest advantage available, and it is free
   (question 131).
 * 📚 **Show it the nearest entries already approved** (question 134).
-* 🗺️ **Say exactly which region's language you want.** Not "the other language" — the specific one.
+* 🗺️ **Say exactly which region's language you want.** Not "the other language" — the specific
+  one.
 * 🎯 **Ask several times and take the consensus.** Have it produce a handful of versions, then keep
   the one the others most agree with. This is a large, dependable gain, and it costs exactly what
   it sounds like — several attempts instead of one. When you want to spend compute on quality,
   spend it here.
 * 🥚 **Or raise a middling one specifically for this job.** Let it read a great deal of the target
-  region's writing, then drill it briefly on a small pile of genuinely excellent matched pairs. You
-  land close to Porygon-Z's quality at something near Porygon2's running cost — and for an actual
-  product, this is usually the right answer.
+  region's writing, then drill it briefly on a small pile of genuinely excellent matched pairs.
+  You land close to Porygon-Z's quality at something near Porygon2's running cost — and for an
+  actual product, this is usually the right answer.
 * ✂️ **Tell it to give you the translation and nothing else.** Left alone it adds a greeting, a
   note about its choices, and an apology, and whatever machine reads its output next will choke on
   all three.
@@ -90,5 +91,5 @@ That routing is where the cost-versus-quality curve genuinely bends, and it beat
 running alone.
 
 ⚠️ And budget for the erratic streak. **Porygon-Z is not the same Porygon-Z next month.** A
-Porygon2 checkpoint is. If you have translations somebody signed off on, pin the version you signed
-off *with*, and check everything again before you upgrade.
+Porygon2 checkpoint is. If you have translations somebody signed off on, pin the version you
+signed off *with*, and check everything again before you upgrade.

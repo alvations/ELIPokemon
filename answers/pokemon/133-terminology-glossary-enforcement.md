@@ -10,8 +10,8 @@ tags: [terminology, glossary, constrained-decoding, do-not-translate, translatio
 
 # There is exactly one right name for a Pikachu
 
-Most of a translated Pokédex entry can be worded a dozen ways and all of them are fine. *"It stores
-electricity in its cheeks"* or *"electricity gathers in its cheek pouches"* — pick either.
+Most of a translated Pokédex entry can be worded a dozen ways and all of them are fine. *"It
+stores electricity in its cheeks"* or *"electricity gathers in its cheek pouches"* — pick either.
 
 **The species name is not like that.** Every region has one official name for **Pikachu**, and it
 is the name, and there is no second-best option. Same for **Poké Ball**. Same for

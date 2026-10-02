@@ -10,8 +10,9 @@ tags: [nllb, coverage-claims, long-tail, per-language-reporting, moe, deployment
 
 # "Supports 200 languages"
 
-This is the most load-bearing unexamined claim in multilingual NLP. It is usually true in the sense
-that the model **produces output** for 200 languages, and false in every sense a user cares about.
+This is the most load-bearing unexamined claim in multilingual NLP. It is usually true in the
+sense that the model **produces output** for 200 languages, and false in every sense a user cares
+about.
 
 ## What the claim conceals
 
@@ -28,14 +29,15 @@ that the model **produces output** for 200 languages, and false in every sense a
 
 The tail is not a slightly worse version of the head. It fails **differently**: off-target output
 (question 136), hallucination under weak source representation, and a quality profile that a user
-of that language cannot easily distinguish from the good cases, because fluency survives long after
-accuracy has gone.
+of that language cannot easily distinguish from the good cases, because fluency survives long
+after accuracy has gone.
 
 ## What genuinely helps at this scale
 
-* **Language-aware capacity.** The curse of multilinguality (question 103) is a capacity problem, so
-  the fixes are capacity fixes: sparse mixture-of-experts with language-informed routing, language
-  adapters (question 110), or simply a bigger model. All of them buy back some of the tail.
+* **Language-aware capacity.** The curse of multilinguality (question 103) is a capacity problem,
+  so the fixes are capacity fixes: sparse mixture-of-experts with language-informed routing,
+  language adapters (question 110), or simply a bigger model. All of them buy back some of the
+  tail.
 * **Non-English-centric data.** Mining direct pairs rather than routing everything through English
   (question 130). NLLB's contribution was substantially a data contribution.
 * **Sampling that does not drown the tail** (question 104) — temperature-sampled language
@@ -48,22 +50,24 @@ accuracy has gone.
   and is not a summary of anything. Publish the distribution and the worst decile.
 * **State the evaluation source for each language** — FLORES for most, which is one narrow domain
   (question 130), and say so.
-* **Say which languages were evaluated by speakers** and which only by automatic metric. For a tail
-  language, the automatic metric is itself untrustworthy (question 129).
-* **Distinguish the four tiers above in your documentation**, in the model card, not in a footnote.
+* **Say which languages were evaluated by speakers** and which only by automatic metric. For a
+  tail language, the automatic metric is itself untrustworthy (question 129).
+* **Distinguish the four tiers above in your documentation**, in the model card, not in a
+  footnote.
 
 ## The deployment question
 
-The honest framing is not "do we support this language" but **"what would a speaker of this language
-be able to rely on this for?"** Gisting an inbound message is a different bar from translating a
-medical instruction (question 187).
+The honest framing is not "do we support this language" but **"what would a speaker of this
+language be able to rely on this for?"** Gisting an inbound message is a different bar from
+translating a medical instruction (question 187).
 
 So: set a quality threshold per use case, measure per language against it, and **make the tiering
-visible in the product**. A system that silently gives the same interface for a language it handles
-well and one it handles badly has transferred the entire risk to the user, who has no way to know.
+visible in the product**. A system that silently gives the same interface for a language it
+handles well and one it handles badly has transferred the entire risk to the user, who has no way
+to know.
 
-And accept that for some languages the right answer is **not to offer it yet**, with an explanation.
-That is more respectful of a speaker than fluent, confident nonsense.
+And accept that for some languages the right answer is **not to offer it yet**, with an
+explanation. That is more respectful of a speaker than fluent, confident nonsense.
 
 ## What an interviewer digs into next
 

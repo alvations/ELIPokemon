@@ -24,9 +24,9 @@ their results are not merely more ethical — they are **better**, for concrete 
 * **The evaluation is real.** Speakers catch failures no metric surfaces: text that is grammatical
   and nobody would say, a register that is wrong for the context, a term that is technically
   correct and offensive in use.
-* **The task selection is right.** Outside teams build news translation because news corpora exist.
-  Communities ask for health information, legal documents, education material, and keyboards —
-  the things question 130's evaluation section warns you are probably not building.
+* **The task selection is right.** Outside teams build news translation because news corpora
+  exist. Communities ask for health information, legal documents, education material, and
+  keyboards — the things question 130's evaluation section warns you are probably not building.
 * **The data is cleaner at source.** Native-speaker collection avoids the mislabelled,
   machine-translated and scraped-from-a-different-language material that poisons crawled corpora
   (question 136).
@@ -66,14 +66,15 @@ achievement it appears to be.
 
 ## Evaluation, specifically
 
-Automatic metrics for these languages are weakest exactly where you need them (questions 129, 132).
-Budget for **human evaluation by speakers** from the start, structure it as paid work, and report
-who evaluated. A COMET score for a language whose COMET model saw almost no data is a number, not
-evidence.
+Automatic metrics for these languages are weakest exactly where you need them (questions 129,
+132). Budget for **human evaluation by speakers** from the start, structure it as paid work, and
+report who evaluated. A COMET score for a language whose COMET model saw almost no data is a
+number, not evidence.
 
 ## What an interviewer digs into next
 
-* Give three concrete reasons participatory data collection produces better models, not just fairer ones.
+* Give three concrete reasons participatory data collection produces better models, not just
+  fairer ones.
 * What are the five questions a paper claiming N languages should answer?
 * Why does task selection differ when the community chooses?
 * Why is model size an ethics question in this context?

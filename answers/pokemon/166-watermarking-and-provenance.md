@@ -22,8 +22,8 @@ who knows where to look.
 And it is the whole subject, because **two completely different questions** get asked as if they
 were one:
 
-* 🔍 **"Is this a Ditto?"** — given the Pokémon in front of you, is it a copy? *There is no reliable
-  general answer.*
+* 🔍 **"Is this a Ditto?"** — given the Pokémon in front of you, is it a copy? *There is no
+  reliable general answer.*
 * 📜 **"Where did this Pokémon come from?"** — what does its record say? *Answerable, and this is
   the one worth building.*
 
@@ -67,15 +67,15 @@ trying.** Designing as though it were is the mistake.
 Stop interrogating the pixels. **Ask what the Pokémon carries with it.**
 
 Every Pokémon in the games already does this. It knows **where it was met**, **at what level**,
-**on what date**, **which Poké Ball caught it**, and **who its Original Trainer was**. Not inferred
-from looking at it — **recorded at the moment it happened**, and carried for life.
+**on what date**, **which Poké Ball caught it**, and **who its Original Trainer was**. Not
+inferred from looking at it — **recorded at the moment it happened**, and carried for life.
 
 That is provenance, and it has one property that surprises people:
 
 📌 **It works for the genuine ones too — and that is the valuable half.** The scarce thing shortly
-is not proof that a Pokémon is a Ditto. It is proof that yours is **real**: legitimately caught, on
-that route, on that day. Competitive Trainers already know this — a team that cannot show where it
-came from does not get to enter.
+is not proof that a Pokémon is a Ditto. It is proof that yours is **real**: legitimately caught,
+on that route, on that day. Competitive Trainers already know this — a team that cannot show where
+it came from does not get to enter.
 
 ⚠️ Two honest weaknesses. **Some transfers strip parts of the record** — a Pokémon brought forward
 from an old game arrives saying only that it came from somewhere distant. And **a missing record
@@ -90,5 +90,5 @@ field as evidence of forgery repeats the false-accusation problem in a new costu
   discarding it.
 * **👁️ Say it on the screen**, not only in the record. A visible label survives handling that a
   hidden one does not.
-* **⚖️ And never present a detector's opinion as proof.** Give a likelihood with its false-accusation
-  rate attached, or give nothing.
+* **⚖️ And never present a detector's opinion as proof.** Give a likelihood with its
+  false-accusation rate attached, or give nothing.

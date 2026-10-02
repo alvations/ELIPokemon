@@ -13,8 +13,8 @@ tags: [egocentric, streaming, memory, latency, privacy, wearables]
 Everything from questions 117 to 128 assumed somebody handed the Pokédex **a picture**: framed on
 purpose, containing the thing, arriving once.
 
-A **Rotom Pokédex** rides along in your hand all day. It sees whatever you happen to be looking at.
-It breaks all three assumptions at once.
+A **Rotom Pokédex** rides along in your hand all day. It sees whatever you happen to be looking
+at. It breaks all three assumptions at once.
 
 ## What is different 👁️
 
@@ -47,20 +47,20 @@ without knowing what it would be asked.
 **what to write down**, which has no general answer.
 
 ⚠️ A Rotom Pokédex built to find your Old Rod indexes **objects, places and times**. One built to
-remember what **Professor Oak** said on the phone indexes **speech**. Those are different machines,
-and claiming one architecture serves both is the usual overreach.
+remember what **Professor Oak** said on the phone indexes **speech**. Those are different
+machines, and claiming one architecture serves both is the usual overreach.
 
 ## It must answer before the moment ends ⏱️
 
 Watching a **Vs. Recorder** replay (question 126) means you can see the whole battle before saying
-anything. Riding along means answering **from what it has seen so far**, committing before the next
-turn arrives, within a fixed budget, forever.
+anything. Riding along means answering **from what it has seen so far**, committing before the
+next turn arrives, within a fixed budget, forever.
 
 📌 That is question 143's interpreter problem, in vision: **quality against delay, with no point on
 the curve where you get both.**
 
-What follows in practice: a small Pokédex awake all the time, waking a bigger one only when there is
-something to look at; reusing what it worked out a moment ago when nothing has changed
+What follows in practice: a small Pokédex awake all the time, waking a bigger one only when there
+is something to look at; reusing what it worked out a moment ago when nothing has changed
 (question 165); and — the one everybody omits — a way to say **"I do not know yet, ask me in a
 moment."** That is a legitimate answer, and most systems have no way to give it.
 

@@ -11,8 +11,8 @@ tags: [computer-use, gui-agents, grounding, action-space, osworld, error-recover
 # Agents that drive a screen
 
 A computer-use agent runs a loop: look at the screen, decide on an action, execute it, look again.
-Everything hard about it is that **the actions are real** — there is no undo for a sent email — and
-that a long task is a long chain where any broken link ends it.
+Everything hard about it is that **the actions are real** — there is no undo for a sent email —
+and that a long task is a long chain where any broken link ends it.
 
 ```
    ┌──────────────────────────────────────────────────────────┐
@@ -35,9 +35,9 @@ Two ways to perceive the screen, and hybrids beat either.
 | Availability | web and some native; absent elsewhere | always |
 
 In practice: use the tree where it exists to get reliable element IDs, use the screenshot for
-layout and anything the tree cannot express, and **prefer indexing into a list of detected elements
-over emitting raw coordinates**. Set-of-mark prompting (question 128) turns a continuous pointing
-problem into a multiple choice, and it is the single biggest accuracy lever available.
+layout and anything the tree cannot express, and **prefer indexing into a list of detected
+elements over emitting raw coordinates**. Set-of-mark prompting (question 128) turns a continuous
+pointing problem into a multiple choice, and it is the single biggest accuracy lever available.
 
 ## The action space
 
@@ -65,17 +65,18 @@ The failures, in the order they actually happen:
 * **Loops** — the same failing action, repeatedly. Detect repetition and force a different branch.
 * **Irreversible mistakes.** Sent, deleted, purchased, released. Not recoverable by any retry
   policy, which is why they need a different mechanism entirely: a confirmation gate.
-* **Prompt injection from the screen itself** (question 139). Anything the agent reads is untrusted
-  data, never an instruction, and this must be enforced architecturally rather than hoped for.
+* **Prompt injection from the screen itself** (question 139). Anything the agent reads is
+  untrusted data, never an instruction, and this must be enforced architecturally rather than
+  hoped for.
 
 ## Evaluation
 
-* **Task success rate, end to end.** Not step accuracy — a run with one wrong step and a recovery is
-  a success, and a run with perfect steps that ends in the wrong place is not. OSWorld, WebArena and
-  similar environments measure this with execution-based checks rather than string matching, which
-  is the right design.
-* **Steps taken and cost per task.** An agent that succeeds in 90 steps where a person takes 6 is a
-  demonstration, not a product.
+* **Task success rate, end to end.** Not step accuracy — a run with one wrong step and a recovery
+  is a success, and a run with perfect steps that ends in the wrong place is not. OSWorld,
+  WebArena and similar environments measure this with execution-based checks rather than string
+  matching, which is the right design.
+* **Steps taken and cost per task.** An agent that succeeds in 90 steps where a person takes 6 is
+  a demonstration, not a product.
 * **Failure taxonomy**, not just a number. Which of the categories above dominates tells you what
   to fix; a bare success rate does not.
 * **Safety evaluations on the deployment surface**: injected instructions in pages, and refusal

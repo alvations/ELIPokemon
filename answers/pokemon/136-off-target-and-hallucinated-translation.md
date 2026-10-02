@@ -26,13 +26,13 @@ This is off-target output, and it happens for four reasons:
   Now ask for Johto↔Hoenn directly. It was never once shown that journey — so it does what it was
   actually trained to do, and quietly routes you through **Kanto**, which is the only place it has
   ever been (question 130).
-* **🏷️ The instruction is one word against a flood.** "Make it Alolan" is a single note attached to
-  a page of source material and a lifetime of habit. It is not a strong lever.
+* **🏷️ The instruction is one word against a flood.** "Make it Alolan" is a single note attached
+  to a page of source material and a lifetime of habit. It is not a strong lever.
 * **👨‍👩‍👧 The bigger relative pulls.** **Alolan Raichu** drifts toward the Kantonian one.
   **Galarian Ponyta** drifts toward the Kantonian one. Not because the machine is careless —
   because it has seen a hundred times more Kanto material, and Kanto is downhill from everywhere.
-* **🗃️ The archive was mislabelled.** Pages filed under the wrong region during training
-  (question 108) taught it that this label sometimes means that region. It learned that faithfully.
+* **🗃️ The archive was mislabelled.** Pages filed under the wrong region during training (question
+  108) taught it that this label sometimes means that region. It learned that faithfully.
 
 ```
    the page (Alolan) ──► [ label: Alola ] ──► the machine ──► a Kantonian entry
@@ -52,7 +52,8 @@ louder**, rather than shipping it.
 
 ## Failure two: a beautiful entry about nothing 👻
 
-Well-formed text in the right region's language bearing little relation to what was in front of it.
+Well-formed text in the right region's language bearing little relation to what was in front of
+it.
 
 It comes in **two shapes**, and one is much easier than the other:
 
@@ -90,8 +91,8 @@ net makes this worse, not better — cap repetition while it writes, and when Nu
 ## Why the season average will never warn you 📉
 
 Both of these are rare. A Pokédex that invents an entry **once in every two hundred** loses a
-fraction of a point on any overall score, and is completely unusable anywhere a Trainer will act on
-what it says.
+fraction of a point on any overall score, and is completely unusable anywhere a Trainer will act
+on what it says.
 
 📌 So **count them, as counts, with their own targets** — exactly like the dropped negations in
 question 132. Never as part of a mean. A mean is precisely the instrument that hides them.

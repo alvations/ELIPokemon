@@ -42,9 +42,9 @@ Three different products, and people build one while promising another:
 * **🎚️ A voice roughly like theirs.** Similar pitch, similar size of Pokémon. Recognisably a
   **Snorlax** rather than a **Joltik**, without being anyone in particular.
 * **🎭 Their actual voice.** ⚠️ And this is a **consent question before it is an engineering
-  question** (question 138). **Chatot** is the warning the games already wrote: **Chatter** recorded
-  a real voice and played it back. The Pokémon must have agreed, the output should carry a mark
-  saying it was made, and the machine must **refuse** a voice it cannot verify.
+  question** (question 138). **Chatot** is the warning the games already wrote: **Chatter**
+  recorded a real voice and played it back. The Pokémon must have agreed, the output should carry
+  a mark saying it was made, and the machine must **refuse** a voice it cannot verify.
 
 📌 And separately from *whose* voice: **how it was said.** A flat rendering of an urgent cry is not
 a slightly worse translation — **it is a wrong one.** Pikachu's whole vocabulary is one word said
@@ -52,12 +52,13 @@ differently, and a machine that levels the tone has translated nothing at all.
 
 ## Where it actually breaks 💥
 
-* **📏 The new cry is a different length.** Longer or shorter than what went in (question 144). Live,
-  that piles onto the delay (question 143). Over a battle recording it is a hard wall
+* **📏 The new cry is a different length.** Longer or shorter than what went in (question 144).
+  Live, that piles onto the delay (question 143). Over a battle recording it is a hard wall
   (question 154).
 * **🧨 Three stages, and each one trusts the last.** A mishearing becomes a confident
   mistranslation becomes a beautifully articulated cry meaning something else entirely. **No stage
-  downstream can tell**, because each of them is doing its job perfectly on the input it was given.
+  downstream can tell**, because each of them is doing its job perfectly on the input it was
+  given.
 * **😬 Real Trainers stumble.** *"Use Thunder— no, wait—"*. Translate the stumble word for word and
   it is wrong. Delete it silently and you may have deleted the point: **a hesitation before "yes"
   is information.**

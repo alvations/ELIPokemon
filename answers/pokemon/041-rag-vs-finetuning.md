@@ -22,8 +22,8 @@ The second one is RAG, and it's usually right — for a reason that isn't obviou
 
 Your Trainer is **unreliable at remembering** and **excellent at reading**.
 
-Ask it to *recall* Flareon's ability and you get a confident guess. Hand it the Flareon page and ask
-what the ability is, and you get the right answer, every time.
+Ask it to *recall* Flareon's ability and you get a confident guess. Hand it the Flareon page and
+ask what the ability is, and you get the right answer, every time.
 
 RAG doesn't make your Trainer smarter. It **converts the question from a memory question into a
 reading question**, and reading is the thing it's actually good at.
@@ -87,14 +87,15 @@ Three arguments for the Pokédex that nobody mentions until it's too late:
 
 ## Where the Pokédex fails 📉
 
-* 🔍 **Bad search ruins everything.** If the right page isn't found, a Champion-level Trainer with a
-  Pokédex is no better than one without. **Most "the Pokédex didn't help" stories are search
+* 🔍 **Bad search ruins everything.** If the right page isn't found, a Champion-level Trainer with
+  a Pokédex is no better than one without. **Most "the Pokédex didn't help" stories are search
   failures**, not Trainer failures.
 * 🌍 **Big-picture questions.** *"Is the metagame drifting toward Trick Room across all 10,000
   scouting reports?"*
   Five pages cannot answer that. You need summaries of summaries.
 * 🔗 **Two-step questions.** *"Which of our opponents runs the Pokémon that just got banned?"* —
-  first *what got banned* (Baton Pass), then *who runs it*. Two lookups chained. One finds neither.
+  first *what got banned* (Baton Pass), then *who runs it*. Two lookups chained. One finds
+  neither.
 * 🌫️ **Too many pages is worse than a few.** Hand over twenty pages and it does *worse* than with
   five. More pages, more distraction, and the middle of a thick stack gets skimmed.
 * ✂️ **The answer straddles a page break.** Half on page 12, half on page 13, and neither page
@@ -105,8 +106,8 @@ Three arguments for the Pokédex that nobody mentions until it's too late:
 True — modern Trainers can hold enormous amounts of text at once. So why look anything up?
 
 Because carrying the *entire library* into every battle is slow, expensive, and — genuinely —
-**often less accurate** than carrying five well-chosen pages. More text means more distraction, and
-we know the middle of a thick stack gets skimmed.
+**often less accurate** than carrying five well-chosen pages. More text means more distraction,
+and we know the middle of a thick stack gets skimmed.
 
 Read the whole library when it's small and the question truly needs all of it. Otherwise: look it
 up, then read carefully.

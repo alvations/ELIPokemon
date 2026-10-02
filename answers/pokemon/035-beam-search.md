@@ -38,14 +38,14 @@ Every extra turn in a plan makes it *look* slightly worse — more turns, more c
 to go wrong. So the raw scoring quietly favours plans that end quickly.
 
 Left uncorrected, your Pokémon starts preferring "attack once and hope" over any actual strategy.
-You have to explicitly correct for plan length, and getting that correction wrong is a classic bug:
-too little and everything ends in two turns, too much and your Pokémon plans a forty-turn epic
-against a wild Rattata on Route 1.
+You have to explicitly correct for plan length, and getting that correction wrong is a classic
+bug: too little and everything ends in two turns, too much and your Pokémon plans a forty-turn
+epic against a wild Rattata on Route 1.
 
 ## Where it genuinely shines 🏆
 
-**Translating a Kanto battle log into Johto's dialect.** There's one right answer. You want the *best*
-rendering, and carrying several candidate phrasings forward genuinely finds it.
+**Translating a Kanto battle log into Johto's dialect.** There's one right answer. You want the
+*best* rendering, and carrying several candidate phrasings forward genuinely finds it.
 
 **Transcribing commentary.** Same deal — one correct transcript, and hearing the next few words
 often resolves an earlier ambiguity.
@@ -105,7 +105,8 @@ actual outcomes.
 
 ## Where beam search survives 📌
 
-* 📐 When the output must fit an **exact required shape**, and you need to search for one that does.
+* 📐 When the output must fit an **exact required shape**, and you need to search for one that
+  does.
 * 🔢 Short, structured answers with **one correct form**.
 * 🎯 Anything with **one right answer and a scorer you trust**.
 

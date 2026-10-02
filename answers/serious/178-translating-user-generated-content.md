@@ -19,9 +19,9 @@ are not that, and a system trained on news translates them badly in specific, pr
   into fragments (question 102), and a single typo can change the translation of a whole sentence.
 * **Abbreviations and internet register**, which differ per language and change faster than any
   model's training data.
-* **Emoji and emoticons**, which carry sentiment and sometimes negate the text. They also differ in
-  meaning by culture (question 150) — the same emoji is affectionate in one locale and dismissive
-  in another.
+* **Emoji and emoticons**, which carry sentiment and sometimes negate the text. They also differ
+  in meaning by culture (question 150) — the same emoji is affectionate in one locale and
+  dismissive in another.
 * **Code-switching** mid-sentence (question 107), which breaks anything that commits to one source
   language.
 * **Non-standard varieties** (question 162), which are the default in informal writing.
@@ -58,11 +58,11 @@ Translated content is moderated, and the pipeline order matters enormously:
                                   low-resource ones are worst served (question 162)
 ```
 
-Both orders fail differently, and the honest answer is both, plus a specific caution: **translation
-launders obfuscation**. A deliberately misspelled slur may be helpfully "corrected" into a clean
-rendering that passes a filter — or, in the other direction, an innocuous phrase may be translated
-into something that reads as a violation. Log both the source and the translation for every
-moderation decision, and never action a ban on the translation alone.
+Both orders fail differently, and the honest answer is both, plus a specific caution:
+**translation launders obfuscation**. A deliberately misspelled slur may be helpfully "corrected"
+into a clean rendering that passes a filter — or, in the other direction, an innocuous phrase may
+be translated into something that reads as a violation. Log both the source and the translation
+for every moderation decision, and never action a ban on the translation alone.
 
 ## Evaluation
 

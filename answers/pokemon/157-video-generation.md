@@ -48,11 +48,13 @@ Charizard. Anchoring each stretch to a fixed reference frame helps. It does not 
 ## Every instant can be perfect and the battle still wrong 🚨
 
 * **🚪 Things stop existing.** A **Diglett** goes underground with **Dig** and something else comes
-  up. Nothing in the training ever *required* that a Pokémon be the same Pokémon when it reappears.
+  up. Nothing in the training ever *required* that a Pokémon be the same Pokémon when it
+  reappears.
 * **🦎 Identity slides.** A **Charizard** drifts into a **Charmeleon** over forty turns and no
-  single frame is where it happened. ⚠️ And note how badly wrong that is: Pokémon **do** change form
-  mid-battle — **Mega Evolution**, **Terastallization** — but always visibly, always by a named
-  mechanic, always once. Quietly becoming your own pre-evolution is not a thing that happens.
+  single frame is where it happened. ⚠️ And note how badly wrong that is: Pokémon **do** change
+  form mid-battle — **Mega Evolution**, **Terastallization** — but always visibly, always by a
+  named mechanic, always once. Quietly becoming your own pre-evolution is not a thing that
+  happens.
 * **🖐️ Parts appear and vanish.** **Machamp** with three arms in one instant and five in the next.
   A **Poké Ball** that empties and refills.
 * **💧 The world does not behave.** **Surf** that falls upward, a **Sandstorm** that ignores the
@@ -84,5 +86,5 @@ number:
 * 🔢 **Count the Zubat in the first frame and in the last.**
 * 🦎 **Check the Charizard is still the same Charizard at the end.**
 * 👀 **And ask Trainers which they prefer** — rating *"is it the battle I asked for"*, *"does it
-  look good"*, and *"does it hold together"* as **three separate questions**, because a clip can be
-  excellent at two of them and unwatchable on the third.
+  look good"*, and *"does it hold together"* as **three separate questions**, because a clip can
+  be excellent at two of them and unwatchable on the third.

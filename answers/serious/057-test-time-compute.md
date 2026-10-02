@@ -28,8 +28,8 @@ is the model?"* to *"how long did it think?"*
       └─────────► params × tokens        └─────────► inference FLOPs
 ```
 
-The practical consequence is a genuinely new deployment knob: you can trade cost for accuracy **per
-request**, spending more on the hard ones.
+The practical consequence is a genuinely new deployment knob: you can trade cost for accuracy
+**per request**, spending more on the hard ones.
 
 ## The mechanisms
 
@@ -52,22 +52,23 @@ right answers into wrong ones.
 ## The key result
 
 [Snell et al. (2024)](https://arxiv.org/abs/2408.03314) showed that optimally allocating test-time
-compute can be **more efficient than scaling parameters**: on some problem distributions, a smaller
-model given more inference compute beats a 14× larger model given one shot.
+compute can be **more efficient than scaling parameters**: on some problem distributions, a
+smaller model given more inference compute beats a 14× larger model given one shot.
 
 Two important qualifications:
 
-* **It is problem-dependent.** On easy problems, extra compute is wasted; on problems far beyond the
-  model's ability, it does not help either. The gains are in the middle band — hard-but-reachable.
-  Hence "compute-optimal" test-time strategies that *adapt* the budget to estimated difficulty.
+* **It is problem-dependent.** On easy problems, extra compute is wasted; on problems far beyond
+  the model's ability, it does not help either. The gains are in the middle band —
+  hard-but-reachable. Hence "compute-optimal" test-time strategies that *adapt* the budget to
+  estimated difficulty.
 * **Generation is easier than verification is not.** These methods lean on the asymmetry that
   *checking* is easier than *producing*. Where that asymmetry is absent (open-ended writing), the
   selection step has nothing reliable to select with, and the whole family works much less well.
 
 ## Reasoning models
 
-o1/R1-style models are test-time scaling **trained in** rather than orchestrated externally. RL with
-verifiable rewards (question 023) teaches the model to produce long internal chains with
+o1/R1-style models are test-time scaling **trained in** rather than orchestrated externally. RL
+with verifiable rewards (question 023) teaches the model to produce long internal chains with
 self-correction, so the search happens inside one generation. The observable signature is that
 accuracy scales smoothly with the number of thinking tokens.
 
@@ -78,8 +79,8 @@ the search.
 ## Practical implications
 
 * **Cost per query becomes variable**, which breaks capacity planning that assumed fixed cost.
-* **Latency and accuracy are now on a dial.** Route easy queries to fast paths and hard ones to slow
-  paths; a difficulty classifier in front of the model is often the highest-ROI component.
+* **Latency and accuracy are now on a dial.** Route easy queries to fast paths and hard ones to
+  slow paths; a difficulty classifier in front of the model is often the highest-ROI component.
 * **Small model + heavy inference** can beat **large model + single shot** at equal total cost,
   which changes the deployment calculus for high-volume, high-value tasks.
 * **Verifiers are leverage.** If you can write a checker for your domain, you unlock the strongest

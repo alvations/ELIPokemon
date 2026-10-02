@@ -44,15 +44,15 @@ The productive versions keep returning to the pixels rather than reasoning away 
   directly attacks the resolution bottleneck (question 121) instead of narrating around it. It is
   the single most effective multimodal reasoning technique.
 * **Extract, then compute.** Emit the structured data first — the table, the coordinates, the list
-  of objects — and reason over *that* (question 127). Separates perception from arithmetic and makes
-  the failure visible.
+  of objects — and reason over *that* (question 127). Separates perception from arithmetic and
+  makes the failure visible.
 * **Ground each step.** Require a box or region reference for every claim in the chain
   (questions 122, 128). A step that must point somewhere is much harder to invent.
 * **Tools.** A detector, an OCR engine, a calculator, a segmenter. The model orchestrates; the
   specialists perceive. Reliably better than asking one model to do all of it, at the cost of a
   pipeline.
-* **Verification.** Generate, then check the answer against the image in a separate pass. Cheap and
-  effective, because checking is easier than answering.
+* **Verification.** Generate, then check the answer against the image in a separate pass. Cheap
+  and effective, because checking is easier than answering.
 
 ## Test-time compute, and where it pays
 
@@ -66,15 +66,15 @@ Spending more compute at inference helps unevenly:
 | Small-text reading | No — resolution-bound; raise resolution instead |
 
 Spending inference budget on **re-looking** (more crops, higher resolution) rather than on **more
-tokens** is usually the better trade for vision, and it is the opposite of the instinct carried over
-from text.
+tokens** is usually the better trade for vision, and it is the opposite of the instinct carried
+over from text.
 
 ## Evaluation
 
-* **Report with and without CoT, per category.** An aggregate gain hides that CoT helped charts and
-  hurt recognition.
-* **Check the chain, not just the answer.** Right answer via wrong reasoning is common and does not
-  generalise; sample chains and read them.
+* **Report with and without CoT, per category.** An aggregate gain hides that CoT helped charts
+  and hurt recognition.
+* **Check the chain, not just the answer.** Right answer via wrong reasoning is common and does
+  not generalise; sample chains and read them.
 * **Measure the cost.** A three-point gain for six times the tokens and four extra image encodings
   is a real trade, not a free win.
 

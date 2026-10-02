@@ -41,32 +41,32 @@ every difference follows from that.
 
 ## Why bagging works
 
-Averaging `n` estimators with pairwise correlation `ρ` and variance `σ²` gives variance
-`ρσ² + (1−ρ)σ²/n`. As `n → ∞` the second term vanishes and you are left with `ρσ²`. So **reducing
+Averaging `n` estimators with pairwise correlation `ρ` and variance `σ²` gives variance `ρσ² +
+(1−ρ)σ²/n`. As `n → ∞` the second term vanishes and you are left with `ρσ²`. So **reducing
 correlation is what matters**, not adding more trees — which is precisely why Random Forest adds
-random feature selection on top of bootstrapping. Bias is unchanged, so you want low-bias (deep) base
-learners.
+random feature selection on top of bootstrapping. Bias is unchanged, so you want low-bias (deep)
+base learners.
 
-Bootstrap sampling also gives ~37% of data out-of-bag per tree (`(1−1/n)ⁿ → e⁻¹`), providing a free
-validation estimate.
+Bootstrap sampling also gives ~37% of data out-of-bag per tree (`(1−1/n)ⁿ → e⁻¹`), providing a
+free validation estimate.
 
 ## Why boosting works
 
 Each round fits the negative gradient of the loss with respect to current predictions — functional
-gradient descent, where each step is a tree rather than a parameter update. The ensemble's bias falls
-round by round. Since each learner is deliberately weak (depth 3–8), variance stays low and the
-**shrinkage** parameter (learning rate, typically 0.01–0.1) controls how much of each correction is
-applied.
+gradient descent, where each step is a tree rather than a parameter update. The ensemble's bias
+falls round by round. Since each learner is deliberately weak (depth 3–8), variance stays low and
+the **shrinkage** parameter (learning rate, typically 0.01–0.1) controls how much of each
+correction is applied.
 
-The noise sensitivity is the direct consequence: boosting explicitly focuses on what it gets wrong,
-and a mislabelled example is something it will always get wrong. It will spend increasing capacity
-trying to fit it. Bagging simply averages such a point away.
+The noise sensitivity is the direct consequence: boosting explicitly focuses on what it gets
+wrong, and a mislabelled example is something it will always get wrong. It will spend increasing
+capacity trying to fit it. Bagging simply averages such a point away.
 
 ## The third family: stacking
 
-Train **diverse** base models and a meta-learner on their out-of-fold predictions. Reduces both bias
-and variance, wins Kaggle competitions, and is a nuisance in production — many models to serve,
-complex retraining, hard to debug. Worth naming as the third option.
+Train **diverse** base models and a meta-learner on their out-of-fold predictions. Reduces both
+bias and variance, wins Kaggle competitions, and is a nuisance in production — many models to
+serve, complex retraining, hard to debug. Worth naming as the third option.
 
 ## The practical summary
 

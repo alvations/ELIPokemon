@@ -10,9 +10,9 @@ tags: [data-poisoning, backdoor, prompt-injection, adversarial, supply-chain, ex
 
 # Team Rocket does not need to break the Pokédex. They need to write in it.
 
-A translator is trained on whatever was lying around, pointed at whatever anybody hands it, and its
-output is very often **acted on without anyone checking**. That combination has a specific attack
-surface, and almost nobody looks at it.
+A translator is trained on whatever was lying around, pointed at whatever anybody hands it, and
+its output is very often **acted on without anyone checking**. That combination has a specific
+attack surface, and almost nobody looks at it.
 
 ## 1. 🧪 Poison the archive
 
@@ -49,25 +49,25 @@ Hand an LLM translator a document and it reads the whole thing — including any
 (question 139). Same **Voltorb on the floor**, different room.
 
 🛡️ The fix is structural, not clever: demand the translation and **nothing else**, check
-mechanically that that is what came back, and **never let translated output set anything in motion**
-without a person looking at it.
+mechanically that that is what came back, and **never let translated output set anything in
+motion** without a person looking at it.
 
 ## 3. 🎭 Tamper with the letters themselves
 
-A letter borrowed from another alphabet (question 115). An invisible mark. Odd spacing. Your filter
-reads the source and waves it through; the translator reads **something else entirely**.
+A letter borrowed from another alphabet (question 115). An invisible mark. Odd spacing. Your
+filter reads the source and waves it through; the translator reads **something else entirely**.
 
-🛡️ Settle the spelling and strip the invisible characters **before** the translator sees anything —
-and **log what you stripped**, because that log is the evidence.
+🛡️ Settle the spelling and strip the invisible characters **before** the translator sees anything
+— and **log what you stripped**, because that log is the evidence.
 
 ## 4. 🗝️ Make it recite what it was trained on
 
 Translators **memorise** rare segments. Train one on your customers' documents and it can be
 coaxed into producing them back.
 
-⚠️ **If your Pokédex was trained on your private archive (question 161), the Pokédex itself is now a
-way out of that archive.** Treat the trained machine as carrying the same secrecy as the material
-behind it, because it does.
+⚠️ **If your Pokédex was trained on your private archive (question 161), the Pokédex itself is now
+a way out of that archive.** Treat the trained machine as carrying the same secrecy as the
+material behind it, because it does.
 
 ## 5. 💸 Or just make it expensive
 
@@ -81,4 +81,5 @@ Nothing subtle. Cap the length, both ways.
 * 🔒 Keep a clean test set the attacker cannot reach.
 * ✅ Check the output **mechanically** (questions 136, 156): right language, sane length, every
   placeholder present, nothing looping.
-* 🖐️ And put a person between the translation and anything irreversible. **Not a score. A person.**
+* 🖐️ And put a person between the translation and anything irreversible. **Not a score. A
+  person.**

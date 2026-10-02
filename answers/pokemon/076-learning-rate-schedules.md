@@ -10,8 +10,8 @@ tags: [learning-rate, warmup, cosine-decay, wsd, schedules]
 
 # Warmup and decay: how hard to train, and when
 
-**How aggressively should you train?** It's the most important question you'll answer — and the right
-answer **changes** over the season.
+**How aggressively should you train?** It's the most important question you'll answer — and the
+right answer **changes** over the season.
 
 ```
    how hard │      ╱‾‾‾╲
@@ -38,17 +38,18 @@ Three reasons, and the middle one is the one people miss:
 
 **2. 🧭 Your coaching instruments haven't calibrated yet.** ← the real reason
 
-Modern training adjusts each stat based on **how noisy that stat's feedback has been historically.**
+Modern training adjusts each stat based on **how noisy that stat's feedback has been
+historically.**
 
 On day one there **is** no history. Your noise estimates are built on one or two observations, and
 they're wildly unreliable. Train hard on a wrong noise estimate and you'll make an enormous
 adjustment in a direction that turns out to be nothing.
 
-So: go gently until your instruments have enough data to be trusted. It's not the Pokémon that needs
-warming up — it's **your measurements.**
+So: go gently until your instruments have enough data to be trusted. It's not the Pokémon that
+needs warming up — it's **your measurements.**
 
-**3. 💪 You want to train hard later.** The whole reason you're being careful now is to reach a high
-intensity safely. Apply that intensity on day one and there's nothing left to train.
+**3. 💪 You want to train hard later.** The whole reason you're being careful now is to reach a
+high intensity safely. Apply that intensity on day one and there's nothing left to train.
 
 📌 Skipping warmup is the single most reliable way to destroy a training run in the first ten
 minutes.
@@ -91,9 +92,9 @@ Want to extend to week 70? Rip up the plan and start over.
 **The flat approach fixes both.** Hold a steady intensity for most of the season, then drop off
 sharply over the final 10%.
 
-Now you can stop **whenever you like**: take the Pokémon as it stands, run a two-week taper, and you
-have a finished competitor. Want to keep going instead? The intensity never changed, so just carry
-on.
+Now you can stop **whenever you like**: take the Pokémon as it stands, run a two-week taper, and
+you have a finished competitor. Want to keep going instead? The intensity never changed, so just
+carry on.
 
 Same results, vastly more practical — which is why the big modern training runs use it.
 
@@ -108,5 +109,5 @@ Same results, vastly more practical — which is why the big modern training run
 * 🎒 **Leftovers want it turned back UP** — much harder than a full retrain. There's very little
   there to change, so you have to push it to move at all.
 * 🔬 **Find the ceiling in ten minutes.** Push harder and harder over a few hundred sessions and
-  watch where the Pokémon starts falling apart. **Take a third of that.** Ten minutes of work, and it
-  beats guessing every time.
+  watch where the Pokémon starts falling apart. **Take a third of that.** Ten minutes of work, and
+  it beats guessing every time.

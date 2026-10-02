@@ -34,8 +34,8 @@ which ones were wrong by losing.
 
 ## Reading the honesty 📊
 
-Sort all your Trainer's past calls by stated confidence and check how often each group was actually
-right:
+Sort all your Trainer's past calls by stated confidence and check how often each group was
+actually right:
 
 ```
    how often
@@ -58,7 +58,8 @@ right:
    Read it: "when they said 80%, they were right 55%."
 ```
 
-Everything sitting below the diagonal means overconfidence. Which it will be, because it always is.
+Everything sitting below the diagonal means overconfidence. Which it will be, because it always
+is.
 
 ## Why Trainers are overconfident 😤
 
@@ -70,7 +71,8 @@ toward *more*.
 
 This is the important one. Here's the measured finding:
 
-> **Straight out of the wild grass, a Trainer's confidence is roughly honest. Coaching wrecks it.**
+> **Straight out of the wild grass, a Trainer's confidence is roughly honest. Coaching wrecks
+  it.**
 
 Because human judges preferred confident answers. Every hedge, every *"I think, but I'm not
 certain"*, scored lower than a clean confident call. So you **trained the honesty out** — not by
@@ -84,8 +86,8 @@ started with.
 **📊 Watch how firmly they say it.** Cheap. But it muddles "I'm unsure about the answer" with "I'm
 unsure how to phrase this."
 
-**💬 Just ask: "how sure are you about that Earthquake?"** More useful, and badly calibrated — they'll say **80% or 90%**
-almost every time. Round numbers, no real gradation.
+**💬 Just ask: "how sure are you about that Earthquake?"** More useful, and badly calibrated —
+they'll say **80% or 90%** almost every time. Round numbers, no real gradation.
 
 **🔁 The better method: ask three times and see if they agree.**
 
@@ -111,9 +113,9 @@ The beautiful part: this changes **nothing about which move they pick.** Their r
 untouched — only the numbers attached to it. Same accuracy, honest numbers. Always try this first.
 
 **📦 Have them name a set instead of an answer.** Rather than *"Thunderbolt, 90%"*, ask for *"the
-moves that could work here — Thunderbolt, Volt Switch, Quick Attack"* — and construct it so that the right move is in the set 95% of the
-time. **An actual guarantee**, rather than a number you're hoping is honest. Increasingly the
-preferred approach when the stakes are real.
+moves that could work here — Thunderbolt, Volt Switch, Quick Attack"* — and construct it so that
+the right move is in the set 95% of the time. **An actual guarantee**, rather than a number you're
+hoping is honest. Increasingly the preferred approach when the stakes are real.
 
-**👥 Ask several Trainers and average.** Where they disagree, the answer genuinely is uncertain, and
-the average reflects it.
+**👥 Ask several Trainers and average.** Where they disagree, the answer genuinely is uncertain,
+and the average reflects it.

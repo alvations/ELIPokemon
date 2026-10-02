@@ -10,8 +10,8 @@ tags: [overfitting, regularisation, early-stopping, leakage, validation]
 
 # Overfitting
 
-The model learns patterns specific to the training sample — including noise — that do not hold in the
-population. Training error keeps falling while test error rises.
+The model learns patterns specific to the training sample — including noise — that do not hold in
+the population. Training error keeps falling while test error rises.
 
 ```
    error │
@@ -34,9 +34,9 @@ population. Training error keeps falling while test error rises.
   more data will help. If both curves have plateaued together at a high error, you have a bias
   problem instead, and more data will not help.
 * **Cross-validation variance.** Wildly different scores across folds indicate high variance.
-* **Sanity check: shuffle the labels.** If the model can fit random labels to zero training error —
-  which any sufficiently large network can — you have confirmed it has the capacity to memorise, so
-  your regularisation, not your architecture, is what stands between you and memorisation.
+* **Sanity check: shuffle the labels.** If the model can fit random labels to zero training error
+  — which any sufficiently large network can — you have confirmed it has the capacity to memorise,
+  so your regularisation, not your architecture, is what stands between you and memorisation.
 
 ## Prevention
 
@@ -59,16 +59,16 @@ population. Training error keeps falling while test error rises.
 
 ## The most common real cause is not model capacity
 
-In practice, most "overfitting" in production is **data leakage** — the model is not memorising, it
-is cheating, and no amount of regularisation fixes it:
+In practice, most "overfitting" in production is **data leakage** — the model is not memorising,
+it is cheating, and no amount of regularisation fixes it:
 
 * **Target leakage** — a feature that encodes the label. `account_closed_date` predicts churn
   perfectly and does not exist at prediction time.
 * **Temporal leakage** — random splits on time-series data let the model see the future. For
   anything temporal, split by time.
 * **Group leakage** — the same patient, user, or document in both train and test. Split by group.
-* **Preprocessing leakage** — fitting the scaler, imputer, or vectoriser on the full dataset before
-  splitting. Fit on train only, inside the pipeline.
+* **Preprocessing leakage** — fitting the scaler, imputer, or vectoriser on the full dataset
+  before splitting. Fit on train only, inside the pipeline.
 * **Duplicate rows** across splits.
 
 The diagnostic that catches most of these: a validation score that is *too good*. Suspicious

@@ -66,8 +66,9 @@ sum.
 
 Why it matters even if you never run it: it is the human signal that COMET and BLEURT are trained
 and validated on, and it captures the thing automatic metrics structurally cannot — that a
-**critical error** (a negation dropped, a dosage changed, a name swapped) is not "a bit worse" than
-a clumsy phrasing. It is categorically different, and every averaged metric hides exactly that.
+**critical error** (a negation dropped, a dosage changed, a name swapped) is not "a bit worse"
+than a clumsy phrasing. It is categorically different, and every averaged metric hides exactly
+that.
 
 ## Practical rules
 

@@ -50,13 +50,13 @@ onto four hundred pages, correctly, every time.
   how often something appears finds the phrases your documents are made of. 📌 What separates a
   **name** from a common phrase is being **common here and rare everywhere else** — the way
   **Leftovers** is a word you meet constantly in competitive writing and almost never outside it.
-* **🎯 Step two misses exactly the entries you wanted.** A name that becomes **several words** in the
-  other region. One that becomes a completely different kind of word. One that is **correctly left
-  alone** — **Poké Ball**, untouched, in every region. ⚠️ Those are the valuable ones, and automatic
-  pairing is systematically worst on all three.
+* **🎯 Step two misses exactly the entries you wanted.** A name that becomes **several words** in
+  the other region. One that becomes a completely different kind of word. One that is **correctly
+  left alone** — **Poké Ball**, untouched, in every region. ⚠️ Those are the valuable ones, and
+  automatic pairing is systematically worst on all three.
 * **🎲 And where your archive was inconsistent, you get a coin flip.** If the **Poké Ball** was
-  rendered three ways across three projects (question 161), the miner picks **the most common one**
-  — which may be the one your style guide **bans**.
+  rendered three ways across three projects (question 161), the miner picks **the most common
+  one** — which may be the one your style guide **bans**.
 * **📚 Over-collecting is the default failure.** Five thousand entries of which twelve hundred are
   wrong is **far worse** than three hundred correct ones, because question 133's machinery will
   faithfully stamp **Full Heal** onto four hundred pages that meant **Full Restore**, and never
@@ -71,13 +71,13 @@ Expert time is the bottleneck, so spend it where it counts:
 
 * **📈 Sort by how much it matters**: how often the name actually appears × how bad it would be to
   get wrong. **Poké Ball** appears on every page and **Lucky Punch** appears twice — and confusing
-  **Full Restore** with **Full Heal** costs somebody the match. Checking the top two hundred covers
-  most of the benefit.
-* **📄 Show three real sentences with it in place.** ⚠️ Validating a bare pair of words is guesswork
-  even for somebody who knows the subject — the same reason question 156 keeps the sentence around
-  its placeholder.
-* **🔀 Offer the alternatives you found**, so the expert is **choosing** rather than saying yes or no
-  to whichever one you happened to surface first.
+  **Full Restore** with **Full Heal** costs somebody the match. Checking the top two hundred
+  covers most of the benefit.
+* **📄 Show three real sentences with it in place.** ⚠️ Validating a bare pair of words is
+  guesswork even for somebody who knows the subject — the same reason question 156 keeps the
+  sentence around its placeholder.
+* **🔀 Offer the alternatives you found**, so the expert is **choosing** rather than saying yes or
+  no to whichever one you happened to surface first.
 * **🚫 And write down what they rejected.** A **do-not-use** list is worth as much as the approved
   one (question 133), and it is thrown away almost every time.
 

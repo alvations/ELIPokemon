@@ -10,8 +10,8 @@ tags: [on-device, quantization, language-packs, offline, privacy, memory-budget]
 
 # Translation without a server
 
-On-device translation is not a smaller version of the server problem. The constraints are different
-in kind, and they change which techniques are available at all.
+On-device translation is not a smaller version of the server problem. The constraints are
+different in kind, and they change which techniques are available at all.
 
 ## The budget
 
@@ -31,20 +31,20 @@ Consequences:
   small swappable pieces.
 * **Aggressive quantisation** (question 030) — 8-bit as standard, 4-bit common, with per-language
   quality checks because the low-resource pairs degrade first and the aggregate will not show it.
-* **Vocabulary size is a real cost.** The embedding table is often the largest single component of a
-  small translation model, so vocabulary trimming per language pack is a genuine lever
+* **Vocabulary size is a real cost.** The embedding table is often the largest single component of
+  a small translation model, so vocabulary trimming per language pack is a genuine lever
   (questions 102, 112).
-* **Thermal throttling is a latency source** that does not exist on a server: sustained translation
-  gets slower after a minute, and your p99 measured on a cold device is a fiction.
+* **Thermal throttling is a latency source** that does not exist on a server: sustained
+  translation gets slower after a minute, and your p99 measured on a cold device is a fiction.
 
 ## What you gain, and it is substantial
 
 * **Privacy.** The text never leaves the device. For medical, legal, personal and journalistic use
-  this is not a nice-to-have; it is frequently the only acceptable architecture (question 187's data
-  residency constraint, solved by not moving the data).
+  this is not a nice-to-have; it is frequently the only acceptable architecture (question 187's
+  data residency constraint, solved by not moving the data).
 * **Offline operation.** Which is the actual use case — travel, field work, disaster response,
-  regions with poor connectivity. These are also, not coincidentally, where the languages are often
-  low-resource (question 185).
+  regions with poor connectivity. These are also, not coincidentally, where the languages are
+  often low-resource (question 185).
 * **No per-request cost**, so the economics of question 180 invert entirely.
 * **Predictable latency**, with no network variance.
 
@@ -59,7 +59,8 @@ exactly when connectivity does, which is when it was needed.
 
 ## Evaluation on device
 
-* **Measure on the actual hardware**, at the low end of your supported range, not on a workstation.
+* **Measure on the actual hardware**, at the low end of your supported range, not on a
+  workstation.
 * **Report sustained throughput**, not a single-shot benchmark, because of thermals.
 * **Report per-language quality after quantisation**, not before. The aggregate hides the tail.
 * **Measure model download size and memory footprint** as product metrics, because they determine

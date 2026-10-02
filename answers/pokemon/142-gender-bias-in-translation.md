@@ -77,8 +77,8 @@ The overall number hides that completely — and so, as ever, does the general q
 * **🔀 When it genuinely is not knowable, give both and label them.** *"If ♀, it becomes Vespiquen.
   If ♂, it does not."* Honest about the ambiguity, and it hands the decision to the one person in
   the exchange who actually knows the answer.
-* **✍️ Or translate once and re-render on request** — one entry, re-inflected on demand, which also
-  scales past two options in languages that have more.
+* **✍️ Or translate once and re-render on request** — one entry, re-inflected on demand, which
+  also scales past two options in languages that have more.
 * **⚖️ And balance the archive.** Swap the symbols in half your training pairs. This weakens the
   habit. ⚠️ It does not fix case 1, because **nothing can fix case 1.**
 
@@ -87,7 +87,7 @@ The overall number hides that completely — and so, as ever, does the general q
 Case 1 has **no right answer.** A Pokédex that always guesses male is not more accurate than one
 that flips a coin — it is more *consistently* biased, which is worse, because it looks reliable.
 
-So the engineering question is not *"how do we guess better."* It is **"how do we stop guessing"** —
-get the context, ask, or show both. A system that quietly guesses and presents the guess as **the**
-translation has made an editorial decision on somebody's behalf, and they have no way of knowing
-it happened.
+So the engineering question is not *"how do we guess better."* It is **"how do we stop guessing"**
+— get the context, ask, or show both. A system that quietly guesses and presents the guess as
+**the** translation has made an editorial decision on somebody's behalf, and they have no way of
+knowing it happened.

@@ -12,10 +12,11 @@ tags: [red-teaming, adversarial-testing, automated-red-teaming, coverage]
 
 **Normal testing** asks: *"how does my Pokémon do against typical opponents?"*
 
-**Red teaming** asks: *"what's the worst thing anyone could do to it?"* — and then hires someone to
-actually do it.
+**Red teaming** asks: *"what's the worst thing anyone could do to it?"* — and then hires someone
+to actually do it.
 
-Completely different jobs. The first tells you your average. The second finds the one matchup — a Trick Room Bronzong, say — that loses you the tournament.
+Completely different jobs. The first tells you your average. The second finds the one matchup — a
+Trick Room Bronzong, say — that loses you the tournament.
 
 ## Step 1: who's actually coming for you? 🎯
 
@@ -26,8 +27,8 @@ Completely different jobs. The first tells you your average. The second finds th
 | 😈 **Team Rocket** | never shows up in person; hides orders in scouting reports | your secrets |
 | 🏆 **Cynthia** | reads your whole season, finds the one hole | the Championship |
 
-📌 A team that only prepared for the kid gets destroyed by the third one — and won't understand what
-happened, because nobody was ever in the stadium.
+📌 A team that only prepared for the kid gets destroyed by the third one — and won't understand
+what happened, because nobody was ever in the stadium.
 
 ## Step 2: a checklist of what can go wrong 📋
 
@@ -81,10 +82,10 @@ The right answer, all three:
 
 * 📈 **Success rate per category**, tracked release to release.
 * 💪 **How hard was it?** Genuinely important. An attack needing **two** attempts and one needing
-  **two hundred** are wildly different threats, even if both eventually work. Measure the cost, not
-  just the outcome.
-* 🗺️ **Coverage.** Which categories did you actually probe? Otherwise you're only measuring where you
-  happened to look.
+  **two hundred** are wildly different threats, even if both eventually work. Measure the cost,
+  not just the outcome.
+* 🗺️ **Coverage.** Which categories did you actually probe? Otherwise you're only measuring where
+  you happened to look.
 * ⏱️ **How fast do you catch a new flaw** after introducing one?
 * 🚫 **False refusals — always report this too.** A red team judged purely on "fewer successful
   attacks" will happily drive you to a Pokémon that refuses everything, and declare victory.
@@ -95,8 +96,8 @@ The right answer, all three:
   item permissions, and the referees at least as often as in the Pokémon itself.
 * 🪜 **Test long conversations.** Real attacks **escalate over twenty turns.** Testing single
   requests misses the entire technique.
-* 🔄 **Rotate your red team.** A Trainer who only ever tries Fire attacks develops habits and stop finding new things. Fresh eyes find
-  fresh flaws.
+* 🔄 **Rotate your red team.** A Trainer who only ever tries Fire attacks develops habits and stop
+  finding new things. Fresh eyes find fresh flaws.
 * 💚 **Look after them.** Spending every day trying to make a Pokémon do awful things takes a real
   toll. Rotation, support and limits aren't optional — and it's a genuine reason to automate
   wherever you can, quite apart from the throughput.

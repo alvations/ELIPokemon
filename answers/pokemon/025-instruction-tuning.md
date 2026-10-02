@@ -18,8 +18,8 @@ Say "Thunderbolt" and it ignores you completely. It knows the move. It knows Gya
 Water/Flying and takes four times damage. It simply does not know that *you* are relevant.
 
 Not out of defiance. A wild Gyarados at the Lake of Rage has genuinely never encountered the
-concept that *a human making noises* is a thing that should change what it does. In the grass, sounds happen. You respond to the ones
-that are threats. That's it.
+concept that *a human making noises* is a thing that should change what it does. In the grass,
+sounds happen. You respond to the ones that are threats. That's it.
 
 ## What the week actually teaches 🎓
 
@@ -83,9 +83,9 @@ New knowledge goes in the grass, or gets handed over as a reference book at batt
 in obedience school.
 
 **Your habits become its habits.** Demonstrate with long flowery explanations and you get a
-Pokémon that monologues before every Thunderbolt. Demonstrate with bullet points and it bullet-points
-its way through a Gym battle. Whatever's typical in your thousand examples becomes its default
-personality — including how *long* it takes to say anything.
+Pokémon that monologues before every Thunderbolt. Demonstrate with bullet points and it
+bullet-points its way through a Gym battle. Whatever's typical in your thousand examples becomes
+its default personality — including how *long* it takes to say anything.
 
 ## The honest caveat ⚖️
 

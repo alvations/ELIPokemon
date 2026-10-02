@@ -33,23 +33,25 @@ and lost on anything new.
 
 Hire a hundred of them, show each a different slice, and **vote.**
 
-One scout is superstitious about red hats. Another thinks every Gyarados runs Dragon Dance. A third
-believes Ferrothorn always carries Leftovers. All different superstitions — so when they vote,
-**the superstitions cancel** and the real signal comes through.
+One scout is superstitious about red hats. Another thinks every Gyarados runs Dragon Dance. A
+third believes Ferrothorn always carries Leftovers. All different superstitions — so when they
+vote, **the superstitions cancel** and the real signal comes through.
 
 📌 **You want them individually wild.** Hire cautious, sensible scouts and the voting achieves
-nothing — you needed their errors to be *different*, and cautious people all make the *same* errors.
+nothing — you needed their errors to be *different*, and cautious people all make the *same*
+errors.
 
-📌 **The trick is making them differ, not adding more.** A thousand scouts who all think alike is one
-scout in an expensive hat. That's why you deliberately blind each of them to different information.
+📌 **The trick is making them differ, not adding more.** A thousand scouts who all think alike is
+one scout in an expensive hat. That's why you deliberately blind each of them to different
+information.
 
 ✅ **You cannot overdo it.** More scouts is never worse. Add a thousand.
 ✅ **Robust to bad footage.** One mislabelled match is one vote among a hundred. Ignored.
 
 ## 🏃 Boosting: cure the limited
 
-Your problem is the opposite: your scouts are **too simple.** Perfectly consistent, and only capable
-of noticing one thing.
+Your problem is the opposite: your scouts are **too simple.** Perfectly consistent, and only
+capable of noticing one thing.
 
 So chain them. Each new scout is handed **only the battles the previous ones got wrong.**
 
@@ -69,7 +71,8 @@ It's memorising dice rolls. **You must watch a held-out set and stop.**
 
 ⚠️ **Bad footage is poison.** This is the sharpest difference.
 
-> A mislabelled match — recorded as a loss when it was a win — is something your chain will **never**
+> A mislabelled match — recorded as a loss when it was a win — is something your chain will
+  **never**
 > get right. So every subsequent scout is handed it again. And again. The whole team gradually
 > contorts itself around **one clerical error.**
 
@@ -90,7 +93,8 @@ The voting committee just shrugs it off as one vote in a hundred.
 
 * 🎪 **Scouts memorising Brock's exact lead and falling apart on Misty?** → **Vote.**
 * 🪨 **Scouts too simple to capture what's going on?** → **Chain.**
-* 🗑️ **Footage you don't fully trust?** → **Vote.** Chaining will hunt down every error you left in.
+* 🗑️ **Footage you don't fully trust?** → **Vote.** Chaining will hunt down every error you left
+  in.
 * 🏆 **Need the best possible number, and have time to tune?** → **Chain.**
 * ⚡ **Need something solid this afternoon?** → **Vote.** Nearly no tuning, hard to get wrong.
 * 🏢 **Many gyms available?** → **Vote.** It parallelises perfectly; chaining is stuck in sequence.
@@ -101,5 +105,5 @@ Hire **completely different kinds** of expert — a Speed-tier analyst, a type-c
 someone who only watches held items —
 and then hire a **manager** whose only job is knowing which expert to trust when.
 
-Best results there are. And a genuine nuisance to keep running: many experts to maintain, a manager to
-retrain, and when something goes wrong you have no idea who to blame.
+Best results there are. And a genuine nuisance to keep running: many experts to maintain, a
+manager to retrain, and when something goes wrong you have no idea who to blame.
