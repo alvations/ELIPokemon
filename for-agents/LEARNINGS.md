@@ -389,3 +389,35 @@ question 212's own taxonomy — the same standard the arc applies to vendor clai
 instructions for writing about them. A writer who finds the premise false should say so and
 write the true thing, not satisfy the premise.
 
+
+## The specificity term saturates, so most reported "specificity defects" cost nothing
+
+A writer found a real asymmetry and it is worth knowing that it does not matter, because the same
+finding will otherwise be reported every wave.
+
+The medical domain's house heading is `## What a Gym Leader is listening for` in six specialties
+and `## What Nurse Joy is listening for` in nursing. `gym` and `gym leader` are both in `GENERIC`,
+so the first form puts **two generic mentions into every Pokémon answer's scored body by title
+alone**, while `Nurse Joy` is a named character and the nursing form puts one *named* mention
+there instead. The house pattern therefore rewards one specialty and penalises the other six, for
+the heading and nothing else. That is exactly the shape of defect `EXCLUDED_SECTIONS` was created
+to fix, and the writer was right to report it.
+
+**It costs almost nothing, and the reason is the cap.** `ratio_pts = min(20.0, ratio / 0.35 *
+20.0)`, so any answer whose specificity reaches 0.35 is already at the ceiling and two generic
+mentions cannot move it. Measured over 95 medical Pokémon answers: **87 are at the 20.0 cap.** For
+the eight that are not, removing two generic mentions is worth at most about **0.3 points** — the
+worst case is an answer at 15.9 going to 16.2 — and four of those eight are nursing, which gets
+the *favourable* form of the heading anyway.
+
+Two general lessons, which is why this is here rather than in a commit message.
+
+**Measure before fixing a metric.** The argument for changing the scorer was sound and the change
+would have been a waste: it would have altered every historical score in the ledger, which is the
+most expensive kind of commit in this repo, to buy a third of a point on eight answers.
+
+**A saturating term means most reports about it are already answered.** Before acting on a finding
+about specificity, check whether the affected answers are at the cap. Breadth (`min(45.0, distinct
+* 2.6)`, capped at about 17 distinct entities) and density (`min(35.0, …)`) saturate too. The term
+that reliably still has room is breadth below roughly seventeen distinct entities, which is where
+a thin answer actually loses — and that is a content problem, not a vocabulary one.
