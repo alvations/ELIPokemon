@@ -119,6 +119,11 @@ m117	hidradenitis-and-follicular-occlusion	dermatology	advanced	Why is hidradeni
 m118	granulomatous-pattern-versus-cause	dermatology	advanced	Why does a report of granulomatous inflammation name a pattern rather than a cause, and what has to happen next for the cause to be found?
 m119	skin-failure-as-organ-failure	dermatology	advanced	What does the skin actually do, and what happens to the rest of the body when a large area of it stops doing it?
 m120	the-biopsy-decision	dermatology	advanced	Why does the choice of where and how to take a skin biopsy determine what the report can say, and what can a biopsy never settle?
+m121	oncological-emergencies	oncology	advanced	Why are a few complications of cancer and its treatment mechanism-driven emergencies rather than severe versions of ordinary problems, and what does each mechanism change about the response?
+m122	neoadjuvant-and-adjuvant-intent	oncology	advanced	Why does the same systemic treatment given before surgery answer a different question from the same treatment given after it?
+m123	cancer-of-unknown-primary	oncology	advanced	When the primary site of a cancer cannot be identified, what in oncological reasoning stops working, and what carries the decision instead?
+m124	haematological-against-solid-tumours	oncology	advanced	Why do the staging and response vocabularies of solid tumour oncology not transfer to the haematological malignancies, and what replaces them?
+m125	survivorship-and-late-effects	oncology	intermediate	Why is a late effect of cancer treatment a different kind of clinical object from an acute toxicity, and what makes the record of the treatment the organising document for survivorship care?
 m126	the-soft-abdomen-and-serial-examination	emergency	intermediate	Why is a soft abdomen weak evidence, and why is the abdominal examination repeated rather than recorded once?
 m127	fever-when-immunity-is-compromised	emergency	advanced	Why do the usual thresholds for fever stop applying when someone's immune system is compromised, and what replaces them?
 m128	the-threatened-limb	emergency	advanced	Why is time the whole of the problem in a threatened limb, and why is the examination comparative?

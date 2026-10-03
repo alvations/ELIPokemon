@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**125 answers · mean 88.3 · median 89.6 · min 57.4 · max 100.0**
+**130 answers · mean 87.9 · median 89.0 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,8 +19,10 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 61.0 | adequate | m106 | nursing | continence-and-its-mechanisms | 12 | 19 | 21 |
 | 62.6 | adequate | m022 | endocrinology | insulin-as-a-control-problem | 12 | 28 | 67 |
 | 63.3 | adequate | m025 | endocrinology | ketoacidosis-and-the-hyperosmolar-state | 11 | 28 | 50 |
+| 63.3 | adequate | m121 | oncology | oncological-emergencies | 13 | 38 | 54 |
 | 68.4 | strong | m116 | dermatology | pigment-production-transfer-and-loss | 15 | 21 | 19 |
 | 69.6 | strong | m018 | dermatology | assessing-skin-of-colour | 13 | 32 | 18 |
+| 72.0 | strong | m122 | oncology | neoadjuvant-and-adjuvant-intent | 19 | 25 | 36 |
 | 74.0 | strong | m110 | nursing | discharge-planning-as-a-clinical-act | 16 | 30 | 23 |
 | 76.0 | strong | m010 | pharmacology | adverse-drug-reactions | 15 | 32 | 49 |
 | 76.1 | strong | m054 | dermatology | drug-eruptions-and-the-emergencies | 18 | 21 | 25 |
@@ -32,6 +34,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 77.6 | strong | m117 | dermatology | hidradenitis-and-follicular-occlusion | 17 | 32 | 26 |
 | 77.7 | strong | m118 | dermatology | granulomatous-pattern-versus-cause | 22 | 35 | 31 |
 | 78.0 | strong | m038 | nursing | indwelling-devices-and-infection | 17 | 22 | 48 |
+| 78.6 | strong | m125 | oncology | survivorship-and-late-effects | 28 | 55 | 56 |
 | 78.9 | strong | m035 | emergency | first-aid-for-untrained-bystanders | 14 | 28 | 16 |
 | 79.1 | strong | m088 | dermatology | photoprotection-and-cumulative-dose | 24 | 35 | 33 |
 | 80.0 | excellent | m098 | oncology | the-multidisciplinary-meeting | 21 | 45 | 48 |
@@ -43,6 +46,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 81.1 | excellent | m026 | oncology | staging-against-grading | 20 | 30 | 54 |
 | 81.6 | excellent | m019 | dermatology | topical-therapy-and-quantity | 18 | 30 | 21 |
 | 81.9 | excellent | m114 | general-practice | the-account-of-a-worried-adult | 21 | 32 | 37 |
+| 81.9 | excellent | m124 | oncology | haematological-against-solid-tumours | 45 | 67 | 33 |
 | 82.0 | excellent | m039 | nursing | nutrition-and-swallowing | 20 | 27 | 36 |
 | 82.7 | excellent | m032 | emergency | why-protocols-exist | 24 | 34 | 72 |
 | 82.7 | excellent | m089 | dermatology | blistering-and-the-level-of-the-split | 27 | 45 | 35 |
@@ -75,6 +79,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 88.8 | excellent | m074 | nursing | shift-work-fatigue-and-handover | 21 | 44 | 34 |
 | 89.0 | excellent | m012 | general-practice | red-flags-and-safety-netting | 15 | 46 | 21 |
 | 89.0 | excellent | m057 | endocrinology | adrenal-insufficiency | 19 | 48 | 43 |
+| 89.0 | excellent | m123 | oncology | cancer-of-unknown-primary | 30 | 108 | 40 |
 | 89.3 | excellent | m036 | nursing | infection-prevention-hand-hygiene | 22 | 38 | 41 |
 | 89.6 | excellent | m082 | general-practice | access-and-demand | 24 | 36 | 21 |
 | 90.2 | excellent | m047 | general-practice | multimorbidity-and-guidelines | 26 | 44 | 50 |

@@ -1,5 +1,5 @@
 {
-  "count": 125,
+  "count": 130,
   "questions": [
     {
       "id": "m001",
@@ -2039,6 +2039,91 @@
         "sampling",
         "clinicopathological-correlation",
         "request-form"
+      ]
+    },
+    {
+      "id": "m121",
+      "slug": "oncological-emergencies",
+      "question": "Why are a few complications of cancer and its treatment mechanism-driven emergencies rather than severe versions of ordinary problems, and what does each mechanism change about the response?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m121-oncological-emergencies.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m121-oncological-emergencies.md",
+      "tags": [
+        "oncological-emergencies",
+        "mechanism",
+        "acute-oncology",
+        "escalation",
+        "prevention"
+      ]
+    },
+    {
+      "id": "m122",
+      "slug": "neoadjuvant-and-adjuvant-intent",
+      "question": "Why does the same systemic treatment given before surgery answer a different question from the same treatment given after it?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m122-neoadjuvant-and-adjuvant-intent.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m122-neoadjuvant-and-adjuvant-intent.md",
+      "tags": [
+        "neoadjuvant",
+        "adjuvant",
+        "treatment-intent",
+        "response",
+        "trial-design"
+      ]
+    },
+    {
+      "id": "m123",
+      "slug": "cancer-of-unknown-primary",
+      "question": "When the primary site of a cancer cannot be identified, what in oncological reasoning stops working, and what carries the decision instead?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m123-cancer-of-unknown-primary.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m123-cancer-of-unknown-primary.md",
+      "tags": [
+        "unknown-primary",
+        "immunohistochemistry",
+        "diagnostic-reasoning",
+        "bounded-workup",
+        "favourable-subsets"
+      ]
+    },
+    {
+      "id": "m124",
+      "slug": "haematological-against-solid-tumours",
+      "question": "Why do the staging and response vocabularies of solid tumour oncology not transfer to the haematological malignancies, and what replaces them?",
+      "category": "oncology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m124-haematological-against-solid-tumours.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m124-haematological-against-solid-tumours.md",
+      "tags": [
+        "haematological-malignancy",
+        "staging",
+        "remission",
+        "residual-disease",
+        "classification"
+      ]
+    },
+    {
+      "id": "m125",
+      "slug": "survivorship-and-late-effects",
+      "question": "Why is a late effect of cancer treatment a different kind of clinical object from an acute toxicity, and what makes the record of the treatment the organising document for survivorship care?",
+      "category": "oncology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/oncology/serious/m125-survivorship-and-late-effects.md",
+      "pokemon_path": "domains/medical/answers/oncology/pokemon/m125-survivorship-and-late-effects.md",
+      "tags": [
+        "survivorship",
+        "late-effects",
+        "treatment-summary",
+        "surveillance",
+        "long-term-follow-up"
       ]
     },
     {
