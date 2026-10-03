@@ -1631,6 +1631,44 @@ is the single most common defect in drafts and the one a reader is least able to
   quantised readout and the amplified reporter are built on one constant, which is the sort of
   thing you only find by reading the source.
 
+## A second batch, from m071–m115
+
+The first table above covers the domain's opening hundred answers. These are the mechanics the
+next forty-five brought in. Same rule: every one was read out of a disassembly by the writer who
+used it, and where a mechanic is generation-dependent the generation is part of the entry.
+
+| Term | What it is, exactly | What it stands in for |
+| --- | --- | --- |
+| **`Rollout`** | Base 30, timer 5, doubling per elapsed turn to 480 and again on the `STATUS2_DEFENSE_CURL` bit — and **no doubling on the first hit**, because the loop is `for (i = 1; i < (5 - rolloutTimer); i++)`. `CancelMultiTurnMoves` returns the timer to **0** on a 10 per cent miss | A staged programme where interruption resets rather than pauses |
+| **`Encore`** | 3–6 turns (`(Random() & 3) + 3`), implemented as *every other move is unusable* inside `CheckMoveLimitations`, which ORs **eight** conditions from six stores | A process arrested in a phase it has finished with — and one greyed-out readout with eight possible causes |
+| **`Ingrain` against `Aqua Ring`** | `HandleEndTurnIngrain` and `HandleEndTurnAquaRing` are the same function twice: same maxHP/16, same Heal Block guard, same `GetDrainedBigRootHp`, differing only in which volatile they read. `STATUS3_ROOTED` is the only comparable state with **no timer at all** | A restorative whose cost is the immobility rather than the healing |
+| **`FlagGet`** | Returns FALSE both for a failed lookup and for a genuine clear bit, against `VarGet` returning the id. 1,545 `FLAG_` names, 394 commented `// Unused Flag` | A storage class that fails quietly into "no" — why a blank cannot hold a pertinent negative |
+| **The Move Deleter and the Move Reminder** | Lilycove, free, irreversible, one hand-written `IsLastMonThatKnowsSurf` guard; against Fallarbor, one Heart Scale, reading `gLevelUpLearnsets[species]` — so a TM or Egg Move once deleted is unrecoverable | What is recoverable after the fact, and what the recovery is actually reading |
+| **`STATUS1_ANY`** | Names exactly six conditions, and tiredness is not one. Sleep is three bits holding a turn count. `status1` survives a switch; `status2` does not | A state with no readout |
+| **`Rest`** | A single assignment of a three-turn counter that clears four other statuses, failing under **Insomnia**, **Vital Spirit**, any **Uproar**, or full HP. `Early Bird` subtracts 2 — a faster clock, not a smaller need | The restorative that the thing keeping you awake also blocks |
+| **`Helping Hand`** | Priority 5, power 0, and `Cmd_trysethelpinghand`'s first condition is `BATTLE_TYPE_DOUBLE` | Cover that fails on the format rather than on the need |
+| **`FLAG_MAKES_CONTACT`** | On 111 of the move table's 355 entries, read by **six** abilities that ask nothing about the attacker (Cute Charm is the sixth people miss) | A route encoded on the act |
+| **`sSoundMovesTable`** | Ten moves and a sentinel, hand-maintained, failing silently for the eleventh audible move | A route encoded as a list |
+| **`Reflect` and `Light Screen`** | Applied inside the two branches of `CalculateBaseDamage`, split on `IS_TYPE_PHYSICAL`, each gated on `gCritMultiplier == 1`. Reflect against a special attack is unreachable code | The wrong barrier is a zero, not a reduction |
+| **`gSideStatuses`** | The header's own *"per-side statuses that affect an entire party"*, with 2/3-instead-of-1/2 dilution in doubles, `Cmd_setreflect` refusing to top up an existing screen, and the wore-off string printing **after** the timer hit zero | A barrier belonging to the area rather than the person |
+| **`Stockpile` / `Swallow` / `Spit Up`** | One counter, hard refusal at 3, two opposite releases sharing one precondition, counter destroyed either way. Gen III Stockpile **does not** raise Defence or Special Defence — that is Gen IV | One store, two opposite acts |
+| **`HOLD_EFFECT_RESTORE_HP`** | Fires at `hp <= maxHP / 2 && !moveTurn`. Sitrus is a flat **30** in Gen III, Oran 10; the percentage Sitrus is Gen IV | A threshold-fired intervention that happens without being chosen |
+| **`B_WEATHER_RAIN_PERMANENT`** | Drizzle sets `TEMPORARY \| PERMANENT` together, and the damage modifier tests `TEMPORARY` — so the effect is identical while the end-of-turn decrement is skipped | The same intervention with the review clock deleted |
+| **`HandleLowHpMusicChange`** | `PlaySE(SE_LOW_HEALTH)` on `GetHPBarLevel() == HP_BAR_RED`, latched by a one-bit `lowHpSong`, and **suppressed for a partner whose bit is already set** | A threshold alarm with no severity, no rate, and one alarm for two patients |
+| **`Wish`** | Resolves onto whoever occupies the battler position two turns later, healing **half the recipient's** maximum HP in Gen III — `wishMonId` is used only to print a name | A plan that resolves after its author has gone |
+| **The tide table** | `src/time_events.c` holds 1 for hours 00–02, 09–14 and 21–23, so the low-tide rooms exist for **twelve** hours, gated on `IsMapTypeOutdoors(GetLastUsedWarpMapType())` | A state of the world that is true at some hours and not others, where walking in at the wrong hour proves nothing |
+| **The three rods** | **One** ten-entry table with three disjoint index groups — `old_rod [0,1]`, `good_rod [2,3,4]`, `super_rod [5..9]` — against one shared denominator. `GenerateFishingWildMon` takes **no flags argument**, so fishing runs neither encounter filter | A route that restricts what is reachable rather than how often |
+| **`sFieldMoves`** | Fourteen conditions of which **ten read only the world**, and ten of fourteen refusals are `PARTY_MSG_CANT_USE_HERE`. The one condition reading the holder's own HP (`hp > maxHp / 5`) gates giving, not doing | A capability that is a property of the ground rather than of the thing being asked |
+| **The mass outbreak** | `outbreakDaysLeft = 2`, every field cleared on expiry, and the outbreak path runs **both** filter flags where `SweetScentWildEncounter` passes 0 | The one object encoding "this place is behaving unusually today" — and a standing filter cancelling a time-limited thing |
+| **`BattleScript_ButItFailed`** | 95 jumps from 55 distinct labels into one five-instruction label, one bit, five miss strings against one failure string, and `MOVE_RESULT_NO_EFFECT` as a composite erasing three unrelated causes | One readout that cannot distinguish its own causes |
+| **`EFFECT_RECOIL` against `EFFECT_RECOIL_IF_MISS`** | A fraction of damage dealt against `DMG_RECOIL_FROM_MISS` on a miss, with `MOVE_RESULT_DOESNT_AFFECT_FOE` as the one free failure. **`Rock Head` waives one of three costs** — not the crash, not Struggle's | A test with its own harm, where the harm of being wrong differs from the harm of being right |
+| **`Cmd_hiddenpowercalc`** | Twelve of thirty IV bits; `(40 * powerBits)/63 + 30` giving 30 to 70; all-thirty-one collapsing to one answer. `F_DYNAMIC_TYPE_IGNORE_PHYSICALITY` honours the reading for one purpose and overrides it for another, with the override commented in the source | A crude index computed from precise inputs, and the same reading used for two incompatible jobs |
+| **`Color Change`** | Six preconditions, of which `TARGET_TURN_DAMAGED` is load-bearing: the type change fires only when the hit did damage, and `SET_BATTLER_TYPE` overwrites both slots. The capacity is in Kecleon's species table before the battle | Acquired resistance selected by effective treatment |
+| **`TryGenerateWildMon`** | The slot and level are drawn, *then* the filters delete the draw. `IsAbilityAllowingEncounter` requires lead level > 5, cancels only at or below lead level minus five, and fires on `!(Random() % 2)` | Treatment as a selection filter that changes no individual and reshapes the composition |
+| **`gTrainers[].aiFlags`** | Scores initialised to 100, options struck off before any script runs, bit position as the agenda, `Random() % numOfBestMoves` on a tie — and 640 entries run one member | A decision process with declared membership |
+| **Species-gated hold effects** | Six consecutive lines of `CalculateBaseDamage` where the identity test and the effect are one `if`, against `sHoldEffectToType`'s seventeen rows where the parameter is a weight rather than a gate | A companion diagnostic against a complementary one |
+| **Generation I `Stat Experience`** | Five hidden counters, ceiling 65,535, refreshed by exactly four events. Because Medium Fast is *n*³, the interval between refreshes lengthens as the hidden burden grows | A cached record that silently diverges from what it summarises |
+
 ## And the mechanics that are deliberately not used
 
 Recorded here because the glossary is where someone will look for them.
