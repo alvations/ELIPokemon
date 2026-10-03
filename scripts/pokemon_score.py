@@ -504,10 +504,39 @@ def score_text(text: str) -> dict:
         plural = " " in term or kind in ("species", "character")
         suffix = r"s?(?![\w-])" if plural else r"(?![\w-])"
         pattern = r"(?<![\w-])" + re.escape(term) + suffix
-        found = re.findall(pattern, working)
+
+        # Case. Matching is case-sensitive by design and must stay so: `rest`, `counter`,
+        # `return`, `dive`, `bind`, `recover`, `scratch`, `confusion` and `may` are all
+        # vocabulary terms that occur constantly as ordinary English, and a blanket
+        # IGNORECASE would credit every one of them.
+        #
+        # But two renderings were being lost, and a writer found both by watching two of its
+        # own answers score below the floor:
+        #
+        #   * The corpus's diagrams sometimes set entity names in capitals, the way the games
+        #     render them -- ODDISH, MACH BIKE, SAND VEIL. Those scored zero as named and, if
+        #     they contained a generic word, still counted as generic. The same double penalty
+        #     the plural fix was written to remove.
+        #   * A multi-word mechanic is stored in Title Case and written in lower case in
+        #     prose. Nobody capitalises "the encounter table" mid-sentence and nobody should
+        #     be asked to for a metric.
+        #
+        # So: a multi-word term matches in any case, because a two-word phrase essentially
+        # never collides with ordinary English. A single-word term additionally matches an
+        # ALL-CAPS rendering, but only where it names a species, a character or a place, where
+        # the collision is implausible -- deliberately NOT moves, abilities or mechanics,
+        # because a diagram that labels a field COUNTER or SPIKES is not naming the move.
+        flags = 0
+        if " " in term:
+            flags = re.IGNORECASE
+        elif kind in ("species", "character", "place") and len(term) >= 4:
+            pattern = (
+                r"(?<![\w-])(?:" + re.escape(term) + "|" + re.escape(term.upper()) + ")" + suffix
+            )
+        found = re.findall(pattern, working, flags)
         if not found:
             continue
-        working = re.sub(pattern, "\u0000", working)
+        working = re.sub(pattern, "\u0000", working, flags=flags)
         hits[kind].append(f"{term}×{len(found)}")
         distinct.add(term)
         named_mentions += len(found)
@@ -518,7 +547,7 @@ def score_text(text: str) -> dict:
     # fix. Matched after the vocabulary loop so a named place containing a number -- there is
     # none today, but there could be -- is claimed by the explicit term first.
     route_counts: dict[str, int] = {}
-    for found in re.findall(r"(?<![\w-])Route \d{1,3}(?![\w-])", working):
+    for found in re.findall(r"(?<![\w-])Route \d{1,3}(?![\w-])", working, re.IGNORECASE):
         working = working.replace(found, "\u0000", 1)
         route_counts[found] = route_counts.get(found, 0) + 1
         distinct.add(found)
