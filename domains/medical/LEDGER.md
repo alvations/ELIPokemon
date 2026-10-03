@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**120 answers · mean 88.0 · median 89.3 · min 57.4 · max 100.0**
+**125 answers · mean 88.3 · median 89.6 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -70,6 +70,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 87.4 | excellent | m083 | general-practice | shared-decision-making | 18 | 34 | 44 |
 | 87.7 | excellent | m075 | nursing | isolation-precautions-by-route | 29 | 42 | 44 |
 | 88.1 | excellent | m061 | oncology | how-a-cancer-spreads | 22 | 52 | 20 |
+| 88.1 | excellent | m129 | emergency | electrolyte-derangement-as-a-syndrome | 33 | 58 | 60 |
 | 88.2 | excellent | m055 | dermatology | leg-ulcers-and-vascular-assessment | 32 | 53 | 44 |
 | 88.8 | excellent | m074 | nursing | shift-work-fatigue-and-handover | 21 | 44 | 34 |
 | 89.0 | excellent | m012 | general-practice | red-flags-and-safety-netting | 15 | 46 | 21 |
@@ -92,6 +93,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 92.6 | excellent | m076 | pharmacology | tolerance-dependence-and-withdrawal | 16 | 53 | 21 |
 | 92.9 | excellent | m043 | pharmacology | adherence-and-regimen-design | 18 | 49 | 59 |
 | 93.0 | excellent | m094 | endocrinology | the-growth-hormone-axis-as-a-pulse-train | 37 | 83 | 42 |
+| 93.0 | excellent | m130 | emergency | repeat-attendance-as-a-signal | 35 | 67 | 27 |
 | 93.1 | excellent | m066 | emergency | shock-categories-by-mechanism | 23 | 43 | 49 |
 | 93.4 | excellent | m080 | pharmacology | placebo-and-nocebo-as-real-effects | 23 | 66 | 41 |
 | 93.5 | excellent | m078 | pharmacology | scaling-a-dose-to-a-body | 18 | 65 | 29 |
@@ -134,3 +136,6 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m077 | pharmacology | pharmacogenomics-and-the-population-dose | 43 | 84 | 23 |
 | 100.0 | excellent | m103 | emergency | splinting-is-treatment | 37 | 81 | 47 |
 | 100.0 | excellent | m111 | general-practice | red-flag-rules-and-their-derivation-population | 21 | 75 | 42 |
+| 100.0 | excellent | m126 | emergency | the-soft-abdomen-and-serial-examination | 27 | 80 | 22 |
+| 100.0 | excellent | m127 | emergency | fever-when-immunity-is-compromised | 23 | 73 | 34 |
+| 100.0 | excellent | m128 | emergency | the-threatened-limb | 65 | 85 | 41 |
