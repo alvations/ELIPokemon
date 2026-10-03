@@ -10,14 +10,16 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**115 answers · mean 88.7 · median 90.2 · min 57.4 · max 100.0**
+**120 answers · mean 88.0 · median 89.3 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 57.4 | adequate | m107 | nursing | oxygen-as-a-prescribed-drug | 11 | 17 | 16 |
+| 59.7 | adequate | m120 | dermatology | the-biopsy-decision | 13 | 19 | 28 |
 | 61.0 | adequate | m106 | nursing | continence-and-its-mechanisms | 12 | 19 | 21 |
 | 62.6 | adequate | m022 | endocrinology | insulin-as-a-control-problem | 12 | 28 | 67 |
 | 63.3 | adequate | m025 | endocrinology | ketoacidosis-and-the-hyperosmolar-state | 11 | 28 | 50 |
+| 68.4 | strong | m116 | dermatology | pigment-production-transfer-and-loss | 15 | 21 | 24 |
 | 69.6 | strong | m018 | dermatology | assessing-skin-of-colour | 13 | 32 | 20 |
 | 74.0 | strong | m110 | nursing | discharge-planning-as-a-clinical-act | 16 | 30 | 23 |
 | 76.0 | strong | m010 | pharmacology | adverse-drug-reactions | 15 | 32 | 49 |
@@ -25,8 +27,11 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 76.5 | strong | m029 | oncology | response-assessment-and-surrogates | 20 | 31 | 53 |
 | 76.6 | strong | m024 | endocrinology | why-the-complications-differ | 15 | 31 | 49 |
 | 76.7 | strong | m090 | dermatology | urticaria-and-angioedema | 17 | 33 | 32 |
+| 76.9 | strong | m119 | dermatology | skin-failure-as-organ-failure | 24 | 35 | 26 |
 | 77.6 | strong | m051 | dermatology | eczema-and-the-barrier | 14 | 40 | 28 |
+| 77.6 | strong | m117 | dermatology | hidradenitis-and-follicular-occlusion | 17 | 32 | 26 |
 | 77.7 | strong | m038 | nursing | indwelling-devices-and-infection | 17 | 22 | 49 |
+| 77.7 | strong | m118 | dermatology | granulomatous-pattern-versus-cause | 22 | 35 | 31 |
 | 78.9 | strong | m035 | emergency | first-aid-for-untrained-bystanders | 14 | 28 | 20 |
 | 79.1 | strong | m088 | dermatology | photoprotection-and-cumulative-dose | 24 | 35 | 33 |
 | 80.0 | excellent | m098 | oncology | the-multidisciplinary-meeting | 21 | 45 | 52 |

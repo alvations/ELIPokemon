@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 120,
   "questions": [
     {
       "id": "m001",
@@ -1954,6 +1954,91 @@
         "diagnostic-error",
         "continuity",
         "clinician-factors"
+      ]
+    },
+    {
+      "id": "m116",
+      "slug": "pigment-production-transfer-and-loss",
+      "question": "Why are the pigmentary disorders better grouped by whether melanin production, melanin transfer or the melanocyte itself has failed?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m116-pigment-production-transfer-and-loss.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m116-pigment-production-transfer-and-loss.md",
+      "tags": [
+        "pigmentation",
+        "melanocyte",
+        "vitiligo",
+        "melasma",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "m117",
+      "slug": "hidradenitis-and-follicular-occlusion",
+      "question": "Why is hidradenitis suppurativa misread as recurrent infection for years, and what does the follicular occlusion mechanism change about the plan?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m117-hidradenitis-and-follicular-occlusion.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m117-hidradenitis-and-follicular-occlusion.md",
+      "tags": [
+        "hidradenitis",
+        "follicular-occlusion",
+        "inflammation",
+        "misdiagnosis",
+        "sinus-tract"
+      ]
+    },
+    {
+      "id": "m118",
+      "slug": "granulomatous-pattern-versus-cause",
+      "question": "Why does a report of granulomatous inflammation name a pattern rather than a cause, and what has to happen next for the cause to be found?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m118-granulomatous-pattern-versus-cause.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m118-granulomatous-pattern-versus-cause.md",
+      "tags": [
+        "granuloma",
+        "sarcoidosis",
+        "histopathology",
+        "special-stains",
+        "mycobacteria"
+      ]
+    },
+    {
+      "id": "m119",
+      "slug": "skin-failure-as-organ-failure",
+      "question": "What does the skin actually do, and what happens to the rest of the body when a large area of it stops doing it?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m119-skin-failure-as-organ-failure.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m119-skin-failure-as-organ-failure.md",
+      "tags": [
+        "erythroderma",
+        "skin-failure",
+        "thermoregulation",
+        "barrier",
+        "organ-failure"
+      ]
+    },
+    {
+      "id": "m120",
+      "slug": "the-biopsy-decision",
+      "question": "Why does the choice of where and how to take a skin biopsy determine what the report can say, and what can a biopsy never settle?",
+      "category": "dermatology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/dermatology/serious/m120-the-biopsy-decision.md",
+      "pokemon_path": "domains/medical/answers/dermatology/pokemon/m120-the-biopsy-decision.md",
+      "tags": [
+        "biopsy",
+        "histopathology",
+        "sampling",
+        "clinicopathological-correlation",
+        "request-form"
       ]
     }
   ]

@@ -235,6 +235,50 @@ who caught this also pointed out that an eight-for-five list with three dead ent
 slack for a topic you need to decline on taste grounds, which is a real risk and not a theoretical
 one.
 
+## Six-for-five resolves by a duplicate **or** a decline, and over-reading is the real hazard
+
+Four waves running, a specialty offered six topics for five slots found one already written, so I
+started telling writers to expect a duplicate. That heuristic has now failed: a dermatology writer
+checked all six against the question text *and* the printed body headings, grepped every answer in
+the specialty, and found **none of them written**. The slack came from a topic it declined, not
+from one that existed.
+
+Worse, it reports nearly retiring **two live topics** by over-reading a section heading. m089's
+last section is called "What is at stake when the barrier is gone over an area", which looks like
+skin failure and is a condensed barrier argument saying nothing about thermoregulation,
+high-output circulation, protein loss or absorption. m089 also owns "The two biopsies, which
+answer two different questions", which looks like the biopsy decision and is one site rule. Both
+are adjacent sections, not the topics.
+
+So `coverage.py`'s closing note cuts both ways. The question text is necessary and not sufficient
+— and a body heading is **evidence, not a verdict**. Open the section and read what it actually
+argues. When a topic is adjacent rather than covered, write the part that is missing and hand the
+overlap back by id in the answer's own text, as m087, m088, m089, m117, m119 and m120 all do.
+
+## The device may be found in the code. It must be named in play.
+
+CONVENTIONS Part II is full of devices discovered by reading a disassembly, and that is how they
+should be found. But the scorer counts named entities a player would recognise — species, moves,
+abilities, items, places — and it counts **none** of `status1`, `gSideStatuses`,
+`SwitchInClearSetData`, `Cmd_weatherdamage` or the other thirty-odd identifiers a writer reported
+as invisible. That is not a gap to be filled. It is the metric agreeing with the dataset's
+premise: the Pokémon half is meant to be the *accessible* register, and a half built out of C
+identifiers is drifting into a third register that is neither rigorous nor accessible.
+
+What this means in practice. Read the code to find the mechanic and to get it exactly right. Then
+write it as **Tyranitar's Sand Stream**, not as `Cmd_setsandstorm`; as **the six trapping moves,
+four types and one shared constant**, not as `EFFECT_TRAP`. Name the identifier in your Sources
+note, where it belongs as provenance, and in the body only where the identifier itself is the
+point — a function whose name is a confession, like `truantSwitchInHack`.
+
+A writer whose three answers first scored 40.0, 28.6 and 40.3 diagnosed this correctly without
+being told: it had leaned almost entirely on bare identifiers, and noted that m089 scores 82.7 on
+the *same* five-structure device because it carries named species and moves alongside. It fixed
+them to 77.7, 76.9 and 59.7 by adding real game content, and said each addition made the clinical
+point sharper. That is the pattern. **The identifier register is not penalised for being code; it
+is simply not counted, and an answer that lives there alone will read thin to a reader as well as
+to the scorer.**
+
 ## Two things about headings the section table does not say
 
 **The examiner section's heading text differs between the two halves.** In nursing the serious

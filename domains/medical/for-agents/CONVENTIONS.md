@@ -211,6 +211,14 @@ Not a style preference. These come out of `../SAFETY.md`, which you have read tw
   paediatric differences (a low-level Pokémon as the patient), analgesia, and crowding and flow
   (boxed Pokémon as queued patients). All four remain unwritten and should be commissioned with an
   explicit instruction about what may stand in for the patient, or not at all.
+- **Paediatric skin was re-offered with the explicit no-child-mapping instruction, and declined
+  again.** The writer worked three candidate devices and rejected all three: a flat Sitrus Berry
+  30 against different maximum HP is the surface-to-volume point but makes small-body-equals-child
+  explicit; `Substitute`'s `maxHP/4` is a *fixed fraction*, so it cannot carry "thinner relative
+  to what it protects" at all; and height and weight from `gSpeciesInfo` would need an invented
+  derived ratio dressed up as a code reading. Its objection is the one to keep: **removing the
+  vehicle is not supplying one.** Do not re-commission any of these four on the same terms — they
+  need a device, not a prohibition.
 - **A Pokémon half with no Pokémon in it.** Raised by a writer declining supportive and palliative
   care, and the argument is worth keeping: that territory is almost entirely what `SAFETY.md`
   fences off, so there is no mechanism left to carry an analogy, and the result would not be a
