@@ -199,6 +199,21 @@ filename with your specialty and ID block** — `endo-m056-m060-reflow.py`, not 
 smoke-test any reflow or rewrite helper as a no-op against an existing answer before pointing it
 at your own.
 
+**The prefix is not collision-proof when a block is retried.** A writer arrived to find the
+scratchpad already holding files under its own block prefix, left by an earlier attempt at the
+same block that a restart had killed — including a zero-byte one, which is the dangerous case
+because it reads as an empty file rather than a missing one. The convention stops writers
+colliding with each other; it does not stop one colliding with its own predecessor. Assume nothing
+about files already under your prefix: delete and refetch.
+
+**Smoke-test by diffing the front matter, not by eyeballing the prose.** One writer's helper ate a
+file's YAML and collapsed seven keys onto three lines, and only the catalogue check caught it.
+
+**If your worktree already exists, check its base before you write.** Two writers found a worktree
+and branch left by a killed attempt, several commits behind. One checked, reset to `HEAD` and said
+so; the other would have been gated by a validator two commits stale. `git log --oneline -1`
+against `main` costs nothing and tells you which situation you are in.
+
 ## Before you are given a territory list
 
 **The topic list in your wave brief may contain topics that are already written.** This has
