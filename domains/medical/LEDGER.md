@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**110 answers · mean 88.6 · median 90.3 · min 57.4 · max 100.0**
+**115 answers · mean 88.7 · median 90.2 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,11 +31,13 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 79.1 | strong | m088 | dermatology | photoprotection-and-cumulative-dose | 24 | 35 | 33 |
 | 80.0 | excellent | m098 | oncology | the-multidisciplinary-meeting | 21 | 45 | 52 |
 | 80.1 | excellent | m087 | dermatology | hair-and-nail-as-a-timeline | 27 | 37 | 30 |
+| 80.2 | excellent | m115 | general-practice | the-difficult-consultation-as-interaction | 18 | 31 | 33 |
 | 80.3 | excellent | m032 | emergency | why-protocols-exist | 24 | 34 | 88 |
 | 80.4 | excellent | m026 | oncology | staging-against-grading | 20 | 30 | 59 |
 | 80.6 | excellent | m037 | nursing | recognising-sepsis | 19 | 29 | 60 |
 | 81.0 | excellent | m108 | nursing | venous-access-and-infusion | 28 | 39 | 24 |
 | 81.0 | excellent | m109 | nursing | continuous-versus-intermittent-observation | 37 | 43 | 40 |
+| 81.4 | excellent | m114 | general-practice | the-account-of-a-worried-adult | 20 | 31 | 37 |
 | 81.6 | excellent | m019 | dermatology | topical-therapy-and-quantity | 18 | 30 | 21 |
 | 82.0 | excellent | m039 | nursing | nutrition-and-swallowing | 20 | 27 | 36 |
 | 82.7 | excellent | m089 | dermatology | blistering-and-the-level-of-the-split | 27 | 45 | 35 |
@@ -56,6 +58,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 85.8 | excellent | m052 | dermatology | psoriasis-as-systemic-disease | 25 | 38 | 29 |
 | 85.9 | excellent | m063 | oncology | what-a-surgical-margin-means | 19 | 56 | 41 |
 | 86.0 | excellent | m062 | oncology | radiotherapy-and-fractionation | 24 | 67 | 58 |
+| 86.0 | excellent | m113 | general-practice | fitness-for-work-and-the-note | 19 | 42 | 51 |
 | 86.7 | excellent | m020 | dermatology | dermoscopy-in-principle | 22 | 35 | 42 |
 | 87.0 | excellent | m086 | dermatology | skin-infections-and-the-scraping | 17 | 45 | 37 |
 | 87.2 | excellent | m023 | endocrinology | glycation-marker-and-continuous-monitoring | 36 | 49 | 50 |
@@ -111,6 +114,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 98.6 | excellent | m093 | endocrinology | bone-remodelling-and-its-fast-markers | 34 | 82 | 57 |
 | 99.0 | excellent | m085 | general-practice | the-prevention-paradox | 20 | 50 | 26 |
 | 99.4 | excellent | m004 | nursing | dressings-and-pressure-damage | 39 | 52 | 53 |
+| 99.4 | excellent | m112 | general-practice | the-remote-consultation | 22 | 67 | 21 |
 | 99.9 | excellent | m016 | dermatology | describing-a-skin-lesion | 29 | 46 | 40 |
 | 100.0 | excellent | m006 | pharmacology | pharmacokinetics-four-processes | 23 | 73 | 57 |
 | 100.0 | excellent | m007 | pharmacology | pharmacodynamics-agonists-and-antagonists | 23 | 71 | 45 |
@@ -124,3 +128,4 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m072 | nursing | bed-rest-and-deconditioning | 33 | 58 | 30 |
 | 100.0 | excellent | m077 | pharmacology | pharmacogenomics-and-the-population-dose | 42 | 83 | 23 |
 | 100.0 | excellent | m103 | emergency | splinting-is-treatment | 37 | 81 | 47 |
+| 100.0 | excellent | m111 | general-practice | red-flag-rules-and-their-derivation-population | 21 | 75 | 42 |

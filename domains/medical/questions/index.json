@@ -1,5 +1,5 @@
 {
-  "count": 110,
+  "count": 115,
   "questions": [
     {
       "id": "m001",
@@ -1869,6 +1869,91 @@
         "medicines-reconciliation",
         "follow-up",
         "readmission"
+      ]
+    },
+    {
+      "id": "m111",
+      "slug": "red-flag-rules-and-their-derivation-population",
+      "question": "Why does a red-flag rule derived in secondary care behave differently at first contact, and what about such a rule fails to transport?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m111-red-flag-rules-and-their-derivation-population.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m111-red-flag-rules-and-their-derivation-population.md",
+      "tags": [
+        "red-flags",
+        "derivation-population",
+        "spectrum-bias",
+        "decision-rules",
+        "transportability"
+      ]
+    },
+    {
+      "id": "m112",
+      "slug": "the-remote-consultation",
+      "question": "What does a remote consultation lose and gain compared with a face-to-face one, and why does the triage decision move rather than disappear?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m112-the-remote-consultation.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m112-the-remote-consultation.md",
+      "tags": [
+        "remote-consulting",
+        "telephone-triage",
+        "access",
+        "channel",
+        "safety-netting"
+      ]
+    },
+    {
+      "id": "m113",
+      "slug": "fitness-for-work-and-the-note",
+      "question": "Why is fitness for work a clinical judgement with no test, and what is a medical statement about fitness for work actually a statement about?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m113-fitness-for-work-and-the-note.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m113-fitness-for-work-and-the-note.md",
+      "tags": [
+        "fitness-for-work",
+        "certification",
+        "function",
+        "occupational-health",
+        "documentation"
+      ]
+    },
+    {
+      "id": "m114",
+      "slug": "the-account-of-a-worried-adult",
+      "question": "When an unwell child is brought by a worried parent, what is being assessed in the adult's account, and why is a report of change from baseline information the encounter cannot supply?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m114-the-account-of-a-worried-adult.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m114-the-account-of-a-worried-adult.md",
+      "tags": [
+        "paediatrics",
+        "history-taking",
+        "third-party-account",
+        "baseline",
+        "safety-netting"
+      ]
+    },
+    {
+      "id": "m115",
+      "slug": "the-difficult-consultation-as-interaction",
+      "question": "Why is a consultation that leaves the clinician feeling helpless better described as a property of the interaction than of the person, and what follows from that?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m115-the-difficult-consultation-as-interaction.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m115-the-difficult-consultation-as-interaction.md",
+      "tags": [
+        "consultation",
+        "attribution",
+        "diagnostic-error",
+        "continuity",
+        "clinician-factors"
       ]
     }
   ]
