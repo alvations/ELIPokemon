@@ -17,8 +17,8 @@ The liver does at least **four** things that matter to a prescription, they fail
 rates in the same person, and no number summarises them. That asymmetry is the answer to the
 question, and everything below is its consequence.
 
-Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
-or (**country-dependent**) local — differing by country, institution or formulary.
+Each load-bearing claim below is marked with its basis: (**mechanism**), (**definitional**),
+(**consensus**), or (**country-dependent**) — differing by country, institution or formulary.
 
 ```
    RENAL                                   HEPATIC

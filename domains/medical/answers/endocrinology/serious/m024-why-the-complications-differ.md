@@ -12,14 +12,14 @@ tags: [complications, microvascular, macrovascular, retinopathy, nephropathy]
 
 The microvascular complications — retinopathy, nephropathy, peripheral and autonomic neuropathy —
 are driven by cumulative intracellular hyperglycaemia in cells that cannot refuse a glucose load.
-Their risk scales with how high the glucose has been and for how long *(consensus)*. The
+Their risk scales with how high the glucose has been and for how long (**consensus**). The
 macrovascular complications — coronary, cerebrovascular and peripheral arterial disease — are
 atherosclerosis, a disease that occurs without diabetes and is accelerated by the whole
-insulin-resistant state rather than by glucose alone *(consensus)*. That is why they respond to
+insulin-resistant state rather than by glucose alone (**consensus**). That is why they respond to
 different levers, appear on different timescales, and pick different organs.
 
-Claims below are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where the basis is
-load-bearing.
+Claims below are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where the
+basis is load-bearing.
 
 ## Why these particular cells
 
@@ -27,15 +27,15 @@ Most tissues protect themselves by downregulating glucose entry when the ambient
 rises. The cells that are damaged are the ones that cannot: endothelium in the retinal
 microvasculature, mesangial and glomerular endothelial cells in the kidney, and Schwann cells and
 the endothelium supplying peripheral nerve take glucose up by insulin-independent routes and so
-carry an intracellular concentration that tracks the blood *(mechanism)*. They are not unlucky.
+carry an intracellular concentration that tracks the blood (**mechanism**). They are not unlucky.
 They are unable to decline.
 
 On top of that, each site has a structural vulnerability. The retina has a high metabolic rate and
 a terminal circulation with little collateral. The glomerulus is a capillary bed held at high
 pressure *by design*, because filtration is its function, so any rise in that pressure is
-transmitted directly to the filter *(mechanism)*. And peripheral nerve has axons up to a metre
+transmitted directly to the filter (**mechanism**). And peripheral nerve has axons up to a metre
 long, each dependent on a long and thin blood supply — which is why injury is length-dependent and
-appears in the feet first *(mechanism)*.
+appears in the feet first (**mechanism**).
 
 ## The microvascular mechanism, in one picture
 
@@ -81,10 +81,10 @@ the unifying hypothesis is a model, not a settled fact)*.
 
 Two features of the time course are worth stating precisely. First, exposure is cumulative, so
 duration matters as much as level, and a long period of moderately raised glucose is not benign
-*(consensus)*. Second, the benefit of improving control persists after the period of improvement
+(**consensus**). Second, the benefit of improving control persists after the period of improvement
 ends, and the risk conferred by an earlier period of poor control likewise persists — the effect
 described as metabolic memory or a legacy effect, seen in the long-term follow-up of the major
-intervention trials in both type 1 and type 2 *(consensus)*. The mechanistic candidates for it
+intervention trials in both type 1 and type 2 (**consensus**). The mechanistic candidates for it
 include long-lived glycated proteins in basement membrane and durable epigenetic change
 *(mechanism, incompletely settled)*.
 
@@ -92,33 +92,33 @@ Said plainly, because it should not be softened: these are the processes that ca
 sight loss, that bring people to kidney replacement therapy, and that — with peripheral arterial
 disease and loss of protective sensation together — lead to foot ulceration and to amputation.
 Autonomic involvement adds gastroparesis, postural hypotension, silent myocardial ischaemia, and
-the loss of warning symptoms that makes hypoglycaemia more dangerous *(consensus)*.
+the loss of warning symptoms that makes hypoglycaemia more dangerous (**consensus**).
 
 ## The macrovascular mechanism, and why it behaves differently
 
 Atherosclerosis in diabetes is the same disease it is in anyone, with endothelial dysfunction,
 retention and oxidative modification of apolipoprotein-B-containing lipoproteins in the artery
-wall, monocyte recruitment, plaque formation and eventual rupture or erosion *(consensus)*. What
+wall, monocyte recruitment, plaque formation and eventual rupture or erosion (**consensus**). What
 diabetes contributes is a cluster of accelerants that arrive together as part of the
 insulin-resistant state: an atherogenic lipid pattern of raised triglycerides, low HDL cholesterol
 and small dense LDL particles; raised blood pressure; a prothrombotic and inflammatory milieu; and
-hyperreactive platelets *(consensus)*.
+hyperreactive platelets (**consensus**).
 
 Three consequences follow, and they are the ones candidates most often get wrong:
 
 1. **The clock started earlier.** In type 2 the insulin-resistant state, the dyslipidaemia and the
    raised blood pressure usually predate the glycaemic diagnosis by years, so excess arterial risk
-   is measurable before diabetes is diagnosed and in states short of it *(consensus)*. The
+   is measurable before diabetes is diagnosed and in states short of it (**consensus**). The
    microvascular clock, by contrast, starts roughly when the hyperglycaemia does.
 2. **Glucose is the weaker lever here.** Lowering glucose has a large and reproducible effect on
    microvascular outcomes and a smaller, slower effect on arterial events; the strongest
    macrovascular levers are lipid lowering, blood-pressure control and stopping smoking, together
    with the specific glucose-lowering drug classes shown to reduce cardiovascular and kidney
-   outcomes in their own right *(consensus)*. Which agents, in whom, and in what order is
+   outcomes in their own right (**consensus**). Which agents, in whom, and in what order is
    explicitly a guideline question *(guideline-dependent)*.
 3. **The event is discrete, not graded.** Microvascular damage accrues and is detected by
    surveillance. An arterial event is a rupture — abrupt, at a time not predictable from the
-   previous measurement *(mechanism)*. The same risk factor profile produces a slowly rising
+   previous measurement (**mechanism**). The same risk factor profile produces a slowly rising
    probability and then a sudden presentation, which is why the two groups of complications need
    different kinds of follow-up.
 

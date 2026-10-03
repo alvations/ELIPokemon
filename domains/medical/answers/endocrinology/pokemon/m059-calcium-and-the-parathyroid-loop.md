@@ -13,16 +13,16 @@ tags: [calcium, parathyroid, vitamin-d, phosphate, magnesium]
 This is the loop to learn first, because every single part of it has a name you can point at.
 **Misty Terrain** is the condition: while it is up, **grounded** Pokémon cannot be given a status
 condition and cannot be confused, and Dragon-type moves aimed at grounded targets land for half
-*(mechanism)*. **Tapu Fini** sets it with **Misty Surge** the instant it enters, for five turns,
-or eight if it is holding a **Terrain Extender** *(mechanism)*. The reporter is **Flail**, whose
+(**mechanism**). **Tapu Fini** sets it with **Misty Surge** the instant it enters, for five turns,
+or eight if it is holding a **Terrain Extender** (**mechanism**). The reporter is **Flail**, whose
 base power is read off the user's own remaining HP in six bands and counts **upward as the bar
-falls** *(mechanism)* — the same reporter as the thyroid answer, because this is what these loops
-look like.
+falls** (**mechanism**) — the same reporter as the thyroid answer, because this is what these
+loops look like.
 
 And then three answers, which is the part that makes this the clean example. A priority move such
 as **Aqua Jet** or **Mach Punch** resolves inside this turn, ahead of everything else
-*(mechanism)*. **Leftovers** pays its sixteenth at the **end** of the turn *(mechanism)*. And
-**Future Sight** is committed now and strikes **two turns later** *(mechanism)*. One controller,
+(**mechanism**). **Leftovers** pays its sixteenth at the **end** of the turn (**mechanism**). And
+**Future Sight** is committed now and strikes **two turns later** (**mechanism**). One controller,
 three actuators, three clocks — this turn, end of turn, two turns out.
 
 | In the battle | What it stands for |
@@ -38,14 +38,14 @@ three actuators, three clocks — this turn, end of turn, two turns out.
 | **Flygon**'s **Levitate**, which never feels terrain at all | A sensor out of the condition's reach |
 | **Reflect**, halving what lands, changing nothing sent | The binding protein |
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## Why the tolerance is narrow at both ends
 
 With **Misty Terrain** up, **Toxic** does not take, **Will-O-Wisp** does not take, **Stun Spore**
 does not take, **Hypnosis** does not take and **Confuse Ray** does nothing, provided the target is
-grounded *(mechanism)*. Lose it and all five land freely — which is the excitable end, where
+grounded (**mechanism**). Lose it and all five land freely — which is the excitable end, where
 anything at all can set the side off.
 
 Over-supply is the other end, and here the analogy has to be honest about where it reaches. A side
@@ -53,7 +53,7 @@ that nothing can ever provoke is a side that nothing can stimulate either: it si
 unresponsive, and it is **the depression of excitability** that the real excess produces —
 weakness, sluggishness, a system that will not fire. The real excess also produces confusion, and
 that is exactly the thing **Misty Terrain** prevents, so the metaphor covers the excitability and
-does not cover that *(mechanism)*. Said rather than glossed over.
+does not cover that (**mechanism**). Said rather than glossed over.
 
 ## The loop, drawn with its clocks
 
@@ -85,7 +85,7 @@ does not cover that *(mechanism)*. Said rather than glossed over.
 
 Three clocks is the design, not an accident. You answer a problem first with something that
 resolves inside the turn, then with something that pays at the end of it, and only then with
-something you have to commit to and wait for *(mechanism)*. Cheap and fast first; slow and
+something you have to commit to and wait for (**mechanism**). Cheap and fast first; slow and
 committed last. Which is why the **time course** of a disturbance tells you which arm is carrying
 it.
 
@@ -94,11 +94,11 @@ it.
 **Future Sight** is committed two turns before it lands, which means it is useless to you if the
 battle will not still be there — and it is useless if you have no **PP** left in it. It is not a
 fourth hormone and it is not an alternative to the fast arms; it is the arm with the longest reach
-and the longest delay *(mechanism)*.
+and the longest delay (**mechanism**).
 
 Take the slow arm away and the controller does not go quiet. It runs the fast arms harder, so
-**Flail climbs while the terrain still looks adequate** *(mechanism)*. The loop is working. It is
-working hard, and the loud reporter is reporting the effort, not a failure.
+**Flail climbs while the terrain still looks adequate** (**mechanism**). The loop is working. It
+is working hard, and the loud reporter is reporting the effort, not a failure.
 
 ## The pair, which is the whole diagnostic move
 
@@ -112,7 +112,7 @@ working hard, and the loud reporter is reporting the effort, not a failure.
 The second row is worth its own sentence, because the mechanic is verified and it is the sharpest
 thing in this answer: `TryChangeBattleTerrain` returns false when the terrain is already the one
 being set, so your own **Tapu Fini** entering onto an opponent's Misty Terrain does nothing,
-announces nothing, and refreshes no timer *(mechanism)*. The condition is up. Your loop is
+announces nothing, and refreshes no timer (**mechanism**). The condition is up. Your loop is
 correct. Your loop has simply been made redundant.
 
 And the phrase that carries the whole skill is **"quietly at 40"**. Flail at 40 is an ordinary
@@ -124,33 +124,33 @@ question it was asked.
 
 Terrain reaches **grounded** battlers only. **Flygon** has **Levitate** as its only ability and
 never feels Misty Terrain at all; the same goes for **Claydol**, for a Flying type, and for anyone
-holding an **Air Balloon** until it pops *(mechanism)*.
+holding an **Air Balloon** until it pops (**mechanism**).
 
 Now put the **sensor** out of reach while the rest of the side is grounded. The sensor is
 perfectly content at a level the rest of the side is not, so the controller settles at a new,
 stable, **wrong** value and sits there quite happily. Nothing is diseased. Nothing is broken. The
 thermostat is simply out of the room. **Gravity**, an **Iron Ball**, or **Ingrain** rooting it
 would put it back in the room, and then the same sensor would read the same terrain completely
-differently *(mechanism)*.
+differently (**mechanism**).
 
 That is a set-point problem rather than a gland problem, and telling it apart from a gland problem
-matters because the two get handled differently *(consensus)*.
+matters because the two get handled differently (**consensus**).
 
 ## The cofactor, which is the thing everybody forgets
 
 **Flail** has PP. Run it to zero and the reporter cannot report, however hard the condition pushes
-— and the bar is exactly where it was, and the terrain is exactly where it was *(mechanism)*. A
-**Leppa Berry** restores 10 PP, an **Ether** does the same *(mechanism)*, and the whole loop comes
-back at once, because nothing was ever wrong with the sensor, the setter or any of the three
+— and the bar is exactly where it was, and the terrain is exactly where it was (**mechanism**). A
+**Leppa Berry** restores 10 PP, an **Ether** does the same (**mechanism**), and the whole loop
+comes back at once, because nothing was ever wrong with the sensor, the setter or any of the three
 actuators.
 
 A condition that will not come back no matter what you do to the actuators is the specific
-situation in which the reporter's PP is what has been forgotten *(consensus)*.
+situation in which the reporter's PP is what has been forgotten (**consensus**).
 
 ## What was sent is not what lands
 
 **Reflect** halves incoming physical damage for five turns, eight while the setter holds **Light
-Clay**, and changes nothing whatsoever about the attacker *(mechanism)*. **Flail** at 200 into
+Clay**, and changes nothing whatsoever about the attacker (**mechanism**). **Flail** at 200 into
 Reflect lands like Flail at 100, and if you are grading the attacker by what the defender felt,
 you are wrong about the attacker and nothing about the attacker moved.
 
@@ -162,7 +162,7 @@ three axes.
 Take **Tapu Fini** off the field and all three actuators are still there while the controller is
 suddenly absent. The fast arm goes first, because priority moves are the ones being chosen turn by
 turn. **Leftovers** keeps paying its sixteenth. And **Future Sight**, already committed, still
-lands two turns later, after the controller that ordered it has gone *(mechanism)*. Fast arm out
+lands two turns later, after the controller that ordered it has gone (**mechanism**). Fast arm out
 first, slow arm out last — and the recovery runs the other way round. That ordering is readable
 straight off the diagram, which is why the diagram is drawn with the clocks on it.
 

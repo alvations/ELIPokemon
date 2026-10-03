@@ -22,7 +22,7 @@ Here is the function the whole answer turns on, copied out of the Generation III
    }
 ```
 
-Two arguments. A division. One guard at the bottom that refuses to report zero *(mechanism)*.
+Two arguments. A division. One guard at the bottom that refuses to report zero (**mechanism**).
 
 Four different things in the game are that quotient wearing different clothes. The health bar is
 it at `scale = 48`. The bar's **colour** is it banded, green above half the pixels, yellow above a
@@ -31,7 +31,7 @@ against a six-entry table — thresholds at 1, 4, 9, 16, 32 and 48 giving 200, 1
 20, so it counts *upward* as the quotient falls, and **Reversal** carries `EFFECT_FLAIL` in the
 data, which is to say it is not a similar move but literally the same table. And **Water Spout**
 is the same division with the move's own power as the scale — `hp * power / maxHP`, with its own
-forced floor of 1, which is why **Eruption** behaves identically *(mechanism)*.
+forced floor of 1, which is why **Eruption** behaves identically (**mechanism**).
 
 Five readouts. One division. And every battler alive watches the **numerator** move, because
 damage, a **Potion**, **Recover**, **Soft-Boiled**, **Leftovers**' sixteenth and **Leech Seed**'s
@@ -60,8 +60,8 @@ readout is a statement about the numerator.
 costs. m059 owns the pair-reading move that **Endeavor** and **Sticky Hold** are put to here.
 Neither is re-derived.
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## Two inputs, drawn with what each one actually controls
 
@@ -100,14 +100,14 @@ matters.
 
 That override is worth sitting with, because the real system has one in the same position. There
 are two sensed signals, and when they disagree, the one read first wins and the arithmetic
-downstream does not get a vote *(consensus)*. A body in a low-volume state will hold water it does
-not osmotically need, every time, and the readout falls. The controller is behaving exactly as
-written. The number is still wrong.
+downstream does not get a vote (**consensus**). A body in a low-volume state will hold water it
+does not osmotically need, every time, and the readout falls. The controller is behaving exactly
+as written. The number is still wrong.
 
 And the denominator case is the one the games make vivid. **Shedinja** carries a denominator of
 exactly 1, so `GetScaledHPFraction(1, 1, 48)` hands back 48 and there is no second value available
-anywhere between. Four readouts, no resolution in any of them *(mechanism)*. A quotient is only as
-informative as its denominator permits, and nothing you do to the numerator fixes that.
+anywhere between. Four readouts, no resolution in any of them (**mechanism**). A quotient is only
+as informative as its denominator permits, and nothing you do to the numerator fixes that.
 
 ## Before anything else: is the number a quotient of what you think it is?
 
@@ -116,13 +116,13 @@ clinical.
 
 **There is something in the count that is not what you are counting.** **Substitute** costs
 maxHP/4 and stores that amount in `substituteHP`, a separate field the bar never draws — and
-**Haze** clears every stat stage on the field and restores not one point of it *(mechanism)*. So
+**Haze** clears every stat stage on the field and restores not one point of it (**mechanism**). So
 there is a real quantity, sitting in the same battler, that the readout's two arguments do not
 include. Read the bar and you have measured something; it is simply not the thing you wanted.
 
 **The floor lies.** `GetScaledHPFraction` returns 1 whenever the true quotient rounds to 0 and
 `hp` is above 0, and **Water Spout**'s scaling does the same — two routines in one game refusing
-to report a zero *(mechanism)*. A reading sitting on the floor is consistent with an enormous
+to report a zero (**mechanism**). A reading sitting on the floor is consistent with an enormous
 range of states, and the one thing it definitely is not is a measurement.
 
 Which is why you establish the denominator first. A low band with a denominator you have checked
@@ -139,13 +139,13 @@ reason it works is the failure condition. Its Generation III implementation is t
    else                            → damage = target.hp - attacker.hp
 ```
 
-It is a **directional comparison between two bars**, not a measurement of either *(mechanism)*.
+It is a **directional comparison between two bars**, not a measurement of either (**mechanism**).
 The answer is in which way the inequality runs, and the move tells you by whether it does anything
 at all. One bar against another, and the direction is the finding.
 
 **Question two: if it is being held, is there a reason?** The readout is **Sticky Hold**. Try to
 take the item — **Knock Off**, or **Thief** — and watch. If the item moves, nothing was holding
-it. If **Sticky Hold** fires, the holder is keeping what it has *(mechanism)*. And here is the
+it. If **Sticky Hold** fires, the holder is keeping what it has (**mechanism**). And here is the
 part that makes it the right device: the game records an opposing Ability **only when it fires**,
 so until you push, the field has no entry for it at all. You learn that something is holding on by
 trying to take it away.
@@ -156,14 +156,14 @@ calcium answer makes, for the same structural reason.
 There is a third move that reads two bars, and it is worth naming because of what stops it. **Pain
 Split** sets both battlers' HP to `(attacker.hp + target.hp) / 2` — it does not measure either
 bar, it **equilibrates** them, which is what water does across a membrane when the two sides
-disagree *(mechanism)*. And its Generation III implementation refuses to run at all if the target
-has a **Substitute** up: the first thing `Cmd_painsplitdmgcalc` tests is `STATUS2_SUBSTITUTE`, and
-if the flag is set it jumps straight to the failure branch. So the compartment the bar does not
-count is also the compartment that blocks equilibration — one hidden quantity, two separate
-consequences, and **Haze** will not clear it either.
+disagree (**mechanism**). And its Generation III implementation refuses to run at all if the
+target has a **Substitute** up: the first thing `Cmd_painsplitdmgcalc` tests is
+`STATUS2_SUBSTITUTE`, and if the flag is set it jumps straight to the failure branch. So the
+compartment the bar does not count is also the compartment that blocks equilibration — one hidden
+quantity, two separate consequences, and **Haze** will not clear it either.
 
 One caution, and it is mechanical. If the holder has no item, the **Sticky Hold** branch simply
-advances and nothing is recorded *(mechanism)*. The push returns a blank, and a blank is not a
+advances and nothing is recorded (**mechanism**). The push returns a blank, and a blank is not a
 negative. Anything already emptying the slot — anything that has made the holder let go for
 reasons of its own — destroys the test, and the test does not announce that it has been destroyed.
 
@@ -177,7 +177,7 @@ legislate it and you can read what they chose. When `maxHP` moves, something has
    currentHP += newMaxHP - oldMaxHP;
 ```
 
-The **absolute gap** is conserved. Not the ratio *(mechanism)*. Which means that moving the
+The **absolute gap** is conserved. Not the ratio (**mechanism**). Which means that moving the
 denominator moves the numerator by the same number of points, and the quotient — every one of the
 four readouts — lands somewhere new. One line of code, and it is the entire reason the reading can
 change without anybody adding or removing a single point of the thing being read.
@@ -188,9 +188,9 @@ is simply a rule about the gap, and all four readouts are about the ratio.
 ## Read the other way: the denominator falling
 
 A **Pomeg Berry** takes HP effort points away, which lowers `maxHP`, which runs the same line in
-reverse *(mechanism)*. The band moves the opposite way for the mirror-image reason, and the thing
-that would have to be true for it to keep moving is that something is removing the denominator and
-nothing is putting it back. Two conditions, not one.
+reverse (**mechanism**). The band moves the opposite way for the mirror-image reason, and the
+thing that would have to be true for it to keep moving is that something is removing the
+denominator and nothing is putting it back. Two conditions, not one.
 
 ## Why fixing the number by moving the denominator has its own failure mode
 
@@ -203,10 +203,10 @@ The decompilation's own comment, left in by the people who wrote it down:
 ```
 
 Drive the denominator down far enough, by the rule the code uses to keep the quotient honest, and
-the numerator is carried somewhere that is not a state at all *(mechanism)*. The guard that would
-catch it sits behind a `BUGFIX` flag that the shipped cartridge does not set. The failure is not
-in the measurement and not in the intention; it is in **the correction**, and it is the correction
-that has to be done carefully.
+the numerator is carried somewhere that is not a state at all (**mechanism**). The guard that
+would catch it sits behind a `BUGFIX` flag that the shipped cartridge does not set. The failure is
+not in the measurement and not in the intention; it is in **the correction**, and it is the
+correction that has to be done carefully.
 
 And here the games give me nothing, so I will say so rather than dress something up. Nothing in
 Generation III models a battler that has **reorganised itself** around an abnormal field such that

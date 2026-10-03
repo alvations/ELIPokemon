@@ -13,32 +13,32 @@ tags: [insulin, basal-bolus, feedback, control-lag, hypoglycaemia]
 Endogenous insulin is a closed-loop controller whose sensor and actuator are the same cell.
 Glucose enters the beta cell, is phosphorylated, and the resulting rise in the ATP-to-ADP ratio
 closes an ATP-sensitive potassium channel; the cell depolarises, calcium enters, and stored
-granules are released *(mechanism)*. Sensing, deciding and acting happen in one place,
+granules are released (**mechanism**). Sensing, deciding and acting happen in one place,
 continuously, in seconds. Replacement therapy keeps none of that. It is open-loop: the dose is
 decided before the disturbance is known, delivered into a compartment the hormone was never meant
 to enter, and once given it cannot be retrieved. That is the whole difficulty, and it is a control
 problem before it is a pharmacology problem.
 
-Claims below are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where the basis is
-load-bearing.
+Claims below are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where the
+basis is load-bearing.
 
 ## The physiological pattern, and why it has that shape
 
 Secretion has two components because the demands are two. Between meals and overnight a low,
 continuous output holds hepatic glucose production and lipolysis in check — the **basal**
-function, whose job is suppression rather than disposal *(mechanism)*. After a meal, a sharp rise
-is needed to dispose of an absorbed load, and the response is biphasic: a rapid first phase from
-granules already docked, then a sustained second phase from new synthesis and recruitment
-*(consensus)*. That first phase exists precisely because of the lag — pre-made granules are the
+function, whose job is suppression rather than disposal (**mechanism**). After a meal, a sharp
+rise is needed to dispose of an absorbed load, and the response is biphasic: a rapid first phase
+from granules already docked, then a sustained second phase from new synthesis and recruitment
+(**consensus**). That first phase exists precisely because of the lag — pre-made granules are the
 only way to act faster than synthesis allows.
 
 Two features of the natural route have no counterpart in an injection. Secretion is into the
 portal vein, so the liver sees a far higher concentration than the periphery and extracts a large
-fraction on first pass *(mechanism)*. And the response is amplified by gut-derived incretin
+fraction on first pass (**mechanism**). And the response is amplified by gut-derived incretin
 hormones, so an oral glucose load provokes more insulin than the same load given intravenously
-*(consensus)*. Subcutaneous delivery abolishes the hepatic gradient and bypasses the incretin arm
-entirely: the periphery is over-exposed relative to the liver, which is a structural difference,
-not a dosing error.
+(**consensus**). Subcutaneous delivery abolishes the hepatic gradient and bypasses the incretin
+arm entirely: the periphery is over-exposed relative to the liver, which is a structural
+difference, not a dosing error.
 
 ## Where the lag enters, drawn to scale
 
@@ -74,46 +74,46 @@ not a dosing error.
 
 The two bracketed regions are the entire clinical problem. The left one is post-meal
 hyperglycaemia. The right one is the risk of glucose falling too low later, because the actuator
-outlasts the disturbance *(mechanism)*. Both are consequences of dead time, not of carelessness.
+outlasts the disturbance (**mechanism**). Both are consequences of dead time, not of carelessness.
 
 ## Why open-loop control of this particular variable is hard
 
 1. **Dead time with an irreversible actuator.** Any controller with delay must predict. A
    controller that cannot withdraw its last action must predict *and* be conservative, because
-   overshoot cannot be undone *(mechanism)*.
+   overshoot cannot be undone (**mechanism**).
 2. **The disturbances are unmeasured.** Exercise — during and for many hours afterwards — illness,
    infection, stress, sleep, alcohol, the rate of gastric emptying, hormonal cycles, injection
    site, local temperature and massage of the site all alter either the demand or the absorption
-   *(consensus)*. A controller blind to its disturbances cannot be tight.
+   (**consensus**). A controller blind to its disturbances cannot be tight.
 3. **The cost function is asymmetric.** Running high does harm slowly, over years. Running low
    does harm in minutes, and severe hypoglycaemia can cause seizure, loss of consciousness and
-   death *(consensus)*. A rational controller facing that asymmetry biases upward, and accepts
-   worse average control to avoid the fast failure *(mechanism)*.
+   death (**consensus**). A rational controller facing that asymmetry biases upward, and accepts
+   worse average control to avoid the fast failure (**mechanism**).
 4. **The opposing arm of the loop is also damaged.** In long-standing type 1 the glucagon response
    to falling glucose is lost and adrenergic warning symptoms blunt, a state called impaired
-   awareness of hypoglycaemia *(consensus)*. Repeated lows lower the threshold at which warning
+   awareness of hypoglycaemia (**consensus**). Repeated lows lower the threshold at which warning
    appears, so the system that should rescue an overshoot degrades with each overshoot — a
    positive feedback loop layered on top of a broken negative one.
 5. **The measurement is not the controlled variable.** Sensors report interstitial glucose, which
-   trails plasma glucose during rapid change *(mechanism)*. Controlling a lagged estimate of a
+   trails plasma glucose during rapid change (**mechanism**). Controlling a lagged estimate of a
    variable through a lagged actuator is the textbook recipe for oscillation.
 
 ## What basal and bolus actually are
 
 They are not two sizes of the same thing; they do different jobs. Basal replacement substitutes
 for the suppressive background, and should ideally be flat and uneventful, so that between meals
-and overnight glucose neither climbs nor falls *(mechanism)*. Bolus replacement substitutes for
+and overnight glucose neither climbs nor falls (**mechanism**). Bolus replacement substitutes for
 the prandial surge, and must be matched in both size and timing to an absorption curve nobody can
-measure directly *(mechanism)*. Getting a basal wrong shows as drift when nothing is happening;
+measure directly (**mechanism**). Getting a basal wrong shows as drift when nothing is happening;
 getting a bolus wrong shows as a spike or a fall tied to a meal. Distinguishing the two from a
 glucose record is the main diagnostic skill in this area, and the reason records are reviewed by
 period rather than as a daily average.
 
 Automated insulin delivery closes part of the loop — sensor to algorithm to pump — and measurably
-improves time spent in range *(consensus)*. It does not remove the lag. The algorithm still acts
+improves time spent in range (**consensus**). It does not remove the lag. The algorithm still acts
 through a subcutaneous depot, so it cannot respond faster than the insulin can, which is why
 announcing meals still helps and why the remaining failures cluster around rapid change
-*(mechanism)*.
+(**mechanism**).
 
 ## The human stakes, said plainly
 

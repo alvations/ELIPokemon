@@ -11,7 +11,7 @@ tags: [reproductive-axis, gnrh, pulsatility, gonadotrophins, feedback]
 # Protect works until you hold it down. Truant works because it never does.
 
 **Leftovers** is a set-point controller: a sixteenth of maximum HP at the end of every single
-turn, unconditionally, with no rhythm and no event in it *(mechanism)*. That is the shape every
+turn, unconditionally, with no rhythm and no event in it (**mechanism**). That is the shape every
 other answer in this specialty has used, and it is the wrong shape for this one — because a
 controller that holds a value cannot produce a **timed event**, and a timed event is what this
 loop exists to produce.
@@ -20,14 +20,15 @@ So the architecture is different, in three ways that the games happen to model e
 
 1. **The input is a rhythm, not a level.** **Truant** is a counter that flips every turn, so its
   holder acts and then loafs and then acts — **Slakoth** and **Slaking** carry it as their only
-  ability, and **Durant** carries it as a **Hidden Ability** *(mechanism)*. The output *is* the
+  ability, and **Durant** carries it as a **Hidden Ability** (**mechanism**). The output *is* the
   pattern.
 2. **Holding a signal down destroys it.** The **Protect** family shares a consecutive-use counter.
-  In the Generation III decompilation the success chance runs full, then a half, then a quarter,
-  then an eighth — and the counter **resets to zero the moment any other move is used**
-  *(mechanism)*. Pulse it and it never degrades. Hold it down and it stops being a signal at all.
+   In the Generation III decompilation the success chance runs full, then a half, then a quarter,
+   then an eighth — and the counter **resets to zero the moment any other move is used**
+   (**mechanism**). Pulse it and it never degrades. Hold it down and it stops being a signal at
+   all.
 3. **The feedback changes sign at a threshold.** **Weakness Policy** does nothing while you take
-  ordinary hits, and then, on a super-effective hit, raises both offences sharply *(mechanism)*.
+  ordinary hits, and then, on a super-effective hit, raises both offences sharply (**mechanism**).
   The same input, two signs, switched by a condition.
 
 | In the battle | What it stands for |
@@ -44,8 +45,8 @@ So the architecture is different, in three ways that the games happen to model e
 | **PP**, and an **Ether** restoring 10 of it | Availability: reversible, and nothing is broken |
 | **Leftovers**, every turn, unconditionally | A set-point controller, for contrast |
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## The two architectures, side by side
 
@@ -99,11 +100,11 @@ transferable idea on this page.
 Because the responder reads the **pattern**, delivering the same thing continuously does the
 opposite of delivering it in pulses. Here is the verified mechanic again, because it is the whole
 argument: `protectUses` increments on each consecutive success and is **reset to zero whenever the
-last resulting move was not one of the family** *(mechanism)*. So four pulses of **Protect**,
+last resulting move was not one of the family** (**mechanism**). So four pulses of **Protect**,
 spaced out, all land. Four in a row and the fourth has an eighth of the chance.
 
 Now put **Encore** on it. Encore locks the target into repeating the move it just used, which
-means the counter can never reset and the move degrades to nothing *(mechanism)*. **Forcing
+means the counter can never reset and the move degrades to nothing (**mechanism**). **Forcing
 continuity is how you switch the system off**, and it looks like driving it harder.
 
 Students get this backwards reliably, and the reason is that they are reasoning from a set-point
@@ -111,7 +112,7 @@ model where more of a signal means more of a response. In a frequency-encoded sy
 deliver something decides whether it is a signal at all.
 
 **Outrage**, **Thrash** and **Petal Dance** make the same point from the other end: locked in for
-two or three turns, unable to choose anything else, and confused at the end of it *(mechanism)*.
+two or three turns, unable to choose anything else, and confused at the end of it (**mechanism**).
 Sustained, unopposed, maximum drive, and the result is a loss of coordination rather than a
 stronger effect.
 
@@ -120,8 +121,8 @@ stronger effect.
 **A reading without the turn number is not a reading.** This is the commonest mistake in this
 topic and it is structural rather than careless: the same value is unremarkable on turn two of a
 cycle and plainly wrong on turn four, so a number on its own has no interpretation to have
-*(mechanism)*. Which turn, counted from where, and what you are asking are all part of the
-measurement. The conventions differ by country *(country-dependent)*.
+(**mechanism**). Which turn, counted from where, and what you are asking are all part of the
+measurement. The conventions differ by country (**country-dependent**).
 
 **The two-level rule survives intact**, and it is worth stating in exactly the same words as the
 other three answers:
@@ -137,9 +138,10 @@ Fourth time. Same question every time: **is Flail as loud as the field says it s
 rhythm generator, anything that disturbs the rhythm takes the whole axis down without any setter
 being damaged. The clean picture is **PP**: run the generator's move to zero and it cannot pulse,
 and an **Ether** or a **Leppa Berry** restoring 10 PP brings everything back at once, because
-nothing was ever wrong *(mechanism)*. The other clean picture is **Taunt**, which prevents status
-moves for a few turns and can be thrown by something with no connection to this axis whatsoever
-*(mechanism)*. The reporter goes quiet, the condition lapses, and the fault is next door.
+nothing was ever wrong (**mechanism**). The other clean picture is **Taunt**, which prevents
+status moves for a few turns and can be thrown by something with no connection to this axis
+whatsoever (**mechanism**). The reporter goes quiet, the condition lapses, and the fault is next
+door.
 
 ## Where the games have no honest picture, and I am not going to invent one
 
@@ -152,7 +154,7 @@ working correctly rather than anything going wrong.
 The games have no mechanic for that. **PP** depletes but an **Ether** restores it; a setter can be
 off the team but that is an absence rather than an exhaustion. The nearest honest thing is the
 diabetes answer's first failure mode — **no setter on the team at all** — and it is a picture of
-absence, not of a store running out *(mechanism)*. So this part of the loop has no analogy here,
+absence, not of a store running out (**mechanism**). So this part of the loop has no analogy here,
 and saying so is better than bending a mechanic until it fits.
 
 And one more thing I have deliberately not used. Pokémon has an entire breeding system — the **Day

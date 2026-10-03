@@ -12,35 +12,36 @@ tags: [cushings, cortisol, dynamic-testing, suppression, incidentaloma]
 
 Cortisol excess cannot be diagnosed by measuring cortisol. A single value is almost
 uninterpretable, because the normal range at nine in the morning overlaps the abnormal range at
-midnight, and because the quantity swings across the day by design *(mechanism)*. So the tests are
-not measurements. They are **manoeuvres**, and there are only three shapes of them:
+midnight, and because the quantity swings across the day by design (**mechanism**). So the tests
+are not measurements. They are **manoeuvres**, and there are only three shapes of them:
 
 1. **Suppress it.** Give a synthetic glucocorticoid and ask whether the axis obeys. A normal loop
-  suppresses; an autonomous source does not *(mechanism)*.
+  suppresses; an autonomous source does not (**mechanism**).
 2. **Integrate it.** Collect over twenty-four hours, so the swing cancels and what remains is the
-  total output *(mechanism)*.
+  total output (**mechanism**).
 3. **Time it to the trough.** Sample when the value should be at its lowest, because the first
-  thing lost in endogenous excess is the **nocturnal nadir**, not the morning peak *(consensus)*.
+   thing lost in endogenous excess is the **nocturnal nadir**, not the morning peak
+   (**consensus**).
 
 And behind all three sits the general rule that makes endocrine testing learnable rather than
 memorisable: **push the loop in the direction it is supposed to resist.** Suspected excess is
 tested by suppression. Suspected deficiency is tested by stimulation. One sentence covers the
 whole of dynamic testing, in this axis and every other.
 
-Claims below are marked *(mechanism)* where they follow from physiology and are checkable by
-reasoning, *(definitional)* where the statement is what a term means, *(consensus)* where they are
-settled professional agreement, and *(country-dependent)* where the answer differs between
+Claims below are marked (**mechanism**) where they follow from physiology and are checkable by
+reasoning, (**definitional**) where the statement is what a term means, (**consensus**) where they
+are settled professional agreement, and (**country-dependent**) where the answer differs between
 countries and documents.
 
 ## Before any test: the commonest cause is a history question
 
-Exogenous glucocorticoid is by far the commonest cause of cortisol excess *(consensus)*. It is
+Exogenous glucocorticoid is by far the commonest cause of cortisol excess (**consensus**). It is
 found by asking — about oral, inhaled, topical over a large area, intranasal, intra-articular and
 injected preparations, and about preparations obtained without a prescription, which people
 frequently do not volunteer because they do not think of them as medicines. There is no test for
 this that works better than the question, and in exogenous excess the endogenous axis is
 **suppressed**, so the biochemistry is the mirror image of the endogenous disease: low
-corticotropin, low endogenous cortisol, and a clinical picture of excess *(mechanism)*.
+corticotropin, low endogenous cortisol, and a clinical picture of excess (**mechanism**).
 
 ## Who to test, which is a Bayesian question and not a clinical one
 
@@ -58,10 +59,11 @@ thing in the topic.
 
 The left column is extremely common in the population and almost never caused by this. The right
 column reflects **catabolism** — protein breakdown in muscle, dermis and bone — which is what
-chronic glucocorticoid excess specifically does and what very little else does *(mechanism)*. Test
-on the right column and the positive results mean something. Test on the left column and the false
-positives will outnumber the true ones however good the assay is, because a test's performance in
-use is a property of the population it is applied to and not of the test *(mechanism)*.
+chronic glucocorticoid excess specifically does and what very little else does (**mechanism**).
+Test on the right column and the positive results mean something. Test on the left column and the
+false positives will outnumber the true ones however good the assay is, because a test's
+performance in use is a property of the population it is applied to and not of the test
+(**mechanism**).
 
 ## Why suppression is the shape, and what it is actually asking
 
@@ -101,42 +103,42 @@ interval does not exclude it.
 ## Why timing to the trough, and why the integral
 
 The diurnal rhythm is generated upstream, so in endogenous excess the earliest casualty is the
-**shape** of the day rather than its height *(consensus)*. The nadir disappears before the peak
+**shape** of the day rather than its height (**consensus**). The nadir disappears before the peak
 rises. A morning sample therefore tests the part of the rhythm that is least informative, and a
 late-evening sample tests the part that should be lowest and in disease is not. The choice of
 sampling time is not convenience; it is where the signal lives.
 
 The integral answers a different question. Collected across twenty-four hours, the swing cancels
 and what is left is total output, which is the quantity the tissues actually experienced
-*(mechanism)*. It is the same logic as any time-averaged marker: an integral sees the stretch, and
-a spot value sees the moment, and neither substitutes for the other.
+(**mechanism**). It is the same logic as any time-averaged marker: an integral sees the stretch,
+and a spot value sees the moment, and neither substitutes for the other.
 
 Each shape has its own failure mode, which is why the tests are used in combination and why
-concordance matters more than any single result *(consensus)*:
+concordance matters more than any single result (**consensus**):
 
 * A **suppression** test fails when absorption or metabolism of the synthetic steroid is unusual,
-  and when something is inducing or inhibiting its clearance *(mechanism)*.
+  and when something is inducing or inhibiting its clearance (**mechanism**).
 * An **integral** fails when the collection is incomplete, and it varies with renal function
-  *(mechanism)*.
+  (**mechanism**).
 * A **trough** sample fails when the person's rhythm is genuinely shifted — shift work, recent
-  travel across time zones, disrupted sleep *(mechanism)*.
+  travel across time zones, disrupted sleep (**mechanism**).
 * **All three** fail in the states of physiological hypercortisolism: severe illness, major
   depression, alcohol excess, pregnancy, and anything that raises cortisol-binding globulin, which
-  lifts total cortisol without lifting the free fraction *(consensus)*. This is why the free
+  lifts total cortisol without lifting the free fraction (**consensus**). This is why the free
   measures — salivary and urinary — exist, and why the binding protein is the quiet confounder in
   this topic exactly as it is in the thyroid one.
 
 ## Then, and only then, where it is coming from
 
 The sequence is **confirm, then classify, then localise**, and each step answers a different
-question *(consensus)*:
+question (**consensus**):
 
 * **Confirm** that output is genuinely and autonomously excessive, using at least two of the three
   shapes above, concordantly.
 * **Classify** by corticotropin. If corticotropin is inappropriately normal or high for a high
   cortisol, the drive is corticotropin-dependent — a pituitary corticotroph adenoma, or
   corticotropin from an ectopic source. If corticotropin is suppressed, the source is making
-  cortisol without being asked, which places it in the adrenal *(mechanism)*.
+  cortisol without being asked, which places it in the adrenal (**mechanism**).
 * **Localise** with imaging, and with the further tests that exist specifically to distinguish a
   pituitary source from an ectopic one, which are specialist procedures and are not described
   here.
@@ -144,7 +146,7 @@ question *(consensus)*:
 ## Why imaging first is the classic error
 
 Incidental lesions of both the pituitary and the adrenal are common in people with no hormonal
-abnormality whatsoever *(consensus)*. That single fact is what breaks the intuitive order of
+abnormality whatsoever (**consensus**). That single fact is what breaks the intuitive order of
 investigation.
 
 If the scan comes first, a found lesion has no established hormonal context, and the human
@@ -163,11 +165,11 @@ determined entirely by what was established first.
 
 Two honest caveats. Endogenous cortisol excess can be **cyclical**, with periods of normal output
 between periods of excess, so a single round of negative tests does not close the question when
-the clinical picture is strong *(consensus)*. And at the mild end the distinction from
+the clinical picture is strong (**consensus**). And at the mild end the distinction from
 physiological hypercortisolism is genuinely difficult, not merely fiddly: the test characteristics
 that look reassuring in a textbook were measured in populations with florid disease, and they do
-not transfer *(consensus)*. The correct response to a difficult mild case is specialist assessment
-over time, not a more confident reading of the same numbers.
+not transfer (**consensus**). The correct response to a difficult mild case is specialist
+assessment over time, not a more confident reading of the same numbers.
 
 ## The human stakes, said plainly
 

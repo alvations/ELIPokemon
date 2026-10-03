@@ -11,15 +11,15 @@ tags: [adrenal, incidentaloma, overdiagnosis, phaeochromocytoma, imaging]
 # Two questions, and the honest reason they are two is that neither one's answer constrains the other's
 
 An adrenal incidentaloma is an adrenal mass found on imaging that was performed for an unrelated
-reason, at or above a size that convention treats as worth naming *(definitional)*. The word is a
-description of **how it was found**, not of what it is, and holding that distinction is the start
-of reasoning about it well.
+reason, at or above a size that convention treats as worth naming (**definitional**). The word is
+a description of **how it was found**, not of what it is, and holding that distinction is the
+start of reasoning about it well.
 
 It is common, and it is common for two reasons that have nothing to do with adrenal disease.
 Cross-sectional imaging is performed in enormous volume, and benign non-functioning cortical
-adenomas are frequent and become more frequent with age *(consensus)*. So the base rate of finding
-one is high and the base rate of it mattering is low — which is precisely the situation in which
-an undisciplined work-up does harm.
+adenomas are frequent and become more frequent with age (**consensus**). So the base rate of
+finding one is high and the base rate of it mattering is low — which is precisely the situation in
+which an undisciplined work-up does harm.
 
 The finding forces exactly two questions:
 
@@ -37,10 +37,10 @@ adrenal insufficiency is worked through, which is where a bilateral finding lead
 are where pre-test probability and the difference between sweeping and meeting something are set
 out; the prior-from-context reasoning here is theirs.
 
-Claims below are marked *(mechanism)* where they follow from pathology or physiology and are
-checkable by reasoning, *(definitional)* where the statement is what a term means, *(consensus)*
-where they are settled professional agreement, and *(country-dependent)* where the answer differs
-between countries and documents.
+Claims below are marked (**mechanism**) where they follow from pathology or physiology and are
+checkable by reasoning, (**definitional**) where the statement is what a term means,
+(**consensus**) where they are settled professional agreement, and (**country-dependent**) where
+the answer differs between countries and documents.
 
 ## The grid, which is the whole structure
 
@@ -84,33 +84,33 @@ between countries and documents.
 ## Question one: is it functioning, and what exactly is being asked
 
 Three things an adrenal lesion can make, and each has its own targeted investigation
-*(consensus)*. This is a short, specific list rather than a panel, and the reason to say so is
+(**consensus**). This is a short, specific list rather than a panel, and the reason to say so is
 that a broad screen in a low-prior situation generates borderline results that then drive further
 testing.
 
 **Cortisol autonomy** is tested by suppression, because the question is not how much there is but
 whether the output still switches off. The cortisol-excess answer works this through in detail;
 the logic is that in a system with a controller you demonstrate pathology by removing the off
-state rather than by finding a high number *(mechanism)*. The mild end of this has been renamed —
-what was once called subclinical disease is now generally described as mild autonomous cortisol
-secretion *(consensus)* — and what should be done about it is a genuinely contested question on
-which documents differ *(country-dependent)*.
+state rather than by finding a high number (**mechanism**). The mild end of this has been renamed
+— what was once called subclinical disease is now generally described as mild autonomous cortisol
+secretion (**consensus**) — and what should be done about it is a genuinely contested question on
+which documents differ (**country-dependent**).
 
 **Aldosterone excess** is assessed as a ratio with renin rather than as a level, because the
 diagnostic claim is about autonomy from the volume loop rather than about an amount
-*(mechanism)*. Its interpretation is heavily affected by medicines, by posture and by potassium,
+(**mechanism**). Its interpretation is heavily affected by medicines, by posture and by potassium,
 and the preparation required before the sample is taken, as well as the ratio applied, differ
-between countries and laboratories *(country-dependent)*.
+between countries and laboratories (**country-dependent**).
 
 **Catecholamine excess** is assessed through metabolites rather than the parent amines, because
 the secretion is episodic and the metabolites are produced continuously inside the tumour
-*(mechanism)*. That is the same integral argument the growth-hormone answer is built on, arriving
-at a different axis.
+(**mechanism**). That is the same integral argument the growth-hormone answer is built on,
+arriving at a different axis.
 
 And catecholamine excess has a position in the sequence that is not a convention but a mechanism:
 it is excluded **before** anything is done to the mass, because mechanical disturbance of a
 catecholamine-secreting tumour, including a needle, can precipitate a severe cardiovascular event
-*(consensus)*.
+(**consensus**).
 
 ## Question two: is it malignant, and why that is a looking question
 
@@ -118,30 +118,30 @@ The useful discriminators here are physical rather than biochemical.
 
 **Lipid content.** Benign cortical adenomas are lipid-rich, and lipid attenuates X-rays less than
 soft tissue does, so an adenoma typically appears of low density on an unenhanced scan
-*(mechanism)*. That is a physical property of the tissue being read directly, and it is the single
-most useful imaging feature. The threshold applied to it is a radiological convention and belongs
-in the radiology department's protocol *(country-dependent)*.
+(**mechanism**). That is a physical property of the tissue being read directly, and it is the
+single most useful imaging feature. The threshold applied to it is a radiological convention and
+belongs in the radiology department's protocol (**country-dependent**).
 
 **Size, margins and internal appearance.** Larger lesions, irregular margins, heterogeneity,
 necrosis and calcification all shift the assessment, and growth on a later scan shifts it further
-*(consensus)*.
+(**consensus**).
 
 **The context.** This is the one most often underweighted. In someone with a known cancer
 elsewhere, the prior probability that an adrenal mass is a deposit is entirely different from the
-prior in someone with no such history — and the lesion may look identical in both *(mechanism)*.
+prior in someone with no such history — and the lesion may look identical in both (**mechanism**).
 The same appearance carries a different meaning, and the meaning comes from outside the image.
 
 ## The investigation you do not do
 
 A biopsy of a cortical lesion frequently cannot separate a benign adenoma from an adrenocortical
 carcinoma, because both are composed of cortical cells and the distinction rests on architectural
-features that a small sample does not show *(mechanism)*. So the test that looks like the direct
+features that a small sample does not show (**mechanism**). So the test that looks like the direct
 route to an answer frequently does not produce one.
 
 Combine that with the catecholamine hazard above and there are two independent reasons not to put
 a needle in, one of which is a hazard and the other a futility. The result is that biopsy is
 reserved for a narrow set of situations, mostly where a deposit from a known extra-adrenal cancer
-is the question and where the result will change what is done *(consensus)*.
+is the question and where the result will change what is done (**consensus**).
 
 The generalisable point is that "we could just look at it directly" is not always the shortest
 path to a diagnosis, and the reasons it is not are sometimes about risk and sometimes about what
@@ -152,10 +152,10 @@ together.
 
 Two adrenal masses change the differential rather than doubling it: bilateral adenomas,
 haemorrhage, infiltration by lymphoma or by metastases, granulomatous or infectious disease, and
-congenital adrenal hyperplasia all belong here *(consensus)*. And the direction of the hormonal
+congenital adrenal hyperplasia all belong here (**consensus**). And the direction of the hormonal
 question can **invert**: where a unilateral lesion raises the question of excess, bilateral
 disease raises the question of **insufficiency**, because enough of both glands may be involved
-*(mechanism)*. The adrenal-insufficiency answer is the one that then applies.
+(**mechanism**). The adrenal-insufficiency answer is the one that then applies.
 
 ## The harm the pathway does, and the order you cannot have
 
@@ -164,7 +164,7 @@ There is a real harm on each side and they pull against each other.
 Under-investigating means missing a functioning lesion whose effects are cumulative and treatable,
 or a malignancy at a stage when it mattered. Over-investigating means a cascade: a borderline
 biochemical result, then a repeat, then more imaging, then surveillance for years, and sometimes
-an operation on a gland that was never the problem *(consensus)*.
+an operation on a gland that was never the problem (**consensus**).
 
 The cortisol-excess answer names the error of imaging before establishing the question. This
 situation is its inverse and is harder, because **the imaging has already happened** and cannot be
@@ -174,7 +174,7 @@ letting the scan set the agenda.
 
 How long a non-functioning, radiologically reassuring mass should be followed, and whether it
 needs to be followed at all, is genuinely guideline-dependent, and the direction of travel in
-recent guidance has been towards doing less *(country-dependent)*. That is a place where the
+recent guidance has been towards doing less (**country-dependent**). That is a place where the
 document that applies where you work is the only authority.
 
 ## The human stakes, said plainly

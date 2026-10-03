@@ -17,7 +17,7 @@ consumed. Those two items are the two halves of the job: continuous suppression 
 and a single sharp response to a load. The real system does both from inside the Pokémon, on its
 own clock, with the sensor and the effector in the same body. Replacing it from the Trainer's side
 turns a closed loop into an open one — you commit before you know what is coming, through a route
-that cannot be recalled, reading a bar that is already out of date *(mechanism)*. That is the
+that cannot be recalled, reading a bar that is already out of date (**mechanism**). That is the
 whole difficulty.
 
 | In the battle | What it stands for |
@@ -30,29 +30,29 @@ whole difficulty.
 | **Rain Dance**: 5 PP, five turns, cannot be recalled | A dose: committed the moment it is given |
 | The HP bar animating toward the stored value | A measurement that trails the real one |
 
-Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where it matters.
+Claims are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where it matters.
 
 ## The pattern, and why it has that shape
 
 The background job is suppression. **Leftovers** is proportional to the holder's own maximum,
 costs nothing, and runs whether or not anything is happening — which is exactly the shape a
 background correction has to be, because its purpose is that nothing drifts while nobody is paying
-attention *(mechanism)*.
+attention (**mechanism**).
 
 The load job is different and needs to be fast, so the games solve it the way the body does: the
 response is **already present before it is needed**. A Sitrus Berry that had to be fetched would
 arrive a turn late; a Sitrus Berry sitting in the item slot resolves inside the turn the damage
-landed *(mechanism)*. That is what pre-made, pre-docked stores are for, and it is the only way to
-act faster than manufacture allows. Behind it, Leftovers keeps ticking — a sharp first response
-and a sustained second one *(consensus)*.
+landed (**mechanism**). That is what pre-made, pre-docked stores are for, and it is the only way
+to act faster than manufacture allows. Behind it, Leftovers keeps ticking — a sharp first response
+and a sustained second one (**consensus**).
 
 Two things about the route have no counterpart in anything you do from the bag. A **held** item
 resolves at its holder, in the holder's own end-of-turn slot, before the rest of the field has any
 part in it. And the Trainer's version — a potion from the bag — costs the entire turn, so the
 opponent acts first and the correction arrives after the damage it was meant to cover
-*(mechanism)*. Worse, the held berry only learns about trouble from its own HP threshold, which is
-downstream of the hit; a Trainer watching the opponent select a move knows *before* anything
-lands. Replacement throws that early warning away *(mechanism)*.
+(**mechanism**). Worse, the held berry only learns about trouble from its own HP threshold, which
+is downstream of the hit; a Trainer watching the opponent select a move knows *before* anything
+lands. Replacement throws that early warning away (**mechanism**).
 
 ## Where the lag enters, drawn to scale
 
@@ -90,35 +90,35 @@ lands. Replacement throws that early warning away *(mechanism)*.
 
 The two halves of that last block are the entire clinical problem. The corrections resolve first
 and are sized against information that is already one phase stale; the drains resolve afterwards.
-Both are consequences of dead time, not of carelessness *(mechanism)*.
+Both are consequences of dead time, not of carelessness (**mechanism**).
 
 ## Why controlling this from outside is hard
 
 1. **Dead time, with an actuator you cannot take back.** **Rain Dance** commits five turns the
    instant it is clicked. It cannot be cut short, and it cannot be topped up — used while it is
-   already raining it simply fails, with five PP and a wasted turn gone *(mechanism)*. A
+   already raining it simply fails, with five PP and a wasted turn gone (**mechanism**). A
    controller that cannot withdraw its last action has to predict *and* stay conservative.
 2. **The disturbances are not visible.** The opponent's held item, their ability, whether they
    switch, a **Quick Claw** going off, a **Critical Hit**, and the damage roll itself — spread
    over sixteen values between 85% and 100% — are all decided after you have committed
-   *(consensus)*. A controller blind to its disturbances cannot be tight.
+   (**consensus**). A controller blind to its disturbances cannot be tight.
 3. **The two directions of error are not equal, and here the battle analogy stops.** Overshooting
    a correction in Pokémon wastes HP you could not use. Overshooting insulin causes hypoglycaemia,
    which does harm within minutes, and severe hypoglycaemia can cause seizure, loss of
-   consciousness and death *(consensus)*. That is not a battle outcome and it is not material for
-   a metaphor. It is the reason a rational controller biases toward running high and accepts a
+   consciousness and death (**consensus**). That is not a battle outcome and it is not material
+   for a metaphor. It is the reason a rational controller biases toward running high and accepts a
    worse average: the two failures are not symmetrical, and only one of them is fast.
 4. **The arm that should rescue an overshoot is also broken.** The field conditions are reciprocal
    — **Dry Skin** gains an eighth per turn in rain and loses an eighth per turn in harsh sunlight,
-   so a working pair of setters is what keeps the bar inside a band *(mechanism)*. With no
+   so a working pair of setters is what keeps the bar inside a band (**mechanism**). With no
    **Groudon** left to put sun back up, nothing pulls the bar the other way. Plainly, in the
    clinic: in long-standing type 1 diabetes the glucagon response to a falling glucose is lost and
    the adrenergic warning symptoms blunt, and repeated lows lower the threshold at which any
-   warning appears at all *(consensus)*. The system that should rescue an overshoot degrades with
-   every overshoot.
+   warning appears at all (**consensus**). The system that should rescue an overshoot degrades
+   with every overshoot.
 5. **What you read is not what you are controlling.** The HP bar is drawn in forty-eight pixels
    and animated toward the stored value over several frames, so the bar you are looking at trails
-   the number the game is holding, and it is quantised on the way *(mechanism)*. Controlling a
+   the number the game is holding, and it is quantised on the way (**mechanism**). Controlling a
    lagged, coarsened estimate through a lagged actuator is the textbook recipe for oscillation.
 
 ## What the two items actually are
@@ -128,21 +128,21 @@ it scales with the Pokémon: a **Blissey**, with the highest base HP in the game
 large absolute amount, while a **Shedinja**, whose maximum is 1, gets the one-point floor. The
 **Sitrus Berry** in Generation III was a *flat* 30 HP whatever it was attached to — nearly all of
 it wasted on Shedinja, a rounding error on Blissey — and the **Oran Berry** is a flat 10 on the
-same half-HP trigger to this day *(mechanism)*. The games eventually changed Sitrus to a quarter
+same half-HP trigger to this day (**mechanism**). The games eventually changed Sitrus to a quarter
 of maximum HP, and that change is the whole argument: a fixed absolute amount against a variable
 size is wrong in both directions, which is why the background correction is the proportional one.
 
 Getting the background wrong shows as the bar drifting when nothing is happening. Getting the
 threshold response wrong shows as a spike or a crash tied to one specific hit. Telling those two
 apart from a battle log — by looking at the quiet turns separately from the loud ones — is the
-actual skill, and it is why a log is read by period and not as an average *(mechanism)*.
+actual skill, and it is why a log is read by period and not as an average (**mechanism**).
 
 **Ingrain** is as close as the games get to closing the loop: the Pokémon roots itself, restores a
 sixteenth of its maximum every turn with no turn spent and no decision taken, and keeps doing it.
 It also cannot switch out, it still only pays at the end of the turn, and it cannot act faster
-than its own clock *(mechanism)*. Automated insulin delivery sits in the same place — it
-measurably improves time spent in range *(consensus)* and it does not remove the lag, which is why
-rapid change is still where the remaining failures cluster.
+than its own clock (**mechanism**). Automated insulin delivery sits in the same place — it
+measurably improves time spent in range (**consensus**) and it does not remove the lag, which is
+why rapid change is still where the remaining failures cluster.
 
 ## Where the metaphor stops
 

@@ -22,8 +22,9 @@ modified-release tablet does **not** change how fast the body gets rid of the dr
 fast the drug goes in. The two are different processes and the formulation only touches one of
 them.
 
-Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
-or (**country-dependent**) local.
+Each load-bearing claim below is marked with its basis: (**mechanism**), (**definitional**),
+(**consensus**), or (**country-dependent**) — the last meaning it differs by country,
+institution or laboratory.
 
 ## Route by route, in terms of fraction and rate
 

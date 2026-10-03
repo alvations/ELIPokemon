@@ -12,12 +12,13 @@ tags: [hba1c, monitoring, continuous-glucose, variability, red-cell-turnover]
 
 Friendship is a number from 0 to 255 that the games never show you. It rises a little with almost
 everything you do and falls when things go badly, and because nothing resets it in ordinary play
-it ends up carrying a record nobody had to write down *(mechanism)*. You read it through proxies.
-The move **Return** has a base power of friendship multiplied by ten and divided by twenty-five,
-so it tops out at 102 — the attack *is* the stored value, expressed as damage. And the friendship
-checker reports it as one of six bands rather than as a number. That is an integral, and a spot
-reading cannot be one, because a single glance at a value that swings all day tells you almost
-nothing about its average. The integral equally cannot tell you what is happening this turn.
+it ends up carrying a record nobody had to write down (**mechanism**). You read it through
+proxies. The move **Return** has a base power of friendship multiplied by ten and divided by
+twenty-five, so it tops out at 102 — the attack *is* the stored value, expressed as damage. And
+the friendship checker reports it as one of six bands rather than as a number. That is an
+integral, and a spot reading cannot be one, because a single glance at a value that swings all day
+tells you almost nothing about its average. The integral equally cannot tell you what is happening
+this turn.
 
 | In the battle | What it stands for |
 | --- | --- |
@@ -30,22 +31,22 @@ nothing about its average. The integral equally cannot tell you what is happenin
 | The HP bar: 48 pixels, green / yellow / red | The continuous trace, with its bands |
 | **Battle Video** in the **Vs. Recorder** | Retrospective review of the whole run |
 
-Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where it matters.
+Claims are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where it matters.
 
 ## Why the integral is weighted, and what the weighting costs
 
 The counter is not a flat tally, and this is the part people miss. How much a single event moves
 it depends on where it already sits: a level-up adds 5 while friendship is below 100, 3 from 100
 to 199, and only 2 at 200 and above, and a **Protein**, an **Iron**, a **Calcium**, a **Zinc**, a
-**Carbos** or an **HP Up** moves it on exactly the same sliding scale *(mechanism)*. A **Pomeg
+**Carbos** or an **HP Up** moves it on exactly the same sliding scale (**mechanism**). A **Pomeg
 Berry** is steeper still — 10, then 5, then 2. A bad faint goes the other way and gets *worse* as
 the counter rises: 5 in the lower bands, 10 in the top one. So the weight a recent event carries
 is set by the state recent history put the counter in, which is precisely what it means for an
-integral to be weighted toward its recent end *(mechanism)*.
+integral to be weighted toward its recent end (**mechanism**).
 
 The practical consequence is that the number moves, but slowly, and it lags any genuine change in
 how a Pokémon is being handled. Checking it again too soon mostly re-measures the stretch you have
-already measured *(consensus)*; how soon counts as too soon is a matter for local guidance
+already measured (**consensus**); how soon counts as too soon is a matter for local guidance
 *(guideline-dependent)*.
 
 ```
@@ -77,7 +78,7 @@ already measured *(consensus)*; how soon counts as too soon is a matter for loca
 
 **The swings, and so the time in the red.** The counter is a summary, and a summary is blind to
 the distribution underneath it. A steady run and a violent one can land on the same figure, and
-the violent one contains every trough the figure averaged away *(mechanism)*. This is the
+the violent one contains every trough the figure averaged away (**mechanism**). This is the
 limitation that matters most, because the harm from a trough is immediate while the reassuring
 figure is smoothing it out.
 
@@ -86,36 +87,37 @@ whether one specific hit does it — all invisible in a single figure. The usefu
 always *when* and *why*, and an integral answers neither.
 
 **The last few turns.** By construction the figure is weighted but slow, so a change made recently
-is largely not in it yet *(mechanism)*.
+is largely not in it yet (**mechanism**).
 
 ## Where it misleads
 
 Everything above assumes the counter is behaving. It is a property of a specific Pokémon's stored
 data, so anything that changes that data without changing how the Pokémon has actually been
-handled changes the figure *(mechanism)*.
+handled changes the figure (**mechanism**).
 
 * **The carrier gets replaced.** Trade a Pokémon and its friendship is set to a flat 70, whatever
-  its entire history was *(mechanism)*. The record is no longer a record of anything that happened
-  to this Pokémon. Nothing about its handling changed; the number did.
+  its entire history was (**mechanism**). The record is no longer a record of anything that
+  happened to this Pokémon. Nothing about its handling changed; the number did.
 * **The starting point is not universal.** Most species begin at 70, **Chansey** and **Blissey**
   begin at 140, and **Tyranitar** begins at 35 — forty-three species start at 35 in Generation III
-  alone *(mechanism)*. The same figure therefore means different things depending on what is
-  holding it, and comparing two species' numbers directly is a mistake *(consensus)*.
+  alone (**mechanism**). The same figure therefore means different things depending on what is
+  holding it, and comparing two species' numbers directly is a mistake (**consensus**).
 * **Things that move the number and not the truth.** A Pokémon caught in a **Luxury Ball** gains
   an extra point on every positive event, as does one met in the region you are currently standing
   in, and a **Soothe Bell** multiplies the gains by half again while leaving every loss untouched
-  *(mechanism)*. Three facts about circumstance, none about handling, all of them in the figure. A
-  **Rare Candy** is worse: it buys a level outright, and the level-up pays its friendship as if
+  (**mechanism**). Three facts about circumstance, none about handling, all of them in the figure.
+  A **Rare Candy** is worse: it buys a level outright, and the level-up pays its friendship as if
   the Pokémon had earned it. And a **Kelpsy Berry**, a **Qualot Berry**, a **Hondew Berry**, a
   **Grepa Berry** or a **Tamato Berry** raises the counter while *taking* **Effort Values** away —
-  items whose whole purpose is subtraction, pushing the record up *(mechanism)*.
+  items whose whole purpose is subtraction, pushing the record up (**mechanism**).
 * **The readout and the stored value can come apart.** **Hyper Training** with a **Bottle Cap**
   raises the stat a Pokémon actually fights with while leaving the stored **Individual Values**
   exactly as they were, so the judge's verdict and the battle performance stop agreeing
-  *(mechanism)*. Which of the two you are looking at is the whole question, and the answer depends
-  on which tool you used *(guideline-dependent)*.
+  (**mechanism**). Which of the two you are looking at is the whole question, and the answer
+  depends on which tool you used *(guideline-dependent)*.
 * **The bands are coarse where it matters.** The checker collapses 255 values into six phrases, so
-  a Pokémon near the edge of a band and one near its other edge report identically *(mechanism)*.
+  a Pokémon near the edge of a band and one near its other edge report identically
+  (**mechanism**).
 
 There is a quieter issue too. Two Pokémon handled identically do not always end up on the same
 figure, by more than the bookkeeping explains, and the reasons are argued about rather than
@@ -128,7 +130,7 @@ The games draw one hard line across this hidden number, at 220, and crossing it 
 **Golbat** becomes **Crobat**. **Chansey** becomes **Blissey**. **Pichu**, **Cleffa**,
 **Igglybuff**, **Togepi** and **Azurill** all level into something else. And **Eevee** crosses the
 same line into **Espeon** by day and **Umbreon** by night — *identical counter, identical
-threshold, different outcome, because the context differed* *(mechanism)*.
+threshold, different outcome, because the context differed* (**mechanism**).
 
 Three things follow and they are routinely run together. The **position** of the line is a
 decision somebody made, not a fact about the counter — in the clinic the value of each diagnostic
@@ -136,20 +138,20 @@ and treatment line is a consensus choice that differs between guideline bodies a
 *(guideline-dependent)*. The **reading** of the same number is contextual, exactly as 220 is at
 dusk: the same measurement is weighed differently in a young person with decades of exposure
 ahead, in frailty, in advanced kidney disease, and in pregnancy, where separate criteria and
-separate measurements apply *(consensus)*. And the **figure itself** carries a spread, so landing
-on the line is not evidence of being on it. None of that is in the molecule. It is in the
+separate measurements apply (**consensus**). And the **figure itself** carries a spread, so
+landing on the line is not evidence of being on it. None of that is in the molecule. It is in the
 agreements attached to it, which is why the threshold gets looked up rather than remembered.
 
 ## Why the bar changed the questions
 
 The HP bar is continuous. It is drawn in forty-eight pixels and redrawn constantly, and it is
 coloured in bands: green above half, yellow between a fifth and a half, red at a fifth or below
-*(mechanism)*. The convenience of not having to ask is the least interesting part of it. What
+(**mechanism**). The convenience of not having to ask is the least interesting part of it. What
 changed is that a continuous display makes previously unanswerable questions answerable: how much
 of the run the bar spent green, how much of it in the red, how violently it moved — and, uniquely,
-**which way it is going right now** *(consensus)*. A rate is information no single glance
+**which way it is going right now** (**consensus**). A rate is information no single glance
 contains, and it is what lets you act before the problem arrives instead of after it
-*(mechanism)*.
+(**mechanism**).
 
 The consequences go further than the battle. Troughs nobody was watching for became visible.
 Swings became a quantity instead of an impression. And review stopped being one figure discussed
@@ -157,7 +159,7 @@ afterwards and became a shape discussed with whoever was holding the controller.
 
 The limitations follow from the same mechanics. The bar is **animated** toward the stored value
 over several frames, so it trails the real number and trails it worst exactly when the real number
-is moving fastest *(mechanism)*. It is quantised to forty-eight pixels, so small moves do not
+is moving fastest (**mechanism**). It is quantised to forty-eight pixels, so small moves do not
 show. For the opponent's Pokémon you get the bar and never the number at all, so what you can
 measure depends on whose Pokémon it is. And the low-HP alarm, which starts in the red band and
 does not stop, is the original case of an alert that people learn to ignore. Published agreements

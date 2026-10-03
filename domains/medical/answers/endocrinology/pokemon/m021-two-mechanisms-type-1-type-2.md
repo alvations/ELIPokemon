@@ -16,7 +16,7 @@ first, nothing on the team can set rain at all — **Kyogre** is not there and n
 **Drizzle** never fires and the condition is simply absent. In the second, Kyogre is standing on
 the field and the weather readout says it is raining, and **Golduck** is out opposite with **Cloud
 Nine**, which switches off every weather effect on the field without clearing the weather
-*(mechanism)*. Signal missing against signal ignored. One bar, two faults, and which fault it is
+(**mechanism**). Signal missing against signal ignored. One bar, two faults, and which fault it is
 decides your next six turns.
 
 | In the battle | What it stands for |
@@ -30,7 +30,7 @@ decides your next six turns.
 | **Rain Dance** from the move list | Replacement from outside, by hand, on a clock |
 | The HP bar | The glucose on the meter |
 
-Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where it matters.
+Claims are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where it matters.
 
 ## The loop, and the two places it breaks
 
@@ -62,10 +62,10 @@ Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where 
 
 Two lags sit in that diagram and they matter more than the arrows do. Drizzle fires the instant
 Kyogre enters, but **Dry Skin**'s eighth and **Swift Swim**'s doubled Speed are only cashed at the
-end of the turn, and the weather and the response have different clocks *(mechanism)*. Worse, the
-condition outlives its source: in Generation III the rain Drizzle sets has no timer at all and
+end of the turn, and the weather and the response have different clocks (**mechanism**). Worse,
+the condition outlives its source: in Generation III the rain Drizzle sets has no timer at all and
 stays for the rest of the battle, while from Generation VI it runs five turns, or eight while the
-setter holds a **Damp Rock** *(mechanism)*. A loop with that much delay in it does not hold a
+setter holds a **Damp Rock** (**mechanism**). A loop with that much delay in it does not hold a
 value. It ranges inside a band, which is what a healthy bar does.
 
 ## Break one: the setter is not on the team
@@ -73,67 +73,67 @@ value. It ranges inside a band, which is what a healthy bar does.
 Nothing destroyed the ability. There was never a holder. **Vileplume** has **Chlorophyll** and
 **Magikarp** has **Swift Swim**, and neither of them can produce a drop of rain — carrying the
 *response* is not carrying the *source*, and a team can be stacked with readers of a condition it
-has no way to create *(mechanism)*.
+has no way to create (**mechanism**).
 
 The tell is not the weather readout, because the readout looks identical however the rain arrived.
 The tell is what is standing on the field. And once you have used **Rain Dance** yourself, the
 readout tells you nothing at all about the opponent's team, because your own move is now in the
-measurement *(mechanism)*. That is the whole reason you look for the setter rather than the
+measurement (**mechanism**). That is the whole reason you look for the setter rather than the
 condition.
 
 With no setter, sunlight from **Groudon** goes unopposed, and **Solar Power** runs every single
 turn: Special Attack up by half, an eighth of maximum HP gone, and no way to switch the ability
-off *(mechanism)*. The bar does not drift down. It falls in eighths, and eight turns is the whole
-battle. Rain Dance here is not an escalation. It is the missing piece, needed from turn one and
-every five turns after that, forever.
+off (**mechanism**). The bar does not drift down. It falls in eighths, and eight turns is the
+whole battle. Rain Dance here is not an escalation. It is the missing piece, needed from turn one
+and every five turns after that, forever.
 
 A common error is to assume from the readout what kind of team you are facing. Teams without a
 setter turn up at every level and in every format, and are routinely misread on the first turn
-*(consensus)*.
+(**consensus**).
 
 ## Break two: the condition is up and the field is deaf to it
 
 Here the loop runs. Kyogre is in and the rain is real; Cloud Nine simply means no
-weather-dependent effect resolves *(mechanism)*. So the earliest sign of trouble is not a bad
+weather-dependent effect resolves (**mechanism**). So the earliest sign of trouble is not a bad
 readout — it is Kyogre switching in and out to keep re-setting a condition that is already there,
-which looks like effort and accomplishes nothing *(mechanism)*. The bar only starts to move once
+which looks like effort and accomplishes nothing (**mechanism**). The bar only starts to move once
 the setter can no longer keep up, and when Kyogre finally faints there is no rain even nominally.
 
 The graded version is more honest than the switch. **Cloud Nine** and **Air Lock** are
 all-or-nothing, but a real team's responsiveness is a fraction: rain is worth a great deal to a
 side built on **Swift Swim** and **Dry Skin** users, and almost nothing to a side carrying one,
-and that fraction is what actually varies *(mechanism)*.
+and that fraction is what actually varies (**mechanism**).
 
 That long quiet phase is why break two is noticed late. The setter can mask it for a very long
-time *(consensus)*, which is also why the side often arrives with **Stealth Rock** already down
+time (**consensus**), which is also why the side often arrives with **Stealth Rock** already down
 and hazards already stacked — not coincidences, the same neglected field.
 
 And residual rain explains why the bar grinds rather than plummets, for a reason that is purely
 quantitative. **Solar Power only triggers in harsh sunlight.** One single turn of rain switches it
 off completely — and one turn of rain gives Dry Skin exactly one eighth back, which against twenty
-turns of accumulated loss is nothing *(mechanism)*. A trace of the condition is enough to stop the
-burn and nowhere near enough to fix the bar. That is also why break two usually ends in a long
+turns of accumulated loss is nothing (**mechanism**). A trace of the condition is enough to stop
+the burn and nowhere near enough to fix the bar. That is also why break two usually ends in a long
 grind rather than a fast burn, and why the occasional side does burn anyway, so this is a tendency
-and not a rule *(consensus)*.
+and not a rule (**consensus**).
 
 ## Why the same bar means something different
 
 * **Implied trajectory.** In break one the bar is on a curve with nothing restraining it. In break
-  two the same value usually reflects a slow grind with some regulation left *(mechanism)*.
+  two the same value usually reflects a slow grind with some regulation left (**mechanism**).
 * **Implied company.** Break two arrives with hazards and chip damage that have been accumulating
-  for many turns. A fresh break one usually does not *(consensus)*.
+  for many turns. A fresh break one usually does not (**consensus**).
 * **Implied urgency.** Whether **Solar Power** is currently burning is asked differently in each,
   and the answer changes what you do this turn *(guideline-dependent)*.
 * **Implied answer.** Break one needs the condition supplied from outside, around a source that
   does not exist. Break two has levers in several places — the setter, the gate, the fraction of
   the side that can read the condition, and the hazards underneath — and the bar can be brought
-  back, which in break one it cannot *(consensus)*.
+  back, which in break one it cannot (**consensus**).
 
 ## Telling them apart is not done from the readout
 
 A **Castform** changing form, a **Politoed** or a **Pelipper** carrying Drizzle in a later
 generation, an **Abomasnow** with **Snow Warning**, a **Tyranitar** with **Sand Stream** — all of
-them produce a weather readout, and several produce a falling bar *(consensus)*. You tell them
+them produce a weather readout, and several produce a falling bar (**consensus**). You tell them
 apart from what is on the field, what is in the bag, and sometimes from the team preview — and the
 honest statement is that a meaningful share of first-turn reads are wrong, which is why you revise
 the read instead of committing to it.

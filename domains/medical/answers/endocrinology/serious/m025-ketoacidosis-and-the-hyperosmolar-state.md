@@ -13,14 +13,14 @@ tags: [ketoacidosis, hyperosmolar, counter-regulation, osmolality, potassium]
 Both come from the same place: insulin action falls, counter-regulatory hormones rise, and hepatic
 glucose output runs unopposed while peripheral uptake fails. The reason the two look nothing alike
 is one quantitative fact. **Insulin suppresses lipolysis at much lower concentrations than it
-drives peripheral glucose disposal** *(mechanism)*. So a small amount of residual insulin action
+drives peripheral glucose disposal** (**mechanism**). So a small amount of residual insulin action
 is enough to keep fat in the adipocyte while being useless for controlling glucose. Below that
 threshold, lipolysis is released and ketoacidosis follows. Above it, glucose climbs for days with
 no acid produced, and what accumulates instead is an osmolar and volume deficit. One organ, one
 hormone, two diseases, set apart by where on that curve the person sits.
 
-Claims below are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where the basis is
-load-bearing.
+Claims below are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where the
+basis is load-bearing.
 
 ## The branch point
 
@@ -60,31 +60,31 @@ load-bearing.
 That positive feedback loop is the single most useful thing on this page. It explains why both
 conditions are self-accelerating, why the glucose is worse the longer it has run, and why
 restoring circulating volume lowers glucose on its own — by restoring the kidney's ability to
-clear it *(mechanism)*.
+clear it (**mechanism**).
 
 ## Why the presentations diverge
 
 **Speed.** Ketone production is fast and the acidosis itself generates symptoms — deep sighing
 respiration to blow off carbon dioxide, nausea, vomiting and abdominal pain — which bring people
-to help within hours to a day or two *(consensus)*. The hyperosmolar state generates thirst and
+to help within hours to a day or two (**consensus**). The hyperosmolar state generates thirst and
 polyuria and little else early, so it evolves over days to weeks. Nothing forces the issue, so the
 deficits reach a size ketoacidosis rarely gets to.
 
 **Who it happens to.** Ketoacidosis is the characteristic decompensation of absent insulin, so it
 is associated with type 1 and with any interruption of insulin supply, and also occurs in type 2
-under sufficient stress *(consensus)*. The hyperosmolar state is characteristic of type 2, often
+under sufficient stress (**consensus**). The hyperosmolar state is characteristic of type 2, often
 in older people, and vulnerability is compounded when thirst is blunted or when getting a drink
-depends on someone else *(consensus)*. Mixed pictures occur and are common enough that the two are
-better understood as ends of a spectrum than as separate boxes *(consensus)*.
+depends on someone else (**consensus**). Mixed pictures occur and are common enough that the two
+are better understood as ends of a spectrum than as separate boxes (**consensus**).
 
 **What dominates the physiology.** In ketoacidosis the acid is the acute threat and the volume
 deficit is significant. In the hyperosmolar state there is no acid to correct and the volume and
 osmolar deficit *is* the disease, which is why altered consciousness is a feature of one and not
-usually of the other *(mechanism)*.
+usually of the other (**mechanism**).
 
 **One exception worth knowing.** Ketoacidosis can occur with a glucose that is not strikingly
 raised, notably in association with sodium-glucose co-transporter-2 inhibitors, and during
-pregnancy and starvation *(consensus)*. The diagnosis rests on acid and ketones, not on the
+pregnancy and starvation (**consensus**). The diagnosis rests on acid and ketones, not on the
 glucose value — which follows directly from the mechanism above, because the branch point is
 lipolysis and not glycaemia.
 
@@ -97,31 +97,31 @@ the only legitimate authority for them.
 1. **Volume before glucose.** The deficit that threatens life first is circulating volume, not the
    glucose number. Restoring volume also breaks the positive feedback loop above by restoring
    renal clearance of glucose, so it lowers glucose as a side effect of doing the more urgent
-   thing *(mechanism)*. This is why the first action in both conditions concerns fluid.
+   thing (**mechanism**). This is why the first action in both conditions concerns fluid.
 2. **Insulin is given to stop ketogenesis, not to lower glucose.** That reframing explains an
    otherwise puzzling feature of ketoacidosis care: glucose is co-administered once the glucose
    falls, while insulin continues, because the acid — not the glucose — is what is being treated
-   *(mechanism)*. The treatment endpoint is resolution of ketosis and acidosis, not a glucose
-   value *(consensus)*.
+   (**mechanism**). The treatment endpoint is resolution of ketosis and acidosis, not a glucose
+   value (**consensus**).
 3. **Potassium is the measurement that lies.** Total body potassium is depleted by the osmotic
    diuresis, yet the serum value may be normal or high on arrival, because acidosis and insulin
    deficiency both shift potassium out of cells. Giving insulin reverses that shift and the
-   measured value falls, sometimes steeply *(mechanism)*. Everything in a protocol about
+   measured value falls, sometimes steeply (**mechanism**). Everything in a protocol about
    monitoring and replacing potassium, and about not starting insulin while potassium is
    critically low, follows from that one sentence *(guideline-dependent)*.
 4. **Bicarbonate is usually withheld.** The acidosis resolves when ketogenesis stops, so
    correcting the pH directly treats a number rather than a cause, and carries specific hazards
-   including worsening hypokalaemia *(consensus)*.
+   including worsening hypokalaemia (**consensus**).
 5. **Rate matters because the brain has equilibrated.** Cells exposed to a high plasma osmolality
    for hours or days adjust their own solute content to match. Lowering plasma osmolality faster
-   than cells can readjust drives water into them *(mechanism)*. This is the mechanism of cerebral
-   oedema, which is the principal cause of death in children with ketoacidosis, and it is the
-   reason correction is deliberately gradual in the hyperosmolar state, where the equilibration
-   has been going on for longer. **The permitted rate of correction is a protocol number and is
-   not stated here** *(guideline-dependent)*.
+   than cells can readjust drives water into them (**mechanism**). This is the mechanism of
+   cerebral oedema, which is the principal cause of death in children with ketoacidosis, and it is
+   the reason correction is deliberately gradual in the hyperosmolar state, where the
+   equilibration has been going on for longer. **The permitted rate of correction is a protocol
+   number and is not stated here** *(guideline-dependent)*.
 6. **Find the precipitant.** Infection, missed or interrupted insulin, myocardial infarction,
    drugs, and new-onset diabetes are the usual causes, and neither condition resolves durably
-   while the cause is unaddressed *(consensus)*.
+   while the cause is unaddressed (**consensus**).
 
 ## The human stakes, said plainly
 

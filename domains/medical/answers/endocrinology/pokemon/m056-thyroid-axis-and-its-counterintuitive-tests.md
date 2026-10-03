@@ -14,13 +14,13 @@ A field condition is a hormone — that is the house mapping, and this answer wo
 layer of the field from the diabetes answers. **Grassy Terrain** is the condition here: set by
 **Tapu Bulu**'s **Grassy Surge** the instant it enters, it gives every **grounded** Pokémon a
 sixteenth of its maximum HP back at the end of every turn, runs for five turns, and runs for eight
-instead if the setter was holding a **Terrain Extender** *(mechanism)*. Ambient, acting on
+instead if the setter was holding a **Terrain Extender** (**mechanism**). Ambient, acting on
 everything that can feel it, decaying on a clock. That is the supply.
 
 Now the readout. You do not get to see the terrain's remaining turns, and the bar animates toward
 a number rather than showing it. What you get is **Flail**, whose base power is read off the
 user's own remaining HP in six bands — and it counts **upward as the bar goes down**
-*(mechanism)*. The reporter is not reporting how much condition there is. It is reporting how
+(**mechanism**). The reporter is not reporting how much condition there is. It is reporting how
 badly the reporter is doing without it.
 
 | In the battle | What it stands for |
@@ -36,8 +36,8 @@ badly the reporter is doing without it.
 | The damage roll, 85–100% of the calculated figure | Assay noise: one reading does not pin a band |
 | **Disable**, four turns on the last move used | The reporter itself is the broken part |
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## Three levels, and what each one does
 
@@ -69,7 +69,7 @@ matters.
 ```
 
 **Helping Hand** earns its place at the top. It has 0 base power, 0 accuracy, and boosts an ally's
-move by half *(mechanism)*. It accomplishes nothing on its own and changes everything about what
+move by half (**mechanism**). It accomplishes nothing on its own and changes everything about what
 the level below it manages. That is why this is a three-level structure and not a two-level one:
 the gain is adjustable from above, so "the right amount" is a setting rather than a constant.
 
@@ -83,7 +83,7 @@ there is almost nothing left. The reporter is not reporting supply. It is report
 ## Counterintuition two: the bands are not evenly spaced, and the floor is blind
 
 Here is the actual table from the Generation III decompilation, which computes the user's HP as a
-fraction of 48 and walks a list *(mechanism)*:
+fraction of 48 and walks a list (**mechanism**):
 
 ```
    HP, in 48ths     ≤1    ≤4    ≤9    ≤16   ≤32   else
@@ -94,8 +94,8 @@ fraction of 48 and walks a list *(mechanism)*:
 Two things fall out of that shape. The reporter is **sensitive near the bottom**: between 4/48 and
 1/48 of the bar it jumps from 150 to 200, so a sliver of change moves it a long way. And the
 reporter is **blind across the top**: a full bar and a two-thirds bar both give base power 20
-*(mechanism)*. A floor is a floor. Once Flail is sitting at 20 you cannot tell how far past 20 the
-situation is, because there is no number below it — which is exactly why you stop asking the
+(**mechanism**). A floor is a floor. Once Flail is sitting at 20 you cannot tell how far past 20
+the situation is, because there is no number below it — which is exactly why you stop asking the
 reporter and go and look at the terrain itself.
 
 One honest note, because it is the place this analogy understates reality: the real reporter's
@@ -107,17 +107,17 @@ asymmetry points the other way, and the serious answer says so.
 
 Terrain does not stop when **Tapu Bulu** leaves. It runs its five turns — eight with a **Terrain
 Extender** — and then lapses, and nothing about the field announces which turn you are on
-*(mechanism)*. So the reporter's bar is being held up by something whose source left several turns
-ago, and Flail's band is reporting a stretch of the battle that is already over.
+(**mechanism**). So the reporter's bar is being held up by something whose source left several
+turns ago, and Flail's band is reporting a stretch of the battle that is already over.
 
 Check again immediately after anything changes and you mostly re-measure the turns you have
-already measured *(consensus)*. How many turns to let run before you look again is a matter for
-local guidance *(country-dependent)*.
+already measured (**consensus**). How many turns to let run before you look again is a matter for
+local guidance (**country-dependent**).
 
 ## Counterintuition four: the reporter is void when the reporter is what broke
 
 **Disable** shuts off the last move used for four turns from Generation V, four to seven in
-Generation IV, and two to five before that *(mechanism)*. Disable the Flail user's Flail and you
+Generation IV, and two to five before that (**mechanism**). Disable the Flail user's Flail and you
 get no reading at all, while the bar sits exactly where it was. Worse than that: the *absence* of
 a big number reads as reassurance. Nothing is complaining, so nothing must be wrong.
 
@@ -127,29 +127,29 @@ field**. No Flail, no terrain. The loop is open and the readout says everything 
 
 The mirror image is rarer and is the reason the rule is stated as a **pair**: a big Flail and a
 terrain that is clearly up at the same time is not a pattern the simple rule can explain, and it
-sends you looking at the reporter rather than at the setter *(consensus)*.
+sends you looking at the reporter rather than at the setter (**consensus**).
 
 ## Counterintuition five: what was sent is not what lands
 
 **Reflect** halves incoming physical damage for five turns, eight while the setter holds **Light
-Clay**, and it changes nothing whatsoever about the attacker *(mechanism)*. Flail at 200 into
+Clay**, and it changes nothing whatsoever about the attacker (**mechanism**). Flail at 200 into
 Reflect lands like Flail at 100. If you are grading the attacker by what the defender felt,
 Reflect has made you wrong about the attacker — and nothing in the attacker changed.
 
 That is the whole of total-against-free, and it is why the field is read for the **free** quantity
 rather than the gross one. The same trap in a smaller size is the damage roll: every hit lands for
-85–100% of the calculated figure *(mechanism)*, so a single observed number does not pin a band,
+85–100% of the calculated figure (**mechanism**), so a single observed number does not pin a band,
 and a **Critical Hit** will hand you a figure that belongs to no band at all.
 
 ## Who actually feels it, which is not everybody
 
 Terrain reaches **grounded** battlers only. A Flying type is out of reach, **Flygon** is out of
 reach because **Levitate** is its only ability, an **Air Balloon** holder is out of reach until
-the balloon pops, and **Claydol** and **Lunatone** are out of reach too *(mechanism)*. None of
+the balloon pops, and **Claydol** and **Lunatone** are out of reach too (**mechanism**). None of
 them takes the sixteenth a turn and none of them is any part of what the reporter is reporting.
 
 Then **Gravity** lands, or the Pokémon is holding an **Iron Ball**, or **Ingrain** has rooted it —
-and now it is grounded, and now the terrain reaches it *(mechanism)*. The condition did not
+and now it is grounded, and now the terrain reaches it (**mechanism**). The condition did not
 change. Who could feel it did.
 
 That is the layer the reporter cannot see at all. One field-wide number, and six Pokémon with six
@@ -178,7 +178,7 @@ Everything above is a picture of a three-level control loop read through its con
 The loop is a fair picture. What the readings mean for a person is not a battle.
 
 Three things matter to people rather than to examiners. "Subclinical" is a word about a pair of
-numbers being discordant — nothing more *(definitional)* — and a great many people have heard it
+numbers being discordant — nothing more (**definitional**) — and a great many people have heard it
 as "your symptoms are not real". Those are unrelated claims. Whether a discordant pair is treated
 is genuinely contested, differs between guideline bodies, varies with age and with pregnancy, and
 is a judgement made with a person rather than read off a table.

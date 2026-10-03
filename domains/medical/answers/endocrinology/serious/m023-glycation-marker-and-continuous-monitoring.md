@@ -12,23 +12,23 @@ tags: [hba1c, monitoring, continuous-glucose, variability, red-cell-turnover]
 
 Glucose reacts non-enzymatically with haemoglobin inside the red cell, and because the reaction is
 slow and effectively irreversible over the cell's life, the glycated fraction accumulates in
-proportion to how much glucose the cell has been exposed to and for how long *(mechanism)*. That
+proportion to how much glucose the cell has been exposed to and for how long (**mechanism**). That
 is the whole basis of the measurement: the red cell is a passive integrator, carrying a record
 nobody had to write down. A spot glucose cannot do that, because a single sample of a variable
 that swings through the day carries almost no information about the mean. The glycation marker
 also cannot do something a spot glucose can, which is tell you what is happening now.
 
-Claims below are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where the basis is
-load-bearing.
+Claims below are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where the
+basis is load-bearing.
 
 ## Why the integral is weighted, and what that weighting costs
 
 The red cell population is a mixture of ages, continually replaced. The oldest cells carry the
 most glycation but there are fewer of them left; the youngest carry the least. The resulting
 average is therefore weighted toward recent exposure rather than being a flat mean over the cell's
-whole lifespan *(mechanism)*. The practical consequence is that the marker moves, but slowly, and
-lags a genuine change in control by weeks — so repeating it too soon measures mostly the period
-you have already measured *(consensus)*; how soon is too soon is set by local guidance
+whole lifespan (**mechanism**). The practical consequence is that the marker moves, but slowly,
+and lags a genuine change in control by weeks — so repeating it too soon measures mostly the
+period you have already measured (**consensus**); how soon is too soon is set by local guidance
 *(guideline-dependent)*.
 
 ```
@@ -61,7 +61,7 @@ you have already measured *(consensus)*; how soon is too soon is set by local gu
 
 **Variability, and therefore hypoglycaemia.** The marker is an average, and an average is blind to
 the distribution that produced it. A record with large swings and one that is steady can integrate
-to the same value, and the swinging one contains lows the number does not report *(mechanism)*.
+to the same value, and the swinging one contains lows the number does not report (**mechanism**).
 This is the single most important limitation, because the harm from a low is immediate and the
 marker that looks reassuring is averaging it away.
 
@@ -70,29 +70,29 @@ a dawn rise are all invisible in an integral. The clinical question is usually *
 and the integral answers neither.
 
 **The recent few days.** By construction it is weighted but slow, so a change made last week is
-largely not in it yet *(mechanism)*.
+largely not in it yet (**mechanism**).
 
 ## Where it misleads
 
 Everything above assumes the integrator behaves normally. The marker is a property of haemoglobin
 inside red cells, so anything that changes red-cell lifespan, red-cell production, or the
-haemoglobin molecule itself alters the result without any change in glucose at all *(mechanism)*.
-The categories, rather than a list to memorise:
+haemoglobin molecule itself alters the result without any change in glucose at all
+(**mechanism**). The categories, rather than a list to memorise:
 
 * **Shortened red-cell survival or increased production** gives a population skewed young, with
   less accumulated glycation, and reads low relative to the true mean — haemolysis, recent blood
   loss, states of brisk reticulocytosis, some drug-induced haemolysis, and the later stages of
-  pregnancy *(consensus)*.
+  pregnancy (**consensus**).
 * **Lengthened survival or reduced production** gives an older population and reads high — iron
   deficiency and other deficiency anaemias before treatment, and absence of the spleen
-  *(consensus)*.
+  (**consensus**).
 * **Recent transfusion** replaces part of the population with cells carrying somebody else's
-  exposure history. The record is no longer a record of this person *(mechanism)*.
+  exposure history. The record is no longer a record of this person (**mechanism**).
 * **Haemoglobin variants and raised fetal haemoglobin** interfere in a way that depends on the
   assay method — some are affected, some are not — so the correct question is which method the
   laboratory runs *(guideline-dependent)*.
 * **Kidney disease, and dialysis in particular**, affects both red-cell turnover and, with some
-  methods, the assay itself *(consensus)*.
+  methods, the assay itself (**consensus**).
 
 There is also a quieter issue: at the same mean glucose, measured glycation differs between
 individuals and between populations more than measurement error explains, and the mechanism and
@@ -108,7 +108,7 @@ things follow and they are routinely conflated. The **value** of each line is a 
 that differs between guideline bodies and is revised *(guideline-dependent)*. The **direction of
 interpretation** is contextual — the same measurement is weighed differently in a young person
 with decades of exposure ahead, in frailty, in advanced kidney disease and in pregnancy, where
-separate criteria and separate measurements apply *(consensus)*. And the **measurement itself**
+separate criteria and separate measurements apply (**consensus**). And the **measurement itself**
 carries a spread, so a result sitting on a line is not evidence that the person is on the line.
 None of that is a property of glycated haemoglobin. It is a property of the decisions people have
 agreed to attach to it, which is why the threshold is looked up rather than remembered.
@@ -119,9 +119,9 @@ A sensor in the subcutaneous tissue reports interstitial glucose continuously. T
 obvious and is the least interesting part. What changed is that a continuous record makes
 previously unaskable questions answerable: what fraction of the day is spent inside the intended
 range, what fraction below it, how variable the trace is, and — uniquely — *which direction it is
-moving right now* *(consensus)*. A rate of change is information no spot measurement contains at
+moving right now* (**consensus**). A rate of change is information no spot measurement contains at
 all, and it is what allows a decision to be made before the problem arrives rather than after
-*(mechanism)*.
+(**mechanism**).
 
 The consequences run further than the clinic. Overnight lows that nobody was awake to measure
 became visible. Variability became a described quantity rather than an impression. And review
@@ -130,7 +130,7 @@ lived it.
 
 The limitations are real and follow from the same mechanism. Interstitial glucose trails plasma
 glucose during rapid change, so the sensor is least accurate exactly when the trace is most
-interesting *(mechanism)*. Pressure on a sensor can produce an artefactual low. Some substances
+interesting (**mechanism**). Pressure on a sensor can produce an artefactual low. Some substances
 interfere with some sensors, which is a per-device question answered by the manufacturer's
 instructions *(guideline-dependent)*. Alarms fatigue. And a continuous record generates far more
 data than a consultation can absorb, so the summary metrics are only useful if everyone agrees

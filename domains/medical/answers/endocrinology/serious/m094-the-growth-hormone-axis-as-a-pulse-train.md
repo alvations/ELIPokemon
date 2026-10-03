@@ -12,16 +12,17 @@ tags: [growth-hormone, igf-1, pulsatility, acromegaly, dynamic-testing]
 
 Growth hormone is not held at a set point. It is released in discrete bursts, concentrated in the
 hours of deepest sleep, and between those bursts the circulating concentration falls to near the
-floor of what an assay can resolve *(mechanism)*. The pattern is produced by two opposing
+floor of what an assay can resolve (**mechanism**). The pattern is produced by two opposing
 hypothalamic inputs rather than one: a stimulatory releasing hormone and an inhibitory one,
 somatostatin, with a peripheral stimulatory signal from the stomach as a third input
-*(consensus)*. Most axes have one accelerator. This one has an accelerator and a brake, and the
+(**consensus**). Most axes have one accelerator. This one has an accelerator and a brake, and the
 pulses are what their interplay produces.
 
 The measurement consequence is immediate and it runs in **both** directions. A low random value is
 exactly what a healthy person has between pulses, so it cannot establish deficiency. A high random
 value is exactly what a healthy person has during one, so it cannot establish excess. A single
-random measurement of this hormone is not a weak test; it is **not a test at all** *(mechanism)*.
+random measurement of this hormone is not a weak test; it is **not a test at all**
+(**mechanism**).
 
 What is done instead has two parts, and the rest of this answer is those two parts. Measure the
 **integral** — a downstream product with a long half-life whose concentration is a time-average of
@@ -35,9 +36,9 @@ suppression test the right shape for an autonomous output is argued in full. m06
 pulsatile controller is set against a set-point one. What is left for this answer is the case
 where the pulse train is the *output being measured* rather than the controller being described.
 
-Claims below are marked *(mechanism)* where they follow from physiology and are checkable by
-reasoning, *(definitional)* where the statement is what a term means, *(consensus)* where they are
-settled professional agreement, and *(country-dependent)* where the answer differs between
+Claims below are marked (**mechanism**) where they follow from physiology and are checkable by
+reasoning, (**definitional**) where the statement is what a term means, (**consensus**) where they
+are settled professional agreement, and (**country-dependent**) where the answer differs between
 countries and documents.
 
 ## The pulse train, and where a single sample lands
@@ -82,8 +83,9 @@ countries and documents.
 
 The downstream growth factor is produced mainly in the liver under growth-hormone drive, it
 circulates bound to binding proteins, and its half-life is far longer than the hormone that drove
-it *(mechanism)*. Its concentration is therefore a weighted time-average of exposure over a period
-measured in days rather than minutes, which turns an unsamplable pulse train into one number.
+it (**mechanism**). Its concentration is therefore a weighted time-average of exposure over a
+period measured in days rather than minutes, which turns an unsamplable pulse train into one
+number.
 
 This is the same device as glycated haemoglobin, and it is worth naming the resemblance: a
 quantity that cannot usefully be sampled at an instant is read through a slower product that has
@@ -94,23 +96,23 @@ Four limits matter, and they are structural rather than matters of assay quality
 
 **The integral depends on things other than the signal.** It falls in undernutrition, in
 malabsorption, in liver disease, in poorly controlled diabetes and in critical illness, because
-the liver's capacity to make it is part of the chain *(consensus)*. A low value in a person who is
-unwell or undernourished is therefore not evidence about the pituitary.
+the liver's capacity to make it is part of the chain (**consensus**). A low value in a person who
+is unwell or undernourished is therefore not evidence about the pituitary.
 
 **It depends on age and on sex-hormone status**, falling through adult life, so it has to be read
 against a reference appropriate to the person rather than against a single interval
-*(consensus)*. Which references a laboratory holds, and how it reports against them, differs
-*(country-dependent)*.
+(**consensus**). Which references a laboratory holds, and how it reports against them, differs
+(**country-dependent**).
 
 **It saturates.** The relationship between exposure and the integral is not linear across the
 whole range, and at high exposure the integral stops discriminating between high and higher
-*(consensus)*. A very abnormal value establishes that the exposure is abnormal; it does not grade
-it.
+(**consensus**). A very abnormal value establishes that the exposure is abnormal; it does not
+grade it.
 
 **It is an average, so it conceals the pattern.** This is the deepest limitation and it is easy to
 miss: the tissue response to this hormone depends on the **shape** of the exposure, not only on
 its amount. Continuous exposure and intermittent exposure of the same total do not produce the
-same downstream effect *(consensus)*. An integral has deliberately thrown that information away.
+same downstream effect (**consensus**). An integral has deliberately thrown that information away.
 The same principle shows up as intermittent against continuous parathyroid hormone in the bone
 answer and as the oscillator in the reproductive-axis answer; in this specialty it is a general
 rule rather than a curiosity.
@@ -122,17 +124,17 @@ supposed to resist.**
 
 **Suspected deficiency is tested by provoking a pulse.** The logic is that a controller with
 reserve produces a burst when challenged and a controller without reserve does not, so the finding
-is the *response* rather than any value *(consensus)*. Which provocation is used, how it is
+is the *response* rather than any value (**consensus**). Which provocation is used, how it is
 conducted, what it is contraindicated by and what counts as a response all differ between
 countries and laboratories, some agents are not available everywhere, and none of it appears here
-*(country-dependent)*.
+(**country-dependent**).
 
 **Suspected excess is tested by suppressing.** A glucose load normally shuts the hormone off,
-because it raises inhibitory tone and lowers stimulatory drive *(mechanism)*. In pathological
+because it raises inhibitory tone and lowers stimulatory drive (**mechanism**). In pathological
 excess it does not, and **the failure to switch off is the finding**. That is why the test has
 this shape rather than a threshold shape: in a pulsatile system you cannot demonstrate excess from
 a single high value, because high values are normal. What you can demonstrate is the **loss of the
-off state** — autonomy, not amount *(mechanism)*.
+off state** — autonomy, not amount (**mechanism**).
 
 This is the same reasoning the cortisol-excess answer works through at length, and the fact that
 the two independent axes land on the same test shape is evidence that the shape is a property of
@@ -141,7 +143,7 @@ the problem rather than a convention.
 ## The slow version, and why there is no stored baseline
 
 Pathological excess in an adult produces changes that accumulate over years: soft tissue and bony
-change, metabolic consequences, and effects on joints and on the airway *(consensus)*. The
+change, metabolic consequences, and effects on joints and on the airway (**consensus**). The
 diagnostic difficulty is not that the changes are subtle. It is that **there is no stored
 baseline**. Nobody holds a record of what a face looked like five years ago in a form that can be
 compared, and self-comparison across years is unreliable in a specific direction: gradual change
@@ -149,18 +151,18 @@ is absorbed as normal.
 
 This is why the history that actually makes the diagnosis is so often indirect — a change in ring
 or shoe size, a dental plate that no longer fits, or a photograph from a decade ago held up beside
-the person *(consensus)*. The photograph is a genuine measurement instrument and the only
+the person (**consensus**). The photograph is a genuine measurement instrument and the only
 retrospective one available.
 
 Two other presenting routes are worth holding, both mechanistic. The hormone antagonises insulin
 action, so new glucose intolerance can be the first thing noticed, and the axis hormone is
 therefore interfering with the metabolic hormones rather than running alongside them
-*(mechanism)*. And a secreting pituitary lesion can present through its mass rather than its
+(**mechanism**). And a secreting pituitary lesion can present through its mass rather than its
 secretion, which is the orthogonality the pituitary answer is built around.
 
 Deficiency in an adult is harder again, because its features — reduced exercise tolerance, changes
 in body composition, low mood — are non-specific, and the diagnosis rests on the dynamic test
-rather than on the picture *(consensus)*.
+rather than on the picture (**consensus**).
 
 ## The boundary of this answer, and where the honest account runs out
 
@@ -177,10 +179,10 @@ mistaken for a clinical one.
 **The pattern that the integral discards is not recoverable from the integral.** This is the
 genuine open edge rather than a limitation of practice: everything routine rests on a
 time-average, and the thing the tissue is responding to is partly the shape. Sampling frequently
-enough to reconstruct the shape is a research method and not a clinical one *(consensus)*.
+enough to reconstruct the shape is a research method and not a clinical one (**consensus**).
 
 **The interaction with glucose handling is real and is not modelled by anything above.** The
-hormone antagonises insulin action directly *(mechanism)*, so the axis is not running alongside
+hormone antagonises insulin action directly (**mechanism**), so the axis is not running alongside
 the metabolic hormones; it is interfering with them. That belongs with the diabetes answers as
 much as with this one.
 

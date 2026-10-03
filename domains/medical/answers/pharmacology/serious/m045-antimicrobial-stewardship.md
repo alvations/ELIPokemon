@@ -21,8 +21,9 @@ this person — and the effect of this prescription on the susceptibility of the
 be in this building, and in this person's own flora, next month. The second is a real cost, it is
 paid by people who are not in the room, and essentially none of it shows up in the consultation.
 
-Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
-or (**country-dependent**) local.
+Each load-bearing claim below is marked with its basis: (**mechanism**), (**definitional**),
+(**consensus**), or (**country-dependent**) — the last meaning it differs by country,
+institution or laboratory.
 
 ## The mechanism that makes it a commons problem
 

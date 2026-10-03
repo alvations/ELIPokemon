@@ -21,7 +21,7 @@ clock, and it decides whether **Shoal Cave**'s inner rooms are there at all:
 
 `UpdateShoalTideFlag` reads the real-time clock, indexes that table, and sets or clears
 `FLAG_SYS_SHOAL_TIDE`; the map script then swaps the layout to the high-tide or low-tide version
-*(mechanism)*. Walk in at nine in the morning and the ice room is not there, and neither is the
+(**mechanism**). Walk in at nine in the morning and the ice room is not there, and neither is the
 **Snorunt** that is the only thing in it — the encounter table for that room lists **Snorunt**,
 **Spheal**, **Zubat** and **Golbat**, and at the wrong hour you cannot meet any of them because
 the room does not exist. Walk in at four in the afternoon and it does. Nothing about the cave
@@ -32,7 +32,7 @@ the floor for most of the day, and a single reading is a true measurement of a m
 of measurement of the system.
 
 And the detail that turns it from a nice picture into the right one: `UpdateShoalTideFlag` only
-runs its check `if (IsMapTypeOutdoors(GetLastUsedWarpMapType()))` *(mechanism)*. Arrive by any
+runs its check `if (IsMapTypeOutdoors(GetLastUsedWarpMapType()))` (**mechanism**). Arrive by any
 other route and the flag is **not refreshed** — you are reading a stale value from whenever it was
 last set, with nothing on the screen to say so.
 
@@ -63,8 +63,8 @@ last set, with nothing on the screen to say so.
 **Intimidate** against **Clear Body** as the suppression test and **Eevee**'s two evolutions as
 the clock. m060 owns the **Protect** counter. All three appear here; none is re-argued.
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## The pulse train, and where a single sample lands
 
@@ -101,7 +101,7 @@ matters.
 
 An accelerator and a brake at the same level is the unusual part, and the games make the asymmetry
 legible. **Helping Hand** has 0 base power and 0 accuracy and accomplishes nothing by itself; it
-only changes how loudly the level below gets to speak *(mechanism)*. **Imprison** is the mirror
+only changes how loudly the level below gets to speak (**mechanism**). **Imprison** is the mirror
 image, and the pituitary answer works through its Generation III failure condition: the brake only
 exists because the two sides share a move. Two signals, opposite signs, one output, and the output
 is a **train** rather than a level because that is what an accelerator and a brake produce when
@@ -112,36 +112,36 @@ both are live.
 Friendship is the established mapping for this in the specialty — the glycation answer set it and
 the cortisol answer reused it — and it is the right one. A stored counter from 0 to 255 that
 nothing displays, moving on every event with a name, read out through **Return**, whose base power
-the Generation III source computes as `10 * friendship / 25` *(mechanism)*. At `MAX_FRIENDSHIP`
+the Generation III source computes as `10 * friendship / 25` (**mechanism**). At `MAX_FRIENDSHIP`
 that is 102 and no higher. **Frustration** runs the same arithmetic on `MAX_FRIENDSHIP -
 friendship`, so the pair are one quantity read from both ends.
 
 Four limits, all of them in the code.
 
 **It has a ceiling.** **Return** tops out at 102, so above the point where friendship reaches 255
-the readout stops distinguishing *(mechanism)*. A reading at the ceiling establishes that the
+the readout stops distinguishing (**mechanism**). A reading at the ceiling establishes that the
 exposure is at the top of the scale; it does not grade how far past the top it is. That is the
 saturation problem exactly.
 
 **Its increments depend on where it already was.** The modifier table gives one value below 100,
 another below 200 and a third above — so the same act moves the integral by different amounts at
-different starting points *(mechanism)*.
+different starting points (**mechanism**).
 
 **Modifiers that have nothing to do with the signal move it.** A **Luxury Ball** adds one to every
 positive change. Standing in the region where the Pokémon was met adds another. A **Soothe Bell**
 multiplies a positive change by 150 and divides by 100 with integer truncation, so it does
-**precisely nothing** when the increment is 1 *(mechanism)*. The amplifier is invisible exactly
+**precisely nothing** when the increment is 1 (**mechanism**). The amplifier is invisible exactly
 where the signal is smallest, which is the least convenient place for an amplifier to be
 invisible.
 
 **There are places where it simply stops accumulating.** `ShouldSkipFriendshipChange` returns true
 inside the **Battle Frontier**, and outside battle inside the **Battle Pike** and the **Battle
 Pyramid** — friendship does not move at all in those three, and nothing announces it
-*(mechanism)*. An integral that has quietly stopped integrating reads like an integral that has
+(**mechanism**). An integral that has quietly stopped integrating reads like an integral that has
 found nothing to integrate.
 
 Set the two readouts side by side and the choice is stark. **Flail**'s base power is read off the
-user's own bar at this instant, in 48ths, through a six-entry table *(mechanism)* — it is as
+user's own bar at this instant, in 48ths, through a six-entry table (**mechanism**) — it is as
 current as a reading can be and it is a statement about one moment. **Return**'s base power is
 read off a counter that has been accumulating since the Pokémon was caught, and it is a statement
 about the whole run with no moment in it anywhere. The thyroid answer reads the field through
@@ -156,7 +156,7 @@ was, the total is the same number.
 
 **And one stored value can give two readings, if the clock gets a vote.** **Eevee** carries
 `EVO_FRIENDSHIP_DAY` to **Espeon** and `EVO_FRIENDSHIP_NIGHT` to **Umbreon** in the Generation III
-evolution data — one entry each, same friendship requirement, different outcome *(mechanism)*.
+evolution data — one entry each, same friendship requirement, different outcome (**mechanism**).
 Identical stored value. Two results. The clock decided, and the clock is not in the Pokémon.
 
 The cortisol answer uses this for "a number without the clock is not a reading". Here it does the
@@ -171,15 +171,15 @@ resist.**
 
 **Too little is tested by provoking a burst.** Supply the condition from outside, or send the
 setter in deliberately, and watch whether anything happens — the finding is the *response*, not
-any value *(consensus)*. Which provocation, how, under what supervision and what counts as a
+any value (**consensus**). Which provocation, how, under what supervision and what counts as a
 response differ by country and by laboratory, some are not available everywhere, and none of it is
-here *(country-dependent)*.
+here (**country-dependent**).
 
 **Too much is tested by suppressing.** Send in **Arbok** and its **Intimidate** lowers every
 opposing battler's Attack by one stage on entry. If the stage drops, the stat was being held in
 the ordinary way and it obeys. If **Metagross** is out with **Clear Body**, or **Torkoal** with
-**White Smoke**, nothing moves at all *(mechanism)*. You never measured anything. You pushed, and
-the answer was in whether it gave.
+**White Smoke**, nothing moves at all (**mechanism**). You never measured anything. You pushed,
+and the answer was in whether it gave.
 
 That is the cortisol answer's device, reused deliberately and without modification, and the fact
 that two independent axes land on the same test is the point: **the shape belongs to the problem,
@@ -190,7 +190,7 @@ gone**.
 ## The slow version, and why there is no stored baseline
 
 `CalculateMonStats` reads the old maximum only to work out a delta, writes the new value over it,
-and keeps **no record of the trajectory anywhere** *(mechanism)*. The game shows you a stat. It
+and keeps **no record of the trajectory anywhere** (**mechanism**). The game shows you a stat. It
 has never shown you the stat you had a hundred levels ago, and there is nothing in the save data
 to go and look at.
 
@@ -214,7 +214,7 @@ nowhere in this answer and that is not an oversight.
 glucose-control hormones in this specialty and terrain is the axis hormones. **Castform**'s
 **Forecast** is where you can read the separation straight out of the code: the expansion handles
 it under a weather form-change, calling `GetWeather()`, and there is **no terrain branch in it at
-all** *(mechanism)*. Set **Grassy Terrain** under a **Castform** and nothing whatever happens to
+all** (**mechanism**). Set **Grassy Terrain** under a **Castform** and nothing whatever happens to
 it. The real axis hormone antagonises insulin action directly, so the two layers genuinely
 interfere. I have no mechanic for that and I am not inventing one: it is in the plain prose below.
 

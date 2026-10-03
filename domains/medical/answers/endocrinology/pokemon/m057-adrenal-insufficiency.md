@@ -13,10 +13,10 @@ tags: [adrenal, cortisol, aldosterone, acth, crisis]
 A held item does not announce itself. **Leftovers** returns a sixteenth of the holder's maximum HP
 at the end of every turn, unconditionally, costing no turn and needing no decision — the house
 mapping for a continuous background correction, carried over unchanged from the insulin answer
-*(mechanism)*. A **Sitrus Berry** does nothing at all until HP drops to half or below, then fires
-once, restores a quarter of maximum HP in Generation IV onward, and is consumed *(mechanism)*.
-Background and load. Two halves of one job, which the real thing does from one source and the
-games split across two item slots.
+(**mechanism**). A **Sitrus Berry** does nothing at all until HP drops to half or below, then
+fires once, restores a quarter of maximum HP in Generation IV onward, and is consumed
+(**mechanism**). Background and load. Two halves of one job, which the real thing does from one
+source and the games split across two item slots.
 
 And here is the geometry that makes this the dangerous one. **You cannot see the item slot.** A
 Pokémon holding nothing and a Pokémon holding Leftovers look identical until the end of the turn,
@@ -37,8 +37,8 @@ and the emergency are the same event.
 | **Flail**'s base power, 20 up to 200 | The reporter, inverse and amplified |
 | **Fake Out**, **Mach Punch**, **Aqua Jet**, **Sucker Punch** | The fast first response, let through |
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## Two setters, one side, and only one of them takes orders
 
@@ -74,7 +74,7 @@ matters.
 
 **Tapu Bulu** not taking orders is the whole of the split. It is why one failure takes the floor
 out from under the bar and the other does not, and why the two are not a mild and a severe version
-of the same thing *(mechanism)*.
+of the same thing (**mechanism**).
 
 And the loud version is visible. When the reporter is pinned at 200 turn after turn, you can see
 it without measuring anything — **the announcement is the finding**, and the announcement happens
@@ -85,7 +85,7 @@ only when the setter itself is the thing that is gone.
 Here is a verified mechanic that does more analogical work than any species in this answer.
 `TryChangeBattleTerrain` **returns false if the terrain is already the one being set**, so a Surge
 ability entering onto its own terrain does nothing at all — the ability does not even announce
-itself, and, critically, **the timer is not refreshed either** *(mechanism)*.
+itself, and, critically, **the timer is not refreshed either** (**mechanism**).
 
 Picture twenty turns of someone else keeping Psychic Terrain up from the far side. Your **Tapu
 Lele** comes in and out and its ability never fires once, because there was never anything for it
@@ -93,44 +93,44 @@ to do. The side stops being built around needing it. Then the outside supply sto
 terrain lapses on the clock it was set with, not on a fresh one, and nothing renews it. Nobody has
 done anything wrong. The setter has simply not been exercised, and it does not come straight back.
 
-This is the commonest shape of the problem by a long way *(consensus)*, and notice what it looks
+This is the commonest shape of the problem by a long way (**consensus**), and notice what it looks
 like: **Lele only**. Flail quiet. Grassy Terrain fine. Which is to say, it looks nothing like the
 loud version that gets taught, and the loud version is what people are watching for.
 
 ## Why the quiet turns tell you nothing, and what actually discriminates
 
 A bar drifting down slowly, a side that feels sluggish, nothing on the field that explains it:
-every one of those has a dozen causes and none of them points here *(consensus)*. You do not find
-this by pattern-matching the vibe of the battle. You find it by noticing the things that follow
-from the **mechanic**:
+every one of those has a dozen causes and none of them points here (**consensus**). You do not
+find this by pattern-matching the vibe of the battle. You find it by noticing the things that
+follow from the **mechanic**:
 
 * **Fast moves landing that should not land.** **Fake Out** connecting, **Mach Punch** going
   first, **Sucker Punch** getting through: Psychic Terrain blocks priority moves aimed at grounded
-  targets, so their success is a statement about the terrain *(mechanism)*.
+  targets, so their success is a statement about the terrain (**mechanism**).
 * **The floor gone from under the bar**, which is Grassy Terrain's sixteenth a turn missing, and
-  which happens only when **both** setters are out *(mechanism)*.
-* **Flail pinned at 200**, which points at the setter itself rather than upstream *(mechanism)*.
+  which happens only when **both** setters are out (**mechanism**).
+* **Flail pinned at 200**, which points at the setter itself rather than upstream (**mechanism**).
 * **A terrain on the field that your side did not set** — a history question about the last twenty
-  turns, not a measurement of this one *(consensus)*.
+  turns, not a measurement of this one (**consensus**).
 * **The other terrains missing too**, which puts the fault at level 2 rather than at the cortex
-  *(mechanism)*.
+  (**mechanism**).
 
 ## The test is a push, and the push goes the other way
 
 The house rule, and it holds for every axis in this specialty: **you test a loop by pushing it in
 the direction it should resist.** A suspected shortage is therefore tested by **supplying** —
 setting the condition from outside, or sending in the setter deliberately and watching whether
-anything happens *(consensus)*. The reporter is read alongside, because the reporter is what
+anything happens (**consensus**). The reporter is read alongside, because the reporter is what
 separates "the setter is gone" from "the setter was never asked".
 
 Two failure modes, both mechanical:
 
 * **Supplying can be falsely reassuring early.** A **Tapu Lele** that has sat unexercised for a
   few turns still has **Psychic Surge** and will still fire it the moment it is given something to
-  do *(mechanism)*. The push interrogates the setter. The fault is upstream of the setter.
+  do (**mechanism**). The push interrogates the setter. The fault is upstream of the setter.
 * **What lands is not what was sent.** **Reflect** halves incoming physical damage for five turns,
   eight while the setter holds **Light Clay**, and changes nothing about the attacker
-  *(mechanism)*. Grade the attacker by what the defender felt and Reflect has made you wrong, in
+  (**mechanism**). Grade the attacker by what the defender felt and Reflect has made you wrong, in
   whichever direction it happens to be up.
 
 ## The collapse, as a mechanic and not as a procedure
@@ -138,7 +138,7 @@ Two failure modes, both mechanical:
 What the decompensated version looks like is a combination you cannot easily produce another way.
 The bar is falling and **restoring it from the bag does not hold** — because the problem is not
 the bar, it is that nothing is damping what is arriving, and no amount of restoring substitutes
-for the missing permission *(mechanism)*. The floor is gone, the fast hits are all landing, and
+for the missing permission (**mechanism**). The floor is gone, the fast hits are all landing, and
 whatever started it is usually still on the field.
 
 The mechanic is: restore the missing permission, restore the floor, and deal with whatever
@@ -151,10 +151,10 @@ is deliberately not on this page.
 Put **Leftovers** in the slot and the baseline is covered. The slot now holds one item, and the
 berry is not in it. The threshold response is not restored by supplying the baseline, because what
 is missing is not the item — it is the **sensor and the decision** that would have chosen which
-one this turn needed *(mechanism)*. That is the same open-loop problem the insulin answer works
+one this turn needed (**mechanism**). That is the same open-loop problem the insulin answer works
 through, with the same two-part shape, and it is why the arrangements that exist for increased
 requirement exist at all. Those arrangements are specific, they are set up with a person's own
-team, and they differ between countries *(country-dependent)*.
+team, and they differ between countries (**country-dependent**).
 
 ## Where the metaphor stops
 

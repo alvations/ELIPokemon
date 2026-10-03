@@ -12,8 +12,8 @@ tags: [adrenal, incidentaloma, overdiagnosis, phaeochromocytoma, imaging]
 
 The Generation III device is the **Itemfinder**, and its own description in the item data is "A
 device that signals an invisible item by sound" — one beep, nothing about what the item is
-*(mechanism)*. The **Dowsing Machine** is the same device after its Generation IV rename, which is
-the name the cortisol answer uses.
+(**mechanism**). The **Dowsing Machine** is the same device after its Generation IV rename, which
+is the name the cortisol answer uses.
 
 That answer's point was that running the thing before you know what you are looking for is the
 classic error. This answer is the harder case, and it is the commoner one: **it has already
@@ -25,7 +25,7 @@ So now there are exactly two questions, and the whole skill is noticing that the
 **Is it doing anything?** Plenty of real held items do nothing whatever in a battle. An
 **Everstone**'s hold effect is `HOLD_EFFECT_PREVENT_EVOLVE` and that is all it is; an **Amulet
 Coin** doubles prize money; an **Exp. Share** divides experience; a **Soothe Bell** modifies a
-friendship increment *(mechanism)*. Every one of those is a genuine item in a genuine slot, and
+friendship increment (**mechanism**). Every one of those is a genuine item in a genuine slot, and
 the battle in front of you proceeds exactly as though the slot were empty. **Leftovers** in the
 same slot returns a sixteenth of maximum HP at the end of every turn. Same slot. Same look.
 Nothing in common.
@@ -54,8 +54,8 @@ other's.
 **Intimidate** against **Clear Body** as the push. m057 owns the two-setter split. m011 owns the
 same rustle on a different floor. All three appear here; none is re-argued.
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## The grid, which is the whole structure
 
@@ -101,26 +101,26 @@ Two pushes, both established in this specialty, and they ask different things.
 
 **Send in Arbok.** Its **Intimidate** lowers every opposing battler's Attack by one stage on
 entry. If the stage drops, the stat obeys the ordinary rules. If **Metagross** is out with **Clear
-Body**, or **Torkoal** with **White Smoke**, nothing moves at all *(mechanism)*. You measured
+Body**, or **Torkoal** with **White Smoke**, nothing moves at all (**mechanism**). You measured
 nothing; you pushed, and the answer is in whether it gave. That is the cortisol answer's device
 and it arrives here unchanged, which is the point — autonomy is the claim, not amount.
 
 **Or try to take the item.** **Knock Off** removes it; **Sticky Hold** stops the removal and fires
-a message when it does *(mechanism)*. And here is the fact that makes it the right device for an
+a message when it does (**mechanism**). And here is the fact that makes it the right device for an
 incidental find: the game records an opposing Ability **only when it fires**. Until you push, the
 field holds no entry for it whatsoever. Function is not a property you can read off the screen; it
 is a property you have to provoke.
 
 One discipline that follows, and it is the reason a short targeted list beats a broad sweep. If
 the holder has no item at all, the **Sticky Hold** branch simply advances and nothing is recorded
-*(mechanism)*. The push returns a blank. A blank is not a negative, and a floor full of blanks is
-how a sweep turns into a sequence of things you now have to go back and check.
+(**mechanism**). The push returns a blank. A blank is not a negative, and a floor full of blanks
+is how a sweep turns into a sequence of things you now have to go back and check.
 
 ## Question two: what it is, which you look up rather than provoke
 
 `Cmd_weightdamagecalculation` sets **Low Kick**'s base power by walking a weight table against
 `GetPokedexHeightWeight(...)` — the **Pokédex** entry's figure, which is there before you ever
-meet the thing and is identical for every individual of the species *(mechanism)*.
+meet the thing and is identical for every individual of the species (**mechanism**).
 
 That is the whole asymmetry between the two questions. One of them has an entry you can consult.
 The other has no entry until you have made something happen. A reasoning process that treats them
@@ -130,7 +130,7 @@ error is to try to answer "is it dangerous" by watching what it does.
 ## The find you do not dig up
 
 There is a class of item whose entire effect is on **whoever is holding it**. A **Toxic Orb**
-badly poisons its own holder in battle; a **Flame Orb** burns its own holder *(mechanism)*. Both
+badly poisons its own holder in battle; a **Flame Orb** burns its own holder (**mechanism**). Both
 are Generation IV items rather than Generation III ones, and that is worth pinning rather than
 smoothing over.
 
@@ -138,18 +138,18 @@ The point they make is the one the real version makes about a needle. For most b
 digging it up is how you find out what it is, and the cost is a few steps. For this class, **the
 acquisition is the event** — and the harm has nothing to do with whether you learn anything. So
 there is one question you settle *before* you dig, and settling it first is mechanical rather than
-procedural *(consensus)*.
+procedural (**consensus**).
 
 And the second reason not to dig is that for the hardest case it does not work. Two cortical
 lesions are made of the same cells, and a small sample cannot separate them — which in these terms
-is a dig that comes back with "an item" and no entry *(mechanism)*. You paid the cost and the
+is a dig that comes back with "an item" and no entry (**mechanism**). You paid the cost and the
 beep is still unexplained.
 
 **And the same beep on a different floor is a different beep.** The general-practice answers own
 this device and it belongs here without alteration: **the same
 rustle on a different floor.** **Zubat** is on every floor of **Mt. Moon** and **Clefairy** is
 not, so an identical rustle carries a different expectation in the two places, and the expectation
-comes from the encounter table rather than from the rustle *(mechanism)*.
+comes from the encounter table rather than from the rustle (**mechanism**).
 
 A beep in a cave you are walking through for no particular reason is one thing. The identical beep
 in a cave you are in **because you already know something is wrong** is another, and the
@@ -160,7 +160,7 @@ difference is entirely outside the sound. Nothing about the beep changed. The ta
 If **both** of a side's setters are gone — no **Tapu Bulu** holding up **Grassy Terrain**, no
 **Tapu Lele** holding up **Psychic Terrain** — the adrenal-insufficiency answer's two-column
 diagram is what applies, and the question is no longer whether something is making too much. It is
-whether anything is making enough *(mechanism)*. **Flail** pinned loud over a bare field is the
+whether anything is making enough (**mechanism**). **Flail** pinned loud over a bare field is the
 pattern to recognise, and it is the opposite of the pattern this answer started from.
 
 That is not a doubling of the one-slot question. It is a different question, with a different
@@ -174,12 +174,12 @@ choice: the beep has happened, and an un-hearing mechanic does not exist in any 
 What is available is to reconstruct the order on purpose. Decide what the encounter table on
 **this** floor says you should expect, and only then decide what the beep means. **Flail** loud
 says the fault is at the level above and a find there matters. **Flail** at 20 says the setter is
-autonomous and the same find at the level above means nothing *(mechanism)*. Identical beep,
+autonomous and the same find at the level above means nothing (**mechanism**). Identical beep,
 opposite meaning, decided entirely by what you established first — and you can still establish it
 afterwards, which is the one piece of good news in the whole topic.
 
 How many times you walk the floor again afterwards, and for how many years, is local
-*(country-dependent)*, and the direction of travel has been towards fewer walks.
+(**country-dependent**), and the direction of travel has been towards fewer walks.
 
 ## Where the metaphor stops
 

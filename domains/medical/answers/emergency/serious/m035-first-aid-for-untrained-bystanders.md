@@ -159,7 +159,7 @@ conditions in which to read anything, and is exactly why the written instruction
 and nearly branchless. A bystander who tries and does it imperfectly has not done the wrong thing:
 across everyone who attempts it, attempting is better than not attempting, and that is the
 principle the document is built around rather than a reassurance added to the end of it
-**(consensus)**. And the people most affected afterwards are frequently the ones who were there
+*(**consensus**)*. And the people most affected afterwards are frequently the ones who were there
 and acted; support after an event of this kind exists, through the ambulance service that attended
 and through primary care, and using it is an ordinary thing to do.
 

@@ -14,14 +14,14 @@ The thing you care about is how much thyroid hormone is reaching tissue. The thi
 first is thyrotropin, which no tissue uses and the thyroid does not make. That is not an accident
 of assay history. Thyrotropin is the **output of the controller**, and in a three-level loop the
 controller's output is a better-amplified, lower-noise report on the controlled variable than the
-controlled variable itself *(mechanism)*. Every counterintuitive thing about thyroid function
+controlled variable itself (**mechanism**). Every counterintuitive thing about thyroid function
 testing follows from that one substitution: you are reading the complaint, not the supply. The
 complaint moves in the opposite direction to the supply, it is amplified relative to the supply,
 it is slow, and it is worthless precisely when the complainant is the broken part.
 
-Claims below are marked *(mechanism)* where they follow from physiology and are checkable by
-reasoning, *(definitional)* where the statement is what a term means, *(consensus)* where they are
-settled professional agreement, and *(country-dependent)* where the answer differs between
+Claims below are marked (**mechanism**) where they follow from physiology and are checkable by
+reasoning, (**definitional**) where the statement is what a term means, (**consensus**) where they
+are settled professional agreement, and (**country-dependent**) where the answer differs between
 countries and documents.
 
 ## Three levels, and what each one contributes
@@ -55,8 +55,8 @@ countries and documents.
 ```
 
 Level 3 is easy to under-rate. Thyrotropin-releasing hormone makes no thyroid hormone; it sets how
-responsive the thyrotroph is *(mechanism)*. That is why the loop is three levels and not two: the
-set point itself is adjustable from above, so "normal" is a negotiated quantity rather than a
+responsive the thyrotroph is (**mechanism**). That is why the loop is three levels and not two:
+the set point itself is adjustable from above, so "normal" is a negotiated quantity rather than a
 constant.
 
 ## Counterintuition one: the sign is inverted
@@ -70,14 +70,14 @@ the reporter is not reporting hormone, it is reporting **dissatisfaction**.
 
 The relationship between thyrotropin and free T4 is approximately log-linear across the usual
 range, so equal proportional changes in free T4 produce roughly equal changes in the logarithm of
-thyrotropin *(consensus)*. In practical terms, a fall in free T4 that leaves it inside the
+thyrotropin (**consensus**). In practical terms, a fall in free T4 that leaves it inside the
 reference interval can move thyrotropin several-fold. That is the whole reason the reporter is the
 first-line test: it resolves deviations the controlled variable barely shows.
 
 The amplification is not symmetrical, and this is the part worth holding. Once the reporter is
 suppressed it is suppressed, and the degree of thyrotoxicosis is not graded by how suppressed it
-is — free T4 and, where relevant, T3 do that work *(consensus)*. A floor is a floor. The reporter
-is exquisite in the deficient direction and nearly blind in the excess one.
+is — free T4 and, where relevant, T3 do that work (**consensus**). A floor is a floor. The
+reporter is exquisite in the deficient direction and nearly blind in the excess one.
 
 ## Counterintuition three: the reporter is slow, and it integrates
 
@@ -86,35 +86,35 @@ rather than a signal *(consensus, mechanism)*. The thyrotroph then integrates it
 further interval before its output settles. The consequence is that a reporter value sampled soon
 after anything changed — a dose change, a new illness, a new interacting drug — reports the state
 the loop was in, not the state it is in. Re-testing early mostly re-measures the stretch you have
-already measured. How long to wait is a matter for local guidance *(country-dependent)*.
+already measured. How long to wait is a matter for local guidance (**country-dependent**).
 
 ## Counterintuition four: the reporter is void when the reporter is the lesion
 
 A thyrotropin-first strategy assumes the loop is closed. In hypothalamic or pituitary disease it
 is not: free T4 is low and thyrotropin is **normal or low**, because the structure that would have
-raised it is the damaged one *(mechanism)*. The reading looks reassuring and is meaningless. This
-is the single strongest argument for measuring free T4 alongside the reporter whenever pituitary
-disease is plausible — after cranial surgery or irradiation, alongside other anterior pituitary
-deficits, or when the clinical picture and the reporter disagree *(consensus)*.
+raised it is the damaged one (**mechanism**). The reading looks reassuring and is meaningless.
+This is the single strongest argument for measuring free T4 alongside the reporter whenever
+pituitary disease is plausible — after cranial surgery or irradiation, alongside other anterior
+pituitary deficits, or when the clinical picture and the reporter disagree (**consensus**).
 
 The same logic covers the rarer mirror image, a thyrotropin-secreting pituitary adenoma, where the
 reporter is high **and** free T4 is high — a pattern that is uninterpretable under the usual rule
-and is the reason the rule is stated as a pair rather than as a single number *(consensus)*.
+and is the reason the rule is stated as a pair rather than as a single number (**consensus**).
 
 ## Counterintuition five: total is not free, and the binding proteins move
 
 Thyroid hormone circulates almost entirely bound, chiefly to thyroxine-binding globulin, with
 transthyretin and albumin carrying the rest; only the free fraction crosses into tissue and only
-the free fraction feeds back *(mechanism)*. Anything that changes binding-protein concentration
+the free fraction feeds back (**mechanism**). Anything that changes binding-protein concentration
 changes the **total** without changing the free fraction or the physiology. Pregnancy and
 oestrogen-containing preparations raise thyroxine-binding globulin, so total T4 rises in a person
-whose loop is working perfectly *(consensus)*. That is why free hormone assays displaced total
+whose loop is working perfectly (**consensus**). That is why free hormone assays displaced total
 ones, and why pregnancy is handled with trimester-specific interpretation whose details differ
-between countries and laboratories *(country-dependent)*.
+between countries and laboratories (**country-dependent**).
 
 Assay interference is the same family of problem viewed from the laboratory side: biotin at high
 intake, heterophile and anti-reagent antibodies, and binding-protein variants can all move a
-reported number without moving the hormone *(consensus)*. The laboratory's own handbook is the
+reported number without moving the hormone (**consensus**). The laboratory's own handbook is the
 authority on which of these its platform is vulnerable to, and it is a document most readers have
 never opened.
 
@@ -123,9 +123,9 @@ never opened.
 | Reporter | Free T4 | Where the lesion is |
 | --- | --- | --- |
 | High | Low | Thyroid — primary hypothyroidism |
-| High | Normal | Discordance: *subclinical* hypothyroidism *(definitional)* |
+| High | Normal | Discordance: *subclinical* hypothyroidism (**definitional**) |
 | Low | High | Thyroid or its drive — thyrotoxicosis |
-| Low | Normal | Discordance: *subclinical* thyrotoxicosis *(definitional)* |
+| Low | Normal | Discordance: *subclinical* thyrotoxicosis (**definitional**) |
 | Low or normal | Low | Pituitary or hypothalamus — central hypothyroidism |
 | High | High | Resistance, a thyrotropin-secreting adenoma, or assay interference |
 
@@ -135,7 +135,7 @@ whole of endocrine biochemistry, and it reappears unchanged for cortisol against
 for calcium against parathyroid hormone, and for gonadal steroid against the gonadotrophins.
 
 "Subclinical" deserves its marker. It is defined by the **discordance of the pair**, not by
-symptoms *(definitional)*. A person with subclinical hypothyroidism may feel unwell and a person
+symptoms (**definitional**). A person with subclinical hypothyroidism may feel unwell and a person
 with normal results may feel unwell; the word describes a biochemical configuration and has been
 widely misread as describing a mild illness.
 
@@ -143,8 +143,8 @@ widely misread as describing a mild illness.
 
 Thyrotoxicosis with a suppressed reporter can arise because the receptor is being stimulated by an
 antibody, because a nodule has become autonomous, because a damaged gland is leaking stored
-hormone, or because hormone is arriving from outside the loop *(consensus)*. These share a result
-sheet and share almost nothing else: a loop being **driven** above its set point behaves
+hormone, or because hormone is arriving from outside the loop (**consensus**). These share a
+result sheet and share almost nothing else: a loop being **driven** above its set point behaves
 differently over time from a loop whose **store** is emptying, and the distinction is made with
 the antibody status, the pattern of uptake on imaging and the time course — not with the reporter.
 
@@ -156,7 +156,7 @@ First, "subclinical" is a word about a pair of numbers and it has been heard by 
 people as "your symptoms are not real". Those are unrelated claims. Whether to treat a discordant
 pair is a genuinely contested question whose answer differs between guideline bodies, varies with
 age and pregnancy, and is a judgement made with a person rather than read off a table
-*(country-dependent)*.
+(**country-dependent**).
 
 Second, hypothyroidism is one of the commonest long-term conditions managed by replacement, and
 people living with it frequently report that symptoms persist after their numbers normalise. That

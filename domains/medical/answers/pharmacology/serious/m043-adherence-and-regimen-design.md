@@ -23,8 +23,9 @@ co-payment is for four items and they can afford two, nobody said it was lifelon
 because they felt better and nobody said that was the drug working — and each one names its own
 fix.
 
-Claims are marked **mechanism** mechanism, **definitional** definitional, **consensus** consensus,
-or (**country-dependent**) local.
+Each load-bearing claim below is marked with its basis: (**mechanism**), (**definitional**),
+(**consensus**), or (**country-dependent**) — the last meaning it differs by country,
+institution or laboratory.
 
 ## The arithmetic of complexity
 

@@ -15,21 +15,21 @@ the screen. That is the whole answer, and the trap is that one of them responds 
 the other one responds to almost nothing.
 
 **Effort Values** are the slow stock. Each stat has its own counter, capped at 255, with 510
-across all six, and nothing in the game displays any of them *(mechanism)*. The visible stat is
+across all six, and nothing in the game displays any of them (**mechanism**). The visible stat is
 computed from the stock, and only when `CalculateMonStats` runs — so the stock can move repeatedly
 with no visible change at all until something triggers a recalculation.
 
 **Friendship** is the fast counter. It runs 0 to 255, it is also never displayed, and it moves on
 nearly every event the game has a name for. You read it out through **Return**, whose base power
 is friendship × 10 ÷ 25, topping out at 102 — the integral device from the glycation answer,
-carried over unchanged *(mechanism)*.
+carried over unchanged (**mechanism**).
 
 Now the fact that makes the pair worth a whole answer. Feed an **HP Up** and the stock goes
 **up**; the friendship change is defined as 5, 3 or 2 depending on which band it is already in.
 Feed a **Pomeg Berry** and the stock goes **down**; the friendship change is defined as 10, 5 or 2
-*(mechanism)*. The item that **removes** the stock moves the fast counter twice as far as the item
-that adds to it. The fast counter is reporting that something happened. It is not reporting which
-way.
+(**mechanism**). The item that **removes** the stock moves the fast counter twice as far as the
+item that adds to it. The fast counter is reporting that something happened. It is not reporting
+which way.
 
 | In the battle | What it stands for |
 | --- | --- |
@@ -51,8 +51,8 @@ way.
 the integral, and m060 owns the **Protect** counter as pulsatility — both appear here doing
 narrower jobs, and neither argument is re-derived.
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## The cycle, drawn with its clocks
 
@@ -96,13 +96,13 @@ Look at what the Generation III item data actually says. **HP Up** carries `ITEM
 `ITEM6_ADD_EV`. A **Pomeg Berry** carries `ITEM4_EV_HP` with `ITEM6_SUBTRACT_EV`. **Protein** and
 a **Kelpsy Berry** are the same pair for Attack. **Iron** and a **Qualot Berry** for Defence,
 **Calcium** and a **Hondew Berry** for Special Attack, **Zinc** and a **Grepa Berry** for Special
-Defence, **Carbos** and a **Tamato Berry** for Speed *(mechanism)*.
+Defence, **Carbos** and a **Tamato Berry** for Speed (**mechanism**).
 
 Six counters, twelve items, and every item is addressed to a counter rather than to a direction.
 Deposit and removal are not two systems that happen to touch the same number. They are **one field
 in the save data with two accessors**, and that is the shape of the real thing: suppress the
 removal phase and the deposit phase falls with it, after a delay, because there was only ever one
-process *(consensus)*. A reader who expects to block removal and watch deposit rise has assumed
+process (**consensus**). A reader who expects to block removal and watch deposit rise has assumed
 two levers where the data has one field.
 
 The **Stockpile** family says the same thing from the other direction. **Stockpile** caps the
@@ -110,7 +110,7 @@ counter at 3 and a fourth use sets `MOVE_RESULT_MISSED`. **Spit Up** does nothin
 when it does fire its damage is the base figure times the counter and then the counter goes
 **straight back to 0**. **Swallow** also does nothing at 0, restores `maxHP / (1 << (3 -
 counter))` — a quarter at one layer, a half at two, all of it at three — and also resets to 0
-*(mechanism)*. And the detail that makes it: **Swallow** used at full HP wipes the counter and
+(**mechanism**). And the detail that makes it: **Swallow** used at full HP wipes the counter and
 heals nothing. You cannot spend what was not laid down, you cannot spend part of it, and spending
 it where it cannot go anywhere throws it away.
 
@@ -119,21 +119,21 @@ it where it cannot go anywhere throws it away.
 The cleanest mechanic in the games for this is the **Protect** counter, which the
 reproductive-axis answer already owns and which does a different job here. `Cmd_setprotectlike`
 reads `gLastResultingMoves` and, if the last resulting move was not **Protect**, **Detect** or
-**Endure**, sets `protectUses` back to **zero** before it rolls *(mechanism)*. Use the same move
+**Endure**, sets `protectUses` back to **zero** before it rolls (**mechanism**). Use the same move
 in a run and the success rate collapses — 1, then a half, then a quarter, then an eighth in
 Generation III. Space the same move out and it works every time.
 
 Same move. Same user. Opposite outcome, decided entirely by **the shape of the exposure**. That is
 the fact to carry: for several loops in this specialty the pattern is part of the signal, and a
 readout that integrates the pattern away has thrown information out before you ever looked at it
-*(consensus)*. The calcium answer handles the loop that holds the field steady; this one is about
-what the field does to the tissue.
+(**consensus**). The calcium answer handles the loop that holds the field steady; this one is
+about what the field does to the tissue.
 
 Two further settings worth naming, both verified. The gain multipliers stack onto rate and not
 onto balance: **Pokérus** doubles effort gain and a **Macho Brace** doubles it again, and neither
-of them changes which direction the counter is going *(mechanism)*. And `EV_ITEM_RAISE_LIMIT` is
+of them changes which direction the counter is going (**mechanism**). And `EV_ITEM_RAISE_LIMIT` is
 100 while the per-counter cap is 255 — so a vitamin simply stops working a long way below the
-ceiling, with nothing on the screen to say that it has *(mechanism)*. A plateau, unannounced.
+ceiling, with nothing on the screen to say that it has (**mechanism**). A plateau, unannounced.
 
 ## What the fast counter cannot tell you
 
@@ -141,25 +141,25 @@ Five limits, and every one of them is in the code rather than in the quality of 
 
 **It has no direction.** 10/5/2 from the berry against 5/3/2 from the vitamin: the counter moved
 further for the act that *emptied* the stock. Nothing about the number distinguishes them
-*(mechanism)*.
+(**mechanism**).
 
 **It has no site.** `AdjustFriendship` is called for one Pokémon, not for one stat, and the same
-increment arrives whichever of the six counters was touched *(mechanism)*.
+increment arrives whichever of the six counters was touched (**mechanism**).
 
 **Its response depends on where it already was.** The increment is chosen by band — one value
 below 100, another below 200, a third above — so the identical act moves the counter by different
-amounts at different starting points *(mechanism)*. A change is not comparable with a change
+amounts at different starting points (**mechanism**). A change is not comparable with a change
 measured from somewhere else on the scale.
 
 **Things with nothing to do with the stock move it.** A **Luxury Ball** adds one to every positive
 change. Standing in the region where the Pokémon was met adds another one. A **Soothe Bell**
 multiplies a positive change by 150 and divides by 100, **rounding down** — so it does precisely
-nothing when the increment is 1 *(mechanism)*. Three modifiers, none of them about the stock, and
-one of them invisible exactly when the signal is smallest.
+nothing when the increment is 1 (**mechanism**). Three modifiers, none of them about the stock,
+and one of them invisible exactly when the signal is smallest.
 
 **It is not the stat and it is not a prediction.** **Return** at 102 tells you the counter is at
 its ceiling and tells you nothing whatever about the six counters that actually decide what the
-Pokémon can do *(mechanism)*.
+Pokémon can do (**mechanism**).
 
 One honest note, because this is the place the mapping diverges from the thing it is mapping.
 Friendship is a **running total** — it accumulates and does not decay — whereas a real turnover
@@ -173,21 +173,21 @@ counter for the job it genuinely fits, which is an integral, and says so there.
 `Cmd_weightdamagecalculation` is the one to look at, because it does the thing a projected
 measurement does. **Low Kick**'s base power is set by walking `sWeightToDamageTable` against
 `GetPokedexHeightWeight(...)` — the **Pokédex entry's figure for the species**, identical for
-every individual of it *(mechanism)*. The move is not measuring the Pokémon in front of it. It is
-reading a reference table and calling the answer a property of the individual.
+every individual of it (**mechanism**). The move is not measuring the Pokémon in front of it. It
+is reading a reference table and calling the answer a property of the individual.
 
 In later generations the recorded figure is modified before the move reads it, and the expansion's
 own comment pins the order: **Autotomize** is applied first, then **Heavy Metal**, **Light Metal**
-and a **Float Stone** *(mechanism)*. So four things can change the number the move reads without
+and a **Float Stone** (**mechanism**). So four things can change the number the move reads without
 changing the thing being read — which is the whole problem with a reading taken through a
 projection, and the reason a value is not interpretable without knowing which reference produced
 it.
 
 The other half of that problem is the comparison. **Shuckle**'s base 230 Defence and **Blissey**'s
 base 255 HP are real outliers in a real distribution, and any statement of the form "this one is
-*n* steps from the usual" is a statement about which distribution you chose *(mechanism)*. Change
-the reference set and the same Pokémon's standing changes without the Pokémon changing. Which
-reference is used, and what is done at which point on it, is local *(country-dependent)*.
+*n* steps from the usual" is a statement about which distribution you chose (**mechanism**).
+Change the reference set and the same Pokémon's standing changes without the Pokémon changing.
+Which reference is used, and what is done at which point on it, is local (**country-dependent**).
 
 ## Where the metaphor stops
 

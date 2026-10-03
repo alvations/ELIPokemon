@@ -14,7 +14,7 @@ Both of these battles start the same way: the rain is gone or going, **Groudon**
 **Drought**, and nothing is opposing the sun. The reason they then look nothing alike comes down
 to a single fact about one ability. **Solar Power** raises its holder's Special Attack by half and
 burns an eighth of its maximum HP at the end of every turn — **and it only triggers in harsh
-sunlight** *(mechanism)*. So a single turn of rain, from anywhere, stops the burn dead. It does
+sunlight** (**mechanism**). So a single turn of rain, from anywhere, stops the burn dead. It does
 not fix anything; the bar is still falling and **Dry Skin**'s eighth-per-turn recovery needs rain
 standing to be worth anything at all. But the burn is over. Below that line you get the burn.
 Above it you get a long grind with no burn in it. One ability, one threshold, two completely
@@ -31,7 +31,7 @@ different battles.
 | **Rain Dance**, used to end the burn | Insulin, given to stop ketogenesis |
 | A stat propped up only while the condition stands | A measurement that falls when you act |
 
-Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where it matters.
+Claims are marked (**mechanism**), (**consensus**) or *(guideline-dependent)* where it matters.
 
 ## The branch point
 
@@ -71,35 +71,35 @@ Claims are marked *(mechanism)*, *(consensus)* or *(guideline-dependent)* where 
 That accelerating engine is the most useful thing on this page. It explains why both battles get
 worse faster the longer they run, why the bar is lower the longer nobody looked, and why restoring
 the resource is itself part of breaking the loop — a Pokémon that cannot act cannot remove the
-thing draining it *(mechanism)*.
+thing draining it (**mechanism**).
 
 ## Why the two look different
 
 **Speed.** An eighth a turn is eight turns, and the burn announces itself in a message box every
-single one of them. A sixteenth a turn is sixteen, and nothing announces anything *(mechanism)*.
+single one of them. A sixteenth a turn is sixteen, and nothing announces anything (**mechanism**).
 In the clinic, the acid generates deep sighing respiration, nausea, vomiting and abdominal pain,
 which bring people to help within hours to a day or two; the hyperosmolar state generates thirst
 and polyuria and little else early, so it runs for days to weeks and the deficits reach a size
-ketoacidosis rarely gets to *(consensus)*.
+ketoacidosis rarely gets to (**consensus**).
 
 **Who it happens to.** The burn belongs to the side with no setter at all, so it is associated
 with type 1 diabetes and with any interruption of insulin supply, and it also occurs in type 2
-under enough stress *(consensus)*. The grind belongs to the side that still has a trace. Stated
+under enough stress (**consensus**). The grind belongs to the side that still has a trace. Stated
 plainly, because this is not a battle fact: the hyperosmolar state is characteristic of type 2
 diabetes, often in older people, and the risk is compounded when thirst is blunted or when getting
-a drink depends on someone else being there *(consensus)*. Mixed pictures are common enough that
-the two are better treated as ends of one spectrum than as separate boxes *(consensus)*.
+a drink depends on someone else being there (**consensus**). Mixed pictures are common enough that
+the two are better treated as ends of one spectrum than as separate boxes (**consensus**).
 
 **What dominates.** In the first the burn is the acute threat and the bar is a serious secondary
 problem. In the second there is no burn to stop and the depleted bar *is* the disease, which is
-why altered consciousness belongs to one and not usually to the other *(mechanism)*.
+why altered consciousness belongs to one and not usually to the other (**mechanism**).
 
 **The exception worth knowing.** **Solar Power's burn does not care where the HP bar is.** It
-fires at full health exactly as readily as at a sliver *(mechanism)*. So you can be burning while
-the bar still looks fine — which is precisely why ketoacidosis can occur with a glucose that is
-not strikingly raised, notably in association with sodium-glucose co-transporter-2 inhibitors, and
-in pregnancy and starvation *(consensus)*. The diagnosis rests on the acid and the ketones, not on
-the glucose value, because the branch point is the burn and not the bar.
+fires at full health exactly as readily as at a sliver (**mechanism**). So you can be burning
+while the bar still looks fine — which is precisely why ketoacidosis can occur with a glucose that
+is not strikingly raised, notably in association with sodium-glucose co-transporter-2 inhibitors,
+and in pregnancy and starvation (**consensus**). The diagnosis rests on the acid and the ketones,
+not on the glucose value, because the branch point is the burn and not the bar.
 
 ## Why the response has the shape it has — and this is not the response
 
@@ -109,39 +109,40 @@ the local care pathway is the only legitimate authority for any of those.
 
 1. **The resource before the number.** A Pokémon at a sliver of HP cannot act, cannot switch, and
    cannot remove the thing draining it, so the first turn goes on the bag item and not on the
-   weather *(mechanism)*. Clinically: the deficit that threatens life first is circulating volume,
-   and restoring it also breaks the accelerating loop by restoring the kidney's ability to clear
-   glucose — so it lowers the glucose as a side effect of doing the more urgent thing
-   *(mechanism)*.
+   weather (**mechanism**). Clinically: the deficit that threatens life first is circulating
+   volume, and restoring it also breaks the accelerating loop by restoring the kidney's ability to
+   clear glucose — so it lowers the glucose as a side effect of doing the more urgent thing
+   (**mechanism**).
 2. **Rain Dance is used to end the burn, not to top up the bar.** That one sentence explains an
    otherwise odd feature of care: glucose is co-administered once the glucose falls while the
-   insulin continues, because what is being treated is the acid, not the number *(mechanism)*. The
-   endpoint is the resolution of ketosis and acidosis, not a glucose value *(consensus)*.
+   insulin continues, because what is being treated is the acid, not the number (**mechanism**).
+   The endpoint is the resolution of ketosis and acidosis, not a glucose value (**consensus**).
 3. **One measurement is propped up by the very condition you are about to remove.** From
    Generation IV onward, a sandstorm raises a Rock-type's Special Defence by half while it stands
    — so **Tyranitar** reads tough, and the instant the sandstorm ends that number falls without
-   anything having been taken away from it *(mechanism)*. Potassium behaves exactly like this:
+   anything having been taken away from it (**mechanism**). Potassium behaves exactly like this:
    total body potassium is depleted by the osmotic diuresis, yet the serum value may read normal
    or high on arrival because acidosis and insulin deficiency both hold potassium outside cells.
    Give insulin and the shift reverses and the measured value drops, sometimes steeply
-   *(mechanism)*. Everything a protocol says about monitoring and replacing potassium, and about
+   (**mechanism**). Everything a protocol says about monitoring and replacing potassium, and about
    not starting insulin while it is critically low, follows from that *(guideline-dependent)*.
 4. **Haze is the wrong instinct.** It resets every stat stage on the field to zero in one move,
    which looks decisive, wipes your own boosts along with theirs, and does absolutely nothing
-   about the weather that caused the stages *(mechanism)*. Correcting the acid directly, with
+   about the weather that caused the stages (**mechanism**). Correcting the acid directly, with
    bicarbonate, treats a number rather than a cause; the acidosis resolves when ketogenesis stops,
-   and giving it carries specific hazards including worsening hypokalaemia *(consensus)*.
+   and giving it carries specific hazards including worsening hypokalaemia (**consensus**).
 5. **Rate — and here the analogy stops completely.** Cells exposed to a high plasma osmolality for
    hours or days adjust their own solute content to match it. Lowering plasma osmolality faster
-   than those cells can readjust drives water into them *(mechanism)*. That is the mechanism of
+   than those cells can readjust drives water into them (**mechanism**). That is the mechanism of
    cerebral oedema, which is the principal cause of death in children with ketoacidosis, and it is
    why correction is deliberately gradual in the hyperosmolar state, where the adjustment has had
    longer to happen. There is no version of this that belongs in a battle, and **the permitted
    rate of correction is a protocol number and does not appear here** *(guideline-dependent)*.
 6. **Groudon is still on the field.** Nothing holds until the thing setting the condition is dealt
-   with, and the sun comes straight back otherwise *(mechanism)*. Infection, missed or interrupted
-   insulin, myocardial infarction, drugs and new-onset diabetes are the usual precipitants, and
-   neither condition resolves durably while the cause is unaddressed *(consensus)*.
+   with, and the sun comes straight back otherwise (**mechanism**). Infection, missed or
+   interrupted insulin, myocardial infarction, drugs and new-onset diabetes are the usual
+   precipitants, and neither condition resolves durably while the cause is unaddressed
+   (**consensus**).
 
 ## Where the metaphor stops
 

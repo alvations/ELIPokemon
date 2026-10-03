@@ -15,11 +15,11 @@ glucose-control loop looks like from outside. But glucose is the *output* of the
 same output can mean the signal was never sent or that it was sent and ignored. Type 1 is
 **absolute insulin deficiency** following immune destruction of the pancreatic beta cells. Type 2
 is **insulin resistance plus progressive beta-cell failure** — a relative deficiency, in a loop
-whose gain has fallen rather than whose transmitter has gone *(mechanism)*. Everything downstream
-follows from where the break sits.
+whose gain has fallen rather than whose transmitter has gone (**mechanism**). Everything
+downstream follows from where the break sits.
 
-Claims below are marked *(mechanism)* where they follow from physiology and are checkable by
-reasoning, *(consensus)* where they are settled professional agreement, and
+Claims below are marked (**mechanism**) where they follow from physiology and are checkable by
+reasoning, (**consensus**) where they are settled professional agreement, and
 *(guideline-dependent)* where the answer differs between countries and documents.
 
 ## The loop, and the two places it breaks
@@ -53,70 +53,71 @@ reasoning, *(consensus)* where they are settled professional agreement, and
 
 Two lags sit in that diagram and they matter more than the arrows do. Sensing to secretion is
 fast; secretion to a measurable change in circulating glucose is slower; and the hepatic response
-and the peripheral response have different time constants *(mechanism)*. A control loop with delay
-does not hold a point, it ranges — which is why normal glucose is not flat but oscillates inside a
-narrow band.
+and the peripheral response have different time constants (**mechanism**). A control loop with
+delay does not hold a point, it ranges — which is why normal glucose is not flat but oscillates
+inside a narrow band.
 
 ## Type 1: the transmitter is gone
 
 An autoimmune process destroys beta cells, typically across months to years of asymptomatic
-progression, and symptoms appear once the surviving mass cannot meet demand *(consensus)*. The
+progression, and symptoms appear once the surviving mass cannot meet demand (**consensus**). The
 diagnostic markers are immunological rather than glycaemic — islet autoantibodies, including those
 to glutamic acid decarboxylase, to the islet antigen IA-2, to zinc transporter 8 and to insulin
-itself — alongside an HLA-associated genetic risk *(consensus)*. The functional marker is a low or
-undetectable C-peptide, which reports endogenous secretion in a way an insulin assay cannot once
-exogenous insulin is circulating *(mechanism)*.
+itself — alongside an HLA-associated genetic risk (**consensus**). The functional marker is a low
+or undetectable C-peptide, which reports endogenous secretion in a way an insulin assay cannot
+once exogenous insulin is circulating (**mechanism**).
 
 With no endogenous brake, two things hold that do not hold in type 2. Glucose can rise quickly.
 And lipolysis is unrestrained, so ketogenesis proceeds — which is why interrupted or absent
-insulin in type 1 produces ketoacidosis rather than simply a higher number *(mechanism)*. Insulin
-here is not an escalation step. It is the missing molecule, needed from diagnosis and permanently.
+insulin in type 1 produces ketoacidosis rather than simply a higher number (**mechanism**).
+Insulin here is not an escalation step. It is the missing molecule, needed from diagnosis and
+permanently.
 
 The common teaching error is age. Type 1 presents across the lifespan, a substantial share of new
 cases arise in adults, and adult-onset type 1 is routinely misclassified as type 2 at first
-contact *(consensus)*.
+contact (**consensus**).
 
 ## Type 2: the loop still runs, with the gain turned down
 
 Resistance comes first — in muscle, as reduced glucose disposal; in liver, as failure to suppress
-hepatic glucose output; in adipose tissue, as failure to suppress lipolysis *(consensus)*. A
+hepatic glucose output; in adipose tissue, as failure to suppress lipolysis (**consensus**). A
 healthy beta cell compensates by secreting more, so the earliest measurable abnormality is often a
-*high* insulin alongside a normal glucose *(mechanism)*. Glucose rises only once secretion can no
-longer keep pace, and beta-cell function then declines progressively. Type 2 therefore has two
+*high* insulin alongside a normal glucose (**mechanism**). Glucose rises only once secretion can
+no longer keep pace, and beta-cell function then declines progressively. Type 2 therefore has two
 moving parts, and which dominates differs between people and across time within one person.
 
 That compensation phase is why type 2 is found late. Years can pass between the loop losing gain
 and glucose crossing a diagnostic line, which is why complications are sometimes already present
 at diagnosis — and why raised blood pressure and an atherogenic lipid pattern usually sit
 alongside it, as expressions of the same insulin-resistant physiology rather than as coincidences
-*(consensus)*.
+(**consensus**).
 
 Residual insulin also explains the absence of ketones, and the explanation is quantitative:
 insulin suppresses lipolysis at substantially lower concentrations than it stimulates peripheral
-glucose uptake *(mechanism)*. A little residual action is enough to hold ketogenesis off while
+glucose uptake (**mechanism**). A little residual action is enough to hold ketogenesis off while
 being nowhere near enough to control glucose. The same fact explains why the acute decompensation
 of type 2 is usually a hyperosmolar state rather than ketoacidosis — and ketosis-prone type 2 is
-described, so this is a tendency and not a rule *(consensus)*.
+described, so this is a tendency and not a rule (**consensus**).
 
 ## Why the same number means something different
 
 * **Implied trajectory.** In type 1 a given glucose sits on a curve with nothing restraining it.
   In type 2 the same value usually reflects a slow drift with some regulation intact
-  *(mechanism)*.
+  (**mechanism**).
 * **Implied company.** A raised glucose in type 2 arrives with a cardiovascular risk profile that
-  has been accumulating for years. In new type 1 it usually does not *(consensus)*.
+  has been accumulating for years. In new type 1 it usually does not (**consensus**).
 * **Implied urgency.** Whether ketones are present is asked differently in each, and the answer
   changes what happens in the next hour *(guideline-dependent)*.
 * **Implied therapy.** Type 1 needs replacement designed around an absent basal signal. Type 2 has
   levers at several points in the loop — hepatic output, peripheral sensitivity, incretin
   signalling, renal glucose handling, adiposity — and remission of the glycaemic abnormality is
-  described, which it is not in type 1 *(consensus)*.
+  described, which it is not in type 1 (**consensus**).
 
 ## Classification is not done with glucose
 
 Monogenic diabetes, latent autoimmune diabetes in adults, diabetes following pancreatic disease,
 cystic-fibrosis-related diabetes and drug-induced hyperglycaemia all present with the same
-measurement *(consensus)*. Classification draws on the clinical picture, antibody status,
+measurement (**consensus**). Classification draws on the clinical picture, antibody status,
 C-peptide and sometimes genetics — and the honest statement is that a meaningful minority are
 classified wrongly at first, which is why the label is revisited rather than fixed at diagnosis.
 

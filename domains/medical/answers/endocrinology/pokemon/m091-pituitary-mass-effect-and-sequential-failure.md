@@ -16,18 +16,18 @@ either side of it are **structures**, and the whole picture is a diagram of plum
 Start with the four slots, because they are the hormonal half. **Gengar**'s Generation III
 level-up learnset gives it **Hypnosis** at 20 PP, **Night Shade** at 15, **Confuse Ray** at 10 and
 **Mean Look** at 5 — four slots, four different printed reserves, and nothing on the screen
-telling you which is closest to empty *(mechanism)*. Put **Dusclops** on the other side and its
+telling you which is closest to empty (**mechanism**). Put **Dusclops** on the other side and its
 **Pressure** deducts one extra PP from every move used against it, turn after turn, equally,
-caring nothing for which slot it is spending *(mechanism)*. A perfectly even drain, and the slots
-still empty in a fixed order: **Mean Look** first, then **Confuse Ray**, then **Night Shade**,
-then **Hypnosis**. The order is not about where the pressure is. It is about what each slot
-started with.
+caring nothing for which slot it is spending (**mechanism**). A perfectly even drain, and the
+slots still empty in a fixed order: **Mean Look** first, then **Confuse Ray**, then **Night
+Shade**, then **Hypnosis**. The order is not about where the pressure is. It is about what each
+slot started with.
 
 Now the second, completely separate problem. **Earthquake** is written in the Generation III data
 with `.target = MOVE_TARGET_FOES_AND_ALLY` — in a double battle it hits every adjacent battler
-including the one on your own side, regardless of what it was aimed at *(mechanism)*. That is not
-a hormonal fact about the user. It is a fact about **where things are standing**. One lesion, two
-jobs, and neither predicts the other.
+including the one on your own side, regardless of what it was aimed at (**mechanism**). That is
+not a hormonal fact about the user. It is a fact about **where things are standing**. One lesion,
+two jobs, and neither predicts the other.
 
 | In the battle | What it stands for |
 | --- | --- |
@@ -50,8 +50,8 @@ jobs, and neither predicts the other.
 `TryChangeBattleTerrain` refusing to refresh its own timer. m058 owns **Intimidate** against
 **Clear Body** as the suppression test. None of them is re-derived here.
 
-Claims are marked *(mechanism)*, *(definitional)*, *(consensus)* or *(country-dependent)* where it
-matters.
+Claims are marked (**mechanism**), (**definitional**), (**consensus**) or (**country-dependent**)
+where it matters.
 
 ## The field, drawn to scale, because the geometry is the argument
 
@@ -97,13 +97,13 @@ That shared check is the thing worth carrying away. In the thyroid and calcium a
 meant *has the receptor*; **Flygon** never felt the terrain however much of it there was. Here
 grounded means *is in the way*. The code does not distinguish them, and neither does the anatomy:
 a thing is either reachable or it is not, and the exemptions lose to the overrides either way
-*(mechanism)*.
+(**mechanism**).
 
 Two separate deliveries sit either side of that channel. The four **moves** need the channel: they
 cost PP, they can be sealed, and cutting the channel strands them even though the slots are
 intact. The **Ability** does not. **Drizzle** keeps raining after **Kyogre** has left the field —
 the house asymmetry from the pharmacology answers — and that is the posterior lobe: made upstream,
-delivered down the nerve, and untouched by a lesion sitting inside the box *(mechanism)*. Sever
+delivered down the nerve, and untouched by a lesion sitting inside the box (**mechanism**). Sever
 the channel and you lose both. Fill the box and you usually lose only the moves.
 
 ## The channel, and the one move that gets *easier* when you cut it
@@ -119,24 +119,24 @@ misremember — **it fails outright unless the sealer and the sealed share a mov
    if no foe shares a single move → Imprison FAILS
 ```
 
-The comment in the decompilation says so in as many words *(mechanism)*. The brake only works
+The comment in the decompilation says so in as many words (**mechanism**). The brake only works
 because both ends speak the same language. Take away the shared move and the brake does not exist.
 
 Now cut the channel. Every move that was coming *down* it stops arriving — and the one move that
 was being held *shut* by **Imprison** is free the moment its user is off the field. So one output
 goes **up** while every other output goes down, and it goes up for a reason that has nothing to do
-with the gland having decided to make more of it *(consensus)*.
+with the gland having decided to make more of it (**consensus**).
 
 That is why a loud readout on that one output does not establish that the lesion is making it. It
 is equally the signature of a lesion that is merely leaning on the channel. How loud is loud
 enough to separate the two is a local matter and the figures belong in the laboratory handbook,
-not here *(country-dependent)*.
+not here (**country-dependent**).
 
 And it is why this is the one lesion that can be made smaller by **reapplying its own brake**. The
 slot still holds the receiving end. Put the inhibition back from outside and the thing shrinks
-*(consensus)*. **Disable** is the contrast that proves the point: four turns, on whatever move was
-last used, no shared-move requirement and no choosing. Tonic and targeted is a different mechanic
-from brief and arbitrary, and only the first one can be reapplied on purpose.
+(**consensus**). **Disable** is the contrast that proves the point: four turns, on whatever move
+was last used, no shared-move requirement and no choosing. Tonic and targeted is a different
+mechanic from brief and arbitrary, and only the first one can be reapplied on purpose.
 
 ## The slots empty in printed order, and the order is about reserve
 
@@ -146,14 +146,14 @@ identical across all four.
 
 The real axis ordering has the same character — the usual teaching is growth hormone and the
 gonadotrophins first, then thyrotropin, then corticotropin, and prolactin behaving separately for
-the reason above *(consensus)*. Like the PP table it is a tendency rather than a law, and
+the reason above (**consensus**). Like the PP table it is a tendency rather than a law, and
 individual battles depart from it.
 
 What the mapping gets right is the **reason**. The order is not a statement about how hard the
 drain is pressing, because the drain is even. It is a statement about the printed reserve
-*(mechanism)*. And the honest limit of the mapping is that **Gengar**'s PP figures are printed in
-the data where you can read them, and the real reserves are not — the mechanistic account of why
-those particular axes have the least margin is not fully settled, and I am not going to invent
+(**mechanism**). And the honest limit of the mapping is that **Gengar**'s PP figures are printed
+in the data where you can read them, and the real reserves are not — the mechanistic account of
+why those particular axes have the least margin is not fully settled, and I am not going to invent
 one.
 
 Two readings fall out. One dark slot should send you to look at the other three, because the gland
@@ -164,34 +164,35 @@ which turns the usual relationship between *late* and *urgent* upside down.
 
 Same move as every other answer in this specialty. Read the terrain **and** the reporter, as a
 pair, and ask whether the reporter is behaving appropriately for the field it is standing on
-*(mechanism)*.
+(**mechanism**).
 
 **Flail** at 200 over a bare field puts the fault at the setter. **Flail** sitting quietly at 20
 over a bare field puts the fault at the level above — and that is the dangerous pattern, because
 nothing is complaining. An ordinary reading next to an obviously empty field is not a reassurance;
 it is the finding. The reporter that should be shouting and is not has told you where the lesion
-is *(mechanism)*.
+is (**mechanism**).
 
 For the axes whose output arrives in bursts, one basal pair settles nothing and the test becomes a
 push: supply the condition from outside, or send the setter in deliberately, and watch. Which
 push, how, and what counts as a response differ by country and by laboratory and are not on this
-page *(country-dependent)*.
+page (**country-dependent**).
 
 ## Why you refill one slot before another
 
 A **Leppa Berry** restores 10 PP, and its `holdEffectParam` in the Generation III data is
-literally the number 10 — one berry, one slot, your choice of which *(mechanism)*.
+literally the number 10 — one berry, one slot, your choice of which (**mechanism**).
 
 The choice is not free. Refilling one particular slot raises the rate at which a *different*
 slot's supply is consumed, so topping up the wrong one first can turn a side that was just about
-coping into one that is not *(consensus)*. The mechanism is a clearance interaction and it is the
-reason the order is fixed rather than a matter of preference. Which preparation, how much and in
-what sequence is formulary and protocol, differs between countries, and is deliberately not here.
+coping into one that is not (**consensus**). The mechanism is a clearance interaction and it is
+the reason the order is fixed rather than a matter of preference. Which preparation, how much and
+in what sequence is formulary and protocol, differs between countries, and is deliberately not
+here.
 
 ## The sudden version, and where the games give me nothing
 
 **Spite** takes 2 to 5 PP in one hit — `(Random() & 3) + 2`, and only if the slot has more than 1
-PP left — from whichever move was last used *(mechanism)*. One slot. One event. Large.
+PP left — from whichever move was last used (**mechanism**). One slot. One event. Large.
 
 The acute pituitary syndrome is all four slots and both neighbouring structures in the same
 instant, and Generation III has no mechanic that does that. I could dress one up. I am not going

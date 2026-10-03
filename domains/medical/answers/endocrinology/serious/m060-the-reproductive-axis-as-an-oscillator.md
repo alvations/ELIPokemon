@@ -19,16 +19,16 @@ interpretive error in the topic comes from reading it as though it were not.
 
 1. **The input is a frequency, not a level.** Gonadotrophin-releasing hormone is released from the
   hypothalamus in discrete pulses, and the pituitary gonadotroph responds to the **pattern** —
-  pulse frequency and amplitude — rather than to the mean concentration *(consensus)*.
+  pulse frequency and amplitude — rather than to the mean concentration (**consensus**).
 2. **The feedback changes sign.** Oestradiol inhibits gonadotrophin output for most of the cycle
   and then, once it is high enough for long enough, drives it, producing the mid-cycle surge
-  *(consensus)*. No set-point loop does this.
+  (**consensus**). No set-point loop does this.
 3. **There is a built-in period.** The loop is designed to return to its own start rather than to
   settle, so "stable" is not what success looks like.
 
-Claims below are marked *(mechanism)* where they follow from physiology and are checkable by
-reasoning, *(definitional)* where the statement is what a term means, *(consensus)* where they are
-settled professional agreement, and *(country-dependent)* where the answer differs between
+Claims below are marked (**mechanism**) where they follow from physiology and are checkable by
+reasoning, (**definitional**) where the statement is what a term means, (**consensus**) where they
+are settled professional agreement, and (**country-dependent**) where the answer differs between
 countries and documents.
 
 ## The two architectures, side by side
@@ -85,10 +85,10 @@ endocrinology.
 
 Because the gonadotroph responds to a **pattern**, delivering the same molecule continuously does
 the opposite of delivering it in pulses. Continuous occupancy of the receptor downregulates it,
-and the axis shuts down; pulsatile delivery sustains it *(consensus)*. This is why agonists of
+and the axis shuts down; pulsatile delivery sustains it (**consensus**). This is why agonists of
 gonadotrophin-releasing hormone are used to **suppress** the axis, after an initial stimulatory
 flare as the stored gonadotrophins are released, while receptor antagonists suppress it without
-that flare *(consensus)*.
+that flare (**consensus**).
 
 Nobody could deduce this from a set-point model, and students reliably get it backwards. In a
 frequency-encoded system, **how** you deliver a signal determines whether it is a signal at all.
@@ -98,14 +98,14 @@ frequency-encoded system, **how** you deliver a signal determines whether it is 
 **A gonadotrophin or an oestradiol without a cycle day is not a result.** This is the commonest
 interpretive error in the specialty, and it is structural rather than careless: the same value is
 unremarkable in one phase and clearly abnormal in another, so a number on its own has no
-interpretation to have *(mechanism)*. Which day, measured from what, and what is being asked are
+interpretation to have (**mechanism**). Which day, measured from what, and what is being asked are
 all part of the measurement. The conventions differ between countries and laboratories
-*(country-dependent)*.
+(**country-dependent**).
 
 **The two-level localisation rule still works, unchanged.** This is the one thing that carries
 over intact from the set-point axes, and it is worth stating in exactly the same words:
 
-| Gonadotrophins | Steroid | Where the lesion is | The name *(definitional)* |
+| Gonadotrophins | Steroid | Where the lesion is | The name (**definitional**) |
 | --- | --- | --- | --- |
 | High | Low | The **gonad** | Hypergonadotrophic hypogonadism |
 | Low, or inappropriately normal | Low | **Hypothalamus or pituitary** | Hypogonadotrophic hypogonadism |
@@ -118,39 +118,39 @@ axes, one question.
 controller is a frequency generator, anything that disturbs pulse frequency disturbs the whole
 axis with no gland being diseased at all — low energy availability, intercurrent illness, high
 training load, severe psychological stress, and hyperprolactinaemia, which suppresses the pulse
-generator directly *(consensus)*. The biochemistry looks central: low gonadotrophins, low steroid.
-Nothing is damaged. It is **functional**, and it is reversible when the input is restored. That
-last point is why prolactin is measured in this situation at all — a pituitary problem presenting
-as a reproductive one is not a coincidence, it is the pulse generator being switched off from next
-door.
+generator directly (**consensus**). The biochemistry looks central: low gonadotrophins, low
+steroid. Nothing is damaged. It is **functional**, and it is reversible when the input is
+restored. That last point is why prolactin is measured in this situation at all — a pituitary
+problem presenting as a reproductive one is not a coincidence, it is the pulse generator being
+switched off from next door.
 
 ## Ageing, and why the two sides of the axis age differently
 
 The ovary has a finite store of follicles, established before birth and declining thereafter, and
 as it depletes the gonadotrophins rise because the loop is doing exactly what the localisation
-rule predicts: it is a primary gonadal failure *(consensus)*. It is also entirely physiological.
+rule predicts: it is a primary gonadal failure (**consensus**). It is also entirely physiological.
 The rule locates the lesion correctly and tells you nothing about whether there is a disease,
 which is a useful reminder that a biochemical pattern is not a diagnosis.
 
 The male axis declines gradually and mostly keeps its architecture, which is why the
 interpretation there turns on morning sampling, on repeat measurement, and on distinguishing a
 genuinely low testosterone from the fall that accompanies obesity, illness and sleep deprivation
-*(consensus)*. Sex hormone binding globulin is the binding-protein trap in this axis, exactly as
+(**consensus**). Sex hormone binding globulin is the binding-protein trap in this axis, exactly as
 thyroxine-binding globulin is in the thyroid axis and cortisol-binding globulin in the adrenal
 one: it changes the total without changing the free fraction, and it moves with obesity, with
-insulin resistance, with thyroid status and with age *(consensus)*. Three axes, one error, and it
-is the same error each time.
+insulin resistance, with thyroid status and with age (**consensus**). Three axes, one error, and
+it is the same error each time.
 
 ## Polycystic ovary syndrome, stated carefully
 
 A disordered oscillator with androgen excess is the honest short description: ovulation is
 infrequent or absent, androgens are raised, and insulin resistance is common and interacts with
-the axis *(consensus)*. Two things need saying plainly.
+the axis (**consensus**). Two things need saying plainly.
 
 First, the **diagnostic criteria are contested**. Different bodies in different countries define
 it differently, the definitions have been revised more than once, and which criteria apply depends
-on where you are *(country-dependent)*. None appears here. A ratio of the two gonadotrophins,
-which older teaching treated as diagnostic, is not part of current criteria *(consensus)*.
+on where you are (**country-dependent**). None appears here. A ratio of the two gonadotrophins,
+which older teaching treated as diagnostic, is not part of current criteria (**consensus**).
 
 Second, it is not a disease of behaviour. The interaction with weight is bidirectional and
 mechanistic, and presenting it as a consequence of personal choices is both wrong and documented
@@ -172,12 +172,12 @@ Three specific things.
 **The tests above do not predict an individual's fertility.** They describe the state of an axis.
 Markers of ovarian reserve in particular are very widely misread, by patients and clinicians both,
 as a forecast for one person; they are not, and the gap between what they measure and what people
-are told they measure is a recognised problem *(consensus)*.
+are told they measure is a recognised problem (**consensus**).
 
 **Menopause is not a pathology.** It is the physiological end of a finite store, and the rising
 gonadotrophins are the loop working correctly. Whether and how symptoms are treated is a decision
 made with a person, it has moved substantially over the past two decades, and it differs between
-countries *(country-dependent)*.
+countries (**country-dependent**).
 
 **Puberty, its timing, and anything concerning gender are outside what this page covers.** They
 involve the same axis and almost none of the same considerations, the clinical and ethical frames
