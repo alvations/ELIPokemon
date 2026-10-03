@@ -14,7 +14,7 @@ Intact skin and mucosa are the body's principal barrier against the organisms th
 around it. Every indwelling device — a urinary catheter, a peripheral cannula, a central venous
 catheter, a tracheostomy, a gastrostomy, a surgical drain, any implanted prosthetic material —
 crosses that barrier and **keeps it crossed**. That is not a side effect of the device. It is what
-the device is. *Mechanism.*
+the device is (**mechanism**).
 
 Markers used below: **mechanism** means checkable by reasoning; **definitional** means it is what
 the word means; (**consensus**) means mainstream agreement across major guidance;
@@ -34,7 +34,7 @@ microbiology literature.*
 The clinical consequence follows directly and is the single most useful thing to take from this
 topic: **for an established device-associated infection, the definitive treatment is often removal
 of the device rather than more or better antimicrobial.** An antimicrobial course given around a
-colonised surface treats what has shed from it and leaves the reservoir in place. *Consensus.*
+colonised surface treats what has shed from it and leaves the reservoir in place (**consensus**).
 
 ```
    the two routes, which need different defences
@@ -60,8 +60,8 @@ colonised surface treats what has shed from it and leaves the reservoir in place
 ## Why duration is the dominant term
 
 Because dwell risk is a rate. Risk of catheter-associated urinary tract infection accrues per
-catheter-day; the same shape holds for vascular access. *Consensus.* Multiply a per-day hazard by
-a number of days and the arithmetic is unforgiving — which means the interventions with the
+catheter-day; the same shape holds for vascular access (**consensus**). Multiply a per-day hazard
+by a number of days and the arithmetic is unforgiving — which means the interventions with the
 largest effect are not better products or better technique. They are **not inserting the device**
 and **taking it out sooner**. Everything else is a refinement on a term that only grows.
 
@@ -83,7 +83,7 @@ the management of some urological conditions. *Consensus; the local list is the 
 
 It is not indicated for the management of incontinence, for the convenience of the people
 providing care, or because fluid balance would be easier to chart — and those three account for a
-large share of the catheter-days that should not exist. *Consensus.* The honest version of the
+large share of the catheter-days that should not exist (**consensus**). The honest version of the
 teaching is not "catheters are bad". It is that the benefit is specific and bounded while the cost
 accrues daily, so the two have to be re-weighed, not weighed once.
 
@@ -103,18 +103,19 @@ And the harm ledger is wider than infection, which is routinely underweighted:
 
 Catheterised patients become bacteriuric. Over time this approaches universal, it is colonisation
 rather than infection, and treating it in an asymptomatic person is one of the largest single
-sources of unnecessary antimicrobial use in hospital and in long-term care. *Consensus.* Two
+sources of unnecessary antimicrobial use in hospital and in long-term care (**consensus**). Two
 corollaries follow and both are examined:
 
 **Urine dipstick is close to useless in a catheterised patient**, and of limited value in frail
 older people generally, because a positive result is expected and does not distinguish
-colonisation from infection. *Consensus.*
+colonisation from infection (**consensus**).
 
 **"Confused, so send a urine sample" is a reasoning error**, and a consequential one. Delirium in
 an older person has a long differential — the drug chart, pain, constipation, retention, hypoxia,
 dehydration, a new infection anywhere, an unfamiliar environment — and a positive culture from a
 catheterised bladder is weak evidence for any of it. The sample does not rule out the other
-causes, and acting on it as though it does is how the real precipitant gets missed. *Consensus.*
+causes, and acting on it as though it does is how the real precipitant gets missed
+(**consensus**).
 
 ## Vascular access, briefly, because the structure is identical
 

@@ -116,7 +116,7 @@ largest effect and it is not available to the individual. *Country-dependent: mu
 regulated by working-time law or collective agreement, which is the authority.*
 
 **Breaks, and whether they can actually be taken.** A break policy that cannot be delivered at the
-observed staffing level is not a control. *Mechanism.*
+observed staffing level is not a control (**mechanism**).
 
 **Napping.** Short naps during night shifts have supportive evidence in several settings, and
 institutional policies on them range from provision to prohibition. *Consensus that there is
@@ -130,12 +130,12 @@ the argument for why an independent check is the control that survives tiredness
 
 **The commute.** Driving after a night shift is one of the best-characterised risks in the whole
 area, and it is a risk to the staff member rather than the patient, which is exactly why it gets
-least attention. *Consensus.*
+least attention (**consensus**).
 
 **Not telling people to be more careful.** Fatigue is not responsive to effort, and the faculty
 that would allow someone to compensate is among the faculties impaired. An institution that
 answers a night-shift error with a reminder about vigilance has chosen the one intervention the
-mechanism rules out. *Mechanism.*
+mechanism rules out (**mechanism**).
 
 ## The human stakes, said plainly
 

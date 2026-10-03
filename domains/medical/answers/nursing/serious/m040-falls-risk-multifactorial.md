@@ -91,11 +91,11 @@ you which term in the product you can actually divide.
 The evidence base here is genuinely uneven and a good answer says which parts are solid:
 
 * **Exercise with a strength and balance component** has the most consistent effect of any single
-  component, in community-dwelling older people. *Consensus.* Its evidence in short-stay inpatient
-  settings is weaker, which is a different question rather than a contradiction.
+  component, in community-dwelling older people (**consensus**). Its evidence in short-stay
+  inpatient settings is weaker, which is a different question rather than a contradiction.
 * **Medication review** addresses the channel that is most modifiable and most frequently left
   alone — psychotropics, opioids, anything causing orthostatic hypotension, and polypharmacy
-  itself. *Consensus.*
+  itself (**consensus**).
 * **Multifactorial assessment followed by individually targeted intervention** is the approach
   that national guidance generally recommends, for exactly the arithmetic reason above.
   *Consensus; effect sizes in hospital settings are contested.*

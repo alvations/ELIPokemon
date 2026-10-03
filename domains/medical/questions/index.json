@@ -1,5 +1,5 @@
 {
-  "count": 105,
+  "count": 110,
   "questions": [
     {
       "id": "m001",
@@ -1784,6 +1784,91 @@
         "environment",
         "assessment",
         "revision"
+      ]
+    },
+    {
+      "id": "m106",
+      "slug": "continence-and-its-mechanisms",
+      "question": "Why is continence a mechanism problem as well as a dignity problem, and what does a continence assessment actually have to separate?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m106-continence-and-its-mechanisms.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m106-continence-and-its-mechanisms.md",
+      "tags": [
+        "continence",
+        "bladder",
+        "assessment",
+        "dignity",
+        "overflow"
+      ]
+    },
+    {
+      "id": "m107",
+      "slug": "oxygen-as-a-prescribed-drug",
+      "question": "Why is oxygen treated as a drug that is prescribed and titrated to a target range rather than as something simply given?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m107-oxygen-as-a-prescribed-drug.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m107-oxygen-as-a-prescribed-drug.md",
+      "tags": [
+        "oxygen",
+        "titration",
+        "hypoxaemia",
+        "prescribing",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "m108",
+      "slug": "venous-access-and-infusion",
+      "question": "Why are the line, the rate and the fluid three separate decisions in intravenous therapy, and what goes wrong when they are made as one?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m108-venous-access-and-infusion.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m108-venous-access-and-infusion.md",
+      "tags": [
+        "intravenous",
+        "fluids",
+        "infusion-rate",
+        "vascular-access",
+        "prescribing"
+      ]
+    },
+    {
+      "id": "m109",
+      "slug": "continuous-versus-intermittent-observation",
+      "question": "What does continuous monitoring actually buy over intermittent observation, and why is detection not the limb that usually fails?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m109-continuous-versus-intermittent-observation.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m109-continuous-versus-intermittent-observation.md",
+      "tags": [
+        "monitoring",
+        "observations",
+        "alarm-fatigue",
+        "escalation",
+        "deterioration"
+      ]
+    },
+    {
+      "id": "m110",
+      "slug": "discharge-planning-as-a-clinical-act",
+      "question": "Why is discharge planning a clinical act, and what has to be true before someone can leave safely?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m110-discharge-planning-as-a-clinical-act.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m110-discharge-planning-as-a-clinical-act.md",
+      "tags": [
+        "discharge",
+        "transitions-of-care",
+        "medicines-reconciliation",
+        "follow-up",
+        "readmission"
       ]
     }
   ]

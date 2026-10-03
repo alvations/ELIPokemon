@@ -69,12 +69,12 @@ is a different purpose with a different logic.
 
 **One organism can use more than one route, and then it needs both sets.** The barrier set is not
 a property of the pathogen's name; it is a property of the routes it actually uses in this person,
-with this presentation. Precautions are therefore additive rather than exclusive. *Consensus.*
+with this presentation. Precautions are therefore additive rather than exclusive (**consensus**).
 
 **Different organisms sharing a route need the same barrier.** This is what makes the system
 teachable. A clinician who understands contact precautions does not need a separate memorised set
-for every organism that transmits by contact, which is the only reason the system scales.
-*Mechanism.*
+for every organism that transmits by contact, which is the only reason the system scales
+(**mechanism**).
 
 **The procedure can create the route.** Certain procedures generate smaller airborne particles
 from a person whose condition would otherwise be managed by droplet precautions, and the

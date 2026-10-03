@@ -29,23 +29,23 @@ decides.
 ## The swallow, and why the absence of coughing proves nothing
 
 Swallowing is conventionally described in three phases — oral, pharyngeal and oesophageal — and
-airway protection lives almost entirely in the second. *Definitional.* The pharyngeal phase is a
-timed sequence: the larynx elevates and closes, respiration is briefly suspended, and the bolus
+airway protection lives almost entirely in the second (**definitional**). The pharyngeal phase is
+a timed sequence: the larynx elevates and closes, respiration is briefly suspended, and the bolus
 passes the airway while it is shut. The mechanism of failure is therefore a **timing** failure as
 often as a strength failure: material arrives at the airway before it closes, or after it has
-reopened. *Mechanism.*
+reopened (**mechanism**).
 
 The consequence of that is the most important single fact in this topic. **Aspiration can occur
 without a cough.** The cough is a reflex response to material reaching the laryngeal inlet, and
 the same neurological disease, sedation, reduced consciousness or frailty that impairs the swallow
-also impairs the reflex that would signal it. Silent aspiration is well described and common.
-*Consensus.* So "they were not coughing" is not evidence of a safe swallow, and neither is "they
-got the water down".
+also impairs the reflex that would signal it. Silent aspiration is well described and common
+(**consensus**). So "they were not coughing" is not evidence of a safe swallow, and neither is
+"they got the water down".
 
 Who is at risk is broad: stroke above all, Parkinson's disease and other neurodegenerative
 disease, motor neurone disease, dementia, delirium, reduced consciousness from any cause, head and
 neck cancer and its treatment, prolonged intubation, and the sarcopenia and generalised weakness
-of frailty. *Consensus.*
+of frailty (**consensus**).
 
 ```
    WHAT EACH INSTRUMENT IS FOR, and what it is not
@@ -86,13 +86,13 @@ settled.
 not purely a swallowing problem. Risk is strongly associated with **oral hygiene** and with
 dependency for mouth care, because what is aspirated matters as much as whether aspiration occurs.
 Mouth care is a respiratory intervention, and it is among the first things dropped on a busy
-shift. *Consensus.*
+shift (**consensus**).
 
 **Prolonged nil by mouth, which is itself a harm.** An order with no end-point, no plan for
 hydration and no plan for the medicines that were due is not a safe default — it is dehydration,
 catabolism, missed medicines, and considerable distress. Every nil-by-mouth decision needs a
 review point and an answer to "and the medicines?", because the route question applies to each one
-individually and some have no alternative route. *Consensus.*
+individually and some have no alternative route (**consensus**).
 
 **Undernutrition missed because nobody looked.** Screening on admission and at intervals exists
 because clinical impression is unreliable: the person at highest risk is often the one whose body
@@ -104,7 +104,7 @@ in this specialty: a prescribed diet is not an administered diet. The failure po
 and numerous — the tray out of reach, the packaging nobody could open, no help with eating, a
 sitting position that makes swallowing harder, missing dentures, the meal missed for a procedure,
 the chart that records what was served rather than what was consumed. Protected mealtimes and
-recorded intake exist to make the gap visible. *Consensus.*
+recorded intake exist to make the gap visible (**consensus**).
 
 **Refeeding syndrome, which is where the harm is caused by the treatment.** The mechanism, without
 numbers, because the numbers are local: prolonged undernutrition depletes **intracellular** stores
@@ -112,13 +112,13 @@ of phosphate, potassium and magnesium while serum concentrations can remain unre
 thiamine stores fall. Reintroducing carbohydrate drives insulin secretion, insulin drives those
 ions and glucose into cells, and serum concentrations fall — sometimes steeply — while thiamine
 demand rises against an empty store. The clinical consequences follow from the electrolyte shifts
-and the thiamine deficit. *Mechanism.*
+and the thiamine deficit (**mechanism**).
 
 The defence is entirely about sequence: **identify who is at risk before feeding starts**, begin
 cautiously, give thiamine and other micronutrients, and monitor and correct electrolytes as
 feeding is established. The risk criteria, the starting rates and the monitoring intervals are all
-set by national and local guidance, they differ, and none of them appears here.
-*Country-dependent.* The reason this matters for a nursing answer specifically is that the
+set by national and local guidance, they differ, and none of them appears here
+(**country-dependent**). The reason this matters for a nursing answer specifically is that the
 hazardous moment is the one that looks like progress — the patient has finally started eating.
 
 **Tube feeding and the route error.** Misplacement of a nasogastric tube into the respiratory

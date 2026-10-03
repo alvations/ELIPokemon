@@ -64,7 +64,7 @@ makes the bed rail, the pump, the notes and the chair part of the reservoir, whi
 about where organisms live — and it is the moment most often missed, because nothing was *touched*
 in the way people intuitively mean. Anchoring to a zone rather than to tasks also means the count
 of indicated moments is a property of the care, not of the clinician. A dependent patient
-generates more of them per hour than an independent one. *Mechanism.*
+generates more of them per hour than an independent one (**mechanism**).
 
 Which produces the first systems problem, and it is arithmetic. **The number of required moments
 rises with dependency and with how many patients one person is covering, while the time available
@@ -78,7 +78,7 @@ does.
 the point of care — within reach without leaving the patient's side — is the most consistently
 identified facilitator in the implementation literature, and it is a procurement and estates
 decision rather than a clinical one. Sink number, sink siting and whether sinks are used for
-anything else are the same kind of decision. *Consensus.*
+anything else are the same kind of decision (**consensus**).
 
 **Gloves, which are the commonest confusion in the topic.** Gloves protect the wearer. They do not
 protect the next patient. They become contaminated exactly as hands do, they can be perforated,
@@ -96,8 +96,8 @@ trigger the switch locally is (**country-dependent**).
 
 **Skin.** Repeated hand hygiene, dozens to hundreds of times a shift, causes irritant dermatitis;
 dermatitis is painful, reduces compliance, and increases bacterial carriage on damaged skin.
-Emollient provision is therefore an infection-prevention intervention rather than a staff perk.
-*Mechanism.*
+Emollient provision is therefore an infection-prevention intervention rather than a staff perk
+(**mechanism**).
 
 **Dress and nails.** Nail length, artificial nails and nail extensions, and hand and wrist
 jewellery all interfere with hand hygiene, and restrictions on them are widely agreed. The broader

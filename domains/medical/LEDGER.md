@@ -10,13 +10,16 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**105 answers · mean 89.5 · median 90.9 · min 62.6 · max 100.0**
+**110 answers · mean 88.6 · median 90.3 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 57.4 | adequate | m107 | nursing | oxygen-as-a-prescribed-drug | 11 | 17 | 16 |
+| 61.0 | adequate | m106 | nursing | continence-and-its-mechanisms | 12 | 19 | 21 |
 | 62.6 | adequate | m022 | endocrinology | insulin-as-a-control-problem | 12 | 28 | 67 |
 | 63.3 | adequate | m025 | endocrinology | ketoacidosis-and-the-hyperosmolar-state | 11 | 28 | 50 |
 | 69.6 | strong | m018 | dermatology | assessing-skin-of-colour | 13 | 32 | 20 |
+| 74.0 | strong | m110 | nursing | discharge-planning-as-a-clinical-act | 16 | 30 | 23 |
 | 76.0 | strong | m010 | pharmacology | adverse-drug-reactions | 15 | 32 | 49 |
 | 76.1 | strong | m054 | dermatology | drug-eruptions-and-the-emergencies | 18 | 21 | 26 |
 | 76.5 | strong | m029 | oncology | response-assessment-and-surrogates | 20 | 31 | 53 |
@@ -31,6 +34,8 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 80.3 | excellent | m032 | emergency | why-protocols-exist | 24 | 34 | 88 |
 | 80.4 | excellent | m026 | oncology | staging-against-grading | 20 | 30 | 59 |
 | 80.6 | excellent | m037 | nursing | recognising-sepsis | 19 | 29 | 60 |
+| 81.0 | excellent | m108 | nursing | venous-access-and-infusion | 28 | 39 | 24 |
+| 81.0 | excellent | m109 | nursing | continuous-versus-intermittent-observation | 37 | 43 | 40 |
 | 81.6 | excellent | m019 | dermatology | topical-therapy-and-quantity | 18 | 30 | 21 |
 | 82.0 | excellent | m039 | nursing | nutrition-and-swallowing | 20 | 27 | 36 |
 | 82.7 | excellent | m089 | dermatology | blistering-and-the-level-of-the-split | 27 | 45 | 35 |

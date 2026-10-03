@@ -47,7 +47,7 @@ a structural answer rather than a stylistic one.
 ```
 
 A **pertinent negative** is the recorded absence of a finding that would have changed the
-interpretation if it had been present. *Definitional.* It is not a licence to document every
+interpretation if it had been present (**definitional**). It is not a licence to document every
 absence — the word carrying the weight is *pertinent*, and it is pertinent in relation to the
 differential being entertained and the risk being excluded. "No new confusion" is pertinent in
 someone being watched for delirium and is noise in someone else's record. The judgement about
@@ -104,7 +104,7 @@ defects.*
 
 **The mandatory field.** A field that must be completed before the form will submit gets
 completed. What it does not get is thought, and a default value that was never considered is worse
-than a blank, because it reads as a finding. *Mechanism.*
+than a blank, because it reads as a finding (**mechanism**).
 
 **Recording the score instead of the observation.** Common, convenient, and it destroys exactly
 the information that made the composite useful. See m001.

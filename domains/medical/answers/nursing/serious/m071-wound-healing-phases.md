@@ -105,7 +105,7 @@ argument for assessment-before-product in a single example.
 A dressing holds a moisture condition and protects a surface — that is m004's subject and the
 dressing classes are not repeated here. What it **cannot** do is raise tissue oxygen, remove dead
 tissue, reduce oedema, take the load off a heel, or treat the disease underneath. When any of
-those is the rate-limiting term, changing the dressing changes the dressing. *Mechanism.*
+those is the rate-limiting term, changing the dressing changes the dressing (**mechanism**).
 
 Which gives the practical rule that makes this answer worth having: **a wound that has not changed
 over a defined review period is a reason to repeat the assessment, not a reason to try another

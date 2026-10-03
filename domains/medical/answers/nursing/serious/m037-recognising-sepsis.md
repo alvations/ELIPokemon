@@ -83,7 +83,7 @@ it.
 physiology that is also produced by pain, anxiety, dehydration, alcohol withdrawal, pulmonary
 embolism, haemorrhage, pancreatitis and a dozen other things. The tools in use are tuned for
 sensitivity because the cost of a miss is high — and the arithmetic of that choice means most
-positive screens are not sepsis. *Consensus.* The consequences are not hypothetical:
+positive screens are not sepsis (**consensus**). The consequences are not hypothetical:
 
 ```
    ERROR DIRECTION 1 — treated as sepsis, was not
@@ -123,7 +123,7 @@ it" is as time-critical as anything in the bundle and has no box.
 when to narrow, switch or stop, and the stop is where antimicrobial stewardship lives — reviewing
 at the point cultures return, de-escalating to a narrower agent, and stopping when the diagnosis
 has changed. A bundle with no review step attached builds a cohort of people on broad-spectrum
-agents nobody has revisited. *Consensus.*
+agents nobody has revisited (**consensus**).
 
 **The audit changes the behaviour, not always for the better.** Bundles are measured, and measured
 things get documented. Documentation-driven compliance — the box completed, the reassessment
