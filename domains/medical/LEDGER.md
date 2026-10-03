@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**130 answers · mean 88.2 · median 89.4 · min 57.4 · max 100.0**
+**140 answers · mean 87.6 · median 88.3 · min 57.4 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,16 +19,20 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 61.0 | adequate | m106 | nursing | continence-and-its-mechanisms | 12 | 19 | 21 |
 | 62.6 | adequate | m022 | endocrinology | insulin-as-a-control-problem | 12 | 28 | 67 |
 | 66.5 | strong | m025 | endocrinology | ketoacidosis-and-the-hyperosmolar-state | 12 | 29 | 50 |
+| 67.1 | strong | m132 | nursing | specimen-collection-as-measurement | 15 | 21 | 17 |
 | 68.4 | strong | m116 | dermatology | pigment-production-transfer-and-loss | 15 | 21 | 19 |
 | 69.6 | strong | m018 | dermatology | assessing-skin-of-colour | 13 | 32 | 18 |
 | 69.7 | strong | m121 | oncology | oncological-emergencies | 15 | 43 | 54 |
+| 71.7 | strong | m131 | nursing | delegation-and-supervision | 15 | 32 | 31 |
 | 72.3 | strong | m122 | oncology | neoadjuvant-and-adjuvant-intent | 20 | 26 | 36 |
 | 74.0 | strong | m110 | nursing | discharge-planning-as-a-clinical-act | 16 | 30 | 23 |
+| 74.4 | strong | m134 | nursing | line-care-and-bloodstream-infection | 21 | 27 | 22 |
 | 76.0 | strong | m010 | pharmacology | adverse-drug-reactions | 15 | 32 | 49 |
 | 76.1 | strong | m054 | dermatology | drug-eruptions-and-the-emergencies | 18 | 21 | 25 |
 | 76.5 | strong | m029 | oncology | response-assessment-and-surrogates | 20 | 31 | 51 |
 | 76.6 | strong | m024 | endocrinology | why-the-complications-differ | 15 | 31 | 49 |
 | 76.9 | strong | m119 | dermatology | skin-failure-as-organ-failure | 24 | 35 | 26 |
+| 77.2 | strong | m140 | general-practice | the-patient-who-has-already-looked-it-up | 20 | 26 | 31 |
 | 77.6 | strong | m051 | dermatology | eczema-and-the-barrier | 14 | 40 | 27 |
 | 77.7 | strong | m118 | dermatology | granulomatous-pattern-versus-cause | 22 | 35 | 31 |
 | 77.9 | strong | m090 | dermatology | urticaria-and-angioedema | 18 | 34 | 32 |
@@ -36,6 +40,8 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 78.9 | strong | m035 | emergency | first-aid-for-untrained-bystanders | 14 | 28 | 16 |
 | 79.1 | strong | m088 | dermatology | photoprotection-and-cumulative-dose | 24 | 35 | 33 |
 | 79.1 | strong | m125 | oncology | survivorship-and-late-effects | 29 | 57 | 56 |
+| 79.6 | strong | m133 | nursing | positioning-and-pressure-redistribution | 28 | 42 | 15 |
+| 79.6 | strong | m135 | nursing | perioperative-checklist-and-first-day | 38 | 42 | 21 |
 | 80.0 | excellent | m098 | oncology | the-multidisciplinary-meeting | 21 | 45 | 48 |
 | 80.1 | excellent | m038 | nursing | indwelling-devices-and-infection | 18 | 23 | 48 |
 | 80.1 | excellent | m087 | dermatology | hair-and-nail-as-a-timeline | 27 | 37 | 26 |
@@ -45,6 +51,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 81.1 | excellent | m026 | oncology | staging-against-grading | 20 | 30 | 54 |
 | 82.0 | excellent | m039 | nursing | nutrition-and-swallowing | 20 | 27 | 36 |
 | 82.1 | excellent | m019 | dermatology | topical-therapy-and-quantity | 19 | 31 | 21 |
+| 82.1 | excellent | m139 | general-practice | significant-event-analysis | 20 | 44 | 38 |
 | 82.2 | excellent | m124 | oncology | haematological-against-solid-tumours | 46 | 68 | 33 |
 | 82.7 | excellent | m032 | emergency | why-protocols-exist | 24 | 34 | 72 |
 | 82.7 | excellent | m089 | dermatology | blistering-and-the-level-of-the-split | 27 | 45 | 35 |
@@ -55,6 +62,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 83.3 | excellent | m053 | dermatology | acne-mechanism-and-sequence | 24 | 34 | 28 |
 | 84.1 | excellent | m002 | nursing | handover-and-escalation | 19 | 31 | 66 |
 | 84.3 | excellent | m014 | general-practice | polypharmacy-and-deprescribing | 20 | 31 | 52 |
+| 84.3 | excellent | m136 | general-practice | the-home-visit | 27 | 41 | 22 |
 | 84.4 | excellent | m040 | nursing | falls-risk-multifactorial | 26 | 30 | 52 |
 | 84.6 | excellent | m046 | general-practice | chronic-disease-review | 23 | 41 | 73 |
 | 85.1 | excellent | m073 | nursing | documentation-and-pertinent-negatives | 19 | 30 | 20 |
@@ -71,6 +79,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 86.7 | excellent | m020 | dermatology | dermoscopy-in-principle | 22 | 35 | 39 |
 | 87.2 | excellent | m023 | endocrinology | glycation-marker-and-continuous-monitoring | 36 | 49 | 47 |
 | 87.4 | excellent | m083 | general-practice | shared-decision-making | 18 | 34 | 44 |
+| 87.4 | excellent | m138 | general-practice | the-practice-as-a-coupled-system | 27 | 44 | 17 |
 | 88.1 | excellent | m061 | oncology | how-a-cancer-spreads | 22 | 52 | 20 |
 | 88.1 | excellent | m129 | emergency | electrolyte-derangement-as-a-syndrome | 33 | 58 | 56 |
 | 88.2 | excellent | m055 | dermatology | leg-ulcers-and-vascular-assessment | 32 | 53 | 44 |
@@ -111,6 +120,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 95.5 | excellent | m096 | oncology | targeted-therapy-and-resistance | 34 | 98 | 79 |
 | 95.6 | excellent | m008 | pharmacology | therapeutic-index | 20 | 48 | 52 |
 | 95.7 | excellent | m095 | endocrinology | the-adrenal-incidentaloma | 29 | 69 | 21 |
+| 96.4 | excellent | m137 | general-practice | vaccination-confidence-and-access | 37 | 75 | 26 |
 | 96.6 | excellent | m084 | general-practice | overdiagnosis-in-primary-care | 32 | 59 | 25 |
 | 96.7 | excellent | m059 | endocrinology | calcium-and-the-parathyroid-loop | 30 | 65 | 42 |
 | 96.7 | excellent | m091 | endocrinology | pituitary-mass-effect-and-sequential-failure | 30 | 79 | 38 |

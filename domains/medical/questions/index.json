@@ -1,5 +1,5 @@
 {
-  "count": 130,
+  "count": 140,
   "questions": [
     {
       "id": "m001",
@@ -2209,6 +2209,176 @@
         "records",
         "diagnosis",
         "revision"
+      ]
+    },
+    {
+      "id": "m131",
+      "slug": "delegation-and-supervision",
+      "question": "What can be delegated in nursing care, what cannot, and where does accountability sit once a task has been handed over?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m131-delegation-and-supervision.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m131-delegation-and-supervision.md",
+      "tags": [
+        "delegation",
+        "supervision",
+        "accountability",
+        "skill-mix",
+        "scope-of-practice"
+      ]
+    },
+    {
+      "id": "m132",
+      "slug": "specimen-collection-as-measurement",
+      "question": "Why does the technique used to collect a specimen determine what the laboratory is able to report?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m132-specimen-collection-as-measurement.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m132-specimen-collection-as-measurement.md",
+      "tags": [
+        "specimens",
+        "pre-analytic",
+        "microbiology",
+        "measurement",
+        "sampling"
+      ]
+    },
+    {
+      "id": "m133",
+      "slug": "positioning-and-pressure-redistribution",
+      "question": "What does repositioning change mechanically that a support surface cannot, and why is interface pressure only part of the load?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m133-positioning-and-pressure-redistribution.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m133-positioning-and-pressure-redistribution.md",
+      "tags": [
+        "pressure-ulcers",
+        "repositioning",
+        "biomechanics",
+        "shear",
+        "support-surfaces"
+      ]
+    },
+    {
+      "id": "m134",
+      "slug": "line-care-and-bloodstream-infection",
+      "question": "What is the dressing on a vascular access device actually protecting, and why is a care bundle measured as all-or-none rather than element by element?",
+      "category": "nursing",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m134-line-care-and-bloodstream-infection.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m134-line-care-and-bloodstream-infection.md",
+      "tags": [
+        "vascular-access",
+        "care-bundles",
+        "infection-prevention",
+        "dressings",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "m135",
+      "slug": "perioperative-checklist-and-first-day",
+      "question": "Why does a surgical safety checklist exist when every item on it is already somebody's job, and what is the first day after an operation actually watching for?",
+      "category": "nursing",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/nursing/serious/m135-perioperative-checklist-and-first-day.md",
+      "pokemon_path": "domains/medical/answers/nursing/pokemon/m135-perioperative-checklist-and-first-day.md",
+      "tags": [
+        "perioperative",
+        "surgical-safety-checklist",
+        "postoperative",
+        "handover",
+        "baseline"
+      ]
+    },
+    {
+      "id": "m136",
+      "slug": "the-home-visit",
+      "question": "What changes about a clinical assessment when it happens in someone's home rather than in a consulting room, and why is the environment itself part of the information?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m136-the-home-visit.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m136-the-home-visit.md",
+      "tags": [
+        "home-visit",
+        "assessment",
+        "context",
+        "housebound",
+        "decision-making"
+      ]
+    },
+    {
+      "id": "m137",
+      "slug": "vaccination-confidence-and-access",
+      "question": "Why are confidence and access two different problems in a vaccination programme, and what follows from the fact that an unvaccinated person looks the same either way?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m137-vaccination-confidence-and-access.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m137-vaccination-confidence-and-access.md",
+      "tags": [
+        "vaccination",
+        "coverage",
+        "access",
+        "confidence",
+        "population-health"
+      ]
+    },
+    {
+      "id": "m138",
+      "slug": "the-practice-as-a-coupled-system",
+      "question": "Why are list size, appointment length and continuity one set of coupled constraints rather than three separate decisions, and what happens to the slack?",
+      "category": "general-practice",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m138-the-practice-as-a-coupled-system.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m138-the-practice-as-a-coupled-system.md",
+      "tags": [
+        "capacity",
+        "list-size",
+        "consultation-length",
+        "continuity",
+        "workload"
+      ]
+    },
+    {
+      "id": "m139",
+      "slug": "significant-event-analysis",
+      "question": "Why is individual blame the wrong instrument after a significant event in primary care, and what has to replace it for the review to be worth doing?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m139-significant-event-analysis.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m139-significant-event-analysis.md",
+      "tags": [
+        "significant-event-analysis",
+        "patient-safety",
+        "human-factors",
+        "quality-improvement",
+        "hindsight-bias"
+      ]
+    },
+    {
+      "id": "m140",
+      "slug": "the-patient-who-has-already-looked-it-up",
+      "question": "When someone arrives having already researched their symptoms, what has actually changed about the information in the room, and why has the asymmetry reversed in only one direction?",
+      "category": "general-practice",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/general-practice/serious/m140-the-patient-who-has-already-looked-it-up.md",
+      "pokemon_path": "domains/medical/answers/general-practice/pokemon/m140-the-patient-who-has-already-looked-it-up.md",
+      "tags": [
+        "information-asymmetry",
+        "health-information",
+        "consultation",
+        "prior-probability",
+        "trust"
       ]
     }
   ]

@@ -129,3 +129,13 @@ m127	fever-when-immunity-is-compromised	emergency	advanced	Why do the usual thre
 m128	the-threatened-limb	emergency	advanced	Why is time the whole of the problem in a threatened limb, and why is the examination comparative?
 m129	electrolyte-derangement-as-a-syndrome	emergency	advanced	Why is electrolyte and metabolic derangement better understood as a presenting syndrome than as a laboratory finding?
 m130	repeat-attendance-as-a-signal	emergency	intermediate	Why is repeat attendance a clinical signal rather than a nuisance, and what makes the pattern the finding?
+m131	delegation-and-supervision	nursing	advanced	What can be delegated in nursing care, what cannot, and where does accountability sit once a task has been handed over?
+m132	specimen-collection-as-measurement	nursing	advanced	Why does the technique used to collect a specimen determine what the laboratory is able to report?
+m133	positioning-and-pressure-redistribution	nursing	intermediate	What does repositioning change mechanically that a support surface cannot, and why is interface pressure only part of the load?
+m134	line-care-and-bloodstream-infection	nursing	advanced	What is the dressing on a vascular access device actually protecting, and why is a care bundle measured as all-or-none rather than element by element?
+m135	perioperative-checklist-and-first-day	nursing	intermediate	Why does a surgical safety checklist exist when every item on it is already somebody's job, and what is the first day after an operation actually watching for?
+m136	the-home-visit	general-practice	intermediate	What changes about a clinical assessment when it happens in someone's home rather than in a consulting room, and why is the environment itself part of the information?
+m137	vaccination-confidence-and-access	general-practice	advanced	Why are confidence and access two different problems in a vaccination programme, and what follows from the fact that an unvaccinated person looks the same either way?
+m138	the-practice-as-a-coupled-system	general-practice	advanced	Why are list size, appointment length and continuity one set of coupled constraints rather than three separate decisions, and what happens to the slack?
+m139	significant-event-analysis	general-practice	intermediate	Why is individual blame the wrong instrument after a significant event in primary care, and what has to replace it for the review to be worth doing?
+m140	the-patient-who-has-already-looked-it-up	general-practice	intermediate	When someone arrives having already researched their symptoms, what has actually changed about the information in the room, and why has the asymmetry reversed in only one direction?
