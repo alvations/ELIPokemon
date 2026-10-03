@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**100 answers · mean 89.2 · median 90.3 · min 62.6 · max 100.0**
+**105 answers · mean 89.5 · median 90.9 · min 62.6 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -74,10 +74,14 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 91.8 | excellent | m100 | oncology | biomarker-driven-treatment-selection | 29 | 79 | 47 |
 | 91.9 | excellent | m015 | general-practice | continuity-of-care | 33 | 43 | 72 |
 | 92.0 | excellent | m105 | emergency | the-social-presentation | 19 | 43 | 43 |
+| 92.2 | excellent | m079 | pharmacology | biologics-against-small-molecules | 28 | 69 | 30 |
 | 92.6 | excellent | m045 | pharmacology | antimicrobial-stewardship | 28 | 54 | 56 |
+| 92.6 | excellent | m076 | pharmacology | tolerance-dependence-and-withdrawal | 16 | 53 | 21 |
 | 92.9 | excellent | m043 | pharmacology | adherence-and-regimen-design | 18 | 49 | 59 |
 | 93.0 | excellent | m094 | endocrinology | the-growth-hormone-axis-as-a-pulse-train | 37 | 83 | 42 |
 | 93.1 | excellent | m066 | emergency | shock-categories-by-mechanism | 23 | 43 | 49 |
+| 93.4 | excellent | m080 | pharmacology | placebo-and-nocebo-as-real-effects | 23 | 66 | 41 |
+| 93.5 | excellent | m078 | pharmacology | scaling-a-dose-to-a-body | 18 | 65 | 29 |
 | 93.7 | excellent | m048 | general-practice | the-consultation-and-premature-closure | 24 | 56 | 52 |
 | 93.8 | excellent | m049 | general-practice | antibiotics-under-uncertainty | 28 | 51 | 32 |
 | 94.3 | excellent | m092 | endocrinology | sodium-as-a-statement-about-water | 24 | 76 | 51 |
@@ -113,4 +117,5 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m067 | emergency | what-speech-proves-about-the-airway | 50 | 60 | 47 |
 | 100.0 | excellent | m071 | nursing | wound-healing-phases | 29 | 49 | 35 |
 | 100.0 | excellent | m072 | nursing | bed-rest-and-deconditioning | 33 | 58 | 30 |
+| 100.0 | excellent | m077 | pharmacology | pharmacogenomics-and-the-population-dose | 42 | 83 | 23 |
 | 100.0 | excellent | m103 | emergency | splinting-is-treatment | 37 | 81 | 47 |

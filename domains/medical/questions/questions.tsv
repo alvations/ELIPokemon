@@ -74,6 +74,11 @@ m072	bed-rest-and-deconditioning	nursing	intermediate	Why is bed rest an interve
 m073	documentation-and-pertinent-negatives	nursing	core	Why is the clinical record treated as an instrument other people act on, and what makes a pertinent negative worth writing down?
 m074	shift-work-fatigue-and-handover	nursing	advanced	Why is fatigue treated as a safety factor rather than a personal failing, and what makes the handover at the end of a night shift the most dangerous one?
 m075	isolation-precautions-by-route	nursing	core	Why are isolation precautions keyed to the route of transmission rather than to the organism, and what follows from that?
+m076	tolerance-dependence-and-withdrawal	pharmacology	intermediate	Tolerance, physical dependence and addiction are routinely used as if they were one thing. What is the mechanistic difference between them, and what does each one actually predict?
+m077	pharmacogenomics-and-the-population-dose	pharmacology	advanced	A licensed dose is a choice made for a population. What does a pharmacogenomic result actually change about that choice, and why does knowing a genotype so often leave the prescription unchanged?
+m078	scaling-a-dose-to-a-body	pharmacology	intermediate	Why are some doses flat, some scaled by body weight, some by body surface area and some by organ function, and why is none of those scalings the whole answer?
+m079	biologics-against-small-molecules	pharmacology	advanced	What actually changes when a medicine is a biologic rather than a small molecule, and in what sense is a biosimilar not a generic?
+m080	placebo-and-nocebo-as-real-effects	pharmacology	intermediate	In what sense are placebo and nocebo effects real and measurable, and why does the placebo arm of a trial not actually measure the placebo effect?
 m081	referral-thresholds-and-gatekeeping	general-practice	advanced	Why is a referral decision a threshold rather than a judgement, and what is a gatekeeper actually optimising?
 m082	access-and-demand	general-practice	advanced	Why does a system that is easy to enter behave differently from one that is hard to enter, and who does each one filter out?
 m083	shared-decision-making	general-practice	advanced	Why does a preference-sensitive decision have no single right answer, and what does that demand of the consultation?

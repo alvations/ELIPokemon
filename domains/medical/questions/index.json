@@ -1,5 +1,5 @@
 {
-  "count": 100,
+  "count": 105,
   "questions": [
     {
       "id": "m001",
@@ -1274,6 +1274,91 @@
         "ppe",
         "isolation",
         "standard-precautions"
+      ]
+    },
+    {
+      "id": "m076",
+      "slug": "tolerance-dependence-and-withdrawal",
+      "question": "Tolerance, physical dependence and addiction are routinely used as if they were one thing. What is the mechanistic difference between them, and what does each one actually predict?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m076-tolerance-dependence-and-withdrawal.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m076-tolerance-dependence-and-withdrawal.md",
+      "tags": [
+        "tolerance",
+        "dependence",
+        "withdrawal",
+        "receptor-adaptation",
+        "deprescribing"
+      ]
+    },
+    {
+      "id": "m077",
+      "slug": "pharmacogenomics-and-the-population-dose",
+      "question": "A licensed dose is a choice made for a population. What does a pharmacogenomic result actually change about that choice, and why does knowing a genotype so often leave the prescription unchanged?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m077-pharmacogenomics-and-the-population-dose.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m077-pharmacogenomics-and-the-population-dose.md",
+      "tags": [
+        "pharmacogenomics",
+        "metaboliser-phenotype",
+        "prodrugs",
+        "variability",
+        "equity"
+      ]
+    },
+    {
+      "id": "m078",
+      "slug": "scaling-a-dose-to-a-body",
+      "question": "Why are some doses flat, some scaled by body weight, some by body surface area and some by organ function, and why is none of those scalings the whole answer?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m078-scaling-a-dose-to-a-body.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m078-scaling-a-dose-to-a-body.md",
+      "tags": [
+        "dose-scaling",
+        "allometry",
+        "body-surface-area",
+        "organ-function",
+        "calculation-error"
+      ]
+    },
+    {
+      "id": "m079",
+      "slug": "biologics-against-small-molecules",
+      "question": "What actually changes when a medicine is a biologic rather than a small molecule, and in what sense is a biosimilar not a generic?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m079-biologics-against-small-molecules.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m079-biologics-against-small-molecules.md",
+      "tags": [
+        "biologics",
+        "biosimilars",
+        "immunogenicity",
+        "comparability",
+        "pharmacovigilance"
+      ]
+    },
+    {
+      "id": "m080",
+      "slug": "placebo-and-nocebo-as-real-effects",
+      "question": "In what sense are placebo and nocebo effects real and measurable, and why does the placebo arm of a trial not actually measure the placebo effect?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m080-placebo-and-nocebo-as-real-effects.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m080-placebo-and-nocebo-as-real-effects.md",
+      "tags": [
+        "placebo",
+        "nocebo",
+        "trial-design",
+        "regression-to-the-mean",
+        "attribution"
       ]
     },
     {
