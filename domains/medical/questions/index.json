@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 150,
   "questions": [
     {
       "id": "m001",
@@ -2379,6 +2379,176 @@
         "consultation",
         "prior-probability",
         "trust"
+      ]
+    },
+    {
+      "id": "m141",
+      "slug": "the-diabetic-foot-as-a-convergence",
+      "question": "Why is a diabetic foot ulcer better understood as a convergence of three mechanisms than as a complication of one?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m141-the-diabetic-foot-as-a-convergence.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m141-the-diabetic-foot-as-a-convergence.md",
+      "tags": [
+        "diabetes",
+        "neuropathy",
+        "peripheral-arterial-disease",
+        "foot-ulceration",
+        "infection"
+      ]
+    },
+    {
+      "id": "m142",
+      "slug": "hypoglycaemia-and-the-losable-warning",
+      "question": "Why is hypoglycaemia in insulin-treated diabetes a failure of counter-regulation rather than simply too much insulin, and how is the warning itself lost?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m142-hypoglycaemia-and-the-losable-warning.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m142-hypoglycaemia-and-the-losable-warning.md",
+      "tags": [
+        "hypoglycaemia",
+        "counter-regulation",
+        "glucagon",
+        "impaired-awareness",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "m143",
+      "slug": "the-thyroid-nodule-and-not-treating",
+      "question": "A thyroid nodule is found. Why is most of the investigation that follows designed to stop rather than to proceed?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m143-the-thyroid-nodule-and-not-treating.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m143-the-thyroid-nodule-and-not-treating.md",
+      "tags": [
+        "thyroid",
+        "nodule",
+        "thyroid-cancer",
+        "overdiagnosis",
+        "cytology"
+      ]
+    },
+    {
+      "id": "m144",
+      "slug": "obesity-as-a-regulated-system",
+      "question": "Body fat mass is a regulated variable with a defended level. What does treating it as regulated rather than as an accumulation change?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m144-obesity-as-a-regulated-system.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m144-obesity-as-a-regulated-system.md",
+      "tags": [
+        "obesity",
+        "energy-homeostasis",
+        "leptin",
+        "set-point",
+        "adipose-tissue"
+      ]
+    },
+    {
+      "id": "m145",
+      "slug": "lipids-as-a-risk-factor-not-a-disease",
+      "question": "A lipid panel is a risk factor rather than a disease. What does that change about treating the number?",
+      "category": "endocrinology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/endocrinology/serious/m145-lipids-as-a-risk-factor-not-a-disease.md",
+      "pokemon_path": "domains/medical/answers/endocrinology/pokemon/m145-lipids-as-a-risk-factor-not-a-disease.md",
+      "tags": [
+        "lipids",
+        "cardiovascular-risk",
+        "apolipoprotein-b",
+        "familial-hypercholesterolaemia",
+        "absolute-risk"
+      ]
+    },
+    {
+      "id": "m146",
+      "slug": "drug-development-and-the-phases",
+      "question": "Why does each phase of drug development answer a question the previous phase could not, and what does a licence at the end of it actually certify?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m146-drug-development-and-the-phases.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m146-drug-development-and-the-phases.md",
+      "tags": [
+        "drug-development",
+        "clinical-trials",
+        "endpoints",
+        "licensing",
+        "regulation"
+      ]
+    },
+    {
+      "id": "m147",
+      "slug": "prescribing-errors-as-a-system-property",
+      "question": "Why are prescribing errors better described as a property of the system than of the prescriber, where do they cluster, and why are the clusters predictable?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m147-prescribing-errors-as-a-system-property.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m147-prescribing-errors-as-a-system-property.md",
+      "tags": [
+        "medication-safety",
+        "prescribing-errors",
+        "human-factors",
+        "system-design",
+        "transitions"
+      ]
+    },
+    {
+      "id": "m148",
+      "slug": "controlled-drugs-and-the-legal-framework",
+      "question": "Why is the legal framework around a controlled drug a separate structure from its pharmacology, and what does that structure actually do?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m148-controlled-drugs-and-the-legal-framework.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m148-controlled-drugs-and-the-legal-framework.md",
+      "tags": [
+        "controlled-drugs",
+        "regulation",
+        "custody",
+        "records",
+        "law"
+      ]
+    },
+    {
+      "id": "m149",
+      "slug": "herbal-and-over-the-counter-products",
+      "question": "Why is a claim that a product is natural not a pharmacological claim, and what makes the interaction problem with herbal and over-the-counter products harder than with prescribed medicines?",
+      "category": "pharmacology",
+      "difficulty": "intermediate",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m149-herbal-and-over-the-counter-products.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m149-herbal-and-over-the-counter-products.md",
+      "tags": [
+        "herbal-medicines",
+        "self-medication",
+        "interactions",
+        "regulation",
+        "history-taking"
+      ]
+    },
+    {
+      "id": "m150",
+      "slug": "antivirals-and-antifungals",
+      "question": "Why are antivirals and antifungals harder to develop and to use than antibacterials, and what does the pursuit of selective toxicity cost in each case?",
+      "category": "pharmacology",
+      "difficulty": "advanced",
+      "domain": "medical",
+      "serious_path": "domains/medical/answers/pharmacology/serious/m150-antivirals-and-antifungals.md",
+      "pokemon_path": "domains/medical/answers/pharmacology/pokemon/m150-antivirals-and-antifungals.md",
+      "tags": [
+        "antivirals",
+        "antifungals",
+        "selective-toxicity",
+        "resistance",
+        "diagnosis"
       ]
     }
   ]
