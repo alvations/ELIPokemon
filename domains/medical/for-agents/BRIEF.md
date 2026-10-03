@@ -53,10 +53,11 @@ tags: [four, or, five, lowercase, tags]
 ---
 ```
 
-Both answers at least 600 words. **Prose** wraps at 98 **characters** — an em dash is one
-character, not three. Never wrap inside a fenced block, and **the 98 does not apply to Markdown
-table rows**; long rows are normal here and a writer checking their own wrapping should not try to
-break them.
+Both answers at least 600 words — the validator's hard floor is 120, which is a tripwire for a
+stub and not a target; nothing in the domain is under 1,600. **Prose** wraps at 98 **characters**
+— an em dash is one character, not three. Never wrap inside a fenced block, and **the 98 does not
+apply to Markdown table rows**; long rows are normal here and a writer checking their own wrapping
+should not try to break them.
 
 ## The clinical rules, which are not negotiable
 
@@ -243,6 +244,26 @@ git worktree add -b <specialty>-<ids> .claude/worktrees/<specialty>-<ids> HEAD
 **Do not use `EnterWorktree`.** It refuses from a pinned working directory, and its default base
 is the remote default branch rather than `HEAD`, so in a wave where those differ you would
 silently branch from a stale base.
+
+## The gate, in full
+
+Run all four before you commit, in this order:
+
+```
+python3 scripts/medical/validate.py                    # blocking; must print OK
+python3 scripts/rewrap.py --check <your ten files>     # must report already wrapped
+python3 scripts/medical/build_dataset.py               # outputs go in your commit
+python3 scripts/medical/score.py --detail mNNN         # your score, one answer at a time
+```
+
+`rewrap.py --check` was missing from this list until a writer pointed out that the brief names the
+gate without naming the one committed script that actually catches a wrapping regression — so a
+writer following the brief literally would never run it. It is read-only with `--check`, it skips
+front matter, fenced blocks and table rows, and it reports rather than rewrites.
+
+Never run bare `score.py`. It rewrites `../LEDGER.md`, which integration regenerates centrally
+once all blocks land; several writers running it in parallel worktrees produce several conflicting
+partial ledgers.
 
 ## Do not edit
 
