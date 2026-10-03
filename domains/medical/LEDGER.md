@@ -37,8 +37,8 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 80.6 | excellent | m037 | nursing | recognising-sepsis | 19 | 29 | 60 |
 | 81.0 | excellent | m108 | nursing | venous-access-and-infusion | 28 | 39 | 24 |
 | 81.0 | excellent | m109 | nursing | continuous-versus-intermittent-observation | 37 | 43 | 40 |
-| 81.4 | excellent | m114 | general-practice | the-account-of-a-worried-adult | 20 | 31 | 37 |
 | 81.6 | excellent | m019 | dermatology | topical-therapy-and-quantity | 18 | 30 | 21 |
+| 81.9 | excellent | m114 | general-practice | the-account-of-a-worried-adult | 21 | 32 | 37 |
 | 82.0 | excellent | m039 | nursing | nutrition-and-swallowing | 20 | 27 | 36 |
 | 82.7 | excellent | m089 | dermatology | blistering-and-the-level-of-the-split | 27 | 45 | 35 |
 | 82.7 | excellent | m099 | oncology | performance-status | 18 | 51 | 48 |
@@ -126,6 +126,6 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 100.0 | excellent | m067 | emergency | what-speech-proves-about-the-airway | 50 | 60 | 47 |
 | 100.0 | excellent | m071 | nursing | wound-healing-phases | 29 | 49 | 35 |
 | 100.0 | excellent | m072 | nursing | bed-rest-and-deconditioning | 33 | 58 | 30 |
-| 100.0 | excellent | m077 | pharmacology | pharmacogenomics-and-the-population-dose | 42 | 83 | 23 |
+| 100.0 | excellent | m077 | pharmacology | pharmacogenomics-and-the-population-dose | 43 | 84 | 23 |
 | 100.0 | excellent | m103 | emergency | splinting-is-treatment | 37 | 81 | 47 |
 | 100.0 | excellent | m111 | general-practice | red-flag-rules-and-their-derivation-population | 21 | 75 | 42 |

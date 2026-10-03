@@ -30,6 +30,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------- vocabularies
 
 SPECIES = """
+Nuzleaf, Corphish, Lairon, Loudred, Barboach, Whiscash, Wynaut, Whismur,
 Dusclops, Snorunt, Spheal, Golbat, Arbok, Torkoal, Metagross,
 Silcoon, Cascoon, Armaldo, Swalot, Gulpin, Banette, Shuppet, Butterfree,
 Cloyster, Forretress, Hitmontop, Hitmonlee, Aron, Starmie, Staryu,
@@ -158,6 +159,7 @@ Mr. Mime, Mime Jr., Mr. Rime, Type: Null
 SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
 
 MOVES = """
+Cut, Waterfall, Soft-Boiled, Torment, Submission,
 Low Kick, Autotomize, Thief, Endeavor, Pain Split, Night Shade,
 Jump Kick, Hi Jump Kick, Submission, Tri Attack, Teeter Dance, Flatter,
 Psych Up, Recycle, Camouflage, Conversion, Bide, Milk Drink, Spite, Teleport,
@@ -275,6 +277,7 @@ Powder, Revival Herb, White Flute, Black Flute, Poké Flute, Dive Ball, Nest Bal
 """
 
 ABILITIES = """
+Magnet Pull, Suction Cups, Water Veil, Limber,
 Heavy Metal, Light Metal, Sticky Hold,
 Compound Eyes, Water Veil, Sand Veil, Shed Skin, White Smoke, Magic Guard,
 Color Change, Battle Armor, Forecast, Marvel Scale, Guts, Sturdy,
@@ -508,11 +511,20 @@ def score_text(text: str) -> dict:
     # scored nothing for any of them and pointed out that enumerating was the wrong shape of
     # fix. Matched after the vocabulary loop so a named place containing a number -- there is
     # none today, but there could be -- is claimed by the explicit term first.
+    route_counts: dict[str, int] = {}
     for found in re.findall(r"(?<![\w-])Route \d{1,3}(?![\w-])", working):
         working = working.replace(found, "\u0000", 1)
-        hits["place"].append(f"{found}×1")
+        route_counts[found] = route_counts.get(found, 0) + 1
         distinct.add(found)
         named_mentions += 1
+    # Aggregate before reporting. The first version appended one "Route 116×1" entry per
+    # occurrence, so --detail printed the same route ten times for an answer that names it
+    # ten times, while every vocabulary term printed once with its count. The numbers were
+    # right -- distinct is a set and named_mentions is a running total -- but a writer
+    # reading the detail output could not see at a glance how often a route was used, and
+    # one reported the repetition as an inflated distinct count, which is what it looks like.
+    for route, n in sorted(route_counts.items()):
+        hits["place"].append(f"{route}×{n}")
 
     lowered = text.lower()
     generic_mentions = 0

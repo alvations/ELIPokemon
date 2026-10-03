@@ -107,9 +107,17 @@ def all_scores() -> list[dict]:
 def main() -> int:
     args = sys.argv[1:]
     if "--detail" in args:
+        # Score only the answer asked for. This used to call all_scores() and filter, so a
+        # writer checking one answer waited on the whole corpus -- minutes by the time the
+        # domain passed a hundred pairs, and three writers reported it independently, two of
+        # them having worked around it with their own scratchpad scorer. Nothing about the
+        # number changes; the glob is just scoped.
         qid = args[args.index("--detail") + 1]
-        for r in all_scores():
-            if r["id"] == qid:
+        for specialty in SPECIALTIES:
+            for path in sorted((DOMAIN / "answers" / specialty / "pokemon").glob(f"{qid}-*.md")):
+                slug = path.stem.split("-", 1)[1]
+                r = score_text(scorable_body(path))
+                r.update({"id": qid, "slug": slug, "specialty": specialty})
                 print(json.dumps(r, indent=2, ensure_ascii=False))
                 return 0
         print(f"no answer with id {qid}")
