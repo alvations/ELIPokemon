@@ -30,6 +30,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------- vocabularies
 
 SPECIES = """
+Dusclops, Snorunt, Spheal, Golbat, Arbok, Torkoal, Metagross,
 Silcoon, Cascoon, Armaldo, Swalot, Gulpin, Banette, Shuppet, Butterfree,
 Cloyster, Forretress, Hitmontop, Hitmonlee, Aron, Starmie, Staryu,
 Farfetch'd, Castform, Beldum, Huntail, Gorebyss, Kecleon, Wurmple,
@@ -157,6 +158,7 @@ Mr. Mime, Mime Jr., Mr. Rime, Type: Null
 SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
 
 MOVES = """
+Low Kick, Autotomize, Thief, Endeavor, Pain Split, Night Shade,
 Jump Kick, Hi Jump Kick, Submission, Tri Attack, Teeter Dance, Flatter,
 Psych Up, Recycle, Camouflage, Conversion, Bide, Milk Drink, Spite, Teleport,
 Nightmare, Foresight, Safeguard, Heal Bell, Aromatherapy, Dig,
@@ -218,6 +220,7 @@ Attack, Focus Energy, Endure, Vital Throw, Revenge, Roar
 """
 
 ITEMS = """
+Float Stone, Soothe Bell, Exp. Share, Luxury Ball,
 Metal Powder, Thick Club, Deep Sea Tooth, Deep Sea Scale, Lucky Punch, Charcoal,
 Mach Bike, Acro Bike, White Flute, Black Flute, Cleanse Tag, Fire Stone,
 Water Stone, Leaf Stone, Sun Stone, Moon Stone, Dive Ball, Repeat Ball,
@@ -272,6 +275,7 @@ Powder, Revival Herb, White Flute, Black Flute, Poké Flute, Dive Ball, Nest Bal
 """
 
 ABILITIES = """
+Heavy Metal, Light Metal, Sticky Hold,
 Compound Eyes, Water Veil, Sand Veil, Shed Skin, White Smoke, Magic Guard,
 Color Change, Battle Armor, Forecast, Marvel Scale, Guts, Sturdy,
 Cute Charm, Shell Armor, Illuminate, Arena Trap, Stench, Run Away, Magma Armor,
@@ -326,6 +330,7 @@ Eusine, Fishing Guru, Warden, Day Care Man
 """
 
 PLACES = """
+Shoal Cave, Battle Pike, Battle Pyramid,
 Granite Cave, Trainer Hill, Fallarbor Town, Petalburg City, Verdanturf Town,
 Sootopolis City, Ever Grande City, Victory Road, Meteor Falls, Desert Underpass,
 Diglett's Cave, Petalburg Woods, Shoal Cave, New Mauville, Route 2, Route 11,
