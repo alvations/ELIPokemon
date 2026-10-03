@@ -30,6 +30,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------- vocabularies
 
 SPECIES = """
+Wailmer, Wailord, Gardevoir, Machamp, Hariyama, Baltoy, Claydol, Sableye,
+Togepi, Togetic, Slowking, Slowpoke,
 Nuzleaf, Corphish, Lairon, Loudred, Barboach, Whiscash, Wynaut, Whismur,
 Dusclops, Snorunt, Spheal, Golbat, Arbok, Torkoal, Metagross,
 Silcoon, Cascoon, Armaldo, Swalot, Gulpin, Banette, Shuppet, Butterfree,
@@ -159,6 +161,8 @@ Mr. Mime, Mime Jr., Mr. Rime, Type: Null
 SPECIES_FRAGMENTS = frozenset(['Great', 'Iron', 'Leaves', 'Mime', 'Moon', 'Roaring', 'Tapu', 'Treads', 'Tusk', 'Valiant', 'Wake', 'Walking'])
 
 MOVES = """
+Psywave, Odor Sleuth, Body Slam, Cross Chop, Shadow Ball, Muddy Water,
+Air Cutter, Heat Wave, Icy Wind, Powder Snow, Nature Power, Assist,
 Cut, Waterfall, Soft-Boiled, Torment, Submission,
 Low Kick, Autotomize, Thief, Endeavor, Pain Split, Night Shade,
 Jump Kick, Hi Jump Kick, Submission, Tri Attack, Teeter Dance, Flatter,
@@ -360,6 +364,8 @@ Fallarbor Town, Verdanturf Town
 """
 
 MECHANICS = """
+Side Status, HP Bar, Same-Type Attack Bonus, Move Target, Secondary Effect,
+Normal-type, Fire-type, Water-type, Electric-type, Grass-type, Ice-type, Fighting-type, Poison-type, Ground-type, Flying-type, Psychic-type, Bug-type, Rock-type, Ghost-type, Dragon-type, Dark-type, Steel-type, Fairy-type,
 Erratic, Fluctuating, Medium Slow, Growth Rate, Experience Yield, Base Stat,
 Transformed, Hold Effect, Effort Yield,
 Mass Outbreak, Encounter Rate, Encounter Slot, Level-Up Learnset, Egg Group,
