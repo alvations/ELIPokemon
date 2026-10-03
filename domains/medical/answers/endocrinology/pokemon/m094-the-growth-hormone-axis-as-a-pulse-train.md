@@ -57,7 +57,7 @@ last set, with nothing on the screen to say so.
 | **Arbok**'s **Intimidate** against **Metagross**'s **Clear Body** | The suppression test |
 | `CalculateMonStats` overwriting, keeping no history | No stored baseline, which is the whole problem |
 | **Castform**'s **Forecast** reading weather and never terrain | Two layers the code keeps apart |
-| No terrain left: **Grassy**, **Psychic**, **Misty**, **Electric** all taken | A vocabulary limit, said out loud |
+| No terrain left: **Grassy Terrain**, **Psychic Terrain**, **Misty Terrain**, **Electric Terrain** all taken | A vocabulary limit, said out loud |
 
 **This answer defers to three others.** m023 owns **Return** as the integral. m058 owns
 **Intimidate** against **Clear Body** as the suppression test and **Eevee**'s two evolutions as

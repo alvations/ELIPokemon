@@ -10,7 +10,7 @@ required to contain no analogy, so scoring them would penalise an answer for com
 
 Regenerate with `python3 scripts/medical/score.py --write`.
 
-**95 answers · mean 88.9 · median 89.3 · min 62.6 · max 100.0**
+**100 answers · mean 89.2 · median 90.3 · min 62.6 · max 100.0**
 
 | score | band | id | specialty | answer | distinct | named | generic |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -76,10 +76,14 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 92.0 | excellent | m105 | emergency | the-social-presentation | 19 | 43 | 43 |
 | 92.6 | excellent | m045 | pharmacology | antimicrobial-stewardship | 28 | 54 | 56 |
 | 92.9 | excellent | m043 | pharmacology | adherence-and-regimen-design | 18 | 49 | 59 |
+| 93.0 | excellent | m094 | endocrinology | the-growth-hormone-axis-as-a-pulse-train | 37 | 83 | 42 |
 | 93.1 | excellent | m066 | emergency | shock-categories-by-mechanism | 23 | 43 | 49 |
+| 93.1 | excellent | m092 | endocrinology | sodium-as-a-statement-about-water | 23 | 73 | 51 |
 | 93.7 | excellent | m048 | general-practice | the-consultation-and-premature-closure | 24 | 56 | 52 |
 | 93.8 | excellent | m049 | general-practice | antibiotics-under-uncertainty | 28 | 51 | 32 |
+| 94.1 | excellent | m093 | endocrinology | bone-remodelling-and-its-fast-markers | 29 | 71 | 57 |
 | 94.5 | excellent | m058 | endocrinology | cortisol-excess-and-the-shape-of-the-tests | 23 | 62 | 47 |
+| 94.8 | excellent | m095 | endocrinology | the-adrenal-incidentaloma | 28 | 67 | 21 |
 | 95.0 | excellent | m070 | emergency | handover-and-what-crosses-the-boundary | 27 | 53 | 39 |
 | 95.0 | excellent | m084 | general-practice | overdiagnosis-in-primary-care | 30 | 56 | 27 |
 | 95.1 | excellent | m056 | endocrinology | thyroid-axis-and-its-counterintuitive-tests | 21 | 64 | 44 |
@@ -87,6 +91,7 @@ Regenerate with `python3 scripts/medical/score.py --write`.
 | 95.6 | excellent | m008 | pharmacology | therapeutic-index | 20 | 48 | 52 |
 | 96.2 | excellent | m059 | endocrinology | calcium-and-the-parathyroid-loop | 29 | 64 | 42 |
 | 96.5 | excellent | m017 | dermatology | distribution-and-configuration | 22 | 43 | 22 |
+| 96.7 | excellent | m091 | endocrinology | pituitary-mass-effect-and-sequential-failure | 30 | 79 | 38 |
 | 96.7 | excellent | m104 | emergency | imaging-and-decision-rules | 24 | 65 | 36 |
 | 96.8 | excellent | m044 | pharmacology | formulation-and-route | 34 | 58 | 47 |
 | 97.2 | excellent | m050 | general-practice | health-inequality-as-mechanism | 38 | 60 | 67 |
