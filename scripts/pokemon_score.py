@@ -526,7 +526,18 @@ def score_text(text: str) -> dict:
     for route, n in sorted(route_counts.items()):
         hits["place"].append(f"{route}×{n}")
 
-    lowered = text.lower()
+    # Count generic furniture over the BLANKED copy, not the original. A named entity
+    # often contains a generic word -- "Tall Grass" contains "grass", "Pewter Gym" contains
+    # "gym", "Speed Tie" contains "speed", "Team Preview" contains "team", "Type
+    # Effectiveness" contains "type" -- and counting the original text scored those spans
+    # twice: once as a named entity in the numerator and again as generic furniture in the
+    # denominator. So naming something precisely lowered your specificity, which is exactly
+    # backwards for a metric whose purpose is to reward precision. Twenty-one of the sixty
+    # generic terms sit inside at least one vocabulary entry.
+    #
+    # The vocabulary loop above has already replaced every matched span with a NUL, which is
+    # not a word character, so the word boundaries below still behave.
+    lowered = working.lower()
     generic_mentions = 0
     for term in GENERIC:
         generic_mentions += len(

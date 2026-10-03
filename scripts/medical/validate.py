@@ -65,6 +65,13 @@ NOT_RETRIEVED = "**None of the sources below was retrieved.**"
 # SOURCES-<specialty>.md two levels up instead of three and produced fifty broken
 # links, because the brief named the file without giving the path from an answer.
 # The brief says the path now; this makes a wrong one impossible to ship.
+# CommonMark fence rules, not a loose prefix match. The first version of this check used
+# r"^\s*(```|~~~)" and immediately reported two false positives, because a diagram line of
+# ASCII art -- "   ~~~~~~~~ stratum corneum ~~~~~~~~" inside a backtick fence -- matched the
+# tilde alternative and was read as a closing fence at the wrong indent. A fence closer is
+# the same character as its opener, at least as long, and alone on its line.
+FENCE_OPEN = re.compile(r"^(\s*)(`{3,}|~{3,})\s*([^`]*)$")
+FENCE_SHUT = re.compile(r"^(\s*)(`{3,}|~{3,})\s*$")
 LINK = re.compile(r"\]\((?!https?:)([^)#\s]+)")
 
 STAKES_HEADING = {
@@ -136,6 +143,28 @@ def main() -> int:
                 problems.append(f"{rel}: body is only {len(body.split())} words (min {MIN_WORDS})")
             if style == "serious" and "```" not in body:
                 problems.append(f"{rel}: serious answers must include a fenced diagram")
+            # A fenced block that opens at column 0 and closes indented renders as an
+            # indented literal. rewrap.py tolerates it, because its FENCE regex allows
+            # leading whitespace, so nothing in the gate caught it until a writer found one
+            # in its own file late enough to mention it in a hand-back.
+            open_indent = open_marker = None
+            for n, line in enumerate(body.splitlines(), 1):
+                if open_marker is None:
+                    m = FENCE_OPEN.match(line)
+                    if m:
+                        open_indent, open_marker = len(m.group(1)), m.group(2)
+                    continue
+                m = FENCE_SHUT.match(line)
+                if m and m.group(2)[0] == open_marker[0] and len(m.group(2)) >= len(open_marker):
+                    if len(m.group(1)) != open_indent:
+                        problems.append(
+                            f"{rel}: fence opened at column {open_indent} closes at "
+                            f"column {len(m.group(1))} (line {n}); it renders as a literal"
+                        )
+                    open_indent = open_marker = None
+            if open_marker is not None:
+                problems.append(f"{rel}: a fenced block is never closed")
+
             for target in LINK.findall(body):
                 if not (path.parent / target).resolve().exists():
                     problems.append(f"{rel}: relative link does not resolve: {target}")
